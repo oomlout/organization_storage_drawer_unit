@@ -1,0 +1,2955 @@
+assembly_component: false
+availability: Unverified connector trial
+bed_height: 180.0
+bed_margin: 2.0
+bed_width: 180.0
+bip_39_2_word_array:
+- peace
+- over
+bip_39_2_word_no_space: peaceover
+bip_39_2_word_space: peace over
+bip_39_2_word_underscore: peace_over
+bip_39_3_word_array:
+- peace
+- over
+- curious
+bip_39_3_word_no_space: peaceovercurious
+bip_39_3_word_space: peace over curious
+bip_39_3_word_underscore: peace_over_curious
+bip_39_full_array:
+- peace
+- over
+- curious
+- wild
+- envelope
+- cover
+- blanket
+- agent
+- term
+- metal
+- fine
+- tobacco
+bip_39_full_no_space: peaceovercuriouswildenvelopecoverblanketagenttermmetalfinetobacco
+bip_39_full_space: peace over curious wild envelope cover blanket agent term metal
+  fine tobacco
+bip_39_full_underscore: peace_over_curious_wild_envelope_cover_blanket_agent_term_metal_fine_tobacco
+cad_volume_mm3: 17083.504159577584
+catch_end_clearance: 0.2
+column: 1
+comparison_image: comparison.png
+comparison_measurement_status: current
+comparison_sample: true
+connection_intent: mainly_permanent
+connector_clearance: 0.25
+connector_design: key_size_fit_suite
+connector_view: print_layout
+container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+container_short: rectangle_100_ml_tamper_evident_systempak_209
+cost_per_drawer_gbp: null
+cost_per_kg_basis: Estimated PETG connector specimens; no pots or hardware
+cost_per_kg_gbp: 10.0
+coupon_height: 14.0
+coupon_width: 15.0
+depth_mm: 10.0
+directory: parts/oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+drawer_capacity_basis: not_applicable_connector_test
+drawer_capacity_ml: null
+drawer_count: 0
+filament_cost_gbp: 0.217
+filament_density_g_per_cm3: 1.27
+filament_gbp_per_gram: 0.01
+filament_mass_basis: "Solid CAD volume \xD7 assumed PETG density 1.27 g/cm3; not a\
+  \ slicer measurement"
+filament_mass_g: 21.696
+guide_depth: 3.0
+guide_half_width: 1.4
+hardware_cost_basis: No assembly hardware
+height_mm: 47.737
+hook_projection: 0.65
+hook_ramp_length: 2.4
+id: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+id_no_class: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+id_no_size: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+id_no_type: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+id_oobb: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+key_arm_thickness: 0.8
+key_half_width: 1.4
+key_head_x: -5.7
+key_height: 4.0
+key_root_radius: 0.4
+key_shoulder_x: 2.7
+key_tongue_half_width: 2.5
+key_trials: &id001
+- connector_clearance: 0.4
+  hook_projection: 0.9425
+  hook_ramp_length: 3.48
+  key_arm_thickness: 1.16
+  key_half_width: 2.03
+  key_head_length: 2.9
+  key_head_x: -8.265
+  key_height: 5.8
+  key_hook_flat: 0.435
+  key_root_radius: 0.58
+  key_scale: 1.45
+  key_shoulder_x: 3.915
+  key_slot_min_wall: 1.0
+  key_tip_chamfer: 0.29
+  key_tongue_half_width: 3.625
+  number_depth: 0.6
+  number_rail_z: 24.0
+  number_size: 4.0
+  plate_number_size: 1.8
+  plate_number_x: -6.1
+  sample_number: 20
+  through_clearance: 0.25
+  through_height_clearance: 0.25
+- connector_clearance: 0.4
+  hook_projection: 1.04
+  hook_ramp_length: 3.84
+  key_arm_thickness: 1.28
+  key_half_width: 2.24
+  key_head_length: 3.2
+  key_head_x: -9.12
+  key_height: 6.4
+  key_hook_flat: 0.48
+  key_root_radius: 0.64
+  key_scale: 1.6
+  key_shoulder_x: 4.32
+  key_slot_min_wall: 1.0
+  key_tip_chamfer: 0.32
+  key_tongue_half_width: 4.0
+  number_depth: 0.6
+  number_rail_z: 24.0
+  number_size: 4.0
+  plate_number_size: 1.8
+  plate_number_x: -6.1
+  sample_number: 21
+  through_clearance: 0.25
+  through_height_clearance: 0.25
+- connector_clearance: 0.4
+  hook_projection: 1.1375
+  hook_ramp_length: 4.2
+  key_arm_thickness: 1.4
+  key_half_width: 2.45
+  key_head_length: 3.5
+  key_head_x: -9.975
+  key_height: 7.0
+  key_hook_flat: 0.525
+  key_root_radius: 0.7
+  key_scale: 1.75
+  key_shoulder_x: 4.725
+  key_slot_min_wall: 1.0
+  key_tip_chamfer: 0.35
+  key_tongue_half_width: 4.375
+  number_depth: 0.6
+  number_rail_z: 24.0
+  number_size: 4.0
+  plate_number_size: 1.8
+  plate_number_x: -6.1
+  sample_number: 22
+  through_clearance: 0.25
+  through_height_clearance: 0.25
+kwargs:
+  bed_height: 180.0
+  bed_margin: 2.0
+  bed_width: 180.0
+  catch_end_clearance: 0.2
+  column: 1
+  connection_intent: mainly_permanent
+  connector_clearance: 0.25
+  connector_design: key_size_fit_suite
+  connector_view: print_layout
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  coupon_height: 14.0
+  coupon_width: 15.0
+  filter: ai_version_5
+  guide_depth: 3.0
+  guide_half_width: 1.4
+  hook_projection: 0.65
+  hook_ramp_length: 2.4
+  key_arm_thickness: 0.8
+  key_half_width: 1.4
+  key_head_x: -5.7
+  key_height: 4.0
+  key_root_radius: 0.4
+  key_shoulder_x: 2.7
+  key_tongue_half_width: 2.5
+  key_trials:
+  - connector_clearance: 0.4
+    hook_projection: 0.9425
+    hook_ramp_length: 3.48
+    key_arm_thickness: 1.16
+    key_half_width: 2.03
+    key_head_length: 2.9
+    key_head_x: -8.265
+    key_height: 5.8
+    key_hook_flat: 0.435
+    key_root_radius: 0.58
+    key_scale: 1.45
+    key_shoulder_x: 3.915
+    key_slot_min_wall: 1.0
+    key_tip_chamfer: 0.29
+    key_tongue_half_width: 3.625
+    number_depth: 0.6
+    number_rail_z: 24.0
+    number_size: 4.0
+    plate_number_size: 1.8
+    plate_number_x: -6.1
+    sample_number: 20
+    through_clearance: 0.25
+    through_height_clearance: 0.25
+  - connector_clearance: 0.4
+    hook_projection: 1.04
+    hook_ramp_length: 3.84
+    key_arm_thickness: 1.28
+    key_half_width: 2.24
+    key_head_length: 3.2
+    key_head_x: -9.12
+    key_height: 6.4
+    key_hook_flat: 0.48
+    key_root_radius: 0.64
+    key_scale: 1.6
+    key_shoulder_x: 4.32
+    key_slot_min_wall: 1.0
+    key_tip_chamfer: 0.32
+    key_tongue_half_width: 4.0
+    number_depth: 0.6
+    number_rail_z: 24.0
+    number_size: 4.0
+    plate_number_size: 1.8
+    plate_number_x: -6.1
+    sample_number: 21
+    through_clearance: 0.25
+    through_height_clearance: 0.25
+  - connector_clearance: 0.4
+    hook_projection: 1.1375
+    hook_ramp_length: 4.2
+    key_arm_thickness: 1.4
+    key_half_width: 2.45
+    key_head_length: 3.5
+    key_head_x: -9.975
+    key_height: 7.0
+    key_hook_flat: 0.525
+    key_root_radius: 0.7
+    key_scale: 1.75
+    key_shoulder_x: 4.725
+    key_slot_min_wall: 1.0
+    key_tip_chamfer: 0.35
+    key_tongue_half_width: 4.375
+    number_depth: 0.6
+    number_rail_z: 24.0
+    number_size: 4.0
+    plate_number_size: 1.8
+    plate_number_x: -6.1
+    sample_number: 22
+    through_clearance: 0.25
+    through_height_clearance: 0.25
+  modes:
+  - 3dpr
+  navigation: true
+  oobb_name: ai_version_5
+  oomp_description_extra: ''
+  oomp_description_main: ai_version_5_
+  oomp_mode: project
+  oomp_run: false
+  overwrite: true
+  part_role: connector_test
+  plate_thickness: 7.5
+  rail_height: 10.0
+  rail_width: 11.0
+  root_radius: 1.1
+  row: 1
+  scad_filter: ai_version_5
+  single_arm_thickness: 1.6
+  single_root_distance: 8.0
+  snap_arm_height: 4.0
+  snap_arm_outer: 3.8
+  style: ai_version_5
+  taxonomy_1: oobb
+  taxonomy_2: organization
+  taxonomy_3: storage
+  taxonomy_4: drawer_unit
+  taxonomy_5: 1_column
+  taxonomy_6: 1_row
+  taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+  taxonomy_8: ai_version_5_style
+  taxonomy_9: key_size_extension_suite
+  test_material: PETG
+  test_rail_length: 32.0
+  test_rationale: User reports sample 9 closest but still loose, sample 1 much too
+    loose; continue the 3/6/9 size progression.
+  trial_layout_y_offset: 0
+  twin_arm_thickness: 1.4
+  twin_root_distance: 12.0
+  type: default_ai_version_5
+  variant: key_size_extension_suite
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+manufacturer: oomlout
+md5: a1d3bcd7fd84bc6305d027df71815b71
+md5_10: a1d3bcd7fd
+md5_10_upper: A1D3BCD7FD
+md5_5: a1d3b
+md5_5_upper: A1D3B
+md5_6: a1d3bc
+md5_6_alpha: 6bb98
+md5_6_alpha_upper: 6BB98
+md5_6_upper: A1D3BC
+name: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml Tamper
+  Evident Systempak 209 Container Ai Version 5 Style Key Size Extension Suite
+name_no_class: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100
+  Ml Tamper Evident Systempak 209 Container Ai Version 5 Style Key Size Extension
+  Suite
+name_no_size: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml
+  Tamper Evident Systempak 209 Container Ai Version 5 Style Key Size Extension Suite
+name_no_type: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml
+  Tamper Evident Systempak 209 Container Ai Version 5 Style Key Size Extension Suite
+name_proper: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml
+  Tamper Evident Systempak 209 Container Ai Version 5 Style Key Size Extension Suite
+name_space: oobb organization storage drawer unit 1 column 1 row rectangle 100 ml
+  tamper evident systempak 209 container ai version 5 style key size extension suite
+name_upper: OOBB ORGANIZATION STORAGE DRAWER UNIT 1 COLUMN 1 ROW RECTANGLE 100 ML
+  TAMPER EVIDENT SYSTEMPAK 209 CONTAINER AI VERSION 5 STYLE KEY SIZE EXTENSION SUITE
+oobb_details:
+  bed_height: 180.0
+  bed_margin: 2.0
+  bed_width: 180.0
+  catch_end_clearance: 0.2
+  column: 1
+  connection_intent: mainly_permanent
+  connector_clearance: 0.25
+  connector_design: key_size_fit_suite
+  connector_view: print_layout
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  coupon_height: 14.0
+  coupon_width: 15.0
+  guide_depth: 3.0
+  guide_half_width: 1.4
+  hook_projection: 0.65
+  hook_ramp_length: 2.4
+  key_arm_thickness: 0.8
+  key_half_width: 1.4
+  key_head_x: -5.7
+  key_height: 4.0
+  key_root_radius: 0.4
+  key_shoulder_x: 2.7
+  key_tongue_half_width: 2.5
+  key_trials: *id001
+  oobb_name: ai_version_5
+  part_role: connector_test
+  plate_thickness: 7.5
+  rail_height: 10.0
+  rail_width: 11.0
+  root_radius: 1.1
+  row: 1
+  single_arm_thickness: 1.6
+  single_root_distance: 8.0
+  snap_arm_height: 4.0
+  snap_arm_outer: 3.8
+  style: ai_version_5
+  taxonomy_1: oobb
+  taxonomy_2: organization
+  taxonomy_3: storage
+  taxonomy_4: drawer_unit
+  taxonomy_5: 1_column
+  taxonomy_6: 1_row
+  taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+  taxonomy_8: ai_version_5_style
+  taxonomy_9: key_size_extension_suite
+  test_material: PETG
+  test_rail_length: 32.0
+  test_rationale: User reports sample 9 closest but still loose, sample 1 much too
+    loose; continue the 3/6/9 size progression.
+  trial_layout_y_offset: 0
+  twin_arm_thickness: 1.4
+  twin_root_distance: 12.0
+  variant: key_size_extension_suite
+oobb_name: ai_version_5
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      assembly_component: false
+      availability: Unverified connector trial
+      bed_height: 180.0
+      bed_margin: 2.0
+      bed_width: 180.0
+      cad_volume_mm3: 17083.504159577584
+      catch_end_clearance: 0.2
+      column: 1
+      comparison_image: comparison.png
+      comparison_measurement_status: current
+      comparison_sample: true
+      connection_intent: mainly_permanent
+      connector_clearance: 0.25
+      connector_design: key_size_fit_suite
+      connector_view: print_layout
+      container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+      container_short: rectangle_100_ml_tamper_evident_systempak_209
+      cost_per_drawer_gbp: null
+      cost_per_kg_basis: Estimated PETG connector specimens; no pots or hardware
+      cost_per_kg_gbp: 10.0
+      coupon_height: 14.0
+      coupon_width: 15.0
+      depth_mm: 10.0
+      directory: parts\oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+      drawer_capacity_basis: not_applicable_connector_test
+      drawer_capacity_ml: null
+      drawer_count: 0
+      filament_cost_gbp: 0.217
+      filament_density_g_per_cm3: 1.27
+      filament_gbp_per_gram: 0.01
+      filament_mass_basis: "Solid CAD volume \xD7 assumed PETG density 1.27 g/cm3;\
+        \ not a slicer measurement"
+      filament_mass_g: 21.696
+      guide_depth: 3.0
+      guide_half_width: 1.4
+      hardware_cost_basis: No assembly hardware
+      height_mm: 47.737
+      hook_projection: 0.65
+      hook_ramp_length: 2.4
+      key_arm_thickness: 0.8
+      key_half_width: 1.4
+      key_head_x: -5.7
+      key_height: 4.0
+      key_root_radius: 0.4
+      key_shoulder_x: 2.7
+      key_tongue_half_width: 2.5
+      key_trials: &id002
+      - connector_clearance: 0.4
+        hook_projection: 0.9425
+        hook_ramp_length: 3.48
+        key_arm_thickness: 1.16
+        key_half_width: 2.03
+        key_head_length: 2.9
+        key_head_x: -8.265
+        key_height: 5.8
+        key_hook_flat: 0.435
+        key_root_radius: 0.58
+        key_scale: 1.45
+        key_shoulder_x: 3.915
+        key_slot_min_wall: 1.0
+        key_tip_chamfer: 0.29
+        key_tongue_half_width: 3.625
+        number_depth: 0.6
+        number_rail_z: 24.0
+        number_size: 4.0
+        plate_number_size: 1.8
+        plate_number_x: -6.1
+        sample_number: 20
+        through_clearance: 0.25
+        through_height_clearance: 0.25
+      - connector_clearance: 0.4
+        hook_projection: 1.04
+        hook_ramp_length: 3.84
+        key_arm_thickness: 1.28
+        key_half_width: 2.24
+        key_head_length: 3.2
+        key_head_x: -9.12
+        key_height: 6.4
+        key_hook_flat: 0.48
+        key_root_radius: 0.64
+        key_scale: 1.6
+        key_shoulder_x: 4.32
+        key_slot_min_wall: 1.0
+        key_tip_chamfer: 0.32
+        key_tongue_half_width: 4.0
+        number_depth: 0.6
+        number_rail_z: 24.0
+        number_size: 4.0
+        plate_number_size: 1.8
+        plate_number_x: -6.1
+        sample_number: 21
+        through_clearance: 0.25
+        through_height_clearance: 0.25
+      - connector_clearance: 0.4
+        hook_projection: 1.1375
+        hook_ramp_length: 4.2
+        key_arm_thickness: 1.4
+        key_half_width: 2.45
+        key_head_length: 3.5
+        key_head_x: -9.975
+        key_height: 7.0
+        key_hook_flat: 0.525
+        key_root_radius: 0.7
+        key_scale: 1.75
+        key_shoulder_x: 4.725
+        key_slot_min_wall: 1.0
+        key_tip_chamfer: 0.35
+        key_tongue_half_width: 4.375
+        number_depth: 0.6
+        number_rail_z: 24.0
+        number_size: 4.0
+        plate_number_size: 1.8
+        plate_number_x: -6.1
+        sample_number: 22
+        through_clearance: 0.25
+        through_height_clearance: 0.25
+      manufacturer: oomlout
+      name: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+      name_proper: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle
+        100 Ml Tamper Evident Systempak 209 Container Ai Version 5 Style Key Size
+        Extension Suite
+      name_space: oobb organization storage drawer unit 1 column 1 row rectangle 100
+        ml tamper evident systempak 209 container ai version 5 style key size extension
+        suite
+      name_upper: OOBB ORGANIZATION STORAGE DRAWER UNIT 1 COLUMN 1 ROW RECTANGLE 100
+        ML TAMPER EVIDENT SYSTEMPAK 209 CONTAINER AI VERSION 5 STYLE KEY SIZE EXTENSION
+        SUITE
+      oobb_details:
+        bed_height: 180.0
+        bed_margin: 2.0
+        bed_width: 180.0
+        catch_end_clearance: 0.2
+        column: 1
+        connection_intent: mainly_permanent
+        connector_clearance: 0.25
+        connector_design: key_size_fit_suite
+        connector_view: print_layout
+        container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+        container_short: rectangle_100_ml_tamper_evident_systempak_209
+        coupon_height: 14.0
+        coupon_width: 15.0
+        guide_depth: 3.0
+        guide_half_width: 1.4
+        hook_projection: 0.65
+        hook_ramp_length: 2.4
+        key_arm_thickness: 0.8
+        key_half_width: 1.4
+        key_head_x: -5.7
+        key_height: 4.0
+        key_root_radius: 0.4
+        key_shoulder_x: 2.7
+        key_tongue_half_width: 2.5
+        key_trials: *id002
+        oobb_name: ai_version_5
+        part_role: connector_test
+        plate_thickness: 7.5
+        rail_height: 10.0
+        rail_width: 11.0
+        root_radius: 1.1
+        row: 1
+        single_arm_thickness: 1.6
+        single_root_distance: 8.0
+        snap_arm_height: 4.0
+        snap_arm_outer: 3.8
+        style: ai_version_5
+        taxonomy_1: oobb
+        taxonomy_2: organization
+        taxonomy_3: storage
+        taxonomy_4: drawer_unit
+        taxonomy_5: 1_column
+        taxonomy_6: 1_row
+        taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+        taxonomy_8: ai_version_5_style
+        taxonomy_9: key_size_extension_suite
+        test_material: PETG
+        test_rail_length: 32.0
+        test_rationale: User reports sample 9 closest but still loose, sample 1 much
+          too loose; continue the 3/6/9 size progression.
+        trial_layout_y_offset: 0
+        twin_arm_thickness: 1.4
+        twin_root_distance: 12.0
+        variant: key_size_extension_suite
+      part_role: connector_test
+      plate_thickness: 7.5
+      pot_cost_details: {}
+      pot_quantity: 0
+      pots_cost_gbp: 0
+      price_excludes_delivery: true
+      price_gbp: 0.217
+      price_includes_vat: true
+      print_instruction: Print the connector kit as arranged; see printing.txt. Experimental
+        coupons, not a drawer unit.
+      product_name: "PETG connector trial \xB7 key size extension suite \xB7 version\
+        \ 5"
+      rail_height: 10.0
+      rail_width: 11.0
+      record_type: printed_drawer_unit
+      root_radius: 1.1
+      row: 1
+      seller: Print your own PETG coupons
+      single_arm_thickness: 1.6
+      single_root_distance: 8.0
+      snap_arm_height: 4.0
+      snap_arm_outer: 3.8
+      style: ai_version_5
+      taxonomy_1: oobb
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: organization
+      taxonomy_3: storage
+      taxonomy_4: drawer_unit
+      taxonomy_5: 1_column
+      taxonomy_6: 1_row
+      taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+      taxonomy_8: ai_version_5_style
+      taxonomy_9: key_size_extension_suite
+      test_material: PETG
+      test_rail_length: 32.0
+      test_rationale: User reports sample 9 closest but still loose, sample 1 much
+        too loose; continue the 3/6/9 size progression.
+      trial_layout_y_offset: 0
+      twin_arm_thickness: 1.4
+      twin_root_distance: 12.0
+      url_chat: ''
+      variant: key_size_extension_suite
+      weight_basis: estimated_solid_PETG_connector_kit_no_pots_or_hardware
+      weight_kg: 0.021696
+      width_mm: 133.765
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\od\OneDrive\docs\organization_storage_drawer_unit\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+part_role: connector_test
+plate_thickness: 7.5
+pot_cost_details: {}
+pot_quantity: 0
+pots_cost_gbp: 0
+price_excludes_delivery: true
+price_gbp: 0.217
+price_includes_vat: true
+print_instruction: Print the connector kit as arranged; see printing.txt. Experimental
+  coupons, not a drawer unit.
+product_name: "PETG connector trial \xB7 key size extension suite \xB7 version 5"
+project_name: C:\od\OneDrive\docs\organization_storage_drawer_unit
+rail_height: 10.0
+rail_width: 11.0
+record_type: printed_drawer_unit
+root_radius: 1.1
+row: 1
+scad_filter: ai_version_5
+seller: Print your own PETG coupons
+single_arm_thickness: 1.6
+single_root_distance: 8.0
+snap_arm_height: 4.0
+snap_arm_outer: 3.8
+style: ai_version_5
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: organization
+taxonomy_2_capital: Organization
+taxonomy_2_first_letter: o
+taxonomy_2_first_letter_upper: O
+taxonomy_2_length_1: o
+taxonomy_2_length_2: or
+taxonomy_2_length_3: org
+taxonomy_2_length_4: orga
+taxonomy_2_length_5: organ
+taxonomy_2_upper: ORGANIZATION
+taxonomy_2_upper_length_1: O
+taxonomy_2_upper_length_2: OR
+taxonomy_2_upper_length_3: ORG
+taxonomy_2_upper_length_4: ORGA
+taxonomy_2_upper_length_5: ORGAN
+taxonomy_3: storage
+taxonomy_3_capital: Storage
+taxonomy_3_first_letter: s
+taxonomy_3_first_letter_upper: S
+taxonomy_3_length_1: s
+taxonomy_3_length_2: st
+taxonomy_3_length_3: sto
+taxonomy_3_length_4: stor
+taxonomy_3_length_5: stora
+taxonomy_3_upper: STORAGE
+taxonomy_3_upper_length_1: S
+taxonomy_3_upper_length_2: ST
+taxonomy_3_upper_length_3: STO
+taxonomy_3_upper_length_4: STOR
+taxonomy_3_upper_length_5: STORA
+taxonomy_4: drawer_unit
+taxonomy_4_capital: Drawer Unit
+taxonomy_4_first_letter: d
+taxonomy_4_first_letter_upper: D
+taxonomy_4_length_1: d
+taxonomy_4_length_2: dr
+taxonomy_4_length_3: dra
+taxonomy_4_length_4: draw
+taxonomy_4_length_5: drawe
+taxonomy_4_upper: DRAWER_UNIT
+taxonomy_4_upper_length_1: D
+taxonomy_4_upper_length_2: DR
+taxonomy_4_upper_length_3: DRA
+taxonomy_4_upper_length_4: DRAW
+taxonomy_4_upper_length_5: DRAWE
+taxonomy_5: 1_column
+taxonomy_5_capital: 1 Column
+taxonomy_5_first_letter: '1'
+taxonomy_5_first_letter_upper: '1'
+taxonomy_5_length_1: '1'
+taxonomy_5_length_2: '1_'
+taxonomy_5_length_3: 1_c
+taxonomy_5_length_4: 1_co
+taxonomy_5_length_5: 1_col
+taxonomy_5_upper: 1_COLUMN
+taxonomy_5_upper_length_1: '1'
+taxonomy_5_upper_length_2: '1_'
+taxonomy_5_upper_length_3: 1_C
+taxonomy_5_upper_length_4: 1_CO
+taxonomy_5_upper_length_5: 1_COL
+taxonomy_6: 1_row
+taxonomy_6_capital: 1 Row
+taxonomy_6_first_letter: '1'
+taxonomy_6_first_letter_upper: '1'
+taxonomy_6_length_1: '1'
+taxonomy_6_length_2: '1_'
+taxonomy_6_length_3: 1_r
+taxonomy_6_length_4: 1_ro
+taxonomy_6_length_5: 1_row
+taxonomy_6_upper: 1_ROW
+taxonomy_6_upper_length_1: '1'
+taxonomy_6_upper_length_2: '1_'
+taxonomy_6_upper_length_3: 1_R
+taxonomy_6_upper_length_4: 1_RO
+taxonomy_6_upper_length_5: 1_ROW
+taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+taxonomy_7_capital: Rectangle 100 Ml Tamper Evident Systempak 209 Container
+taxonomy_7_first_letter: r
+taxonomy_7_first_letter_upper: R
+taxonomy_7_length_1: r
+taxonomy_7_length_2: re
+taxonomy_7_length_3: rec
+taxonomy_7_length_4: rect
+taxonomy_7_length_5: recta
+taxonomy_7_upper: RECTANGLE_100_ML_TAMPER_EVIDENT_SYSTEMPAK_209_CONTAINER
+taxonomy_7_upper_length_1: R
+taxonomy_7_upper_length_2: RE
+taxonomy_7_upper_length_3: REC
+taxonomy_7_upper_length_4: RECT
+taxonomy_7_upper_length_5: RECTA
+taxonomy_8: ai_version_5_style
+taxonomy_8_capital: Ai Version 5 Style
+taxonomy_8_first_letter: a
+taxonomy_8_first_letter_upper: A
+taxonomy_8_length_1: a
+taxonomy_8_length_2: ai
+taxonomy_8_length_3: ai_
+taxonomy_8_length_4: ai_v
+taxonomy_8_length_5: ai_ve
+taxonomy_8_upper: AI_VERSION_5_STYLE
+taxonomy_8_upper_length_1: A
+taxonomy_8_upper_length_2: AI
+taxonomy_8_upper_length_3: AI_
+taxonomy_8_upper_length_4: AI_V
+taxonomy_8_upper_length_5: AI_VE
+taxonomy_9: key_size_extension_suite
+taxonomy_9_capital: Key Size Extension Suite
+taxonomy_9_first_letter: k
+taxonomy_9_first_letter_upper: K
+taxonomy_9_length_1: k
+taxonomy_9_length_2: ke
+taxonomy_9_length_3: key
+taxonomy_9_length_4: key_
+taxonomy_9_length_5: key_s
+taxonomy_9_upper: KEY_SIZE_EXTENSION_SUITE
+taxonomy_9_upper_length_1: K
+taxonomy_9_upper_length_2: KE
+taxonomy_9_upper_length_3: KEY
+taxonomy_9_upper_length_4: KEY_
+taxonomy_9_upper_length_5: KEY_S
+test_material: PETG
+test_rail_length: 32.0
+test_rationale: User reports sample 9 closest but still loose, sample 1 much too loose;
+  continue the 3/6/9 size progression.
+thing:
+  ai_design: &id003
+    connector_design: key_size_fit_suite
+    expected_bodies: 9
+    material: PETG
+    numbered_trials:
+    - connector_clearance: 0.4
+      hook_projection: 0.9425
+      hook_ramp_length: 3.48
+      key_arm_thickness: 1.16
+      key_half_width: 2.03
+      key_head_length: 2.9
+      key_head_x: -8.265
+      key_height: 5.8
+      key_hook_flat: 0.435
+      key_root_radius: 0.58
+      key_scale: 1.45
+      key_shoulder_x: 3.915
+      key_slot_min_wall: 1.0
+      key_tip_chamfer: 0.29
+      key_tongue_half_width: 3.625
+      number_depth: 0.6
+      number_rail_z: 24.0
+      number_size: 4.0
+      plate_number_size: 1.8
+      plate_number_x: -6.1
+      sample_number: 20
+      through_clearance: 0.25
+      through_height_clearance: 0.25
+    - connector_clearance: 0.4
+      hook_projection: 1.04
+      hook_ramp_length: 3.84
+      key_arm_thickness: 1.28
+      key_half_width: 2.24
+      key_head_length: 3.2
+      key_head_x: -9.12
+      key_height: 6.4
+      key_hook_flat: 0.48
+      key_root_radius: 0.64
+      key_scale: 1.6
+      key_shoulder_x: 4.32
+      key_slot_min_wall: 1.0
+      key_tip_chamfer: 0.32
+      key_tongue_half_width: 4.0
+      number_depth: 0.6
+      number_rail_z: 24.0
+      number_size: 4.0
+      plate_number_size: 1.8
+      plate_number_x: -6.1
+      sample_number: 21
+      through_clearance: 0.25
+      through_height_clearance: 0.25
+    - connector_clearance: 0.4
+      hook_projection: 1.1375
+      hook_ramp_length: 4.2
+      key_arm_thickness: 1.4
+      key_half_width: 2.45
+      key_head_length: 3.5
+      key_head_x: -9.975
+      key_height: 7.0
+      key_hook_flat: 0.525
+      key_root_radius: 0.7
+      key_scale: 1.75
+      key_shoulder_x: 4.725
+      key_slot_min_wall: 1.0
+      key_tip_chamfer: 0.35
+      key_tongue_half_width: 4.375
+      number_depth: 0.6
+      number_rail_z: 24.0
+      number_size: 4.0
+      plate_number_size: 1.8
+      plate_number_x: -6.1
+      sample_number: 22
+      through_clearance: 0.25
+      through_height_clearance: 0.25
+    part_role: connector_test
+    printable: true
+    style: ai_version_5
+    view: print_layout
+  ai_files:
+    3dpr: *id003
+    assembled:
+      connector_design: key_size_fit_suite
+      expected_bodies: 9
+      material: PETG
+      numbered_trials:
+      - connector_clearance: 0.4
+        hook_projection: 0.9425
+        hook_ramp_length: 3.48
+        key_arm_thickness: 1.16
+        key_half_width: 2.03
+        key_head_length: 2.9
+        key_head_x: -8.265
+        key_height: 5.8
+        key_hook_flat: 0.435
+        key_root_radius: 0.58
+        key_scale: 1.45
+        key_shoulder_x: 3.915
+        key_slot_min_wall: 1.0
+        key_tip_chamfer: 0.29
+        key_tongue_half_width: 3.625
+        number_depth: 0.6
+        number_rail_z: 24.0
+        number_size: 4.0
+        plate_number_size: 1.8
+        plate_number_x: -6.1
+        sample_number: 20
+        through_clearance: 0.25
+        through_height_clearance: 0.25
+      - connector_clearance: 0.4
+        hook_projection: 1.04
+        hook_ramp_length: 3.84
+        key_arm_thickness: 1.28
+        key_half_width: 2.24
+        key_head_length: 3.2
+        key_head_x: -9.12
+        key_height: 6.4
+        key_hook_flat: 0.48
+        key_root_radius: 0.64
+        key_scale: 1.6
+        key_shoulder_x: 4.32
+        key_slot_min_wall: 1.0
+        key_tip_chamfer: 0.32
+        key_tongue_half_width: 4.0
+        number_depth: 0.6
+        number_rail_z: 24.0
+        number_size: 4.0
+        plate_number_size: 1.8
+        plate_number_x: -6.1
+        sample_number: 21
+        through_clearance: 0.25
+        through_height_clearance: 0.25
+      - connector_clearance: 0.4
+        hook_projection: 1.1375
+        hook_ramp_length: 4.2
+        key_arm_thickness: 1.4
+        key_half_width: 2.45
+        key_head_length: 3.5
+        key_head_x: -9.975
+        key_height: 7.0
+        key_hook_flat: 0.525
+        key_root_radius: 0.7
+        key_scale: 1.75
+        key_shoulder_x: 4.725
+        key_slot_min_wall: 1.0
+        key_tip_chamfer: 0.35
+        key_tongue_half_width: 4.375
+        number_depth: 0.6
+        number_rail_z: 24.0
+        number_size: 4.0
+        plate_number_size: 1.8
+        plate_number_x: -6.1
+        sample_number: 22
+        through_clearance: 0.25
+        through_height_clearance: 0.25
+      part_role: connector_test
+      printable: false
+      style: ai_version_5
+      view: assembled
+    assembled_20:
+      connector_design: snap_key
+      expected_bodies: 3
+      hardware: {}
+      insertion_deflection_mm: 0.5425
+      material: PETG
+      part_role: connector_test
+      printable: false
+      sample_number: 20
+      screening_cantilever_strain: 0.012471264367816088
+      style: ai_version_5
+      view: assembled
+    assembled_21:
+      connector_design: snap_key
+      expected_bodies: 3
+      hardware: {}
+      insertion_deflection_mm: 0.64
+      material: PETG
+      part_role: connector_test
+      printable: false
+      sample_number: 21
+      screening_cantilever_strain: 0.01333333333333334
+      style: ai_version_5
+      view: assembled
+    assembled_22:
+      connector_design: snap_key
+      expected_bodies: 3
+      hardware: {}
+      insertion_deflection_mm: 0.7374999999999999
+      material: PETG
+      part_role: connector_test
+      printable: false
+      sample_number: 22
+      screening_cantilever_strain: 0.014047619047619045
+      style: ai_version_5
+      view: assembled
+    key_20:
+      connector_design: snap_key
+      expected_bodies: 1
+      hardware: {}
+      insertion_deflection_mm: 0.5425
+      material: PETG
+      part_role: connector_test
+      printable: true
+      sample_number: 20
+      screening_cantilever_strain: 0.012471264367816088
+      style: ai_version_5
+      view: key
+    key_21:
+      connector_design: snap_key
+      expected_bodies: 1
+      hardware: {}
+      insertion_deflection_mm: 0.64
+      material: PETG
+      part_role: connector_test
+      printable: true
+      sample_number: 21
+      screening_cantilever_strain: 0.01333333333333334
+      style: ai_version_5
+      view: key
+    key_22:
+      connector_design: snap_key
+      expected_bodies: 1
+      hardware: {}
+      insertion_deflection_mm: 0.7374999999999999
+      material: PETG
+      part_role: connector_test
+      printable: true
+      sample_number: 22
+      screening_cantilever_strain: 0.014047619047619045
+      style: ai_version_5
+      view: key
+    plate_20:
+      connector_design: snap_key
+      expected_bodies: 1
+      hardware: {}
+      insertion_deflection_mm: 0.5425
+      material: PETG
+      part_role: connector_test
+      printable: true
+      sample_number: 20
+      screening_cantilever_strain: 0.012471264367816088
+      style: ai_version_5
+      view: plate
+    plate_21:
+      connector_design: snap_key
+      expected_bodies: 1
+      hardware: {}
+      insertion_deflection_mm: 0.64
+      material: PETG
+      part_role: connector_test
+      printable: true
+      sample_number: 21
+      screening_cantilever_strain: 0.01333333333333334
+      style: ai_version_5
+      view: plate
+    plate_22:
+      connector_design: snap_key
+      expected_bodies: 1
+      hardware: {}
+      insertion_deflection_mm: 0.7374999999999999
+      material: PETG
+      part_role: connector_test
+      printable: true
+      sample_number: 22
+      screening_cantilever_strain: 0.014047619047619045
+      style: ai_version_5
+      view: plate
+    rail_20:
+      connector_design: snap_key
+      expected_bodies: 1
+      hardware: {}
+      insertion_deflection_mm: 0.5425
+      material: PETG
+      part_role: connector_test
+      printable: true
+      sample_number: 20
+      screening_cantilever_strain: 0.012471264367816088
+      style: ai_version_5
+      view: rail
+    rail_21:
+      connector_design: snap_key
+      expected_bodies: 1
+      hardware: {}
+      insertion_deflection_mm: 0.64
+      material: PETG
+      part_role: connector_test
+      printable: true
+      sample_number: 21
+      screening_cantilever_strain: 0.01333333333333334
+      style: ai_version_5
+      view: rail
+    rail_22:
+      connector_design: snap_key
+      expected_bodies: 1
+      hardware: {}
+      insertion_deflection_mm: 0.7374999999999999
+      material: PETG
+      part_role: connector_test
+      printable: true
+      sample_number: 22
+      screening_cantilever_strain: 0.014047619047619045
+      style: ai_version_5
+      view: rail
+    trial_20:
+      connector_design: snap_key
+      expected_bodies: 3
+      hardware: {}
+      insertion_deflection_mm: 0.5425
+      material: PETG
+      part_role: connector_test
+      printable: true
+      sample_number: 20
+      screening_cantilever_strain: 0.012471264367816088
+      style: ai_version_5
+      view: print_layout
+    trial_21:
+      connector_design: snap_key
+      expected_bodies: 3
+      hardware: {}
+      insertion_deflection_mm: 0.64
+      material: PETG
+      part_role: connector_test
+      printable: true
+      sample_number: 21
+      screening_cantilever_strain: 0.01333333333333334
+      style: ai_version_5
+      view: print_layout
+    trial_22:
+      connector_design: snap_key
+      expected_bodies: 3
+      hardware: {}
+      insertion_deflection_mm: 0.7374999999999999
+      material: PETG
+      part_role: connector_test
+      printable: true
+      sample_number: 22
+      screening_cantilever_strain: 0.014047619047619045
+      style: ai_version_5
+      view: print_layout
+  assembly_component: false
+  availability: Unverified connector trial
+  bed_height: 180.0
+  bed_margin: 2.0
+  bed_width: 180.0
+  bip_39_2_word_array:
+  - peace
+  - over
+  bip_39_2_word_no_space: peaceover
+  bip_39_2_word_space: peace over
+  bip_39_2_word_underscore: peace_over
+  bip_39_3_word_array:
+  - peace
+  - over
+  - curious
+  bip_39_3_word_no_space: peaceovercurious
+  bip_39_3_word_space: peace over curious
+  bip_39_3_word_underscore: peace_over_curious
+  bip_39_full_array:
+  - peace
+  - over
+  - curious
+  - wild
+  - envelope
+  - cover
+  - blanket
+  - agent
+  - term
+  - metal
+  - fine
+  - tobacco
+  bip_39_full_no_space: peaceovercuriouswildenvelopecoverblanketagenttermmetalfinetobacco
+  bip_39_full_space: peace over curious wild envelope cover blanket agent term metal
+    fine tobacco
+  bip_39_full_underscore: peace_over_curious_wild_envelope_cover_blanket_agent_term_metal_fine_tobacco
+  cad_volume_mm3: 17083.504159577584
+  catch_end_clearance: 0.2
+  classification: oobb
+  color: ''
+  column: 1
+  comparison_image: comparison.png
+  comparison_measurement_status: current
+  comparison_sample: true
+  components:
+  - objects:
+    - objects:
+      - - m: ''
+          pos:
+          - -7.5
+          - -2.0
+          - 0
+          shape: cube
+          size:
+          - 15.0
+          - 14.0
+          - 7.5
+          type: positive
+      - - m: ''
+          pos:
+          - -3.875
+          - -0.25
+          - -0.1
+          shape: cube
+          size:
+          - 7.75
+          - 10.5
+          - 7.7
+          type: negative
+      - - depth: 0.7
+          font: Arial:style=Bold
+          halign: center
+          height: 0.7
+          m: ''
+          pos:
+          - -6.1
+          - 8.5
+          - 6.9
+          rot:
+          - 0
+          - 0
+          - 0
+          shape: text
+          size: 1.8
+          text: '20'
+          type: negative
+          valign: center
+      - - h: 7.7
+          m: ''
+          pos:
+          - -7.5
+          - 3
+          - -0.1
+          r: 0.6
+          rot:
+          - 0
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      - - h: 7.7
+          m: ''
+          pos:
+          - -7.5
+          - 5
+          - -0.1
+          r: 0.6
+          rot:
+          - 0
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      - - h: 7.7
+          m: ''
+          pos:
+          - -7.5
+          - 7
+          - -0.1
+          r: 0.6
+          rot:
+          - 0
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      pos:
+      - -12
+      - -5
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: positive
+    - objects:
+      - - m: ''
+          pos:
+          - -5.5
+          - 0
+          - 0
+          shape: cube
+          size:
+          - 11.0
+          - 10.0
+          - 32.0
+          type: positive
+      - - m: ''
+          pos:
+          - -3.625
+          - 0
+          - -14.702499999999999
+          shape: cube
+          size:
+          - 7.25
+          - 10.0
+          - 14.802499999999998
+          type: positive
+      - - m: ''
+          pos:
+          - -3.725
+          - 1.7000000000000002
+          - -13.1025
+          shape: cube
+          size:
+          - 7.45
+          - 6.6
+          - 4.859999999999999
+          type: negative
+      - - depth: 0.7
+          font: Arial:style=Bold
+          halign: center
+          height: 0.7
+          m: ''
+          pos:
+          - 0
+          - 9.4
+          - 24.0
+          rot:
+          - -90
+          - 0
+          - 0
+          shape: text
+          size: 4.0
+          text: '20'
+          type: negative
+          valign: center
+      - - h: 10.2
+          m: ''
+          pos:
+          - 5.5
+          - 10.1
+          - 30.0
+          r: 0.6
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      - - h: 10.2
+          m: ''
+          pos:
+          - 5.5
+          - 10.1
+          - 28.0
+          r: 0.6
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      - - h: 10.2
+          m: ''
+          pos:
+          - 5.5
+          - 10.1
+          - 26.0
+          r: 0.6
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      pos:
+      - 12
+      - 8.64875
+      - 0
+      rot:
+      - 90
+      - 0
+      - 0
+      type: rotation
+      typetype: positive
+    - objects:
+      - - m: ''
+          pos:
+          - -8.265
+          - 0
+          - -2.9724999999999997
+          shape: cube
+          size:
+          - 15.66
+          - 5.8
+          - 5.944999999999999
+          type: positive
+      - - depth: 6.0
+          height: 6.0
+          m: ''
+          points:
+          - - -5.365
+            - -2.03
+          - - 3.915
+            - -2.03
+          - - 3.915
+            - -2.9725
+          - - 4.35
+            - -2.9725
+          - - 7.495
+            - -1.699524
+          - - 7.495
+            - -3.0725
+          - - -5.365
+            - -3.0725
+          pos:
+          - 0
+          - 5.8999999999999995
+          - 0
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: polygon
+          type: negative
+      - - depth: 6.0
+          height: 6.0
+          m: ''
+          points:
+          - - -5.365
+            - 2.03
+          - - 3.915
+            - 2.03
+          - - 3.915
+            - 2.9725
+          - - 4.35
+            - 2.9725
+          - - 7.495
+            - 1.699524
+          - - 7.495
+            - 3.0725
+          - - -5.365
+            - 3.0725
+          pos:
+          - 0
+          - 5.8999999999999995
+          - 0
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: polygon
+          type: negative
+      - - depth: 6.0
+          height: 6.0
+          m: ''
+          points:
+          - - -5.365
+            - 0.29
+          - - -5.356188
+            - 0.390716
+          - - -5.330022
+            - 0.488372
+          - - -5.287295
+            - 0.58
+          - - -5.229306
+            - 0.662817
+          - - -5.157817
+            - 0.734306
+          - - -5.075
+            - 0.792295
+          - - -4.983372
+            - 0.835022
+          - - -4.885716
+            - 0.861188
+          - - -4.785
+            - 0.87
+          - - 7.495
+            - 0.87
+          - - 7.495
+            - -0.87
+          - - -4.785
+            - -0.87
+          - - -4.885716
+            - -0.861188
+          - - -4.983372
+            - -0.835022
+          - - -5.075
+            - -0.792295
+          - - -5.157817
+            - -0.734306
+          - - -5.229306
+            - -0.662817
+          - - -5.287295
+            - -0.58
+          - - -5.330022
+            - -0.488372
+          - - -5.356188
+            - -0.390716
+          - - -5.365
+            - -0.29
+          pos:
+          - 0
+          - 5.8999999999999995
+          - 0
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: polygon
+          type: negative
+      pos:
+      - -12
+      - -18
+      - 0
+      rot:
+      - 90
+      - 0
+      - 0
+      type: rotation
+      typetype: positive
+    pos:
+    - -48
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    type: rotation
+    typetype: positive
+  - objects:
+    - objects:
+      - - m: ''
+          pos:
+          - -7.5
+          - -2.0
+          - 0
+          shape: cube
+          size:
+          - 15.0
+          - 14.0
+          - 7.5
+          type: positive
+      - - m: ''
+          pos:
+          - -4.25
+          - -0.25
+          - -0.1
+          shape: cube
+          size:
+          - 8.5
+          - 10.5
+          - 7.7
+          type: negative
+      - - depth: 0.7
+          font: Arial:style=Bold
+          halign: center
+          height: 0.7
+          m: ''
+          pos:
+          - -6.1
+          - 8.5
+          - 6.9
+          rot:
+          - 0
+          - 0
+          - 0
+          shape: text
+          size: 1.8
+          text: '21'
+          type: negative
+          valign: center
+      - - h: 7.7
+          m: ''
+          pos:
+          - -7.5
+          - 3
+          - -0.1
+          r: 0.6
+          rot:
+          - 0
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      - - h: 7.7
+          m: ''
+          pos:
+          - -7.5
+          - 5
+          - -0.1
+          r: 0.6
+          rot:
+          - 0
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      - - h: 7.7
+          m: ''
+          pos:
+          - -7.5
+          - 7
+          - -0.1
+          r: 0.6
+          rot:
+          - 0
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      pos:
+      - -12
+      - -5
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: positive
+    - objects:
+      - - m: ''
+          pos:
+          - -5.5
+          - 0
+          - 0
+          shape: cube
+          size:
+          - 11.0
+          - 10.0
+          - 32.0
+          type: positive
+      - - m: ''
+          pos:
+          - -4.0
+          - 0
+          - -15.22
+          shape: cube
+          size:
+          - 8.0
+          - 10.0
+          - 15.32
+          type: positive
+      - - m: ''
+          pos:
+          - -4.1
+          - 1.4
+          - -13.620000000000001
+          shape: cube
+          size:
+          - 8.2
+          - 7.2
+          - 5.28
+          type: negative
+      - - depth: 0.7
+          font: Arial:style=Bold
+          halign: center
+          height: 0.7
+          m: ''
+          pos:
+          - 0
+          - 9.4
+          - 24.0
+          rot:
+          - -90
+          - 0
+          - 0
+          shape: text
+          size: 4.0
+          text: '21'
+          type: negative
+          valign: center
+      - - h: 10.2
+          m: ''
+          pos:
+          - 5.5
+          - 10.1
+          - 30.0
+          r: 0.6
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      - - h: 10.2
+          m: ''
+          pos:
+          - 5.5
+          - 10.1
+          - 28.0
+          r: 0.6
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      - - h: 10.2
+          m: ''
+          pos:
+          - 5.5
+          - 10.1
+          - 26.0
+          r: 0.6
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      pos:
+      - 12
+      - 8.39
+      - 0
+      rot:
+      - 90
+      - 0
+      - 0
+      type: rotation
+      typetype: positive
+    - objects:
+      - - m: ''
+          pos:
+          - -9.12
+          - 0
+          - -3.2800000000000002
+          shape: cube
+          size:
+          - 17.28
+          - 6.4
+          - 6.5600000000000005
+          type: positive
+      - - depth: 6.6000000000000005
+          height: 6.6000000000000005
+          m: ''
+          points:
+          - - -5.92
+            - -2.24
+          - - 4.32
+            - -2.24
+          - - 4.32
+            - -3.28
+          - - 4.8
+            - -3.28
+          - - 8.26
+            - -1.879524
+          - - 8.26
+            - -3.38
+          - - -5.92
+            - -3.38
+          pos:
+          - 0
+          - 6.5
+          - 0
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: polygon
+          type: negative
+      - - depth: 6.6000000000000005
+          height: 6.6000000000000005
+          m: ''
+          points:
+          - - -5.92
+            - 2.24
+          - - 4.32
+            - 2.24
+          - - 4.32
+            - 3.28
+          - - 4.8
+            - 3.28
+          - - 8.26
+            - 1.879524
+          - - 8.26
+            - 3.38
+          - - -5.92
+            - 3.38
+          pos:
+          - 0
+          - 6.5
+          - 0
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: polygon
+          type: negative
+      - - depth: 6.6000000000000005
+          height: 6.6000000000000005
+          m: ''
+          points:
+          - - -5.92
+            - 0.32
+          - - -5.910277
+            - 0.431135
+          - - -5.881403
+            - 0.538893
+          - - -5.834256
+            - 0.64
+          - - -5.770268
+            - 0.731384
+          - - -5.691384
+            - 0.810268
+          - - -5.6
+            - 0.874256
+          - - -5.498893
+            - 0.921403
+          - - -5.391135
+            - 0.950277
+          - - -5.28
+            - 0.96
+          - - 8.26
+            - 0.96
+          - - 8.26
+            - -0.96
+          - - -5.28
+            - -0.96
+          - - -5.391135
+            - -0.950277
+          - - -5.498893
+            - -0.921403
+          - - -5.6
+            - -0.874256
+          - - -5.691384
+            - -0.810268
+          - - -5.770268
+            - -0.731384
+          - - -5.834256
+            - -0.64
+          - - -5.881403
+            - -0.538893
+          - - -5.910277
+            - -0.431135
+          - - -5.92
+            - -0.32
+          pos:
+          - 0
+          - 6.5
+          - 0
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: polygon
+          type: negative
+      pos:
+      - -12
+      - -18
+      - 0
+      rot:
+      - 90
+      - 0
+      - 0
+      type: rotation
+      typetype: positive
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    type: rotation
+    typetype: positive
+  - objects:
+    - objects:
+      - - m: ''
+          pos:
+          - -7.5
+          - -2.0
+          - 0
+          shape: cube
+          size:
+          - 15.0
+          - 14.0
+          - 7.5
+          type: positive
+      - - m: ''
+          pos:
+          - -4.625
+          - -0.25
+          - -0.1
+          shape: cube
+          size:
+          - 9.25
+          - 10.5
+          - 7.7
+          type: negative
+      - - depth: 0.7
+          font: Arial:style=Bold
+          halign: center
+          height: 0.7
+          m: ''
+          pos:
+          - -6.1
+          - 8.5
+          - 6.9
+          rot:
+          - 0
+          - 0
+          - 0
+          shape: text
+          size: 1.8
+          text: '22'
+          type: negative
+          valign: center
+      - - h: 7.7
+          m: ''
+          pos:
+          - -7.5
+          - 3
+          - -0.1
+          r: 0.6
+          rot:
+          - 0
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      - - h: 7.7
+          m: ''
+          pos:
+          - -7.5
+          - 5
+          - -0.1
+          r: 0.6
+          rot:
+          - 0
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      - - h: 7.7
+          m: ''
+          pos:
+          - -7.5
+          - 7
+          - -0.1
+          r: 0.6
+          rot:
+          - 0
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      pos:
+      - -12
+      - -5
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: positive
+    - objects:
+      - - m: ''
+          pos:
+          - -5.5
+          - 0
+          - 0
+          shape: cube
+          size:
+          - 11.0
+          - 10.0
+          - 32.0
+          type: positive
+      - - m: ''
+          pos:
+          - -4.375
+          - 0
+          - -15.737499999999997
+          shape: cube
+          size:
+          - 8.75
+          - 10.0
+          - 15.837499999999997
+          type: positive
+      - - m: ''
+          pos:
+          - -4.475
+          - 1.1
+          - -14.137499999999998
+          shape: cube
+          size:
+          - 8.95
+          - 7.8
+          - 5.7
+          type: negative
+      - - depth: 0.7
+          font: Arial:style=Bold
+          halign: center
+          height: 0.7
+          m: ''
+          pos:
+          - 0
+          - 9.4
+          - 24.0
+          rot:
+          - -90
+          - 0
+          - 0
+          shape: text
+          size: 4.0
+          text: '22'
+          type: negative
+          valign: center
+      - - h: 10.2
+          m: ''
+          pos:
+          - 5.5
+          - 10.1
+          - 30.0
+          r: 0.6
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      - - h: 10.2
+          m: ''
+          pos:
+          - 5.5
+          - 10.1
+          - 28.0
+          r: 0.6
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      - - h: 10.2
+          m: ''
+          pos:
+          - 5.5
+          - 10.1
+          - 26.0
+          r: 0.6
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: cylinder
+          type: negative
+      pos:
+      - 12
+      - 8.131250000000001
+      - 0
+      rot:
+      - 90
+      - 0
+      - 0
+      type: rotation
+      typetype: positive
+    - objects:
+      - - m: ''
+          pos:
+          - -9.975
+          - 0
+          - -3.5875000000000004
+          shape: cube
+          size:
+          - 18.9
+          - 7.0
+          - 7.175000000000001
+          type: positive
+      - - depth: 7.2
+          height: 7.2
+          m: ''
+          points:
+          - - -6.475
+            - -2.45
+          - - 4.725
+            - -2.45
+          - - 4.725
+            - -3.5875
+          - - 5.25
+            - -3.5875
+          - - 9.025
+            - -2.059524
+          - - 9.025
+            - -3.6875
+          - - -6.475
+            - -3.6875
+          pos:
+          - 0
+          - 7.1
+          - 0
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: polygon
+          type: negative
+      - - depth: 7.2
+          height: 7.2
+          m: ''
+          points:
+          - - -6.475
+            - 2.45
+          - - 4.725
+            - 2.45
+          - - 4.725
+            - 3.5875
+          - - 5.25
+            - 3.5875
+          - - 9.025
+            - 2.059524
+          - - 9.025
+            - 3.6875
+          - - -6.475
+            - 3.6875
+          pos:
+          - 0
+          - 7.1
+          - 0
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: polygon
+          type: negative
+      - - depth: 7.2
+          height: 7.2
+          m: ''
+          points:
+          - - -6.475
+            - 0.35
+          - - -6.464365
+            - 0.471554
+          - - -6.432785
+            - 0.589414
+          - - -6.381218
+            - 0.7
+          - - -6.311231
+            - 0.799951
+          - - -6.224951
+            - 0.886231
+          - - -6.125
+            - 0.956218
+          - - -6.014414
+            - 1.007785
+          - - -5.896554
+            - 1.039365
+          - - -5.775
+            - 1.05
+          - - 9.025
+            - 1.05
+          - - 9.025
+            - -1.05
+          - - -5.775
+            - -1.05
+          - - -5.896554
+            - -1.039365
+          - - -6.014414
+            - -1.007785
+          - - -6.125
+            - -0.956218
+          - - -6.224951
+            - -0.886231
+          - - -6.311231
+            - -0.799951
+          - - -6.381218
+            - -0.7
+          - - -6.432785
+            - -0.589414
+          - - -6.464365
+            - -0.471554
+          - - -6.475
+            - -0.35
+          pos:
+          - 0
+          - 7.1
+          - 0
+          rot:
+          - 90
+          - 0
+          - 0
+          shape: polygon
+          type: negative
+      pos:
+      - -12
+      - -18
+      - 0
+      rot:
+      - 90
+      - 0
+      - 0
+      type: rotation
+      typetype: positive
+    pos:
+    - 48
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    type: rotation
+    typetype: positive
+  components_objects: []
+  components_string: []
+  connection_intent: mainly_permanent
+  connector_clearance: 0.25
+  connector_design: key_size_fit_suite
+  connector_view: print_layout
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  cost_per_drawer_gbp: null
+  cost_per_kg_basis: Estimated PETG connector specimens; no pots or hardware
+  cost_per_kg_gbp: 10.0
+  coupon_height: 14.0
+  coupon_width: 15.0
+  depth_mm: 10.0
+  description: default ai version 5 0x0x0
+  description_extra: ''
+  description_main: ''
+  directory: parts/oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+  drawer_capacity_basis: not_applicable_connector_test
+  drawer_capacity_ml: null
+  drawer_count: 0
+  filament_cost_gbp: 0.217
+  filament_density_g_per_cm3: 1.27
+  filament_gbp_per_gram: 0.01
+  filament_mass_basis: "Solid CAD volume \xD7 assumed PETG density 1.27 g/cm3; not\
+    \ a slicer measurement"
+  filament_mass_g: 21.696
+  guide_depth: 3.0
+  guide_half_width: 1.4
+  hardware_cost_basis: No assembly hardware
+  height_mm: 47.737
+  hook_projection: 0.65
+  hook_ramp_length: 2.4
+  id: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+  id_no_class: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+  id_no_size: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+  id_no_type: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+  key_arm_thickness: 0.8
+  key_half_width: 1.4
+  key_head_x: -5.7
+  key_height: 4.0
+  key_root_radius: 0.4
+  key_shoulder_x: 2.7
+  key_tongue_half_width: 2.5
+  key_trials: &id004
+  - connector_clearance: 0.4
+    hook_projection: 0.9425
+    hook_ramp_length: 3.48
+    key_arm_thickness: 1.16
+    key_half_width: 2.03
+    key_head_length: 2.9
+    key_head_x: -8.265
+    key_height: 5.8
+    key_hook_flat: 0.435
+    key_root_radius: 0.58
+    key_scale: 1.45
+    key_shoulder_x: 3.915
+    key_slot_min_wall: 1.0
+    key_tip_chamfer: 0.29
+    key_tongue_half_width: 3.625
+    number_depth: 0.6
+    number_rail_z: 24.0
+    number_size: 4.0
+    plate_number_size: 1.8
+    plate_number_x: -6.1
+    sample_number: 20
+    through_clearance: 0.25
+    through_height_clearance: 0.25
+  - connector_clearance: 0.4
+    hook_projection: 1.04
+    hook_ramp_length: 3.84
+    key_arm_thickness: 1.28
+    key_half_width: 2.24
+    key_head_length: 3.2
+    key_head_x: -9.12
+    key_height: 6.4
+    key_hook_flat: 0.48
+    key_root_radius: 0.64
+    key_scale: 1.6
+    key_shoulder_x: 4.32
+    key_slot_min_wall: 1.0
+    key_tip_chamfer: 0.32
+    key_tongue_half_width: 4.0
+    number_depth: 0.6
+    number_rail_z: 24.0
+    number_size: 4.0
+    plate_number_size: 1.8
+    plate_number_x: -6.1
+    sample_number: 21
+    through_clearance: 0.25
+    through_height_clearance: 0.25
+  - connector_clearance: 0.4
+    hook_projection: 1.1375
+    hook_ramp_length: 4.2
+    key_arm_thickness: 1.4
+    key_half_width: 2.45
+    key_head_length: 3.5
+    key_head_x: -9.975
+    key_height: 7.0
+    key_hook_flat: 0.525
+    key_root_radius: 0.7
+    key_scale: 1.75
+    key_shoulder_x: 4.725
+    key_slot_min_wall: 1.0
+    key_tip_chamfer: 0.35
+    key_tongue_half_width: 4.375
+    number_depth: 0.6
+    number_rail_z: 24.0
+    number_size: 4.0
+    plate_number_size: 1.8
+    plate_number_x: -6.1
+    sample_number: 22
+    through_clearance: 0.25
+    through_height_clearance: 0.25
+  kwargs:
+    bed_height: 180.0
+    bed_margin: 2.0
+    bed_width: 180.0
+    catch_end_clearance: 0.2
+    column: 1
+    connection_intent: mainly_permanent
+    connector_clearance: 0.25
+    connector_design: key_size_fit_suite
+    connector_view: print_layout
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    coupon_height: 14.0
+    coupon_width: 15.0
+    filter: ai_version_5
+    guide_depth: 3.0
+    guide_half_width: 1.4
+    hook_projection: 0.65
+    hook_ramp_length: 2.4
+    key_arm_thickness: 0.8
+    key_half_width: 1.4
+    key_head_x: -5.7
+    key_height: 4.0
+    key_root_radius: 0.4
+    key_shoulder_x: 2.7
+    key_tongue_half_width: 2.5
+    key_trials:
+    - connector_clearance: 0.4
+      hook_projection: 0.9425
+      hook_ramp_length: 3.48
+      key_arm_thickness: 1.16
+      key_half_width: 2.03
+      key_head_length: 2.9
+      key_head_x: -8.265
+      key_height: 5.8
+      key_hook_flat: 0.435
+      key_root_radius: 0.58
+      key_scale: 1.45
+      key_shoulder_x: 3.915
+      key_slot_min_wall: 1.0
+      key_tip_chamfer: 0.29
+      key_tongue_half_width: 3.625
+      number_depth: 0.6
+      number_rail_z: 24.0
+      number_size: 4.0
+      plate_number_size: 1.8
+      plate_number_x: -6.1
+      sample_number: 20
+      through_clearance: 0.25
+      through_height_clearance: 0.25
+    - connector_clearance: 0.4
+      hook_projection: 1.04
+      hook_ramp_length: 3.84
+      key_arm_thickness: 1.28
+      key_half_width: 2.24
+      key_head_length: 3.2
+      key_head_x: -9.12
+      key_height: 6.4
+      key_hook_flat: 0.48
+      key_root_radius: 0.64
+      key_scale: 1.6
+      key_shoulder_x: 4.32
+      key_slot_min_wall: 1.0
+      key_tip_chamfer: 0.32
+      key_tongue_half_width: 4.0
+      number_depth: 0.6
+      number_rail_z: 24.0
+      number_size: 4.0
+      plate_number_size: 1.8
+      plate_number_x: -6.1
+      sample_number: 21
+      through_clearance: 0.25
+      through_height_clearance: 0.25
+    - connector_clearance: 0.4
+      hook_projection: 1.1375
+      hook_ramp_length: 4.2
+      key_arm_thickness: 1.4
+      key_half_width: 2.45
+      key_head_length: 3.5
+      key_head_x: -9.975
+      key_height: 7.0
+      key_hook_flat: 0.525
+      key_root_radius: 0.7
+      key_scale: 1.75
+      key_shoulder_x: 4.725
+      key_slot_min_wall: 1.0
+      key_tip_chamfer: 0.35
+      key_tongue_half_width: 4.375
+      number_depth: 0.6
+      number_rail_z: 24.0
+      number_size: 4.0
+      plate_number_size: 1.8
+      plate_number_x: -6.1
+      sample_number: 22
+      through_clearance: 0.25
+      through_height_clearance: 0.25
+    modes:
+    - 3dpr
+    navigation: true
+    oobb_name: ai_version_5
+    oomp_description_extra: ''
+    oomp_description_main: ai_version_5_
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    part_role: connector_test
+    plate_thickness: 7.5
+    rail_height: 10.0
+    rail_width: 11.0
+    root_radius: 1.1
+    row: 1
+    save_type: none
+    scad_filter: ai_version_5
+    single_arm_thickness: 1.6
+    single_root_distance: 8.0
+    snap_arm_height: 4.0
+    snap_arm_outer: 3.8
+    style: ai_version_5
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 1_column
+    taxonomy_6: 1_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: ai_version_5_style
+    taxonomy_9: key_size_extension_suite
+    test_material: PETG
+    test_rail_length: 32.0
+    test_rationale: User reports sample 9 closest but still loose, sample 1 much too
+      loose; continue the 3/6/9 size progression.
+    trial_layout_y_offset: 0
+    twin_arm_thickness: 1.4
+    twin_root_distance: 12.0
+    type: default_ai_version_5
+    variant: key_size_extension_suite
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+  manufacturer: oomlout
+  md5: a1d3bcd7fd84bc6305d027df71815b71
+  md5_10: a1d3bcd7fd
+  md5_10_upper: A1D3BCD7FD
+  md5_5: a1d3b
+  md5_5_upper: A1D3B
+  md5_6: a1d3bc
+  md5_6_alpha: 6bb98
+  md5_6_alpha_upper: 6BB98
+  md5_6_upper: A1D3BC
+  name: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml Tamper
+    Evident Systempak 209 Container Ai Version 5 Style Key Size Extension Suite
+  name_no_class: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100
+    Ml Tamper Evident Systempak 209 Container Ai Version 5 Style Key Size Extension
+    Suite
+  name_no_size: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100
+    Ml Tamper Evident Systempak 209 Container Ai Version 5 Style Key Size Extension
+    Suite
+  name_no_type: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100
+    Ml Tamper Evident Systempak 209 Container Ai Version 5 Style Key Size Extension
+    Suite
+  name_proper: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100
+    Ml Tamper Evident Systempak 209 Container Ai Version 5 Style Key Size Extension
+    Suite
+  name_short: Default Ai Version 5
+  name_space: oobb organization storage drawer unit 1 column 1 row rectangle 100 ml
+    tamper evident systempak 209 container ai version 5 style key size extension suite
+  name_text: Oobb Part Default Ai Version 5
+  name_upper: OOBB ORGANIZATION STORAGE DRAWER UNIT 1 COLUMN 1 ROW RECTANGLE 100 ML
+    TAMPER EVIDENT SYSTEMPAK 209 CONTAINER AI VERSION 5 STYLE KEY SIZE EXTENSION SUITE
+  oobb_details:
+    bed_height: 180.0
+    bed_margin: 2.0
+    bed_width: 180.0
+    catch_end_clearance: 0.2
+    column: 1
+    connection_intent: mainly_permanent
+    connector_clearance: 0.25
+    connector_design: key_size_fit_suite
+    connector_view: print_layout
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    coupon_height: 14.0
+    coupon_width: 15.0
+    guide_depth: 3.0
+    guide_half_width: 1.4
+    hook_projection: 0.65
+    hook_ramp_length: 2.4
+    key_arm_thickness: 0.8
+    key_half_width: 1.4
+    key_head_x: -5.7
+    key_height: 4.0
+    key_root_radius: 0.4
+    key_shoulder_x: 2.7
+    key_tongue_half_width: 2.5
+    key_trials: *id004
+    oobb_name: ai_version_5
+    part_role: connector_test
+    plate_thickness: 7.5
+    rail_height: 10.0
+    rail_width: 11.0
+    root_radius: 1.1
+    row: 1
+    single_arm_thickness: 1.6
+    single_root_distance: 8.0
+    snap_arm_height: 4.0
+    snap_arm_outer: 3.8
+    style: ai_version_5
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 1_column
+    taxonomy_6: 1_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: ai_version_5_style
+    taxonomy_9: key_size_extension_suite
+    test_material: PETG
+    test_rail_length: 32.0
+    test_rationale: User reports sample 9 closest but still loose, sample 1 much too
+      loose; continue the 3/6/9 size progression.
+    trial_layout_y_offset: 0
+    twin_arm_thickness: 1.4
+    twin_root_distance: 12.0
+    variant: key_size_extension_suite
+  oobb_name: ai_version_5
+  oomlout_ai_roboclick_1:
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        assembly_component: false
+        availability: Unverified connector trial
+        bed_height: 180.0
+        bed_margin: 2.0
+        bed_width: 180.0
+        cad_volume_mm3: 17083.504159577584
+        catch_end_clearance: 0.2
+        column: 1
+        comparison_image: comparison.png
+        comparison_measurement_status: current
+        comparison_sample: true
+        connection_intent: mainly_permanent
+        connector_clearance: 0.25
+        connector_design: key_size_fit_suite
+        connector_view: print_layout
+        container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+        container_short: rectangle_100_ml_tamper_evident_systempak_209
+        cost_per_drawer_gbp: null
+        cost_per_kg_basis: Estimated PETG connector specimens; no pots or hardware
+        cost_per_kg_gbp: 10.0
+        coupon_height: 14.0
+        coupon_width: 15.0
+        depth_mm: 10.0
+        directory: parts\oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+        drawer_capacity_basis: not_applicable_connector_test
+        drawer_capacity_ml: null
+        drawer_count: 0
+        filament_cost_gbp: 0.217
+        filament_density_g_per_cm3: 1.27
+        filament_gbp_per_gram: 0.01
+        filament_mass_basis: "Solid CAD volume \xD7 assumed PETG density 1.27 g/cm3;\
+          \ not a slicer measurement"
+        filament_mass_g: 21.696
+        guide_depth: 3.0
+        guide_half_width: 1.4
+        hardware_cost_basis: No assembly hardware
+        height_mm: 47.737
+        hook_projection: 0.65
+        hook_ramp_length: 2.4
+        key_arm_thickness: 0.8
+        key_half_width: 1.4
+        key_head_x: -5.7
+        key_height: 4.0
+        key_root_radius: 0.4
+        key_shoulder_x: 2.7
+        key_tongue_half_width: 2.5
+        key_trials: &id005
+        - connector_clearance: 0.4
+          hook_projection: 0.9425
+          hook_ramp_length: 3.48
+          key_arm_thickness: 1.16
+          key_half_width: 2.03
+          key_head_length: 2.9
+          key_head_x: -8.265
+          key_height: 5.8
+          key_hook_flat: 0.435
+          key_root_radius: 0.58
+          key_scale: 1.45
+          key_shoulder_x: 3.915
+          key_slot_min_wall: 1.0
+          key_tip_chamfer: 0.29
+          key_tongue_half_width: 3.625
+          number_depth: 0.6
+          number_rail_z: 24.0
+          number_size: 4.0
+          plate_number_size: 1.8
+          plate_number_x: -6.1
+          sample_number: 20
+          through_clearance: 0.25
+          through_height_clearance: 0.25
+        - connector_clearance: 0.4
+          hook_projection: 1.04
+          hook_ramp_length: 3.84
+          key_arm_thickness: 1.28
+          key_half_width: 2.24
+          key_head_length: 3.2
+          key_head_x: -9.12
+          key_height: 6.4
+          key_hook_flat: 0.48
+          key_root_radius: 0.64
+          key_scale: 1.6
+          key_shoulder_x: 4.32
+          key_slot_min_wall: 1.0
+          key_tip_chamfer: 0.32
+          key_tongue_half_width: 4.0
+          number_depth: 0.6
+          number_rail_z: 24.0
+          number_size: 4.0
+          plate_number_size: 1.8
+          plate_number_x: -6.1
+          sample_number: 21
+          through_clearance: 0.25
+          through_height_clearance: 0.25
+        - connector_clearance: 0.4
+          hook_projection: 1.1375
+          hook_ramp_length: 4.2
+          key_arm_thickness: 1.4
+          key_half_width: 2.45
+          key_head_length: 3.5
+          key_head_x: -9.975
+          key_height: 7.0
+          key_hook_flat: 0.525
+          key_root_radius: 0.7
+          key_scale: 1.75
+          key_shoulder_x: 4.725
+          key_slot_min_wall: 1.0
+          key_tip_chamfer: 0.35
+          key_tongue_half_width: 4.375
+          number_depth: 0.6
+          number_rail_z: 24.0
+          number_size: 4.0
+          plate_number_size: 1.8
+          plate_number_x: -6.1
+          sample_number: 22
+          through_clearance: 0.25
+          through_height_clearance: 0.25
+        manufacturer: oomlout
+        name: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+        name_proper: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle
+          100 Ml Tamper Evident Systempak 209 Container Ai Version 5 Style Key Size
+          Extension Suite
+        name_space: oobb organization storage drawer unit 1 column 1 row rectangle
+          100 ml tamper evident systempak 209 container ai version 5 style key size
+          extension suite
+        name_upper: OOBB ORGANIZATION STORAGE DRAWER UNIT 1 COLUMN 1 ROW RECTANGLE
+          100 ML TAMPER EVIDENT SYSTEMPAK 209 CONTAINER AI VERSION 5 STYLE KEY SIZE
+          EXTENSION SUITE
+        oobb_details:
+          bed_height: 180.0
+          bed_margin: 2.0
+          bed_width: 180.0
+          catch_end_clearance: 0.2
+          column: 1
+          connection_intent: mainly_permanent
+          connector_clearance: 0.25
+          connector_design: key_size_fit_suite
+          connector_view: print_layout
+          container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+          container_short: rectangle_100_ml_tamper_evident_systempak_209
+          coupon_height: 14.0
+          coupon_width: 15.0
+          guide_depth: 3.0
+          guide_half_width: 1.4
+          hook_projection: 0.65
+          hook_ramp_length: 2.4
+          key_arm_thickness: 0.8
+          key_half_width: 1.4
+          key_head_x: -5.7
+          key_height: 4.0
+          key_root_radius: 0.4
+          key_shoulder_x: 2.7
+          key_tongue_half_width: 2.5
+          key_trials: *id005
+          oobb_name: ai_version_5
+          part_role: connector_test
+          plate_thickness: 7.5
+          rail_height: 10.0
+          rail_width: 11.0
+          root_radius: 1.1
+          row: 1
+          single_arm_thickness: 1.6
+          single_root_distance: 8.0
+          snap_arm_height: 4.0
+          snap_arm_outer: 3.8
+          style: ai_version_5
+          taxonomy_1: oobb
+          taxonomy_2: organization
+          taxonomy_3: storage
+          taxonomy_4: drawer_unit
+          taxonomy_5: 1_column
+          taxonomy_6: 1_row
+          taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+          taxonomy_8: ai_version_5_style
+          taxonomy_9: key_size_extension_suite
+          test_material: PETG
+          test_rail_length: 32.0
+          test_rationale: User reports sample 9 closest but still loose, sample 1
+            much too loose; continue the 3/6/9 size progression.
+          trial_layout_y_offset: 0
+          twin_arm_thickness: 1.4
+          twin_root_distance: 12.0
+          variant: key_size_extension_suite
+        part_role: connector_test
+        plate_thickness: 7.5
+        pot_cost_details: {}
+        pot_quantity: 0
+        pots_cost_gbp: 0
+        price_excludes_delivery: true
+        price_gbp: 0.217
+        price_includes_vat: true
+        print_instruction: Print the connector kit as arranged; see printing.txt.
+          Experimental coupons, not a drawer unit.
+        product_name: "PETG connector trial \xB7 key size extension suite \xB7 version\
+          \ 5"
+        rail_height: 10.0
+        rail_width: 11.0
+        record_type: printed_drawer_unit
+        root_radius: 1.1
+        row: 1
+        seller: Print your own PETG coupons
+        single_arm_thickness: 1.6
+        single_root_distance: 8.0
+        snap_arm_height: 4.0
+        snap_arm_outer: 3.8
+        style: ai_version_5
+        taxonomy_1: oobb
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: organization
+        taxonomy_3: storage
+        taxonomy_4: drawer_unit
+        taxonomy_5: 1_column
+        taxonomy_6: 1_row
+        taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+        taxonomy_8: ai_version_5_style
+        taxonomy_9: key_size_extension_suite
+        test_material: PETG
+        test_rail_length: 32.0
+        test_rationale: User reports sample 9 closest but still loose, sample 1 much
+          too loose; continue the 3/6/9 size progression.
+        trial_layout_y_offset: 0
+        twin_arm_thickness: 1.4
+        twin_root_distance: 12.0
+        url_chat: ''
+        variant: key_size_extension_suite
+        weight_basis: estimated_solid_PETG_connector_kit_no_pots_or_hardware
+        weight_kg: 0.021696
+        width_mm: 133.765
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_oomp.svg
+      file_template: C:\od\OneDrive\docs\organization_storage_drawer_unit\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+  oomp_key: oomp_oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite
+  part_number: ''
+  part_role: connector_test
+  plate_thickness: 7.5
+  pot_cost_details: {}
+  pot_quantity: 0
+  pots_cost_gbp: 0
+  price_excludes_delivery: true
+  price_gbp: 0.217
+  price_includes_vat: true
+  print_instruction: Print the connector kit as arranged; see printing.txt. Experimental
+    coupons, not a drawer unit.
+  product_name: "PETG connector trial \xB7 key size extension suite \xB7 version 5"
+  rail_height: 10.0
+  rail_width: 11.0
+  record_type: printed_drawer_unit
+  root_radius: 1.1
+  row: 1
+  scad_filter: ai_version_5
+  seller: Print your own PETG coupons
+  short_name: ''
+  single_arm_thickness: 1.6
+  single_root_distance: 8.0
+  size: default_ai_version_5
+  snap_arm_height: 4.0
+  snap_arm_outer: 3.8
+  style: ai_version_5
+  taxonomy_1: oobb
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_1_capital: Oobb
+  taxonomy_1_first_letter: o
+  taxonomy_1_first_letter_upper: O
+  taxonomy_1_length_1: o
+  taxonomy_1_length_2: oo
+  taxonomy_1_length_3: oob
+  taxonomy_1_length_4: oobb
+  taxonomy_1_length_5: oobb
+  taxonomy_1_upper: OOBB
+  taxonomy_1_upper_length_1: O
+  taxonomy_1_upper_length_2: OO
+  taxonomy_1_upper_length_3: OOB
+  taxonomy_1_upper_length_4: OOBB
+  taxonomy_1_upper_length_5: OOBB
+  taxonomy_2: organization
+  taxonomy_2_capital: Organization
+  taxonomy_2_first_letter: o
+  taxonomy_2_first_letter_upper: O
+  taxonomy_2_length_1: o
+  taxonomy_2_length_2: or
+  taxonomy_2_length_3: org
+  taxonomy_2_length_4: orga
+  taxonomy_2_length_5: organ
+  taxonomy_2_upper: ORGANIZATION
+  taxonomy_2_upper_length_1: O
+  taxonomy_2_upper_length_2: OR
+  taxonomy_2_upper_length_3: ORG
+  taxonomy_2_upper_length_4: ORGA
+  taxonomy_2_upper_length_5: ORGAN
+  taxonomy_3: storage
+  taxonomy_3_capital: Storage
+  taxonomy_3_first_letter: s
+  taxonomy_3_first_letter_upper: S
+  taxonomy_3_length_1: s
+  taxonomy_3_length_2: st
+  taxonomy_3_length_3: sto
+  taxonomy_3_length_4: stor
+  taxonomy_3_length_5: stora
+  taxonomy_3_upper: STORAGE
+  taxonomy_3_upper_length_1: S
+  taxonomy_3_upper_length_2: ST
+  taxonomy_3_upper_length_3: STO
+  taxonomy_3_upper_length_4: STOR
+  taxonomy_3_upper_length_5: STORA
+  taxonomy_4: drawer_unit
+  taxonomy_4_capital: Drawer Unit
+  taxonomy_4_first_letter: d
+  taxonomy_4_first_letter_upper: D
+  taxonomy_4_length_1: d
+  taxonomy_4_length_2: dr
+  taxonomy_4_length_3: dra
+  taxonomy_4_length_4: draw
+  taxonomy_4_length_5: drawe
+  taxonomy_4_upper: DRAWER_UNIT
+  taxonomy_4_upper_length_1: D
+  taxonomy_4_upper_length_2: DR
+  taxonomy_4_upper_length_3: DRA
+  taxonomy_4_upper_length_4: DRAW
+  taxonomy_4_upper_length_5: DRAWE
+  taxonomy_5: 1_column
+  taxonomy_5_capital: 1 Column
+  taxonomy_5_first_letter: '1'
+  taxonomy_5_first_letter_upper: '1'
+  taxonomy_5_length_1: '1'
+  taxonomy_5_length_2: '1_'
+  taxonomy_5_length_3: 1_c
+  taxonomy_5_length_4: 1_co
+  taxonomy_5_length_5: 1_col
+  taxonomy_5_upper: 1_COLUMN
+  taxonomy_5_upper_length_1: '1'
+  taxonomy_5_upper_length_2: '1_'
+  taxonomy_5_upper_length_3: 1_C
+  taxonomy_5_upper_length_4: 1_CO
+  taxonomy_5_upper_length_5: 1_COL
+  taxonomy_6: 1_row
+  taxonomy_6_capital: 1 Row
+  taxonomy_6_first_letter: '1'
+  taxonomy_6_first_letter_upper: '1'
+  taxonomy_6_length_1: '1'
+  taxonomy_6_length_2: '1_'
+  taxonomy_6_length_3: 1_r
+  taxonomy_6_length_4: 1_ro
+  taxonomy_6_length_5: 1_row
+  taxonomy_6_upper: 1_ROW
+  taxonomy_6_upper_length_1: '1'
+  taxonomy_6_upper_length_2: '1_'
+  taxonomy_6_upper_length_3: 1_R
+  taxonomy_6_upper_length_4: 1_RO
+  taxonomy_6_upper_length_5: 1_ROW
+  taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+  taxonomy_7_capital: Rectangle 100 Ml Tamper Evident Systempak 209 Container
+  taxonomy_7_first_letter: r
+  taxonomy_7_first_letter_upper: R
+  taxonomy_7_length_1: r
+  taxonomy_7_length_2: re
+  taxonomy_7_length_3: rec
+  taxonomy_7_length_4: rect
+  taxonomy_7_length_5: recta
+  taxonomy_7_upper: RECTANGLE_100_ML_TAMPER_EVIDENT_SYSTEMPAK_209_CONTAINER
+  taxonomy_7_upper_length_1: R
+  taxonomy_7_upper_length_2: RE
+  taxonomy_7_upper_length_3: REC
+  taxonomy_7_upper_length_4: RECT
+  taxonomy_7_upper_length_5: RECTA
+  taxonomy_8: ai_version_5_style
+  taxonomy_8_capital: Ai Version 5 Style
+  taxonomy_8_first_letter: a
+  taxonomy_8_first_letter_upper: A
+  taxonomy_8_length_1: a
+  taxonomy_8_length_2: ai
+  taxonomy_8_length_3: ai_
+  taxonomy_8_length_4: ai_v
+  taxonomy_8_length_5: ai_ve
+  taxonomy_8_upper: AI_VERSION_5_STYLE
+  taxonomy_8_upper_length_1: A
+  taxonomy_8_upper_length_2: AI
+  taxonomy_8_upper_length_3: AI_
+  taxonomy_8_upper_length_4: AI_V
+  taxonomy_8_upper_length_5: AI_VE
+  taxonomy_9: key_size_extension_suite
+  taxonomy_9_capital: Key Size Extension Suite
+  taxonomy_9_first_letter: k
+  taxonomy_9_first_letter_upper: K
+  taxonomy_9_length_1: k
+  taxonomy_9_length_2: ke
+  taxonomy_9_length_3: key
+  taxonomy_9_length_4: key_
+  taxonomy_9_length_5: key_s
+  taxonomy_9_upper: KEY_SIZE_EXTENSION_SUITE
+  taxonomy_9_upper_length_1: K
+  taxonomy_9_upper_length_2: KE
+  taxonomy_9_upper_length_3: KEY
+  taxonomy_9_upper_length_4: KEY_
+  taxonomy_9_upper_length_5: KEY_S
+  test_material: PETG
+  test_rail_length: 32.0
+  test_rationale: User reports sample 9 closest but still loose, sample 1 much too
+    loose; continue the 3/6/9 size progression.
+  trial_layout_y_offset: 0
+  twin_arm_thickness: 1.4
+  twin_root_distance: 12.0
+  type: part
+  url_chat: ''
+  variant: key_size_extension_suite
+  weight_basis: estimated_solid_PETG_connector_kit_no_pots_or_hardware
+  weight_kg: 0.021696
+  width_mm: 133.765
+trial_layout_y_offset: 0
+twin_arm_thickness: 1.4
+twin_root_distance: 12.0
+url_chat: ''
+variant: key_size_extension_suite
+weight_basis: estimated_solid_PETG_connector_kit_no_pots_or_hardware
+weight_kg: 0.021696
+width_mm: 133.765

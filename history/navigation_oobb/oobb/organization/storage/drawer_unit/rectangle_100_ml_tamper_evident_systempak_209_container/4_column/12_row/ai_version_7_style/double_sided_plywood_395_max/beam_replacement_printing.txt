@@ -1,0 +1,26 @@
+V7 FINISHING UPGRADE
+double_sided_plywood_395_max: 56 snaps, 4 screw beams, 112 NEW covers.
+Print EACH listed STL ONCE, in the supplied orientation; SCADs reproduce them.
+snap_beams_01.stl
+snap_beams_02.stl
+snap_beams_03.stl
+snap_beams_04.stl
+screw_beams.stl
+front_plugs_corner_clearance.stl
+front_plugs_square_01.stl
+front_plugs_square_02.stl
+front_plugs_square_03.stl
+front_plugs_square_04.stl
+front_plugs_square_05.stl
+screw_adapters.stl
+Push-in caps: FOUR corner-clearance caps plus 108 full-square caps per COMPLETE two-sided unit; both styles are included in the named batches.
+SHORTER BEAMS: 15 mm less total; move the faces closer by this amount. Reuse existing covers, adapters and hardware.
+Reuse the preceding balanced/handed faces, screws and nuts; print ALL listed beams, locks AND adapters.
+NEW offset 9.8 mm square covers: centre the cover on the runner; the stem is 1.5 mm off-centre.
+Side-load M3 nuts from the beam bed-side opening BEFORE assembling faces.
+8 x 3 mm runners are offset 1.5 mm; 5 mm clip slots replace the old 7 mm slots.
+Centre stops rise 6 mm ABOVE the runner; no downward stop extension. Keep the supplied orientation.
+Full-unit stiffness, narrow-side lip bearing, insertion effort and creep require physical tests.
+Includes 8 NEW screw adapters; do not reuse the preceding long-guide adapters.
+Receiver depth split: nominal 3 + 3 mm; actual engagement 2.95 + 2.95 mm with a 0.1 mm gap.
+Keep trimmed adapter edges toward the same cabinet side at both ends; do not mirror flange orientation.

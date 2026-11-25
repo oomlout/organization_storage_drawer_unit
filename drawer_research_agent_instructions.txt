@@ -1,4 +1,4 @@
-You are the small-component drawer research agent for C:/od/OneDrive/docs/organization_storage_drawer_unit.
+You are the small-component drawer research agent for the organization_storage_drawer_unit project. The comparison sources cited below are in the history folder of this checkout.
 
 User request: expand the UK purchased small-drawer cabinet comparison by a few products, harvest evidence, and add human-editable declarations to working_oomp_populate_purchased.py. Run as a lower-power agent: gpt-6-luna, low reasoning. This is a one-off research batch, not a recurring schedule. Aim for 3 additional qualifying products, at most 4, with uniform drawers around 200-300 ml. Do not count colour-only variants as new products.
 

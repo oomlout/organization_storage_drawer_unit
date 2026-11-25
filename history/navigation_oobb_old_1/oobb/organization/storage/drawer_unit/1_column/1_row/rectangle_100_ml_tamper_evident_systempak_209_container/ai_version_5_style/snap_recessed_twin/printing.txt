@@ -1,0 +1,15 @@
+19: RECESSED TWO-TAB PUSH-IN CONNECTOR - PETG, mainly permanent.
+Print 3dpr.stl: one rail and one matching rectangular receiver.
+plate.stl and rail.stl are separate print-ready parts; assembled.stl is reference only.
+Keep the supplied orientation: receiver ENTRY FACE DOWN, rail on its long flat face.
+The larger catch pocket prints above the entry throat, avoiding a hanging ledge.
+Recessed 19 marks the print-top faces. There is no central guide or separate key.
+Push both tabs through the smaller rectangular entry until the full-width beam seats directly against the plate.
+Hooks recover into the wider pocket; both square catches remain inside the 7.5 mm receiver.
+Inspect recovery through the larger outside opening. Hook tips finish flush with that front face.
+Short tabs: 1.0 mm walls, 6 mm free length to the catches, 1.5 mm lead-in; no exposed neck behind the receiver.
+1.2 mm hooks, nominal 0.95 mm inward flex per tab, 0.25 mm side clearance and 0.2 mm axial catch clearance.
+Use the same PETG profile as the earlier coupons. Inspect the slicer for preserved tab walls.
+Record seating effort, play, whitening, hook recovery and retention before selecting a cabinet joint.
+This aggressive coupon is untested physically; no force or load rating is established.
+See RECESSED_TWIN_TAB_TEST.md.

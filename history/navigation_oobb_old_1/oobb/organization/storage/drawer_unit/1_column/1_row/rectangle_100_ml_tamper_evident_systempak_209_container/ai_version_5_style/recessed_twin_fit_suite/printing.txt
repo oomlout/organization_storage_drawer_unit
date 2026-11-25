@@ -1,0 +1,15 @@
+PETG FLUSH TWIN-TAB ARM THICKNESS TRIALS, BASED ON 19
+Print 3dpr.stl once: four numbered rails and four matching receivers.
+Bed order: 23 24 / 25 26. Arm thicknesses: 1.0 / 1.2 / 1.4 / 1.6 mm.
+23 is the sample-19 geometry control with a new number; 19 itself is unchanged.
+Both parts are engraved 0.6 mm deep. Receivers have identical fit geometry.
+trial_XX prints one pair; rail_XX and plate_XX are individual replacement parts.
+assembled and assembled_XX are inspection references, not one-piece prints.
+Keep the supplied poses: receiver ENTRY FACE DOWN, rail on its long flat face.
+Use the same PETG, nozzle, layer height and wall settings as successful sample 19.
+No supports in the spring slot or catch pocket. Inspect preservation of each arm in the slicer.
+Only arm thickness and its rounded slot-end radius change; receiver, hook, length and clearances stay fixed.
+Try 23 first, then 24, 25, 26. Use a fresh matched pair for each single-use insertion.
+Confirm both hooks recover and the beam seats flush; note force, looseness and cracking/whitening.
+Thicker arms may increase insertion force or break before seating; single use does not remove that risk.
+No drawer units adopt these thicker arms yet. See RECESSED_TWIN_FIT_TESTS.md.

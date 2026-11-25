@@ -1,0 +1,419 @@
+approved_for_oomp: true
+availability: 10-14 working days delivery lead time; page lists supplied in packs
+    of 3
+bip_39_2_word_array:
+- first
+- sketch
+bip_39_2_word_no_space: firstsketch
+bip_39_2_word_space: first sketch
+bip_39_2_word_underscore: first_sketch
+bip_39_3_word_array:
+- first
+- sketch
+- glide
+bip_39_3_word_no_space: firstsketchglide
+bip_39_3_word_space: first sketch glide
+bip_39_3_word_underscore: first_sketch_glide
+bip_39_full_array:
+- first
+- sketch
+- glide
+- faculty
+- just
+- frame
+- ask
+- brother
+- silver
+- general
+- vocal
+- regret
+bip_39_full_no_space: firstsketchglidefacultyjustframeaskbrothersilvergeneralvocalregret
+bip_39_full_space: first sketch glide faculty just frame ask brother silver general
+    vocal regret
+bip_39_full_underscore: first_sketch_glide_faculty_just_frame_ask_brother_silver_general_vocal_regret
+capacity_is_estimate: true
+capacity_rounding_increment_ml: 25
+cost_per_drawer_gbp: 0.67
+cost_per_kg_basis: net_unknown
+cost_per_kg_gbp: null
+depth_mm: 130
+directory: parts/organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_40_drawers_270_mm_width_420_mm_height_130_mm_depth_barton_140_3
+drawer_capacity_basis: estimated_rectangular_volume_published_drawer_dimensions_internal_status_unspecified
+drawer_capacity_ml: 225
+drawer_capacity_unrounded_ml: 220.5
+drawer_sizes:
+-   capacity_ml: 225
+    capacity_unrounded_ml: 220.5
+    count: 40
+    depth_mm: 105
+    dimension_basis: published_drawer_dimensions_internal_status_unspecified
+    drawer_model: small
+    height_mm: 35
+    rectangular_volume_ml: 220.5
+    width_mm: 60
+for_sale_url: https://www.csi-products.co.uk/storage-and-shelving/small-parts-storage-and-picking/bin-and-drawer-cabinets/multi-drawer-storage-unit-40-drawers?cclcl=en_GB
+height_mm: 420
+id: organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_40_drawers_270_mm_width_420_mm_height_130_mm_depth_barton_140_3
+id_no_class: organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_40_drawers_270_mm_width_420_mm_height_130_mm_depth_barton_140_3
+id_no_size: organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_40_drawers_270_mm_width_420_mm_height_130_mm_depth_barton_140_3
+id_no_type: organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_40_drawers_270_mm_width_420_mm_height_130_mm_depth_barton_140_3
+image_checked_date: '2026-10-18'
+image_source_url: https://www.csi-products.co.uk/storage-and-shelving/small-parts-storage-and-picking/bin-and-drawer-cabinets/multi-drawer-storage-unit-40-drawers?cclcl=en_GB
+image_static_path: drawer_photos/14.png
+image_url: https://s3.eu-central-1.amazonaws.com/csi-products.co.uk/images/140-3.jpg
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_40_drawers_270_mm_width_420_mm_height_130_mm_depth_barton_140_3
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_40_drawers_270_mm_width_420_mm_height_130_mm_depth_barton_140_3
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_40_drawers_270_mm_width_420_mm_height_130_mm_depth_barton_140_3
+manufacturer: barton
+manufacturer_identity_basis: manufacturer
+manufacturer_stock_code: null
+md5: 5779458c28d796b90350e7c8cc1bd55a
+md5_10: 5779458c28
+md5_10_upper: 5779458C28
+md5_5: '57794'
+md5_5_upper: '57794'
+md5_6: '577945'
+md5_6_alpha: 3evd1
+md5_6_alpha_upper: 3EVD1
+md5_6_upper: '577945'
+minimum_order_quantity: 3
+minimum_order_required_spend_gbp: 79.79
+model_number: Topstore 40 Drawer Unit
+name: Organization Storage Drawer Unit Small Drawers 225 Ml Estimated Capacity 40
+    Drawers 270 Mm Width 420 Mm Height 130 Mm Depth Barton 140 3
+name_no_class: Organization Storage Drawer Unit Small Drawers 225 Ml Estimated Capacity
+    40 Drawers 270 Mm Width 420 Mm Height 130 Mm Depth Barton 140 3
+name_no_size: Organization Storage Drawer Unit Small Drawers 225 Ml Estimated Capacity
+    40 Drawers 270 Mm Width 420 Mm Height 130 Mm Depth Barton 140 3
+name_no_type: Organization Storage Drawer Unit Small Drawers 225 Ml Estimated Capacity
+    40 Drawers 270 Mm Width 420 Mm Height 130 Mm Depth Barton 140 3
+name_proper: Organization Storage Drawer Unit Small Drawers 225 Ml Estimated Capacity
+    40 Drawers 270 Mm Width 420 Mm Height 130 Mm Depth Barton 140 3
+name_space: organization storage drawer unit small drawers 225 ml estimated capacity
+    40 drawers 270 mm width 420 mm height 130 mm depth barton 140 3
+name_upper: ORGANIZATION STORAGE DRAWER UNIT SMALL DRAWERS 225 ML ESTIMATED CAPACITY
+    40 DRAWERS 270 MM WIDTH 420 MM HEIGHT 130 MM DEPTH BARTON 140 3
+number_of_drawers: 40
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            approved_for_oomp: true
+            availability: 10-14 working days delivery lead time; page lists supplied
+                in packs of 3
+            capacity_is_estimate: true
+            capacity_rounding_increment_ml: 25
+            cost_per_drawer_gbp: 0.67
+            cost_per_kg_basis: net_unknown
+            cost_per_kg_gbp: null
+            depth_mm: 130
+            directory: parts\organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_40_drawers_270_mm_width_420_mm_height_130_mm_depth_barton_140_3
+            drawer_capacity_basis: estimated_rectangular_volume_published_drawer_dimensions_internal_status_unspecified
+            drawer_capacity_ml: 225
+            drawer_capacity_unrounded_ml: 220.5
+            drawer_sizes:
+            -   capacity_ml: 225
+                capacity_unrounded_ml: 220.5
+                count: 40
+                depth_mm: 105
+                dimension_basis: published_drawer_dimensions_internal_status_unspecified
+                drawer_model: small
+                height_mm: 35
+                rectangular_volume_ml: 220.5
+                width_mm: 60
+            for_sale_url: https://www.csi-products.co.uk/storage-and-shelving/small-parts-storage-and-picking/bin-and-drawer-cabinets/multi-drawer-storage-unit-40-drawers?cclcl=en_GB
+            height_mm: 420
+            image_checked_date: '2026-10-18'
+            image_source_url: https://www.csi-products.co.uk/storage-and-shelving/small-parts-storage-and-picking/bin-and-drawer-cabinets/multi-drawer-storage-unit-40-drawers?cclcl=en_GB
+            image_static_path: drawer_photos/14.png
+            image_url: https://s3.eu-central-1.amazonaws.com/csi-products.co.uk/images/140-3.jpg
+            manufacturer: barton
+            manufacturer_identity_basis: manufacturer
+            manufacturer_stock_code: null
+            minimum_order_quantity: 3
+            minimum_order_required_spend_gbp: 79.79
+            model_number: Topstore 40 Drawer Unit
+            name: organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_40_drawers_270_mm_width_420_mm_height_130_mm_depth_barton_140_3
+            name_proper: Organization Storage Drawer Unit Small Drawers 225 Ml Estimated
+                Capacity 40 Drawers 270 Mm Width 420 Mm Height 130 Mm Depth Barton
+                140 3
+            name_space: organization storage drawer unit small drawers 225 ml estimated
+                capacity 40 drawers 270 mm width 420 mm height 130 mm depth barton
+                140 3
+            name_upper: ORGANIZATION STORAGE DRAWER UNIT SMALL DRAWERS 225 ML ESTIMATED
+                CAPACITY 40 DRAWERS 270 MM WIDTH 420 MM HEIGHT 130 MM DEPTH BARTON
+                140 3
+            number_of_drawers: 40
+            part_number: 140/3
+            part_number_basis: retailer_catalogue_number
+            price_basis: per_cabinet_derived_from_supplier_pack_price_including_vat_divided_by_three
+            price_excludes_delivery: true
+            price_gbp: 26.6
+            price_includes_vat: true
+            price_source_url: https://www.csi-products.co.uk/storage-and-shelving/small-parts-storage-and-picking/bin-and-drawer-cabinets/multi-drawer-storage-unit-40-drawers?cclcl=en_GB
+            product_name: Barton Topstore 40 drawer storage unit
+            proposal_number: 14
+            proposal_revision: 3
+            published_cabinet_capacity_ml: null
+            published_pack_price_ex_vat_gbp: 66.49
+            published_pack_price_gbp: 79.79
+            published_pack_quantity: 3
+            published_price_ex_vat_gbp: 22.16
+            record_type: purchased_drawer_unit
+            research_date: '2026-10-18'
+            research_notes: "CSI lists product SKU 140/3, identifies Barton Topstore,\
+                \ specifies 40 removable small drawers at 35 x 60 x 105 mm and says\
+                \ supplied in packs of 3. It lists \xA366.49 ex VAT (\xA379.79 inc\
+                \ VAT) for the pack; price_gbp and published_price_ex_vat_gbp are\
+                \ the half-up penny-rounded per-cabinet division by three. Barton\
+                \ confirms a 40 drawer model with 40 small drawers and overall 420\
+                \ x 270 x 130 mm dimensions; its page gives small drawer size as 3\
+                \ x 60 x 105 mm, apparently omitting a digit in height. CSI confirms\
+                \ 35 mm height. Capacity is estimated from published dimensions, whose\
+                \ internal/external status is not stated. Net product mass is unknown.\
+                \ The catalogue number is seller-reported and not independently verified\
+                \ as the manufacturer's part number."
+            seller: CSI Products
+            shipping_weight_kg: null
+            specification_urls:
+            - https://bartonstorage.com/product/topstore-40-drawer-units/
+            - https://www.csi-products.co.uk/storage-and-shelving/small-parts-storage-and-picking/bin-and-drawer-cabinets/multi-drawer-storage-unit-40-drawers?cclcl=en_GB
+            taxonomy_1: organization
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: barton
+            taxonomy_15: '140_3'
+            taxonomy_2: storage
+            taxonomy_3: drawer_unit
+            taxonomy_4: small_drawers
+            taxonomy_5: 225_ml_estimated_capacity
+            taxonomy_6: 40_drawers
+            taxonomy_7: 270_mm_width
+            taxonomy_8: 420_mm_height
+            taxonomy_9: 130_mm_depth
+            uniform_drawer_size: true
+            unit_dimensions_basis: external_overall_dimensions
+            url_chat: ''
+            weight_basis: net_unknown
+            weight_kg: null
+            width_mm: 270
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\od\OneDrive\docs\organization_storage_drawer_unit\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomp_key: oomp_organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_40_drawers_270_mm_width_420_mm_height_130_mm_depth_barton_140_3
+part_number: 140/3
+part_number_basis: retailer_catalogue_number
+price_basis: per_cabinet_derived_from_supplier_pack_price_including_vat_divided_by_three
+price_excludes_delivery: true
+price_gbp: 26.6
+price_includes_vat: true
+price_source_url: https://www.csi-products.co.uk/storage-and-shelving/small-parts-storage-and-picking/bin-and-drawer-cabinets/multi-drawer-storage-unit-40-drawers?cclcl=en_GB
+product_name: Barton Topstore 40 drawer storage unit
+proposal_number: 14
+proposal_revision: 3
+published_cabinet_capacity_ml: null
+published_pack_price_ex_vat_gbp: 66.49
+published_pack_price_gbp: 79.79
+published_pack_quantity: 3
+published_price_ex_vat_gbp: 22.16
+record_type: purchased_drawer_unit
+research_date: '2026-10-18'
+research_notes: "CSI lists product SKU 140/3, identifies Barton Topstore, specifies\
+    \ 40 removable small drawers at 35 x 60 x 105 mm and says supplied in packs of\
+    \ 3. It lists \xA366.49 ex VAT (\xA379.79 inc VAT) for the pack; price_gbp and\
+    \ published_price_ex_vat_gbp are the half-up penny-rounded per-cabinet division\
+    \ by three. Barton confirms a 40 drawer model with 40 small drawers and overall\
+    \ 420 x 270 x 130 mm dimensions; its page gives small drawer size as 3 x 60 x\
+    \ 105 mm, apparently omitting a digit in height. CSI confirms 35 mm height. Capacity\
+    \ is estimated from published dimensions, whose internal/external status is not\
+    \ stated. Net product mass is unknown. The catalogue number is seller-reported\
+    \ and not independently verified as the manufacturer's part number."
+scad_filter: ai_version_7
+seller: CSI Products
+shipping_weight_kg: null
+specification_urls:
+- https://bartonstorage.com/product/topstore-40-drawer-units/
+- https://www.csi-products.co.uk/storage-and-shelving/small-parts-storage-and-picking/bin-and-drawer-cabinets/multi-drawer-storage-unit-40-drawers?cclcl=en_GB
+taxonomy_1: organization
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: barton
+taxonomy_14_capital: Barton
+taxonomy_14_first_letter: b
+taxonomy_14_first_letter_upper: B
+taxonomy_14_length_1: b
+taxonomy_14_length_2: ba
+taxonomy_14_length_3: bar
+taxonomy_14_length_4: bart
+taxonomy_14_length_5: barto
+taxonomy_14_upper: BARTON
+taxonomy_14_upper_length_1: B
+taxonomy_14_upper_length_2: BA
+taxonomy_14_upper_length_3: BAR
+taxonomy_14_upper_length_4: BART
+taxonomy_14_upper_length_5: BARTO
+taxonomy_15: '140_3'
+taxonomy_15_capital: 140 3
+taxonomy_15_first_letter: '1'
+taxonomy_15_first_letter_upper: '1'
+taxonomy_15_length_1: '1'
+taxonomy_15_length_2: '14'
+taxonomy_15_length_3: '140'
+taxonomy_15_length_4: '140_'
+taxonomy_15_length_5: '140_3'
+taxonomy_15_upper: '140_3'
+taxonomy_15_upper_length_1: '1'
+taxonomy_15_upper_length_2: '14'
+taxonomy_15_upper_length_3: '140'
+taxonomy_15_upper_length_4: '140_'
+taxonomy_15_upper_length_5: '140_3'
+taxonomy_1_capital: Organization
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: or
+taxonomy_1_length_3: org
+taxonomy_1_length_4: orga
+taxonomy_1_length_5: organ
+taxonomy_1_upper: ORGANIZATION
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OR
+taxonomy_1_upper_length_3: ORG
+taxonomy_1_upper_length_4: ORGA
+taxonomy_1_upper_length_5: ORGAN
+taxonomy_2: storage
+taxonomy_2_capital: Storage
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: st
+taxonomy_2_length_3: sto
+taxonomy_2_length_4: stor
+taxonomy_2_length_5: stora
+taxonomy_2_upper: STORAGE
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: ST
+taxonomy_2_upper_length_3: STO
+taxonomy_2_upper_length_4: STOR
+taxonomy_2_upper_length_5: STORA
+taxonomy_3: drawer_unit
+taxonomy_3_capital: Drawer Unit
+taxonomy_3_first_letter: d
+taxonomy_3_first_letter_upper: D
+taxonomy_3_length_1: d
+taxonomy_3_length_2: dr
+taxonomy_3_length_3: dra
+taxonomy_3_length_4: draw
+taxonomy_3_length_5: drawe
+taxonomy_3_upper: DRAWER_UNIT
+taxonomy_3_upper_length_1: D
+taxonomy_3_upper_length_2: DR
+taxonomy_3_upper_length_3: DRA
+taxonomy_3_upper_length_4: DRAW
+taxonomy_3_upper_length_5: DRAWE
+taxonomy_4: small_drawers
+taxonomy_4_capital: Small Drawers
+taxonomy_4_first_letter: s
+taxonomy_4_first_letter_upper: S
+taxonomy_4_length_1: s
+taxonomy_4_length_2: sm
+taxonomy_4_length_3: sma
+taxonomy_4_length_4: smal
+taxonomy_4_length_5: small
+taxonomy_4_upper: SMALL_DRAWERS
+taxonomy_4_upper_length_1: S
+taxonomy_4_upper_length_2: SM
+taxonomy_4_upper_length_3: SMA
+taxonomy_4_upper_length_4: SMAL
+taxonomy_4_upper_length_5: SMALL
+taxonomy_5: 225_ml_estimated_capacity
+taxonomy_5_capital: 225 Ml Estimated Capacity
+taxonomy_5_first_letter: '2'
+taxonomy_5_first_letter_upper: '2'
+taxonomy_5_length_1: '2'
+taxonomy_5_length_2: '22'
+taxonomy_5_length_3: '225'
+taxonomy_5_length_4: '225_'
+taxonomy_5_length_5: 225_m
+taxonomy_5_upper: 225_ML_ESTIMATED_CAPACITY
+taxonomy_5_upper_length_1: '2'
+taxonomy_5_upper_length_2: '22'
+taxonomy_5_upper_length_3: '225'
+taxonomy_5_upper_length_4: '225_'
+taxonomy_5_upper_length_5: 225_M
+taxonomy_6: 40_drawers
+taxonomy_6_capital: 40 Drawers
+taxonomy_6_first_letter: '4'
+taxonomy_6_first_letter_upper: '4'
+taxonomy_6_length_1: '4'
+taxonomy_6_length_2: '40'
+taxonomy_6_length_3: '40_'
+taxonomy_6_length_4: 40_d
+taxonomy_6_length_5: 40_dr
+taxonomy_6_upper: 40_DRAWERS
+taxonomy_6_upper_length_1: '4'
+taxonomy_6_upper_length_2: '40'
+taxonomy_6_upper_length_3: '40_'
+taxonomy_6_upper_length_4: 40_D
+taxonomy_6_upper_length_5: 40_DR
+taxonomy_7: 270_mm_width
+taxonomy_7_capital: 270 mm Width
+taxonomy_7_first_letter: '2'
+taxonomy_7_first_letter_upper: '2'
+taxonomy_7_length_1: '2'
+taxonomy_7_length_2: '27'
+taxonomy_7_length_3: '270'
+taxonomy_7_length_4: '270_'
+taxonomy_7_length_5: 270_m
+taxonomy_7_upper: 270_MM_WIDTH
+taxonomy_7_upper_length_1: '2'
+taxonomy_7_upper_length_2: '27'
+taxonomy_7_upper_length_3: '270'
+taxonomy_7_upper_length_4: '270_'
+taxonomy_7_upper_length_5: 270_M
+taxonomy_8: 420_mm_height
+taxonomy_8_capital: 420 mm Height
+taxonomy_8_first_letter: '4'
+taxonomy_8_first_letter_upper: '4'
+taxonomy_8_length_1: '4'
+taxonomy_8_length_2: '42'
+taxonomy_8_length_3: '420'
+taxonomy_8_length_4: '420_'
+taxonomy_8_length_5: 420_m
+taxonomy_8_upper: 420_MM_HEIGHT
+taxonomy_8_upper_length_1: '4'
+taxonomy_8_upper_length_2: '42'
+taxonomy_8_upper_length_3: '420'
+taxonomy_8_upper_length_4: '420_'
+taxonomy_8_upper_length_5: 420_M
+taxonomy_9: 130_mm_depth
+taxonomy_9_capital: 130 mm Depth
+taxonomy_9_first_letter: '1'
+taxonomy_9_first_letter_upper: '1'
+taxonomy_9_length_1: '1'
+taxonomy_9_length_2: '13'
+taxonomy_9_length_3: '130'
+taxonomy_9_length_4: '130_'
+taxonomy_9_length_5: 130_m
+taxonomy_9_upper: 130_MM_DEPTH
+taxonomy_9_upper_length_1: '1'
+taxonomy_9_upper_length_2: '13'
+taxonomy_9_upper_length_3: '130'
+taxonomy_9_upper_length_4: '130_'
+taxonomy_9_upper_length_5: 130_M
+uniform_drawer_size: true
+unit_dimensions_basis: external_overall_dimensions
+url_chat: ''
+weight_basis: net_unknown
+weight_kg: null
+width_mm: 270
