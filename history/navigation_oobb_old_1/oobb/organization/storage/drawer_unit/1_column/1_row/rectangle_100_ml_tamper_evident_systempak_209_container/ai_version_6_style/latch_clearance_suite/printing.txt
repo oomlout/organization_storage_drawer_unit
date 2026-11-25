@@ -1,0 +1,15 @@
+V6 numbered latch clearance test, samples 30-38. Dimensions in mm.
+Print 3dpr.stl ONCE for all nine short rail ends, as arranged with numbers UP. No receiver needs printing.
+The kit is 43 x 70 x 10 mm; each specimen is 11 x 20 x 10 mm. Keep the supplied long-face-down orientation.
+Use the same PETG, nozzle, layer height and slicer settings as the production rails. No designed supports.
+Numbers are recessed 0.5 mm into the solid grip, away from the springs.
+Test each numbered tip from INSIDE the existing V6 plate, just like a rail end. Seat the broad shoulder against the plate.
+The production receiver, both cabinet designs and all full rails remain unchanged.
+30 is the original V6 fit. 30/31/32: hook-pocket side clearance 0.25; 33/34/35: 0.15; 36/37/38: 0.05 per side.
+Within each group, end play is 0.20 / 0.10 / 0.05 respectively. These are nominal CAD clearances.
+Only the hook reach and retaining shoulder position change. Arm body side clearance and vertical clearance remain 0.25.
+The 1.8 mm arms, slot roots, bearing strips and flush tip position are unchanged. Tighter hooks require more insertion flex.
+Compare the seated sideways wiggle and pull/push play; report the preferred number and whether it clicked/needed excessive effort.
+For removal, squeeze the two hooks inward from the outside while withdrawing the grip.
+sample_*.stl are individual replacements; control_rail.stl is an unnumbered baseline for CAD validation, not an extra kit piece.
+results.csv is yours to fill in and will never be overwritten by regeneration. Physical PETG fit/retention are unverified.

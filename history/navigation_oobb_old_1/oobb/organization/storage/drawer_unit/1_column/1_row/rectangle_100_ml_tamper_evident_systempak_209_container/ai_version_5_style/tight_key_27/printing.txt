@@ -1,0 +1,13 @@
+SAMPLE 27 - TIGHTER SEPARATE LOCKING KEY, based on sample 22.
+Print key.stl alone to use with your existing sample 22 beam and plate.
+3dpr.stl contains one key plus a matching numbered beam and plate.
+rail.stl and plate.stl differ from 22 only in their recessed number.
+assembled.stl is an assembly reference, not a one-piece print.
+Print in the supplied orientation: key flexes in the bed plane.
+PETG; use the same slicer settings as your successful sample 22.
+Seat the beam in the plate, then press the key sideways until both hooks recover.
+Head and hooks capture the tongue with 0.1 mm at each face.
+The larger head stop and closer hooks reduce sideways key play; beam/plate and slot clearances are unchanged.
+The shorter free arms will be stiffer. Inspect both recovered hooks; do not rely on friction alone.
+No support inside the key fork; the beam retains its original short slot bridge.
+CAD-checked only. Confirm insertion, retention and durability with a physical PETG print.

@@ -1,0 +1,6 @@
+sample_number,technique,receiver_material,measured_thickness_mm,insertion_effort,release_effort,side_play,axial_play,cycles,damage,preferred,notes
+50,straight,,,,,,,,,,
+51,tapered,,,,,,,,,,
+52,curved,,,,,,,,,,
+53,keeper,,,,,,,,,,
+54,drop_loop,,,,,,,,,,
