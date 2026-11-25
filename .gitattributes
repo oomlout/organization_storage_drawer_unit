@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve byte offsets in generated assembly booklets on every platform.
+parts/**/assembly.pdf binary

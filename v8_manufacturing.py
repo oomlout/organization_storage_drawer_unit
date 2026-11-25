@@ -12,6 +12,7 @@ import oobb
 import trimesh
 import yaml
 
+from presentation import catalogue, scenes
 import working_scad as cad
 from v8_joiner_section import render as render_joiner_section, render_cap_section
 from working_oomp_populate import record_id, selected_options
@@ -105,7 +106,7 @@ def frame_outputs(folder, inputs, export, joiner_id):
     if p.get("corner_fixing"):
         meta["compatible_joiner_part"]=joiner_id
     write_json(folder/"assembly.json",meta)
-    lines=[f"V8 Systempak 209 / {p['variant']} per face / {q['drawer_count']} pots total",
+    lines=[f"V8 {p['tray_name']} / {p['variant']} per face / {q['drawer_count']} pots total",
            "Print front.stl and back.stl once each, outside face down. Keep the handed faces in their supplied orientations.",
            "Print each of these batches ONCE, in the supplied orientation:"]
     lines += [f"  {n}.stl  ({b['count']} x {b['component']})" for n,b in p["print_batches"].items()]
@@ -131,6 +132,7 @@ def frame_outputs(folder, inputs, export, joiner_id):
         files=["front.stl","back.stl",*[n+".stl" for n in p["print_batches"]],
                *[n+".dxf" for n,_ in cuts],"printing.txt","assembly.json","assembly_preview.png"]
         kit(folder,files)
+        scenes.render(folder,p,inputs,meta)
 
 
 def joiner_outputs(folder, accessory, frames, export):
@@ -147,11 +149,11 @@ def joiner_outputs(folder, accessory, frames, export):
         cad.draw_hardware(thing,p,kind)
         write_solid(folder,"joiner_"+kind+"_reference",thing,export,mode="true")
     w=p["frame"]["width_total"]
-    scenes=[("joiners_in_use",False,False,f"{w*3.2},-{w*5.7},450,0,100,0"),
+    assembly_views=[("joiners_in_use",False,False,f"{w*3.2},-{w*5.7},450,0,100,0"),
             ("joiners_detail",True,False,"65,-130,55,0,12,0"),
             ("joiners_backing_detail",True,False,"55,105,45,0,14,0"),
             ("joiners_section",True,True,"17,40,98,0,11,-5")]
-    for name,detail,section,camera in scenes:
+    for name,detail,section,camera in assembly_views:
         thing=oobb.get_default_thing(type="installed_joiner")
         cad.draw_joiners_scene(thing,p,detail,section)
         write_solid(folder,name,thing,False)
@@ -160,9 +162,10 @@ def joiner_outputs(folder, accessory, frames, export):
         elif export:
             openscad(folder/(name+".scad"),folder/(name+".png"),"--render",
                      "--imgsize=1000,750","--projection=o","--camera="+camera)
-    write_json(folder/"assembly.json",dict(version=8,part_role="accessory",
+    meta=dict(version=8,part_role="accessory",
         compatible_frames=accessory["compatible_frames"],reference_frame=ref_folder.name,
-        pieces=p["joiners"],settings=p["corner_fixing"],hardware_per_hole="M3 x 25 countersunk screw and M3 nut"))
+        pieces=p["joiners"],settings=p["corner_fixing"],hardware_per_hole="M3 x 25 countersunk screw and M3 nut")
+    write_json(folder/"assembly.json",meta)
     instructions=Path(__file__).with_name("joiner_printing.txt").read_text(encoding="utf-8")
     (folder/"printing.txt").write_text(instructions,encoding="utf-8")
     if export:
@@ -175,7 +178,8 @@ def joiner_outputs(folder, accessory, frames, export):
         report["bracket_profiles"]=validate_joiner_profile(folder,ref_folder,p)
         report["sample_difference_mm3"]=validate_samples(folder,ref_folder,p)
         write_json(folder/"validation.json",report)
-        kit(folder,[n+ext for n in names for ext in [".scad",".stl"]]+[n+".png" for n,*_ in scenes]+["joiners_clip_clearance.png","assembly.json","printing.txt"])
+        kit(folder,[n+ext for n in names for ext in [".scad",".stl"]]+[n+".png" for n,*_ in assembly_views]+["joiners_clip_clearance.png","assembly.json","printing.txt"])
+        scenes.render(folder,p,accessory,meta,ref_folder)
 
 
 def generate(part=None,generate_stl=True):
@@ -202,7 +206,8 @@ def generate(part=None,generate_stl=True):
                 os.replace(file,folder/file.name)
         nav=Path("navigation_oobb").joinpath(*(opt[f"taxonomy_{i}"] for i in range(1,9) if f"taxonomy_{i}" in opt))
         nav.mkdir(parents=True,exist_ok=True)
-        shutil.copytree(folder,nav,dirs_exist_ok=True)
+        shutil.copytree(folder,nav,dirs_exist_ok=True,ignore=shutil.ignore_patterns(
+            "README.md","presentation.jpg","assembly-step-*.jpg","assembly.pdf","assembly.html"))
         if record["part_role"] == "accessory":
             frame_folder = Path("parts") / record_id(records[record["reference_frame"]])
             canonical = "../" + frame_folder.name + "/assembled.stl"
@@ -211,3 +216,6 @@ def generate(part=None,generate_stl=True):
                 scene = nav / (name+".scad")
                 scene.write_text(scene.read_text().replace(canonical, relative))
         print(f"Built {folder}",flush=True)
+    if generate_stl:
+        published = [r for r in get_current_options() if (Path("parts")/record_id(r)/"README.md").is_file()]
+        catalogue.write_index(Path.cwd(), published)

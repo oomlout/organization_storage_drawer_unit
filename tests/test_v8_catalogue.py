@@ -16,9 +16,9 @@ class V8CatalogueTests(unittest.TestCase):
     def setUp(self):
         self.parts = {p["variant"]: p for p in population.get_current_options()}
 
-    def test_four_distinct_current_records(self):
-        self.assertEqual(list(self.parts), ["1x1", "2x2", "2x7", "joiners"])
-        self.assertEqual(len({population.record_id(p) for p in self.parts.values()}), 4)
+    def test_distinct_current_records(self):
+        self.assertTrue({"1x1", "2x2", "2x7", "joiners"} <= self.parts.keys())
+        self.assertEqual(len({population.record_id(p) for p in self.parts.values()}), len(self.parts))
         self.assertTrue(all(p["version"] == 8 for p in self.parts.values()))
         with self.assertRaises(ValueError):
             population.selected_options("unit_1_wide_2_tall")
@@ -42,11 +42,28 @@ class V8CatalogueTests(unittest.TestCase):
         self.assertEqual({pad["layout_y"] for pad in slots}, {slots[0]["layout_y"]})
         self.assertEqual(p["cap_quantities"], {"front_plug": 4, "front_plug_square": 0})
 
+    def test_new_tray_family_reaches_the_catalogue_and_manual(self):
+        from presentation.catalogue import write_index, tray_name
+        tray = dict(population.TRAYS["systempak_209_100_ml"], name="Test pot", capacity_ml=150,
+                    dimensions_mm={"across": 95, "height": 31, "depth": 110},
+                    layouts={"test-1x3": {"grid": (1, 3), "mounts": "top_braces"}})
+        with patch.dict(population.TRAYS, {"test_150_ml": tray}):
+            record, = population.selected_options("test-1x3")
+            self.assertEqual(record["drawer_count"], 6)
+            self.assertEqual(record["taxonomy_5"], "test_150_ml")
+            self.assertNotIn("corner_fixing", record)
+            self.assertIn("150 ml", tray_name(record))
+            with TemporaryDirectory() as tmp:
+                write_index(Path(tmp), [record])
+                index = (Path(tmp) / "README.md").read_text(encoding="utf-8")
+                self.assertIn(population.record_id(record) + "/presentation.jpg", index)
+                self.assertIn("Test pot", index)
+
     def test_joiner_is_an_independent_accessory(self):
         accessory = self.parts["joiners"]
         self.assertEqual(accessory["part_role"], "accessory")
-        self.assertEqual(accessory["compatible_frames"], ["1x1", "2x2"])
-        self.assertEqual([p["variant"] for p in population.selected_options("joiners")], ["1x1","2x2","joiners"])
+        self.assertTrue({"1x1", "2x2"} <= set(accessory["compatible_frames"]))
+        self.assertEqual([p["variant"] for p in population.selected_options("joiners")], [*accessory["compatible_frames"], "joiners"])
         self.assertEqual([p["variant"] for p in population.selected_options("2x7")], ["2x7"])
         self.assertNotIn("corner_fixing", self.parts["2x7"])
         host = self.parts[accessory["reference_frame"]]

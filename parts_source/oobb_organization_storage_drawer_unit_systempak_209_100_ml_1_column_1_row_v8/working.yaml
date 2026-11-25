@@ -24,6 +24,7 @@ drawer_capacity_ml: 100
 drawer_count: 2
 drawer_sides: 2
 face_stop_profile: inside_flat
+featured: false
 finger_count: 4
 finishing_revision: upstop_split_receiver_offset_lock
 frame_definition:
@@ -134,6 +135,7 @@ oobb_details:
   drawer_count: 2
   drawer_sides: 2
   face_stop_profile: inside_flat
+  featured: false
   finger_count: 4
   finishing_revision: upstop_split_receiver_offset_lock
   frame_definition:
@@ -304,6 +306,7 @@ oobb_details:
   taxonomy_8: v8
   tip_land: 0.1
   tongue_height: 5.0
+  tray_name: Systempak 209
   trials:
   - arm_thickness: 1.2
     axial_clearance: 0.1
@@ -408,6 +411,7 @@ taxonomy_8: v8
 taxonomy_9: ''
 tip_land: 0.1
 tongue_height: 5.0
+tray_name: Systempak 209
 trials:
 - arm_thickness: 1.2
   axial_clearance: 0.1

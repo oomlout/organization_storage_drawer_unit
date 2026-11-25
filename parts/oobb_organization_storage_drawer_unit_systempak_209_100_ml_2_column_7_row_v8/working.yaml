@@ -48,6 +48,7 @@ directory: parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_co
 drawer_capacity_ml: 100
 drawer_count: 28
 drawer_sides: 2
+featured: true
 finger_count: 4
 finishing_revision: upstop_split_receiver_offset_lock
 frame_definition:
@@ -174,6 +175,7 @@ oobb_details:
     drawer_capacity_ml: 100
     drawer_count: 28
     drawer_sides: 2
+    featured: true
     finger_count: 4
     finishing_revision: upstop_split_receiver_offset_lock
     frame_definition:
@@ -344,6 +346,7 @@ oobb_details:
     taxonomy_8: v8
     tip_land: 0.1
     tongue_height: 5.0
+    tray_name: Systempak 209
     trials:
     -   arm_thickness: 1.2
         axial_clearance: 0.1
@@ -561,6 +564,7 @@ taxonomy_8_upper_length_5: V8
 taxonomy_9: ''
 tip_land: 0.1
 tongue_height: 5.0
+tray_name: Systempak 209
 trials:
 -   arm_thickness: 1.2
     axial_clearance: 0.1
