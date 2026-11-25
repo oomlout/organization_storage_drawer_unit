@@ -1,0 +1,86 @@
+approved_for_oomp: true
+availability: 5 working days delivery lead time; page offers add-to-cart; listed as
+  supplied in packs of 6
+capacity_is_estimate: true
+capacity_rounding_increment_ml: 25
+cost_per_drawer_gbp: 0.92
+cost_per_kg_basis: net_unknown
+cost_per_kg_gbp: null
+depth_mm: 130
+drawer_capacity_basis: estimated_rectangular_volume_published_drawer_dimensions_internal_status_unspecified
+drawer_capacity_ml: 225
+drawer_capacity_unrounded_ml: 220.5
+drawer_sizes:
+- capacity_ml: 225
+  capacity_unrounded_ml: 220.5
+  count: 20
+  depth_mm: 105
+  dimension_basis: published_drawer_dimensions_internal_status_unspecified
+  drawer_model: small
+  height_mm: 35
+  rectangular_volume_ml: 220.5
+  width_mm: 60
+for_sale_url: https://www.csi-products.co.uk/multi-drawer-storage-unit-20-drawers?cclcl=en_GB
+height_mm: 210
+image_checked_date: '2026-10-18'
+image_source_url: https://www.csi-products.co.uk/multi-drawer-storage-unit-20-drawers?cclcl=en_GB
+image_static_path: drawer_photos/13.png
+image_url: https://s3.eu-central-1.amazonaws.com/csi-products.co.uk/images/Multi-Drawer-Storage-Unit-220-6.jpg
+manufacturer: barton
+manufacturer_identity_basis: manufacturer
+manufacturer_stock_code: 220/6
+minimum_order_quantity: 6
+minimum_order_required_spend_gbp: 110.05
+model_number: Topstore 20 Drawer Unit
+number_of_drawers: 20
+part_number: 220/6
+part_number_basis: manufacturer_catalogue_number
+price_basis: per_cabinet_derived_from_supplier_pack_price_including_vat_divided_by_six
+price_excludes_delivery: true
+price_gbp: 18.34
+price_includes_vat: true
+price_source_url: https://www.csi-products.co.uk/multi-drawer-storage-unit-20-drawers?cclcl=en_GB
+product_name: Barton Topstore 20 drawer storage unit
+proposal_number: 13
+proposal_revision: 3
+published_cabinet_capacity_ml: null
+published_pack_price_ex_vat_gbp: 91.71
+published_pack_price_gbp: 110.05
+published_pack_quantity: 6
+published_price_ex_vat_gbp: 15.29
+record_type: purchased_drawer_unit
+research_date: '2026-10-18'
+research_notes: CSI lists SKU 220/6, identifies the product as Barton Topstore, specifies
+  20 small removable drawers at 35 x 60 x 105 mm and says supplied in packs of 6.
+  It lists £91.71 ex VAT (£110.05 inc VAT) for the pack; price_gbp and published_price_ex_vat_gbp
+  are the half-up penny-rounded per-cabinet division by six. Barton confirms the product
+  family and small drawer size as 3 x 60 x 105 mm on its page, apparently omitting
+  a digit in height; the seller's 35 mm height agrees with the manufacturer catalogue
+  PDF. Capacity is estimated from those published dimensions, whose internal/external
+  status is not stated. Net product mass is unknown.
+seller: CSI Products
+shipping_weight_kg: null
+specification_urls:
+- https://bartonstorage.com/product/topstore-20-drawer-units/
+- https://www.officestationery.co.uk/documents/MJ32117.pdf
+- https://www.csi-products.co.uk/multi-drawer-storage-unit-20-drawers?cclcl=en_GB
+taxonomy_1: organization
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: barton
+taxonomy_15: '220_6'
+taxonomy_2: storage
+taxonomy_3: drawer_unit
+taxonomy_4: small_drawers
+taxonomy_5: 225_ml_estimated_capacity
+taxonomy_6: 20_drawers
+taxonomy_7: 270_mm_width
+taxonomy_8: 210_mm_height
+taxonomy_9: 130_mm_depth
+uniform_drawer_size: true
+unit_dimensions_basis: external_overall_dimensions
+weight_basis: net_unknown
+weight_kg: null
+width_mm: 270

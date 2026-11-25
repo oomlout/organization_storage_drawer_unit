@@ -1,0 +1,87 @@
+approved_for_oomp: true
+availability: 10-14 working days delivery lead time; page lists supplied in packs
+  of 3
+capacity_is_estimate: true
+capacity_rounding_increment_ml: 25
+cost_per_drawer_gbp: 0.67
+cost_per_kg_basis: net_unknown
+cost_per_kg_gbp: null
+depth_mm: 130
+drawer_capacity_basis: estimated_rectangular_volume_published_drawer_dimensions_internal_status_unspecified
+drawer_capacity_ml: 225
+drawer_capacity_unrounded_ml: 220.5
+drawer_sizes:
+- capacity_ml: 225
+  capacity_unrounded_ml: 220.5
+  count: 40
+  depth_mm: 105
+  dimension_basis: published_drawer_dimensions_internal_status_unspecified
+  drawer_model: small
+  height_mm: 35
+  rectangular_volume_ml: 220.5
+  width_mm: 60
+for_sale_url: https://www.csi-products.co.uk/storage-and-shelving/small-parts-storage-and-picking/bin-and-drawer-cabinets/multi-drawer-storage-unit-40-drawers?cclcl=en_GB
+height_mm: 420
+image_checked_date: '2026-10-18'
+image_source_url: https://www.csi-products.co.uk/storage-and-shelving/small-parts-storage-and-picking/bin-and-drawer-cabinets/multi-drawer-storage-unit-40-drawers?cclcl=en_GB
+image_static_path: drawer_photos/14.png
+image_url: https://s3.eu-central-1.amazonaws.com/csi-products.co.uk/images/140-3.jpg
+manufacturer: barton
+manufacturer_identity_basis: manufacturer
+manufacturer_stock_code: null
+minimum_order_quantity: 3
+minimum_order_required_spend_gbp: 79.79
+model_number: Topstore 40 Drawer Unit
+number_of_drawers: 40
+part_number: 140/3
+part_number_basis: retailer_catalogue_number
+price_basis: per_cabinet_derived_from_supplier_pack_price_including_vat_divided_by_three
+price_excludes_delivery: true
+price_gbp: 26.6
+price_includes_vat: true
+price_source_url: https://www.csi-products.co.uk/storage-and-shelving/small-parts-storage-and-picking/bin-and-drawer-cabinets/multi-drawer-storage-unit-40-drawers?cclcl=en_GB
+product_name: Barton Topstore 40 drawer storage unit
+proposal_number: 14
+proposal_revision: 3
+published_cabinet_capacity_ml: null
+published_pack_price_ex_vat_gbp: 66.49
+published_pack_price_gbp: 79.79
+published_pack_quantity: 3
+published_price_ex_vat_gbp: 22.16
+record_type: purchased_drawer_unit
+research_date: '2026-10-18'
+research_notes: CSI lists product SKU 140/3, identifies Barton Topstore, specifies
+  40 removable small drawers at 35 x 60 x 105 mm and says supplied in packs of 3.
+  It lists £66.49 ex VAT (£79.79 inc VAT) for the pack; price_gbp and published_price_ex_vat_gbp
+  are the half-up penny-rounded per-cabinet division by three. Barton confirms a 40
+  drawer model with 40 small drawers and overall 420 x 270 x 130 mm dimensions; its
+  page gives small drawer size as 3 x 60 x 105 mm, apparently omitting a digit in
+  height. CSI confirms 35 mm height. Capacity is estimated from published dimensions,
+  whose internal/external status is not stated. Net product mass is unknown. The catalogue
+  number is seller-reported and not independently verified as the manufacturer's part
+  number.
+seller: CSI Products
+shipping_weight_kg: null
+specification_urls:
+- https://bartonstorage.com/product/topstore-40-drawer-units/
+- https://www.csi-products.co.uk/storage-and-shelving/small-parts-storage-and-picking/bin-and-drawer-cabinets/multi-drawer-storage-unit-40-drawers?cclcl=en_GB
+taxonomy_1: organization
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: barton
+taxonomy_15: '140_3'
+taxonomy_2: storage
+taxonomy_3: drawer_unit
+taxonomy_4: small_drawers
+taxonomy_5: 225_ml_estimated_capacity
+taxonomy_6: 40_drawers
+taxonomy_7: 270_mm_width
+taxonomy_8: 420_mm_height
+taxonomy_9: 130_mm_depth
+uniform_drawer_size: true
+unit_dimensions_basis: external_overall_dimensions
+weight_basis: net_unknown
+weight_kg: null
+width_mm: 270

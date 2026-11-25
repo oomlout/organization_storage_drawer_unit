@@ -1,0 +1,219 @@
+adhesion_ears: true
+assembly_component: false
+assembly_half: print_layout
+availability: Print yourself; pots on backorder at research date
+bed_height: 256.0
+bed_margin: 2.0
+bed_width: 256.0
+bottom_rail_running_height: 6.0
+build_height: 256.0
+catch_tab_depth: 1.5
+catch_tab_height: 6.0
+catch_tab_ramp_depth: 6.0
+catch_tab_width: 56.0
+column: 2
+comparison_image: comparison.png
+comparison_measurement_status: Run action_prepare_drawer_comparison.py to refresh
+  CAD measurements
+comparison_sample: false
+container: packaging_takeaway_container_rectangle_550_ml_capacity_108_mm_width_86_mm_height_95_mm_depth_tamper_evident_systempak_214
+container_clearance: 1.5
+container_short: rectangle_550_ml_tamper_evident_systempak_214
+corner_interlock_diameter: 2.8
+corner_interlock_min_wall: 0.6
+depth_clearance: 1.5
+depth_lip: 12.0
+drawer_border_edge: 10.5
+drawer_capacity_basis: manufacturer_nominal
+drawer_capacity_ml: 550
+drawer_count: 4
+ear_diameter: 12.0
+ear_gap: 0.5
+ear_height: 0.6
+ear_link_height: 0.3
+ear_link_width: 5.0
+filament_density_g_per_cm3: 1.24
+filament_gbp_per_gram: 0.01
+filament_mass_basis: Solid CAD volume × assumed PLA density; includes adhesion ears;
+  excludes purge/supports
+front_band: 7.5
+front_lip: true
+hardware_axis_height: 5.0
+hardware_boss_band: 12.0
+hardware_boss_slope: 1.2
+hardware_cost_basis: M3 screws and nuts excluded; hardware price not supplied
+hardware_min_wall: 1.2
+inner_guide_depth: 6.0
+inset_lip: 5.5
+interlock_clearance: 0.25
+interlock_depth: 3.0
+interlock_end_clearance: 0.2
+interlock_height: 7.0
+interlock_width: 8.0
+lightening: true
+lip_cutout_radius: 1.0
+lip_shelf_thickness: 10.0
+lip_support_reference_height: 26.0
+manufacturer: oomlout
+middle_rib_width: 0.0
+modular_key_clearance: 0.25
+modular_key_depth: 3.0
+modular_key_end_clearance: 0.2
+modular_screw_length: 16.0
+modular_view: print_layout
+module_gap: 0.4
+nut_axis_height: 5.0
+nut_side_clearance: left
+oobb_details:
+  adhesion_ears: true
+  assembly_half: print_layout
+  bed_height: 256.0
+  bed_margin: 2.0
+  bed_width: 256.0
+  bottom_rail_running_height: 6.0
+  build_height: 256.0
+  catch_tab_depth: 1.5
+  catch_tab_height: 6.0
+  catch_tab_ramp_depth: 6.0
+  catch_tab_width: 56.0
+  column: 2
+  container: packaging_takeaway_container_rectangle_550_ml_capacity_108_mm_width_86_mm_height_95_mm_depth_tamper_evident_systempak_214
+  container_clearance: 1.5
+  container_short: rectangle_550_ml_tamper_evident_systempak_214
+  corner_interlock_diameter: 2.8
+  corner_interlock_min_wall: 0.6
+  depth_clearance: 1.5
+  depth_lip: 12.0
+  drawer_border_edge: 10.5
+  ear_diameter: 12.0
+  ear_gap: 0.5
+  ear_height: 0.6
+  ear_link_height: 0.3
+  ear_link_width: 5.0
+  front_band: 7.5
+  front_lip: true
+  hardware_axis_height: 5.0
+  hardware_boss_band: 12.0
+  hardware_boss_slope: 1.2
+  hardware_min_wall: 1.2
+  inner_guide_depth: 6.0
+  inset_lip: 5.5
+  interlock_clearance: 0.25
+  interlock_depth: 3.0
+  interlock_end_clearance: 0.2
+  interlock_height: 7.0
+  interlock_width: 8.0
+  lightening: true
+  lip_cutout_radius: 1.0
+  lip_shelf_thickness: 10.0
+  lip_support_reference_height: 26.0
+  middle_rib_width: 0.0
+  modular_key_clearance: 0.25
+  modular_key_depth: 3.0
+  modular_key_end_clearance: 0.2
+  modular_screw_length: 16.0
+  modular_view: print_layout
+  module_gap: 0.4
+  nut_axis_height: 5.0
+  nut_side_clearance: left
+  oobb_name: ai_version_4
+  opening_height_extra: 1.5
+  opening_radius: 4.0
+  outer_radius: 2.4
+  part_role: frame
+  plate_thickness: 7.5
+  print_layout_gap: 8.0
+  printer: Bambu Lab P1P
+  rail_edge_gap: 0.25
+  rail_end_band: 12.0
+  rail_height: 10.0
+  rail_layout_gap: 5.0
+  rail_running_height: 4.0
+  rail_taper_run: 7.2
+  rail_width: 11.0
+  rear_band: 6.0
+  rear_lip: false
+  remove_internal_lower_supports: true
+  roof_slope: 1.0
+  row: 2
+  runner_width: 10.0
+  running_shelf_thickness: 4.0
+  screw_head_seat_offset: 6.0
+  screw_length: 16.0
+  side_rail_width: 4.0
+  style: ai_version_4
+  taxonomy_1: oobb
+  taxonomy_2: organization
+  taxonomy_3: storage
+  taxonomy_4: drawer_unit
+  taxonomy_5: 2_column
+  taxonomy_6: 2_row
+  taxonomy_7: rectangle_550_ml_tamper_evident_systempak_214_container
+  taxonomy_8: ai_version_4_style
+  taxonomy_9: p1p_max
+  thickness_wall: 1.8
+  variant: p1p_max
+opening_height_extra: 1.5
+opening_radius: 4.0
+outer_radius: 2.4
+part_role: frame
+plate_thickness: 7.5
+pot_cost_details:
+  availability: On backorder
+  capacity_ml: 550
+  checked_date: '2026-10-18'
+  manufacturer: Systempak
+  pack_price_ex_vat_gbp: 80.95
+  pack_quantity: 500
+  part_number: '214'
+  price_basis: Single carton of 500 pots and lids; lids unused; delivery excluded
+  price_source_url: https://systempak.net/product/550ml-rectangular-tamper-evident-containers-and-lids/
+  unit_price_gbp: 0.19428
+  vat_rate: 0.2
+  weight_g: 16.0
+  weight_source_url: https://systempak.net/wp-content/uploads/2024/03/TDS-214-550ML.pdf
+pot_quantity: 4
+price_excludes_delivery: true
+price_includes_vat: true
+print_instruction: Print one front plate with a lip and one back plate without, plus
+  the rail batches; see assembly.json. face_plate aliases front; assembled is reference
+  only.
+print_layout_gap: 8.0
+printer: Bambu Lab P1P
+product_name: Printed 2 × 2 · Systempak 214 · ai version 4 · p1p max
+rail_edge_gap: 0.25
+rail_end_band: 12.0
+rail_height: 10.0
+rail_layout_gap: 5.0
+rail_running_height: 4.0
+rail_taper_run: 7.2
+rail_width: 11.0
+rear_band: 6.0
+rear_lip: false
+record_type: printed_drawer_unit
+remove_internal_lower_supports: true
+roof_slope: 1.0
+row: 2
+runner_width: 10.0
+running_shelf_thickness: 4.0
+screw_head_seat_offset: 6.0
+screw_length: 16.0
+side_rail_width: 4.0
+style: ai_version_4
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: organization
+taxonomy_3: storage
+taxonomy_4: drawer_unit
+taxonomy_5: 2_column
+taxonomy_6: 2_row
+taxonomy_7: rectangle_550_ml_tamper_evident_systempak_214_container
+taxonomy_8: ai_version_4_style
+taxonomy_9: p1p_max
+thickness_wall: 1.8
+variant: p1p_max

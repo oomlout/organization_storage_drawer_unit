@@ -1,0 +1,3991 @@
+adhesion_ears: true
+assembly_component: false
+assembly_half: print_layout
+availability: Print yourself; pots on backorder at research date
+bed_height: 400.0
+bed_margin: 2.0
+bed_width: 400.0
+bip_39_2_word_array:
+- urge
+- swift
+bip_39_2_word_no_space: urgeswift
+bip_39_2_word_space: urge swift
+bip_39_2_word_underscore: urge_swift
+bip_39_3_word_array:
+- urge
+- swift
+- extra
+bip_39_3_word_no_space: urgeswiftextra
+bip_39_3_word_space: urge swift extra
+bip_39_3_word_underscore: urge_swift_extra
+bip_39_full_array:
+- urge
+- swift
+- extra
+- kid
+- wage
+- dragon
+- path
+- bottom
+- morning
+- minimum
+- unveil
+- argue
+bip_39_full_no_space: urgeswiftextrakidwagedragonpathbottommorningminimumunveilargue
+bip_39_full_space: urge swift extra kid wage dragon path bottom morning minimum unveil
+  argue
+bip_39_full_underscore: urge_swift_extra_kid_wage_dragon_path_bottom_morning_minimum_unveil_argue
+cad_volume_mm3: 21003.580243908822
+catch_tab_depth: 1.5
+catch_tab_height: 6.0
+catch_tab_ramp_depth: 6.0
+catch_tab_width: 56.0
+column: 1
+comparison_image: comparison.png
+comparison_measurement_status: current
+comparison_sample: true
+container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+container_clearance: 2.25
+container_short: rectangle_100_ml_tamper_evident_systempak_209
+corner_interlock_diameter: 2.8
+corner_interlock_min_wall: 0.6
+cost_per_drawer_gbp: 0.4067
+cost_per_kg_basis: Estimated empty assembled unit including pots and adhesion ears
+cost_per_kg_gbp: 11.9469
+depth_clearance: 1.5
+depth_lip: 12.0
+depth_mm: 12.0
+directory: parts/oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+drawer_border_edge: 5.5
+drawer_capacity_basis: manufacturer_nominal
+drawer_capacity_ml: 100
+drawer_count: 1
+ear_diameter: 16.0
+ear_gap: 0.5
+ear_height: 0.6
+ear_link_height: 0.3
+ear_link_width: 5.0
+filament_cost_gbp: 0.2604
+filament_density_g_per_cm3: 1.24
+filament_gbp_per_gram: 0.01
+filament_mass_basis: "Solid CAD volume \xD7 assumed PLA density; includes adhesion\
+  \ ears; excludes purge/supports"
+filament_mass_g: 26.044
+front_band: 7.5
+hardware_axis_height: 5.0
+hardware_cost_basis: No assembly hardware
+hardware_min_wall: 1.2
+height_mm: 39.25
+id: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+id_no_class: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+id_no_size: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+id_no_type: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+id_oobb: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+inset_lip: 5.5
+interlock_clearance: 0.25
+interlock_depth: 3.0
+interlock_end_clearance: 0.2
+interlock_height: 7.0
+interlock_width: 8.0
+kwargs:
+  adhesion_ears: true
+  assembly_half: print_layout
+  bed_height: 400.0
+  bed_margin: 2.0
+  bed_width: 400.0
+  catch_tab_depth: 1.5
+  catch_tab_height: 6.0
+  catch_tab_ramp_depth: 6.0
+  catch_tab_width: 56.0
+  column: 1
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_clearance: 2.25
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  corner_interlock_diameter: 2.8
+  corner_interlock_min_wall: 0.6
+  depth_clearance: 1.5
+  depth_lip: 12.0
+  drawer_border_edge: 5.5
+  ear_diameter: 16.0
+  ear_gap: 0.5
+  ear_height: 0.6
+  ear_link_height: 0.3
+  ear_link_width: 5.0
+  filter: ''
+  front_band: 7.5
+  hardware_axis_height: 5.0
+  hardware_min_wall: 1.2
+  inset_lip: 5.5
+  interlock_clearance: 0.25
+  interlock_depth: 3.0
+  interlock_end_clearance: 0.2
+  interlock_height: 7.0
+  interlock_width: 8.0
+  lightening: true
+  lip_cutout_radius: 1.0
+  lip_shelf_thickness: 10.0
+  lip_support_reference_height: 26.0
+  middle_rib_width: 0.0
+  modes:
+  - 3dpr
+  module_gap: 0.4
+  navigation: true
+  oobb_name: ai_version_2
+  oomp_description_extra: ''
+  oomp_description_main: ai_version_2_
+  oomp_mode: project
+  oomp_run: false
+  opening_height_extra: 0.0
+  opening_radius: 4.0
+  outer_radius: 2.4
+  overwrite: true
+  part_role: fit
+  print_layout_gap: 8.0
+  rear_band: 6.0
+  roof_slope: 1.0
+  row: 1
+  runner_width: 10.0
+  screw_head_seat_offset: 6.0
+  screw_length: 16.0
+  side_rail_width: 4.0
+  style: ai_version_2
+  taxonomy_1: oobb
+  taxonomy_2: organization
+  taxonomy_3: storage
+  taxonomy_4: drawer_unit
+  taxonomy_5: 1_column
+  taxonomy_6: 1_row
+  taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+  taxonomy_8: ai_version_2_style
+  taxonomy_9: fit_clearance_2d25
+  test_depth: 12
+  thickness_wall: 1.8
+  type: default_ai_version_2
+  variant: fit_clearance_2d25
+lightening: true
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+lip_cutout_radius: 1.0
+lip_shelf_thickness: 10.0
+lip_support_reference_height: 26.0
+manufacturer: oomlout
+md5: ef7b79443d2f62842838d28ff1a3b985
+md5_10: ef7b79443d
+md5_10_upper: EF7B79443D
+md5_5: ef7b7
+md5_5_upper: EF7B7
+md5_6: ef7b79
+md5_6_alpha: 9ce49
+md5_6_alpha_upper: 9CE49
+md5_6_upper: EF7B79
+middle_rib_width: 0.0
+module_gap: 0.4
+name: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml Tamper
+  Evident Systempak 209 Container Ai Version 2 Style Fit Clearance 2D25
+name_no_class: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100
+  Ml Tamper Evident Systempak 209 Container Ai Version 2 Style Fit Clearance 2D25
+name_no_size: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml
+  Tamper Evident Systempak 209 Container Ai Version 2 Style Fit Clearance 2D25
+name_no_type: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml
+  Tamper Evident Systempak 209 Container Ai Version 2 Style Fit Clearance 2D25
+name_proper: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml
+  Tamper Evident Systempak 209 Container Ai Version 2 Style Fit Clearance 2D25
+name_space: oobb organization storage drawer unit 1 column 1 row rectangle 100 ml
+  tamper evident systempak 209 container ai version 2 style fit clearance 2d25
+name_upper: OOBB ORGANIZATION STORAGE DRAWER UNIT 1 COLUMN 1 ROW RECTANGLE 100 ML
+  TAMPER EVIDENT SYSTEMPAK 209 CONTAINER AI VERSION 2 STYLE FIT CLEARANCE 2D25
+oobb_details:
+  adhesion_ears: true
+  assembly_half: print_layout
+  bed_height: 400.0
+  bed_margin: 2.0
+  bed_width: 400.0
+  catch_tab_depth: 1.5
+  catch_tab_height: 6.0
+  catch_tab_ramp_depth: 6.0
+  catch_tab_width: 56.0
+  column: 1
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_clearance: 2.25
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  corner_interlock_diameter: 2.8
+  corner_interlock_min_wall: 0.6
+  depth_clearance: 1.5
+  depth_lip: 12.0
+  drawer_border_edge: 5.5
+  ear_diameter: 16.0
+  ear_gap: 0.5
+  ear_height: 0.6
+  ear_link_height: 0.3
+  ear_link_width: 5.0
+  front_band: 7.5
+  hardware_axis_height: 5.0
+  hardware_min_wall: 1.2
+  inset_lip: 5.5
+  interlock_clearance: 0.25
+  interlock_depth: 3.0
+  interlock_end_clearance: 0.2
+  interlock_height: 7.0
+  interlock_width: 8.0
+  lightening: true
+  lip_cutout_radius: 1.0
+  lip_shelf_thickness: 10.0
+  lip_support_reference_height: 26.0
+  middle_rib_width: 0.0
+  module_gap: 0.4
+  oobb_name: ai_version_2
+  opening_height_extra: 0.0
+  opening_radius: 4.0
+  outer_radius: 2.4
+  part_role: fit
+  print_layout_gap: 8.0
+  rear_band: 6.0
+  roof_slope: 1.0
+  row: 1
+  runner_width: 10.0
+  screw_head_seat_offset: 6.0
+  screw_length: 16.0
+  side_rail_width: 4.0
+  style: ai_version_2
+  taxonomy_1: oobb
+  taxonomy_2: organization
+  taxonomy_3: storage
+  taxonomy_4: drawer_unit
+  taxonomy_5: 1_column
+  taxonomy_6: 1_row
+  taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+  taxonomy_8: ai_version_2_style
+  taxonomy_9: fit_clearance_2d25
+  test_depth: 12
+  thickness_wall: 1.8
+  variant: fit_clearance_2d25
+oobb_name: ai_version_2
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      adhesion_ears: true
+      assembly_component: false
+      assembly_half: print_layout
+      availability: Print yourself; pots on backorder at research date
+      bed_height: 400.0
+      bed_margin: 2.0
+      bed_width: 400.0
+      cad_volume_mm3: 21003.580243908822
+      catch_tab_depth: 1.5
+      catch_tab_height: 6.0
+      catch_tab_ramp_depth: 6.0
+      catch_tab_width: 56.0
+      column: 1
+      comparison_image: comparison.png
+      comparison_measurement_status: current
+      comparison_sample: true
+      container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+      container_clearance: 2.25
+      container_short: rectangle_100_ml_tamper_evident_systempak_209
+      corner_interlock_diameter: 2.8
+      corner_interlock_min_wall: 0.6
+      cost_per_drawer_gbp: 0.4067
+      cost_per_kg_basis: Estimated empty assembled unit including pots and adhesion
+        ears
+      cost_per_kg_gbp: 11.9469
+      depth_clearance: 1.5
+      depth_lip: 12.0
+      depth_mm: 12.0
+      directory: parts\oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+      drawer_border_edge: 5.5
+      drawer_capacity_basis: manufacturer_nominal
+      drawer_capacity_ml: 100
+      drawer_count: 1
+      ear_diameter: 16.0
+      ear_gap: 0.5
+      ear_height: 0.6
+      ear_link_height: 0.3
+      ear_link_width: 5.0
+      filament_cost_gbp: 0.2604
+      filament_density_g_per_cm3: 1.24
+      filament_gbp_per_gram: 0.01
+      filament_mass_basis: "Solid CAD volume \xD7 assumed PLA density; includes adhesion\
+        \ ears; excludes purge/supports"
+      filament_mass_g: 26.044
+      front_band: 7.5
+      hardware_axis_height: 5.0
+      hardware_cost_basis: No assembly hardware
+      hardware_min_wall: 1.2
+      height_mm: 39.25
+      inset_lip: 5.5
+      interlock_clearance: 0.25
+      interlock_depth: 3.0
+      interlock_end_clearance: 0.2
+      interlock_height: 7.0
+      interlock_width: 8.0
+      lightening: true
+      lip_cutout_radius: 1.0
+      lip_shelf_thickness: 10.0
+      lip_support_reference_height: 26.0
+      manufacturer: oomlout
+      middle_rib_width: 0.0
+      module_gap: 0.4
+      name: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+      name_proper: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle
+        100 Ml Tamper Evident Systempak 209 Container Ai Version 2 Style Fit Clearance
+        2D25
+      name_space: oobb organization storage drawer unit 1 column 1 row rectangle 100
+        ml tamper evident systempak 209 container ai version 2 style fit clearance
+        2d25
+      name_upper: OOBB ORGANIZATION STORAGE DRAWER UNIT 1 COLUMN 1 ROW RECTANGLE 100
+        ML TAMPER EVIDENT SYSTEMPAK 209 CONTAINER AI VERSION 2 STYLE FIT CLEARANCE
+        2D25
+      oobb_details:
+        adhesion_ears: true
+        assembly_half: print_layout
+        bed_height: 400.0
+        bed_margin: 2.0
+        bed_width: 400.0
+        catch_tab_depth: 1.5
+        catch_tab_height: 6.0
+        catch_tab_ramp_depth: 6.0
+        catch_tab_width: 56.0
+        column: 1
+        container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+        container_clearance: 2.25
+        container_short: rectangle_100_ml_tamper_evident_systempak_209
+        corner_interlock_diameter: 2.8
+        corner_interlock_min_wall: 0.6
+        depth_clearance: 1.5
+        depth_lip: 12.0
+        drawer_border_edge: 5.5
+        ear_diameter: 16.0
+        ear_gap: 0.5
+        ear_height: 0.6
+        ear_link_height: 0.3
+        ear_link_width: 5.0
+        front_band: 7.5
+        hardware_axis_height: 5.0
+        hardware_min_wall: 1.2
+        inset_lip: 5.5
+        interlock_clearance: 0.25
+        interlock_depth: 3.0
+        interlock_end_clearance: 0.2
+        interlock_height: 7.0
+        interlock_width: 8.0
+        lightening: true
+        lip_cutout_radius: 1.0
+        lip_shelf_thickness: 10.0
+        lip_support_reference_height: 26.0
+        middle_rib_width: 0.0
+        module_gap: 0.4
+        oobb_name: ai_version_2
+        opening_height_extra: 0.0
+        opening_radius: 4.0
+        outer_radius: 2.4
+        part_role: fit
+        print_layout_gap: 8.0
+        rear_band: 6.0
+        roof_slope: 1.0
+        row: 1
+        runner_width: 10.0
+        screw_head_seat_offset: 6.0
+        screw_length: 16.0
+        side_rail_width: 4.0
+        style: ai_version_2
+        taxonomy_1: oobb
+        taxonomy_2: organization
+        taxonomy_3: storage
+        taxonomy_4: drawer_unit
+        taxonomy_5: 1_column
+        taxonomy_6: 1_row
+        taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+        taxonomy_8: ai_version_2_style
+        taxonomy_9: fit_clearance_2d25
+        test_depth: 12
+        thickness_wall: 1.8
+        variant: fit_clearance_2d25
+      opening_height_extra: 0.0
+      opening_radius: 4.0
+      outer_radius: 2.4
+      part_role: fit
+      pot_cost_details:
+        availability: On backorder
+        capacity_ml: 100
+        checked_date: '2026-10-18'
+        manufacturer: Systempak
+        pack_price_ex_vat_gbp: 60.95
+        pack_quantity: 500
+        part_number: '209'
+        price_basis: Single carton of 500 pots and lids; lids unused; delivery excluded
+        price_source_url: https://systempak.net/product/100ml-rectangular-tamper-evident-containers-and-lids/
+        unit_price_gbp: 0.14628
+        vat_rate: 0.2
+        weight_g: 8.0
+        weight_source_url: https://systempak.net/wp-content/uploads/2024/03/TDS-209-100ML.pdf
+      pot_quantity: 1
+      pots_cost_gbp: 0.1463
+      price_excludes_delivery: true
+      price_gbp: 0.4067
+      price_includes_vat: true
+      print_instruction: ''
+      print_layout_gap: 8.0
+      product_name: "Printed 1 \xD7 1 \xB7 Systempak 209 \xB7 ai version 2 \xB7 fit\
+        \ clearance 2d25"
+      rear_band: 6.0
+      record_type: printed_drawer_unit
+      roof_slope: 1.0
+      row: 1
+      runner_width: 10.0
+      screw_head_seat_offset: 6.0
+      screw_length: 16.0
+      side_rail_width: 4.0
+      style: ai_version_2
+      taxonomy_1: oobb
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: organization
+      taxonomy_3: storage
+      taxonomy_4: drawer_unit
+      taxonomy_5: 1_column
+      taxonomy_6: 1_row
+      taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+      taxonomy_8: ai_version_2_style
+      taxonomy_9: fit_clearance_2d25
+      test_depth: 12
+      thickness_wall: 1.8
+      url_chat: ''
+      variant: fit_clearance_2d25
+      weight_basis: estimated_solid_PLA_frame_including_ears_plus_lidless_pots_excluding_hardware
+      weight_kg: 0.034044
+      width_mm: 99.25
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\od\OneDrive\docs\organization_storage_drawer_unit\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+opening_height_extra: 0.0
+opening_radius: 4.0
+outer_radius: 2.4
+part_role: fit
+pot_cost_details:
+  availability: On backorder
+  capacity_ml: 100
+  checked_date: '2026-10-18'
+  manufacturer: Systempak
+  pack_price_ex_vat_gbp: 60.95
+  pack_quantity: 500
+  part_number: '209'
+  price_basis: Single carton of 500 pots and lids; lids unused; delivery excluded
+  price_source_url: https://systempak.net/product/100ml-rectangular-tamper-evident-containers-and-lids/
+  unit_price_gbp: 0.14628
+  vat_rate: 0.2
+  weight_g: 8.0
+  weight_source_url: https://systempak.net/wp-content/uploads/2024/03/TDS-209-100ML.pdf
+pot_quantity: 1
+pots_cost_gbp: 0.1463
+price_excludes_delivery: true
+price_gbp: 0.4067
+price_includes_vat: true
+print_instruction: ''
+print_layout_gap: 8.0
+product_name: "Printed 1 \xD7 1 \xB7 Systempak 209 \xB7 ai version 2 \xB7 fit clearance\
+  \ 2d25"
+project_name: C:\od\OneDrive\docs\organization_storage_drawer_unit
+rear_band: 6.0
+record_type: printed_drawer_unit
+roof_slope: 1.0
+row: 1
+runner_width: 10.0
+screw_head_seat_offset: 6.0
+screw_length: 16.0
+side_rail_width: 4.0
+style: ai_version_2
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: organization
+taxonomy_2_capital: Organization
+taxonomy_2_first_letter: o
+taxonomy_2_first_letter_upper: O
+taxonomy_2_length_1: o
+taxonomy_2_length_2: or
+taxonomy_2_length_3: org
+taxonomy_2_length_4: orga
+taxonomy_2_length_5: organ
+taxonomy_2_upper: ORGANIZATION
+taxonomy_2_upper_length_1: O
+taxonomy_2_upper_length_2: OR
+taxonomy_2_upper_length_3: ORG
+taxonomy_2_upper_length_4: ORGA
+taxonomy_2_upper_length_5: ORGAN
+taxonomy_3: storage
+taxonomy_3_capital: Storage
+taxonomy_3_first_letter: s
+taxonomy_3_first_letter_upper: S
+taxonomy_3_length_1: s
+taxonomy_3_length_2: st
+taxonomy_3_length_3: sto
+taxonomy_3_length_4: stor
+taxonomy_3_length_5: stora
+taxonomy_3_upper: STORAGE
+taxonomy_3_upper_length_1: S
+taxonomy_3_upper_length_2: ST
+taxonomy_3_upper_length_3: STO
+taxonomy_3_upper_length_4: STOR
+taxonomy_3_upper_length_5: STORA
+taxonomy_4: drawer_unit
+taxonomy_4_capital: Drawer Unit
+taxonomy_4_first_letter: d
+taxonomy_4_first_letter_upper: D
+taxonomy_4_length_1: d
+taxonomy_4_length_2: dr
+taxonomy_4_length_3: dra
+taxonomy_4_length_4: draw
+taxonomy_4_length_5: drawe
+taxonomy_4_upper: DRAWER_UNIT
+taxonomy_4_upper_length_1: D
+taxonomy_4_upper_length_2: DR
+taxonomy_4_upper_length_3: DRA
+taxonomy_4_upper_length_4: DRAW
+taxonomy_4_upper_length_5: DRAWE
+taxonomy_5: 1_column
+taxonomy_5_capital: 1 Column
+taxonomy_5_first_letter: '1'
+taxonomy_5_first_letter_upper: '1'
+taxonomy_5_length_1: '1'
+taxonomy_5_length_2: '1_'
+taxonomy_5_length_3: 1_c
+taxonomy_5_length_4: 1_co
+taxonomy_5_length_5: 1_col
+taxonomy_5_upper: 1_COLUMN
+taxonomy_5_upper_length_1: '1'
+taxonomy_5_upper_length_2: '1_'
+taxonomy_5_upper_length_3: 1_C
+taxonomy_5_upper_length_4: 1_CO
+taxonomy_5_upper_length_5: 1_COL
+taxonomy_6: 1_row
+taxonomy_6_capital: 1 Row
+taxonomy_6_first_letter: '1'
+taxonomy_6_first_letter_upper: '1'
+taxonomy_6_length_1: '1'
+taxonomy_6_length_2: '1_'
+taxonomy_6_length_3: 1_r
+taxonomy_6_length_4: 1_ro
+taxonomy_6_length_5: 1_row
+taxonomy_6_upper: 1_ROW
+taxonomy_6_upper_length_1: '1'
+taxonomy_6_upper_length_2: '1_'
+taxonomy_6_upper_length_3: 1_R
+taxonomy_6_upper_length_4: 1_RO
+taxonomy_6_upper_length_5: 1_ROW
+taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+taxonomy_7_capital: Rectangle 100 Ml Tamper Evident Systempak 209 Container
+taxonomy_7_first_letter: r
+taxonomy_7_first_letter_upper: R
+taxonomy_7_length_1: r
+taxonomy_7_length_2: re
+taxonomy_7_length_3: rec
+taxonomy_7_length_4: rect
+taxonomy_7_length_5: recta
+taxonomy_7_upper: RECTANGLE_100_ML_TAMPER_EVIDENT_SYSTEMPAK_209_CONTAINER
+taxonomy_7_upper_length_1: R
+taxonomy_7_upper_length_2: RE
+taxonomy_7_upper_length_3: REC
+taxonomy_7_upper_length_4: RECT
+taxonomy_7_upper_length_5: RECTA
+taxonomy_8: ai_version_2_style
+taxonomy_8_capital: Ai Version 2 Style
+taxonomy_8_first_letter: a
+taxonomy_8_first_letter_upper: A
+taxonomy_8_length_1: a
+taxonomy_8_length_2: ai
+taxonomy_8_length_3: ai_
+taxonomy_8_length_4: ai_v
+taxonomy_8_length_5: ai_ve
+taxonomy_8_upper: AI_VERSION_2_STYLE
+taxonomy_8_upper_length_1: A
+taxonomy_8_upper_length_2: AI
+taxonomy_8_upper_length_3: AI_
+taxonomy_8_upper_length_4: AI_V
+taxonomy_8_upper_length_5: AI_VE
+taxonomy_9: fit_clearance_2d25
+taxonomy_9_capital: Fit Clearance 2D25
+taxonomy_9_first_letter: f
+taxonomy_9_first_letter_upper: F
+taxonomy_9_length_1: f
+taxonomy_9_length_2: fi
+taxonomy_9_length_3: fit
+taxonomy_9_length_4: fit_
+taxonomy_9_length_5: fit_c
+taxonomy_9_upper: FIT_CLEARANCE_2D25
+taxonomy_9_upper_length_1: F
+taxonomy_9_upper_length_2: FI
+taxonomy_9_upper_length_3: FIT
+taxonomy_9_upper_length_4: FIT_
+taxonomy_9_upper_length_5: FIT_C
+test_depth: 12
+thickness_wall: 1.8
+thing:
+  adhesion_ears: true
+  ai_design:
+    adhesion_ears: true
+    assembled_depth_mm: 12
+    assembled_envelope_mm:
+    - 99.25
+    - 39.25
+    - 12
+    assembly_half: sample
+    bed_margin_mm: 2.0
+    body_extension_height_mm: 0.0
+    build_volume_mm:
+    - 400.0
+    - 400.0
+    - null
+    catch_projection_mm: 6.0
+    catch_ramp_depth_mm: 6.0
+    centre_support_width_mm: 0.0
+    corner_interlock_count: 0
+    corner_interlock_diameter_mm: 2.8
+    cutout_revision: ai_version_2_all_junction_interlocks
+    drawer_count: 1
+    ear_count: 4
+    envelope_mm:
+    - 99.25
+    - 72.25
+    - 12
+    expected_bodies: 1
+    finished_envelope_mm:
+    - 99.25
+    - 39.25
+    - 12
+    half_body_depth_mm: 12
+    head_seat_offset_mm: 6.0
+    interlock_clearance_per_side_mm: 0.25
+    interlock_depth_mm: 3.0
+    lip_inset_mm: 5.5
+    lip_shelf_thickness_mm: 10.0
+    lip_step_height_mm: 12.0
+    lip_support_channel_height_mm: 28.25
+    nut_seat_offset_mm: null
+    opening_mm:
+    - 88.25
+    - 28.25
+    part_role: fit
+    physical_validation: Pending container-fit, printing, shrinkage and load tests
+    pitch_mm:
+    - 90.05
+    - 30.05
+    print_layout_fits_single_bed: null
+    print_layout_gap_mm: null
+    print_orientation: Outer face on bed, joint upward; back rotates 180 degrees about
+      Y for assembly. The assembled.scad file is reference only; use front/back files
+      for separate plates.
+    printable: true
+    printer: unspecified
+    screw_count: 0
+    screw_length_mm: 16.0
+  assembly_component: false
+  assembly_half: print_layout
+  availability: Print yourself; pots on backorder at research date
+  bed_height: 400.0
+  bed_margin: 2.0
+  bed_width: 400.0
+  bip_39_2_word_array:
+  - urge
+  - swift
+  bip_39_2_word_no_space: urgeswift
+  bip_39_2_word_space: urge swift
+  bip_39_2_word_underscore: urge_swift
+  bip_39_3_word_array:
+  - urge
+  - swift
+  - extra
+  bip_39_3_word_no_space: urgeswiftextra
+  bip_39_3_word_space: urge swift extra
+  bip_39_3_word_underscore: urge_swift_extra
+  bip_39_full_array:
+  - urge
+  - swift
+  - extra
+  - kid
+  - wage
+  - dragon
+  - path
+  - bottom
+  - morning
+  - minimum
+  - unveil
+  - argue
+  bip_39_full_no_space: urgeswiftextrakidwagedragonpathbottommorningminimumunveilargue
+  bip_39_full_space: urge swift extra kid wage dragon path bottom morning minimum
+    unveil argue
+  bip_39_full_underscore: urge_swift_extra_kid_wage_dragon_path_bottom_morning_minimum_unveil_argue
+  cad_volume_mm3: 21003.580243908822
+  catch_tab_depth: 1.5
+  catch_tab_height: 6.0
+  catch_tab_ramp_depth: 6.0
+  catch_tab_width: 56.0
+  classification: oobb
+  color: ''
+  column: 1
+  comparison_image: comparison.png
+  comparison_measurement_status: current
+  comparison_sample: true
+  components:
+  - - m: ''
+      pos:
+      - 0
+      - 0
+      - 0
+      r: 2.4
+      shape: rounded_rectangle
+      size:
+      - 99.25
+      - 39.25
+      - 12
+      type: positive
+  - - m: ''
+      pos:
+      - 0.0
+      - -8.125
+      - -0.1
+      r: 1.0
+      shape: rounded_rectangle
+      size:
+      - 88.25
+      - 12.0
+      - 12.2
+      type: negative
+  - - m: ''
+      pos:
+      - 0.0
+      - 0.0
+      - -0.1
+      r: 4.0
+      shape: rounded_rectangle
+      size:
+      - 77.25
+      - 28.25
+      - 12.2
+      type: negative
+  - - depth: 56.0
+      height: 56.0
+      m: '#'
+      points:
+      - - -1.8
+        - 0
+      - - 0
+        - 0
+      - - 6.0
+        - 6.0
+      - - 6.0
+        - 7.5
+      - - -1.8
+        - 7.5
+      pos:
+      - -28.0
+      - -14.125
+      - 0
+      rot:
+      - 90
+      - 0
+      - 90
+      shape: polygon
+      type: positive_positive
+  - - depth: 0.6
+      height: 0.6
+      m: ''
+      points:
+      - - 8.0
+        - 0.0
+      - - 7.961477813377575
+        - 0.7841371226364848
+      - - 7.8462822432258434
+        - 1.560722576129026
+      - - 7.655522685857671
+        - 2.3222774180356986
+      - - 7.391036260090294
+        - 3.0614674589207183
+      - - 7.05537011478684
+        - 3.771173894607981
+      - - 6.651756898420362
+        - 4.444561864156817
+      - - 6.184083626901896
+        - 5.075146273309164
+      - - 5.656854249492381
+        - 5.656854249492381
+      - - 5.075146273309164
+        - 6.184083626901895
+      - - 4.444561864156818
+        - 6.651756898420362
+      - - 3.7711738946079825
+        - 7.0553701147868395
+      - - 3.0614674589207187
+        - 7.391036260090294
+      - - 2.3222774180356986
+        - 7.6555226858576715
+      - - 1.5607225761290267
+        - 7.8462822432258434
+      - - 0.7841371226364862
+        - 7.9614778133775745
+      - - 4.898587196589413e-16
+        - 8.0
+      - - -0.7841371226364852
+        - 7.961477813377575
+      - - -1.5607225761290255
+        - 7.8462822432258434
+      - - -2.3222774180356973
+        - 7.6555226858576715
+      - - -3.061467458920718
+        - 7.391036260090294
+      - - -3.7711738946079816
+        - 7.05537011478684
+      - - -4.444561864156816
+        - 6.651756898420363
+      - - -5.075146273309163
+        - 6.184083626901897
+      - - -5.65685424949238
+        - 5.656854249492381
+      - - -6.184083626901896
+        - 5.075146273309164
+      - - -6.651756898420363
+        - 4.444561864156817
+      - - -7.0553701147868395
+        - 3.7711738946079825
+      - - -7.391036260090294
+        - 3.061467458920719
+      - - -7.655522685857671
+        - 2.322277418035699
+      - - -7.8462822432258434
+        - 1.5607225761290289
+      - - -7.9614778133775745
+        - 0.7841371226364866
+      - - -8.0
+        - 9.797174393178826e-16
+      - - -7.961477813377575
+        - -0.7841371226364847
+      - - -7.8462822432258434
+        - -1.5607225761290269
+      - - -7.6555226858576715
+        - -2.322277418035697
+      - - -7.391036260090295
+        - -3.0614674589207174
+      - - -7.05537011478684
+        - -3.771173894607981
+      - - -6.651756898420364
+        - -4.444561864156816
+      - - -6.184083626901897
+        - -5.075146273309162
+      - - -5.6568542494923815
+        - -5.65685424949238
+      - - -5.0751462733091675
+        - -6.184083626901893
+      - - -4.444561864156817
+        - -6.651756898420362
+      - - -3.771173894607983
+        - -7.0553701147868395
+      - - -3.0614674589207227
+        - -7.391036260090292
+      - - -2.3222774180356995
+        - -7.655522685857671
+      - - -1.5607225761290293
+        - -7.846282243225843
+      - - -0.7841371226364836
+        - -7.961477813377575
+      - - -1.4695761589768238e-15
+        - -8.0
+      - - 0.7841371226364807
+        - -7.961477813377575
+      - - 1.5607225761290264
+        - -7.8462822432258434
+      - - 2.3222774180356964
+        - -7.6555226858576715
+      - - 3.06146745892072
+        - -7.391036260090293
+      - - 3.7711738946079807
+        - -7.05537011478684
+      - - 4.444561864156815
+        - -6.651756898420364
+      - - 5.075146273309165
+        - -6.184083626901895
+      - - 5.656854249492379
+        - -5.6568542494923815
+      - - 6.184083626901892
+        - -5.0751462733091675
+      - - 6.651756898420362
+        - -4.444561864156817
+      - - 7.055370114786839
+        - -3.7711738946079834
+      - - 7.391036260090292
+        - -3.061467458920723
+      - - 7.655522685857671
+        - -2.3222774180357
+      - - 7.846282243225843
+        - -1.5607225761290298
+      - - 7.961477813377575
+        - -0.784137122636484
+      pos:
+      - -41.625
+      - -28.125
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      shape: polygon
+      type: positive_positive
+  - - m: ''
+      pos:
+      - -44.125
+      - -20.925
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      shape: cube
+      size:
+      - 5.0
+      - 1.6999999999999993
+      - 0.3
+      type: positive_positive
+  - - depth: 0.6
+      height: 0.6
+      m: ''
+      points:
+      - - 8.0
+        - 0.0
+      - - 7.961477813377575
+        - 0.7841371226364848
+      - - 7.8462822432258434
+        - 1.560722576129026
+      - - 7.655522685857671
+        - 2.3222774180356986
+      - - 7.391036260090294
+        - 3.0614674589207183
+      - - 7.05537011478684
+        - 3.771173894607981
+      - - 6.651756898420362
+        - 4.444561864156817
+      - - 6.184083626901896
+        - 5.075146273309164
+      - - 5.656854249492381
+        - 5.656854249492381
+      - - 5.075146273309164
+        - 6.184083626901895
+      - - 4.444561864156818
+        - 6.651756898420362
+      - - 3.7711738946079825
+        - 7.0553701147868395
+      - - 3.0614674589207187
+        - 7.391036260090294
+      - - 2.3222774180356986
+        - 7.6555226858576715
+      - - 1.5607225761290267
+        - 7.8462822432258434
+      - - 0.7841371226364862
+        - 7.9614778133775745
+      - - 4.898587196589413e-16
+        - 8.0
+      - - -0.7841371226364852
+        - 7.961477813377575
+      - - -1.5607225761290255
+        - 7.8462822432258434
+      - - -2.3222774180356973
+        - 7.6555226858576715
+      - - -3.061467458920718
+        - 7.391036260090294
+      - - -3.7711738946079816
+        - 7.05537011478684
+      - - -4.444561864156816
+        - 6.651756898420363
+      - - -5.075146273309163
+        - 6.184083626901897
+      - - -5.65685424949238
+        - 5.656854249492381
+      - - -6.184083626901896
+        - 5.075146273309164
+      - - -6.651756898420363
+        - 4.444561864156817
+      - - -7.0553701147868395
+        - 3.7711738946079825
+      - - -7.391036260090294
+        - 3.061467458920719
+      - - -7.655522685857671
+        - 2.322277418035699
+      - - -7.8462822432258434
+        - 1.5607225761290289
+      - - -7.9614778133775745
+        - 0.7841371226364866
+      - - -8.0
+        - 9.797174393178826e-16
+      - - -7.961477813377575
+        - -0.7841371226364847
+      - - -7.8462822432258434
+        - -1.5607225761290269
+      - - -7.6555226858576715
+        - -2.322277418035697
+      - - -7.391036260090295
+        - -3.0614674589207174
+      - - -7.05537011478684
+        - -3.771173894607981
+      - - -6.651756898420364
+        - -4.444561864156816
+      - - -6.184083626901897
+        - -5.075146273309162
+      - - -5.6568542494923815
+        - -5.65685424949238
+      - - -5.0751462733091675
+        - -6.184083626901893
+      - - -4.444561864156817
+        - -6.651756898420362
+      - - -3.771173894607983
+        - -7.0553701147868395
+      - - -3.0614674589207227
+        - -7.391036260090292
+      - - -2.3222774180356995
+        - -7.655522685857671
+      - - -1.5607225761290293
+        - -7.846282243225843
+      - - -0.7841371226364836
+        - -7.961477813377575
+      - - -1.4695761589768238e-15
+        - -8.0
+      - - 0.7841371226364807
+        - -7.961477813377575
+      - - 1.5607225761290264
+        - -7.8462822432258434
+      - - 2.3222774180356964
+        - -7.6555226858576715
+      - - 3.06146745892072
+        - -7.391036260090293
+      - - 3.7711738946079807
+        - -7.05537011478684
+      - - 4.444561864156815
+        - -6.651756898420364
+      - - 5.075146273309165
+        - -6.184083626901895
+      - - 5.656854249492379
+        - -5.6568542494923815
+      - - 6.184083626901892
+        - -5.0751462733091675
+      - - 6.651756898420362
+        - -4.444561864156817
+      - - 7.055370114786839
+        - -3.7711738946079834
+      - - 7.391036260090292
+        - -3.061467458920723
+      - - 7.655522685857671
+        - -2.3222774180357
+      - - 7.846282243225843
+        - -1.5607225761290298
+      - - 7.961477813377575
+        - -0.784137122636484
+      pos:
+      - -41.625
+      - 28.125
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      shape: polygon
+      type: positive_positive
+  - - m: ''
+      pos:
+      - -44.125
+      - 19.225
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      shape: cube
+      size:
+      - 5.0
+      - 1.6999999999999993
+      - 0.3
+      type: positive_positive
+  - - depth: 0.6
+      height: 0.6
+      m: ''
+      points:
+      - - 8.0
+        - 0.0
+      - - 7.961477813377575
+        - 0.7841371226364848
+      - - 7.8462822432258434
+        - 1.560722576129026
+      - - 7.655522685857671
+        - 2.3222774180356986
+      - - 7.391036260090294
+        - 3.0614674589207183
+      - - 7.05537011478684
+        - 3.771173894607981
+      - - 6.651756898420362
+        - 4.444561864156817
+      - - 6.184083626901896
+        - 5.075146273309164
+      - - 5.656854249492381
+        - 5.656854249492381
+      - - 5.075146273309164
+        - 6.184083626901895
+      - - 4.444561864156818
+        - 6.651756898420362
+      - - 3.7711738946079825
+        - 7.0553701147868395
+      - - 3.0614674589207187
+        - 7.391036260090294
+      - - 2.3222774180356986
+        - 7.6555226858576715
+      - - 1.5607225761290267
+        - 7.8462822432258434
+      - - 0.7841371226364862
+        - 7.9614778133775745
+      - - 4.898587196589413e-16
+        - 8.0
+      - - -0.7841371226364852
+        - 7.961477813377575
+      - - -1.5607225761290255
+        - 7.8462822432258434
+      - - -2.3222774180356973
+        - 7.6555226858576715
+      - - -3.061467458920718
+        - 7.391036260090294
+      - - -3.7711738946079816
+        - 7.05537011478684
+      - - -4.444561864156816
+        - 6.651756898420363
+      - - -5.075146273309163
+        - 6.184083626901897
+      - - -5.65685424949238
+        - 5.656854249492381
+      - - -6.184083626901896
+        - 5.075146273309164
+      - - -6.651756898420363
+        - 4.444561864156817
+      - - -7.0553701147868395
+        - 3.7711738946079825
+      - - -7.391036260090294
+        - 3.061467458920719
+      - - -7.655522685857671
+        - 2.322277418035699
+      - - -7.8462822432258434
+        - 1.5607225761290289
+      - - -7.9614778133775745
+        - 0.7841371226364866
+      - - -8.0
+        - 9.797174393178826e-16
+      - - -7.961477813377575
+        - -0.7841371226364847
+      - - -7.8462822432258434
+        - -1.5607225761290269
+      - - -7.6555226858576715
+        - -2.322277418035697
+      - - -7.391036260090295
+        - -3.0614674589207174
+      - - -7.05537011478684
+        - -3.771173894607981
+      - - -6.651756898420364
+        - -4.444561864156816
+      - - -6.184083626901897
+        - -5.075146273309162
+      - - -5.6568542494923815
+        - -5.65685424949238
+      - - -5.0751462733091675
+        - -6.184083626901893
+      - - -4.444561864156817
+        - -6.651756898420362
+      - - -3.771173894607983
+        - -7.0553701147868395
+      - - -3.0614674589207227
+        - -7.391036260090292
+      - - -2.3222774180356995
+        - -7.655522685857671
+      - - -1.5607225761290293
+        - -7.846282243225843
+      - - -0.7841371226364836
+        - -7.961477813377575
+      - - -1.4695761589768238e-15
+        - -8.0
+      - - 0.7841371226364807
+        - -7.961477813377575
+      - - 1.5607225761290264
+        - -7.8462822432258434
+      - - 2.3222774180356964
+        - -7.6555226858576715
+      - - 3.06146745892072
+        - -7.391036260090293
+      - - 3.7711738946079807
+        - -7.05537011478684
+      - - 4.444561864156815
+        - -6.651756898420364
+      - - 5.075146273309165
+        - -6.184083626901895
+      - - 5.656854249492379
+        - -5.6568542494923815
+      - - 6.184083626901892
+        - -5.0751462733091675
+      - - 6.651756898420362
+        - -4.444561864156817
+      - - 7.055370114786839
+        - -3.7711738946079834
+      - - 7.391036260090292
+        - -3.061467458920723
+      - - 7.655522685857671
+        - -2.3222774180357
+      - - 7.846282243225843
+        - -1.5607225761290298
+      - - 7.961477813377575
+        - -0.784137122636484
+      pos:
+      - 41.625
+      - -28.125
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      shape: polygon
+      type: positive_positive
+  - - m: ''
+      pos:
+      - 39.125
+      - -20.925
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      shape: cube
+      size:
+      - 5.0
+      - 1.6999999999999993
+      - 0.3
+      type: positive_positive
+  - - depth: 0.6
+      height: 0.6
+      m: ''
+      points:
+      - - 8.0
+        - 0.0
+      - - 7.961477813377575
+        - 0.7841371226364848
+      - - 7.8462822432258434
+        - 1.560722576129026
+      - - 7.655522685857671
+        - 2.3222774180356986
+      - - 7.391036260090294
+        - 3.0614674589207183
+      - - 7.05537011478684
+        - 3.771173894607981
+      - - 6.651756898420362
+        - 4.444561864156817
+      - - 6.184083626901896
+        - 5.075146273309164
+      - - 5.656854249492381
+        - 5.656854249492381
+      - - 5.075146273309164
+        - 6.184083626901895
+      - - 4.444561864156818
+        - 6.651756898420362
+      - - 3.7711738946079825
+        - 7.0553701147868395
+      - - 3.0614674589207187
+        - 7.391036260090294
+      - - 2.3222774180356986
+        - 7.6555226858576715
+      - - 1.5607225761290267
+        - 7.8462822432258434
+      - - 0.7841371226364862
+        - 7.9614778133775745
+      - - 4.898587196589413e-16
+        - 8.0
+      - - -0.7841371226364852
+        - 7.961477813377575
+      - - -1.5607225761290255
+        - 7.8462822432258434
+      - - -2.3222774180356973
+        - 7.6555226858576715
+      - - -3.061467458920718
+        - 7.391036260090294
+      - - -3.7711738946079816
+        - 7.05537011478684
+      - - -4.444561864156816
+        - 6.651756898420363
+      - - -5.075146273309163
+        - 6.184083626901897
+      - - -5.65685424949238
+        - 5.656854249492381
+      - - -6.184083626901896
+        - 5.075146273309164
+      - - -6.651756898420363
+        - 4.444561864156817
+      - - -7.0553701147868395
+        - 3.7711738946079825
+      - - -7.391036260090294
+        - 3.061467458920719
+      - - -7.655522685857671
+        - 2.322277418035699
+      - - -7.8462822432258434
+        - 1.5607225761290289
+      - - -7.9614778133775745
+        - 0.7841371226364866
+      - - -8.0
+        - 9.797174393178826e-16
+      - - -7.961477813377575
+        - -0.7841371226364847
+      - - -7.8462822432258434
+        - -1.5607225761290269
+      - - -7.6555226858576715
+        - -2.322277418035697
+      - - -7.391036260090295
+        - -3.0614674589207174
+      - - -7.05537011478684
+        - -3.771173894607981
+      - - -6.651756898420364
+        - -4.444561864156816
+      - - -6.184083626901897
+        - -5.075146273309162
+      - - -5.6568542494923815
+        - -5.65685424949238
+      - - -5.0751462733091675
+        - -6.184083626901893
+      - - -4.444561864156817
+        - -6.651756898420362
+      - - -3.771173894607983
+        - -7.0553701147868395
+      - - -3.0614674589207227
+        - -7.391036260090292
+      - - -2.3222774180356995
+        - -7.655522685857671
+      - - -1.5607225761290293
+        - -7.846282243225843
+      - - -0.7841371226364836
+        - -7.961477813377575
+      - - -1.4695761589768238e-15
+        - -8.0
+      - - 0.7841371226364807
+        - -7.961477813377575
+      - - 1.5607225761290264
+        - -7.8462822432258434
+      - - 2.3222774180356964
+        - -7.6555226858576715
+      - - 3.06146745892072
+        - -7.391036260090293
+      - - 3.7711738946079807
+        - -7.05537011478684
+      - - 4.444561864156815
+        - -6.651756898420364
+      - - 5.075146273309165
+        - -6.184083626901895
+      - - 5.656854249492379
+        - -5.6568542494923815
+      - - 6.184083626901892
+        - -5.0751462733091675
+      - - 6.651756898420362
+        - -4.444561864156817
+      - - 7.055370114786839
+        - -3.7711738946079834
+      - - 7.391036260090292
+        - -3.061467458920723
+      - - 7.655522685857671
+        - -2.3222774180357
+      - - 7.846282243225843
+        - -1.5607225761290298
+      - - 7.961477813377575
+        - -0.784137122636484
+      pos:
+      - 41.625
+      - 28.125
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      shape: polygon
+      type: positive_positive
+  - - m: ''
+      pos:
+      - 39.125
+      - 19.225
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      shape: cube
+      size:
+      - 5.0
+      - 1.6999999999999993
+      - 0.3
+      type: positive_positive
+  components_objects:
+  - adhesion_ears: true
+    assembled_depth: 12
+    assembly_half: print_layout
+    bed_height: 400.0
+    bed_margin: 2.0
+    bed_width: 400.0
+    body_depth: 12
+    body_extension_height: 0.0
+    catch_tab_depth: 1.5
+    catch_tab_height: 6.0
+    catch_tab_ramp_depth: 6.0
+    catch_tab_width: 56.0
+    column: 1
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_clearance: 2.25
+    container_depth: 109
+    container_height: 26
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    container_width: 86
+    corner_interlock_diameter: 2.8
+    corner_interlock_min_wall: 0.6
+    depth_clearance: 1.5
+    depth_lip: 12.0
+    depth_total: 12
+    drawer_border_edge: 5.5
+    ear_diameter: 16.0
+    ear_extension: 16.5
+    ear_gap: 0.5
+    ear_height: 0.6
+    ear_link_height: 0.3
+    ear_link_width: 5.0
+    filter: ''
+    front_band: 7.5
+    hardware_axis_height: 5.0
+    hardware_min_wall: 1.2
+    height_total: 39.25
+    inset_lip: 5.5
+    interlock_clearance: 0.25
+    interlock_depth: 3.0
+    interlock_end_clearance: 0.2
+    interlock_height: 7.0
+    interlock_width: 8.0
+    lightening: true
+    lip_body_width: 77.25
+    lip_cutout_radius: 1.0
+    lip_shelf_thickness: 10.0
+    lip_step_y: -2.125
+    lip_support_channel_height: 28.25
+    lip_support_end_y: 14.125
+    lip_support_reference_height: 26.0
+    m: ''
+    middle_rib_width: 0.0
+    modes:
+    - 3dpr
+    module_gap: 0.4
+    navigation: true
+    oobb_name: ai_version_2
+    oomp_mode: project
+    oomp_run: false
+    opening_height: 28.25
+    opening_height_extra: 0.0
+    opening_radius: 4.0
+    opening_width: 88.25
+    outer_radius: 2.4
+    overwrite: true
+    part_role: fit
+    pitch_x: 90.05
+    pitch_y: 30.05
+    pos:
+    - 0
+    - 0
+    - 0
+    print_height_total: 72.25
+    print_layout_axis: 1
+    print_layout_fits_single_bed: true
+    print_layout_gap: 8.0
+    print_layout_pitch: 80.25
+    print_layout_xy:
+    - 99.25
+    - 152.5
+    radius: 2.4
+    rear_band: 6.0
+    roof_slope: 1.0
+    row: 1
+    runner_width: 10.0
+    save_type: none
+    screw_head_seat_offset: 6.0
+    screw_length: 16.0
+    shape: rounded_rectangle
+    shelf_window_width: 68.25
+    side_rail_width: 4.0
+    side_window_lower_width: 7.0
+    side_window_upper_width: 2.25
+    size:
+    - 99.25
+    - 39.25
+    - 12
+    split_frame: false
+    style: ai_version_2
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 1_column
+    taxonomy_6: 1_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: ai_version_2_style
+    taxonomy_9: fit_clearance_2d25
+    test_depth: 12
+    thickness_wall: 1.8
+    type: positive
+    variant: fit_clearance_2d25
+    width_total: 99.25
+  - adhesion_ears: true
+    assembled_depth: 12
+    assembly_half: print_layout
+    bed_height: 400.0
+    bed_margin: 2.0
+    bed_width: 400.0
+    body_depth: 12
+    body_extension_height: 0.0
+    catch_tab_depth: 1.5
+    catch_tab_height: 6.0
+    catch_tab_ramp_depth: 6.0
+    catch_tab_width: 56.0
+    column: 1
+    column_index: 0
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_clearance: 2.25
+    container_depth: 109
+    container_height: 26
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    container_width: 86
+    corner_interlock_diameter: 2.8
+    corner_interlock_min_wall: 0.6
+    depth_clearance: 1.5
+    depth_lip: 12.0
+    depth_total: 12
+    drawer_border_edge: 5.5
+    ear_diameter: 16.0
+    ear_extension: 16.5
+    ear_gap: 0.5
+    ear_height: 0.6
+    ear_link_height: 0.3
+    ear_link_width: 5.0
+    filter: ''
+    front_band: 7.5
+    hardware_axis_height: 5.0
+    hardware_min_wall: 1.2
+    height_total: 39.25
+    inset_lip: 5.5
+    interlock_clearance: 0.25
+    interlock_depth: 3.0
+    interlock_end_clearance: 0.2
+    interlock_height: 7.0
+    interlock_width: 8.0
+    lightening: true
+    lip_body_width: 77.25
+    lip_cutout_radius: 1.0
+    lip_shelf_thickness: 10.0
+    lip_step_y: -2.125
+    lip_support_channel_height: 28.25
+    lip_support_end_y: 14.125
+    lip_support_reference_height: 26.0
+    m: ''
+    middle_rib_width: 0.0
+    modes:
+    - 3dpr
+    module_gap: 0.4
+    navigation: true
+    oobb_name: ai_version_2
+    oomp_mode: project
+    oomp_run: false
+    opening_height: 28.25
+    opening_height_extra: 0.0
+    opening_radius: 4.0
+    opening_width: 88.25
+    outer_radius: 2.4
+    overwrite: true
+    part_role: fit
+    pitch_x: 90.05
+    pitch_y: 30.05
+    pos:
+    - 0.0
+    - -8.125
+    - -0.1
+    print_height_total: 72.25
+    print_layout_axis: 1
+    print_layout_fits_single_bed: true
+    print_layout_gap: 8.0
+    print_layout_pitch: 80.25
+    print_layout_xy:
+    - 99.25
+    - 152.5
+    radius: 1.0
+    rear_band: 6.0
+    roof_slope: 1.0
+    row: 1
+    row_index: 0
+    runner_width: 10.0
+    save_type: none
+    screw_head_seat_offset: 6.0
+    screw_length: 16.0
+    shape: rounded_rectangle
+    shelf_window_width: 68.25
+    side_rail_width: 4.0
+    side_window_lower_width: 7.0
+    side_window_upper_width: 2.25
+    size:
+    - 88.25
+    - 12.0
+    - 12.2
+    split_frame: false
+    style: ai_version_2
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 1_column
+    taxonomy_6: 1_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: ai_version_2_style
+    taxonomy_9: fit_clearance_2d25
+    test_depth: 12
+    thickness_wall: 1.8
+    type: negative
+    variant: fit_clearance_2d25
+    width_total: 99.25
+  - adhesion_ears: true
+    assembled_depth: 12
+    assembly_half: print_layout
+    bed_height: 400.0
+    bed_margin: 2.0
+    bed_width: 400.0
+    body_depth: 12
+    body_extension_height: 0.0
+    catch_tab_depth: 1.5
+    catch_tab_height: 6.0
+    catch_tab_ramp_depth: 6.0
+    catch_tab_width: 56.0
+    column: 1
+    column_index: 0
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_clearance: 2.25
+    container_depth: 109
+    container_height: 26
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    container_width: 86
+    corner_interlock_diameter: 2.8
+    corner_interlock_min_wall: 0.6
+    depth_clearance: 1.5
+    depth_lip: 12.0
+    depth_total: 12
+    drawer_border_edge: 5.5
+    ear_diameter: 16.0
+    ear_extension: 16.5
+    ear_gap: 0.5
+    ear_height: 0.6
+    ear_link_height: 0.3
+    ear_link_width: 5.0
+    filter: ''
+    front_band: 7.5
+    hardware_axis_height: 5.0
+    hardware_min_wall: 1.2
+    height_total: 39.25
+    inset_lip: 5.5
+    interlock_clearance: 0.25
+    interlock_depth: 3.0
+    interlock_end_clearance: 0.2
+    interlock_height: 7.0
+    interlock_width: 8.0
+    lightening: true
+    lip_body_width: 77.25
+    lip_cutout_radius: 1.0
+    lip_shelf_thickness: 10.0
+    lip_step_y: -2.125
+    lip_support_channel_height: 28.25
+    lip_support_end_y: 14.125
+    lip_support_reference_height: 26.0
+    m: ''
+    middle_rib_width: 0.0
+    modes:
+    - 3dpr
+    module_gap: 0.4
+    navigation: true
+    oobb_name: ai_version_2
+    oomp_mode: project
+    oomp_run: false
+    opening_height: 28.25
+    opening_height_extra: 0.0
+    opening_radius: 4.0
+    opening_width: 88.25
+    outer_radius: 2.4
+    overwrite: true
+    part_role: fit
+    pitch_x: 90.05
+    pitch_y: 30.05
+    pos:
+    - 0.0
+    - 0.0
+    - -0.1
+    print_height_total: 72.25
+    print_layout_axis: 1
+    print_layout_fits_single_bed: true
+    print_layout_gap: 8.0
+    print_layout_pitch: 80.25
+    print_layout_xy:
+    - 99.25
+    - 152.5
+    radius: 4.0
+    rear_band: 6.0
+    roof_slope: 1.0
+    row: 1
+    row_index: 0
+    runner_width: 10.0
+    save_type: none
+    screw_head_seat_offset: 6.0
+    screw_length: 16.0
+    shape: rounded_rectangle
+    shelf_window_width: 68.25
+    side_rail_width: 4.0
+    side_window_lower_width: 7.0
+    side_window_upper_width: 2.25
+    size:
+    - 77.25
+    - 28.25
+    - 12.2
+    split_frame: false
+    style: ai_version_2
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 1_column
+    taxonomy_6: 1_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: ai_version_2_style
+    taxonomy_9: fit_clearance_2d25
+    test_depth: 12
+    thickness_wall: 1.8
+    type: negative
+    variant: fit_clearance_2d25
+    width_total: 99.25
+  - adhesion_ears: true
+    assembled_depth: 12
+    assembly_half: print_layout
+    bed_height: 400.0
+    bed_margin: 2.0
+    bed_width: 400.0
+    body_depth: 12
+    body_extension_height: 0.0
+    catch_tab_depth: 1.5
+    catch_tab_height: 6.0
+    catch_tab_ramp_depth: 6.0
+    catch_tab_width: 56.0
+    column: 1
+    column_index: 0
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_clearance: 2.25
+    container_depth: 109
+    container_height: 26
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    container_width: 86
+    corner_interlock_diameter: 2.8
+    corner_interlock_min_wall: 0.6
+    depth: 56.0
+    depth_clearance: 1.5
+    depth_lip: 12.0
+    depth_total: 12
+    drawer_border_edge: 5.5
+    ear_diameter: 16.0
+    ear_extension: 16.5
+    ear_gap: 0.5
+    ear_height: 0.6
+    ear_link_height: 0.3
+    ear_link_width: 5.0
+    filter: ''
+    front_band: 7.5
+    hardware_axis_height: 5.0
+    hardware_min_wall: 1.2
+    height: 56.0
+    height_total: 39.25
+    inset_lip: 5.5
+    interlock_clearance: 0.25
+    interlock_depth: 3.0
+    interlock_end_clearance: 0.2
+    interlock_height: 7.0
+    interlock_width: 8.0
+    lightening: true
+    lip_body_width: 77.25
+    lip_cutout_radius: 1.0
+    lip_shelf_thickness: 10.0
+    lip_step_y: -2.125
+    lip_support_channel_height: 28.25
+    lip_support_end_y: 14.125
+    lip_support_reference_height: 26.0
+    m: '#'
+    middle_rib_width: 0.0
+    modes:
+    - 3dpr
+    module_gap: 0.4
+    navigation: true
+    oobb_name: ai_version_2
+    oomp_mode: project
+    oomp_run: false
+    opening_height: 28.25
+    opening_height_extra: 0.0
+    opening_radius: 4.0
+    opening_width: 88.25
+    outer_radius: 2.4
+    overwrite: true
+    part_role: fit
+    pitch_x: 90.05
+    pitch_y: 30.05
+    points:
+    - - -1.8
+      - 0
+    - - 0
+      - 0
+    - - 6.0
+      - 6.0
+    - - 6.0
+      - 7.5
+    - - -1.8
+      - 7.5
+    pos:
+    - -28.0
+    - -14.125
+    - 0
+    print_height_total: 72.25
+    print_layout_axis: 1
+    print_layout_fits_single_bed: true
+    print_layout_gap: 8.0
+    print_layout_pitch: 80.25
+    print_layout_xy:
+    - 99.25
+    - 152.5
+    rear_band: 6.0
+    roof_slope: 1.0
+    rot:
+    - 90
+    - 0
+    - 90
+    row: 1
+    row_index: 0
+    runner_width: 10.0
+    save_type: none
+    screw_head_seat_offset: 6.0
+    screw_length: 16.0
+    shape: polygon
+    shelf_window_width: 68.25
+    side_rail_width: 4.0
+    side_window_lower_width: 7.0
+    side_window_upper_width: 2.25
+    split_frame: false
+    style: ai_version_2
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 1_column
+    taxonomy_6: 1_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: ai_version_2_style
+    taxonomy_9: fit_clearance_2d25
+    test_depth: 12
+    thickness_wall: 1.8
+    type: positive_positive
+    variant: fit_clearance_2d25
+    width_total: 99.25
+  - adhesion_ears: true
+    assembled_depth: 12
+    assembly_half: print_layout
+    bed_height: 400.0
+    bed_margin: 2.0
+    bed_width: 400.0
+    body_depth: 12
+    body_extension_height: 0.0
+    catch_tab_depth: 1.5
+    catch_tab_height: 6.0
+    catch_tab_ramp_depth: 6.0
+    catch_tab_width: 56.0
+    column: 1
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_clearance: 2.25
+    container_depth: 109
+    container_height: 26
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    container_width: 86
+    corner_interlock_diameter: 2.8
+    corner_interlock_min_wall: 0.6
+    depth: 0.6
+    depth_clearance: 1.5
+    depth_lip: 12.0
+    depth_total: 12
+    drawer_border_edge: 5.5
+    ear_diameter: 16.0
+    ear_extension: 16.5
+    ear_gap: 0.5
+    ear_height: 0.6
+    ear_link_height: 0.3
+    ear_link_width: 5.0
+    filter: ''
+    front_band: 7.5
+    hardware_axis_height: 5.0
+    hardware_min_wall: 1.2
+    height: 0.6
+    height_total: 39.25
+    inset_lip: 5.5
+    interlock_clearance: 0.25
+    interlock_depth: 3.0
+    interlock_end_clearance: 0.2
+    interlock_height: 7.0
+    interlock_width: 8.0
+    lightening: true
+    lip_body_width: 77.25
+    lip_cutout_radius: 1.0
+    lip_shelf_thickness: 10.0
+    lip_step_y: -2.125
+    lip_support_channel_height: 28.25
+    lip_support_end_y: 14.125
+    lip_support_reference_height: 26.0
+    m: ''
+    middle_rib_width: 0.0
+    modes:
+    - 3dpr
+    module_gap: 0.4
+    navigation: true
+    oobb_name: ai_version_2
+    oomp_mode: project
+    oomp_run: false
+    opening_height: 28.25
+    opening_height_extra: 0.0
+    opening_radius: 4.0
+    opening_width: 88.25
+    outer_radius: 2.4
+    overwrite: true
+    part_role: fit
+    pitch_x: 90.05
+    pitch_y: 30.05
+    points:
+    - - 8.0
+      - 0.0
+    - - 7.961477813377575
+      - 0.7841371226364848
+    - - 7.8462822432258434
+      - 1.560722576129026
+    - - 7.655522685857671
+      - 2.3222774180356986
+    - - 7.391036260090294
+      - 3.0614674589207183
+    - - 7.05537011478684
+      - 3.771173894607981
+    - - 6.651756898420362
+      - 4.444561864156817
+    - - 6.184083626901896
+      - 5.075146273309164
+    - - 5.656854249492381
+      - 5.656854249492381
+    - - 5.075146273309164
+      - 6.184083626901895
+    - - 4.444561864156818
+      - 6.651756898420362
+    - - 3.7711738946079825
+      - 7.0553701147868395
+    - - 3.0614674589207187
+      - 7.391036260090294
+    - - 2.3222774180356986
+      - 7.6555226858576715
+    - - 1.5607225761290267
+      - 7.8462822432258434
+    - - 0.7841371226364862
+      - 7.9614778133775745
+    - - 4.898587196589413e-16
+      - 8.0
+    - - -0.7841371226364852
+      - 7.961477813377575
+    - - -1.5607225761290255
+      - 7.8462822432258434
+    - - -2.3222774180356973
+      - 7.6555226858576715
+    - - -3.061467458920718
+      - 7.391036260090294
+    - - -3.7711738946079816
+      - 7.05537011478684
+    - - -4.444561864156816
+      - 6.651756898420363
+    - - -5.075146273309163
+      - 6.184083626901897
+    - - -5.65685424949238
+      - 5.656854249492381
+    - - -6.184083626901896
+      - 5.075146273309164
+    - - -6.651756898420363
+      - 4.444561864156817
+    - - -7.0553701147868395
+      - 3.7711738946079825
+    - - -7.391036260090294
+      - 3.061467458920719
+    - - -7.655522685857671
+      - 2.322277418035699
+    - - -7.8462822432258434
+      - 1.5607225761290289
+    - - -7.9614778133775745
+      - 0.7841371226364866
+    - - -8.0
+      - 9.797174393178826e-16
+    - - -7.961477813377575
+      - -0.7841371226364847
+    - - -7.8462822432258434
+      - -1.5607225761290269
+    - - -7.6555226858576715
+      - -2.322277418035697
+    - - -7.391036260090295
+      - -3.0614674589207174
+    - - -7.05537011478684
+      - -3.771173894607981
+    - - -6.651756898420364
+      - -4.444561864156816
+    - - -6.184083626901897
+      - -5.075146273309162
+    - - -5.6568542494923815
+      - -5.65685424949238
+    - - -5.0751462733091675
+      - -6.184083626901893
+    - - -4.444561864156817
+      - -6.651756898420362
+    - - -3.771173894607983
+      - -7.0553701147868395
+    - - -3.0614674589207227
+      - -7.391036260090292
+    - - -2.3222774180356995
+      - -7.655522685857671
+    - - -1.5607225761290293
+      - -7.846282243225843
+    - - -0.7841371226364836
+      - -7.961477813377575
+    - - -1.4695761589768238e-15
+      - -8.0
+    - - 0.7841371226364807
+      - -7.961477813377575
+    - - 1.5607225761290264
+      - -7.8462822432258434
+    - - 2.3222774180356964
+      - -7.6555226858576715
+    - - 3.06146745892072
+      - -7.391036260090293
+    - - 3.7711738946079807
+      - -7.05537011478684
+    - - 4.444561864156815
+      - -6.651756898420364
+    - - 5.075146273309165
+      - -6.184083626901895
+    - - 5.656854249492379
+      - -5.6568542494923815
+    - - 6.184083626901892
+      - -5.0751462733091675
+    - - 6.651756898420362
+      - -4.444561864156817
+    - - 7.055370114786839
+      - -3.7711738946079834
+    - - 7.391036260090292
+      - -3.061467458920723
+    - - 7.655522685857671
+      - -2.3222774180357
+    - - 7.846282243225843
+      - -1.5607225761290298
+    - - 7.961477813377575
+      - -0.784137122636484
+    pos:
+    - -41.625
+    - -28.125
+    - 0
+    print_height_total: 72.25
+    print_layout_axis: 1
+    print_layout_fits_single_bed: true
+    print_layout_gap: 8.0
+    print_layout_pitch: 80.25
+    print_layout_xy:
+    - 99.25
+    - 152.5
+    rear_band: 6.0
+    roof_slope: 1.0
+    rot:
+    - 0
+    - 0
+    - 0
+    row: 1
+    runner_width: 10.0
+    save_type: none
+    screw_head_seat_offset: 6.0
+    screw_length: 16.0
+    shape: polygon
+    shelf_window_width: 68.25
+    side_rail_width: 4.0
+    side_window_lower_width: 7.0
+    side_window_upper_width: 2.25
+    split_frame: false
+    style: ai_version_2
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 1_column
+    taxonomy_6: 1_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: ai_version_2_style
+    taxonomy_9: fit_clearance_2d25
+    test_depth: 12
+    thickness_wall: 1.8
+    type: positive_positive
+    variant: fit_clearance_2d25
+    width_total: 99.25
+  - adhesion_ears: true
+    assembled_depth: 12
+    assembly_half: print_layout
+    bed_height: 400.0
+    bed_margin: 2.0
+    bed_width: 400.0
+    body_depth: 12
+    body_extension_height: 0.0
+    catch_tab_depth: 1.5
+    catch_tab_height: 6.0
+    catch_tab_ramp_depth: 6.0
+    catch_tab_width: 56.0
+    column: 1
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_clearance: 2.25
+    container_depth: 109
+    container_height: 26
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    container_width: 86
+    corner_interlock_diameter: 2.8
+    corner_interlock_min_wall: 0.6
+    depth_clearance: 1.5
+    depth_lip: 12.0
+    depth_total: 12
+    drawer_border_edge: 5.5
+    ear_diameter: 16.0
+    ear_extension: 16.5
+    ear_gap: 0.5
+    ear_height: 0.6
+    ear_link_height: 0.3
+    ear_link_width: 5.0
+    filter: ''
+    front_band: 7.5
+    hardware_axis_height: 5.0
+    hardware_min_wall: 1.2
+    height_total: 39.25
+    inset_lip: 5.5
+    interlock_clearance: 0.25
+    interlock_depth: 3.0
+    interlock_end_clearance: 0.2
+    interlock_height: 7.0
+    interlock_width: 8.0
+    lightening: true
+    lip_body_width: 77.25
+    lip_cutout_radius: 1.0
+    lip_shelf_thickness: 10.0
+    lip_step_y: -2.125
+    lip_support_channel_height: 28.25
+    lip_support_end_y: 14.125
+    lip_support_reference_height: 26.0
+    m: ''
+    middle_rib_width: 0.0
+    modes:
+    - 3dpr
+    module_gap: 0.4
+    navigation: true
+    oobb_name: ai_version_2
+    oomp_mode: project
+    oomp_run: false
+    opening_height: 28.25
+    opening_height_extra: 0.0
+    opening_radius: 4.0
+    opening_width: 88.25
+    outer_radius: 2.4
+    overwrite: true
+    part_role: fit
+    pitch_x: 90.05
+    pitch_y: 30.05
+    pos:
+    - -44.125
+    - -20.925
+    - 0
+    print_height_total: 72.25
+    print_layout_axis: 1
+    print_layout_fits_single_bed: true
+    print_layout_gap: 8.0
+    print_layout_pitch: 80.25
+    print_layout_xy:
+    - 99.25
+    - 152.5
+    rear_band: 6.0
+    roof_slope: 1.0
+    rot:
+    - 0
+    - 0
+    - 0
+    row: 1
+    runner_width: 10.0
+    save_type: none
+    screw_head_seat_offset: 6.0
+    screw_length: 16.0
+    shape: cube
+    shelf_window_width: 68.25
+    side_rail_width: 4.0
+    side_window_lower_width: 7.0
+    side_window_upper_width: 2.25
+    size:
+    - 5.0
+    - 1.6999999999999993
+    - 0.3
+    split_frame: false
+    style: ai_version_2
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 1_column
+    taxonomy_6: 1_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: ai_version_2_style
+    taxonomy_9: fit_clearance_2d25
+    test_depth: 12
+    thickness_wall: 1.8
+    type: positive_positive
+    variant: fit_clearance_2d25
+    width_total: 99.25
+  - adhesion_ears: true
+    assembled_depth: 12
+    assembly_half: print_layout
+    bed_height: 400.0
+    bed_margin: 2.0
+    bed_width: 400.0
+    body_depth: 12
+    body_extension_height: 0.0
+    catch_tab_depth: 1.5
+    catch_tab_height: 6.0
+    catch_tab_ramp_depth: 6.0
+    catch_tab_width: 56.0
+    column: 1
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_clearance: 2.25
+    container_depth: 109
+    container_height: 26
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    container_width: 86
+    corner_interlock_diameter: 2.8
+    corner_interlock_min_wall: 0.6
+    depth: 0.6
+    depth_clearance: 1.5
+    depth_lip: 12.0
+    depth_total: 12
+    drawer_border_edge: 5.5
+    ear_diameter: 16.0
+    ear_extension: 16.5
+    ear_gap: 0.5
+    ear_height: 0.6
+    ear_link_height: 0.3
+    ear_link_width: 5.0
+    filter: ''
+    front_band: 7.5
+    hardware_axis_height: 5.0
+    hardware_min_wall: 1.2
+    height: 0.6
+    height_total: 39.25
+    inset_lip: 5.5
+    interlock_clearance: 0.25
+    interlock_depth: 3.0
+    interlock_end_clearance: 0.2
+    interlock_height: 7.0
+    interlock_width: 8.0
+    lightening: true
+    lip_body_width: 77.25
+    lip_cutout_radius: 1.0
+    lip_shelf_thickness: 10.0
+    lip_step_y: -2.125
+    lip_support_channel_height: 28.25
+    lip_support_end_y: 14.125
+    lip_support_reference_height: 26.0
+    m: ''
+    middle_rib_width: 0.0
+    modes:
+    - 3dpr
+    module_gap: 0.4
+    navigation: true
+    oobb_name: ai_version_2
+    oomp_mode: project
+    oomp_run: false
+    opening_height: 28.25
+    opening_height_extra: 0.0
+    opening_radius: 4.0
+    opening_width: 88.25
+    outer_radius: 2.4
+    overwrite: true
+    part_role: fit
+    pitch_x: 90.05
+    pitch_y: 30.05
+    points:
+    - - 8.0
+      - 0.0
+    - - 7.961477813377575
+      - 0.7841371226364848
+    - - 7.8462822432258434
+      - 1.560722576129026
+    - - 7.655522685857671
+      - 2.3222774180356986
+    - - 7.391036260090294
+      - 3.0614674589207183
+    - - 7.05537011478684
+      - 3.771173894607981
+    - - 6.651756898420362
+      - 4.444561864156817
+    - - 6.184083626901896
+      - 5.075146273309164
+    - - 5.656854249492381
+      - 5.656854249492381
+    - - 5.075146273309164
+      - 6.184083626901895
+    - - 4.444561864156818
+      - 6.651756898420362
+    - - 3.7711738946079825
+      - 7.0553701147868395
+    - - 3.0614674589207187
+      - 7.391036260090294
+    - - 2.3222774180356986
+      - 7.6555226858576715
+    - - 1.5607225761290267
+      - 7.8462822432258434
+    - - 0.7841371226364862
+      - 7.9614778133775745
+    - - 4.898587196589413e-16
+      - 8.0
+    - - -0.7841371226364852
+      - 7.961477813377575
+    - - -1.5607225761290255
+      - 7.8462822432258434
+    - - -2.3222774180356973
+      - 7.6555226858576715
+    - - -3.061467458920718
+      - 7.391036260090294
+    - - -3.7711738946079816
+      - 7.05537011478684
+    - - -4.444561864156816
+      - 6.651756898420363
+    - - -5.075146273309163
+      - 6.184083626901897
+    - - -5.65685424949238
+      - 5.656854249492381
+    - - -6.184083626901896
+      - 5.075146273309164
+    - - -6.651756898420363
+      - 4.444561864156817
+    - - -7.0553701147868395
+      - 3.7711738946079825
+    - - -7.391036260090294
+      - 3.061467458920719
+    - - -7.655522685857671
+      - 2.322277418035699
+    - - -7.8462822432258434
+      - 1.5607225761290289
+    - - -7.9614778133775745
+      - 0.7841371226364866
+    - - -8.0
+      - 9.797174393178826e-16
+    - - -7.961477813377575
+      - -0.7841371226364847
+    - - -7.8462822432258434
+      - -1.5607225761290269
+    - - -7.6555226858576715
+      - -2.322277418035697
+    - - -7.391036260090295
+      - -3.0614674589207174
+    - - -7.05537011478684
+      - -3.771173894607981
+    - - -6.651756898420364
+      - -4.444561864156816
+    - - -6.184083626901897
+      - -5.075146273309162
+    - - -5.6568542494923815
+      - -5.65685424949238
+    - - -5.0751462733091675
+      - -6.184083626901893
+    - - -4.444561864156817
+      - -6.651756898420362
+    - - -3.771173894607983
+      - -7.0553701147868395
+    - - -3.0614674589207227
+      - -7.391036260090292
+    - - -2.3222774180356995
+      - -7.655522685857671
+    - - -1.5607225761290293
+      - -7.846282243225843
+    - - -0.7841371226364836
+      - -7.961477813377575
+    - - -1.4695761589768238e-15
+      - -8.0
+    - - 0.7841371226364807
+      - -7.961477813377575
+    - - 1.5607225761290264
+      - -7.8462822432258434
+    - - 2.3222774180356964
+      - -7.6555226858576715
+    - - 3.06146745892072
+      - -7.391036260090293
+    - - 3.7711738946079807
+      - -7.05537011478684
+    - - 4.444561864156815
+      - -6.651756898420364
+    - - 5.075146273309165
+      - -6.184083626901895
+    - - 5.656854249492379
+      - -5.6568542494923815
+    - - 6.184083626901892
+      - -5.0751462733091675
+    - - 6.651756898420362
+      - -4.444561864156817
+    - - 7.055370114786839
+      - -3.7711738946079834
+    - - 7.391036260090292
+      - -3.061467458920723
+    - - 7.655522685857671
+      - -2.3222774180357
+    - - 7.846282243225843
+      - -1.5607225761290298
+    - - 7.961477813377575
+      - -0.784137122636484
+    pos:
+    - -41.625
+    - 28.125
+    - 0
+    print_height_total: 72.25
+    print_layout_axis: 1
+    print_layout_fits_single_bed: true
+    print_layout_gap: 8.0
+    print_layout_pitch: 80.25
+    print_layout_xy:
+    - 99.25
+    - 152.5
+    rear_band: 6.0
+    roof_slope: 1.0
+    rot:
+    - 0
+    - 0
+    - 0
+    row: 1
+    runner_width: 10.0
+    save_type: none
+    screw_head_seat_offset: 6.0
+    screw_length: 16.0
+    shape: polygon
+    shelf_window_width: 68.25
+    side_rail_width: 4.0
+    side_window_lower_width: 7.0
+    side_window_upper_width: 2.25
+    split_frame: false
+    style: ai_version_2
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 1_column
+    taxonomy_6: 1_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: ai_version_2_style
+    taxonomy_9: fit_clearance_2d25
+    test_depth: 12
+    thickness_wall: 1.8
+    type: positive_positive
+    variant: fit_clearance_2d25
+    width_total: 99.25
+  - adhesion_ears: true
+    assembled_depth: 12
+    assembly_half: print_layout
+    bed_height: 400.0
+    bed_margin: 2.0
+    bed_width: 400.0
+    body_depth: 12
+    body_extension_height: 0.0
+    catch_tab_depth: 1.5
+    catch_tab_height: 6.0
+    catch_tab_ramp_depth: 6.0
+    catch_tab_width: 56.0
+    column: 1
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_clearance: 2.25
+    container_depth: 109
+    container_height: 26
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    container_width: 86
+    corner_interlock_diameter: 2.8
+    corner_interlock_min_wall: 0.6
+    depth_clearance: 1.5
+    depth_lip: 12.0
+    depth_total: 12
+    drawer_border_edge: 5.5
+    ear_diameter: 16.0
+    ear_extension: 16.5
+    ear_gap: 0.5
+    ear_height: 0.6
+    ear_link_height: 0.3
+    ear_link_width: 5.0
+    filter: ''
+    front_band: 7.5
+    hardware_axis_height: 5.0
+    hardware_min_wall: 1.2
+    height_total: 39.25
+    inset_lip: 5.5
+    interlock_clearance: 0.25
+    interlock_depth: 3.0
+    interlock_end_clearance: 0.2
+    interlock_height: 7.0
+    interlock_width: 8.0
+    lightening: true
+    lip_body_width: 77.25
+    lip_cutout_radius: 1.0
+    lip_shelf_thickness: 10.0
+    lip_step_y: -2.125
+    lip_support_channel_height: 28.25
+    lip_support_end_y: 14.125
+    lip_support_reference_height: 26.0
+    m: ''
+    middle_rib_width: 0.0
+    modes:
+    - 3dpr
+    module_gap: 0.4
+    navigation: true
+    oobb_name: ai_version_2
+    oomp_mode: project
+    oomp_run: false
+    opening_height: 28.25
+    opening_height_extra: 0.0
+    opening_radius: 4.0
+    opening_width: 88.25
+    outer_radius: 2.4
+    overwrite: true
+    part_role: fit
+    pitch_x: 90.05
+    pitch_y: 30.05
+    pos:
+    - -44.125
+    - 19.225
+    - 0
+    print_height_total: 72.25
+    print_layout_axis: 1
+    print_layout_fits_single_bed: true
+    print_layout_gap: 8.0
+    print_layout_pitch: 80.25
+    print_layout_xy:
+    - 99.25
+    - 152.5
+    rear_band: 6.0
+    roof_slope: 1.0
+    rot:
+    - 0
+    - 0
+    - 0
+    row: 1
+    runner_width: 10.0
+    save_type: none
+    screw_head_seat_offset: 6.0
+    screw_length: 16.0
+    shape: cube
+    shelf_window_width: 68.25
+    side_rail_width: 4.0
+    side_window_lower_width: 7.0
+    side_window_upper_width: 2.25
+    size:
+    - 5.0
+    - 1.6999999999999993
+    - 0.3
+    split_frame: false
+    style: ai_version_2
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 1_column
+    taxonomy_6: 1_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: ai_version_2_style
+    taxonomy_9: fit_clearance_2d25
+    test_depth: 12
+    thickness_wall: 1.8
+    type: positive_positive
+    variant: fit_clearance_2d25
+    width_total: 99.25
+  - adhesion_ears: true
+    assembled_depth: 12
+    assembly_half: print_layout
+    bed_height: 400.0
+    bed_margin: 2.0
+    bed_width: 400.0
+    body_depth: 12
+    body_extension_height: 0.0
+    catch_tab_depth: 1.5
+    catch_tab_height: 6.0
+    catch_tab_ramp_depth: 6.0
+    catch_tab_width: 56.0
+    column: 1
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_clearance: 2.25
+    container_depth: 109
+    container_height: 26
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    container_width: 86
+    corner_interlock_diameter: 2.8
+    corner_interlock_min_wall: 0.6
+    depth: 0.6
+    depth_clearance: 1.5
+    depth_lip: 12.0
+    depth_total: 12
+    drawer_border_edge: 5.5
+    ear_diameter: 16.0
+    ear_extension: 16.5
+    ear_gap: 0.5
+    ear_height: 0.6
+    ear_link_height: 0.3
+    ear_link_width: 5.0
+    filter: ''
+    front_band: 7.5
+    hardware_axis_height: 5.0
+    hardware_min_wall: 1.2
+    height: 0.6
+    height_total: 39.25
+    inset_lip: 5.5
+    interlock_clearance: 0.25
+    interlock_depth: 3.0
+    interlock_end_clearance: 0.2
+    interlock_height: 7.0
+    interlock_width: 8.0
+    lightening: true
+    lip_body_width: 77.25
+    lip_cutout_radius: 1.0
+    lip_shelf_thickness: 10.0
+    lip_step_y: -2.125
+    lip_support_channel_height: 28.25
+    lip_support_end_y: 14.125
+    lip_support_reference_height: 26.0
+    m: ''
+    middle_rib_width: 0.0
+    modes:
+    - 3dpr
+    module_gap: 0.4
+    navigation: true
+    oobb_name: ai_version_2
+    oomp_mode: project
+    oomp_run: false
+    opening_height: 28.25
+    opening_height_extra: 0.0
+    opening_radius: 4.0
+    opening_width: 88.25
+    outer_radius: 2.4
+    overwrite: true
+    part_role: fit
+    pitch_x: 90.05
+    pitch_y: 30.05
+    points:
+    - - 8.0
+      - 0.0
+    - - 7.961477813377575
+      - 0.7841371226364848
+    - - 7.8462822432258434
+      - 1.560722576129026
+    - - 7.655522685857671
+      - 2.3222774180356986
+    - - 7.391036260090294
+      - 3.0614674589207183
+    - - 7.05537011478684
+      - 3.771173894607981
+    - - 6.651756898420362
+      - 4.444561864156817
+    - - 6.184083626901896
+      - 5.075146273309164
+    - - 5.656854249492381
+      - 5.656854249492381
+    - - 5.075146273309164
+      - 6.184083626901895
+    - - 4.444561864156818
+      - 6.651756898420362
+    - - 3.7711738946079825
+      - 7.0553701147868395
+    - - 3.0614674589207187
+      - 7.391036260090294
+    - - 2.3222774180356986
+      - 7.6555226858576715
+    - - 1.5607225761290267
+      - 7.8462822432258434
+    - - 0.7841371226364862
+      - 7.9614778133775745
+    - - 4.898587196589413e-16
+      - 8.0
+    - - -0.7841371226364852
+      - 7.961477813377575
+    - - -1.5607225761290255
+      - 7.8462822432258434
+    - - -2.3222774180356973
+      - 7.6555226858576715
+    - - -3.061467458920718
+      - 7.391036260090294
+    - - -3.7711738946079816
+      - 7.05537011478684
+    - - -4.444561864156816
+      - 6.651756898420363
+    - - -5.075146273309163
+      - 6.184083626901897
+    - - -5.65685424949238
+      - 5.656854249492381
+    - - -6.184083626901896
+      - 5.075146273309164
+    - - -6.651756898420363
+      - 4.444561864156817
+    - - -7.0553701147868395
+      - 3.7711738946079825
+    - - -7.391036260090294
+      - 3.061467458920719
+    - - -7.655522685857671
+      - 2.322277418035699
+    - - -7.8462822432258434
+      - 1.5607225761290289
+    - - -7.9614778133775745
+      - 0.7841371226364866
+    - - -8.0
+      - 9.797174393178826e-16
+    - - -7.961477813377575
+      - -0.7841371226364847
+    - - -7.8462822432258434
+      - -1.5607225761290269
+    - - -7.6555226858576715
+      - -2.322277418035697
+    - - -7.391036260090295
+      - -3.0614674589207174
+    - - -7.05537011478684
+      - -3.771173894607981
+    - - -6.651756898420364
+      - -4.444561864156816
+    - - -6.184083626901897
+      - -5.075146273309162
+    - - -5.6568542494923815
+      - -5.65685424949238
+    - - -5.0751462733091675
+      - -6.184083626901893
+    - - -4.444561864156817
+      - -6.651756898420362
+    - - -3.771173894607983
+      - -7.0553701147868395
+    - - -3.0614674589207227
+      - -7.391036260090292
+    - - -2.3222774180356995
+      - -7.655522685857671
+    - - -1.5607225761290293
+      - -7.846282243225843
+    - - -0.7841371226364836
+      - -7.961477813377575
+    - - -1.4695761589768238e-15
+      - -8.0
+    - - 0.7841371226364807
+      - -7.961477813377575
+    - - 1.5607225761290264
+      - -7.8462822432258434
+    - - 2.3222774180356964
+      - -7.6555226858576715
+    - - 3.06146745892072
+      - -7.391036260090293
+    - - 3.7711738946079807
+      - -7.05537011478684
+    - - 4.444561864156815
+      - -6.651756898420364
+    - - 5.075146273309165
+      - -6.184083626901895
+    - - 5.656854249492379
+      - -5.6568542494923815
+    - - 6.184083626901892
+      - -5.0751462733091675
+    - - 6.651756898420362
+      - -4.444561864156817
+    - - 7.055370114786839
+      - -3.7711738946079834
+    - - 7.391036260090292
+      - -3.061467458920723
+    - - 7.655522685857671
+      - -2.3222774180357
+    - - 7.846282243225843
+      - -1.5607225761290298
+    - - 7.961477813377575
+      - -0.784137122636484
+    pos:
+    - 41.625
+    - -28.125
+    - 0
+    print_height_total: 72.25
+    print_layout_axis: 1
+    print_layout_fits_single_bed: true
+    print_layout_gap: 8.0
+    print_layout_pitch: 80.25
+    print_layout_xy:
+    - 99.25
+    - 152.5
+    rear_band: 6.0
+    roof_slope: 1.0
+    rot:
+    - 0
+    - 0
+    - 0
+    row: 1
+    runner_width: 10.0
+    save_type: none
+    screw_head_seat_offset: 6.0
+    screw_length: 16.0
+    shape: polygon
+    shelf_window_width: 68.25
+    side_rail_width: 4.0
+    side_window_lower_width: 7.0
+    side_window_upper_width: 2.25
+    split_frame: false
+    style: ai_version_2
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 1_column
+    taxonomy_6: 1_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: ai_version_2_style
+    taxonomy_9: fit_clearance_2d25
+    test_depth: 12
+    thickness_wall: 1.8
+    type: positive_positive
+    variant: fit_clearance_2d25
+    width_total: 99.25
+  - adhesion_ears: true
+    assembled_depth: 12
+    assembly_half: print_layout
+    bed_height: 400.0
+    bed_margin: 2.0
+    bed_width: 400.0
+    body_depth: 12
+    body_extension_height: 0.0
+    catch_tab_depth: 1.5
+    catch_tab_height: 6.0
+    catch_tab_ramp_depth: 6.0
+    catch_tab_width: 56.0
+    column: 1
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_clearance: 2.25
+    container_depth: 109
+    container_height: 26
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    container_width: 86
+    corner_interlock_diameter: 2.8
+    corner_interlock_min_wall: 0.6
+    depth_clearance: 1.5
+    depth_lip: 12.0
+    depth_total: 12
+    drawer_border_edge: 5.5
+    ear_diameter: 16.0
+    ear_extension: 16.5
+    ear_gap: 0.5
+    ear_height: 0.6
+    ear_link_height: 0.3
+    ear_link_width: 5.0
+    filter: ''
+    front_band: 7.5
+    hardware_axis_height: 5.0
+    hardware_min_wall: 1.2
+    height_total: 39.25
+    inset_lip: 5.5
+    interlock_clearance: 0.25
+    interlock_depth: 3.0
+    interlock_end_clearance: 0.2
+    interlock_height: 7.0
+    interlock_width: 8.0
+    lightening: true
+    lip_body_width: 77.25
+    lip_cutout_radius: 1.0
+    lip_shelf_thickness: 10.0
+    lip_step_y: -2.125
+    lip_support_channel_height: 28.25
+    lip_support_end_y: 14.125
+    lip_support_reference_height: 26.0
+    m: ''
+    middle_rib_width: 0.0
+    modes:
+    - 3dpr
+    module_gap: 0.4
+    navigation: true
+    oobb_name: ai_version_2
+    oomp_mode: project
+    oomp_run: false
+    opening_height: 28.25
+    opening_height_extra: 0.0
+    opening_radius: 4.0
+    opening_width: 88.25
+    outer_radius: 2.4
+    overwrite: true
+    part_role: fit
+    pitch_x: 90.05
+    pitch_y: 30.05
+    pos:
+    - 39.125
+    - -20.925
+    - 0
+    print_height_total: 72.25
+    print_layout_axis: 1
+    print_layout_fits_single_bed: true
+    print_layout_gap: 8.0
+    print_layout_pitch: 80.25
+    print_layout_xy:
+    - 99.25
+    - 152.5
+    rear_band: 6.0
+    roof_slope: 1.0
+    rot:
+    - 0
+    - 0
+    - 0
+    row: 1
+    runner_width: 10.0
+    save_type: none
+    screw_head_seat_offset: 6.0
+    screw_length: 16.0
+    shape: cube
+    shelf_window_width: 68.25
+    side_rail_width: 4.0
+    side_window_lower_width: 7.0
+    side_window_upper_width: 2.25
+    size:
+    - 5.0
+    - 1.6999999999999993
+    - 0.3
+    split_frame: false
+    style: ai_version_2
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 1_column
+    taxonomy_6: 1_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: ai_version_2_style
+    taxonomy_9: fit_clearance_2d25
+    test_depth: 12
+    thickness_wall: 1.8
+    type: positive_positive
+    variant: fit_clearance_2d25
+    width_total: 99.25
+  - adhesion_ears: true
+    assembled_depth: 12
+    assembly_half: print_layout
+    bed_height: 400.0
+    bed_margin: 2.0
+    bed_width: 400.0
+    body_depth: 12
+    body_extension_height: 0.0
+    catch_tab_depth: 1.5
+    catch_tab_height: 6.0
+    catch_tab_ramp_depth: 6.0
+    catch_tab_width: 56.0
+    column: 1
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_clearance: 2.25
+    container_depth: 109
+    container_height: 26
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    container_width: 86
+    corner_interlock_diameter: 2.8
+    corner_interlock_min_wall: 0.6
+    depth: 0.6
+    depth_clearance: 1.5
+    depth_lip: 12.0
+    depth_total: 12
+    drawer_border_edge: 5.5
+    ear_diameter: 16.0
+    ear_extension: 16.5
+    ear_gap: 0.5
+    ear_height: 0.6
+    ear_link_height: 0.3
+    ear_link_width: 5.0
+    filter: ''
+    front_band: 7.5
+    hardware_axis_height: 5.0
+    hardware_min_wall: 1.2
+    height: 0.6
+    height_total: 39.25
+    inset_lip: 5.5
+    interlock_clearance: 0.25
+    interlock_depth: 3.0
+    interlock_end_clearance: 0.2
+    interlock_height: 7.0
+    interlock_width: 8.0
+    lightening: true
+    lip_body_width: 77.25
+    lip_cutout_radius: 1.0
+    lip_shelf_thickness: 10.0
+    lip_step_y: -2.125
+    lip_support_channel_height: 28.25
+    lip_support_end_y: 14.125
+    lip_support_reference_height: 26.0
+    m: ''
+    middle_rib_width: 0.0
+    modes:
+    - 3dpr
+    module_gap: 0.4
+    navigation: true
+    oobb_name: ai_version_2
+    oomp_mode: project
+    oomp_run: false
+    opening_height: 28.25
+    opening_height_extra: 0.0
+    opening_radius: 4.0
+    opening_width: 88.25
+    outer_radius: 2.4
+    overwrite: true
+    part_role: fit
+    pitch_x: 90.05
+    pitch_y: 30.05
+    points:
+    - - 8.0
+      - 0.0
+    - - 7.961477813377575
+      - 0.7841371226364848
+    - - 7.8462822432258434
+      - 1.560722576129026
+    - - 7.655522685857671
+      - 2.3222774180356986
+    - - 7.391036260090294
+      - 3.0614674589207183
+    - - 7.05537011478684
+      - 3.771173894607981
+    - - 6.651756898420362
+      - 4.444561864156817
+    - - 6.184083626901896
+      - 5.075146273309164
+    - - 5.656854249492381
+      - 5.656854249492381
+    - - 5.075146273309164
+      - 6.184083626901895
+    - - 4.444561864156818
+      - 6.651756898420362
+    - - 3.7711738946079825
+      - 7.0553701147868395
+    - - 3.0614674589207187
+      - 7.391036260090294
+    - - 2.3222774180356986
+      - 7.6555226858576715
+    - - 1.5607225761290267
+      - 7.8462822432258434
+    - - 0.7841371226364862
+      - 7.9614778133775745
+    - - 4.898587196589413e-16
+      - 8.0
+    - - -0.7841371226364852
+      - 7.961477813377575
+    - - -1.5607225761290255
+      - 7.8462822432258434
+    - - -2.3222774180356973
+      - 7.6555226858576715
+    - - -3.061467458920718
+      - 7.391036260090294
+    - - -3.7711738946079816
+      - 7.05537011478684
+    - - -4.444561864156816
+      - 6.651756898420363
+    - - -5.075146273309163
+      - 6.184083626901897
+    - - -5.65685424949238
+      - 5.656854249492381
+    - - -6.184083626901896
+      - 5.075146273309164
+    - - -6.651756898420363
+      - 4.444561864156817
+    - - -7.0553701147868395
+      - 3.7711738946079825
+    - - -7.391036260090294
+      - 3.061467458920719
+    - - -7.655522685857671
+      - 2.322277418035699
+    - - -7.8462822432258434
+      - 1.5607225761290289
+    - - -7.9614778133775745
+      - 0.7841371226364866
+    - - -8.0
+      - 9.797174393178826e-16
+    - - -7.961477813377575
+      - -0.7841371226364847
+    - - -7.8462822432258434
+      - -1.5607225761290269
+    - - -7.6555226858576715
+      - -2.322277418035697
+    - - -7.391036260090295
+      - -3.0614674589207174
+    - - -7.05537011478684
+      - -3.771173894607981
+    - - -6.651756898420364
+      - -4.444561864156816
+    - - -6.184083626901897
+      - -5.075146273309162
+    - - -5.6568542494923815
+      - -5.65685424949238
+    - - -5.0751462733091675
+      - -6.184083626901893
+    - - -4.444561864156817
+      - -6.651756898420362
+    - - -3.771173894607983
+      - -7.0553701147868395
+    - - -3.0614674589207227
+      - -7.391036260090292
+    - - -2.3222774180356995
+      - -7.655522685857671
+    - - -1.5607225761290293
+      - -7.846282243225843
+    - - -0.7841371226364836
+      - -7.961477813377575
+    - - -1.4695761589768238e-15
+      - -8.0
+    - - 0.7841371226364807
+      - -7.961477813377575
+    - - 1.5607225761290264
+      - -7.8462822432258434
+    - - 2.3222774180356964
+      - -7.6555226858576715
+    - - 3.06146745892072
+      - -7.391036260090293
+    - - 3.7711738946079807
+      - -7.05537011478684
+    - - 4.444561864156815
+      - -6.651756898420364
+    - - 5.075146273309165
+      - -6.184083626901895
+    - - 5.656854249492379
+      - -5.6568542494923815
+    - - 6.184083626901892
+      - -5.0751462733091675
+    - - 6.651756898420362
+      - -4.444561864156817
+    - - 7.055370114786839
+      - -3.7711738946079834
+    - - 7.391036260090292
+      - -3.061467458920723
+    - - 7.655522685857671
+      - -2.3222774180357
+    - - 7.846282243225843
+      - -1.5607225761290298
+    - - 7.961477813377575
+      - -0.784137122636484
+    pos:
+    - 41.625
+    - 28.125
+    - 0
+    print_height_total: 72.25
+    print_layout_axis: 1
+    print_layout_fits_single_bed: true
+    print_layout_gap: 8.0
+    print_layout_pitch: 80.25
+    print_layout_xy:
+    - 99.25
+    - 152.5
+    rear_band: 6.0
+    roof_slope: 1.0
+    rot:
+    - 0
+    - 0
+    - 0
+    row: 1
+    runner_width: 10.0
+    save_type: none
+    screw_head_seat_offset: 6.0
+    screw_length: 16.0
+    shape: polygon
+    shelf_window_width: 68.25
+    side_rail_width: 4.0
+    side_window_lower_width: 7.0
+    side_window_upper_width: 2.25
+    split_frame: false
+    style: ai_version_2
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 1_column
+    taxonomy_6: 1_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: ai_version_2_style
+    taxonomy_9: fit_clearance_2d25
+    test_depth: 12
+    thickness_wall: 1.8
+    type: positive_positive
+    variant: fit_clearance_2d25
+    width_total: 99.25
+  - adhesion_ears: true
+    assembled_depth: 12
+    assembly_half: print_layout
+    bed_height: 400.0
+    bed_margin: 2.0
+    bed_width: 400.0
+    body_depth: 12
+    body_extension_height: 0.0
+    catch_tab_depth: 1.5
+    catch_tab_height: 6.0
+    catch_tab_ramp_depth: 6.0
+    catch_tab_width: 56.0
+    column: 1
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_clearance: 2.25
+    container_depth: 109
+    container_height: 26
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    container_width: 86
+    corner_interlock_diameter: 2.8
+    corner_interlock_min_wall: 0.6
+    depth_clearance: 1.5
+    depth_lip: 12.0
+    depth_total: 12
+    drawer_border_edge: 5.5
+    ear_diameter: 16.0
+    ear_extension: 16.5
+    ear_gap: 0.5
+    ear_height: 0.6
+    ear_link_height: 0.3
+    ear_link_width: 5.0
+    filter: ''
+    front_band: 7.5
+    hardware_axis_height: 5.0
+    hardware_min_wall: 1.2
+    height_total: 39.25
+    inset_lip: 5.5
+    interlock_clearance: 0.25
+    interlock_depth: 3.0
+    interlock_end_clearance: 0.2
+    interlock_height: 7.0
+    interlock_width: 8.0
+    lightening: true
+    lip_body_width: 77.25
+    lip_cutout_radius: 1.0
+    lip_shelf_thickness: 10.0
+    lip_step_y: -2.125
+    lip_support_channel_height: 28.25
+    lip_support_end_y: 14.125
+    lip_support_reference_height: 26.0
+    m: ''
+    middle_rib_width: 0.0
+    modes:
+    - 3dpr
+    module_gap: 0.4
+    navigation: true
+    oobb_name: ai_version_2
+    oomp_mode: project
+    oomp_run: false
+    opening_height: 28.25
+    opening_height_extra: 0.0
+    opening_radius: 4.0
+    opening_width: 88.25
+    outer_radius: 2.4
+    overwrite: true
+    part_role: fit
+    pitch_x: 90.05
+    pitch_y: 30.05
+    pos:
+    - 39.125
+    - 19.225
+    - 0
+    print_height_total: 72.25
+    print_layout_axis: 1
+    print_layout_fits_single_bed: true
+    print_layout_gap: 8.0
+    print_layout_pitch: 80.25
+    print_layout_xy:
+    - 99.25
+    - 152.5
+    rear_band: 6.0
+    roof_slope: 1.0
+    rot:
+    - 0
+    - 0
+    - 0
+    row: 1
+    runner_width: 10.0
+    save_type: none
+    screw_head_seat_offset: 6.0
+    screw_length: 16.0
+    shape: cube
+    shelf_window_width: 68.25
+    side_rail_width: 4.0
+    side_window_lower_width: 7.0
+    side_window_upper_width: 2.25
+    size:
+    - 5.0
+    - 1.6999999999999993
+    - 0.3
+    split_frame: false
+    style: ai_version_2
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 1_column
+    taxonomy_6: 1_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: ai_version_2_style
+    taxonomy_9: fit_clearance_2d25
+    test_depth: 12
+    thickness_wall: 1.8
+    type: positive_positive
+    variant: fit_clearance_2d25
+    width_total: 99.25
+  components_string:
+  - rounded_rectangle_shape_positive_type_fit_part_role_print_layout_assembly_half_8.0_print_layout_gap_3.0_interlock_depth_8.0_interlock_width_7.0_interlock_height_2.8_corner_interlock_diameter_0.6_corner_interlock_min_wall_0.25_interlock_clearance_0.2_interlock_end_clearance_16.0_screw_length_6.0_screw_head_seat_offset_5.0_hardware_axis_height_1.2_hardware_min_wall_2.25_container_clearance_0.0_opening_height_extra_1.8_thickness_wall_5.5_drawer_border_edge_1.5_depth_clearance_4.0_opening_radius_2.4_outer_radius_7.5_front_band_6.0_rear_band_10.0_runner_width_0.0_middle_rib_width_12.0_depth_lip_5.5_inset_lip_1.0_lip_cutout_radius_10.0_lip_shelf_thickness_26.0_lip_support_reference_height_4.0_side_rail_width_1.0_roof_slope_true_lightening_56.0_catch_tab_width_6.0_catch_tab_height_6.0_catch_tab_ramp_depth_1.5_catch_tab_depth_true_adhesion_ears_16.0_ear_diameter_0.6_ear_height_0.5_ear_gap_5.0_ear_link_width_0.3_ear_link_height_0.4_module_gap_400.0_bed_width_400.0_bed_height_2.0_bed_margin_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_column_packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209_container_rectangle_100_ml_tamper_evident_systempak_209_container_short_ai_version_2_oobb_name_1_row_ai_version_2_style_oobb_taxonomy_1_organization_taxonomy_2_storage_taxonomy_3_drawer_unit_taxonomy_4_1_column_taxonomy_5_1_row_taxonomy_6_rectangle_100_ml_tamper_evident_systempak_209_container_taxonomy_7_ai_version_2_style_taxonomy_8_fit_clearance_2d25_taxonomy_9_12_test_depth_fit_clearance_2d25_variant_86_container_width_26_container_height_109_container_depth_88.25_opening_width_28.25_opening_height_90.05_pitch_x_30.05_pitch_y_99.25_width_total_39.25_height_total_12_depth_total_false_split_frame_12_assembled_depth_12_body_depth_16.5_ear_extension_72.25_print_height_total_1_print_layout_axis_99.25_152.5_print_layout_xy_80.25_print_layout_pitch_true_print_layout_fits_single_bed_-2.125_lip_step_y_77.25_lip_body_width_28.25_lip_support_channel_height_14.125_lip_support_end_y_0.0_body_extension_height_68.25_shelf_window_width_7.0_side_window_lower_width_2.25_side_window_upper_width_99.25_39.25_12_size_2.4_radius
+  - rounded_rectangle_shape_negative_type_0.0_-8.125_-0.1_pos_fit_part_role_print_layout_assembly_half_8.0_print_layout_gap_3.0_interlock_depth_8.0_interlock_width_7.0_interlock_height_2.8_corner_interlock_diameter_0.6_corner_interlock_min_wall_0.25_interlock_clearance_0.2_interlock_end_clearance_16.0_screw_length_6.0_screw_head_seat_offset_5.0_hardware_axis_height_1.2_hardware_min_wall_2.25_container_clearance_0.0_opening_height_extra_1.8_thickness_wall_5.5_drawer_border_edge_1.5_depth_clearance_4.0_opening_radius_2.4_outer_radius_7.5_front_band_6.0_rear_band_10.0_runner_width_0.0_middle_rib_width_12.0_depth_lip_5.5_inset_lip_1.0_lip_cutout_radius_10.0_lip_shelf_thickness_26.0_lip_support_reference_height_4.0_side_rail_width_1.0_roof_slope_true_lightening_56.0_catch_tab_width_6.0_catch_tab_height_6.0_catch_tab_ramp_depth_1.5_catch_tab_depth_true_adhesion_ears_16.0_ear_diameter_0.6_ear_height_0.5_ear_gap_5.0_ear_link_width_0.3_ear_link_height_0.4_module_gap_400.0_bed_width_400.0_bed_height_2.0_bed_margin_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_column_packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209_container_rectangle_100_ml_tamper_evident_systempak_209_container_short_ai_version_2_oobb_name_1_row_ai_version_2_style_oobb_taxonomy_1_organization_taxonomy_2_storage_taxonomy_3_drawer_unit_taxonomy_4_1_column_taxonomy_5_1_row_taxonomy_6_rectangle_100_ml_tamper_evident_systempak_209_container_taxonomy_7_ai_version_2_style_taxonomy_8_fit_clearance_2d25_taxonomy_9_12_test_depth_fit_clearance_2d25_variant_86_container_width_26_container_height_109_container_depth_88.25_opening_width_28.25_opening_height_90.05_pitch_x_30.05_pitch_y_99.25_width_total_39.25_height_total_12_depth_total_false_split_frame_12_assembled_depth_12_body_depth_16.5_ear_extension_72.25_print_height_total_1_print_layout_axis_99.25_152.5_print_layout_xy_80.25_print_layout_pitch_true_print_layout_fits_single_bed_-2.125_lip_step_y_77.25_lip_body_width_28.25_lip_support_channel_height_14.125_lip_support_end_y_0.0_body_extension_height_68.25_shelf_window_width_7.0_side_window_lower_width_2.25_side_window_upper_width_0_row_index_0_column_index_88.25_12.0_12.2_size_1.0_radius
+  - rounded_rectangle_shape_negative_type_0.0_0.0_-0.1_pos_fit_part_role_print_layout_assembly_half_8.0_print_layout_gap_3.0_interlock_depth_8.0_interlock_width_7.0_interlock_height_2.8_corner_interlock_diameter_0.6_corner_interlock_min_wall_0.25_interlock_clearance_0.2_interlock_end_clearance_16.0_screw_length_6.0_screw_head_seat_offset_5.0_hardware_axis_height_1.2_hardware_min_wall_2.25_container_clearance_0.0_opening_height_extra_1.8_thickness_wall_5.5_drawer_border_edge_1.5_depth_clearance_4.0_opening_radius_2.4_outer_radius_7.5_front_band_6.0_rear_band_10.0_runner_width_0.0_middle_rib_width_12.0_depth_lip_5.5_inset_lip_1.0_lip_cutout_radius_10.0_lip_shelf_thickness_26.0_lip_support_reference_height_4.0_side_rail_width_1.0_roof_slope_true_lightening_56.0_catch_tab_width_6.0_catch_tab_height_6.0_catch_tab_ramp_depth_1.5_catch_tab_depth_true_adhesion_ears_16.0_ear_diameter_0.6_ear_height_0.5_ear_gap_5.0_ear_link_width_0.3_ear_link_height_0.4_module_gap_400.0_bed_width_400.0_bed_height_2.0_bed_margin_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_column_packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209_container_rectangle_100_ml_tamper_evident_systempak_209_container_short_ai_version_2_oobb_name_1_row_ai_version_2_style_oobb_taxonomy_1_organization_taxonomy_2_storage_taxonomy_3_drawer_unit_taxonomy_4_1_column_taxonomy_5_1_row_taxonomy_6_rectangle_100_ml_tamper_evident_systempak_209_container_taxonomy_7_ai_version_2_style_taxonomy_8_fit_clearance_2d25_taxonomy_9_12_test_depth_fit_clearance_2d25_variant_86_container_width_26_container_height_109_container_depth_88.25_opening_width_28.25_opening_height_90.05_pitch_x_30.05_pitch_y_99.25_width_total_39.25_height_total_12_depth_total_false_split_frame_12_assembled_depth_12_body_depth_16.5_ear_extension_72.25_print_height_total_1_print_layout_axis_99.25_152.5_print_layout_xy_80.25_print_layout_pitch_true_print_layout_fits_single_bed_-2.125_lip_step_y_77.25_lip_body_width_28.25_lip_support_channel_height_14.125_lip_support_end_y_0.0_body_extension_height_68.25_shelf_window_width_7.0_side_window_lower_width_2.25_side_window_upper_width_0_row_index_0_column_index_77.25_28.25_12.2_size_4.0_radius
+  - polygon_shape_positive_positive_type_56.0_depth_-28.0_-14.125_0_pos_fit_part_role_print_layout_assembly_half_8.0_print_layout_gap_3.0_interlock_depth_8.0_interlock_width_7.0_interlock_height_2.8_corner_interlock_diameter_0.6_corner_interlock_min_wall_0.25_interlock_clearance_0.2_interlock_end_clearance_16.0_screw_length_6.0_screw_head_seat_offset_5.0_hardware_axis_height_1.2_hardware_min_wall_2.25_container_clearance_0.0_opening_height_extra_1.8_thickness_wall_5.5_drawer_border_edge_1.5_depth_clearance_4.0_opening_radius_2.4_outer_radius_7.5_front_band_6.0_rear_band_10.0_runner_width_0.0_middle_rib_width_12.0_depth_lip_5.5_inset_lip_1.0_lip_cutout_radius_10.0_lip_shelf_thickness_26.0_lip_support_reference_height_4.0_side_rail_width_1.0_roof_slope_true_lightening_56.0_catch_tab_width_6.0_catch_tab_height_6.0_catch_tab_ramp_depth_1.5_catch_tab_depth_true_adhesion_ears_16.0_ear_diameter_0.6_ear_height_0.5_ear_gap_5.0_ear_link_width_0.3_ear_link_height_0.4_module_gap_400.0_bed_width_400.0_bed_height_2.0_bed_margin_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_column_packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209_container_rectangle_100_ml_tamper_evident_systempak_209_container_short_ai_version_2_oobb_name_1_row_ai_version_2_style_oobb_taxonomy_1_organization_taxonomy_2_storage_taxonomy_3_drawer_unit_taxonomy_4_1_column_taxonomy_5_1_row_taxonomy_6_rectangle_100_ml_tamper_evident_systempak_209_container_taxonomy_7_ai_version_2_style_taxonomy_8_fit_clearance_2d25_taxonomy_9_12_test_depth_fit_clearance_2d25_variant_86_container_width_26_container_height_109_container_depth_88.25_opening_width_28.25_opening_height_90.05_pitch_x_30.05_pitch_y_99.25_width_total_39.25_height_total_12_depth_total_false_split_frame_12_assembled_depth_12_body_depth_16.5_ear_extension_72.25_print_height_total_1_print_layout_axis_99.25_152.5_print_layout_xy_80.25_print_layout_pitch_true_print_layout_fits_single_bed_-2.125_lip_step_y_77.25_lip_body_width_28.25_lip_support_channel_height_14.125_lip_support_end_y_0.0_body_extension_height_68.25_shelf_window_width_7.0_side_window_lower_width_2.25_side_window_upper_width_0_row_index_0_column_index_56.0_height_-1.8_0_0_0_6.0_6.0_6.0_7.5_-1.8_7.5_points_90_0_90_rot
+  - polygon_shape_positive_positive_type_0.6_depth_-41.625_-28.125_0_pos_fit_part_role_print_layout_assembly_half_8.0_print_layout_gap_3.0_interlock_depth_8.0_interlock_width_7.0_interlock_height_2.8_corner_interlock_diameter_0.6_corner_interlock_min_wall_0.25_interlock_clearance_0.2_interlock_end_clearance_16.0_screw_length_6.0_screw_head_seat_offset_5.0_hardware_axis_height_1.2_hardware_min_wall_2.25_container_clearance_0.0_opening_height_extra_1.8_thickness_wall_5.5_drawer_border_edge_1.5_depth_clearance_4.0_opening_radius_2.4_outer_radius_7.5_front_band_6.0_rear_band_10.0_runner_width_0.0_middle_rib_width_12.0_depth_lip_5.5_inset_lip_1.0_lip_cutout_radius_10.0_lip_shelf_thickness_26.0_lip_support_reference_height_4.0_side_rail_width_1.0_roof_slope_true_lightening_56.0_catch_tab_width_6.0_catch_tab_height_6.0_catch_tab_ramp_depth_1.5_catch_tab_depth_true_adhesion_ears_16.0_ear_diameter_0.6_ear_height_0.5_ear_gap_5.0_ear_link_width_0.3_ear_link_height_0.4_module_gap_400.0_bed_width_400.0_bed_height_2.0_bed_margin_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_column_packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209_container_rectangle_100_ml_tamper_evident_systempak_209_container_short_ai_version_2_oobb_name_1_row_ai_version_2_style_oobb_taxonomy_1_organization_taxonomy_2_storage_taxonomy_3_drawer_unit_taxonomy_4_1_column_taxonomy_5_1_row_taxonomy_6_rectangle_100_ml_tamper_evident_systempak_209_container_taxonomy_7_ai_version_2_style_taxonomy_8_fit_clearance_2d25_taxonomy_9_12_test_depth_fit_clearance_2d25_variant_86_container_width_26_container_height_109_container_depth_88.25_opening_width_28.25_opening_height_90.05_pitch_x_30.05_pitch_y_99.25_width_total_39.25_height_total_12_depth_total_false_split_frame_12_assembled_depth_12_body_depth_16.5_ear_extension_72.25_print_height_total_1_print_layout_axis_99.25_152.5_print_layout_xy_80.25_print_layout_pitch_true_print_layout_fits_single_bed_-2.125_lip_step_y_77.25_lip_body_width_28.25_lip_support_channel_height_14.125_lip_support_end_y_0.0_body_extension_height_68.25_shelf_window_width_7.0_side_window_lower_width_2.25_side_window_upper_width_8.0_0.0_7.961477813377575_0.7841371226364848_7.8462822432258434_1.560722576129026_7.655522685857671_2.3222774180356986_7.391036260090294_3.0614674589207183_7.05537011478684_3.771173894607981_6.651756898420362_4.444561864156817_6.184083626901896_5.075146273309164_5.656854249492381_5.656854249492381_5.075146273309164_6.184083626901895_4.444561864156818_6.651756898420362_3.7711738946079825_7.0553701147868395_3.0614674589207187_7.391036260090294_2.3222774180356986_7.6555226858576715_1.5607225761290267_7.8462822432258434_0.7841371226364862_7.9614778133775745_4.898587196589413e-16_8.0_-0.7841371226364852_7.961477813377575_-1.5607225761290255_7.8462822432258434_-2.3222774180356973_7.6555226858576715_-3.061467458920718_7.391036260090294_-3.7711738946079816_7.05537011478684_-4.444561864156816_6.651756898420363_-5.075146273309163_6.184083626901897_-5.65685424949238_5.656854249492381_-6.184083626901896_5.075146273309164_-6.651756898420363_4.444561864156817_-7.0553701147868395_3.7711738946079825_-7.391036260090294_3.061467458920719_-7.655522685857671_2.322277418035699_-7.8462822432258434_1.5607225761290289_-7.9614778133775745_0.7841371226364866_-8.0_9.797174393178826e-16_-7.961477813377575_-0.7841371226364847_-7.8462822432258434_-1.5607225761290269_-7.6555226858576715_-2.322277418035697_-7.391036260090295_-3.0614674589207174_-7.05537011478684_-3.771173894607981_-6.651756898420364_-4.444561864156816_-6.184083626901897_-5.075146273309162_-5.6568542494923815_-5.65685424949238_-5.0751462733091675_-6.184083626901893_-4.444561864156817_-6.651756898420362_-3.771173894607983_-7.0553701147868395_-3.0614674589207227_-7.391036260090292_-2.3222774180356995_-7.655522685857671_-1.5607225761290293_-7.846282243225843_-0.7841371226364836_-7.961477813377575_-1.4695761589768238e-15_-8.0_0.7841371226364807_-7.961477813377575_1.5607225761290264_-7.8462822432258434_2.3222774180356964_-7.6555226858576715_3.06146745892072_-7.391036260090293_3.7711738946079807_-7.05537011478684_4.444561864156815_-6.651756898420364_5.075146273309165_-6.184083626901895_5.656854249492379_-5.6568542494923815_6.184083626901892_-5.0751462733091675_6.651756898420362_-4.444561864156817_7.055370114786839_-3.7711738946079834_7.391036260090292_-3.061467458920723_7.655522685857671_-2.3222774180357_7.846282243225843_-1.5607225761290298_7.961477813377575_-0.784137122636484_points_0.6_height_0_0_0_rot
+  - cube_shape_positive_positive_type_-44.125_-20.925_0_pos_fit_part_role_print_layout_assembly_half_8.0_print_layout_gap_3.0_interlock_depth_8.0_interlock_width_7.0_interlock_height_2.8_corner_interlock_diameter_0.6_corner_interlock_min_wall_0.25_interlock_clearance_0.2_interlock_end_clearance_16.0_screw_length_6.0_screw_head_seat_offset_5.0_hardware_axis_height_1.2_hardware_min_wall_2.25_container_clearance_0.0_opening_height_extra_1.8_thickness_wall_5.5_drawer_border_edge_1.5_depth_clearance_4.0_opening_radius_2.4_outer_radius_7.5_front_band_6.0_rear_band_10.0_runner_width_0.0_middle_rib_width_12.0_depth_lip_5.5_inset_lip_1.0_lip_cutout_radius_10.0_lip_shelf_thickness_26.0_lip_support_reference_height_4.0_side_rail_width_1.0_roof_slope_true_lightening_56.0_catch_tab_width_6.0_catch_tab_height_6.0_catch_tab_ramp_depth_1.5_catch_tab_depth_true_adhesion_ears_16.0_ear_diameter_0.6_ear_height_0.5_ear_gap_5.0_ear_link_width_0.3_ear_link_height_0.4_module_gap_400.0_bed_width_400.0_bed_height_2.0_bed_margin_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_column_packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209_container_rectangle_100_ml_tamper_evident_systempak_209_container_short_ai_version_2_oobb_name_1_row_ai_version_2_style_oobb_taxonomy_1_organization_taxonomy_2_storage_taxonomy_3_drawer_unit_taxonomy_4_1_column_taxonomy_5_1_row_taxonomy_6_rectangle_100_ml_tamper_evident_systempak_209_container_taxonomy_7_ai_version_2_style_taxonomy_8_fit_clearance_2d25_taxonomy_9_12_test_depth_fit_clearance_2d25_variant_86_container_width_26_container_height_109_container_depth_88.25_opening_width_28.25_opening_height_90.05_pitch_x_30.05_pitch_y_99.25_width_total_39.25_height_total_12_depth_total_false_split_frame_12_assembled_depth_12_body_depth_16.5_ear_extension_72.25_print_height_total_1_print_layout_axis_99.25_152.5_print_layout_xy_80.25_print_layout_pitch_true_print_layout_fits_single_bed_-2.125_lip_step_y_77.25_lip_body_width_28.25_lip_support_channel_height_14.125_lip_support_end_y_0.0_body_extension_height_68.25_shelf_window_width_7.0_side_window_lower_width_2.25_side_window_upper_width_5.0_1.6999999999999993_0.3_size_0_0_0_rot
+  - polygon_shape_positive_positive_type_0.6_depth_-41.625_28.125_0_pos_fit_part_role_print_layout_assembly_half_8.0_print_layout_gap_3.0_interlock_depth_8.0_interlock_width_7.0_interlock_height_2.8_corner_interlock_diameter_0.6_corner_interlock_min_wall_0.25_interlock_clearance_0.2_interlock_end_clearance_16.0_screw_length_6.0_screw_head_seat_offset_5.0_hardware_axis_height_1.2_hardware_min_wall_2.25_container_clearance_0.0_opening_height_extra_1.8_thickness_wall_5.5_drawer_border_edge_1.5_depth_clearance_4.0_opening_radius_2.4_outer_radius_7.5_front_band_6.0_rear_band_10.0_runner_width_0.0_middle_rib_width_12.0_depth_lip_5.5_inset_lip_1.0_lip_cutout_radius_10.0_lip_shelf_thickness_26.0_lip_support_reference_height_4.0_side_rail_width_1.0_roof_slope_true_lightening_56.0_catch_tab_width_6.0_catch_tab_height_6.0_catch_tab_ramp_depth_1.5_catch_tab_depth_true_adhesion_ears_16.0_ear_diameter_0.6_ear_height_0.5_ear_gap_5.0_ear_link_width_0.3_ear_link_height_0.4_module_gap_400.0_bed_width_400.0_bed_height_2.0_bed_margin_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_column_packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209_container_rectangle_100_ml_tamper_evident_systempak_209_container_short_ai_version_2_oobb_name_1_row_ai_version_2_style_oobb_taxonomy_1_organization_taxonomy_2_storage_taxonomy_3_drawer_unit_taxonomy_4_1_column_taxonomy_5_1_row_taxonomy_6_rectangle_100_ml_tamper_evident_systempak_209_container_taxonomy_7_ai_version_2_style_taxonomy_8_fit_clearance_2d25_taxonomy_9_12_test_depth_fit_clearance_2d25_variant_86_container_width_26_container_height_109_container_depth_88.25_opening_width_28.25_opening_height_90.05_pitch_x_30.05_pitch_y_99.25_width_total_39.25_height_total_12_depth_total_false_split_frame_12_assembled_depth_12_body_depth_16.5_ear_extension_72.25_print_height_total_1_print_layout_axis_99.25_152.5_print_layout_xy_80.25_print_layout_pitch_true_print_layout_fits_single_bed_-2.125_lip_step_y_77.25_lip_body_width_28.25_lip_support_channel_height_14.125_lip_support_end_y_0.0_body_extension_height_68.25_shelf_window_width_7.0_side_window_lower_width_2.25_side_window_upper_width_8.0_0.0_7.961477813377575_0.7841371226364848_7.8462822432258434_1.560722576129026_7.655522685857671_2.3222774180356986_7.391036260090294_3.0614674589207183_7.05537011478684_3.771173894607981_6.651756898420362_4.444561864156817_6.184083626901896_5.075146273309164_5.656854249492381_5.656854249492381_5.075146273309164_6.184083626901895_4.444561864156818_6.651756898420362_3.7711738946079825_7.0553701147868395_3.0614674589207187_7.391036260090294_2.3222774180356986_7.6555226858576715_1.5607225761290267_7.8462822432258434_0.7841371226364862_7.9614778133775745_4.898587196589413e-16_8.0_-0.7841371226364852_7.961477813377575_-1.5607225761290255_7.8462822432258434_-2.3222774180356973_7.6555226858576715_-3.061467458920718_7.391036260090294_-3.7711738946079816_7.05537011478684_-4.444561864156816_6.651756898420363_-5.075146273309163_6.184083626901897_-5.65685424949238_5.656854249492381_-6.184083626901896_5.075146273309164_-6.651756898420363_4.444561864156817_-7.0553701147868395_3.7711738946079825_-7.391036260090294_3.061467458920719_-7.655522685857671_2.322277418035699_-7.8462822432258434_1.5607225761290289_-7.9614778133775745_0.7841371226364866_-8.0_9.797174393178826e-16_-7.961477813377575_-0.7841371226364847_-7.8462822432258434_-1.5607225761290269_-7.6555226858576715_-2.322277418035697_-7.391036260090295_-3.0614674589207174_-7.05537011478684_-3.771173894607981_-6.651756898420364_-4.444561864156816_-6.184083626901897_-5.075146273309162_-5.6568542494923815_-5.65685424949238_-5.0751462733091675_-6.184083626901893_-4.444561864156817_-6.651756898420362_-3.771173894607983_-7.0553701147868395_-3.0614674589207227_-7.391036260090292_-2.3222774180356995_-7.655522685857671_-1.5607225761290293_-7.846282243225843_-0.7841371226364836_-7.961477813377575_-1.4695761589768238e-15_-8.0_0.7841371226364807_-7.961477813377575_1.5607225761290264_-7.8462822432258434_2.3222774180356964_-7.6555226858576715_3.06146745892072_-7.391036260090293_3.7711738946079807_-7.05537011478684_4.444561864156815_-6.651756898420364_5.075146273309165_-6.184083626901895_5.656854249492379_-5.6568542494923815_6.184083626901892_-5.0751462733091675_6.651756898420362_-4.444561864156817_7.055370114786839_-3.7711738946079834_7.391036260090292_-3.061467458920723_7.655522685857671_-2.3222774180357_7.846282243225843_-1.5607225761290298_7.961477813377575_-0.784137122636484_points_0.6_height_0_0_0_rot
+  - cube_shape_positive_positive_type_-44.125_19.225_0_pos_fit_part_role_print_layout_assembly_half_8.0_print_layout_gap_3.0_interlock_depth_8.0_interlock_width_7.0_interlock_height_2.8_corner_interlock_diameter_0.6_corner_interlock_min_wall_0.25_interlock_clearance_0.2_interlock_end_clearance_16.0_screw_length_6.0_screw_head_seat_offset_5.0_hardware_axis_height_1.2_hardware_min_wall_2.25_container_clearance_0.0_opening_height_extra_1.8_thickness_wall_5.5_drawer_border_edge_1.5_depth_clearance_4.0_opening_radius_2.4_outer_radius_7.5_front_band_6.0_rear_band_10.0_runner_width_0.0_middle_rib_width_12.0_depth_lip_5.5_inset_lip_1.0_lip_cutout_radius_10.0_lip_shelf_thickness_26.0_lip_support_reference_height_4.0_side_rail_width_1.0_roof_slope_true_lightening_56.0_catch_tab_width_6.0_catch_tab_height_6.0_catch_tab_ramp_depth_1.5_catch_tab_depth_true_adhesion_ears_16.0_ear_diameter_0.6_ear_height_0.5_ear_gap_5.0_ear_link_width_0.3_ear_link_height_0.4_module_gap_400.0_bed_width_400.0_bed_height_2.0_bed_margin_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_column_packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209_container_rectangle_100_ml_tamper_evident_systempak_209_container_short_ai_version_2_oobb_name_1_row_ai_version_2_style_oobb_taxonomy_1_organization_taxonomy_2_storage_taxonomy_3_drawer_unit_taxonomy_4_1_column_taxonomy_5_1_row_taxonomy_6_rectangle_100_ml_tamper_evident_systempak_209_container_taxonomy_7_ai_version_2_style_taxonomy_8_fit_clearance_2d25_taxonomy_9_12_test_depth_fit_clearance_2d25_variant_86_container_width_26_container_height_109_container_depth_88.25_opening_width_28.25_opening_height_90.05_pitch_x_30.05_pitch_y_99.25_width_total_39.25_height_total_12_depth_total_false_split_frame_12_assembled_depth_12_body_depth_16.5_ear_extension_72.25_print_height_total_1_print_layout_axis_99.25_152.5_print_layout_xy_80.25_print_layout_pitch_true_print_layout_fits_single_bed_-2.125_lip_step_y_77.25_lip_body_width_28.25_lip_support_channel_height_14.125_lip_support_end_y_0.0_body_extension_height_68.25_shelf_window_width_7.0_side_window_lower_width_2.25_side_window_upper_width_5.0_1.6999999999999993_0.3_size_0_0_0_rot
+  - polygon_shape_positive_positive_type_0.6_depth_41.625_-28.125_0_pos_fit_part_role_print_layout_assembly_half_8.0_print_layout_gap_3.0_interlock_depth_8.0_interlock_width_7.0_interlock_height_2.8_corner_interlock_diameter_0.6_corner_interlock_min_wall_0.25_interlock_clearance_0.2_interlock_end_clearance_16.0_screw_length_6.0_screw_head_seat_offset_5.0_hardware_axis_height_1.2_hardware_min_wall_2.25_container_clearance_0.0_opening_height_extra_1.8_thickness_wall_5.5_drawer_border_edge_1.5_depth_clearance_4.0_opening_radius_2.4_outer_radius_7.5_front_band_6.0_rear_band_10.0_runner_width_0.0_middle_rib_width_12.0_depth_lip_5.5_inset_lip_1.0_lip_cutout_radius_10.0_lip_shelf_thickness_26.0_lip_support_reference_height_4.0_side_rail_width_1.0_roof_slope_true_lightening_56.0_catch_tab_width_6.0_catch_tab_height_6.0_catch_tab_ramp_depth_1.5_catch_tab_depth_true_adhesion_ears_16.0_ear_diameter_0.6_ear_height_0.5_ear_gap_5.0_ear_link_width_0.3_ear_link_height_0.4_module_gap_400.0_bed_width_400.0_bed_height_2.0_bed_margin_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_column_packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209_container_rectangle_100_ml_tamper_evident_systempak_209_container_short_ai_version_2_oobb_name_1_row_ai_version_2_style_oobb_taxonomy_1_organization_taxonomy_2_storage_taxonomy_3_drawer_unit_taxonomy_4_1_column_taxonomy_5_1_row_taxonomy_6_rectangle_100_ml_tamper_evident_systempak_209_container_taxonomy_7_ai_version_2_style_taxonomy_8_fit_clearance_2d25_taxonomy_9_12_test_depth_fit_clearance_2d25_variant_86_container_width_26_container_height_109_container_depth_88.25_opening_width_28.25_opening_height_90.05_pitch_x_30.05_pitch_y_99.25_width_total_39.25_height_total_12_depth_total_false_split_frame_12_assembled_depth_12_body_depth_16.5_ear_extension_72.25_print_height_total_1_print_layout_axis_99.25_152.5_print_layout_xy_80.25_print_layout_pitch_true_print_layout_fits_single_bed_-2.125_lip_step_y_77.25_lip_body_width_28.25_lip_support_channel_height_14.125_lip_support_end_y_0.0_body_extension_height_68.25_shelf_window_width_7.0_side_window_lower_width_2.25_side_window_upper_width_8.0_0.0_7.961477813377575_0.7841371226364848_7.8462822432258434_1.560722576129026_7.655522685857671_2.3222774180356986_7.391036260090294_3.0614674589207183_7.05537011478684_3.771173894607981_6.651756898420362_4.444561864156817_6.184083626901896_5.075146273309164_5.656854249492381_5.656854249492381_5.075146273309164_6.184083626901895_4.444561864156818_6.651756898420362_3.7711738946079825_7.0553701147868395_3.0614674589207187_7.391036260090294_2.3222774180356986_7.6555226858576715_1.5607225761290267_7.8462822432258434_0.7841371226364862_7.9614778133775745_4.898587196589413e-16_8.0_-0.7841371226364852_7.961477813377575_-1.5607225761290255_7.8462822432258434_-2.3222774180356973_7.6555226858576715_-3.061467458920718_7.391036260090294_-3.7711738946079816_7.05537011478684_-4.444561864156816_6.651756898420363_-5.075146273309163_6.184083626901897_-5.65685424949238_5.656854249492381_-6.184083626901896_5.075146273309164_-6.651756898420363_4.444561864156817_-7.0553701147868395_3.7711738946079825_-7.391036260090294_3.061467458920719_-7.655522685857671_2.322277418035699_-7.8462822432258434_1.5607225761290289_-7.9614778133775745_0.7841371226364866_-8.0_9.797174393178826e-16_-7.961477813377575_-0.7841371226364847_-7.8462822432258434_-1.5607225761290269_-7.6555226858576715_-2.322277418035697_-7.391036260090295_-3.0614674589207174_-7.05537011478684_-3.771173894607981_-6.651756898420364_-4.444561864156816_-6.184083626901897_-5.075146273309162_-5.6568542494923815_-5.65685424949238_-5.0751462733091675_-6.184083626901893_-4.444561864156817_-6.651756898420362_-3.771173894607983_-7.0553701147868395_-3.0614674589207227_-7.391036260090292_-2.3222774180356995_-7.655522685857671_-1.5607225761290293_-7.846282243225843_-0.7841371226364836_-7.961477813377575_-1.4695761589768238e-15_-8.0_0.7841371226364807_-7.961477813377575_1.5607225761290264_-7.8462822432258434_2.3222774180356964_-7.6555226858576715_3.06146745892072_-7.391036260090293_3.7711738946079807_-7.05537011478684_4.444561864156815_-6.651756898420364_5.075146273309165_-6.184083626901895_5.656854249492379_-5.6568542494923815_6.184083626901892_-5.0751462733091675_6.651756898420362_-4.444561864156817_7.055370114786839_-3.7711738946079834_7.391036260090292_-3.061467458920723_7.655522685857671_-2.3222774180357_7.846282243225843_-1.5607225761290298_7.961477813377575_-0.784137122636484_points_0.6_height_0_0_0_rot
+  - cube_shape_positive_positive_type_39.125_-20.925_0_pos_fit_part_role_print_layout_assembly_half_8.0_print_layout_gap_3.0_interlock_depth_8.0_interlock_width_7.0_interlock_height_2.8_corner_interlock_diameter_0.6_corner_interlock_min_wall_0.25_interlock_clearance_0.2_interlock_end_clearance_16.0_screw_length_6.0_screw_head_seat_offset_5.0_hardware_axis_height_1.2_hardware_min_wall_2.25_container_clearance_0.0_opening_height_extra_1.8_thickness_wall_5.5_drawer_border_edge_1.5_depth_clearance_4.0_opening_radius_2.4_outer_radius_7.5_front_band_6.0_rear_band_10.0_runner_width_0.0_middle_rib_width_12.0_depth_lip_5.5_inset_lip_1.0_lip_cutout_radius_10.0_lip_shelf_thickness_26.0_lip_support_reference_height_4.0_side_rail_width_1.0_roof_slope_true_lightening_56.0_catch_tab_width_6.0_catch_tab_height_6.0_catch_tab_ramp_depth_1.5_catch_tab_depth_true_adhesion_ears_16.0_ear_diameter_0.6_ear_height_0.5_ear_gap_5.0_ear_link_width_0.3_ear_link_height_0.4_module_gap_400.0_bed_width_400.0_bed_height_2.0_bed_margin_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_column_packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209_container_rectangle_100_ml_tamper_evident_systempak_209_container_short_ai_version_2_oobb_name_1_row_ai_version_2_style_oobb_taxonomy_1_organization_taxonomy_2_storage_taxonomy_3_drawer_unit_taxonomy_4_1_column_taxonomy_5_1_row_taxonomy_6_rectangle_100_ml_tamper_evident_systempak_209_container_taxonomy_7_ai_version_2_style_taxonomy_8_fit_clearance_2d25_taxonomy_9_12_test_depth_fit_clearance_2d25_variant_86_container_width_26_container_height_109_container_depth_88.25_opening_width_28.25_opening_height_90.05_pitch_x_30.05_pitch_y_99.25_width_total_39.25_height_total_12_depth_total_false_split_frame_12_assembled_depth_12_body_depth_16.5_ear_extension_72.25_print_height_total_1_print_layout_axis_99.25_152.5_print_layout_xy_80.25_print_layout_pitch_true_print_layout_fits_single_bed_-2.125_lip_step_y_77.25_lip_body_width_28.25_lip_support_channel_height_14.125_lip_support_end_y_0.0_body_extension_height_68.25_shelf_window_width_7.0_side_window_lower_width_2.25_side_window_upper_width_5.0_1.6999999999999993_0.3_size_0_0_0_rot
+  - polygon_shape_positive_positive_type_0.6_depth_41.625_28.125_0_pos_fit_part_role_print_layout_assembly_half_8.0_print_layout_gap_3.0_interlock_depth_8.0_interlock_width_7.0_interlock_height_2.8_corner_interlock_diameter_0.6_corner_interlock_min_wall_0.25_interlock_clearance_0.2_interlock_end_clearance_16.0_screw_length_6.0_screw_head_seat_offset_5.0_hardware_axis_height_1.2_hardware_min_wall_2.25_container_clearance_0.0_opening_height_extra_1.8_thickness_wall_5.5_drawer_border_edge_1.5_depth_clearance_4.0_opening_radius_2.4_outer_radius_7.5_front_band_6.0_rear_band_10.0_runner_width_0.0_middle_rib_width_12.0_depth_lip_5.5_inset_lip_1.0_lip_cutout_radius_10.0_lip_shelf_thickness_26.0_lip_support_reference_height_4.0_side_rail_width_1.0_roof_slope_true_lightening_56.0_catch_tab_width_6.0_catch_tab_height_6.0_catch_tab_ramp_depth_1.5_catch_tab_depth_true_adhesion_ears_16.0_ear_diameter_0.6_ear_height_0.5_ear_gap_5.0_ear_link_width_0.3_ear_link_height_0.4_module_gap_400.0_bed_width_400.0_bed_height_2.0_bed_margin_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_column_packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209_container_rectangle_100_ml_tamper_evident_systempak_209_container_short_ai_version_2_oobb_name_1_row_ai_version_2_style_oobb_taxonomy_1_organization_taxonomy_2_storage_taxonomy_3_drawer_unit_taxonomy_4_1_column_taxonomy_5_1_row_taxonomy_6_rectangle_100_ml_tamper_evident_systempak_209_container_taxonomy_7_ai_version_2_style_taxonomy_8_fit_clearance_2d25_taxonomy_9_12_test_depth_fit_clearance_2d25_variant_86_container_width_26_container_height_109_container_depth_88.25_opening_width_28.25_opening_height_90.05_pitch_x_30.05_pitch_y_99.25_width_total_39.25_height_total_12_depth_total_false_split_frame_12_assembled_depth_12_body_depth_16.5_ear_extension_72.25_print_height_total_1_print_layout_axis_99.25_152.5_print_layout_xy_80.25_print_layout_pitch_true_print_layout_fits_single_bed_-2.125_lip_step_y_77.25_lip_body_width_28.25_lip_support_channel_height_14.125_lip_support_end_y_0.0_body_extension_height_68.25_shelf_window_width_7.0_side_window_lower_width_2.25_side_window_upper_width_8.0_0.0_7.961477813377575_0.7841371226364848_7.8462822432258434_1.560722576129026_7.655522685857671_2.3222774180356986_7.391036260090294_3.0614674589207183_7.05537011478684_3.771173894607981_6.651756898420362_4.444561864156817_6.184083626901896_5.075146273309164_5.656854249492381_5.656854249492381_5.075146273309164_6.184083626901895_4.444561864156818_6.651756898420362_3.7711738946079825_7.0553701147868395_3.0614674589207187_7.391036260090294_2.3222774180356986_7.6555226858576715_1.5607225761290267_7.8462822432258434_0.7841371226364862_7.9614778133775745_4.898587196589413e-16_8.0_-0.7841371226364852_7.961477813377575_-1.5607225761290255_7.8462822432258434_-2.3222774180356973_7.6555226858576715_-3.061467458920718_7.391036260090294_-3.7711738946079816_7.05537011478684_-4.444561864156816_6.651756898420363_-5.075146273309163_6.184083626901897_-5.65685424949238_5.656854249492381_-6.184083626901896_5.075146273309164_-6.651756898420363_4.444561864156817_-7.0553701147868395_3.7711738946079825_-7.391036260090294_3.061467458920719_-7.655522685857671_2.322277418035699_-7.8462822432258434_1.5607225761290289_-7.9614778133775745_0.7841371226364866_-8.0_9.797174393178826e-16_-7.961477813377575_-0.7841371226364847_-7.8462822432258434_-1.5607225761290269_-7.6555226858576715_-2.322277418035697_-7.391036260090295_-3.0614674589207174_-7.05537011478684_-3.771173894607981_-6.651756898420364_-4.444561864156816_-6.184083626901897_-5.075146273309162_-5.6568542494923815_-5.65685424949238_-5.0751462733091675_-6.184083626901893_-4.444561864156817_-6.651756898420362_-3.771173894607983_-7.0553701147868395_-3.0614674589207227_-7.391036260090292_-2.3222774180356995_-7.655522685857671_-1.5607225761290293_-7.846282243225843_-0.7841371226364836_-7.961477813377575_-1.4695761589768238e-15_-8.0_0.7841371226364807_-7.961477813377575_1.5607225761290264_-7.8462822432258434_2.3222774180356964_-7.6555226858576715_3.06146745892072_-7.391036260090293_3.7711738946079807_-7.05537011478684_4.444561864156815_-6.651756898420364_5.075146273309165_-6.184083626901895_5.656854249492379_-5.6568542494923815_6.184083626901892_-5.0751462733091675_6.651756898420362_-4.444561864156817_7.055370114786839_-3.7711738946079834_7.391036260090292_-3.061467458920723_7.655522685857671_-2.3222774180357_7.846282243225843_-1.5607225761290298_7.961477813377575_-0.784137122636484_points_0.6_height_0_0_0_rot
+  - cube_shape_positive_positive_type_39.125_19.225_0_pos_fit_part_role_print_layout_assembly_half_8.0_print_layout_gap_3.0_interlock_depth_8.0_interlock_width_7.0_interlock_height_2.8_corner_interlock_diameter_0.6_corner_interlock_min_wall_0.25_interlock_clearance_0.2_interlock_end_clearance_16.0_screw_length_6.0_screw_head_seat_offset_5.0_hardware_axis_height_1.2_hardware_min_wall_2.25_container_clearance_0.0_opening_height_extra_1.8_thickness_wall_5.5_drawer_border_edge_1.5_depth_clearance_4.0_opening_radius_2.4_outer_radius_7.5_front_band_6.0_rear_band_10.0_runner_width_0.0_middle_rib_width_12.0_depth_lip_5.5_inset_lip_1.0_lip_cutout_radius_10.0_lip_shelf_thickness_26.0_lip_support_reference_height_4.0_side_rail_width_1.0_roof_slope_true_lightening_56.0_catch_tab_width_6.0_catch_tab_height_6.0_catch_tab_ramp_depth_1.5_catch_tab_depth_true_adhesion_ears_16.0_ear_diameter_0.6_ear_height_0.5_ear_gap_5.0_ear_link_width_0.3_ear_link_height_0.4_module_gap_400.0_bed_width_400.0_bed_height_2.0_bed_margin_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_column_packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209_container_rectangle_100_ml_tamper_evident_systempak_209_container_short_ai_version_2_oobb_name_1_row_ai_version_2_style_oobb_taxonomy_1_organization_taxonomy_2_storage_taxonomy_3_drawer_unit_taxonomy_4_1_column_taxonomy_5_1_row_taxonomy_6_rectangle_100_ml_tamper_evident_systempak_209_container_taxonomy_7_ai_version_2_style_taxonomy_8_fit_clearance_2d25_taxonomy_9_12_test_depth_fit_clearance_2d25_variant_86_container_width_26_container_height_109_container_depth_88.25_opening_width_28.25_opening_height_90.05_pitch_x_30.05_pitch_y_99.25_width_total_39.25_height_total_12_depth_total_false_split_frame_12_assembled_depth_12_body_depth_16.5_ear_extension_72.25_print_height_total_1_print_layout_axis_99.25_152.5_print_layout_xy_80.25_print_layout_pitch_true_print_layout_fits_single_bed_-2.125_lip_step_y_77.25_lip_body_width_28.25_lip_support_channel_height_14.125_lip_support_end_y_0.0_body_extension_height_68.25_shelf_window_width_7.0_side_window_lower_width_2.25_side_window_upper_width_5.0_1.6999999999999993_0.3_size_0_0_0_rot
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_clearance: 2.25
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  corner_interlock_diameter: 2.8
+  corner_interlock_min_wall: 0.6
+  cost_per_drawer_gbp: 0.4067
+  cost_per_kg_basis: Estimated empty assembled unit including pots and adhesion ears
+  cost_per_kg_gbp: 11.9469
+  depth_clearance: 1.5
+  depth_lip: 12.0
+  depth_mm: 12.0
+  description: default ai version 2 0x0x0
+  description_extra: ''
+  description_main: ''
+  directory: parts/oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+  drawer_border_edge: 5.5
+  drawer_capacity_basis: manufacturer_nominal
+  drawer_capacity_ml: 100
+  drawer_count: 1
+  ear_diameter: 16.0
+  ear_gap: 0.5
+  ear_height: 0.6
+  ear_link_height: 0.3
+  ear_link_width: 5.0
+  filament_cost_gbp: 0.2604
+  filament_density_g_per_cm3: 1.24
+  filament_gbp_per_gram: 0.01
+  filament_mass_basis: "Solid CAD volume \xD7 assumed PLA density; includes adhesion\
+    \ ears; excludes purge/supports"
+  filament_mass_g: 26.044
+  front_band: 7.5
+  hardware_axis_height: 5.0
+  hardware_cost_basis: No assembly hardware
+  hardware_min_wall: 1.2
+  height_mm: 39.25
+  id: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+  id_no_class: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+  id_no_size: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+  id_no_type: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+  inset_lip: 5.5
+  interlock_clearance: 0.25
+  interlock_depth: 3.0
+  interlock_end_clearance: 0.2
+  interlock_height: 7.0
+  interlock_width: 8.0
+  kwargs:
+    adhesion_ears: true
+    assembly_half: print_layout
+    bed_height: 400.0
+    bed_margin: 2.0
+    bed_width: 400.0
+    catch_tab_depth: 1.5
+    catch_tab_height: 6.0
+    catch_tab_ramp_depth: 6.0
+    catch_tab_width: 56.0
+    column: 1
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_clearance: 2.25
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    corner_interlock_diameter: 2.8
+    corner_interlock_min_wall: 0.6
+    depth_clearance: 1.5
+    depth_lip: 12.0
+    drawer_border_edge: 5.5
+    ear_diameter: 16.0
+    ear_gap: 0.5
+    ear_height: 0.6
+    ear_link_height: 0.3
+    ear_link_width: 5.0
+    filter: ''
+    front_band: 7.5
+    hardware_axis_height: 5.0
+    hardware_min_wall: 1.2
+    inset_lip: 5.5
+    interlock_clearance: 0.25
+    interlock_depth: 3.0
+    interlock_end_clearance: 0.2
+    interlock_height: 7.0
+    interlock_width: 8.0
+    lightening: true
+    lip_cutout_radius: 1.0
+    lip_shelf_thickness: 10.0
+    lip_support_reference_height: 26.0
+    middle_rib_width: 0.0
+    modes:
+    - 3dpr
+    module_gap: 0.4
+    navigation: true
+    oobb_name: ai_version_2
+    oomp_description_extra: ''
+    oomp_description_main: ai_version_2_
+    oomp_mode: project
+    oomp_run: false
+    opening_height_extra: 0.0
+    opening_radius: 4.0
+    outer_radius: 2.4
+    overwrite: true
+    part_role: fit
+    print_layout_gap: 8.0
+    rear_band: 6.0
+    roof_slope: 1.0
+    row: 1
+    runner_width: 10.0
+    save_type: none
+    screw_head_seat_offset: 6.0
+    screw_length: 16.0
+    side_rail_width: 4.0
+    style: ai_version_2
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 1_column
+    taxonomy_6: 1_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: ai_version_2_style
+    taxonomy_9: fit_clearance_2d25
+    test_depth: 12
+    thickness_wall: 1.8
+    type: default_ai_version_2
+    variant: fit_clearance_2d25
+  lightening: true
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+  lip_cutout_radius: 1.0
+  lip_shelf_thickness: 10.0
+  lip_support_reference_height: 26.0
+  manufacturer: oomlout
+  md5: ef7b79443d2f62842838d28ff1a3b985
+  md5_10: ef7b79443d
+  md5_10_upper: EF7B79443D
+  md5_5: ef7b7
+  md5_5_upper: EF7B7
+  md5_6: ef7b79
+  md5_6_alpha: 9ce49
+  md5_6_alpha_upper: 9CE49
+  md5_6_upper: EF7B79
+  middle_rib_width: 0.0
+  module_gap: 0.4
+  name: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml Tamper
+    Evident Systempak 209 Container Ai Version 2 Style Fit Clearance 2D25
+  name_no_class: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100
+    Ml Tamper Evident Systempak 209 Container Ai Version 2 Style Fit Clearance 2D25
+  name_no_size: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100
+    Ml Tamper Evident Systempak 209 Container Ai Version 2 Style Fit Clearance 2D25
+  name_no_type: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100
+    Ml Tamper Evident Systempak 209 Container Ai Version 2 Style Fit Clearance 2D25
+  name_proper: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100
+    Ml Tamper Evident Systempak 209 Container Ai Version 2 Style Fit Clearance 2D25
+  name_short: Default Ai Version 2
+  name_space: oobb organization storage drawer unit 1 column 1 row rectangle 100 ml
+    tamper evident systempak 209 container ai version 2 style fit clearance 2d25
+  name_text: Oobb Part Default Ai Version 2
+  name_upper: OOBB ORGANIZATION STORAGE DRAWER UNIT 1 COLUMN 1 ROW RECTANGLE 100 ML
+    TAMPER EVIDENT SYSTEMPAK 209 CONTAINER AI VERSION 2 STYLE FIT CLEARANCE 2D25
+  oobb_details:
+    adhesion_ears: true
+    assembly_half: print_layout
+    bed_height: 400.0
+    bed_margin: 2.0
+    bed_width: 400.0
+    catch_tab_depth: 1.5
+    catch_tab_height: 6.0
+    catch_tab_ramp_depth: 6.0
+    catch_tab_width: 56.0
+    column: 1
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_clearance: 2.25
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    corner_interlock_diameter: 2.8
+    corner_interlock_min_wall: 0.6
+    depth_clearance: 1.5
+    depth_lip: 12.0
+    drawer_border_edge: 5.5
+    ear_diameter: 16.0
+    ear_gap: 0.5
+    ear_height: 0.6
+    ear_link_height: 0.3
+    ear_link_width: 5.0
+    front_band: 7.5
+    hardware_axis_height: 5.0
+    hardware_min_wall: 1.2
+    inset_lip: 5.5
+    interlock_clearance: 0.25
+    interlock_depth: 3.0
+    interlock_end_clearance: 0.2
+    interlock_height: 7.0
+    interlock_width: 8.0
+    lightening: true
+    lip_cutout_radius: 1.0
+    lip_shelf_thickness: 10.0
+    lip_support_reference_height: 26.0
+    middle_rib_width: 0.0
+    module_gap: 0.4
+    oobb_name: ai_version_2
+    opening_height_extra: 0.0
+    opening_radius: 4.0
+    outer_radius: 2.4
+    part_role: fit
+    print_layout_gap: 8.0
+    rear_band: 6.0
+    roof_slope: 1.0
+    row: 1
+    runner_width: 10.0
+    screw_head_seat_offset: 6.0
+    screw_length: 16.0
+    side_rail_width: 4.0
+    style: ai_version_2
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 1_column
+    taxonomy_6: 1_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: ai_version_2_style
+    taxonomy_9: fit_clearance_2d25
+    test_depth: 12
+    thickness_wall: 1.8
+    variant: fit_clearance_2d25
+  oobb_name: ai_version_2
+  oomlout_ai_roboclick_1:
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        adhesion_ears: true
+        assembly_component: false
+        assembly_half: print_layout
+        availability: Print yourself; pots on backorder at research date
+        bed_height: 400.0
+        bed_margin: 2.0
+        bed_width: 400.0
+        cad_volume_mm3: 21003.580243908822
+        catch_tab_depth: 1.5
+        catch_tab_height: 6.0
+        catch_tab_ramp_depth: 6.0
+        catch_tab_width: 56.0
+        column: 1
+        comparison_image: comparison.png
+        comparison_measurement_status: current
+        comparison_sample: true
+        container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+        container_clearance: 2.25
+        container_short: rectangle_100_ml_tamper_evident_systempak_209
+        corner_interlock_diameter: 2.8
+        corner_interlock_min_wall: 0.6
+        cost_per_drawer_gbp: 0.4067
+        cost_per_kg_basis: Estimated empty assembled unit including pots and adhesion
+          ears
+        cost_per_kg_gbp: 11.9469
+        depth_clearance: 1.5
+        depth_lip: 12.0
+        depth_mm: 12.0
+        directory: parts\oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+        drawer_border_edge: 5.5
+        drawer_capacity_basis: manufacturer_nominal
+        drawer_capacity_ml: 100
+        drawer_count: 1
+        ear_diameter: 16.0
+        ear_gap: 0.5
+        ear_height: 0.6
+        ear_link_height: 0.3
+        ear_link_width: 5.0
+        filament_cost_gbp: 0.2604
+        filament_density_g_per_cm3: 1.24
+        filament_gbp_per_gram: 0.01
+        filament_mass_basis: "Solid CAD volume \xD7 assumed PLA density; includes\
+          \ adhesion ears; excludes purge/supports"
+        filament_mass_g: 26.044
+        front_band: 7.5
+        hardware_axis_height: 5.0
+        hardware_cost_basis: No assembly hardware
+        hardware_min_wall: 1.2
+        height_mm: 39.25
+        inset_lip: 5.5
+        interlock_clearance: 0.25
+        interlock_depth: 3.0
+        interlock_end_clearance: 0.2
+        interlock_height: 7.0
+        interlock_width: 8.0
+        lightening: true
+        lip_cutout_radius: 1.0
+        lip_shelf_thickness: 10.0
+        lip_support_reference_height: 26.0
+        manufacturer: oomlout
+        middle_rib_width: 0.0
+        module_gap: 0.4
+        name: oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+        name_proper: Oobb Organization Storage Drawer Unit 1 Column 1 Row Rectangle
+          100 Ml Tamper Evident Systempak 209 Container Ai Version 2 Style Fit Clearance
+          2D25
+        name_space: oobb organization storage drawer unit 1 column 1 row rectangle
+          100 ml tamper evident systempak 209 container ai version 2 style fit clearance
+          2d25
+        name_upper: OOBB ORGANIZATION STORAGE DRAWER UNIT 1 COLUMN 1 ROW RECTANGLE
+          100 ML TAMPER EVIDENT SYSTEMPAK 209 CONTAINER AI VERSION 2 STYLE FIT CLEARANCE
+          2D25
+        oobb_details:
+          adhesion_ears: true
+          assembly_half: print_layout
+          bed_height: 400.0
+          bed_margin: 2.0
+          bed_width: 400.0
+          catch_tab_depth: 1.5
+          catch_tab_height: 6.0
+          catch_tab_ramp_depth: 6.0
+          catch_tab_width: 56.0
+          column: 1
+          container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+          container_clearance: 2.25
+          container_short: rectangle_100_ml_tamper_evident_systempak_209
+          corner_interlock_diameter: 2.8
+          corner_interlock_min_wall: 0.6
+          depth_clearance: 1.5
+          depth_lip: 12.0
+          drawer_border_edge: 5.5
+          ear_diameter: 16.0
+          ear_gap: 0.5
+          ear_height: 0.6
+          ear_link_height: 0.3
+          ear_link_width: 5.0
+          front_band: 7.5
+          hardware_axis_height: 5.0
+          hardware_min_wall: 1.2
+          inset_lip: 5.5
+          interlock_clearance: 0.25
+          interlock_depth: 3.0
+          interlock_end_clearance: 0.2
+          interlock_height: 7.0
+          interlock_width: 8.0
+          lightening: true
+          lip_cutout_radius: 1.0
+          lip_shelf_thickness: 10.0
+          lip_support_reference_height: 26.0
+          middle_rib_width: 0.0
+          module_gap: 0.4
+          oobb_name: ai_version_2
+          opening_height_extra: 0.0
+          opening_radius: 4.0
+          outer_radius: 2.4
+          part_role: fit
+          print_layout_gap: 8.0
+          rear_band: 6.0
+          roof_slope: 1.0
+          row: 1
+          runner_width: 10.0
+          screw_head_seat_offset: 6.0
+          screw_length: 16.0
+          side_rail_width: 4.0
+          style: ai_version_2
+          taxonomy_1: oobb
+          taxonomy_2: organization
+          taxonomy_3: storage
+          taxonomy_4: drawer_unit
+          taxonomy_5: 1_column
+          taxonomy_6: 1_row
+          taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+          taxonomy_8: ai_version_2_style
+          taxonomy_9: fit_clearance_2d25
+          test_depth: 12
+          thickness_wall: 1.8
+          variant: fit_clearance_2d25
+        opening_height_extra: 0.0
+        opening_radius: 4.0
+        outer_radius: 2.4
+        part_role: fit
+        pot_cost_details:
+          availability: On backorder
+          capacity_ml: 100
+          checked_date: '2026-10-18'
+          manufacturer: Systempak
+          pack_price_ex_vat_gbp: 60.95
+          pack_quantity: 500
+          part_number: '209'
+          price_basis: Single carton of 500 pots and lids; lids unused; delivery excluded
+          price_source_url: https://systempak.net/product/100ml-rectangular-tamper-evident-containers-and-lids/
+          unit_price_gbp: 0.14628
+          vat_rate: 0.2
+          weight_g: 8.0
+          weight_source_url: https://systempak.net/wp-content/uploads/2024/03/TDS-209-100ML.pdf
+        pot_quantity: 1
+        pots_cost_gbp: 0.1463
+        price_excludes_delivery: true
+        price_gbp: 0.4067
+        price_includes_vat: true
+        print_instruction: ''
+        print_layout_gap: 8.0
+        product_name: "Printed 1 \xD7 1 \xB7 Systempak 209 \xB7 ai version 2 \xB7\
+          \ fit clearance 2d25"
+        rear_band: 6.0
+        record_type: printed_drawer_unit
+        roof_slope: 1.0
+        row: 1
+        runner_width: 10.0
+        screw_head_seat_offset: 6.0
+        screw_length: 16.0
+        side_rail_width: 4.0
+        style: ai_version_2
+        taxonomy_1: oobb
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: organization
+        taxonomy_3: storage
+        taxonomy_4: drawer_unit
+        taxonomy_5: 1_column
+        taxonomy_6: 1_row
+        taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+        taxonomy_8: ai_version_2_style
+        taxonomy_9: fit_clearance_2d25
+        test_depth: 12
+        thickness_wall: 1.8
+        url_chat: ''
+        variant: fit_clearance_2d25
+        weight_basis: estimated_solid_PLA_frame_including_ears_plus_lidless_pots_excluding_hardware
+        weight_kg: 0.034044
+        width_mm: 99.25
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_oomp.svg
+      file_template: C:\od\OneDrive\docs\organization_storage_drawer_unit\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+  oomp_key: oomp_oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25
+  opening_height_extra: 0.0
+  opening_radius: 4.0
+  outer_radius: 2.4
+  part_number: ''
+  part_role: fit
+  pot_cost_details:
+    availability: On backorder
+    capacity_ml: 100
+    checked_date: '2026-10-18'
+    manufacturer: Systempak
+    pack_price_ex_vat_gbp: 60.95
+    pack_quantity: 500
+    part_number: '209'
+    price_basis: Single carton of 500 pots and lids; lids unused; delivery excluded
+    price_source_url: https://systempak.net/product/100ml-rectangular-tamper-evident-containers-and-lids/
+    unit_price_gbp: 0.14628
+    vat_rate: 0.2
+    weight_g: 8.0
+    weight_source_url: https://systempak.net/wp-content/uploads/2024/03/TDS-209-100ML.pdf
+  pot_quantity: 1
+  pots_cost_gbp: 0.1463
+  price_excludes_delivery: true
+  price_gbp: 0.4067
+  price_includes_vat: true
+  print_instruction: ''
+  print_layout_gap: 8.0
+  product_name: "Printed 1 \xD7 1 \xB7 Systempak 209 \xB7 ai version 2 \xB7 fit clearance\
+    \ 2d25"
+  rear_band: 6.0
+  record_type: printed_drawer_unit
+  roof_slope: 1.0
+  row: 1
+  runner_width: 10.0
+  screw_head_seat_offset: 6.0
+  screw_length: 16.0
+  short_name: ''
+  side_rail_width: 4.0
+  size: default_ai_version_2
+  style: ai_version_2
+  taxonomy_1: oobb
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_1_capital: Oobb
+  taxonomy_1_first_letter: o
+  taxonomy_1_first_letter_upper: O
+  taxonomy_1_length_1: o
+  taxonomy_1_length_2: oo
+  taxonomy_1_length_3: oob
+  taxonomy_1_length_4: oobb
+  taxonomy_1_length_5: oobb
+  taxonomy_1_upper: OOBB
+  taxonomy_1_upper_length_1: O
+  taxonomy_1_upper_length_2: OO
+  taxonomy_1_upper_length_3: OOB
+  taxonomy_1_upper_length_4: OOBB
+  taxonomy_1_upper_length_5: OOBB
+  taxonomy_2: organization
+  taxonomy_2_capital: Organization
+  taxonomy_2_first_letter: o
+  taxonomy_2_first_letter_upper: O
+  taxonomy_2_length_1: o
+  taxonomy_2_length_2: or
+  taxonomy_2_length_3: org
+  taxonomy_2_length_4: orga
+  taxonomy_2_length_5: organ
+  taxonomy_2_upper: ORGANIZATION
+  taxonomy_2_upper_length_1: O
+  taxonomy_2_upper_length_2: OR
+  taxonomy_2_upper_length_3: ORG
+  taxonomy_2_upper_length_4: ORGA
+  taxonomy_2_upper_length_5: ORGAN
+  taxonomy_3: storage
+  taxonomy_3_capital: Storage
+  taxonomy_3_first_letter: s
+  taxonomy_3_first_letter_upper: S
+  taxonomy_3_length_1: s
+  taxonomy_3_length_2: st
+  taxonomy_3_length_3: sto
+  taxonomy_3_length_4: stor
+  taxonomy_3_length_5: stora
+  taxonomy_3_upper: STORAGE
+  taxonomy_3_upper_length_1: S
+  taxonomy_3_upper_length_2: ST
+  taxonomy_3_upper_length_3: STO
+  taxonomy_3_upper_length_4: STOR
+  taxonomy_3_upper_length_5: STORA
+  taxonomy_4: drawer_unit
+  taxonomy_4_capital: Drawer Unit
+  taxonomy_4_first_letter: d
+  taxonomy_4_first_letter_upper: D
+  taxonomy_4_length_1: d
+  taxonomy_4_length_2: dr
+  taxonomy_4_length_3: dra
+  taxonomy_4_length_4: draw
+  taxonomy_4_length_5: drawe
+  taxonomy_4_upper: DRAWER_UNIT
+  taxonomy_4_upper_length_1: D
+  taxonomy_4_upper_length_2: DR
+  taxonomy_4_upper_length_3: DRA
+  taxonomy_4_upper_length_4: DRAW
+  taxonomy_4_upper_length_5: DRAWE
+  taxonomy_5: 1_column
+  taxonomy_5_capital: 1 Column
+  taxonomy_5_first_letter: '1'
+  taxonomy_5_first_letter_upper: '1'
+  taxonomy_5_length_1: '1'
+  taxonomy_5_length_2: '1_'
+  taxonomy_5_length_3: 1_c
+  taxonomy_5_length_4: 1_co
+  taxonomy_5_length_5: 1_col
+  taxonomy_5_upper: 1_COLUMN
+  taxonomy_5_upper_length_1: '1'
+  taxonomy_5_upper_length_2: '1_'
+  taxonomy_5_upper_length_3: 1_C
+  taxonomy_5_upper_length_4: 1_CO
+  taxonomy_5_upper_length_5: 1_COL
+  taxonomy_6: 1_row
+  taxonomy_6_capital: 1 Row
+  taxonomy_6_first_letter: '1'
+  taxonomy_6_first_letter_upper: '1'
+  taxonomy_6_length_1: '1'
+  taxonomy_6_length_2: '1_'
+  taxonomy_6_length_3: 1_r
+  taxonomy_6_length_4: 1_ro
+  taxonomy_6_length_5: 1_row
+  taxonomy_6_upper: 1_ROW
+  taxonomy_6_upper_length_1: '1'
+  taxonomy_6_upper_length_2: '1_'
+  taxonomy_6_upper_length_3: 1_R
+  taxonomy_6_upper_length_4: 1_RO
+  taxonomy_6_upper_length_5: 1_ROW
+  taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+  taxonomy_7_capital: Rectangle 100 Ml Tamper Evident Systempak 209 Container
+  taxonomy_7_first_letter: r
+  taxonomy_7_first_letter_upper: R
+  taxonomy_7_length_1: r
+  taxonomy_7_length_2: re
+  taxonomy_7_length_3: rec
+  taxonomy_7_length_4: rect
+  taxonomy_7_length_5: recta
+  taxonomy_7_upper: RECTANGLE_100_ML_TAMPER_EVIDENT_SYSTEMPAK_209_CONTAINER
+  taxonomy_7_upper_length_1: R
+  taxonomy_7_upper_length_2: RE
+  taxonomy_7_upper_length_3: REC
+  taxonomy_7_upper_length_4: RECT
+  taxonomy_7_upper_length_5: RECTA
+  taxonomy_8: ai_version_2_style
+  taxonomy_8_capital: Ai Version 2 Style
+  taxonomy_8_first_letter: a
+  taxonomy_8_first_letter_upper: A
+  taxonomy_8_length_1: a
+  taxonomy_8_length_2: ai
+  taxonomy_8_length_3: ai_
+  taxonomy_8_length_4: ai_v
+  taxonomy_8_length_5: ai_ve
+  taxonomy_8_upper: AI_VERSION_2_STYLE
+  taxonomy_8_upper_length_1: A
+  taxonomy_8_upper_length_2: AI
+  taxonomy_8_upper_length_3: AI_
+  taxonomy_8_upper_length_4: AI_V
+  taxonomy_8_upper_length_5: AI_VE
+  taxonomy_9: fit_clearance_2d25
+  taxonomy_9_capital: Fit Clearance 2D25
+  taxonomy_9_first_letter: f
+  taxonomy_9_first_letter_upper: F
+  taxonomy_9_length_1: f
+  taxonomy_9_length_2: fi
+  taxonomy_9_length_3: fit
+  taxonomy_9_length_4: fit_
+  taxonomy_9_length_5: fit_c
+  taxonomy_9_upper: FIT_CLEARANCE_2D25
+  taxonomy_9_upper_length_1: F
+  taxonomy_9_upper_length_2: FI
+  taxonomy_9_upper_length_3: FIT
+  taxonomy_9_upper_length_4: FIT_
+  taxonomy_9_upper_length_5: FIT_C
+  test_depth: 12
+  thickness_wall: 1.8
+  type: part
+  url_chat: ''
+  variant: fit_clearance_2d25
+  weight_basis: estimated_solid_PLA_frame_including_ears_plus_lidless_pots_excluding_hardware
+  weight_kg: 0.034044
+  width_mm: 99.25
+url_chat: ''
+variant: fit_clearance_2d25
+weight_basis: estimated_solid_PLA_frame_including_ears_plus_lidless_pots_excluding_hardware
+weight_kg: 0.034044
+width_mm: 99.25

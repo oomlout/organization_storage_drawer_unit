@@ -1,0 +1,72 @@
+{
+  "id": "organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_a1_mini_max",
+  "variant": "a1_mini_max",
+  "column": 1,
+  "row": 4,
+  "design": {
+    "adhesion_ears": true,
+    "bed_margin_mm": 2.0,
+    "body_extension_height_mm": 0.0,
+    "build_volume_mm": [
+      180.0,
+      180.0,
+      180.0
+    ],
+    "catch_projection_mm": 6.0,
+    "catch_ramp_depth_mm": 6.0,
+    "centre_support_width_mm": 0.0,
+    "cutout_revision": "ai_version_2_lip_supported",
+    "drawer_count": 4,
+    "ear_count": 4,
+    "envelope_mm": [
+      92.3,
+      161.2,
+      110.5
+    ],
+    "expected_bodies": 1,
+    "finished_envelope_mm": [
+      92.3,
+      120.2,
+      110.5
+    ],
+    "lip_inset_mm": 5.5,
+    "lip_shelf_thickness_mm": 3.0,
+    "lip_step_height_mm": 12.0,
+    "lip_support_channel_height_mm": 27.5,
+    "opening_mm": [
+      87.5,
+      27.5
+    ],
+    "part_role": "frame",
+    "physical_validation": "Pending container-fit, printing, shrinkage and load tests",
+    "pitch_mm": [
+      89.3,
+      29.3
+    ],
+    "print_orientation": "Front face on bed; +Z is insertion depth and print height",
+    "printer": "Bambu Lab A1 mini"
+  },
+  "mesh_envelope_mm": [
+    92.30000305175781,
+    161.1999969482422,
+    110.5
+  ],
+  "volume_mm3": 136244.18995327762,
+  "surface_area_mm2": 100148.6135918292,
+  "connected_bodies": 1,
+  "steep_downward_area_mm2": 0.0,
+  "checks": {
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "expected_connected_bodies": true,
+    "expected_envelope": true,
+    "on_print_bed": true,
+    "no_steep_downward_faces_above_bed": true,
+    "fits_printer_volume": true,
+    "lip_shelf_and_root_present": true,
+    "lip_bearing_face_clear_below": true,
+    "side_reliefs_open_above_and_below_shelf": true,
+    "centre_support_removed": true
+  }
+}

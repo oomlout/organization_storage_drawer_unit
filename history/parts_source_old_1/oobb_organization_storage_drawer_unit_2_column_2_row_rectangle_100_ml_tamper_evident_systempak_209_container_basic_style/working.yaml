@@ -1,0 +1,70 @@
+assembly_component: false
+availability: Print yourself; pots on backorder at research date
+column: 2
+comparison_image: comparison.png
+comparison_measurement_status: Run action_prepare_drawer_comparison.py to refresh
+  CAD measurements
+comparison_sample: false
+container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+container_short: rectangle_100_ml_tamper_evident_systempak_209
+drawer_capacity_basis: manufacturer_nominal
+drawer_capacity_ml: 100
+drawer_count: 4
+filament_density_g_per_cm3: 1.24
+filament_gbp_per_gram: 0.01
+filament_mass_basis: Solid CAD volume × assumed PLA density; includes adhesion ears;
+  excludes purge/supports
+hardware_cost_basis: No assembly hardware
+manufacturer: oomlout
+oobb_details:
+  column: 2
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  oobb_name: basic
+  row: 2
+  style: basic
+  taxonomy_1: oobb
+  taxonomy_2: organization
+  taxonomy_3: storage
+  taxonomy_4: drawer_unit
+  taxonomy_5: 2_column
+  taxonomy_6: 2_row
+  taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+  taxonomy_8: basic_style
+pot_cost_details:
+  availability: On backorder
+  capacity_ml: 100
+  checked_date: '2026-10-18'
+  manufacturer: Systempak
+  pack_price_ex_vat_gbp: 60.95
+  pack_quantity: 500
+  part_number: '209'
+  price_basis: Single carton of 500 pots and lids; lids unused; delivery excluded
+  price_source_url: https://systempak.net/product/100ml-rectangular-tamper-evident-containers-and-lids/
+  unit_price_gbp: 0.14628
+  vat_rate: 0.2
+  weight_g: 8.0
+  weight_source_url: https://systempak.net/wp-content/uploads/2024/03/TDS-209-100ML.pdf
+pot_quantity: 4
+price_excludes_delivery: true
+price_includes_vat: true
+print_instruction: ''
+product_name: Printed 2 × 2 · Systempak 209 · basic
+record_type: printed_drawer_unit
+row: 2
+style: basic
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: organization
+taxonomy_3: storage
+taxonomy_4: drawer_unit
+taxonomy_5: 2_column
+taxonomy_6: 2_row
+taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+taxonomy_8: basic_style
+taxonomy_9: ''

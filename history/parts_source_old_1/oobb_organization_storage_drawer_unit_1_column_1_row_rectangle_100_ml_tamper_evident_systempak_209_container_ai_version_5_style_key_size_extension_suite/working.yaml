@@ -1,0 +1,207 @@
+assembly_component: false
+availability: Unverified connector trial
+bed_height: 180.0
+bed_margin: 2.0
+bed_width: 180.0
+catch_end_clearance: 0.2
+column: 1
+comparison_image: comparison.png
+comparison_measurement_status: Run action_prepare_drawer_comparison.py to refresh
+  CAD measurements
+comparison_sample: true
+connection_intent: mainly_permanent
+connector_clearance: 0.25
+connector_design: key_size_fit_suite
+connector_view: print_layout
+container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+container_short: rectangle_100_ml_tamper_evident_systempak_209
+coupon_height: 14.0
+coupon_width: 15.0
+drawer_capacity_basis: not_applicable_connector_test
+drawer_capacity_ml: null
+drawer_count: 0
+filament_density_g_per_cm3: 1.27
+filament_gbp_per_gram: 0.01
+filament_mass_basis: Solid CAD volume × assumed PETG density 1.27 g/cm3; not a slicer
+  measurement
+guide_depth: 3.0
+guide_half_width: 1.4
+hardware_cost_basis: No assembly hardware
+hook_projection: 0.65
+hook_ramp_length: 2.4
+key_arm_thickness: 0.8
+key_half_width: 1.4
+key_head_x: -5.7
+key_height: 4.0
+key_root_radius: 0.4
+key_shoulder_x: 2.7
+key_tongue_half_width: 2.5
+key_trials: &id001
+- connector_clearance: 0.4
+  hook_projection: 0.9425
+  hook_ramp_length: 3.48
+  key_arm_thickness: 1.16
+  key_half_width: 2.03
+  key_head_length: 2.9
+  key_head_x: -8.265
+  key_height: 5.8
+  key_hook_flat: 0.435
+  key_root_radius: 0.58
+  key_scale: 1.45
+  key_shoulder_x: 3.915
+  key_slot_min_wall: 1.0
+  key_tip_chamfer: 0.29
+  key_tongue_half_width: 3.625
+  number_depth: 0.6
+  number_rail_z: 24.0
+  number_size: 4.0
+  plate_number_size: 1.8
+  plate_number_x: -6.1
+  sample_number: 20
+  through_clearance: 0.25
+  through_height_clearance: 0.25
+- connector_clearance: 0.4
+  hook_projection: 1.04
+  hook_ramp_length: 3.84
+  key_arm_thickness: 1.28
+  key_half_width: 2.24
+  key_head_length: 3.2
+  key_head_x: -9.12
+  key_height: 6.4
+  key_hook_flat: 0.48
+  key_root_radius: 0.64
+  key_scale: 1.6
+  key_shoulder_x: 4.32
+  key_slot_min_wall: 1.0
+  key_tip_chamfer: 0.32
+  key_tongue_half_width: 4.0
+  number_depth: 0.6
+  number_rail_z: 24.0
+  number_size: 4.0
+  plate_number_size: 1.8
+  plate_number_x: -6.1
+  sample_number: 21
+  through_clearance: 0.25
+  through_height_clearance: 0.25
+- connector_clearance: 0.4
+  hook_projection: 1.1375
+  hook_ramp_length: 4.2
+  key_arm_thickness: 1.4
+  key_half_width: 2.45
+  key_head_length: 3.5
+  key_head_x: -9.975
+  key_height: 7.0
+  key_hook_flat: 0.525
+  key_root_radius: 0.7
+  key_scale: 1.75
+  key_shoulder_x: 4.725
+  key_slot_min_wall: 1.0
+  key_tip_chamfer: 0.35
+  key_tongue_half_width: 4.375
+  number_depth: 0.6
+  number_rail_z: 24.0
+  number_size: 4.0
+  plate_number_size: 1.8
+  plate_number_x: -6.1
+  sample_number: 22
+  through_clearance: 0.25
+  through_height_clearance: 0.25
+manufacturer: oomlout
+oobb_details:
+  bed_height: 180.0
+  bed_margin: 2.0
+  bed_width: 180.0
+  catch_end_clearance: 0.2
+  column: 1
+  connection_intent: mainly_permanent
+  connector_clearance: 0.25
+  connector_design: key_size_fit_suite
+  connector_view: print_layout
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  coupon_height: 14.0
+  coupon_width: 15.0
+  guide_depth: 3.0
+  guide_half_width: 1.4
+  hook_projection: 0.65
+  hook_ramp_length: 2.4
+  key_arm_thickness: 0.8
+  key_half_width: 1.4
+  key_head_x: -5.7
+  key_height: 4.0
+  key_root_radius: 0.4
+  key_shoulder_x: 2.7
+  key_tongue_half_width: 2.5
+  key_trials: *id001
+  oobb_name: ai_version_5
+  part_role: connector_test
+  plate_thickness: 7.5
+  rail_height: 10.0
+  rail_width: 11.0
+  root_radius: 1.1
+  row: 1
+  single_arm_thickness: 1.6
+  single_root_distance: 8.0
+  snap_arm_height: 4.0
+  snap_arm_outer: 3.8
+  style: ai_version_5
+  taxonomy_1: oobb
+  taxonomy_2: organization
+  taxonomy_3: storage
+  taxonomy_4: drawer_unit
+  taxonomy_5: 1_column
+  taxonomy_6: 1_row
+  taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+  taxonomy_8: ai_version_5_style
+  taxonomy_9: key_size_extension_suite
+  test_material: PETG
+  test_rail_length: 32.0
+  test_rationale: User reports sample 9 closest but still loose, sample 1 much too
+    loose; continue the 3/6/9 size progression.
+  trial_layout_y_offset: 0
+  twin_arm_thickness: 1.4
+  twin_root_distance: 12.0
+  variant: key_size_extension_suite
+part_role: connector_test
+plate_thickness: 7.5
+pot_cost_details: {}
+pot_quantity: 0
+price_excludes_delivery: true
+price_includes_vat: true
+print_instruction: Print the connector kit as arranged; see printing.txt. Experimental
+  coupons, not a drawer unit.
+product_name: PETG connector trial · key size extension suite · version 5
+rail_height: 10.0
+rail_width: 11.0
+record_type: printed_drawer_unit
+root_radius: 1.1
+row: 1
+seller: Print your own PETG coupons
+single_arm_thickness: 1.6
+single_root_distance: 8.0
+snap_arm_height: 4.0
+snap_arm_outer: 3.8
+style: ai_version_5
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: organization
+taxonomy_3: storage
+taxonomy_4: drawer_unit
+taxonomy_5: 1_column
+taxonomy_6: 1_row
+taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+taxonomy_8: ai_version_5_style
+taxonomy_9: key_size_extension_suite
+test_material: PETG
+test_rail_length: 32.0
+test_rationale: User reports sample 9 closest but still loose, sample 1 much too loose;
+  continue the 3/6/9 size progression.
+trial_layout_y_offset: 0
+twin_arm_thickness: 1.4
+twin_root_distance: 12.0
+variant: key_size_extension_suite

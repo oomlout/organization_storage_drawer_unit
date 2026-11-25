@@ -1,0 +1,87 @@
+{
+  "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_fit_clearance_0d75",
+  "file": "3dpr",
+  "design": {
+    "envelope_mm": [
+      97.75,
+      70.75,
+      12
+    ],
+    "assembled_envelope_mm": [
+      97.75,
+      37.75,
+      12
+    ],
+    "print_layout_fits_single_bed": null,
+    "print_layout_gap_mm": null,
+    "finished_envelope_mm": [
+      97.75,
+      37.75,
+      12
+    ],
+    "adhesion_ears": true,
+    "ear_count": 4,
+    "printer": "unspecified",
+    "build_volume_mm": [
+      400.0,
+      400.0,
+      null
+    ],
+    "bed_margin_mm": 2.0,
+    "catch_projection_mm": 6.0,
+    "catch_ramp_depth_mm": 6.0,
+    "cutout_revision": "ai_version_3_all_junction_interlocks",
+    "assembly_half": "sample",
+    "assembled_depth_mm": 12,
+    "half_body_depth_mm": 12,
+    "interlock_depth_mm": 3.0,
+    "interlock_clearance_per_side_mm": 0.25,
+    "corner_interlock_diameter_mm": 2.8,
+    "corner_interlock_count": 0,
+    "screw_length_mm": 16.0,
+    "head_seat_offset_mm": 6.0,
+    "nut_seat_offset_mm": null,
+    "screw_count": 0,
+    "printable": true,
+    "lip_inset_mm": 5.5,
+    "lip_step_height_mm": 12.0,
+    "lip_shelf_thickness_mm": 10.0,
+    "lip_support_channel_height_mm": 26.75,
+    "body_extension_height_mm": 0.0,
+    "centre_support_width_mm": 0.0,
+    "opening_mm": [
+      86.75,
+      26.75
+    ],
+    "pitch_mm": [
+      88.55,
+      28.55
+    ],
+    "expected_bodies": 1,
+    "drawer_count": 1,
+    "part_role": "fit",
+    "print_orientation": "Outer face on bed, joint upward; back rotates 180 degrees about Y for assembly. The assembled.scad file is reference only; use front/back files for separate plates.",
+    "physical_validation": "Pending container-fit, printing, shrinkage and load tests"
+  },
+  "volume_mm3": 20409.57323331125,
+  "mesh_envelope_mm": [
+    97.75,
+    70.75,
+    12.0
+  ],
+  "checks": {
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "expected_connected_bodies": true,
+    "expected_envelope": true,
+    "on_print_bed": true,
+    "fits_printer_volume": true,
+    "lip_shelf_and_root_present": true,
+    "lip_bearing_face_clear_below": true,
+    "no_unsupported_faces_outside_hardware_seats": true
+  },
+  "unexpected_downward_area_mm2": 0.0,
+  "hardware_seat_bridge_area_mm2": 0.0,
+  "bridge_note": "Only localized socket-cap/nut seat bridges are allowed; inspect OOBB bridging in the slicer."
+}

@@ -1,0 +1,81 @@
+approved_for_oomp: true
+availability: Available to backorder; stated availability date 2026-10-22
+capacity_is_estimate: false
+capacity_rounding_increment_ml: 25
+cost_per_drawer_gbp: 6.39
+cost_per_kg_basis: net_unknown
+cost_per_kg_gbp: null
+depth_mm: 180
+drawer_capacity_basis: manufacturer_nominal
+drawer_capacity_ml: 200
+drawer_capacity_unrounded_ml: 200
+drawer_sizes:
+- capacity_ml: 200
+  capacity_unrounded_ml: 200
+  count: 24
+  depth_mm: 170
+  dimension_basis: external
+  drawer_model: L-61-4ESD
+  height_mm: 40
+  rectangular_volume_ml: 469.2
+  width_mm: 69
+esd_protective: true
+for_sale_url: https://www.rapidonline.com/treston-291-esd-esd-storage-cabinet-24-drawer-14-1266
+height_mm: 290
+image_checked_date: '2026-10-18'
+image_source_url: https://www.rapidonline.com/treston-291-esd-esd-storage-cabinet-24-drawer-14-1266
+image_static_path: drawer_photos/15.png
+image_url: https://static.rapidonline.com/catalogueimages/product/14/12/s14-1266p01ws.jpg
+manufacturer: treston
+manufacturer_identity_basis: manufacturer
+manufacturer_stock_code: 291-4ESD
+minimum_order_quantity: 1
+minimum_order_required_spend_gbp: 153.47
+number_of_drawers: 24
+part_number: 291-4ESD
+part_number_basis: manufacturer_model_number
+price_excludes_delivery: true
+price_gbp: 153.47
+price_includes_vat: true
+price_source_url: https://www.rapidonline.com/treston-291-esd-esd-storage-cabinet-24-drawer-14-1266
+product_name: Treston 291-4ESD 24 drawer ESD cabinet
+proposal_number: 15
+proposal_revision: 3
+published_cabinet_capacity_ml: null
+published_price_ex_vat_gbp: 127.89
+record_type: purchased_drawer_unit
+research_date: '2026-10-18'
+research_notes: Manufacturer specifies 24 identical L-61-4ESD drawers and ESD semiconductive
+  cabinet construction. The drawer manufacturer nominal capacity is 0.2 l (200 ml).
+  Published drawer dimensions are external; their 469.2 ml rectangular envelope is
+  not a usable-capacity estimate and is retained separately. Treston labels 3.4 kg
+  as package weight, so it is recorded as shipping weight only; net unit mass is unknown.
+  Rapid sells one cabinet, currently available to backorder with a stated availability
+  date of 2026-10-22.
+seller: Rapid Electronics
+shipping_weight_basis: manufacturer_package_weight
+shipping_weight_kg: 3.4
+specification_urls:
+- https://www.treston.com/storage-systems/bins-and-bin-cabinets/small-parts-storage-cabinets/small-parts-storage-cabinet-8
+- https://www.treston.com/storage-systems/bins-and-bin-cabinets/storage-picking-and-small-bins/small-drawer-69x170x40-black
+- https://www.rapidonline.com/treston-291-esd-esd-storage-cabinet-24-drawer-14-1266
+taxonomy_1: organization
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: treston
+taxonomy_15: 291_4esd
+taxonomy_2: storage
+taxonomy_3: drawer_unit
+taxonomy_4: small_drawers
+taxonomy_5: 200_ml_capacity
+taxonomy_6: 24_drawers
+taxonomy_7: 310_mm_width
+taxonomy_8: 290_mm_height
+taxonomy_9: 180_mm_depth
+uniform_drawer_size: true
+unit_dimensions_basis: external
+weight_basis: net_unknown
+weight_kg: null
+width_mm: 310

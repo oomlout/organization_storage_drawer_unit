@@ -1,0 +1,1222 @@
+additional_screw_every: 0
+adhesion_ears: false
+assembly_component: false
+assembly_half: print_layout
+attachment_border_band: 14.5
+attachment_horizontal: false
+attachment_min_wall: 1.2
+attachment_nut_depth: 1.5
+attachment_spacing: 120.0
+availability: Experimental double sided PETG assembly; physical fit unverified
+bed_exclusion: &id001
+- 18.0
+- 28.0
+bed_height: 256.0
+bed_margin: 2.0
+bed_width: 256.0
+bip_39_2_word_array:
+- desk
+- era
+bip_39_2_word_no_space: deskera
+bip_39_2_word_space: desk era
+bip_39_2_word_underscore: desk_era
+bip_39_3_word_array:
+- desk
+- era
+- mango
+bip_39_3_word_no_space: deskeramango
+bip_39_3_word_space: desk era mango
+bip_39_3_word_underscore: desk_era_mango
+bip_39_full_array:
+- desk
+- era
+- mango
+- inform
+- snake
+- trick
+- hospital
+- tooth
+- catch
+- grocery
+- garment
+- talk
+bip_39_full_no_space: deskeramangoinformsnaketrickhospitaltoothcatchgrocerygarmenttalk
+bip_39_full_space: desk era mango inform snake trick hospital tooth catch grocery
+  garment talk
+bip_39_full_underscore: desk_era_mango_inform_snake_trick_hospital_tooth_catch_grocery_garment_talk
+body_cutout_radius: 1.0
+body_extension_height: 0.0
+bottom_rail_running_height: 6.0
+catch_tab_depth: 1.5
+catch_tab_height: 6.0
+catch_tab_ramp_depth: 6.0
+catch_tab_width: 56.0
+column: 2
+comparison_image: comparison.png
+comparison_measurement_status: Run action_prepare_drawer_comparison.py to refresh
+  CAD measurements
+comparison_sample: false
+connector_design: double_sided_snap
+connector_view: print_layout
+container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+container_clearance: 1.5
+container_short: rectangle_100_ml_tamper_evident_systempak_209
+corner_hole_inset: 5.0
+corner_hole_size: m3
+corner_interlock_diameter: 2.8
+corner_interlock_min_wall: 0.6
+depth_clearance: 1.5
+depth_lip: 12.0
+directory: parts/oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_6_style_double_sided_plywood_250_max
+drawer_border_edge: 10.5
+drawer_capacity_basis: manufacturer_nominal
+drawer_capacity_ml: 100
+drawer_count: 28
+drawer_sides: 2
+ear_diameter: 12.0
+ear_gap: 0.5
+ear_height: 0.6
+ear_link_height: 0.3
+ear_link_width: 5.0
+face_edge_y: 2.0
+filament_density_g_per_cm3: 1.27
+filament_gbp_per_gram: 0.01
+filament_mass_basis: Solid assembled CAD volume x PETG density 1.27 g/cm3; excludes
+  supports and purge
+floor_support_projection: 12.0
+floor_support_tab_width: 15.0
+floor_support_thickness: 2.0
+floor_support_tip_chamfer: 0.75
+front_band: 7.5
+front_lip: true
+hardware_axis_height: 5.0
+hardware_boss_band: 12.0
+hardware_boss_slope: 1.2
+hardware_cost_basis: Eight M3 x 20 countersunk screws and eight M3 nuts excluded;
+  hardware prices not supplied
+hardware_min_wall: 1.2
+id: oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_6_style_double_sided_plywood_250_max
+id_no_class: oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_6_style_double_sided_plywood_250_max
+id_no_size: oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_6_style_double_sided_plywood_250_max
+id_no_type: oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_6_style_double_sided_plywood_250_max
+id_oobb: oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_6_style_double_sided_plywood_250_max
+inner_guide_depth: 6.0
+inset_lip: 5.5
+interlock_clearance: 0.25
+interlock_depth: 3.0
+interlock_end_clearance: 0.2
+interlock_height: 7.0
+interlock_width: 8.0
+joining_plate_edge_distance: 5.0
+joining_plate_layout_gap: 5.0
+joining_plate_radius: 1.0
+joining_plate_thickness: 6.0
+joining_plate_unit_gap: 0.0
+kwargs:
+  additional_screw_every: 0
+  adhesion_ears: false
+  assembly_half: print_layout
+  attachment_border_band: 14.5
+  attachment_horizontal: false
+  attachment_min_wall: 1.2
+  attachment_nut_depth: 1.5
+  attachment_spacing: 120.0
+  bed_exclusion:
+  - 18.0
+  - 28.0
+  bed_height: 256.0
+  bed_margin: 2.0
+  bed_width: 256.0
+  body_cutout_radius: 1.0
+  body_extension_height: 0.0
+  bottom_rail_running_height: 6.0
+  catch_tab_depth: 1.5
+  catch_tab_height: 6.0
+  catch_tab_ramp_depth: 6.0
+  catch_tab_width: 56.0
+  column: 2
+  connector_design: double_sided_snap
+  connector_view: print_layout
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_clearance: 1.5
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  corner_hole_inset: 5.0
+  corner_hole_size: m3
+  corner_interlock_diameter: 2.8
+  corner_interlock_min_wall: 0.6
+  depth_clearance: 1.5
+  depth_lip: 12.0
+  drawer_border_edge: 10.5
+  drawer_sides: 2
+  ear_diameter: 12.0
+  ear_gap: 0.5
+  ear_height: 0.6
+  ear_link_height: 0.3
+  ear_link_width: 5.0
+  face_edge_y: 2.0
+  filter: ai_version_6
+  floor_support_projection: 12.0
+  floor_support_tab_width: 15.0
+  floor_support_thickness: 2.0
+  floor_support_tip_chamfer: 0.75
+  front_band: 7.5
+  front_lip: true
+  hardware_axis_height: 5.0
+  hardware_boss_band: 12.0
+  hardware_boss_slope: 1.2
+  hardware_min_wall: 1.2
+  inner_guide_depth: 6.0
+  inset_lip: 5.5
+  interlock_clearance: 0.25
+  interlock_depth: 3.0
+  interlock_end_clearance: 0.2
+  interlock_height: 7.0
+  interlock_width: 8.0
+  joining_plate_edge_distance: 5.0
+  joining_plate_layout_gap: 5.0
+  joining_plate_radius: 1.0
+  joining_plate_thickness: 6.0
+  joining_plate_unit_gap: 0.0
+  lightening: true
+  lip_cutout_radius: 1.0
+  lip_shelf_thickness: 10.0
+  lip_support_reference_height: 26.0
+  main_connector_sample: 28
+  max_face_size: 250.0
+  middle_rib_width: 0.0
+  middle_stop_thickness: 3.0
+  middle_stop_width: 19.0
+  modes:
+  - 3dpr
+  modular_key_clearance: 0.25
+  modular_key_depth: 3.0
+  modular_key_end_clearance: 0.2
+  modular_screw_length: 16.0
+  modular_view: print_layout
+  module_gap: 0.4
+  navigation: true
+  nut_axis_height: 5.0
+  nut_side_clearance: left
+  oobb_name: ai_version_6
+  oomp_description_extra: ''
+  oomp_description_main: ai_version_6_
+  oomp_mode: project
+  oomp_run: false
+  opening_height_extra: 1.0
+  opening_radius: 4.0
+  outer_mount_offset: 0.9
+  outer_radius: 2.4
+  overwrite: true
+  part_role: frame
+  plate_thickness: 6.0
+  print_layout_gap: 8.0
+  printer: P1P
+  rail_edge_gap: 0.25
+  rail_end_band: 14.5
+  rail_height: 10.0
+  rail_layout_gap: 5.0
+  rail_running_height: 4.0
+  rail_taper_run: 7.2
+  rail_width: 11.0
+  rear_band: 6.0
+  rear_lip: true
+  remove_internal_lower_supports: true
+  roof_slope: 1.0
+  row: 7
+  row_spacing_extra: 1.0
+  runner_width: 10.0
+  running_shelf_thickness: 4.0
+  scad_filter: ai_version_6
+  screw_head_seat_offset: 6.0
+  screw_length: 16.0
+  screw_rail_settings:
+    adapter_pitch: 15.0
+    axis_height: 8.0
+    end_height: 13.0
+    flange_radius: 0.75
+    flange_size:
+    - 11.0
+    - 10.0
+    - 2.4
+    guide_clearance: 0.25
+    guide_depth: 5.5
+    guide_open_slot_width: 3.8
+    guide_tip_chamfer: 0.5
+    guide_width: 6.8
+    nut_near: 7.0
+    nut_side_clearance: left
+    replacement_count: 4
+    screw_length: 20.0
+    screw_size: m3
+  seam_middle_min_span: 120.0
+  seam_middle_screw: true
+  selected_latch_sample: 37
+  separate_key_sample: 27
+  side_rail_width: 4.0
+  snap_clearance: 0.25
+  snap_hook_projection: 1.2
+  snap_inner_web_height: 1.0
+  snap_ledge_land: 0.5
+  snap_profile:
+    bed_height: 180.0
+    bed_margin: 2.0
+    bed_width: 180.0
+    catch_end_clearance: 0.2
+    connection_intent: mainly_permanent
+    connector_clearance: 0.25
+    connector_design: snap_recessed_twin
+    connector_view: print_layout
+    coupon_height: 14.0
+    coupon_width: 15.0
+    guide_depth: 3.0
+    guide_half_width: 1.4
+    heavy_latch_trial: true
+    hook_projection: 1.2
+    hook_ramp_length: 1.5
+    key_arm_thickness: 0.8
+    key_half_width: 1.4
+    key_head_x: -5.7
+    key_height: 4.0
+    key_root_radius: 0.4
+    key_shoulder_x: 2.7
+    key_tongue_half_width: 2.5
+    latch_thickness_trial: true
+    number_depth: 0.6
+    number_rail_z: 24.0
+    number_size: 4.0
+    part_role: connector_test
+    plate_thickness: 7.5
+    rail_height: 10.0
+    rail_width: 11.0
+    recessed_shoulder_depth: 6.0
+    root_radius: 1.1
+    sample_number: 28
+    single_arm_thickness: 1.6
+    single_root_distance: 8.0
+    snap_arm_height: 10.0
+    snap_arm_outer: 3.4
+    test_material: PETG
+    test_rail_length: 32.0
+    twin_arm_thickness: 1.8
+    twin_root_distance: 0.5
+  snap_root_relief_width: 0.6
+  snap_tip_floor: 6.0
+  stop_edge_chamfer: 0.75
+  stop_thickness: 6.0
+  style: ai_version_6
+  target_height: 220.3
+  target_width: 197.8
+  taxonomy_1: oobb
+  taxonomy_2: organization
+  taxonomy_3: storage
+  taxonomy_4: drawer_unit
+  taxonomy_5: 2_column
+  taxonomy_6: 7_row
+  taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+  taxonomy_8: ai_version_6_style
+  taxonomy_9: double_sided_plywood_250_max
+  test_material: PETG
+  thickness_wall: 1.8
+  tile_ear_diameter: 12.0
+  tile_ear_gap: 0.5
+  tile_ear_height: 0.3
+  tile_ear_link_height: 0.2
+  tile_ear_link_width: 2.0
+  tile_lap_x: 11.0
+  tile_lap_y: 9.0
+  tile_layer_clearance: 0.0
+  tile_seam_clearance: 0.15
+  type: default_ai_version_6
+  variant: double_sided_plywood_250_max
+lightening: true
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_6_style_double_sided_plywood_250_max
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_6_style_double_sided_plywood_250_max
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_6_style_double_sided_plywood_250_max
+lip_cutout_radius: 1.0
+lip_shelf_thickness: 10.0
+lip_support_reference_height: 26.0
+main_connector_sample: 28
+manufacturer: oomlout
+max_face_size: 250.0
+md5: 3be98a1cb9ccd3d0db7f26240cd97fee
+md5_10: 3be98a1cb9
+md5_10_upper: 3BE98A1CB9
+md5_5: 3be98
+md5_5_upper: 3BE98
+md5_6: 3be98a
+md5_6_alpha: 2c5my
+md5_6_alpha_upper: 2C5MY
+md5_6_upper: 3BE98A
+middle_rib_width: 0.0
+middle_stop_thickness: 3.0
+middle_stop_width: 19.0
+modular_key_clearance: 0.25
+modular_key_depth: 3.0
+modular_key_end_clearance: 0.2
+modular_screw_length: 16.0
+modular_view: print_layout
+module_gap: 0.4
+name: Oobb Organization Storage Drawer Unit 2 Column 7 Row Rectangle 100 Ml Tamper
+  Evident Systempak 209 Container Ai Version 6 Style Double Sided Plywood 250 Max
+name_no_class: Oobb Organization Storage Drawer Unit 2 Column 7 Row Rectangle 100
+  Ml Tamper Evident Systempak 209 Container Ai Version 6 Style Double Sided Plywood
+  250 Max
+name_no_size: Oobb Organization Storage Drawer Unit 2 Column 7 Row Rectangle 100 Ml
+  Tamper Evident Systempak 209 Container Ai Version 6 Style Double Sided Plywood 250
+  Max
+name_no_type: Oobb Organization Storage Drawer Unit 2 Column 7 Row Rectangle 100 Ml
+  Tamper Evident Systempak 209 Container Ai Version 6 Style Double Sided Plywood 250
+  Max
+name_proper: Oobb Organization Storage Drawer Unit 2 Column 7 Row Rectangle 100 Ml
+  Tamper Evident Systempak 209 Container Ai Version 6 Style Double Sided Plywood 250
+  Max
+name_space: oobb organization storage drawer unit 2 column 7 row rectangle 100 ml
+  tamper evident systempak 209 container ai version 6 style double sided plywood 250
+  max
+name_upper: OOBB ORGANIZATION STORAGE DRAWER UNIT 2 COLUMN 7 ROW RECTANGLE 100 ML
+  TAMPER EVIDENT SYSTEMPAK 209 CONTAINER AI VERSION 6 STYLE DOUBLE SIDED PLYWOOD 250
+  MAX
+nut_axis_height: 5.0
+nut_side_clearance: left
+oobb_details:
+  additional_screw_every: 0
+  adhesion_ears: false
+  assembly_half: print_layout
+  attachment_border_band: 14.5
+  attachment_horizontal: false
+  attachment_min_wall: 1.2
+  attachment_nut_depth: 1.5
+  attachment_spacing: 120.0
+  bed_exclusion: *id001
+  bed_height: 256.0
+  bed_margin: 2.0
+  bed_width: 256.0
+  body_cutout_radius: 1.0
+  body_extension_height: 0.0
+  bottom_rail_running_height: 6.0
+  catch_tab_depth: 1.5
+  catch_tab_height: 6.0
+  catch_tab_ramp_depth: 6.0
+  catch_tab_width: 56.0
+  column: 2
+  connector_design: double_sided_snap
+  connector_view: print_layout
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_clearance: 1.5
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  corner_hole_inset: 5.0
+  corner_hole_size: m3
+  corner_interlock_diameter: 2.8
+  corner_interlock_min_wall: 0.6
+  depth_clearance: 1.5
+  depth_lip: 12.0
+  drawer_border_edge: 10.5
+  drawer_sides: 2
+  ear_diameter: 12.0
+  ear_gap: 0.5
+  ear_height: 0.6
+  ear_link_height: 0.3
+  ear_link_width: 5.0
+  face_edge_y: 2.0
+  floor_support_projection: 12.0
+  floor_support_tab_width: 15.0
+  floor_support_thickness: 2.0
+  floor_support_tip_chamfer: 0.75
+  front_band: 7.5
+  front_lip: true
+  hardware_axis_height: 5.0
+  hardware_boss_band: 12.0
+  hardware_boss_slope: 1.2
+  hardware_min_wall: 1.2
+  inner_guide_depth: 6.0
+  inset_lip: 5.5
+  interlock_clearance: 0.25
+  interlock_depth: 3.0
+  interlock_end_clearance: 0.2
+  interlock_height: 7.0
+  interlock_width: 8.0
+  joining_plate_edge_distance: 5.0
+  joining_plate_layout_gap: 5.0
+  joining_plate_radius: 1.0
+  joining_plate_thickness: 6.0
+  joining_plate_unit_gap: 0.0
+  lightening: true
+  lip_cutout_radius: 1.0
+  lip_shelf_thickness: 10.0
+  lip_support_reference_height: 26.0
+  main_connector_sample: 28
+  max_face_size: 250.0
+  middle_rib_width: 0.0
+  middle_stop_thickness: 3.0
+  middle_stop_width: 19.0
+  modular_key_clearance: 0.25
+  modular_key_depth: 3.0
+  modular_key_end_clearance: 0.2
+  modular_screw_length: 16.0
+  modular_view: print_layout
+  module_gap: 0.4
+  nut_axis_height: 5.0
+  nut_side_clearance: left
+  oobb_name: ai_version_6
+  opening_height_extra: 1.0
+  opening_radius: 4.0
+  outer_mount_offset: 0.9
+  outer_radius: 2.4
+  part_role: frame
+  plate_thickness: 6.0
+  print_layout_gap: 8.0
+  printer: P1P
+  rail_edge_gap: 0.25
+  rail_end_band: 14.5
+  rail_height: 10.0
+  rail_layout_gap: 5.0
+  rail_running_height: 4.0
+  rail_taper_run: 7.2
+  rail_width: 11.0
+  rear_band: 6.0
+  rear_lip: true
+  remove_internal_lower_supports: true
+  roof_slope: 1.0
+  row: 7
+  row_spacing_extra: 1.0
+  runner_width: 10.0
+  running_shelf_thickness: 4.0
+  screw_head_seat_offset: 6.0
+  screw_length: 16.0
+  screw_rail_settings: &id005
+    adapter_pitch: 15.0
+    axis_height: 8.0
+    end_height: 13.0
+    flange_radius: 0.75
+    flange_size:
+    - 11.0
+    - 10.0
+    - 2.4
+    guide_clearance: 0.25
+    guide_depth: 5.5
+    guide_open_slot_width: 3.8
+    guide_tip_chamfer: 0.5
+    guide_width: 6.8
+    nut_near: 7.0
+    nut_side_clearance: left
+    replacement_count: 4
+    screw_length: 20.0
+    screw_size: m3
+  seam_middle_min_span: 120.0
+  seam_middle_screw: true
+  selected_latch_sample: 37
+  separate_key_sample: 27
+  side_rail_width: 4.0
+  snap_clearance: 0.25
+  snap_hook_projection: 1.2
+  snap_inner_web_height: 1.0
+  snap_ledge_land: 0.5
+  snap_profile: &id006
+    bed_height: 180.0
+    bed_margin: 2.0
+    bed_width: 180.0
+    catch_end_clearance: 0.2
+    connection_intent: mainly_permanent
+    connector_clearance: 0.25
+    connector_design: snap_recessed_twin
+    connector_view: print_layout
+    coupon_height: 14.0
+    coupon_width: 15.0
+    guide_depth: 3.0
+    guide_half_width: 1.4
+    heavy_latch_trial: true
+    hook_projection: 1.2
+    hook_ramp_length: 1.5
+    key_arm_thickness: 0.8
+    key_half_width: 1.4
+    key_head_x: -5.7
+    key_height: 4.0
+    key_root_radius: 0.4
+    key_shoulder_x: 2.7
+    key_tongue_half_width: 2.5
+    latch_thickness_trial: true
+    number_depth: 0.6
+    number_rail_z: 24.0
+    number_size: 4.0
+    part_role: connector_test
+    plate_thickness: 7.5
+    rail_height: 10.0
+    rail_width: 11.0
+    recessed_shoulder_depth: 6.0
+    root_radius: 1.1
+    sample_number: 28
+    single_arm_thickness: 1.6
+    single_root_distance: 8.0
+    snap_arm_height: 10.0
+    snap_arm_outer: 3.4
+    test_material: PETG
+    test_rail_length: 32.0
+    twin_arm_thickness: 1.8
+    twin_root_distance: 0.5
+  snap_root_relief_width: 0.6
+  snap_tip_floor: 6.0
+  stop_edge_chamfer: 0.75
+  stop_thickness: 6.0
+  style: ai_version_6
+  target_height: 220.3
+  target_width: 197.8
+  taxonomy_1: oobb
+  taxonomy_2: organization
+  taxonomy_3: storage
+  taxonomy_4: drawer_unit
+  taxonomy_5: 2_column
+  taxonomy_6: 7_row
+  taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+  taxonomy_8: ai_version_6_style
+  taxonomy_9: double_sided_plywood_250_max
+  test_material: PETG
+  thickness_wall: 1.8
+  tile_ear_diameter: 12.0
+  tile_ear_gap: 0.5
+  tile_ear_height: 0.3
+  tile_ear_link_height: 0.2
+  tile_ear_link_width: 2.0
+  tile_lap_x: 11.0
+  tile_lap_y: 9.0
+  tile_layer_clearance: 0.0
+  tile_seam_clearance: 0.15
+  variant: double_sided_plywood_250_max
+oobb_name: ai_version_6
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      additional_screw_every: 0
+      adhesion_ears: false
+      assembly_component: false
+      assembly_half: print_layout
+      attachment_border_band: 14.5
+      attachment_horizontal: false
+      attachment_min_wall: 1.2
+      attachment_nut_depth: 1.5
+      attachment_spacing: 120.0
+      availability: Experimental double sided PETG assembly; physical fit unverified
+      bed_exclusion: &id002
+      - 18.0
+      - 28.0
+      bed_height: 256.0
+      bed_margin: 2.0
+      bed_width: 256.0
+      body_cutout_radius: 1.0
+      body_extension_height: 0.0
+      bottom_rail_running_height: 6.0
+      catch_tab_depth: 1.5
+      catch_tab_height: 6.0
+      catch_tab_ramp_depth: 6.0
+      catch_tab_width: 56.0
+      column: 2
+      comparison_image: comparison.png
+      comparison_measurement_status: Run action_prepare_drawer_comparison.py to refresh
+        CAD measurements
+      comparison_sample: false
+      connector_design: double_sided_snap
+      connector_view: print_layout
+      container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+      container_clearance: 1.5
+      container_short: rectangle_100_ml_tamper_evident_systempak_209
+      corner_hole_inset: 5.0
+      corner_hole_size: m3
+      corner_interlock_diameter: 2.8
+      corner_interlock_min_wall: 0.6
+      depth_clearance: 1.5
+      depth_lip: 12.0
+      directory: parts\oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_6_style_double_sided_plywood_250_max
+      drawer_border_edge: 10.5
+      drawer_capacity_basis: manufacturer_nominal
+      drawer_capacity_ml: 100
+      drawer_count: 28
+      drawer_sides: 2
+      ear_diameter: 12.0
+      ear_gap: 0.5
+      ear_height: 0.6
+      ear_link_height: 0.3
+      ear_link_width: 5.0
+      face_edge_y: 2.0
+      filament_density_g_per_cm3: 1.27
+      filament_gbp_per_gram: 0.01
+      filament_mass_basis: Solid assembled CAD volume x PETG density 1.27 g/cm3; excludes
+        supports and purge
+      floor_support_projection: 12.0
+      floor_support_tab_width: 15.0
+      floor_support_thickness: 2.0
+      floor_support_tip_chamfer: 0.75
+      front_band: 7.5
+      front_lip: true
+      hardware_axis_height: 5.0
+      hardware_boss_band: 12.0
+      hardware_boss_slope: 1.2
+      hardware_cost_basis: Eight M3 x 20 countersunk screws and eight M3 nuts excluded;
+        hardware prices not supplied
+      hardware_min_wall: 1.2
+      inner_guide_depth: 6.0
+      inset_lip: 5.5
+      interlock_clearance: 0.25
+      interlock_depth: 3.0
+      interlock_end_clearance: 0.2
+      interlock_height: 7.0
+      interlock_width: 8.0
+      joining_plate_edge_distance: 5.0
+      joining_plate_layout_gap: 5.0
+      joining_plate_radius: 1.0
+      joining_plate_thickness: 6.0
+      joining_plate_unit_gap: 0.0
+      lightening: true
+      lip_cutout_radius: 1.0
+      lip_shelf_thickness: 10.0
+      lip_support_reference_height: 26.0
+      main_connector_sample: 28
+      manufacturer: oomlout
+      max_face_size: 250.0
+      middle_rib_width: 0.0
+      middle_stop_thickness: 3.0
+      middle_stop_width: 19.0
+      modular_key_clearance: 0.25
+      modular_key_depth: 3.0
+      modular_key_end_clearance: 0.2
+      modular_screw_length: 16.0
+      modular_view: print_layout
+      module_gap: 0.4
+      name: oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_6_style_double_sided_plywood_250_max
+      name_proper: Oobb Organization Storage Drawer Unit 2 Column 7 Row Rectangle
+        100 Ml Tamper Evident Systempak 209 Container Ai Version 6 Style Double Sided
+        Plywood 250 Max
+      name_space: oobb organization storage drawer unit 2 column 7 row rectangle 100
+        ml tamper evident systempak 209 container ai version 6 style double sided
+        plywood 250 max
+      name_upper: OOBB ORGANIZATION STORAGE DRAWER UNIT 2 COLUMN 7 ROW RECTANGLE 100
+        ML TAMPER EVIDENT SYSTEMPAK 209 CONTAINER AI VERSION 6 STYLE DOUBLE SIDED
+        PLYWOOD 250 MAX
+      nut_axis_height: 5.0
+      nut_side_clearance: left
+      oobb_details:
+        additional_screw_every: 0
+        adhesion_ears: false
+        assembly_half: print_layout
+        attachment_border_band: 14.5
+        attachment_horizontal: false
+        attachment_min_wall: 1.2
+        attachment_nut_depth: 1.5
+        attachment_spacing: 120.0
+        bed_exclusion: *id002
+        bed_height: 256.0
+        bed_margin: 2.0
+        bed_width: 256.0
+        body_cutout_radius: 1.0
+        body_extension_height: 0.0
+        bottom_rail_running_height: 6.0
+        catch_tab_depth: 1.5
+        catch_tab_height: 6.0
+        catch_tab_ramp_depth: 6.0
+        catch_tab_width: 56.0
+        column: 2
+        connector_design: double_sided_snap
+        connector_view: print_layout
+        container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+        container_clearance: 1.5
+        container_short: rectangle_100_ml_tamper_evident_systempak_209
+        corner_hole_inset: 5.0
+        corner_hole_size: m3
+        corner_interlock_diameter: 2.8
+        corner_interlock_min_wall: 0.6
+        depth_clearance: 1.5
+        depth_lip: 12.0
+        drawer_border_edge: 10.5
+        drawer_sides: 2
+        ear_diameter: 12.0
+        ear_gap: 0.5
+        ear_height: 0.6
+        ear_link_height: 0.3
+        ear_link_width: 5.0
+        face_edge_y: 2.0
+        floor_support_projection: 12.0
+        floor_support_tab_width: 15.0
+        floor_support_thickness: 2.0
+        floor_support_tip_chamfer: 0.75
+        front_band: 7.5
+        front_lip: true
+        hardware_axis_height: 5.0
+        hardware_boss_band: 12.0
+        hardware_boss_slope: 1.2
+        hardware_min_wall: 1.2
+        inner_guide_depth: 6.0
+        inset_lip: 5.5
+        interlock_clearance: 0.25
+        interlock_depth: 3.0
+        interlock_end_clearance: 0.2
+        interlock_height: 7.0
+        interlock_width: 8.0
+        joining_plate_edge_distance: 5.0
+        joining_plate_layout_gap: 5.0
+        joining_plate_radius: 1.0
+        joining_plate_thickness: 6.0
+        joining_plate_unit_gap: 0.0
+        lightening: true
+        lip_cutout_radius: 1.0
+        lip_shelf_thickness: 10.0
+        lip_support_reference_height: 26.0
+        main_connector_sample: 28
+        max_face_size: 250.0
+        middle_rib_width: 0.0
+        middle_stop_thickness: 3.0
+        middle_stop_width: 19.0
+        modular_key_clearance: 0.25
+        modular_key_depth: 3.0
+        modular_key_end_clearance: 0.2
+        modular_screw_length: 16.0
+        modular_view: print_layout
+        module_gap: 0.4
+        nut_axis_height: 5.0
+        nut_side_clearance: left
+        oobb_name: ai_version_6
+        opening_height_extra: 1.0
+        opening_radius: 4.0
+        outer_mount_offset: 0.9
+        outer_radius: 2.4
+        part_role: frame
+        plate_thickness: 6.0
+        print_layout_gap: 8.0
+        printer: P1P
+        rail_edge_gap: 0.25
+        rail_end_band: 14.5
+        rail_height: 10.0
+        rail_layout_gap: 5.0
+        rail_running_height: 4.0
+        rail_taper_run: 7.2
+        rail_width: 11.0
+        rear_band: 6.0
+        rear_lip: true
+        remove_internal_lower_supports: true
+        roof_slope: 1.0
+        row: 7
+        row_spacing_extra: 1.0
+        runner_width: 10.0
+        running_shelf_thickness: 4.0
+        screw_head_seat_offset: 6.0
+        screw_length: 16.0
+        screw_rail_settings: &id003
+          adapter_pitch: 15.0
+          axis_height: 8.0
+          end_height: 13.0
+          flange_radius: 0.75
+          flange_size:
+          - 11.0
+          - 10.0
+          - 2.4
+          guide_clearance: 0.25
+          guide_depth: 5.5
+          guide_open_slot_width: 3.8
+          guide_tip_chamfer: 0.5
+          guide_width: 6.8
+          nut_near: 7.0
+          nut_side_clearance: left
+          replacement_count: 4
+          screw_length: 20.0
+          screw_size: m3
+        seam_middle_min_span: 120.0
+        seam_middle_screw: true
+        selected_latch_sample: 37
+        separate_key_sample: 27
+        side_rail_width: 4.0
+        snap_clearance: 0.25
+        snap_hook_projection: 1.2
+        snap_inner_web_height: 1.0
+        snap_ledge_land: 0.5
+        snap_profile: &id004
+          bed_height: 180.0
+          bed_margin: 2.0
+          bed_width: 180.0
+          catch_end_clearance: 0.2
+          connection_intent: mainly_permanent
+          connector_clearance: 0.25
+          connector_design: snap_recessed_twin
+          connector_view: print_layout
+          coupon_height: 14.0
+          coupon_width: 15.0
+          guide_depth: 3.0
+          guide_half_width: 1.4
+          heavy_latch_trial: true
+          hook_projection: 1.2
+          hook_ramp_length: 1.5
+          key_arm_thickness: 0.8
+          key_half_width: 1.4
+          key_head_x: -5.7
+          key_height: 4.0
+          key_root_radius: 0.4
+          key_shoulder_x: 2.7
+          key_tongue_half_width: 2.5
+          latch_thickness_trial: true
+          number_depth: 0.6
+          number_rail_z: 24.0
+          number_size: 4.0
+          part_role: connector_test
+          plate_thickness: 7.5
+          rail_height: 10.0
+          rail_width: 11.0
+          recessed_shoulder_depth: 6.0
+          root_radius: 1.1
+          sample_number: 28
+          single_arm_thickness: 1.6
+          single_root_distance: 8.0
+          snap_arm_height: 10.0
+          snap_arm_outer: 3.4
+          test_material: PETG
+          test_rail_length: 32.0
+          twin_arm_thickness: 1.8
+          twin_root_distance: 0.5
+        snap_root_relief_width: 0.6
+        snap_tip_floor: 6.0
+        stop_edge_chamfer: 0.75
+        stop_thickness: 6.0
+        style: ai_version_6
+        target_height: 220.3
+        target_width: 197.8
+        taxonomy_1: oobb
+        taxonomy_2: organization
+        taxonomy_3: storage
+        taxonomy_4: drawer_unit
+        taxonomy_5: 2_column
+        taxonomy_6: 7_row
+        taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+        taxonomy_8: ai_version_6_style
+        taxonomy_9: double_sided_plywood_250_max
+        test_material: PETG
+        thickness_wall: 1.8
+        tile_ear_diameter: 12.0
+        tile_ear_gap: 0.5
+        tile_ear_height: 0.3
+        tile_ear_link_height: 0.2
+        tile_ear_link_width: 2.0
+        tile_lap_x: 11.0
+        tile_lap_y: 9.0
+        tile_layer_clearance: 0.0
+        tile_seam_clearance: 0.15
+        variant: double_sided_plywood_250_max
+      opening_height_extra: 1.0
+      opening_radius: 4.0
+      outer_mount_offset: 0.9
+      outer_radius: 2.4
+      part_role: frame
+      plate_thickness: 6.0
+      pot_cost_details:
+        availability: On backorder
+        capacity_ml: 100
+        checked_date: '2026-10-18'
+        manufacturer: Systempak
+        pack_price_ex_vat_gbp: 60.95
+        pack_quantity: 500
+        part_number: '209'
+        price_basis: Single carton of 500 pots and lids; lids unused; delivery excluded
+        price_source_url: https://systempak.net/product/100ml-rectangular-tamper-evident-containers-and-lids/
+        unit_price_gbp: 0.14628
+        vat_rate: 0.2
+        weight_g: 8.0
+        weight_source_url: https://systempak.net/wp-content/uploads/2024/03/TDS-209-100ML.pdf
+      pot_quantity: 28
+      price_excludes_delivery: true
+      price_includes_vat: true
+      print_instruction: Print one front and one identical back plate, plus every
+        numbered rail batch once. See assembly.json and printing.txt.
+      print_layout_gap: 8.0
+      printer: P1P
+      product_name: "Printed 2 \xD7 7 \xB7 Systempak 209 \xB7 ai version 6 \xB7 double\
+        \ sided plywood 250 max"
+      rail_edge_gap: 0.25
+      rail_end_band: 14.5
+      rail_height: 10.0
+      rail_layout_gap: 5.0
+      rail_running_height: 4.0
+      rail_taper_run: 7.2
+      rail_width: 11.0
+      rear_band: 6.0
+      rear_lip: true
+      record_type: printed_drawer_unit
+      remove_internal_lower_supports: true
+      roof_slope: 1.0
+      row: 7
+      row_spacing_extra: 1.0
+      runner_width: 10.0
+      running_shelf_thickness: 4.0
+      screw_head_seat_offset: 6.0
+      screw_length: 16.0
+      screw_rail_settings: *id003
+      seam_middle_min_span: 120.0
+      seam_middle_screw: true
+      selected_latch_sample: 37
+      separate_key_sample: 27
+      side_rail_width: 4.0
+      snap_clearance: 0.25
+      snap_hook_projection: 1.2
+      snap_inner_web_height: 1.0
+      snap_ledge_land: 0.5
+      snap_profile: *id004
+      snap_root_relief_width: 0.6
+      snap_tip_floor: 6.0
+      stop_edge_chamfer: 0.75
+      stop_thickness: 6.0
+      style: ai_version_6
+      target_height: 220.3
+      target_width: 197.8
+      taxonomy_1: oobb
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: organization
+      taxonomy_3: storage
+      taxonomy_4: drawer_unit
+      taxonomy_5: 2_column
+      taxonomy_6: 7_row
+      taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+      taxonomy_8: ai_version_6_style
+      taxonomy_9: double_sided_plywood_250_max
+      test_material: PETG
+      thickness_wall: 1.8
+      tile_ear_diameter: 12.0
+      tile_ear_gap: 0.5
+      tile_ear_height: 0.3
+      tile_ear_link_height: 0.2
+      tile_ear_link_width: 2.0
+      tile_lap_x: 11.0
+      tile_lap_y: 9.0
+      tile_layer_clearance: 0.0
+      tile_seam_clearance: 0.15
+      url_chat: ''
+      variant: double_sided_plywood_250_max
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\od\OneDrive\docs\organization_storage_drawer_unit\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_6_style_double_sided_plywood_250_max
+opening_height_extra: 1.0
+opening_radius: 4.0
+outer_mount_offset: 0.9
+outer_radius: 2.4
+part_role: frame
+plate_thickness: 6.0
+pot_cost_details:
+  availability: On backorder
+  capacity_ml: 100
+  checked_date: '2026-10-18'
+  manufacturer: Systempak
+  pack_price_ex_vat_gbp: 60.95
+  pack_quantity: 500
+  part_number: '209'
+  price_basis: Single carton of 500 pots and lids; lids unused; delivery excluded
+  price_source_url: https://systempak.net/product/100ml-rectangular-tamper-evident-containers-and-lids/
+  unit_price_gbp: 0.14628
+  vat_rate: 0.2
+  weight_g: 8.0
+  weight_source_url: https://systempak.net/wp-content/uploads/2024/03/TDS-209-100ML.pdf
+pot_quantity: 28
+price_excludes_delivery: true
+price_includes_vat: true
+print_instruction: Print one front and one identical back plate, plus every numbered
+  rail batch once. See assembly.json and printing.txt.
+print_layout_gap: 8.0
+printer: P1P
+product_name: "Printed 2 \xD7 7 \xB7 Systempak 209 \xB7 ai version 6 \xB7 double sided\
+  \ plywood 250 max"
+project_name: C:\od\OneDrive\docs\organization_storage_drawer_unit
+rail_edge_gap: 0.25
+rail_end_band: 14.5
+rail_height: 10.0
+rail_layout_gap: 5.0
+rail_running_height: 4.0
+rail_taper_run: 7.2
+rail_width: 11.0
+rear_band: 6.0
+rear_lip: true
+record_type: printed_drawer_unit
+remove_internal_lower_supports: true
+roof_slope: 1.0
+row: 7
+row_spacing_extra: 1.0
+runner_width: 10.0
+running_shelf_thickness: 4.0
+scad_filter: ai_version_6
+screw_head_seat_offset: 6.0
+screw_length: 16.0
+screw_rail_settings: *id005
+seam_middle_min_span: 120.0
+seam_middle_screw: true
+selected_latch_sample: 37
+separate_key_sample: 27
+side_rail_width: 4.0
+snap_clearance: 0.25
+snap_hook_projection: 1.2
+snap_inner_web_height: 1.0
+snap_ledge_land: 0.5
+snap_profile: *id006
+snap_root_relief_width: 0.6
+snap_tip_floor: 6.0
+stop_edge_chamfer: 0.75
+stop_thickness: 6.0
+style: ai_version_6
+target_height: 220.3
+target_width: 197.8
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: organization
+taxonomy_2_capital: Organization
+taxonomy_2_first_letter: o
+taxonomy_2_first_letter_upper: O
+taxonomy_2_length_1: o
+taxonomy_2_length_2: or
+taxonomy_2_length_3: org
+taxonomy_2_length_4: orga
+taxonomy_2_length_5: organ
+taxonomy_2_upper: ORGANIZATION
+taxonomy_2_upper_length_1: O
+taxonomy_2_upper_length_2: OR
+taxonomy_2_upper_length_3: ORG
+taxonomy_2_upper_length_4: ORGA
+taxonomy_2_upper_length_5: ORGAN
+taxonomy_3: storage
+taxonomy_3_capital: Storage
+taxonomy_3_first_letter: s
+taxonomy_3_first_letter_upper: S
+taxonomy_3_length_1: s
+taxonomy_3_length_2: st
+taxonomy_3_length_3: sto
+taxonomy_3_length_4: stor
+taxonomy_3_length_5: stora
+taxonomy_3_upper: STORAGE
+taxonomy_3_upper_length_1: S
+taxonomy_3_upper_length_2: ST
+taxonomy_3_upper_length_3: STO
+taxonomy_3_upper_length_4: STOR
+taxonomy_3_upper_length_5: STORA
+taxonomy_4: drawer_unit
+taxonomy_4_capital: Drawer Unit
+taxonomy_4_first_letter: d
+taxonomy_4_first_letter_upper: D
+taxonomy_4_length_1: d
+taxonomy_4_length_2: dr
+taxonomy_4_length_3: dra
+taxonomy_4_length_4: draw
+taxonomy_4_length_5: drawe
+taxonomy_4_upper: DRAWER_UNIT
+taxonomy_4_upper_length_1: D
+taxonomy_4_upper_length_2: DR
+taxonomy_4_upper_length_3: DRA
+taxonomy_4_upper_length_4: DRAW
+taxonomy_4_upper_length_5: DRAWE
+taxonomy_5: 2_column
+taxonomy_5_capital: 2 Column
+taxonomy_5_first_letter: '2'
+taxonomy_5_first_letter_upper: '2'
+taxonomy_5_length_1: '2'
+taxonomy_5_length_2: '2_'
+taxonomy_5_length_3: 2_c
+taxonomy_5_length_4: 2_co
+taxonomy_5_length_5: 2_col
+taxonomy_5_upper: 2_COLUMN
+taxonomy_5_upper_length_1: '2'
+taxonomy_5_upper_length_2: '2_'
+taxonomy_5_upper_length_3: 2_C
+taxonomy_5_upper_length_4: 2_CO
+taxonomy_5_upper_length_5: 2_COL
+taxonomy_6: 7_row
+taxonomy_6_capital: 7 Row
+taxonomy_6_first_letter: '7'
+taxonomy_6_first_letter_upper: '7'
+taxonomy_6_length_1: '7'
+taxonomy_6_length_2: '7_'
+taxonomy_6_length_3: 7_r
+taxonomy_6_length_4: 7_ro
+taxonomy_6_length_5: 7_row
+taxonomy_6_upper: 7_ROW
+taxonomy_6_upper_length_1: '7'
+taxonomy_6_upper_length_2: '7_'
+taxonomy_6_upper_length_3: 7_R
+taxonomy_6_upper_length_4: 7_RO
+taxonomy_6_upper_length_5: 7_ROW
+taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+taxonomy_7_capital: Rectangle 100 Ml Tamper Evident Systempak 209 Container
+taxonomy_7_first_letter: r
+taxonomy_7_first_letter_upper: R
+taxonomy_7_length_1: r
+taxonomy_7_length_2: re
+taxonomy_7_length_3: rec
+taxonomy_7_length_4: rect
+taxonomy_7_length_5: recta
+taxonomy_7_upper: RECTANGLE_100_ML_TAMPER_EVIDENT_SYSTEMPAK_209_CONTAINER
+taxonomy_7_upper_length_1: R
+taxonomy_7_upper_length_2: RE
+taxonomy_7_upper_length_3: REC
+taxonomy_7_upper_length_4: RECT
+taxonomy_7_upper_length_5: RECTA
+taxonomy_8: ai_version_6_style
+taxonomy_8_capital: Ai Version 6 Style
+taxonomy_8_first_letter: a
+taxonomy_8_first_letter_upper: A
+taxonomy_8_length_1: a
+taxonomy_8_length_2: ai
+taxonomy_8_length_3: ai_
+taxonomy_8_length_4: ai_v
+taxonomy_8_length_5: ai_ve
+taxonomy_8_upper: AI_VERSION_6_STYLE
+taxonomy_8_upper_length_1: A
+taxonomy_8_upper_length_2: AI
+taxonomy_8_upper_length_3: AI_
+taxonomy_8_upper_length_4: AI_V
+taxonomy_8_upper_length_5: AI_VE
+taxonomy_9: double_sided_plywood_250_max
+taxonomy_9_capital: Double Sided Plywood 250 Max
+taxonomy_9_first_letter: d
+taxonomy_9_first_letter_upper: D
+taxonomy_9_length_1: d
+taxonomy_9_length_2: do
+taxonomy_9_length_3: dou
+taxonomy_9_length_4: doub
+taxonomy_9_length_5: doubl
+taxonomy_9_upper: DOUBLE_SIDED_PLYWOOD_250_MAX
+taxonomy_9_upper_length_1: D
+taxonomy_9_upper_length_2: DO
+taxonomy_9_upper_length_3: DOU
+taxonomy_9_upper_length_4: DOUB
+taxonomy_9_upper_length_5: DOUBL
+test_material: PETG
+thickness_wall: 1.8
+tile_ear_diameter: 12.0
+tile_ear_gap: 0.5
+tile_ear_height: 0.3
+tile_ear_link_height: 0.2
+tile_ear_link_width: 2.0
+tile_lap_x: 11.0
+tile_lap_y: 9.0
+tile_layer_clearance: 0.0
+tile_seam_clearance: 0.15
+url_chat: ''
+variant: double_sided_plywood_250_max

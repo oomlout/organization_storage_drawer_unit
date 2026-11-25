@@ -1,0 +1,74 @@
+approved_for_oomp: true
+availability: Listed with add-to-cart; stock and delivery lead time unconfirmed
+capacity_is_estimate: false
+capacity_rounding_increment_ml: 25
+cost_per_drawer_gbp: 1.01
+cost_per_kg_basis: manufacturer_net
+cost_per_kg_gbp: 13.56
+depth_mm: 150
+drawer_capacity_basis: nominal_inferred_from_manufacturer_cabinet_capacity_and_same_drawer_family
+drawer_capacity_ml: 250
+drawer_capacity_unrounded_ml: 250
+drawer_sizes:
+- capacity_ml: 250
+  capacity_unrounded_ml: 250
+  count: 45
+  depth_mm: 135
+  dimension_basis: internal
+  drawer_model: 150-00
+  height_mm: 35
+  rectangular_volume_ml: 236.25
+  width_mm: 50
+for_sale_url: https://www.raacostorage.co.uk/PBSCProduct.asp?ExitMobile=1&ItmID=14054930
+height_mm: 417
+image_checked_date: '2026-10-18'
+image_source_url: https://www.raacostorage.co.uk/PBSCProduct.asp?ExitMobile=1&ItmID=14054930
+image_static_path: drawer_photos/04.png
+image_url: https://www.raacostorage.co.uk/Files/104169/Img/21/137454-cabinet-l-big.jpg
+manufacturer: raaco
+manufacturer_identity_basis: manufacturer
+manufacturer_stock_code: '137454'
+model_number: 945-00
+number_of_drawers: 45
+part_number: '137454'
+part_number_basis: manufacturer_part_number
+price_excludes_delivery: true
+price_gbp: 45.3
+price_includes_vat: true
+price_source_url: https://www.raacostorage.co.uk/raaco-150-range-900-series-small-parts-storage-cabinets-c102x2279493
+product_name: Raaco 945-00 45 drawer cabinet
+proposal_number: 4
+proposal_revision: 2
+published_cabinet_capacity_ml: 11300
+published_price_ex_vat_gbp: 37.75
+record_type: purchased_drawer_unit
+research_date: '2026-10-18'
+research_notes: Capacity is nominal per drawer inferred from manufacturer cabinet
+  litres and identical drawer type, not the internal bounding-box calculation. Manufacturer
+  net mass is used; seller weight may include packaging. The sheet rounds cabinet
+  capacity to 11.30 litres; use 250 ml nominal for the shared 150-00 drawer, corroborated
+  by 630-00 and 1260-00.
+seller: RaacoStorage / Shelving Plus Ltd
+shipping_weight_kg: 4.187
+specification_urls:
+- https://www.farnell.com/datasheets/2266949.pdf
+taxonomy_1: organization
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: raaco
+taxonomy_15: '137454'
+taxonomy_2: storage
+taxonomy_3: drawer_unit
+taxonomy_4: small_drawers
+taxonomy_5: 250_ml_capacity
+taxonomy_6: 45_drawers
+taxonomy_7: 306_mm_width
+taxonomy_8: 417_mm_height
+taxonomy_9: 150_mm_depth
+uniform_drawer_size: true
+unit_dimensions_basis: external
+weight_basis: manufacturer_net
+weight_kg: 3.34
+width_mm: 306

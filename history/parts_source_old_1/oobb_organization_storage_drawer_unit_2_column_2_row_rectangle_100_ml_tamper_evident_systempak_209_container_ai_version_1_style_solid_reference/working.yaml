@@ -1,0 +1,141 @@
+adhesion_ears: true
+assembly_component: false
+availability: Print yourself; pots on backorder at research date
+bed_height: 400.0
+bed_margin: 2.0
+bed_width: 400.0
+catch_tab_depth: 1.5
+catch_tab_height: 6.0
+catch_tab_ramp_depth: 6.0
+catch_tab_width: 56.0
+column: 2
+comparison_image: comparison.png
+comparison_measurement_status: Run action_prepare_drawer_comparison.py to refresh
+  CAD measurements
+comparison_sample: false
+container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+container_clearance: 1.5
+container_short: rectangle_100_ml_tamper_evident_systempak_209
+depth_clearance: 1.5
+depth_lip: 12.0
+drawer_border_edge: 2.4
+drawer_capacity_basis: manufacturer_nominal
+drawer_capacity_ml: 100
+drawer_count: 4
+ear_diameter: 20.0
+ear_gap: 0.5
+ear_height: 0.6
+ear_link_height: 0.3
+ear_link_width: 5.0
+filament_density_g_per_cm3: 1.24
+filament_gbp_per_gram: 0.01
+filament_mass_basis: Solid CAD volume × assumed PLA density; includes adhesion ears;
+  excludes purge/supports
+front_band: 7.5
+hardware_cost_basis: No assembly hardware
+inset_lip: 5.5
+lightening: false
+lip_cutout_radius: 1.0
+lip_shelf_thickness: 3.0
+lip_support_reference_height: 26.0
+manufacturer: oomlout
+middle_rib_width: 0.0
+module_gap: 0.4
+oobb_details:
+  adhesion_ears: true
+  bed_height: 400.0
+  bed_margin: 2.0
+  bed_width: 400.0
+  catch_tab_depth: 1.5
+  catch_tab_height: 6.0
+  catch_tab_ramp_depth: 6.0
+  catch_tab_width: 56.0
+  column: 2
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_clearance: 1.5
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  depth_clearance: 1.5
+  depth_lip: 12.0
+  drawer_border_edge: 2.4
+  ear_diameter: 20.0
+  ear_gap: 0.5
+  ear_height: 0.6
+  ear_link_height: 0.3
+  ear_link_width: 5.0
+  front_band: 7.5
+  inset_lip: 5.5
+  lightening: false
+  lip_cutout_radius: 1.0
+  lip_shelf_thickness: 3.0
+  lip_support_reference_height: 26.0
+  middle_rib_width: 0.0
+  module_gap: 0.4
+  oobb_name: ai_version_1
+  opening_height_extra: 0.0
+  opening_radius: 4.0
+  outer_radius: 2.4
+  part_role: frame
+  rear_band: 6.0
+  roof_slope: 1.0
+  row: 2
+  runner_width: 10.0
+  side_rail_width: 5.0
+  style: ai_version_1
+  taxonomy_1: oobb
+  taxonomy_2: organization
+  taxonomy_3: storage
+  taxonomy_4: drawer_unit
+  taxonomy_5: 2_column
+  taxonomy_6: 2_row
+  taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+  taxonomy_8: ai_version_1_style
+  taxonomy_9: solid_reference
+  thickness_wall: 1.8
+  variant: solid_reference
+opening_height_extra: 0.0
+opening_radius: 4.0
+outer_radius: 2.4
+part_role: frame
+pot_cost_details:
+  availability: On backorder
+  capacity_ml: 100
+  checked_date: '2026-10-18'
+  manufacturer: Systempak
+  pack_price_ex_vat_gbp: 60.95
+  pack_quantity: 500
+  part_number: '209'
+  price_basis: Single carton of 500 pots and lids; lids unused; delivery excluded
+  price_source_url: https://systempak.net/product/100ml-rectangular-tamper-evident-containers-and-lids/
+  unit_price_gbp: 0.14628
+  vat_rate: 0.2
+  weight_g: 8.0
+  weight_source_url: https://systempak.net/wp-content/uploads/2024/03/TDS-209-100ML.pdf
+pot_quantity: 4
+price_excludes_delivery: true
+price_includes_vat: true
+print_instruction: ''
+product_name: Printed 2 × 2 · Systempak 209 · ai version 1 · solid reference
+rear_band: 6.0
+record_type: printed_drawer_unit
+roof_slope: 1.0
+row: 2
+runner_width: 10.0
+side_rail_width: 5.0
+style: ai_version_1
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: organization
+taxonomy_3: storage
+taxonomy_4: drawer_unit
+taxonomy_5: 2_column
+taxonomy_6: 2_row
+taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+taxonomy_8: ai_version_1_style
+taxonomy_9: solid_reference
+thickness_wall: 1.8
+variant: solid_reference

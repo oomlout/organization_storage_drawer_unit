@@ -1,0 +1,72 @@
+approved_for_oomp: true
+availability: Listed in stock
+capacity_is_estimate: false
+capacity_rounding_increment_ml: 25
+cost_per_drawer_gbp: 2.78
+cost_per_kg_basis: net_unknown
+cost_per_kg_gbp: null
+depth_mm: 180
+drawer_capacity_basis: manufacturer_nominal
+drawer_capacity_ml: 300
+drawer_capacity_unrounded_ml: 300
+drawer_sizes:
+- capacity_ml: 300
+  capacity_unrounded_ml: 300
+  count: 24
+  depth_mm: 146
+  dimension_basis: internal
+  drawer_model: L-01
+  height_mm: 32
+  rectangular_volume_ml: 284.992
+  width_mm: 61
+for_sale_url: https://uk.rs-online.com/web/p/drawer-storage/2675611
+height_mm: 290
+image_checked_date: '2026-10-18'
+image_source_url: https://uk.rs-online.com/web/p/drawer-storage/2675611
+image_static_path: drawer_photos/11.png
+image_url: https://media.rs-online.com/t_large/Y2675611-01.jpg
+manufacturer: treston
+manufacturer_identity_basis: manufacturer
+manufacturer_stock_code: null
+number_of_drawers: 24
+part_number: 291-3
+part_number_basis: manufacturer_model_number
+price_excludes_delivery: true
+price_gbp: 66.74
+price_includes_vat: true
+price_source_url: https://uk.rs-online.com/web/p/drawer-storage/2675611
+product_name: Treston 291-3 24 drawer cabinet
+proposal_number: 11
+proposal_revision: 2
+published_cabinet_capacity_ml: null
+published_price_ex_vat_gbp: 55.62
+record_type: purchased_drawer_unit
+research_date: '2026-10-18'
+research_notes: Net product mass unverified; do not use packaged mass for net cost/kg.
+  Drawer capacity is manufacturer nominal; internal rectangular volume is stored separately.
+seller: RS
+shipping_weight_kg: 3.1
+specification_urls:
+- https://docs.rs-online.com/9ec5/A700000009803356.pdf
+- https://www.toolteam.com/cs-CZ/downloads/dl/file/id/19836/Treston_storage_systems_catalog_workstation_equipment.pdf
+- https://static.rapidonline.com/pdf/14-0160e.pdf
+taxonomy_1: organization
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: treston
+taxonomy_15: '291_3'
+taxonomy_2: storage
+taxonomy_3: drawer_unit
+taxonomy_4: small_drawers
+taxonomy_5: 300_ml_capacity
+taxonomy_6: 24_drawers
+taxonomy_7: 310_mm_width
+taxonomy_8: 290_mm_height
+taxonomy_9: 180_mm_depth
+uniform_drawer_size: true
+unit_dimensions_basis: external
+weight_basis: net_unknown
+weight_kg: null
+width_mm: 310
