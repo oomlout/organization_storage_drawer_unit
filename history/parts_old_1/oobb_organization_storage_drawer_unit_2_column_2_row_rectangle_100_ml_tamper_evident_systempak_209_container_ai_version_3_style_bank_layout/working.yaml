@@ -1,0 +1,572 @@
+adhesion_ears: true
+assembly_component: false
+assembly_half: print_layout
+availability: Print yourself; pots on backorder at research date
+bed_height: 400.0
+bed_margin: 2.0
+bed_width: 400.0
+bip_39_2_word_array:
+- puzzle
+- rocket
+bip_39_2_word_no_space: puzzlerocket
+bip_39_2_word_space: puzzle rocket
+bip_39_2_word_underscore: puzzle_rocket
+bip_39_3_word_array:
+- puzzle
+- rocket
+- gospel
+bip_39_3_word_no_space: puzzlerocketgospel
+bip_39_3_word_space: puzzle rocket gospel
+bip_39_3_word_underscore: puzzle_rocket_gospel
+bip_39_full_array:
+- puzzle
+- rocket
+- gospel
+- flag
+- enemy
+- total
+- punch
+- end
+- letter
+- poverty
+- lady
+- exit
+bip_39_full_no_space: puzzlerocketgospelflagenemytotalpunchendletterpovertyladyexit
+bip_39_full_space: puzzle rocket gospel flag enemy total punch end letter poverty
+    lady exit
+bip_39_full_underscore: puzzle_rocket_gospel_flag_enemy_total_punch_end_letter_poverty_lady_exit
+catch_tab_depth: 1.5
+catch_tab_height: 6.0
+catch_tab_ramp_depth: 6.0
+catch_tab_width: 56.0
+column: 2
+comparison_image: comparison.png
+comparison_measurement_status: Run action_prepare_drawer_comparison.py to refresh
+    CAD measurements
+comparison_sample: true
+container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+container_clearance: 1.5
+container_short: rectangle_100_ml_tamper_evident_systempak_209
+corner_interlock_diameter: 2.8
+corner_interlock_min_wall: 0.6
+depth_clearance: 1.5
+depth_lip: 12.0
+directory: parts/oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_bank_layout
+drawer_border_edge: 5.5
+drawer_capacity_basis: manufacturer_nominal
+drawer_capacity_ml: 100
+drawer_count: 8
+ear_diameter: 16.0
+ear_gap: 0.5
+ear_height: 0.6
+ear_link_height: 0.3
+ear_link_width: 5.0
+filament_density_g_per_cm3: 1.24
+filament_gbp_per_gram: 0.01
+filament_mass_basis: "Solid CAD volume \xD7 assumed PLA density; includes adhesion\
+    \ ears; excludes purge/supports"
+front_band: 7.5
+hardware_axis_height: 5.0
+hardware_boss_band: 12.0
+hardware_boss_slope: 1.2
+hardware_cost_basis: No assembly hardware
+hardware_min_wall: 1.2
+id: oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_bank_layout
+id_no_class: oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_bank_layout
+id_no_size: oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_bank_layout
+id_no_type: oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_bank_layout
+inset_lip: 5.5
+interlock_clearance: 0.25
+interlock_depth: 3.0
+interlock_end_clearance: 0.2
+interlock_height: 7.0
+interlock_width: 8.0
+lightening: true
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_bank_layout
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_bank_layout
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_bank_layout
+lip_cutout_radius: 1.0
+lip_shelf_thickness: 10.0
+lip_support_reference_height: 26.0
+manufacturer: oomlout
+md5: aef76d932c149fcbab724c809521f227
+md5_10: aef76d932c
+md5_10_upper: AEF76D932C
+md5_5: aef76
+md5_5_upper: AEF76
+md5_6: aef76d
+md5_6_alpha: 6trot
+md5_6_alpha_upper: 6TROT
+md5_6_upper: AEF76D
+middle_rib_width: 0.0
+module_gap: 0.4
+name: Oobb Organization Storage Drawer Unit 2 Column 2 Row Rectangle 100 Ml Tamper
+    Evident Systempak 209 Container Ai Version 3 Style Bank Layout
+name_no_class: Oobb Organization Storage Drawer Unit 2 Column 2 Row Rectangle 100
+    Ml Tamper Evident Systempak 209 Container Ai Version 3 Style Bank Layout
+name_no_size: Oobb Organization Storage Drawer Unit 2 Column 2 Row Rectangle 100 Ml
+    Tamper Evident Systempak 209 Container Ai Version 3 Style Bank Layout
+name_no_type: Oobb Organization Storage Drawer Unit 2 Column 2 Row Rectangle 100 Ml
+    Tamper Evident Systempak 209 Container Ai Version 3 Style Bank Layout
+name_proper: Oobb Organization Storage Drawer Unit 2 Column 2 Row Rectangle 100 Ml
+    Tamper Evident Systempak 209 Container Ai Version 3 Style Bank Layout
+name_space: oobb organization storage drawer unit 2 column 2 row rectangle 100 ml
+    tamper evident systempak 209 container ai version 3 style bank layout
+name_upper: OOBB ORGANIZATION STORAGE DRAWER UNIT 2 COLUMN 2 ROW RECTANGLE 100 ML
+    TAMPER EVIDENT SYSTEMPAK 209 CONTAINER AI VERSION 3 STYLE BANK LAYOUT
+oobb_details:
+    adhesion_ears: true
+    assembly_half: print_layout
+    bed_height: 400.0
+    bed_margin: 2.0
+    bed_width: 400.0
+    catch_tab_depth: 1.5
+    catch_tab_height: 6.0
+    catch_tab_ramp_depth: 6.0
+    catch_tab_width: 56.0
+    column: 2
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_clearance: 1.5
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    corner_interlock_diameter: 2.8
+    corner_interlock_min_wall: 0.6
+    depth_clearance: 1.5
+    depth_lip: 12.0
+    drawer_border_edge: 5.5
+    ear_diameter: 16.0
+    ear_gap: 0.5
+    ear_height: 0.6
+    ear_link_height: 0.3
+    ear_link_width: 5.0
+    front_band: 7.5
+    hardware_axis_height: 5.0
+    hardware_boss_band: 12.0
+    hardware_boss_slope: 1.2
+    hardware_min_wall: 1.2
+    inset_lip: 5.5
+    interlock_clearance: 0.25
+    interlock_depth: 3.0
+    interlock_end_clearance: 0.2
+    interlock_height: 7.0
+    interlock_width: 8.0
+    lightening: true
+    lip_cutout_radius: 1.0
+    lip_shelf_thickness: 10.0
+    lip_support_reference_height: 26.0
+    middle_rib_width: 0.0
+    module_gap: 0.4
+    oobb_name: ai_version_3
+    opening_height_extra: 0.0
+    opening_radius: 4.0
+    outer_radius: 2.4
+    part_role: bank_layout
+    print_layout_gap: 8.0
+    rear_band: 6.0
+    remove_internal_lower_supports: true
+    roof_slope: 1.0
+    row: 2
+    runner_width: 10.0
+    running_shelf_thickness: 4.0
+    screw_head_seat_offset: 6.0
+    screw_length: 16.0
+    side_rail_width: 4.0
+    style: ai_version_3
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 2_column
+    taxonomy_6: 2_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: ai_version_3_style
+    taxonomy_9: bank_layout
+    test_depth: 7.5
+    thickness_wall: 1.8
+    variant: bank_layout
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            adhesion_ears: true
+            assembly_component: false
+            assembly_half: print_layout
+            availability: Print yourself; pots on backorder at research date
+            bed_height: 400.0
+            bed_margin: 2.0
+            bed_width: 400.0
+            catch_tab_depth: 1.5
+            catch_tab_height: 6.0
+            catch_tab_ramp_depth: 6.0
+            catch_tab_width: 56.0
+            column: 2
+            comparison_image: comparison.png
+            comparison_measurement_status: Run action_prepare_drawer_comparison.py
+                to refresh CAD measurements
+            comparison_sample: true
+            container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+            container_clearance: 1.5
+            container_short: rectangle_100_ml_tamper_evident_systempak_209
+            corner_interlock_diameter: 2.8
+            corner_interlock_min_wall: 0.6
+            depth_clearance: 1.5
+            depth_lip: 12.0
+            directory: parts\oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_bank_layout
+            drawer_border_edge: 5.5
+            drawer_capacity_basis: manufacturer_nominal
+            drawer_capacity_ml: 100
+            drawer_count: 8
+            ear_diameter: 16.0
+            ear_gap: 0.5
+            ear_height: 0.6
+            ear_link_height: 0.3
+            ear_link_width: 5.0
+            filament_density_g_per_cm3: 1.24
+            filament_gbp_per_gram: 0.01
+            filament_mass_basis: "Solid CAD volume \xD7 assumed PLA density; includes\
+                \ adhesion ears; excludes purge/supports"
+            front_band: 7.5
+            hardware_axis_height: 5.0
+            hardware_boss_band: 12.0
+            hardware_boss_slope: 1.2
+            hardware_cost_basis: No assembly hardware
+            hardware_min_wall: 1.2
+            inset_lip: 5.5
+            interlock_clearance: 0.25
+            interlock_depth: 3.0
+            interlock_end_clearance: 0.2
+            interlock_height: 7.0
+            interlock_width: 8.0
+            lightening: true
+            lip_cutout_radius: 1.0
+            lip_shelf_thickness: 10.0
+            lip_support_reference_height: 26.0
+            manufacturer: oomlout
+            middle_rib_width: 0.0
+            module_gap: 0.4
+            name: oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_bank_layout
+            name_proper: Oobb Organization Storage Drawer Unit 2 Column 2 Row Rectangle
+                100 Ml Tamper Evident Systempak 209 Container Ai Version 3 Style Bank
+                Layout
+            name_space: oobb organization storage drawer unit 2 column 2 row rectangle
+                100 ml tamper evident systempak 209 container ai version 3 style bank
+                layout
+            name_upper: OOBB ORGANIZATION STORAGE DRAWER UNIT 2 COLUMN 2 ROW RECTANGLE
+                100 ML TAMPER EVIDENT SYSTEMPAK 209 CONTAINER AI VERSION 3 STYLE BANK
+                LAYOUT
+            oobb_details:
+                adhesion_ears: true
+                assembly_half: print_layout
+                bed_height: 400.0
+                bed_margin: 2.0
+                bed_width: 400.0
+                catch_tab_depth: 1.5
+                catch_tab_height: 6.0
+                catch_tab_ramp_depth: 6.0
+                catch_tab_width: 56.0
+                column: 2
+                container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+                container_clearance: 1.5
+                container_short: rectangle_100_ml_tamper_evident_systempak_209
+                corner_interlock_diameter: 2.8
+                corner_interlock_min_wall: 0.6
+                depth_clearance: 1.5
+                depth_lip: 12.0
+                drawer_border_edge: 5.5
+                ear_diameter: 16.0
+                ear_gap: 0.5
+                ear_height: 0.6
+                ear_link_height: 0.3
+                ear_link_width: 5.0
+                front_band: 7.5
+                hardware_axis_height: 5.0
+                hardware_boss_band: 12.0
+                hardware_boss_slope: 1.2
+                hardware_min_wall: 1.2
+                inset_lip: 5.5
+                interlock_clearance: 0.25
+                interlock_depth: 3.0
+                interlock_end_clearance: 0.2
+                interlock_height: 7.0
+                interlock_width: 8.0
+                lightening: true
+                lip_cutout_radius: 1.0
+                lip_shelf_thickness: 10.0
+                lip_support_reference_height: 26.0
+                middle_rib_width: 0.0
+                module_gap: 0.4
+                oobb_name: ai_version_3
+                opening_height_extra: 0.0
+                opening_radius: 4.0
+                outer_radius: 2.4
+                part_role: bank_layout
+                print_layout_gap: 8.0
+                rear_band: 6.0
+                remove_internal_lower_supports: true
+                roof_slope: 1.0
+                row: 2
+                runner_width: 10.0
+                running_shelf_thickness: 4.0
+                screw_head_seat_offset: 6.0
+                screw_length: 16.0
+                side_rail_width: 4.0
+                style: ai_version_3
+                taxonomy_1: oobb
+                taxonomy_2: organization
+                taxonomy_3: storage
+                taxonomy_4: drawer_unit
+                taxonomy_5: 2_column
+                taxonomy_6: 2_row
+                taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+                taxonomy_8: ai_version_3_style
+                taxonomy_9: bank_layout
+                test_depth: 7.5
+                thickness_wall: 1.8
+                variant: bank_layout
+            opening_height_extra: 0.0
+            opening_radius: 4.0
+            outer_radius: 2.4
+            part_role: bank_layout
+            pot_cost_details:
+                availability: On backorder
+                capacity_ml: 100
+                checked_date: '2026-10-18'
+                manufacturer: Systempak
+                pack_price_ex_vat_gbp: 60.95
+                pack_quantity: 500
+                part_number: '209'
+                price_basis: Single carton of 500 pots and lids; lids unused; delivery
+                    excluded
+                price_source_url: https://systempak.net/product/100ml-rectangular-tamper-evident-containers-and-lids/
+                unit_price_gbp: 0.14628
+                vat_rate: 0.2
+                weight_g: 8.0
+                weight_source_url: https://systempak.net/wp-content/uploads/2024/03/TDS-209-100ML.pdf
+            pot_quantity: 8
+            price_excludes_delivery: true
+            price_includes_vat: true
+            print_instruction: ''
+            print_layout_gap: 8.0
+            product_name: "Printed 2 \xD7 2 \xB7 Systempak 209 \xB7 ai version 3 \xB7\
+                \ bank layout"
+            rear_band: 6.0
+            record_type: printed_drawer_unit
+            remove_internal_lower_supports: true
+            roof_slope: 1.0
+            row: 2
+            runner_width: 10.0
+            running_shelf_thickness: 4.0
+            screw_head_seat_offset: 6.0
+            screw_length: 16.0
+            side_rail_width: 4.0
+            style: ai_version_3
+            taxonomy_1: oobb
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: organization
+            taxonomy_3: storage
+            taxonomy_4: drawer_unit
+            taxonomy_5: 2_column
+            taxonomy_6: 2_row
+            taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+            taxonomy_8: ai_version_3_style
+            taxonomy_9: bank_layout
+            test_depth: 7.5
+            thickness_wall: 1.8
+            url_chat: ''
+            variant: bank_layout
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\od\OneDrive\docs\organization_storage_drawer_unit\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomp_key: oomp_oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_bank_layout
+opening_height_extra: 0.0
+opening_radius: 4.0
+outer_radius: 2.4
+part_role: bank_layout
+pot_cost_details:
+    availability: On backorder
+    capacity_ml: 100
+    checked_date: '2026-10-18'
+    manufacturer: Systempak
+    pack_price_ex_vat_gbp: 60.95
+    pack_quantity: 500
+    part_number: '209'
+    price_basis: Single carton of 500 pots and lids; lids unused; delivery excluded
+    price_source_url: https://systempak.net/product/100ml-rectangular-tamper-evident-containers-and-lids/
+    unit_price_gbp: 0.14628
+    vat_rate: 0.2
+    weight_g: 8.0
+    weight_source_url: https://systempak.net/wp-content/uploads/2024/03/TDS-209-100ML.pdf
+pot_quantity: 8
+price_excludes_delivery: true
+price_includes_vat: true
+print_instruction: ''
+print_layout_gap: 8.0
+product_name: "Printed 2 \xD7 2 \xB7 Systempak 209 \xB7 ai version 3 \xB7 bank layout"
+rear_band: 6.0
+record_type: printed_drawer_unit
+remove_internal_lower_supports: true
+roof_slope: 1.0
+row: 2
+runner_width: 10.0
+running_shelf_thickness: 4.0
+scad_filter: ai_version_7
+scad_navigation: false
+screw_head_seat_offset: 6.0
+screw_length: 16.0
+side_rail_width: 4.0
+style: ai_version_3
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: organization
+taxonomy_2_capital: Organization
+taxonomy_2_first_letter: o
+taxonomy_2_first_letter_upper: O
+taxonomy_2_length_1: o
+taxonomy_2_length_2: or
+taxonomy_2_length_3: org
+taxonomy_2_length_4: orga
+taxonomy_2_length_5: organ
+taxonomy_2_upper: ORGANIZATION
+taxonomy_2_upper_length_1: O
+taxonomy_2_upper_length_2: OR
+taxonomy_2_upper_length_3: ORG
+taxonomy_2_upper_length_4: ORGA
+taxonomy_2_upper_length_5: ORGAN
+taxonomy_3: storage
+taxonomy_3_capital: Storage
+taxonomy_3_first_letter: s
+taxonomy_3_first_letter_upper: S
+taxonomy_3_length_1: s
+taxonomy_3_length_2: st
+taxonomy_3_length_3: sto
+taxonomy_3_length_4: stor
+taxonomy_3_length_5: stora
+taxonomy_3_upper: STORAGE
+taxonomy_3_upper_length_1: S
+taxonomy_3_upper_length_2: ST
+taxonomy_3_upper_length_3: STO
+taxonomy_3_upper_length_4: STOR
+taxonomy_3_upper_length_5: STORA
+taxonomy_4: drawer_unit
+taxonomy_4_capital: Drawer Unit
+taxonomy_4_first_letter: d
+taxonomy_4_first_letter_upper: D
+taxonomy_4_length_1: d
+taxonomy_4_length_2: dr
+taxonomy_4_length_3: dra
+taxonomy_4_length_4: draw
+taxonomy_4_length_5: drawe
+taxonomy_4_upper: DRAWER_UNIT
+taxonomy_4_upper_length_1: D
+taxonomy_4_upper_length_2: DR
+taxonomy_4_upper_length_3: DRA
+taxonomy_4_upper_length_4: DRAW
+taxonomy_4_upper_length_5: DRAWE
+taxonomy_5: 2_column
+taxonomy_5_capital: 2 Column
+taxonomy_5_first_letter: '2'
+taxonomy_5_first_letter_upper: '2'
+taxonomy_5_length_1: '2'
+taxonomy_5_length_2: '2_'
+taxonomy_5_length_3: 2_c
+taxonomy_5_length_4: 2_co
+taxonomy_5_length_5: 2_col
+taxonomy_5_upper: 2_COLUMN
+taxonomy_5_upper_length_1: '2'
+taxonomy_5_upper_length_2: '2_'
+taxonomy_5_upper_length_3: 2_C
+taxonomy_5_upper_length_4: 2_CO
+taxonomy_5_upper_length_5: 2_COL
+taxonomy_6: 2_row
+taxonomy_6_capital: 2 Row
+taxonomy_6_first_letter: '2'
+taxonomy_6_first_letter_upper: '2'
+taxonomy_6_length_1: '2'
+taxonomy_6_length_2: '2_'
+taxonomy_6_length_3: 2_r
+taxonomy_6_length_4: 2_ro
+taxonomy_6_length_5: 2_row
+taxonomy_6_upper: 2_ROW
+taxonomy_6_upper_length_1: '2'
+taxonomy_6_upper_length_2: '2_'
+taxonomy_6_upper_length_3: 2_R
+taxonomy_6_upper_length_4: 2_RO
+taxonomy_6_upper_length_5: 2_ROW
+taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+taxonomy_7_capital: Rectangle 100 Ml Tamper Evident Systempak 209 Container
+taxonomy_7_first_letter: r
+taxonomy_7_first_letter_upper: R
+taxonomy_7_length_1: r
+taxonomy_7_length_2: re
+taxonomy_7_length_3: rec
+taxonomy_7_length_4: rect
+taxonomy_7_length_5: recta
+taxonomy_7_upper: RECTANGLE_100_ML_TAMPER_EVIDENT_SYSTEMPAK_209_CONTAINER
+taxonomy_7_upper_length_1: R
+taxonomy_7_upper_length_2: RE
+taxonomy_7_upper_length_3: REC
+taxonomy_7_upper_length_4: RECT
+taxonomy_7_upper_length_5: RECTA
+taxonomy_8: ai_version_3_style
+taxonomy_8_capital: Ai Version 3 Style
+taxonomy_8_first_letter: a
+taxonomy_8_first_letter_upper: A
+taxonomy_8_length_1: a
+taxonomy_8_length_2: ai
+taxonomy_8_length_3: ai_
+taxonomy_8_length_4: ai_v
+taxonomy_8_length_5: ai_ve
+taxonomy_8_upper: AI_VERSION_3_STYLE
+taxonomy_8_upper_length_1: A
+taxonomy_8_upper_length_2: AI
+taxonomy_8_upper_length_3: AI_
+taxonomy_8_upper_length_4: AI_V
+taxonomy_8_upper_length_5: AI_VE
+taxonomy_9: bank_layout
+taxonomy_9_capital: Bank Layout
+taxonomy_9_first_letter: b
+taxonomy_9_first_letter_upper: B
+taxonomy_9_length_1: b
+taxonomy_9_length_2: ba
+taxonomy_9_length_3: ban
+taxonomy_9_length_4: bank
+taxonomy_9_length_5: bank_
+taxonomy_9_upper: BANK_LAYOUT
+taxonomy_9_upper_length_1: B
+taxonomy_9_upper_length_2: BA
+taxonomy_9_upper_length_3: BAN
+taxonomy_9_upper_length_4: BANK
+taxonomy_9_upper_length_5: BANK_
+test_depth: 7.5
+thickness_wall: 1.8
+url_chat: ''
+variant: bank_layout

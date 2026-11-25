@@ -1,0 +1,38 @@
+V5 TILED PETG DEMO - dimensions in mm. Finished size excludes removable ears.
+Print ONE of EACH front_tile_*.stl and back_tile_*.stl, and ONE of EACH rails_plate_*.stl.
+3dpr.stl is a complete kit overview on Z=0, too large for one bed.
+front.stl, back.stl and assembled.stl are assembled REFERENCES; do not print them whole.
+Individual screw_rail / snap_rail and bottom variants are spare parts, not extra kit quantities.
+Tiles alternate outside/inside face down; each STL already has its wider lap face on the bed.
+Rear has NO forward catch lip. Rails lie on their long face.
+Keep generated XY orientation. Bed origin in CAD is the P1P bed CENTRE.
+Bed: 256.0 x 256.0; excluded corner: 18.0 x 28.0; margin: 2.0.
+Files are intentionally offset toward the right/top. Disable automatic centering/rotation
+or verify placement against the bed mask.
+bed_layout.csv gives object-centre X/Y from the bed left/front if the slicer recentres imports.
+Do not add a brim outside the supplied 12.0 mm ears without rechecking the bed exclusion.
+Remove the ears at their 0.2 mm necks before assembling the tile laps.
+Panels are 6.0 mm thick. Each tile has all 3.0 mm laps on the SAME face; adjacent tiles use the opposite face.
+Four-way crossing notches prevent diagonal laps from colliding.
+Seam ends and long-edge middles use screws; remaining joins use snaps. Load M3 nuts sideways first.
+Screw rails have flat bearing seats; tile laps and snap mounts provide alignment.
+Use M3 x 16 countersunk screws from the outside; check head seating before tightening PETG.
+Snap undersides and receiver floors have matching 45-degree bevels, retaining the vertical plate web.
+Main snap: sample 28, 1.8 mm arms, 0.25 mm side clearance, 0.2 mm axial clearance.
+Tab tips are 4 mm high; outside openings 4.5 mm high. Height increases toward the rail root.
+Both snap ends remain recessed; the flex slots extend 2.0 mm into the beam to retain bending length.
+Two 0.6 mm rounded-ended outer slots keep the spring arms 1.8 mm thick; rigid 1.5 mm edges carry the seat.
+The front stop projects 6 mm into the opening and is 6.0 mm thick, with small 45-degree edge chamfers.
+The 100 ml openings are 28.5 mm high, 1 mm taller than the previous version.
+Row pitch is 31.3 mm; clear vertical separation between openings is 2.8 mm.
+Rear attachments: 22 mirrored M6 through-holes with 1.5 mm-deep hex seats on the INSIDE face.
+Back-to-back outer faces touch directly. Use an M6 hex-head screw on one side and a nut on the other.
+The shallow seats retain the hex hardware; they do not bury the full nut/head. Hardware projects inward.
+There is 9.0 mm between the two recessed bearing faces; allow for your nut thickness and thread engagement.
+OOBB bridge relief remains beside the M6 bore. Inspect these shallow seats in the slicer.
+Build the front tile grid loosely, fit rails, then progressively fit rear tiles and tighten.
+The lap footprints are nested in the supplied poses: no raised lap cantilevers remain.
+Snap pockets retain a 0.5 mm catch land with the rest of the roof at 45 degrees.
+Inspect these small ledges and screw/nut bridges in the slicer.
+Keep supports OUT of tab spring slots. The connector force/retention is not load-tested.
+Trial a seam and snap rail before committing to the full cabinet. See AI_VERSION_5_TILED.md.

@@ -1,0 +1,385 @@
+approved_for_oomp: true
+availability: In stock
+bip_39_2_word_array:
+- number
+- bomb
+bip_39_2_word_no_space: numberbomb
+bip_39_2_word_space: number bomb
+bip_39_2_word_underscore: number_bomb
+bip_39_3_word_array:
+- number
+- bomb
+- gown
+bip_39_3_word_no_space: numberbombgown
+bip_39_3_word_space: number bomb gown
+bip_39_3_word_underscore: number_bomb_gown
+bip_39_full_array:
+- number
+- bomb
+- gown
+- scout
+- knee
+- camera
+- grab
+- shiver
+- index
+- pig
+- dove
+- cactus
+bip_39_full_no_space: numberbombgownscoutkneecameragrabshiverindexpigdovecactus
+bip_39_full_space: number bomb gown scout knee camera grab shiver index pig dove cactus
+bip_39_full_underscore: number_bomb_gown_scout_knee_camera_grab_shiver_index_pig_dove_cactus
+capacity_is_estimate: true
+capacity_rounding_increment_ml: 25
+cost_per_drawer_gbp: 0.78
+cost_per_kg_basis: manufacturer_net
+cost_per_kg_gbp: 16.46
+depth_mm: 160
+directory: parts/organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_60_drawers_380_mm_width_475_mm_height_160_mm_depth_sealey_apdc60r
+drawer_capacity_basis: estimated_rectangular_volume_published_dimensions_internal_status_unconfirmed
+drawer_capacity_ml: 225
+drawer_capacity_unrounded_ml: 236.25
+drawer_sizes:
+-   capacity_ml: 225
+    capacity_unrounded_ml: 236.25
+    count: 60
+    depth_mm: 135
+    dimension_basis: published_compartment_or_drawer_internal_status_unconfirmed
+    drawer_model: null
+    height_mm: 35
+    rectangular_volume_ml: 236.25
+    width_mm: 50
+for_sale_url: https://www.mdtools.co.uk/product/cabinet-box-60-drawer-red-black/
+height_mm: 475
+id: organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_60_drawers_380_mm_width_475_mm_height_160_mm_depth_sealey_apdc60r
+id_no_class: organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_60_drawers_380_mm_width_475_mm_height_160_mm_depth_sealey_apdc60r
+id_no_size: organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_60_drawers_380_mm_width_475_mm_height_160_mm_depth_sealey_apdc60r
+id_no_type: organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_60_drawers_380_mm_width_475_mm_height_160_mm_depth_sealey_apdc60r
+image_checked_date: '2026-10-18'
+image_source_url: https://www.mdtools.co.uk/product/cabinet-box-60-drawer-red-black/
+image_static_path: drawer_photos/01.png
+image_url: https://www.mdtools.co.uk/wp-content/uploads/2024/03/APDC60R.png
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_60_drawers_380_mm_width_475_mm_height_160_mm_depth_sealey_apdc60r
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_60_drawers_380_mm_width_475_mm_height_160_mm_depth_sealey_apdc60r
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_60_drawers_380_mm_width_475_mm_height_160_mm_depth_sealey_apdc60r
+manufacturer: sealey
+manufacturer_identity_basis: manufacturer
+manufacturer_stock_code: null
+md5: 97632594e0a7b84159563172d4910710
+md5_10: 97632594e0
+md5_10_upper: 97632594E0
+md5_5: '97632'
+md5_5_upper: '97632'
+md5_6: '976325'
+md5_6_alpha: 5wnc5
+md5_6_alpha_upper: 5WNC5
+md5_6_upper: '976325'
+name: Organization Storage Drawer Unit Small Drawers 225 Ml Estimated Capacity 60
+    Drawers 380 Mm Width 475 Mm Height 160 Mm Depth Sealey Apdc60R
+name_no_class: Organization Storage Drawer Unit Small Drawers 225 Ml Estimated Capacity
+    60 Drawers 380 Mm Width 475 Mm Height 160 Mm Depth Sealey Apdc60R
+name_no_size: Organization Storage Drawer Unit Small Drawers 225 Ml Estimated Capacity
+    60 Drawers 380 Mm Width 475 Mm Height 160 Mm Depth Sealey Apdc60R
+name_no_type: Organization Storage Drawer Unit Small Drawers 225 Ml Estimated Capacity
+    60 Drawers 380 Mm Width 475 Mm Height 160 Mm Depth Sealey Apdc60R
+name_proper: Organization Storage Drawer Unit Small Drawers 225 Ml Estimated Capacity
+    60 Drawers 380 Mm Width 475 Mm Height 160 Mm Depth Sealey Apdc60R
+name_space: organization storage drawer unit small drawers 225 ml estimated capacity
+    60 drawers 380 mm width 475 mm height 160 mm depth sealey apdc60r
+name_upper: ORGANIZATION STORAGE DRAWER UNIT SMALL DRAWERS 225 ML ESTIMATED CAPACITY
+    60 DRAWERS 380 MM WIDTH 475 MM HEIGHT 160 MM DEPTH SEALEY APDC60R
+number_of_drawers: 60
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            approved_for_oomp: true
+            availability: In stock
+            capacity_is_estimate: true
+            capacity_rounding_increment_ml: 25
+            cost_per_drawer_gbp: 0.78
+            cost_per_kg_basis: manufacturer_net
+            cost_per_kg_gbp: 16.46
+            depth_mm: 160
+            directory: parts\organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_60_drawers_380_mm_width_475_mm_height_160_mm_depth_sealey_apdc60r
+            drawer_capacity_basis: estimated_rectangular_volume_published_dimensions_internal_status_unconfirmed
+            drawer_capacity_ml: 225
+            drawer_capacity_unrounded_ml: 236.25
+            drawer_sizes:
+            -   capacity_ml: 225
+                capacity_unrounded_ml: 236.25
+                count: 60
+                depth_mm: 135
+                dimension_basis: published_compartment_or_drawer_internal_status_unconfirmed
+                drawer_model: null
+                height_mm: 35
+                rectangular_volume_ml: 236.25
+                width_mm: 50
+            for_sale_url: https://www.mdtools.co.uk/product/cabinet-box-60-drawer-red-black/
+            height_mm: 475
+            image_checked_date: '2026-10-18'
+            image_source_url: https://www.mdtools.co.uk/product/cabinet-box-60-drawer-red-black/
+            image_static_path: drawer_photos/01.png
+            image_url: https://www.mdtools.co.uk/wp-content/uploads/2024/03/APDC60R.png
+            manufacturer: sealey
+            manufacturer_identity_basis: manufacturer
+            manufacturer_stock_code: null
+            name: organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_60_drawers_380_mm_width_475_mm_height_160_mm_depth_sealey_apdc60r
+            name_proper: Organization Storage Drawer Unit Small Drawers 225 Ml Estimated
+                Capacity 60 Drawers 380 Mm Width 475 Mm Height 160 Mm Depth Sealey
+                Apdc60R
+            name_space: organization storage drawer unit small drawers 225 ml estimated
+                capacity 60 drawers 380 mm width 475 mm height 160 mm depth sealey
+                apdc60r
+            name_upper: ORGANIZATION STORAGE DRAWER UNIT SMALL DRAWERS 225 ML ESTIMATED
+                CAPACITY 60 DRAWERS 380 MM WIDTH 475 MM HEIGHT 160 MM DEPTH SEALEY
+                APDC60R
+            number_of_drawers: 60
+            part_number: APDC60R
+            part_number_basis: manufacturer_model_number
+            price_excludes_delivery: true
+            price_gbp: 46.75
+            price_includes_vat: true
+            price_source_url: https://www.mdtools.co.uk/product/cabinet-box-60-drawer-red-black/
+            product_name: Sealey APDC60R 60 drawer cabinet
+            proposal_number: 1
+            proposal_revision: 2
+            published_cabinet_capacity_ml: null
+            published_price_ex_vat_gbp: null
+            record_type: purchased_drawer_unit
+            research_date: '2026-10-18'
+            research_notes: Capacity is W x H x D / 1000 from published compartment/drawer
+                dimensions, not a manufacturer-rated usable capacity; taper, handles
+                and wall thickness are not accounted for.
+            seller: MDTools
+            shipping_weight_kg: null
+            specification_urls:
+            - https://www.sealey.co.uk/cabinet-box-60-drawer-red-black-apdc60r/
+            taxonomy_1: organization
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: sealey
+            taxonomy_15: apdc60r
+            taxonomy_2: storage
+            taxonomy_3: drawer_unit
+            taxonomy_4: small_drawers
+            taxonomy_5: 225_ml_estimated_capacity
+            taxonomy_6: 60_drawers
+            taxonomy_7: 380_mm_width
+            taxonomy_8: 475_mm_height
+            taxonomy_9: 160_mm_depth
+            uniform_drawer_size: true
+            unit_dimensions_basis: external
+            url_chat: ''
+            weight_basis: manufacturer_net
+            weight_kg: 2.84
+            width_mm: 380
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\od\OneDrive\docs\organization_storage_drawer_unit\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomp_key: oomp_organization_storage_drawer_unit_small_drawers_225_ml_estimated_capacity_60_drawers_380_mm_width_475_mm_height_160_mm_depth_sealey_apdc60r
+part_number: APDC60R
+part_number_basis: manufacturer_model_number
+price_excludes_delivery: true
+price_gbp: 46.75
+price_includes_vat: true
+price_source_url: https://www.mdtools.co.uk/product/cabinet-box-60-drawer-red-black/
+product_name: Sealey APDC60R 60 drawer cabinet
+proposal_number: 1
+proposal_revision: 2
+published_cabinet_capacity_ml: null
+published_price_ex_vat_gbp: null
+record_type: purchased_drawer_unit
+research_date: '2026-10-18'
+research_notes: Capacity is W x H x D / 1000 from published compartment/drawer dimensions,
+    not a manufacturer-rated usable capacity; taper, handles and wall thickness are
+    not accounted for.
+scad_filter: ai_version_7
+scad_navigation: false
+seller: MDTools
+shipping_weight_kg: null
+specification_urls:
+- https://www.sealey.co.uk/cabinet-box-60-drawer-red-black-apdc60r/
+taxonomy_1: organization
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: sealey
+taxonomy_14_capital: Sealey
+taxonomy_14_first_letter: s
+taxonomy_14_first_letter_upper: S
+taxonomy_14_length_1: s
+taxonomy_14_length_2: se
+taxonomy_14_length_3: sea
+taxonomy_14_length_4: seal
+taxonomy_14_length_5: seale
+taxonomy_14_upper: SEALEY
+taxonomy_14_upper_length_1: S
+taxonomy_14_upper_length_2: SE
+taxonomy_14_upper_length_3: SEA
+taxonomy_14_upper_length_4: SEAL
+taxonomy_14_upper_length_5: SEALE
+taxonomy_15: apdc60r
+taxonomy_15_capital: Apdc60R
+taxonomy_15_first_letter: a
+taxonomy_15_first_letter_upper: A
+taxonomy_15_length_1: a
+taxonomy_15_length_2: ap
+taxonomy_15_length_3: apd
+taxonomy_15_length_4: apdc
+taxonomy_15_length_5: apdc6
+taxonomy_15_upper: APDC60R
+taxonomy_15_upper_length_1: A
+taxonomy_15_upper_length_2: AP
+taxonomy_15_upper_length_3: APD
+taxonomy_15_upper_length_4: APDC
+taxonomy_15_upper_length_5: APDC6
+taxonomy_1_capital: Organization
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: or
+taxonomy_1_length_3: org
+taxonomy_1_length_4: orga
+taxonomy_1_length_5: organ
+taxonomy_1_upper: ORGANIZATION
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OR
+taxonomy_1_upper_length_3: ORG
+taxonomy_1_upper_length_4: ORGA
+taxonomy_1_upper_length_5: ORGAN
+taxonomy_2: storage
+taxonomy_2_capital: Storage
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: st
+taxonomy_2_length_3: sto
+taxonomy_2_length_4: stor
+taxonomy_2_length_5: stora
+taxonomy_2_upper: STORAGE
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: ST
+taxonomy_2_upper_length_3: STO
+taxonomy_2_upper_length_4: STOR
+taxonomy_2_upper_length_5: STORA
+taxonomy_3: drawer_unit
+taxonomy_3_capital: Drawer Unit
+taxonomy_3_first_letter: d
+taxonomy_3_first_letter_upper: D
+taxonomy_3_length_1: d
+taxonomy_3_length_2: dr
+taxonomy_3_length_3: dra
+taxonomy_3_length_4: draw
+taxonomy_3_length_5: drawe
+taxonomy_3_upper: DRAWER_UNIT
+taxonomy_3_upper_length_1: D
+taxonomy_3_upper_length_2: DR
+taxonomy_3_upper_length_3: DRA
+taxonomy_3_upper_length_4: DRAW
+taxonomy_3_upper_length_5: DRAWE
+taxonomy_4: small_drawers
+taxonomy_4_capital: Small Drawers
+taxonomy_4_first_letter: s
+taxonomy_4_first_letter_upper: S
+taxonomy_4_length_1: s
+taxonomy_4_length_2: sm
+taxonomy_4_length_3: sma
+taxonomy_4_length_4: smal
+taxonomy_4_length_5: small
+taxonomy_4_upper: SMALL_DRAWERS
+taxonomy_4_upper_length_1: S
+taxonomy_4_upper_length_2: SM
+taxonomy_4_upper_length_3: SMA
+taxonomy_4_upper_length_4: SMAL
+taxonomy_4_upper_length_5: SMALL
+taxonomy_5: 225_ml_estimated_capacity
+taxonomy_5_capital: 225 Ml Estimated Capacity
+taxonomy_5_first_letter: '2'
+taxonomy_5_first_letter_upper: '2'
+taxonomy_5_length_1: '2'
+taxonomy_5_length_2: '22'
+taxonomy_5_length_3: '225'
+taxonomy_5_length_4: '225_'
+taxonomy_5_length_5: 225_m
+taxonomy_5_upper: 225_ML_ESTIMATED_CAPACITY
+taxonomy_5_upper_length_1: '2'
+taxonomy_5_upper_length_2: '22'
+taxonomy_5_upper_length_3: '225'
+taxonomy_5_upper_length_4: '225_'
+taxonomy_5_upper_length_5: 225_M
+taxonomy_6: 60_drawers
+taxonomy_6_capital: 60 Drawers
+taxonomy_6_first_letter: '6'
+taxonomy_6_first_letter_upper: '6'
+taxonomy_6_length_1: '6'
+taxonomy_6_length_2: '60'
+taxonomy_6_length_3: '60_'
+taxonomy_6_length_4: 60_d
+taxonomy_6_length_5: 60_dr
+taxonomy_6_upper: 60_DRAWERS
+taxonomy_6_upper_length_1: '6'
+taxonomy_6_upper_length_2: '60'
+taxonomy_6_upper_length_3: '60_'
+taxonomy_6_upper_length_4: 60_D
+taxonomy_6_upper_length_5: 60_DR
+taxonomy_7: 380_mm_width
+taxonomy_7_capital: 380 mm Width
+taxonomy_7_first_letter: '3'
+taxonomy_7_first_letter_upper: '3'
+taxonomy_7_length_1: '3'
+taxonomy_7_length_2: '38'
+taxonomy_7_length_3: '380'
+taxonomy_7_length_4: '380_'
+taxonomy_7_length_5: 380_m
+taxonomy_7_upper: 380_MM_WIDTH
+taxonomy_7_upper_length_1: '3'
+taxonomy_7_upper_length_2: '38'
+taxonomy_7_upper_length_3: '380'
+taxonomy_7_upper_length_4: '380_'
+taxonomy_7_upper_length_5: 380_M
+taxonomy_8: 475_mm_height
+taxonomy_8_capital: 475 mm Height
+taxonomy_8_first_letter: '4'
+taxonomy_8_first_letter_upper: '4'
+taxonomy_8_length_1: '4'
+taxonomy_8_length_2: '47'
+taxonomy_8_length_3: '475'
+taxonomy_8_length_4: '475_'
+taxonomy_8_length_5: 475_m
+taxonomy_8_upper: 475_MM_HEIGHT
+taxonomy_8_upper_length_1: '4'
+taxonomy_8_upper_length_2: '47'
+taxonomy_8_upper_length_3: '475'
+taxonomy_8_upper_length_4: '475_'
+taxonomy_8_upper_length_5: 475_M
+taxonomy_9: 160_mm_depth
+taxonomy_9_capital: 160 mm Depth
+taxonomy_9_first_letter: '1'
+taxonomy_9_first_letter_upper: '1'
+taxonomy_9_length_1: '1'
+taxonomy_9_length_2: '16'
+taxonomy_9_length_3: '160'
+taxonomy_9_length_4: '160_'
+taxonomy_9_length_5: 160_m
+taxonomy_9_upper: 160_MM_DEPTH
+taxonomy_9_upper_length_1: '1'
+taxonomy_9_upper_length_2: '16'
+taxonomy_9_upper_length_3: '160'
+taxonomy_9_upper_length_4: '160_'
+taxonomy_9_upper_length_5: 160_M
+uniform_drawer_size: true
+unit_dimensions_basis: external
+url_chat: ''
+weight_basis: manufacturer_net
+weight_kg: 2.84
+width_mm: 380

@@ -1,0 +1,386 @@
+approved_for_oomp: true
+availability: Listed with add-to-cart; stock and delivery lead time unconfirmed
+bip_39_2_word_array:
+- stable
+- moon
+bip_39_2_word_no_space: stablemoon
+bip_39_2_word_space: stable moon
+bip_39_2_word_underscore: stable_moon
+bip_39_3_word_array:
+- stable
+- moon
+- survey
+bip_39_3_word_no_space: stablemoonsurvey
+bip_39_3_word_space: stable moon survey
+bip_39_3_word_underscore: stable_moon_survey
+bip_39_full_array:
+- stable
+- moon
+- survey
+- test
+- trip
+- sleep
+- record
+- license
+- double
+- access
+- wheel
+- noble
+bip_39_full_no_space: stablemoonsurveytesttripsleeprecordlicensedoubleaccesswheelnoble
+bip_39_full_space: stable moon survey test trip sleep record license double access
+    wheel noble
+bip_39_full_underscore: stable_moon_survey_test_trip_sleep_record_license_double_access_wheel_noble
+capacity_is_estimate: false
+capacity_rounding_increment_ml: 25
+cost_per_drawer_gbp: 1.05
+cost_per_kg_basis: manufacturer_net
+cost_per_kg_gbp: 11.99
+depth_mm: 150
+directory: parts/organization_storage_drawer_unit_small_drawers_300_ml_capacity_48_drawers_306_mm_width_552_mm_height_150_mm_depth_raaco_137393
+drawer_capacity_basis: nominal_inferred_from_manufacturer_cabinet_capacity_and_same_drawer_family
+drawer_capacity_ml: 300
+drawer_capacity_unrounded_ml: 300
+drawer_sizes:
+-   capacity_ml: 300
+    capacity_unrounded_ml: 300
+    count: 48
+    depth_mm: 135
+    dimension_basis: internal
+    drawer_model: 150-01
+    height_mm: 35
+    rectangular_volume_ml: 292.95
+    width_mm: 62
+for_sale_url: https://www.raacostorage.co.uk/raaco-1200-series-small-parts-storage-cabinet-1248-01-137393-c2x14054707
+height_mm: 552
+id: organization_storage_drawer_unit_small_drawers_300_ml_capacity_48_drawers_306_mm_width_552_mm_height_150_mm_depth_raaco_137393
+id_no_class: organization_storage_drawer_unit_small_drawers_300_ml_capacity_48_drawers_306_mm_width_552_mm_height_150_mm_depth_raaco_137393
+id_no_size: organization_storage_drawer_unit_small_drawers_300_ml_capacity_48_drawers_306_mm_width_552_mm_height_150_mm_depth_raaco_137393
+id_no_type: organization_storage_drawer_unit_small_drawers_300_ml_capacity_48_drawers_306_mm_width_552_mm_height_150_mm_depth_raaco_137393
+image_checked_date: '2026-10-18'
+image_source_url: https://www.raacostorage.co.uk/raaco-1200-series-small-parts-storage-cabinet-1248-01-137393-c2x14054707
+image_static_path: drawer_photos/08.png
+image_url: https://www.raacostorage.co.uk/Files/104169/Img/23/137393-cabinet-l-big.jpg
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_small_drawers_300_ml_capacity_48_drawers_306_mm_width_552_mm_height_150_mm_depth_raaco_137393
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_small_drawers_300_ml_capacity_48_drawers_306_mm_width_552_mm_height_150_mm_depth_raaco_137393
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_small_drawers_300_ml_capacity_48_drawers_306_mm_width_552_mm_height_150_mm_depth_raaco_137393
+manufacturer: raaco
+manufacturer_identity_basis: manufacturer
+manufacturer_stock_code: '137393'
+md5: d3d1f36aefce8d966cf40941a02be84a
+md5_10: d3d1f36aef
+md5_10_upper: D3D1F36AEF
+md5_5: d3d1f
+md5_5_upper: D3D1F
+md5_6: d3d1f3
+md5_6_alpha: 89jar
+md5_6_alpha_upper: 89JAR
+md5_6_upper: D3D1F3
+model_number: 1248-01
+name: Organization Storage Drawer Unit Small Drawers 300 Ml Capacity 48 Drawers 306
+    Mm Width 552 Mm Height 150 Mm Depth Raaco 137393
+name_no_class: Organization Storage Drawer Unit Small Drawers 300 Ml Capacity 48 Drawers
+    306 Mm Width 552 Mm Height 150 Mm Depth Raaco 137393
+name_no_size: Organization Storage Drawer Unit Small Drawers 300 Ml Capacity 48 Drawers
+    306 Mm Width 552 Mm Height 150 Mm Depth Raaco 137393
+name_no_type: Organization Storage Drawer Unit Small Drawers 300 Ml Capacity 48 Drawers
+    306 Mm Width 552 Mm Height 150 Mm Depth Raaco 137393
+name_proper: Organization Storage Drawer Unit Small Drawers 300 Ml Capacity 48 Drawers
+    306 Mm Width 552 Mm Height 150 Mm Depth Raaco 137393
+name_space: organization storage drawer unit small drawers 300 ml capacity 48 drawers
+    306 mm width 552 mm height 150 mm depth raaco 137393
+name_upper: ORGANIZATION STORAGE DRAWER UNIT SMALL DRAWERS 300 ML CAPACITY 48 DRAWERS
+    306 MM WIDTH 552 MM HEIGHT 150 MM DEPTH RAACO 137393
+number_of_drawers: 48
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            approved_for_oomp: true
+            availability: Listed with add-to-cart; stock and delivery lead time unconfirmed
+            capacity_is_estimate: false
+            capacity_rounding_increment_ml: 25
+            cost_per_drawer_gbp: 1.05
+            cost_per_kg_basis: manufacturer_net
+            cost_per_kg_gbp: 11.99
+            depth_mm: 150
+            directory: parts\organization_storage_drawer_unit_small_drawers_300_ml_capacity_48_drawers_306_mm_width_552_mm_height_150_mm_depth_raaco_137393
+            drawer_capacity_basis: nominal_inferred_from_manufacturer_cabinet_capacity_and_same_drawer_family
+            drawer_capacity_ml: 300
+            drawer_capacity_unrounded_ml: 300
+            drawer_sizes:
+            -   capacity_ml: 300
+                capacity_unrounded_ml: 300
+                count: 48
+                depth_mm: 135
+                dimension_basis: internal
+                drawer_model: 150-01
+                height_mm: 35
+                rectangular_volume_ml: 292.95
+                width_mm: 62
+            for_sale_url: https://www.raacostorage.co.uk/raaco-1200-series-small-parts-storage-cabinet-1248-01-137393-c2x14054707
+            height_mm: 552
+            image_checked_date: '2026-10-18'
+            image_source_url: https://www.raacostorage.co.uk/raaco-1200-series-small-parts-storage-cabinet-1248-01-137393-c2x14054707
+            image_static_path: drawer_photos/08.png
+            image_url: https://www.raacostorage.co.uk/Files/104169/Img/23/137393-cabinet-l-big.jpg
+            manufacturer: raaco
+            manufacturer_identity_basis: manufacturer
+            manufacturer_stock_code: '137393'
+            model_number: 1248-01
+            name: organization_storage_drawer_unit_small_drawers_300_ml_capacity_48_drawers_306_mm_width_552_mm_height_150_mm_depth_raaco_137393
+            name_proper: Organization Storage Drawer Unit Small Drawers 300 Ml Capacity
+                48 Drawers 306 Mm Width 552 Mm Height 150 Mm Depth Raaco 137393
+            name_space: organization storage drawer unit small drawers 300 ml capacity
+                48 drawers 306 mm width 552 mm height 150 mm depth raaco 137393
+            name_upper: ORGANIZATION STORAGE DRAWER UNIT SMALL DRAWERS 300 ML CAPACITY
+                48 DRAWERS 306 MM WIDTH 552 MM HEIGHT 150 MM DEPTH RAACO 137393
+            number_of_drawers: 48
+            part_number: '137393'
+            part_number_basis: manufacturer_part_number
+            price_excludes_delivery: true
+            price_gbp: 50.34
+            price_includes_vat: true
+            price_source_url: https://www.raacostorage.co.uk/1200series-storage-cabinets.htm
+            product_name: Raaco 1248-01 48 drawer cabinet
+            proposal_number: 8
+            proposal_revision: 2
+            published_cabinet_capacity_ml: 14400
+            published_price_ex_vat_gbp: 41.95
+            record_type: purchased_drawer_unit
+            research_date: '2026-10-18'
+            research_notes: Capacity is nominal per drawer inferred from manufacturer
+                cabinet litres and identical drawer type, not the internal bounding-box
+                calculation. Manufacturer net mass is used; seller weight may include
+                packaging.
+            seller: RaacoStorage / Shelving Plus Ltd
+            shipping_weight_kg: 5.15
+            specification_urls:
+            - https://www.farnell.com/datasheets/2266945.pdf
+            taxonomy_1: organization
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: raaco
+            taxonomy_15: '137393'
+            taxonomy_2: storage
+            taxonomy_3: drawer_unit
+            taxonomy_4: small_drawers
+            taxonomy_5: 300_ml_capacity
+            taxonomy_6: 48_drawers
+            taxonomy_7: 306_mm_width
+            taxonomy_8: 552_mm_height
+            taxonomy_9: 150_mm_depth
+            uniform_drawer_size: true
+            unit_dimensions_basis: external
+            url_chat: ''
+            weight_basis: manufacturer_net
+            weight_kg: 4.2
+            width_mm: 306
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\od\OneDrive\docs\organization_storage_drawer_unit\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomp_key: oomp_organization_storage_drawer_unit_small_drawers_300_ml_capacity_48_drawers_306_mm_width_552_mm_height_150_mm_depth_raaco_137393
+part_number: '137393'
+part_number_basis: manufacturer_part_number
+price_excludes_delivery: true
+price_gbp: 50.34
+price_includes_vat: true
+price_source_url: https://www.raacostorage.co.uk/1200series-storage-cabinets.htm
+product_name: Raaco 1248-01 48 drawer cabinet
+proposal_number: 8
+proposal_revision: 2
+published_cabinet_capacity_ml: 14400
+published_price_ex_vat_gbp: 41.95
+record_type: purchased_drawer_unit
+research_date: '2026-10-18'
+research_notes: Capacity is nominal per drawer inferred from manufacturer cabinet
+    litres and identical drawer type, not the internal bounding-box calculation. Manufacturer
+    net mass is used; seller weight may include packaging.
+scad_filter: ai_version_7
+scad_navigation: false
+seller: RaacoStorage / Shelving Plus Ltd
+shipping_weight_kg: 5.15
+specification_urls:
+- https://www.farnell.com/datasheets/2266945.pdf
+taxonomy_1: organization
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: raaco
+taxonomy_14_capital: Raaco
+taxonomy_14_first_letter: r
+taxonomy_14_first_letter_upper: R
+taxonomy_14_length_1: r
+taxonomy_14_length_2: ra
+taxonomy_14_length_3: raa
+taxonomy_14_length_4: raac
+taxonomy_14_length_5: raaco
+taxonomy_14_upper: RAACO
+taxonomy_14_upper_length_1: R
+taxonomy_14_upper_length_2: RA
+taxonomy_14_upper_length_3: RAA
+taxonomy_14_upper_length_4: RAAC
+taxonomy_14_upper_length_5: RAACO
+taxonomy_15: '137393'
+taxonomy_15_capital: '137393'
+taxonomy_15_first_letter: '1'
+taxonomy_15_first_letter_upper: '1'
+taxonomy_15_length_1: '1'
+taxonomy_15_length_2: '13'
+taxonomy_15_length_3: '137'
+taxonomy_15_length_4: '1373'
+taxonomy_15_length_5: '13739'
+taxonomy_15_upper: '137393'
+taxonomy_15_upper_length_1: '1'
+taxonomy_15_upper_length_2: '13'
+taxonomy_15_upper_length_3: '137'
+taxonomy_15_upper_length_4: '1373'
+taxonomy_15_upper_length_5: '13739'
+taxonomy_1_capital: Organization
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: or
+taxonomy_1_length_3: org
+taxonomy_1_length_4: orga
+taxonomy_1_length_5: organ
+taxonomy_1_upper: ORGANIZATION
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OR
+taxonomy_1_upper_length_3: ORG
+taxonomy_1_upper_length_4: ORGA
+taxonomy_1_upper_length_5: ORGAN
+taxonomy_2: storage
+taxonomy_2_capital: Storage
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: st
+taxonomy_2_length_3: sto
+taxonomy_2_length_4: stor
+taxonomy_2_length_5: stora
+taxonomy_2_upper: STORAGE
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: ST
+taxonomy_2_upper_length_3: STO
+taxonomy_2_upper_length_4: STOR
+taxonomy_2_upper_length_5: STORA
+taxonomy_3: drawer_unit
+taxonomy_3_capital: Drawer Unit
+taxonomy_3_first_letter: d
+taxonomy_3_first_letter_upper: D
+taxonomy_3_length_1: d
+taxonomy_3_length_2: dr
+taxonomy_3_length_3: dra
+taxonomy_3_length_4: draw
+taxonomy_3_length_5: drawe
+taxonomy_3_upper: DRAWER_UNIT
+taxonomy_3_upper_length_1: D
+taxonomy_3_upper_length_2: DR
+taxonomy_3_upper_length_3: DRA
+taxonomy_3_upper_length_4: DRAW
+taxonomy_3_upper_length_5: DRAWE
+taxonomy_4: small_drawers
+taxonomy_4_capital: Small Drawers
+taxonomy_4_first_letter: s
+taxonomy_4_first_letter_upper: S
+taxonomy_4_length_1: s
+taxonomy_4_length_2: sm
+taxonomy_4_length_3: sma
+taxonomy_4_length_4: smal
+taxonomy_4_length_5: small
+taxonomy_4_upper: SMALL_DRAWERS
+taxonomy_4_upper_length_1: S
+taxonomy_4_upper_length_2: SM
+taxonomy_4_upper_length_3: SMA
+taxonomy_4_upper_length_4: SMAL
+taxonomy_4_upper_length_5: SMALL
+taxonomy_5: 300_ml_capacity
+taxonomy_5_capital: 300 Ml Capacity
+taxonomy_5_first_letter: '3'
+taxonomy_5_first_letter_upper: '3'
+taxonomy_5_length_1: '3'
+taxonomy_5_length_2: '30'
+taxonomy_5_length_3: '300'
+taxonomy_5_length_4: '300_'
+taxonomy_5_length_5: 300_m
+taxonomy_5_upper: 300_ML_CAPACITY
+taxonomy_5_upper_length_1: '3'
+taxonomy_5_upper_length_2: '30'
+taxonomy_5_upper_length_3: '300'
+taxonomy_5_upper_length_4: '300_'
+taxonomy_5_upper_length_5: 300_M
+taxonomy_6: 48_drawers
+taxonomy_6_capital: 48 Drawers
+taxonomy_6_first_letter: '4'
+taxonomy_6_first_letter_upper: '4'
+taxonomy_6_length_1: '4'
+taxonomy_6_length_2: '48'
+taxonomy_6_length_3: '48_'
+taxonomy_6_length_4: 48_d
+taxonomy_6_length_5: 48_dr
+taxonomy_6_upper: 48_DRAWERS
+taxonomy_6_upper_length_1: '4'
+taxonomy_6_upper_length_2: '48'
+taxonomy_6_upper_length_3: '48_'
+taxonomy_6_upper_length_4: 48_D
+taxonomy_6_upper_length_5: 48_DR
+taxonomy_7: 306_mm_width
+taxonomy_7_capital: 306 mm Width
+taxonomy_7_first_letter: '3'
+taxonomy_7_first_letter_upper: '3'
+taxonomy_7_length_1: '3'
+taxonomy_7_length_2: '30'
+taxonomy_7_length_3: '306'
+taxonomy_7_length_4: '306_'
+taxonomy_7_length_5: 306_m
+taxonomy_7_upper: 306_MM_WIDTH
+taxonomy_7_upper_length_1: '3'
+taxonomy_7_upper_length_2: '30'
+taxonomy_7_upper_length_3: '306'
+taxonomy_7_upper_length_4: '306_'
+taxonomy_7_upper_length_5: 306_M
+taxonomy_8: 552_mm_height
+taxonomy_8_capital: 552 mm Height
+taxonomy_8_first_letter: '5'
+taxonomy_8_first_letter_upper: '5'
+taxonomy_8_length_1: '5'
+taxonomy_8_length_2: '55'
+taxonomy_8_length_3: '552'
+taxonomy_8_length_4: '552_'
+taxonomy_8_length_5: 552_m
+taxonomy_8_upper: 552_MM_HEIGHT
+taxonomy_8_upper_length_1: '5'
+taxonomy_8_upper_length_2: '55'
+taxonomy_8_upper_length_3: '552'
+taxonomy_8_upper_length_4: '552_'
+taxonomy_8_upper_length_5: 552_M
+taxonomy_9: 150_mm_depth
+taxonomy_9_capital: 150 mm Depth
+taxonomy_9_first_letter: '1'
+taxonomy_9_first_letter_upper: '1'
+taxonomy_9_length_1: '1'
+taxonomy_9_length_2: '15'
+taxonomy_9_length_3: '150'
+taxonomy_9_length_4: '150_'
+taxonomy_9_length_5: 150_m
+taxonomy_9_upper: 150_MM_DEPTH
+taxonomy_9_upper_length_1: '1'
+taxonomy_9_upper_length_2: '15'
+taxonomy_9_upper_length_3: '150'
+taxonomy_9_upper_length_4: '150_'
+taxonomy_9_upper_length_5: 150_M
+uniform_drawer_size: true
+unit_dimensions_basis: external
+url_chat: ''
+weight_basis: manufacturer_net
+weight_kg: 4.2
+width_mm: 306

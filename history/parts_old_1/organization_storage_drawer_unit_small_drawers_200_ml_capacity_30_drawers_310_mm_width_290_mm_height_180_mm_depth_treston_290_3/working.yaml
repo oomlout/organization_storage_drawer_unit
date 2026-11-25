@@ -1,0 +1,387 @@
+approved_for_oomp: true
+availability: Listed in stock
+bip_39_2_word_array:
+- chief
+- genius
+bip_39_2_word_no_space: chiefgenius
+bip_39_2_word_space: chief genius
+bip_39_2_word_underscore: chief_genius
+bip_39_3_word_array:
+- chief
+- genius
+- arrow
+bip_39_3_word_no_space: chiefgeniusarrow
+bip_39_3_word_space: chief genius arrow
+bip_39_3_word_underscore: chief_genius_arrow
+bip_39_full_array:
+- chief
+- genius
+- arrow
+- treat
+- soon
+- empty
+- entire
+- spin
+- poem
+- tuition
+- garbage
+- april
+bip_39_full_no_space: chiefgeniusarrowtreatsoonemptyentirespinpoemtuitiongarbageapril
+bip_39_full_space: chief genius arrow treat soon empty entire spin poem tuition garbage
+    april
+bip_39_full_underscore: chief_genius_arrow_treat_soon_empty_entire_spin_poem_tuition_garbage_april
+capacity_is_estimate: false
+capacity_rounding_increment_ml: 25
+cost_per_drawer_gbp: 2.22
+cost_per_kg_basis: net_unknown
+cost_per_kg_gbp: null
+depth_mm: 180
+directory: parts/organization_storage_drawer_unit_small_drawers_200_ml_capacity_30_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_290_3
+drawer_capacity_basis: manufacturer_nominal
+drawer_capacity_ml: 200
+drawer_capacity_unrounded_ml: 200
+drawer_sizes:
+-   capacity_ml: 200
+    capacity_unrounded_ml: 200
+    count: 30
+    depth_mm: 146
+    dimension_basis: internal
+    drawer_model: L-00
+    height_mm: 32
+    rectangular_volume_ml: 219.584
+    width_mm: 47
+for_sale_url: https://uk.rs-online.com/web/p/drawer-storage/2675610
+height_mm: 290
+id: organization_storage_drawer_unit_small_drawers_200_ml_capacity_30_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_290_3
+id_no_class: organization_storage_drawer_unit_small_drawers_200_ml_capacity_30_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_290_3
+id_no_size: organization_storage_drawer_unit_small_drawers_200_ml_capacity_30_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_290_3
+id_no_type: organization_storage_drawer_unit_small_drawers_200_ml_capacity_30_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_290_3
+image_checked_date: '2026-10-18'
+image_source_url: https://uk.rs-online.com/web/p/drawer-storage/2675610
+image_static_path: drawer_photos/09.png
+image_url: https://media.rs-online.com/t_large/Y2675610-01.jpg
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_small_drawers_200_ml_capacity_30_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_290_3
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_small_drawers_200_ml_capacity_30_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_290_3
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_small_drawers_200_ml_capacity_30_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_290_3
+manufacturer: treston
+manufacturer_identity_basis: manufacturer
+manufacturer_stock_code: null
+md5: 27cc1c32f3ecf49252e68fa71d457e05
+md5_10: 27cc1c32f3
+md5_10_upper: 27CC1C32F3
+md5_5: 27cc1
+md5_5_upper: 27CC1
+md5_6: 27cc1c
+md5_6_alpha: 1jwgs
+md5_6_alpha_upper: 1JWGS
+md5_6_upper: 27CC1C
+name: Organization Storage Drawer Unit Small Drawers 200 Ml Capacity 30 Drawers 310
+    Mm Width 290 Mm Height 180 Mm Depth Treston 290 3
+name_no_class: Organization Storage Drawer Unit Small Drawers 200 Ml Capacity 30 Drawers
+    310 Mm Width 290 Mm Height 180 Mm Depth Treston 290 3
+name_no_size: Organization Storage Drawer Unit Small Drawers 200 Ml Capacity 30 Drawers
+    310 Mm Width 290 Mm Height 180 Mm Depth Treston 290 3
+name_no_type: Organization Storage Drawer Unit Small Drawers 200 Ml Capacity 30 Drawers
+    310 Mm Width 290 Mm Height 180 Mm Depth Treston 290 3
+name_proper: Organization Storage Drawer Unit Small Drawers 200 Ml Capacity 30 Drawers
+    310 Mm Width 290 Mm Height 180 Mm Depth Treston 290 3
+name_space: organization storage drawer unit small drawers 200 ml capacity 30 drawers
+    310 mm width 290 mm height 180 mm depth treston 290 3
+name_upper: ORGANIZATION STORAGE DRAWER UNIT SMALL DRAWERS 200 ML CAPACITY 30 DRAWERS
+    310 MM WIDTH 290 MM HEIGHT 180 MM DEPTH TRESTON 290 3
+number_of_drawers: 30
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            approved_for_oomp: true
+            availability: Listed in stock
+            capacity_is_estimate: false
+            capacity_rounding_increment_ml: 25
+            cost_per_drawer_gbp: 2.22
+            cost_per_kg_basis: net_unknown
+            cost_per_kg_gbp: null
+            depth_mm: 180
+            directory: parts\organization_storage_drawer_unit_small_drawers_200_ml_capacity_30_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_290_3
+            drawer_capacity_basis: manufacturer_nominal
+            drawer_capacity_ml: 200
+            drawer_capacity_unrounded_ml: 200
+            drawer_sizes:
+            -   capacity_ml: 200
+                capacity_unrounded_ml: 200
+                count: 30
+                depth_mm: 146
+                dimension_basis: internal
+                drawer_model: L-00
+                height_mm: 32
+                rectangular_volume_ml: 219.584
+                width_mm: 47
+            for_sale_url: https://uk.rs-online.com/web/p/drawer-storage/2675610
+            height_mm: 290
+            image_checked_date: '2026-10-18'
+            image_source_url: https://uk.rs-online.com/web/p/drawer-storage/2675610
+            image_static_path: drawer_photos/09.png
+            image_url: https://media.rs-online.com/t_large/Y2675610-01.jpg
+            manufacturer: treston
+            manufacturer_identity_basis: manufacturer
+            manufacturer_stock_code: null
+            name: organization_storage_drawer_unit_small_drawers_200_ml_capacity_30_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_290_3
+            name_proper: Organization Storage Drawer Unit Small Drawers 200 Ml Capacity
+                30 Drawers 310 Mm Width 290 Mm Height 180 Mm Depth Treston 290 3
+            name_space: organization storage drawer unit small drawers 200 ml capacity
+                30 drawers 310 mm width 290 mm height 180 mm depth treston 290 3
+            name_upper: ORGANIZATION STORAGE DRAWER UNIT SMALL DRAWERS 200 ML CAPACITY
+                30 DRAWERS 310 MM WIDTH 290 MM HEIGHT 180 MM DEPTH TRESTON 290 3
+            number_of_drawers: 30
+            part_number: 290-3
+            part_number_basis: manufacturer_model_number
+            price_excludes_delivery: true
+            price_gbp: 66.74
+            price_includes_vat: true
+            price_source_url: https://uk.rs-online.com/web/p/drawer-storage/2675610
+            product_name: Treston 290-3 30 drawer cabinet
+            proposal_number: 9
+            proposal_revision: 2
+            published_cabinet_capacity_ml: null
+            published_price_ex_vat_gbp: 55.62
+            record_type: purchased_drawer_unit
+            research_date: '2026-10-18'
+            research_notes: Net product mass unverified; do not use packaged mass
+                for net cost/kg. Drawer capacity is manufacturer nominal; internal
+                rectangular volume is stored separately.
+            seller: RS
+            shipping_weight_kg: 3.2
+            specification_urls:
+            - https://docs.rs-online.com/324f/A700000009803351.pdf
+            - https://www.toolteam.com/cs-CZ/downloads/dl/file/id/19836/Treston_storage_systems_catalog_workstation_equipment.pdf
+            - https://static.rapidonline.com/pdf/14-0160e.pdf
+            taxonomy_1: organization
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: treston
+            taxonomy_15: '290_3'
+            taxonomy_2: storage
+            taxonomy_3: drawer_unit
+            taxonomy_4: small_drawers
+            taxonomy_5: 200_ml_capacity
+            taxonomy_6: 30_drawers
+            taxonomy_7: 310_mm_width
+            taxonomy_8: 290_mm_height
+            taxonomy_9: 180_mm_depth
+            uniform_drawer_size: true
+            unit_dimensions_basis: external
+            url_chat: ''
+            weight_basis: net_unknown
+            weight_kg: null
+            width_mm: 310
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\od\OneDrive\docs\organization_storage_drawer_unit\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomp_key: oomp_organization_storage_drawer_unit_small_drawers_200_ml_capacity_30_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_290_3
+part_number: 290-3
+part_number_basis: manufacturer_model_number
+price_excludes_delivery: true
+price_gbp: 66.74
+price_includes_vat: true
+price_source_url: https://uk.rs-online.com/web/p/drawer-storage/2675610
+product_name: Treston 290-3 30 drawer cabinet
+proposal_number: 9
+proposal_revision: 2
+published_cabinet_capacity_ml: null
+published_price_ex_vat_gbp: 55.62
+record_type: purchased_drawer_unit
+research_date: '2026-10-18'
+research_notes: Net product mass unverified; do not use packaged mass for net cost/kg.
+    Drawer capacity is manufacturer nominal; internal rectangular volume is stored
+    separately.
+scad_filter: ai_version_7
+scad_navigation: false
+seller: RS
+shipping_weight_kg: 3.2
+specification_urls:
+- https://docs.rs-online.com/324f/A700000009803351.pdf
+- https://www.toolteam.com/cs-CZ/downloads/dl/file/id/19836/Treston_storage_systems_catalog_workstation_equipment.pdf
+- https://static.rapidonline.com/pdf/14-0160e.pdf
+taxonomy_1: organization
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: treston
+taxonomy_14_capital: Treston
+taxonomy_14_first_letter: t
+taxonomy_14_first_letter_upper: T
+taxonomy_14_length_1: t
+taxonomy_14_length_2: tr
+taxonomy_14_length_3: tre
+taxonomy_14_length_4: tres
+taxonomy_14_length_5: trest
+taxonomy_14_upper: TRESTON
+taxonomy_14_upper_length_1: T
+taxonomy_14_upper_length_2: TR
+taxonomy_14_upper_length_3: TRE
+taxonomy_14_upper_length_4: TRES
+taxonomy_14_upper_length_5: TREST
+taxonomy_15: '290_3'
+taxonomy_15_capital: 290 3
+taxonomy_15_first_letter: '2'
+taxonomy_15_first_letter_upper: '2'
+taxonomy_15_length_1: '2'
+taxonomy_15_length_2: '29'
+taxonomy_15_length_3: '290'
+taxonomy_15_length_4: '290_'
+taxonomy_15_length_5: '290_3'
+taxonomy_15_upper: '290_3'
+taxonomy_15_upper_length_1: '2'
+taxonomy_15_upper_length_2: '29'
+taxonomy_15_upper_length_3: '290'
+taxonomy_15_upper_length_4: '290_'
+taxonomy_15_upper_length_5: '290_3'
+taxonomy_1_capital: Organization
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: or
+taxonomy_1_length_3: org
+taxonomy_1_length_4: orga
+taxonomy_1_length_5: organ
+taxonomy_1_upper: ORGANIZATION
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OR
+taxonomy_1_upper_length_3: ORG
+taxonomy_1_upper_length_4: ORGA
+taxonomy_1_upper_length_5: ORGAN
+taxonomy_2: storage
+taxonomy_2_capital: Storage
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: st
+taxonomy_2_length_3: sto
+taxonomy_2_length_4: stor
+taxonomy_2_length_5: stora
+taxonomy_2_upper: STORAGE
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: ST
+taxonomy_2_upper_length_3: STO
+taxonomy_2_upper_length_4: STOR
+taxonomy_2_upper_length_5: STORA
+taxonomy_3: drawer_unit
+taxonomy_3_capital: Drawer Unit
+taxonomy_3_first_letter: d
+taxonomy_3_first_letter_upper: D
+taxonomy_3_length_1: d
+taxonomy_3_length_2: dr
+taxonomy_3_length_3: dra
+taxonomy_3_length_4: draw
+taxonomy_3_length_5: drawe
+taxonomy_3_upper: DRAWER_UNIT
+taxonomy_3_upper_length_1: D
+taxonomy_3_upper_length_2: DR
+taxonomy_3_upper_length_3: DRA
+taxonomy_3_upper_length_4: DRAW
+taxonomy_3_upper_length_5: DRAWE
+taxonomy_4: small_drawers
+taxonomy_4_capital: Small Drawers
+taxonomy_4_first_letter: s
+taxonomy_4_first_letter_upper: S
+taxonomy_4_length_1: s
+taxonomy_4_length_2: sm
+taxonomy_4_length_3: sma
+taxonomy_4_length_4: smal
+taxonomy_4_length_5: small
+taxonomy_4_upper: SMALL_DRAWERS
+taxonomy_4_upper_length_1: S
+taxonomy_4_upper_length_2: SM
+taxonomy_4_upper_length_3: SMA
+taxonomy_4_upper_length_4: SMAL
+taxonomy_4_upper_length_5: SMALL
+taxonomy_5: 200_ml_capacity
+taxonomy_5_capital: 200 Ml Capacity
+taxonomy_5_first_letter: '2'
+taxonomy_5_first_letter_upper: '2'
+taxonomy_5_length_1: '2'
+taxonomy_5_length_2: '20'
+taxonomy_5_length_3: '200'
+taxonomy_5_length_4: '200_'
+taxonomy_5_length_5: 200_m
+taxonomy_5_upper: 200_ML_CAPACITY
+taxonomy_5_upper_length_1: '2'
+taxonomy_5_upper_length_2: '20'
+taxonomy_5_upper_length_3: '200'
+taxonomy_5_upper_length_4: '200_'
+taxonomy_5_upper_length_5: 200_M
+taxonomy_6: 30_drawers
+taxonomy_6_capital: 30 Drawers
+taxonomy_6_first_letter: '3'
+taxonomy_6_first_letter_upper: '3'
+taxonomy_6_length_1: '3'
+taxonomy_6_length_2: '30'
+taxonomy_6_length_3: '30_'
+taxonomy_6_length_4: 30_d
+taxonomy_6_length_5: 30_dr
+taxonomy_6_upper: 30_DRAWERS
+taxonomy_6_upper_length_1: '3'
+taxonomy_6_upper_length_2: '30'
+taxonomy_6_upper_length_3: '30_'
+taxonomy_6_upper_length_4: 30_D
+taxonomy_6_upper_length_5: 30_DR
+taxonomy_7: 310_mm_width
+taxonomy_7_capital: 310 mm Width
+taxonomy_7_first_letter: '3'
+taxonomy_7_first_letter_upper: '3'
+taxonomy_7_length_1: '3'
+taxonomy_7_length_2: '31'
+taxonomy_7_length_3: '310'
+taxonomy_7_length_4: '310_'
+taxonomy_7_length_5: 310_m
+taxonomy_7_upper: 310_MM_WIDTH
+taxonomy_7_upper_length_1: '3'
+taxonomy_7_upper_length_2: '31'
+taxonomy_7_upper_length_3: '310'
+taxonomy_7_upper_length_4: '310_'
+taxonomy_7_upper_length_5: 310_M
+taxonomy_8: 290_mm_height
+taxonomy_8_capital: 290 mm Height
+taxonomy_8_first_letter: '2'
+taxonomy_8_first_letter_upper: '2'
+taxonomy_8_length_1: '2'
+taxonomy_8_length_2: '29'
+taxonomy_8_length_3: '290'
+taxonomy_8_length_4: '290_'
+taxonomy_8_length_5: 290_m
+taxonomy_8_upper: 290_MM_HEIGHT
+taxonomy_8_upper_length_1: '2'
+taxonomy_8_upper_length_2: '29'
+taxonomy_8_upper_length_3: '290'
+taxonomy_8_upper_length_4: '290_'
+taxonomy_8_upper_length_5: 290_M
+taxonomy_9: 180_mm_depth
+taxonomy_9_capital: 180 mm Depth
+taxonomy_9_first_letter: '1'
+taxonomy_9_first_letter_upper: '1'
+taxonomy_9_length_1: '1'
+taxonomy_9_length_2: '18'
+taxonomy_9_length_3: '180'
+taxonomy_9_length_4: '180_'
+taxonomy_9_length_5: 180_m
+taxonomy_9_upper: 180_MM_DEPTH
+taxonomy_9_upper_length_1: '1'
+taxonomy_9_upper_length_2: '18'
+taxonomy_9_upper_length_3: '180'
+taxonomy_9_upper_length_4: '180_'
+taxonomy_9_upper_length_5: 180_M
+uniform_drawer_size: true
+unit_dimensions_basis: external
+url_chat: ''
+weight_basis: net_unknown
+weight_kg: null
+width_mm: 310

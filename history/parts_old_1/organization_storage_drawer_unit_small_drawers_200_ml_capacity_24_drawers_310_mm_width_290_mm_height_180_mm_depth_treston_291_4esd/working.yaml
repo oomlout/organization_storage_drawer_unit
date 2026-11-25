@@ -1,0 +1,404 @@
+approved_for_oomp: true
+availability: Available to backorder; stated availability date 2026-10-22
+bip_39_2_word_array:
+- pulp
+- bean
+bip_39_2_word_no_space: pulpbean
+bip_39_2_word_space: pulp bean
+bip_39_2_word_underscore: pulp_bean
+bip_39_3_word_array:
+- pulp
+- bean
+- damp
+bip_39_3_word_no_space: pulpbeandamp
+bip_39_3_word_space: pulp bean damp
+bip_39_3_word_underscore: pulp_bean_damp
+bip_39_full_array:
+- pulp
+- bean
+- damp
+- strike
+- source
+- shine
+- record
+- good
+- vessel
+- valley
+- enlist
+- gold
+bip_39_full_no_space: pulpbeandampstrikesourceshinerecordgoodvesselvalleyenlistgold
+bip_39_full_space: pulp bean damp strike source shine record good vessel valley enlist
+    gold
+bip_39_full_underscore: pulp_bean_damp_strike_source_shine_record_good_vessel_valley_enlist_gold
+capacity_is_estimate: false
+capacity_rounding_increment_ml: 25
+cost_per_drawer_gbp: 6.39
+cost_per_kg_basis: net_unknown
+cost_per_kg_gbp: null
+depth_mm: 180
+directory: parts/organization_storage_drawer_unit_small_drawers_200_ml_capacity_24_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_291_4esd
+drawer_capacity_basis: manufacturer_nominal
+drawer_capacity_ml: 200
+drawer_capacity_unrounded_ml: 200
+drawer_sizes:
+-   capacity_ml: 200
+    capacity_unrounded_ml: 200
+    count: 24
+    depth_mm: 170
+    dimension_basis: external
+    drawer_model: L-61-4ESD
+    height_mm: 40
+    rectangular_volume_ml: 469.2
+    width_mm: 69
+esd_protective: true
+for_sale_url: https://www.rapidonline.com/treston-291-esd-esd-storage-cabinet-24-drawer-14-1266
+height_mm: 290
+id: organization_storage_drawer_unit_small_drawers_200_ml_capacity_24_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_291_4esd
+id_no_class: organization_storage_drawer_unit_small_drawers_200_ml_capacity_24_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_291_4esd
+id_no_size: organization_storage_drawer_unit_small_drawers_200_ml_capacity_24_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_291_4esd
+id_no_type: organization_storage_drawer_unit_small_drawers_200_ml_capacity_24_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_291_4esd
+image_checked_date: '2026-10-18'
+image_source_url: https://www.rapidonline.com/treston-291-esd-esd-storage-cabinet-24-drawer-14-1266
+image_static_path: drawer_photos/15.png
+image_url: https://static.rapidonline.com/catalogueimages/product/14/12/s14-1266p01ws.jpg
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_small_drawers_200_ml_capacity_24_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_291_4esd
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_small_drawers_200_ml_capacity_24_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_291_4esd
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_small_drawers_200_ml_capacity_24_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_291_4esd
+manufacturer: treston
+manufacturer_identity_basis: manufacturer
+manufacturer_stock_code: 291-4ESD
+md5: ad6270dceb8d018becf323f31e1d2b32
+md5_10: ad6270dceb
+md5_10_upper: AD6270DCEB
+md5_5: ad627
+md5_5_upper: AD627
+md5_6: ad6270
+md5_6_alpha: 6rjow
+md5_6_alpha_upper: 6RJOW
+md5_6_upper: AD6270
+minimum_order_quantity: 1
+minimum_order_required_spend_gbp: 153.47
+name: Organization Storage Drawer Unit Small Drawers 200 Ml Capacity 24 Drawers 310
+    Mm Width 290 Mm Height 180 Mm Depth Treston 291 4Esd
+name_no_class: Organization Storage Drawer Unit Small Drawers 200 Ml Capacity 24 Drawers
+    310 Mm Width 290 Mm Height 180 Mm Depth Treston 291 4Esd
+name_no_size: Organization Storage Drawer Unit Small Drawers 200 Ml Capacity 24 Drawers
+    310 Mm Width 290 Mm Height 180 Mm Depth Treston 291 4Esd
+name_no_type: Organization Storage Drawer Unit Small Drawers 200 Ml Capacity 24 Drawers
+    310 Mm Width 290 Mm Height 180 Mm Depth Treston 291 4Esd
+name_proper: Organization Storage Drawer Unit Small Drawers 200 Ml Capacity 24 Drawers
+    310 Mm Width 290 Mm Height 180 Mm Depth Treston 291 4Esd
+name_space: organization storage drawer unit small drawers 200 ml capacity 24 drawers
+    310 mm width 290 mm height 180 mm depth treston 291 4esd
+name_upper: ORGANIZATION STORAGE DRAWER UNIT SMALL DRAWERS 200 ML CAPACITY 24 DRAWERS
+    310 MM WIDTH 290 MM HEIGHT 180 MM DEPTH TRESTON 291 4ESD
+number_of_drawers: 24
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            approved_for_oomp: true
+            availability: Available to backorder; stated availability date 2026-10-22
+            capacity_is_estimate: false
+            capacity_rounding_increment_ml: 25
+            cost_per_drawer_gbp: 6.39
+            cost_per_kg_basis: net_unknown
+            cost_per_kg_gbp: null
+            depth_mm: 180
+            directory: parts\organization_storage_drawer_unit_small_drawers_200_ml_capacity_24_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_291_4esd
+            drawer_capacity_basis: manufacturer_nominal
+            drawer_capacity_ml: 200
+            drawer_capacity_unrounded_ml: 200
+            drawer_sizes:
+            -   capacity_ml: 200
+                capacity_unrounded_ml: 200
+                count: 24
+                depth_mm: 170
+                dimension_basis: external
+                drawer_model: L-61-4ESD
+                height_mm: 40
+                rectangular_volume_ml: 469.2
+                width_mm: 69
+            esd_protective: true
+            for_sale_url: https://www.rapidonline.com/treston-291-esd-esd-storage-cabinet-24-drawer-14-1266
+            height_mm: 290
+            image_checked_date: '2026-10-18'
+            image_source_url: https://www.rapidonline.com/treston-291-esd-esd-storage-cabinet-24-drawer-14-1266
+            image_static_path: drawer_photos/15.png
+            image_url: https://static.rapidonline.com/catalogueimages/product/14/12/s14-1266p01ws.jpg
+            manufacturer: treston
+            manufacturer_identity_basis: manufacturer
+            manufacturer_stock_code: 291-4ESD
+            minimum_order_quantity: 1
+            minimum_order_required_spend_gbp: 153.47
+            name: organization_storage_drawer_unit_small_drawers_200_ml_capacity_24_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_291_4esd
+            name_proper: Organization Storage Drawer Unit Small Drawers 200 Ml Capacity
+                24 Drawers 310 Mm Width 290 Mm Height 180 Mm Depth Treston 291 4Esd
+            name_space: organization storage drawer unit small drawers 200 ml capacity
+                24 drawers 310 mm width 290 mm height 180 mm depth treston 291 4esd
+            name_upper: ORGANIZATION STORAGE DRAWER UNIT SMALL DRAWERS 200 ML CAPACITY
+                24 DRAWERS 310 MM WIDTH 290 MM HEIGHT 180 MM DEPTH TRESTON 291 4ESD
+            number_of_drawers: 24
+            part_number: 291-4ESD
+            part_number_basis: manufacturer_model_number
+            price_excludes_delivery: true
+            price_gbp: 153.47
+            price_includes_vat: true
+            price_source_url: https://www.rapidonline.com/treston-291-esd-esd-storage-cabinet-24-drawer-14-1266
+            product_name: Treston 291-4ESD 24 drawer ESD cabinet
+            proposal_number: 15
+            proposal_revision: 3
+            published_cabinet_capacity_ml: null
+            published_price_ex_vat_gbp: 127.89
+            record_type: purchased_drawer_unit
+            research_date: '2026-10-18'
+            research_notes: Manufacturer specifies 24 identical L-61-4ESD drawers
+                and ESD semiconductive cabinet construction. The drawer manufacturer
+                nominal capacity is 0.2 l (200 ml). Published drawer dimensions are
+                external; their 469.2 ml rectangular envelope is not a usable-capacity
+                estimate and is retained separately. Treston labels 3.4 kg as package
+                weight, so it is recorded as shipping weight only; net unit mass is
+                unknown. Rapid sells one cabinet, currently available to backorder
+                with a stated availability date of 2026-10-22.
+            seller: Rapid Electronics
+            shipping_weight_basis: manufacturer_package_weight
+            shipping_weight_kg: 3.4
+            specification_urls:
+            - https://www.treston.com/storage-systems/bins-and-bin-cabinets/small-parts-storage-cabinets/small-parts-storage-cabinet-8
+            - https://www.treston.com/storage-systems/bins-and-bin-cabinets/storage-picking-and-small-bins/small-drawer-69x170x40-black
+            - https://www.rapidonline.com/treston-291-esd-esd-storage-cabinet-24-drawer-14-1266
+            taxonomy_1: organization
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: treston
+            taxonomy_15: 291_4esd
+            taxonomy_2: storage
+            taxonomy_3: drawer_unit
+            taxonomy_4: small_drawers
+            taxonomy_5: 200_ml_capacity
+            taxonomy_6: 24_drawers
+            taxonomy_7: 310_mm_width
+            taxonomy_8: 290_mm_height
+            taxonomy_9: 180_mm_depth
+            uniform_drawer_size: true
+            unit_dimensions_basis: external
+            url_chat: ''
+            weight_basis: net_unknown
+            weight_kg: null
+            width_mm: 310
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\od\OneDrive\docs\organization_storage_drawer_unit\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomp_key: oomp_organization_storage_drawer_unit_small_drawers_200_ml_capacity_24_drawers_310_mm_width_290_mm_height_180_mm_depth_treston_291_4esd
+part_number: 291-4ESD
+part_number_basis: manufacturer_model_number
+price_excludes_delivery: true
+price_gbp: 153.47
+price_includes_vat: true
+price_source_url: https://www.rapidonline.com/treston-291-esd-esd-storage-cabinet-24-drawer-14-1266
+product_name: Treston 291-4ESD 24 drawer ESD cabinet
+proposal_number: 15
+proposal_revision: 3
+published_cabinet_capacity_ml: null
+published_price_ex_vat_gbp: 127.89
+record_type: purchased_drawer_unit
+research_date: '2026-10-18'
+research_notes: Manufacturer specifies 24 identical L-61-4ESD drawers and ESD semiconductive
+    cabinet construction. The drawer manufacturer nominal capacity is 0.2 l (200 ml).
+    Published drawer dimensions are external; their 469.2 ml rectangular envelope
+    is not a usable-capacity estimate and is retained separately. Treston labels 3.4
+    kg as package weight, so it is recorded as shipping weight only; net unit mass
+    is unknown. Rapid sells one cabinet, currently available to backorder with a stated
+    availability date of 2026-10-22.
+scad_filter: ai_version_7
+scad_navigation: false
+seller: Rapid Electronics
+shipping_weight_basis: manufacturer_package_weight
+shipping_weight_kg: 3.4
+specification_urls:
+- https://www.treston.com/storage-systems/bins-and-bin-cabinets/small-parts-storage-cabinets/small-parts-storage-cabinet-8
+- https://www.treston.com/storage-systems/bins-and-bin-cabinets/storage-picking-and-small-bins/small-drawer-69x170x40-black
+- https://www.rapidonline.com/treston-291-esd-esd-storage-cabinet-24-drawer-14-1266
+taxonomy_1: organization
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: treston
+taxonomy_14_capital: Treston
+taxonomy_14_first_letter: t
+taxonomy_14_first_letter_upper: T
+taxonomy_14_length_1: t
+taxonomy_14_length_2: tr
+taxonomy_14_length_3: tre
+taxonomy_14_length_4: tres
+taxonomy_14_length_5: trest
+taxonomy_14_upper: TRESTON
+taxonomy_14_upper_length_1: T
+taxonomy_14_upper_length_2: TR
+taxonomy_14_upper_length_3: TRE
+taxonomy_14_upper_length_4: TRES
+taxonomy_14_upper_length_5: TREST
+taxonomy_15: 291_4esd
+taxonomy_15_capital: 291.4Esd
+taxonomy_15_first_letter: '2'
+taxonomy_15_first_letter_upper: '2'
+taxonomy_15_length_1: '2'
+taxonomy_15_length_2: '29'
+taxonomy_15_length_3: '291'
+taxonomy_15_length_4: '291_'
+taxonomy_15_length_5: '291_4'
+taxonomy_15_upper: 291_4ESD
+taxonomy_15_upper_length_1: '2'
+taxonomy_15_upper_length_2: '29'
+taxonomy_15_upper_length_3: '291'
+taxonomy_15_upper_length_4: '291_'
+taxonomy_15_upper_length_5: '291_4'
+taxonomy_1_capital: Organization
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: or
+taxonomy_1_length_3: org
+taxonomy_1_length_4: orga
+taxonomy_1_length_5: organ
+taxonomy_1_upper: ORGANIZATION
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OR
+taxonomy_1_upper_length_3: ORG
+taxonomy_1_upper_length_4: ORGA
+taxonomy_1_upper_length_5: ORGAN
+taxonomy_2: storage
+taxonomy_2_capital: Storage
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: st
+taxonomy_2_length_3: sto
+taxonomy_2_length_4: stor
+taxonomy_2_length_5: stora
+taxonomy_2_upper: STORAGE
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: ST
+taxonomy_2_upper_length_3: STO
+taxonomy_2_upper_length_4: STOR
+taxonomy_2_upper_length_5: STORA
+taxonomy_3: drawer_unit
+taxonomy_3_capital: Drawer Unit
+taxonomy_3_first_letter: d
+taxonomy_3_first_letter_upper: D
+taxonomy_3_length_1: d
+taxonomy_3_length_2: dr
+taxonomy_3_length_3: dra
+taxonomy_3_length_4: draw
+taxonomy_3_length_5: drawe
+taxonomy_3_upper: DRAWER_UNIT
+taxonomy_3_upper_length_1: D
+taxonomy_3_upper_length_2: DR
+taxonomy_3_upper_length_3: DRA
+taxonomy_3_upper_length_4: DRAW
+taxonomy_3_upper_length_5: DRAWE
+taxonomy_4: small_drawers
+taxonomy_4_capital: Small Drawers
+taxonomy_4_first_letter: s
+taxonomy_4_first_letter_upper: S
+taxonomy_4_length_1: s
+taxonomy_4_length_2: sm
+taxonomy_4_length_3: sma
+taxonomy_4_length_4: smal
+taxonomy_4_length_5: small
+taxonomy_4_upper: SMALL_DRAWERS
+taxonomy_4_upper_length_1: S
+taxonomy_4_upper_length_2: SM
+taxonomy_4_upper_length_3: SMA
+taxonomy_4_upper_length_4: SMAL
+taxonomy_4_upper_length_5: SMALL
+taxonomy_5: 200_ml_capacity
+taxonomy_5_capital: 200 Ml Capacity
+taxonomy_5_first_letter: '2'
+taxonomy_5_first_letter_upper: '2'
+taxonomy_5_length_1: '2'
+taxonomy_5_length_2: '20'
+taxonomy_5_length_3: '200'
+taxonomy_5_length_4: '200_'
+taxonomy_5_length_5: 200_m
+taxonomy_5_upper: 200_ML_CAPACITY
+taxonomy_5_upper_length_1: '2'
+taxonomy_5_upper_length_2: '20'
+taxonomy_5_upper_length_3: '200'
+taxonomy_5_upper_length_4: '200_'
+taxonomy_5_upper_length_5: 200_M
+taxonomy_6: 24_drawers
+taxonomy_6_capital: 24 Drawers
+taxonomy_6_first_letter: '2'
+taxonomy_6_first_letter_upper: '2'
+taxonomy_6_length_1: '2'
+taxonomy_6_length_2: '24'
+taxonomy_6_length_3: '24_'
+taxonomy_6_length_4: 24_d
+taxonomy_6_length_5: 24_dr
+taxonomy_6_upper: 24_DRAWERS
+taxonomy_6_upper_length_1: '2'
+taxonomy_6_upper_length_2: '24'
+taxonomy_6_upper_length_3: '24_'
+taxonomy_6_upper_length_4: 24_D
+taxonomy_6_upper_length_5: 24_DR
+taxonomy_7: 310_mm_width
+taxonomy_7_capital: 310 mm Width
+taxonomy_7_first_letter: '3'
+taxonomy_7_first_letter_upper: '3'
+taxonomy_7_length_1: '3'
+taxonomy_7_length_2: '31'
+taxonomy_7_length_3: '310'
+taxonomy_7_length_4: '310_'
+taxonomy_7_length_5: 310_m
+taxonomy_7_upper: 310_MM_WIDTH
+taxonomy_7_upper_length_1: '3'
+taxonomy_7_upper_length_2: '31'
+taxonomy_7_upper_length_3: '310'
+taxonomy_7_upper_length_4: '310_'
+taxonomy_7_upper_length_5: 310_M
+taxonomy_8: 290_mm_height
+taxonomy_8_capital: 290 mm Height
+taxonomy_8_first_letter: '2'
+taxonomy_8_first_letter_upper: '2'
+taxonomy_8_length_1: '2'
+taxonomy_8_length_2: '29'
+taxonomy_8_length_3: '290'
+taxonomy_8_length_4: '290_'
+taxonomy_8_length_5: 290_m
+taxonomy_8_upper: 290_MM_HEIGHT
+taxonomy_8_upper_length_1: '2'
+taxonomy_8_upper_length_2: '29'
+taxonomy_8_upper_length_3: '290'
+taxonomy_8_upper_length_4: '290_'
+taxonomy_8_upper_length_5: 290_M
+taxonomy_9: 180_mm_depth
+taxonomy_9_capital: 180 mm Depth
+taxonomy_9_first_letter: '1'
+taxonomy_9_first_letter_upper: '1'
+taxonomy_9_length_1: '1'
+taxonomy_9_length_2: '18'
+taxonomy_9_length_3: '180'
+taxonomy_9_length_4: '180_'
+taxonomy_9_length_5: 180_m
+taxonomy_9_upper: 180_MM_DEPTH
+taxonomy_9_upper_length_1: '1'
+taxonomy_9_upper_length_2: '18'
+taxonomy_9_upper_length_3: '180'
+taxonomy_9_upper_length_4: '180_'
+taxonomy_9_upper_length_5: 180_M
+uniform_drawer_size: true
+unit_dimensions_basis: external
+url_chat: ''
+weight_basis: net_unknown
+weight_kg: null
+width_mm: 310

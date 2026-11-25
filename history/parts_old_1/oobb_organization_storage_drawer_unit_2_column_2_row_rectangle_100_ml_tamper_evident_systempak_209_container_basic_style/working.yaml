@@ -1,0 +1,340 @@
+assembly_component: false
+availability: Print yourself; pots on backorder at research date
+bip_39_2_word_array:
+- kit
+- whale
+bip_39_2_word_no_space: kitwhale
+bip_39_2_word_space: kit whale
+bip_39_2_word_underscore: kit_whale
+bip_39_3_word_array:
+- kit
+- whale
+- lava
+bip_39_3_word_no_space: kitwhalelava
+bip_39_3_word_space: kit whale lava
+bip_39_3_word_underscore: kit_whale_lava
+bip_39_full_array:
+- kit
+- whale
+- lava
+- exile
+- broken
+- boy
+- ten
+- correct
+- transfer
+- apology
+- space
+- spirit
+bip_39_full_no_space: kitwhalelavaexilebrokenboytencorrecttransferapologyspacespirit
+bip_39_full_space: kit whale lava exile broken boy ten correct transfer apology space
+    spirit
+bip_39_full_underscore: kit_whale_lava_exile_broken_boy_ten_correct_transfer_apology_space_spirit
+column: 2
+comparison_image: comparison.png
+comparison_measurement_status: Run action_prepare_drawer_comparison.py to refresh
+    CAD measurements
+comparison_sample: false
+container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+container_short: rectangle_100_ml_tamper_evident_systempak_209
+directory: parts/oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+drawer_capacity_basis: manufacturer_nominal
+drawer_capacity_ml: 100
+drawer_count: 4
+filament_density_g_per_cm3: 1.24
+filament_gbp_per_gram: 0.01
+filament_mass_basis: "Solid CAD volume \xD7 assumed PLA density; includes adhesion\
+    \ ears; excludes purge/supports"
+hardware_cost_basis: No assembly hardware
+id: oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+id_no_class: oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+id_no_size: oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+id_no_type: oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+manufacturer: oomlout
+md5: 7aff35f727d1c83577b984e7214f4169
+md5_10: 7aff35f727
+md5_10_upper: 7AFF35F727
+md5_5: 7aff3
+md5_5_upper: 7AFF3
+md5_6: 7aff35
+md5_6_alpha: 4srp1
+md5_6_alpha_upper: 4SRP1
+md5_6_upper: 7AFF35
+name: Oobb Organization Storage Drawer Unit 2 Column 2 Row Rectangle 100 Ml Tamper
+    Evident Systempak 209 Container Basic Style
+name_no_class: Oobb Organization Storage Drawer Unit 2 Column 2 Row Rectangle 100
+    Ml Tamper Evident Systempak 209 Container Basic Style
+name_no_size: Oobb Organization Storage Drawer Unit 2 Column 2 Row Rectangle 100 Ml
+    Tamper Evident Systempak 209 Container Basic Style
+name_no_type: Oobb Organization Storage Drawer Unit 2 Column 2 Row Rectangle 100 Ml
+    Tamper Evident Systempak 209 Container Basic Style
+name_proper: Oobb Organization Storage Drawer Unit 2 Column 2 Row Rectangle 100 Ml
+    Tamper Evident Systempak 209 Container Basic Style
+name_space: oobb organization storage drawer unit 2 column 2 row rectangle 100 ml
+    tamper evident systempak 209 container basic style
+name_upper: OOBB ORGANIZATION STORAGE DRAWER UNIT 2 COLUMN 2 ROW RECTANGLE 100 ML
+    TAMPER EVIDENT SYSTEMPAK 209 CONTAINER BASIC STYLE
+oobb_details:
+    column: 2
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    oobb_name: basic
+    row: 2
+    style: basic
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: 2_column
+    taxonomy_6: 2_row
+    taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+    taxonomy_8: basic_style
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            assembly_component: false
+            availability: Print yourself; pots on backorder at research date
+            column: 2
+            comparison_image: comparison.png
+            comparison_measurement_status: Run action_prepare_drawer_comparison.py
+                to refresh CAD measurements
+            comparison_sample: false
+            container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+            container_short: rectangle_100_ml_tamper_evident_systempak_209
+            directory: parts\oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+            drawer_capacity_basis: manufacturer_nominal
+            drawer_capacity_ml: 100
+            drawer_count: 4
+            filament_density_g_per_cm3: 1.24
+            filament_gbp_per_gram: 0.01
+            filament_mass_basis: "Solid CAD volume \xD7 assumed PLA density; includes\
+                \ adhesion ears; excludes purge/supports"
+            hardware_cost_basis: No assembly hardware
+            manufacturer: oomlout
+            name: oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+            name_proper: Oobb Organization Storage Drawer Unit 2 Column 2 Row Rectangle
+                100 Ml Tamper Evident Systempak 209 Container Basic Style
+            name_space: oobb organization storage drawer unit 2 column 2 row rectangle
+                100 ml tamper evident systempak 209 container basic style
+            name_upper: OOBB ORGANIZATION STORAGE DRAWER UNIT 2 COLUMN 2 ROW RECTANGLE
+                100 ML TAMPER EVIDENT SYSTEMPAK 209 CONTAINER BASIC STYLE
+            oobb_details:
+                column: 2
+                container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+                container_short: rectangle_100_ml_tamper_evident_systempak_209
+                oobb_name: basic
+                row: 2
+                style: basic
+                taxonomy_1: oobb
+                taxonomy_2: organization
+                taxonomy_3: storage
+                taxonomy_4: drawer_unit
+                taxonomy_5: 2_column
+                taxonomy_6: 2_row
+                taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+                taxonomy_8: basic_style
+            pot_cost_details:
+                availability: On backorder
+                capacity_ml: 100
+                checked_date: '2026-10-18'
+                manufacturer: Systempak
+                pack_price_ex_vat_gbp: 60.95
+                pack_quantity: 500
+                part_number: '209'
+                price_basis: Single carton of 500 pots and lids; lids unused; delivery
+                    excluded
+                price_source_url: https://systempak.net/product/100ml-rectangular-tamper-evident-containers-and-lids/
+                unit_price_gbp: 0.14628
+                vat_rate: 0.2
+                weight_g: 8.0
+                weight_source_url: https://systempak.net/wp-content/uploads/2024/03/TDS-209-100ML.pdf
+            pot_quantity: 4
+            price_excludes_delivery: true
+            price_includes_vat: true
+            print_instruction: ''
+            product_name: "Printed 2 \xD7 2 \xB7 Systempak 209 \xB7 basic"
+            record_type: printed_drawer_unit
+            row: 2
+            style: basic
+            taxonomy_1: oobb
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: organization
+            taxonomy_3: storage
+            taxonomy_4: drawer_unit
+            taxonomy_5: 2_column
+            taxonomy_6: 2_row
+            taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+            taxonomy_8: basic_style
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\od\OneDrive\docs\organization_storage_drawer_unit\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomp_key: oomp_oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+pot_cost_details:
+    availability: On backorder
+    capacity_ml: 100
+    checked_date: '2026-10-18'
+    manufacturer: Systempak
+    pack_price_ex_vat_gbp: 60.95
+    pack_quantity: 500
+    part_number: '209'
+    price_basis: Single carton of 500 pots and lids; lids unused; delivery excluded
+    price_source_url: https://systempak.net/product/100ml-rectangular-tamper-evident-containers-and-lids/
+    unit_price_gbp: 0.14628
+    vat_rate: 0.2
+    weight_g: 8.0
+    weight_source_url: https://systempak.net/wp-content/uploads/2024/03/TDS-209-100ML.pdf
+pot_quantity: 4
+price_excludes_delivery: true
+price_includes_vat: true
+print_instruction: ''
+product_name: "Printed 2 \xD7 2 \xB7 Systempak 209 \xB7 basic"
+record_type: printed_drawer_unit
+row: 2
+scad_filter: ai_version_7
+scad_navigation: false
+style: basic
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: organization
+taxonomy_2_capital: Organization
+taxonomy_2_first_letter: o
+taxonomy_2_first_letter_upper: O
+taxonomy_2_length_1: o
+taxonomy_2_length_2: or
+taxonomy_2_length_3: org
+taxonomy_2_length_4: orga
+taxonomy_2_length_5: organ
+taxonomy_2_upper: ORGANIZATION
+taxonomy_2_upper_length_1: O
+taxonomy_2_upper_length_2: OR
+taxonomy_2_upper_length_3: ORG
+taxonomy_2_upper_length_4: ORGA
+taxonomy_2_upper_length_5: ORGAN
+taxonomy_3: storage
+taxonomy_3_capital: Storage
+taxonomy_3_first_letter: s
+taxonomy_3_first_letter_upper: S
+taxonomy_3_length_1: s
+taxonomy_3_length_2: st
+taxonomy_3_length_3: sto
+taxonomy_3_length_4: stor
+taxonomy_3_length_5: stora
+taxonomy_3_upper: STORAGE
+taxonomy_3_upper_length_1: S
+taxonomy_3_upper_length_2: ST
+taxonomy_3_upper_length_3: STO
+taxonomy_3_upper_length_4: STOR
+taxonomy_3_upper_length_5: STORA
+taxonomy_4: drawer_unit
+taxonomy_4_capital: Drawer Unit
+taxonomy_4_first_letter: d
+taxonomy_4_first_letter_upper: D
+taxonomy_4_length_1: d
+taxonomy_4_length_2: dr
+taxonomy_4_length_3: dra
+taxonomy_4_length_4: draw
+taxonomy_4_length_5: drawe
+taxonomy_4_upper: DRAWER_UNIT
+taxonomy_4_upper_length_1: D
+taxonomy_4_upper_length_2: DR
+taxonomy_4_upper_length_3: DRA
+taxonomy_4_upper_length_4: DRAW
+taxonomy_4_upper_length_5: DRAWE
+taxonomy_5: 2_column
+taxonomy_5_capital: 2 Column
+taxonomy_5_first_letter: '2'
+taxonomy_5_first_letter_upper: '2'
+taxonomy_5_length_1: '2'
+taxonomy_5_length_2: '2_'
+taxonomy_5_length_3: 2_c
+taxonomy_5_length_4: 2_co
+taxonomy_5_length_5: 2_col
+taxonomy_5_upper: 2_COLUMN
+taxonomy_5_upper_length_1: '2'
+taxonomy_5_upper_length_2: '2_'
+taxonomy_5_upper_length_3: 2_C
+taxonomy_5_upper_length_4: 2_CO
+taxonomy_5_upper_length_5: 2_COL
+taxonomy_6: 2_row
+taxonomy_6_capital: 2 Row
+taxonomy_6_first_letter: '2'
+taxonomy_6_first_letter_upper: '2'
+taxonomy_6_length_1: '2'
+taxonomy_6_length_2: '2_'
+taxonomy_6_length_3: 2_r
+taxonomy_6_length_4: 2_ro
+taxonomy_6_length_5: 2_row
+taxonomy_6_upper: 2_ROW
+taxonomy_6_upper_length_1: '2'
+taxonomy_6_upper_length_2: '2_'
+taxonomy_6_upper_length_3: 2_R
+taxonomy_6_upper_length_4: 2_RO
+taxonomy_6_upper_length_5: 2_ROW
+taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+taxonomy_7_capital: Rectangle 100 Ml Tamper Evident Systempak 209 Container
+taxonomy_7_first_letter: r
+taxonomy_7_first_letter_upper: R
+taxonomy_7_length_1: r
+taxonomy_7_length_2: re
+taxonomy_7_length_3: rec
+taxonomy_7_length_4: rect
+taxonomy_7_length_5: recta
+taxonomy_7_upper: RECTANGLE_100_ML_TAMPER_EVIDENT_SYSTEMPAK_209_CONTAINER
+taxonomy_7_upper_length_1: R
+taxonomy_7_upper_length_2: RE
+taxonomy_7_upper_length_3: REC
+taxonomy_7_upper_length_4: RECT
+taxonomy_7_upper_length_5: RECTA
+taxonomy_8: basic_style
+taxonomy_8_capital: Basic Style
+taxonomy_8_first_letter: b
+taxonomy_8_first_letter_upper: B
+taxonomy_8_length_1: b
+taxonomy_8_length_2: ba
+taxonomy_8_length_3: bas
+taxonomy_8_length_4: basi
+taxonomy_8_length_5: basic
+taxonomy_8_upper: BASIC_STYLE
+taxonomy_8_upper_length_1: B
+taxonomy_8_upper_length_2: BA
+taxonomy_8_upper_length_3: BAS
+taxonomy_8_upper_length_4: BASI
+taxonomy_8_upper_length_5: BASIC
+taxonomy_9: ''
+url_chat: ''

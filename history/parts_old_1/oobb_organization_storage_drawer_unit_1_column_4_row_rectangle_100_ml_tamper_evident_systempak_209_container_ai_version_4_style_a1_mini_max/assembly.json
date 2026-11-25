@@ -1,0 +1,27 @@
+{
+  "bom": {
+    "front": 1,
+    "back": 1,
+    "rail": 10,
+    "bottom_rail": 2,
+    "M3_countersunk_screw_16_mm": 24,
+    "M3_nut": 24
+  },
+  "views": {
+    "face_plate": "face_plate",
+    "front": "front",
+    "back": "back",
+    "rail": "rail",
+    "bottom_rail": "bottom_rail",
+    "assembled": "assembled",
+    "rails_plate_01": "rails_plate_01",
+    "rails_plate_02": "rails_plate_02"
+  },
+  "rail_length_mm": 95.5,
+  "plate_thickness_mm": 7.5,
+  "identical_face_plates": false,
+  "front_lip": true,
+  "rear_lip": false,
+  "nut_loading": "left",
+  "physical_fit": "Not yet printed"
+}

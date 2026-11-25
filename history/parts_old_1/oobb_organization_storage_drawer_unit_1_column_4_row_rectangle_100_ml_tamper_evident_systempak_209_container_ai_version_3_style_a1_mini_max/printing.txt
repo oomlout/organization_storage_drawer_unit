@@ -1,0 +1,7 @@
+3dpr.scad: both halves flat, joint upward, separated on Z=0.
+front.scad: front half alone, print orientation.
+back.scad: back half alone, print orientation.
+assembled.scad: assembled reference only; do not print as one piece.
+Full export or the matching version validator writes matching STL files.
+
+The combined layout exceeds the declared bed. Print front and back on separate plates using their individual files.

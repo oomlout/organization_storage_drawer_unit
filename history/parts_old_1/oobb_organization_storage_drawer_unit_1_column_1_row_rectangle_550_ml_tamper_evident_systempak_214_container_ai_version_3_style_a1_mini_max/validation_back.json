@@ -1,0 +1,107 @@
+{
+  "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_3_style_a1_mini_max",
+  "file": "back",
+  "design": {
+    "envelope_mm": [
+      98.5,
+      139.0,
+      54.75
+    ],
+    "assembled_envelope_mm": [
+      98.5,
+      106.0,
+      109.5
+    ],
+    "print_layout_fits_single_bed": null,
+    "print_layout_gap_mm": null,
+    "finished_envelope_mm": [
+      98.5,
+      106.0,
+      54.75
+    ],
+    "adhesion_ears": true,
+    "ear_count": 4,
+    "printer": "Bambu Lab A1 mini",
+    "build_volume_mm": [
+      180.0,
+      180.0,
+      180.0
+    ],
+    "bed_margin_mm": 2.0,
+    "catch_projection_mm": 0,
+    "catch_ramp_depth_mm": 6.0,
+    "cutout_revision": "ai_version_3_outer_lower_supports_only",
+    "internal_lower_supports_removed": false,
+    "connections_per_vertical_boundary": 3,
+    "running_shelf_thickness_mm": 4.0,
+    "hardware_boss_band_mm": 12.0,
+    "hardware_boss_slope": 1.2,
+    "shelf_relief_active": true,
+    "assembly_half": "back",
+    "assembled_depth_mm": 109.5,
+    "half_body_depth_mm": 54.75,
+    "interlock_depth_mm": 3.0,
+    "interlock_clearance_per_side_mm": 0.25,
+    "corner_interlock_diameter_mm": 2.8,
+    "corner_interlock_count": 4,
+    "screw_length_mm": 16.0,
+    "head_seat_offset_mm": 6.0,
+    "nut_seat_offset_mm": 7.0,
+    "screw_count": 2,
+    "printable": true,
+    "lip_inset_mm": 5.5,
+    "lip_step_height_mm": 12.0,
+    "lip_shelf_thickness_mm": 10.0,
+    "lip_support_channel_height_mm": 27.5,
+    "body_extension_height_mm": 67.5,
+    "centre_support_width_mm": 0.0,
+    "opening_mm": [
+      87.5,
+      95.0
+    ],
+    "pitch_mm": [
+      89.3,
+      96.8
+    ],
+    "expected_bodies": 1,
+    "drawer_count": 1,
+    "part_role": "frame",
+    "print_orientation": "Outer face on bed, joint upward; back rotates 180 degrees about Y for assembly. The assembled.scad file is reference only; use front/back files for separate plates.",
+    "physical_validation": "Pending container-fit, printing, shrinkage and load tests"
+  },
+  "volume_mm3": 40039.29281845346,
+  "mesh_envelope_mm": [
+    98.5,
+    139.0,
+    54.75
+  ],
+  "checks": {
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "expected_connected_bodies": true,
+    "expected_envelope": true,
+    "on_print_bed": true,
+    "fits_printer_volume": true,
+    "lip_shelf_and_root_present": true,
+    "lip_bearing_face_clear_below": true,
+    "shoulders_limited_to_reference_height": true,
+    "thin_side_walls_retained_at_end_bands": true,
+    "side_reliefs_open_above_and_below_shelf": true,
+    "centre_support_removed": true,
+    "hardware_access_open": true,
+    "hardware_seat_retained": true,
+    "shaft_open": true,
+    "interlock_profile_present": true,
+    "thin_running_rail_retained": true,
+    "rail_material_removed": true,
+    "sloped_boss_profile_present": true,
+    "full_joint_boss_retained": true,
+    "all_corner_interlocks_present": true,
+    "corner_socket_walls_retained": true,
+    "no_unsupported_faces_outside_hardware_seats": true
+  },
+  "unexpected_downward_area_mm2": 0.0,
+  "hardware_seat_bridge_area_mm2": 49.03018569575215,
+  "bridge_note": "Only localized socket-cap/nut seat bridges are allowed; inspect OOBB bridging in the slicer."
+}
