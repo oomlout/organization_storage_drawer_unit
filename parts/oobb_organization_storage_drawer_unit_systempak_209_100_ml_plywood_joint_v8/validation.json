@@ -1,7 +1,34 @@
 {
   "plywood_joint": {
     "single_printed_body": true,
+    "plate_mm": 3.0,
+    "plate_section_mm2": 289.77,
+    "outer_edge_from_beam_mm": 21.6,
     "original_m3_seats_and_guides": 1,
+    "wood_clearance_mm": 4
+  },
+  "plywood_double_41p5": {
+    "single_printed_body": true,
+    "plate_mm": 3.0,
+    "plate_section_mm2": 1061.87,
+    "outer_edge_from_beam_mm": 21.6,
+    "original_m3_seats_and_guides": 2,
+    "wood_clearance_mm": 4
+  },
+  "plywood_double_32p5": {
+    "single_printed_body": true,
+    "plate_mm": 3.0,
+    "plate_section_mm2": 866.4,
+    "outer_edge_from_beam_mm": 21.6,
+    "original_m3_seats_and_guides": 2,
+    "wood_clearance_mm": 4
+  },
+  "plywood_double_34p5": {
+    "single_printed_body": true,
+    "plate_mm": 3.0,
+    "plate_section_mm2": 915.5,
+    "outer_edge_from_beam_mm": 21.6,
+    "original_m3_seats_and_guides": 2,
     "wood_clearance_mm": 4
   },
   "installed": {
@@ -9,11 +36,27 @@
       "plywood_joint": {
         "front": {
           "placements": 4,
+          "face_hole_cap_and_label_checks": 4,
           "withdrawal_paths": 4,
-          "max_intersection_mm3": 1e-05
+          "max_intersection_mm3": 3e-05
         },
         "rear": {
           "placements": 4,
+          "face_hole_cap_and_label_checks": 4,
+          "withdrawal_paths": 4,
+          "max_intersection_mm3": 1e-05
+        }
+      },
+      "plywood_double_41p5": {
+        "front": {
+          "placements": 2,
+          "face_hole_cap_and_label_checks": 4,
+          "withdrawal_paths": 4,
+          "max_intersection_mm3": 3e-05
+        },
+        "rear": {
+          "placements": 2,
+          "face_hole_cap_and_label_checks": 4,
           "withdrawal_paths": 4,
           "max_intersection_mm3": 1e-05
         }
@@ -23,11 +66,27 @@
       "plywood_joint": {
         "front": {
           "placements": 4,
+          "face_hole_cap_and_label_checks": 4,
           "withdrawal_paths": 16,
-          "max_intersection_mm3": 1e-05
+          "max_intersection_mm3": 5e-05
         },
         "rear": {
           "placements": 4,
+          "face_hole_cap_and_label_checks": 4,
+          "withdrawal_paths": 16,
+          "max_intersection_mm3": 2e-05
+        }
+      },
+      "plywood_double_41p5": {
+        "front": {
+          "placements": 2,
+          "face_hole_cap_and_label_checks": 4,
+          "withdrawal_paths": 16,
+          "max_intersection_mm3": 5e-05
+        },
+        "rear": {
+          "placements": 2,
+          "face_hole_cap_and_label_checks": 4,
           "withdrawal_paths": 16,
           "max_intersection_mm3": 1e-05
         }
@@ -37,13 +96,43 @@
       "plywood_joint": {
         "front": {
           "placements": 4,
+          "face_hole_cap_and_label_checks": 4,
           "withdrawal_paths": 56,
-          "max_intersection_mm3": 1e-05
+          "max_intersection_mm3": 7e-05
         },
         "rear": {
           "placements": 4,
+          "face_hole_cap_and_label_checks": 4,
           "withdrawal_paths": 56,
-          "max_intersection_mm3": 1e-05
+          "max_intersection_mm3": 3e-05
+        }
+      },
+      "plywood_double_32p5": {
+        "front": {
+          "placements": 2,
+          "face_hole_cap_and_label_checks": 4,
+          "withdrawal_paths": 56,
+          "max_intersection_mm3": 7e-05
+        },
+        "rear": {
+          "placements": 2,
+          "face_hole_cap_and_label_checks": 4,
+          "withdrawal_paths": 56,
+          "max_intersection_mm3": 3e-05
+        }
+      },
+      "plywood_double_34p5": {
+        "front": {
+          "placements": 2,
+          "face_hole_cap_and_label_checks": 4,
+          "withdrawal_paths": 56,
+          "max_intersection_mm3": 7e-05
+        },
+        "rear": {
+          "placements": 2,
+          "face_hole_cap_and_label_checks": 4,
+          "withdrawal_paths": 56,
+          "max_intersection_mm3": 3e-05
         }
       }
     }

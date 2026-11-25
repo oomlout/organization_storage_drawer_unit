@@ -2,7 +2,7 @@
 
 The preferred online name is Martin McDoozle. Preserve actual paths and technical identifiers.
 
-V8 includes three double-sided Systempak 209 frames, independent module joiners, a frame-to-plywood joint and the nine-frame cabinet. All four outer mounts use screw beams. Both joint types replace the individual outside adapters and reuse the M3 x 20 beam screws.
+V8 includes three double-sided Systempak 209 frames, independent module joiners, a frame-to-plywood joint and the nine-frame cabinet. All four outer mounts use screw beams. The 3 mm plates replace the outside adapters and reuse the M3 x 20 beam screws. At each plywood side, use a single-beam plate at an outside corner and a two-beam plate at a tier seam. Their outer edges finish flush with the plywood.
 
 Always generate in the order `working_oomp_populate` → `working_oomp` → `working_scad` using `python action_make_all.py`. The population source owns the container for every frame, the active grids and accessory compatibility. Edit the responsible source stage, then regenerate the output. Keep solids in `working_scad.py` and subtractive geometry in `working_scad_container_cutout.py`. Use OOBB primitives for fasteners. The shared interface and manufacturing dimensions are in `v8_profile.yaml`.
 

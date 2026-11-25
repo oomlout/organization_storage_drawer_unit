@@ -20,10 +20,10 @@
     "array_unit": 9,
     "floor_strip": 24,
     "plywood_joint": 8,
-    "wood_16": 8,
+    "wood_16": 16,
     "beam_screw": 72,
     "beam_nut": 72,
-    "edge_upright": 8,
+    "plywood_double": 8,
     "edge_across": 8,
     "tee4": 8
   },
@@ -34,7 +34,7 @@
     "cap_w": 617.4000000000001,
     "depth": 209.0,
     "face_t": 6.0,
-    "tie_t": 2.4,
+    "tie_t": 3.0,
     "hole_x": 89.3,
     "low_y": 99.65,
     "stations": [
@@ -45,8 +45,10 @@
       187.0
     ],
     "retainer_y": [
-      22.599999999999994,
-      655.0000000000001
+      22.6,
+      227.65,
+      449.95,
+      655.0
     ]
   }
 }

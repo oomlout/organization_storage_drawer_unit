@@ -858,9 +858,12 @@ def cabinet_fastener(kind,p):
 
 # Shared by the independent joint records and the cabinet. Z=0 is the outside print face.
 BEAM_JOINT_SOLIDS = """
-module foot(p,r) { translate(p) circle(r=r); }
-module strap(a,b,ra,rb) { hull(){ foot(a,ra); foot(b,rb); } }
-module beam_joint(holes,spine=[],wood=[]) {
+module plate_outline(bounds) {
+  r=2;
+  offset(r=r) translate([bounds[0]+r,bounds[1]+r])
+    square([bounds[2]-bounds[0]-2*r,bounds[3]-bounds[1]-2*r]);
+}
+module beam_joint(holes,bounds,wood=[],access=[]) {
   union(){
     for(p=holes) translate(p) intersection(){
       native_adapter();
@@ -868,14 +871,13 @@ module beam_joint(holes,spine=[],wood=[]) {
     }
     difference(){
       linear_extrude(tie_t) union(){
-        if(len(wood)) strap(holes[0],wood,4,4.6);
-        else if(len(spine)==0) strap(holes[0],holes[1],4,4);
-        else {
-          strap(spine[0],spine[1],2.65,2.65);
-          for(p=holes) strap(p,[spine[0][0],p[1]],4,2.65);
+        plate_outline(bounds);
+        for(p=holes) hull(){
+          translate(p) circle(r=4.1);
+          translate([p[0]+(p[0]==0 ? 3 : -3),p[1]]) circle(r=4.1);
         }
       }
-      joint_bores(holes,wood);
+      joint_bores(holes,wood,access);
     }
   }
 }

@@ -82,6 +82,11 @@ class V8CatalogueTests(unittest.TestCase):
             holes,_,wood = pattern("plywood_joint",inset)
             self.assertAlmostEqual(hx+wood[0],p["frame"]["width_total"]/2+6)
             self.assertEqual(holes,[[0,0]])
+            pitch = round(p["frame"]["height_total"] - lower + upper, 5)
+            paired, outline, pilot = pattern("plywood_double", inset, pitch)
+            self.assertEqual(paired, [[0,0],[0,pitch]])
+            self.assertEqual(pilot, [wood[0],pitch/2])
+            self.assertAlmostEqual(hx+outline[2], p["frame"]["width_total"]/2+12)
             self.assertEqual(p["screw"]["length"],20)
 
     def test_make_all_order_and_stale_files(self):

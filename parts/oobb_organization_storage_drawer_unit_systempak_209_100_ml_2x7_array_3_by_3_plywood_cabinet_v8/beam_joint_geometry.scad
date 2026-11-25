@@ -1,10 +1,12 @@
 $fn=64;
-tie_t=2.4;
+tie_t=3.0;
 module native_adapter(){
 include <native_adapter.scad>
 }
 
-module joint_bores(holes,wood) {
+module joint_bores(holes,wood,access) {
+  for(slot=access) hull()
+    for(y=[slot[1],slot[2]]) translate([slot[0],y,-.05]) cylinder(r=slot[3],h=tie_t+.1);
   // Leave the OOBB countersink and pilot cheeks of each native adapter intact.
   for(p=holes) translate([p[0],p[1],-.05]) cylinder(d=7,h=tie_t+.1);
   if(len(wood)) translate(wood) {
@@ -13,9 +15,12 @@ module joint_bores(holes,wood) {
   }
 }
 
-module foot(p,r) { translate(p) circle(r=r); }
-module strap(a,b,ra,rb) { hull(){ foot(a,ra); foot(b,rb); } }
-module beam_joint(holes,spine=[],wood=[]) {
+module plate_outline(bounds) {
+  r=2;
+  offset(r=r) translate([bounds[0]+r,bounds[1]+r])
+    square([bounds[2]-bounds[0]-2*r,bounds[3]-bounds[1]-2*r]);
+}
+module beam_joint(holes,bounds,wood=[],access=[]) {
   union(){
     for(p=holes) translate(p) intersection(){
       native_adapter();
@@ -23,14 +28,13 @@ module beam_joint(holes,spine=[],wood=[]) {
     }
     difference(){
       linear_extrude(tie_t) union(){
-        if(len(wood)) strap(holes[0],wood,4,4.6);
-        else if(len(spine)==0) strap(holes[0],holes[1],4,4);
-        else {
-          strap(spine[0],spine[1],2.65,2.65);
-          for(p=holes) strap(p,[spine[0][0],p[1]],4,2.65);
+        plate_outline(bounds);
+        for(p=holes) hull(){
+          translate(p) circle(r=4.1);
+          translate([p[0]+(p[0]==0 ? 3 : -3),p[1]]) circle(r=4.1);
         }
       }
-      joint_bores(holes,wood);
+      joint_bores(holes,wood,access);
     }
   }
 }

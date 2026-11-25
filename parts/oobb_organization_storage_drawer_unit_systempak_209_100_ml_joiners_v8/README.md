@@ -1,8 +1,10 @@
 # Corner screw-beam joining brackets
 
-Join adjacent modules using the M3 × 20 countersunk screws and captive nuts already in their outer corner beams. Fit a bracket at each shared junction on both faces.
+The solid 3 mm plates join adjacent modules using the M3 × 20 countersunk screws and captive nuts already in their outer corner beams. Fit a plate at each shared junction on both faces. The reliefs keep the spare faceplate holes accessible.
 
-Print flat with the guide cheeks facing up. Remove the individual adapters and screws from the corners being joined. Leave each nut in its beam. Press the bracket guides into those receivers and reinstall the same screws. For a two-hole upright, point the narrow spine toward the outside edge. Rotate the bracket in its own plane to fit the opposite side. Use the across strip for a left-to-right seam and a four-hole bracket where four frames meet. On a 2x7 below a vertical joint, centre its first two fixed location labels 9.65 and 20.85 mm below the top corner beam axis.
+The plate sits 3 mm proud of the frame. The locating cheeks extend 2.95 mm into the original receivers.
+
+Print flat with the guide cheeks facing up. Remove the individual adapters and screws from the corners being joined. Leave each nut in its beam. Press the bracket guides into those receivers and reinstall the same screws. For a two-hole upright, place the long straight edge toward the outside of the frame. Rotate the bracket in its own plane to fit the opposite side. Use the across strip for a left-to-right seam and a four-hole bracket where four frames meet. On a 2x7 below a vertical joint, centre its first two fixed location labels 9.65 and 20.85 mm below the top corner beam axis.
 
 | Part | Applications | Editable CAD |
 | --- | --- | --- |

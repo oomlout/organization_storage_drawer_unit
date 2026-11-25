@@ -149,7 +149,7 @@ def retire_previous_outputs(folder, record):
     if record["part_role"] == "cabinet":
         patterns = ["frame_drill.dxf", "host_assembled.*", "host_front.*", "host_back.*",
                     "m3_socket.*", "m3_nut.*", "retainer.*", "*_outline.scad",
-                    "edge_across.dxf", "edge_upright.dxf", "tee4.dxf"]
+                    "edge_across.dxf", "edge_upright.dxf", "edge_upright.scad", "edge_upright.stl", "tee4.dxf"]
     for pattern in patterns:
         for path in folder.glob(pattern):
             if path.is_file():

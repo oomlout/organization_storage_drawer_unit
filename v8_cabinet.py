@@ -18,7 +18,7 @@ import trimesh
 
 import working_scad as cad
 import working_scad_container_cutout as cuts
-from working_oomp_populate import record_id
+from working_oomp_populate import get_current_options, record_id
 from presentation.scenes import pose
 
 
@@ -57,17 +57,21 @@ def plan(record, host):
         cap_w=iw + 2 * (t + cfg["cap_overhang_mm"]),
         depth=d,
         face_t=q["plate_thickness"],
-        tie_t=p["screw"]["flange_size"][2],
+        tie_t=joints.JOINT_PLATE_MM,
         hole_x=hx,
         low_y=low,
         stations=[22, round(d * 0.28, 1), d / 2, round(d * 0.72, 1), d - 22],
-        retainer_y=[top_gap + h/2 + upper, ih - h/2 + low],
+        retainer_y=[],
     )
     parts = []
+    profiles = [
+        cad.frame_parameters(**r)
+        for r in get_current_options()
+        if r["part_role"] == "frame" and r["taxonomy_5"] == host["taxonomy_5"]
+    ]
     defs = {
         "cap": "cap_panel();",
         "side": "side_panel();",
-        "plywood_joint": joints.expression(joints.pattern("plywood_joint", inset+gap, plywood=t)),
         "floor_strip": f"cube([{cfg['runner_width_mm']},{rt},{d}]);",
         "dowel": "dowel();",
         "wood_30": "wood_screw(30);",
@@ -116,55 +120,63 @@ def plan(record, host):
                             ),
                             "aluminium",
                         )
-    counts = Counter()
     for (vx, vy), points in vertices.items():
         anchor = np.array(points[0])
         local = np.round(np.array(points) - anchor, 5)
-        if len(points) > 1:
-            ys = sorted(set(local[:, 1]))
-            key = "tee4" if len(points) == 4 else ("edge_upright" if len(ys)>1 else "edge_across")
-            sign = -1 if key == "edge_upright" and vx == 0 else 1
-            shape = joints.pattern(key, inset, round(ys[-1]-ys[0],5))
-            installed = sorted((round(x*sign,5),round(y,5)) for x,y in shape[0])
-            if installed != sorted(map(tuple,local)):
-                raise ValueError(f"{key} does not align with the host beam axes")
-            defs[key] = joints.expression(shape)
-            patterns[key] = shape
+        side = vx in (0, nx)
+        vertical = len(set(local[:, 1])) > 1
+        if side:
+            key = "plywood_double" if vertical else "plywood_joint"
+        elif vertical:
+            key = "tee4"
+        else:
+            key = "edge_across"
+        sign = -1 if vx == 0 else 1
+        pitch = round(float(np.ptp(local[:, 1])), 5)
+        shape = joints.pattern(key, inset + gap if side else inset, pitch, t)
+        installed = sorted((round(x * sign, 5), round(y, 5)) for x, y in shape[0])
+        if installed != sorted(map(tuple, local)):
+            raise ValueError(f"{key} does not align with the host beam axes")
+        defs[key] = joints.expression(shape, profiles)
+        patterns[key] = shape
+        if side:
+            wood_x = anchor[0] + sign * shape[2][0]
+            wood_y = anchor[1] + shape[2][1]
+            if vx == 0:
+                params["retainer_y"].append(round(wood_y - top, 5))
         for back in (False, True):
-            # Face-local XY stays in front-view coordinates; inward Z reverses at rear.
             face = pose(z=d if back else 0) @ mirror(z=-1 if back else 1)
             push = 50 if back else -50
-            if len(points) > 1:
-                add(key, face @ pose(*anchor, -params["tie_t"]) @ mirror(x=sign), "cap", 0, 0, push)
-                counts[key] += 1
-            else:
-                sx = -1 if vx == 0 else 1
+            add(
+                key,
+                face @ pose(*anchor, -params["tie_t"]) @ mirror(x=sign),
+                "cap",
+                sign * 45 if side else 0,
+                0,
+                push,
+            )
+            if side:
                 add(
-                    "plywood_joint",
-                    face @ pose(*anchor, -params["tie_t"]) @ mirror(x=sx),
-                    "cap",
-                    sx * 45,
-                    0,
-                    push,
-                )
-                add(
-                    "wood_16",
-                    face @ pose(sx * (iw + t) / 2, anchor[1], -params["tie_t"]),
-                    "metal",
-                    sx * 115,
-                    0,
-                    push,
+                    "wood_16", face @ pose(wood_x, wood_y, -params["tie_t"]), "metal", sign * 115, 0, push
                 )
             for x, y in points:
                 add("beam_screw", face @ pose(x, y, -params["tie_t"] + 0.55), "metal", 0, 0, push)
-                add("beam_nut", face @ pose(x, y, params["face_t"] + p["screw"]["nut_near"]), "metal", 0, 0, push)
+                add(
+                    "beam_nut",
+                    face @ pose(x, y, params["face_t"] + p["screw"]["nut_near"]),
+                    "metal",
+                    0,
+                    0,
+                    push,
+                )
+    params["retainer_y"].sort()
     return p, params, defs, patterns, parts, units
 
 
 def component_files(folder, host_folder, params, defs, export, host, p):
     from v8_manufacturing import openscad
 
-    joints.library(folder, p, host_folder)
+    joints.library(folder, p)
     lines = [f"{k}={json.dumps(v)};" for k, v in params.items()]
     (folder / "cabinet_geometry.scad").write_text(
         "\n".join(lines) + "\n$fn=64;\n" + cuts.CABINET_CUTS + cad.CABINET_SOLIDS
@@ -316,6 +328,13 @@ def validate(folder, parts, units, params, p, host):
     expected = (params["cap_w"] - params["inside_w"]) / 2 - params["t"]
     if not np.allclose(cap_beyond_side, expected, atol=0.001):
         raise ValueError("Exported cap edges do not match the specified side faces")
+    plywood_plates = [
+        obj.bounding_box() for name, obj in objects if name in ("plywood_joint", "plywood_double")
+    ]
+    outside = params["inside_w"] / 2 + params["t"]
+    edge_error = max(abs(max(abs(bb[0]), abs(bb[3])) - outside) for bb in plywood_plates)
+    if edge_error > 0.001:
+        raise ValueError(f"Plywood plate misses outside edge by {edge_error:.3f} mm")
     qty = Counter(v.name for v in parts)
     assert qty["dowel"] == 12 and qty["wood_30"] == 8 and qty["beam_screw"] == qty["beam_nut"] == 72
     assert pot_count == 252 and len(units) == 9 and qty["side"] == qty["cap"] == 2
@@ -337,8 +356,10 @@ def validate(folder, parts, units, params, p, host):
             dowels_per_joint=3,
             screws_per_joint=2,
             closed_end_plywood_above_dowels_mm=params["t"] - 8,
-            m3_thread_beyond_nut_mm=round(beyond,3),
-            additional_frame_drillings=0, plywood_pilot_centre_mm=params["t"]/2,
+            m3_thread_beyond_nut_mm=round(beyond, 3),
+            plywood_plate_edge_error_mm=round(edge_error, 4),
+            additional_frame_drillings=0,
+            plywood_pilot_centre_mm=params["t"] / 2,
             dowel_end_allowance_mm=1,
             permitted_contacts=["screw threads in side pilots", "M3 screws in their nuts"],
         ),
@@ -471,8 +492,8 @@ The plywood case measures **{cw:g} mm wide × {h+2*t:g} mm high × {d:g} mm deep
 
 1. Assemble nine standard 2 × 7 frames. Use their normal faceplates and preload the original beam nuts. Fit the runner strips between tiers.
 2. Remove the individual adapters at each outer corner of every module, front and rear. Keep the M3 × 20 countersunk beam screws. Seat each bracket in the exposed receivers and reinstall those screws in the beam nuts.
-3. Print eight each of the [across strip](edge_across.stl), [upright strip](edge_upright.stl) and [four-way bracket](tee4.stl). The upright and four-way patterns include the cabinet's 2 mm tier gap. Position the spine of an upright toward the nearest side wall.
-4. Print eight [frame-to-plywood joints](plywood_joint.stl). Fit one at each outside corner of the array on both faces. Its M3 hole accepts the existing beam screw. Its wood screw hole sits 6 mm from either side of the plywood.
+3. Print eight [across plates](edge_across.stl) and eight [four-way plates](tee4.stl) for the interior junctions. Each plate is 3 mm thick. The four-way pattern includes the 2 mm tier gap.
+4. Print eight [single-contact plywood plates](plywood_joint.stl) for the outside corners and eight [two-contact plywood plates](plywood_double.stl) for the side junctions between tiers. The straight edge finishes flush with the outside of the plywood. Each plate uses one wood screw centred across the side panel. The two-contact plate reuses one M3 beam screw from each frame.
 
 On the middle and bottom tiers, centre the first two rows of fixed location stickers **9.65 mm and 20.85 mm below the upper corner beam axis**, respectively. Keep them centred across the faceplate side margin. These positions clear the vertical brackets and the next row of caps. The other rows use the standard frame positions.
 
@@ -485,7 +506,7 @@ Each of the four plywood corners uses **three Ø6 × 24 mm dowels and two 3.5 ×
 1. Centre all five bores on the side thickness, {t/2:g} mm from either side face. Use the inside cap drawing for the mating centres. Drill the Ø6.1 dowel bores 8 mm into the cap and 17 mm into the side end. This leaves 4 mm of plywood over each blind cap bore and 1 mm total axial allowance for the dowel.
 2. Drill Ø4 clearance through the caps at the two screw stations. Countersink the **outside** to Ø7. Drill Ø2.5 pilots 21 mm deep into each side end. Match the countersink to the actual screw head and check the pilot in an offcut of the chosen plywood.
 3. Dry-fit the dowels and panels around the array. Seat the dowels in the blind bores, clamp square, then drive the two case screws at each joint from the outside. Insert the array from an open face if the case was built separately.
-4. Fasten each of the eight outer tabs into a side's front or rear edge with one **3.5 × 16 mm countersunk wood screw** in its Ø2.5 pilot. These tabs keep the array from sliding out of the shell. Install the pots after tightening.
+4. Fasten each of the sixteen plywood plates into a side's front or rear edge with one **3.5 × 16 mm countersunk wood screw** in its Ø2.5 pilot. These plates keep the array from sliding out of the shell. Install the pots after tightening.
 
 ![Exploded top-to-side plywood joint](joint-detail.jpg)
 

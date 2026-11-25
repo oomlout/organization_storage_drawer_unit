@@ -3,8 +3,8 @@ color("teal") import("detail_face.stl");
 color("darkslategray") import("detail_rail.stl");
 color("silver") import("detail_hardware.stl");
 color("orange") import("detail_bracket.stl");
-color("burlywood") difference() {translate([9.6,-14,0]) cube([12,28,27]); translate([15.6,0,-.05]) cylinder(d=2.5,h=16.05,$fn=48);}
-color("silver") translate([15.6,0,-2.4]) wood_screw(16);
+color("burlywood") difference() {translate([9.6,-14,0]) cube([12,28,27]); translate([15.6,0.0,-.05]) cylinder(d=2.5,h=16.05,$fn=48);}
+color("silver") translate([15.6,0.0,-3.0]) wood_screw(16);
 }
 
 module cap_panel() {

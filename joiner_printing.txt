@@ -1,5 +1,5 @@
 V8 FRAME JOINING BRACKETS
 
-Read parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8/README.md for the printable parts and pitches. The brackets replace the outside corner adapters and reuse the M3 x 20 countersunk beam screws.
+Read parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8/README.md for the printable parts and pitches. The solid 3 mm plates replace the outside corner adapters and reuse the M3 x 20 countersunk beam screws.
 
-For the 12 mm plywood side use parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_plywood_joint_v8/README.md. Each joint adds one 3.5 x 16 mm wood screw.
+For the 12 mm plywood side use parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_plywood_joint_v8/README.md. Use the single-contact plate at an outside corner or the two-contact plate at a side seam. The straight outer edge aligns with the outside face of the plywood. Each plate adds one 3.5 x 16 mm wood screw.

@@ -292,7 +292,9 @@ module side_bores() {
 """
 
 BEAM_JOINT_CUTS = """
-module joint_bores(holes,wood) {
+module joint_bores(holes,wood,access) {
+  for(slot=access) hull()
+    for(y=[slot[1],slot[2]]) translate([slot[0],y,-.05]) cylinder(r=slot[3],h=tie_t+.1);
   // Leave the OOBB countersink and pilot cheeks of each native adapter intact.
   for(p=holes) translate([p[0],p[1],-.05]) cylinder(d=7,h=tie_t+.1);
   if(len(wood)) translate(wood) {

@@ -24,8 +24,8 @@ Seat the side panels directly against the array. Dry-fit the actual three-frame 
 
 1. Assemble nine standard 2 × 7 frames. Use their normal faceplates and preload the original beam nuts. Fit the runner strips between tiers.
 2. Remove the individual adapters at each outer corner of every module, front and rear. Keep the M3 × 20 countersunk beam screws. Seat each bracket in the exposed receivers and reinstall those screws in the beam nuts.
-3. Print eight each of the [across strip](edge_across.stl), [upright strip](edge_upright.stl) and [four-way bracket](tee4.stl). The upright and four-way patterns include the cabinet's 2 mm tier gap. Position the spine of an upright toward the nearest side wall.
-4. Print eight [frame-to-plywood joints](plywood_joint.stl). Fit one at each outside corner of the array on both faces. Its M3 hole accepts the existing beam screw. Its wood screw hole sits 6 mm from either side of the plywood.
+3. Print eight [across plates](edge_across.stl) and eight [four-way plates](tee4.stl) for the interior junctions. Each plate is 3 mm thick. The four-way pattern includes the 2 mm tier gap.
+4. Print eight [single-contact plywood plates](plywood_joint.stl) for the outside corners and eight [two-contact plywood plates](plywood_double.stl) for the side junctions between tiers. The straight edge finishes flush with the outside of the plywood. Each plate uses one wood screw centred across the side panel. The two-contact plate reuses one M3 beam screw from each frame.
 
 On the middle and bottom tiers, centre the first two rows of fixed location stickers **9.65 mm and 20.85 mm below the upper corner beam axis**, respectively. Keep them centred across the faceplate side margin. These positions clear the vertical brackets and the next row of caps. The other rows use the standard frame positions.
 
@@ -38,7 +38,7 @@ Each of the four plywood corners uses **three Ø6 × 24 mm dowels and two 3.5 ×
 1. Centre all five bores on the side thickness, 6 mm from either side face. Use the inside cap drawing for the mating centres. Drill the Ø6.1 dowel bores 8 mm into the cap and 17 mm into the side end. This leaves 4 mm of plywood over each blind cap bore and 1 mm total axial allowance for the dowel.
 2. Drill Ø4 clearance through the caps at the two screw stations. Countersink the **outside** to Ø7. Drill Ø2.5 pilots 21 mm deep into each side end. Match the countersink to the actual screw head and check the pilot in an offcut of the chosen plywood.
 3. Dry-fit the dowels and panels around the array. Seat the dowels in the blind bores, clamp square, then drive the two case screws at each joint from the outside. Insert the array from an open face if the case was built separately.
-4. Fasten each of the eight outer tabs into a side's front or rear edge with one **3.5 × 16 mm countersunk wood screw** in its Ø2.5 pilot. These tabs keep the array from sliding out of the shell. Install the pots after tightening.
+4. Fasten each of the sixteen plywood plates into a side's front or rear edge with one **3.5 × 16 mm countersunk wood screw** in its Ø2.5 pilot. These plates keep the array from sliding out of the shell. Install the pots after tightening.
 
 ![Exploded top-to-side plywood joint](joint-detail.jpg)
 

@@ -22,6 +22,7 @@ TRAYS = {
 }
 JOINER = "joiners"
 PLYWOOD_JOINT = "plywood-joint"
+JOINT_PLATE_MM = 3.0
 JOINER_REFERENCE = "2x2"
 CABINET = "cabinet-3x3"
 CABINET_DESIGN = dict(host="2x7", units_across=3, units_high=3, plywood_mm=12,

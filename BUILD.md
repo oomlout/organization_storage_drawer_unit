@@ -43,9 +43,9 @@ Each output root contains `parts_source` for populated definitions, `parts` for 
 
 **Frame.** Open the part folder and read `printing.txt`. Print one handed front, one handed back and each listed batch once. The BOM and mount positions are in `assembly.json`. Beam mounts use M3 × 20 countersunk screws. The kit includes separate 6 mm laser-face and 3 mm reinforced trial DXFs. Cut the complete nested 3 mm drawing once per trial face. Individual spare STLs and editable SCAD sources are in each part folder.
 
-**Joining brackets.** Remove the individual adapters at the adjoining outer screw beams. Install the printed two- or four-hole bracket and reuse the M3 x 20 screws and captive nuts. Select the pitch shown for the frame and tier gap in the joiner part README.
+**Joining brackets.** The joining plates are 3 mm thick. Remove the individual adapters at the adjoining outer screw beams. Install the printed two- or four-hole bracket and reuse the M3 x 20 screws and captive nuts. Select the pitch shown for the frame and tier gap in the joiner part README.
 
-**Plywood joint.** Build with `python action_make_all.py --part plywood-joint`. Each joint uses one existing outer beam screw and one 3.5 x 16 mm countersunk wood screw centred in the 12 mm side edge. Drill the 2.5 mm pilot 16 mm deep. For older compact frames, replace the two outer bottom snap beams with screw beams and load the nuts before installing the joints.
+**Plywood joint.** Build with `python action_make_all.py --part plywood-joint`. The 3 mm single-contact plate attaches one outer beam. The two-contact plate ties the outer beams of two stacked frames to the same side. Select the hole pitch for your frame and tier gap. Both plates reach the outside edge of the 12 mm plywood and take one 3.5 x 16 mm countersunk wood screw on its centreline. Drill the 2.5 mm pilot 16 mm deep. For older compact frames, replace the two outer bottom snap beams with screw beams and load the nuts before installing the joints.
 
 The faces are 209 mm apart. The 1x1 measures 213.8 mm over its screw adapters. The 2x2 and 2x7 measure 218.2 mm over their snap caps. The upper stops extend 1 mm above the two compact frames. The 2×7 uses the plywood-layout beams and stops. The former 1×2 and 4×12 units are in the [historical catalogue](history/README.md).
 
