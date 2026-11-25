@@ -1,17 +1,15 @@
 V8 Systempak 209 / 1x1 per face / 2 pots total
 Print front.stl and back.stl once each, outside face down. Keep the handed faces in their supplied orientations.
 Print each of these batches ONCE, in the supplied orientation:
-  snap_beams.stl  (2 x snap_beam)
-  screw_beams.stl  (2 x screw_beam)
-  front_plugs_corner_clearance.stl  (4 x front_plug)
-  screw_adapters.stl  (4 x screw_adapter)
+  screw_beams.stl  (4 x screw_beam)
+  screw_adapters.stl  (8 x screw_adapter)
 Individual component STLs are spares. 3dpr is a quantity overview; assembled is a reference.
 Fit M3 nuts through the side openings in the screw beams before closing the frame.
 Seat beams on the inside face. Fit the friction caps and screw adapters from outside.
-Use 4 M3 nuts and 4 M3 x 20 countersunk screws for the beam mounts.
-Use the four corner-relieved caps at the front_plug mounts in assembly.json. Fit square caps at the other snap mounts.
+Use 8 M3 nuts and 8 M3 x 20 countersunk screws for the beam mounts.
+Fit square caps to any snap mounts. The four outer screw beams accept the joining brackets.
 The enclosure supplies the bottom floor. Install identical pots from both faces.
 Laser alternative: cut front_laser_2d.dxf twice from measured 6 mm sheet. Keep receiver X positions aligned.
 3 mm trial: cut front_3mm_test_2d.dxf once per face and bond the included 3 mm doublers on the inside. Align each receiver.
 Laser catches have square edges. Print fit, bond strength, clamping and load capacity require physical testing.
-Optional joining hardware and fit samples are in the separate oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8 part.
+Use the beam-mounted joining brackets from the separate oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8 part.

@@ -1,0 +1,18 @@
+view,x_mm,y_mm,diameter_mm,operation
+cap_inside,6.0,22,6.1,8 mm blind from inside
+cap_inside,6.0,58.5,4,Through; countersink outside to 7 mm at 90 degrees
+cap_inside,6.0,104.5,6.1,8 mm blind from inside
+cap_inside,6.0,150.5,4,Through; countersink outside to 7 mm at 90 degrees
+cap_inside,6.0,187.0,6.1,8 mm blind from inside
+cap_inside,611.4,22,6.1,8 mm blind from inside
+cap_inside,611.4,58.5,4,Through; countersink outside to 7 mm at 90 degrees
+cap_inside,611.4,104.5,6.1,8 mm blind from inside
+cap_inside,611.4,150.5,4,Through; countersink outside to 7 mm at 90 degrees
+cap_inside,611.4,187.0,6.1,8 mm blind from inside
+side_top_and_bottom_end,6.0,22,6.1,17 mm blind
+side_top_and_bottom_end,6.0,58.5,2.5,21 mm pilot
+side_top_and_bottom_end,6.0,104.5,6.1,17 mm blind
+side_top_and_bottom_end,6.0,150.5,2.5,21 mm pilot
+side_top_and_bottom_end,6.0,187.0,6.1,17 mm blind
+side_front_and_rear_edge,6.0,22.6,2.5,16 mm pilot for retaining tab
+side_front_and_rear_edge,6.0,655.0,2.5,16 mm pilot for retaining tab

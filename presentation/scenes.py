@@ -57,7 +57,7 @@ def write_hardware(p, scratch):
         write_solid(scratch, kind, thing, True, mode="true")
 
 
-def frame_views(folder, p, scratch):
+def frame_views(folder, p, scratch, *, structure_only=False):
     q = p["frame"]
 
     def part(name, role, matrix=None):
@@ -81,6 +81,10 @@ def frame_views(folder, p, scratch):
             fitting = m.get("cap_component", "front_plug") if snap else "screw_adapter"
             x, y = m["x"], m["hole_y"]
             trans = pose(x, y, depth - sign * extension, cad.v8_external_part_rotation(p, kind, back))
+            if p.get("omit_corner_adapters") and m["corner_beam"]:
+                if typical is None:
+                    typical = (m, beam, pose(x,y,p["panel_thickness"]+p["screw"]["nut_near"]))
+                continue
             finish.append(part(fitting, "cap", trans))
             exploded.append(part(fitting, "cap", pose(z=-sign * 10) @ trans))
             if not snap:
@@ -103,6 +107,20 @@ def frame_views(folder, p, scratch):
     open_frame = [front, *beams, *nuts]
     closed = [*open_frame, part("back", "frame", rear)]
     complete = [*closed, *finish]
+    if structure_only:
+        return complete
+    assembly_views = [
+        (end, (1.35, -1.3, 0.85)),
+        (open_frame, (0.9, 1.65, 0.85)),
+        ([*open_frame, part("back", "frame", pose(z=35) @ rear)], (0.95, 1.7, 0.85)),
+        ([*closed, *exploded], (0.85, -1.8, 0.85)),
+    ]
+    from .sync_packaging import model_folder
+
+    if (model_folder(p["container"]) / "model.json").is_file():
+        from .stocked import frame_pots
+
+        return assembly_views + frame_pots(folder, scratch, p, p, complete)
     tray_reference(scratch / "pot.stl", p["container_dimensions_mm"], q["inset_lip"])
     drawers = []
     for col in range(min(2, p["column"])):
@@ -113,13 +131,7 @@ def frame_views(folder, p, scratch):
         drawers.append(
             item(scratch / "pot.stl", "tray", pose(x, y, d / 2 - (d * 0.40 if col == 0 else d * 0.12)))
         )
-    return [
-        (end, (1.35, -1.3, 0.85)),
-        (open_frame, (0.9, 1.65, 0.85)),
-        ([*open_frame, part("back", "frame", pose(z=35) @ rear)], (0.95, 1.7, 0.85)),
-        ([*closed, *exploded], (0.85, -1.8, 0.85)),
-        ([*complete, *drawers], (0.88, -2, 0.8)),
-    ]
+    return assembly_views + [([*complete, *drawers], (0.88, -2, 0.8))]
 
 
 def joiner_views(folder, p, scratch, host):
@@ -176,12 +188,21 @@ def render(folder, p, record, meta, host=None, *, images=True):
                 frame_views(folder, p, scratch) if host is None else joiner_views(folder, p, scratch, host)
             )
             outputs = [folder / f"assembly-step-{n}.jpg" for n in range(1, 5)] + [folder / "presentation.jpg"]
+            if len(views) == 8:
+                outputs.extend(
+                    [folder / "stocked-front.jpg", folder / "stocked-rear.jpg", folder / "stocked-detail.jpg"]
+                )
             data = {
                 "views": [
                     dict(output=str(out.resolve()), items=items, eye=eye)
                     for out, (items, eye) in zip(outputs, views)
                 ]
             }
+            if len(views) == 8:
+                q = p["frame"]
+                x = -q["width_total"] / 2 + q["drawer_border_edge"] + q["opening_width"] / 2
+                data["views"][-1]["focus"] = [x - 3, -4, -(q["opening_origin_y"] + q["opening_height"] / 2)]
+                data["views"][-1]["width"] = q["opening_width"] + 22
             job = scratch / "views.json"
             job.write_text(json.dumps(data), encoding="utf-8")
             result = subprocess.run(

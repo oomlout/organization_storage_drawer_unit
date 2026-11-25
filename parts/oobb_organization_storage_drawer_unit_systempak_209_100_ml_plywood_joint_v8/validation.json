@@ -1,0 +1,51 @@
+{
+  "plywood_joint": {
+    "single_printed_body": true,
+    "original_m3_seats_and_guides": 1,
+    "wood_clearance_mm": 4
+  },
+  "installed": {
+    "1x1": {
+      "plywood_joint": {
+        "front": {
+          "placements": 4,
+          "withdrawal_paths": 4,
+          "max_intersection_mm3": 1e-05
+        },
+        "rear": {
+          "placements": 4,
+          "withdrawal_paths": 4,
+          "max_intersection_mm3": 1e-05
+        }
+      }
+    },
+    "2x2": {
+      "plywood_joint": {
+        "front": {
+          "placements": 4,
+          "withdrawal_paths": 16,
+          "max_intersection_mm3": 1e-05
+        },
+        "rear": {
+          "placements": 4,
+          "withdrawal_paths": 16,
+          "max_intersection_mm3": 1e-05
+        }
+      }
+    },
+    "2x7": {
+      "plywood_joint": {
+        "front": {
+          "placements": 4,
+          "withdrawal_paths": 56,
+          "max_intersection_mm3": 1e-05
+        },
+        "rear": {
+          "placements": 4,
+          "withdrawal_paths": 56,
+          "max_intersection_mm3": 1e-05
+        }
+      }
+    }
+  }
+}

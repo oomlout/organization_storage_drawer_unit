@@ -15,6 +15,7 @@ def digest(path):
 
 def verify():
     records=json.loads(MANIFEST.read_text(encoding='utf-8'))
+    records={folder:{n:sha for n,sha in files.items() if not n.lower().endswith(".zip")} for folder,files in records.items()}
     for folder,files in records.items():
         base=ROOT/folder
         actual={p.relative_to(base).as_posix() for p in base.rglob('*') if p.is_file()}

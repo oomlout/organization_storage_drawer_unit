@@ -1,0 +1,31 @@
+{
+  "compatible_frames": [
+    "1x1",
+    "2x2",
+    "2x7"
+  ],
+  "parts": {
+    "plywood_joint": [
+      [
+        [
+          0,
+          0
+        ]
+      ],
+      [],
+      [
+        15.6,
+        0
+      ]
+    ]
+  },
+  "applications": {
+    "plywood_joint": [
+      "1x1 flush",
+      "2x2 flush",
+      "2x7 flush"
+    ]
+  },
+  "flange_mm": 2.4,
+  "beam_screw": "M3 x 20 countersunk"
+}

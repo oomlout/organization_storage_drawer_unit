@@ -4299,18 +4299,6 @@ difference() {
 																}
 															}
 														}
-														translate(v = [-5.5, -4.6, -0.1]) {
-															cylinder(h = 4.75, r = 3.15);
-														}
-														translate(v = [-5.5, 4.6, -0.1]) {
-															cylinder(h = 4.75, r = 3.15);
-														}
-														translate(v = [5.5, -4.6, -0.1]) {
-															cylinder(h = 4.75, r = 3.15);
-														}
-														translate(v = [5.5, 4.6, -0.1]) {
-															cylinder(h = 4.75, r = 3.15);
-														}
 													}
 												}
 											}
@@ -4397,18 +4385,6 @@ difference() {
 																	cylinder(h = 2.65, r = 0.3);
 																}
 															}
-														}
-														translate(v = [-5.5, -4.6, -0.1]) {
-															cylinder(h = 4.75, r = 3.15);
-														}
-														translate(v = [-5.5, 4.6, -0.1]) {
-															cylinder(h = 4.75, r = 3.15);
-														}
-														translate(v = [5.5, -4.6, -0.1]) {
-															cylinder(h = 4.75, r = 3.15);
-														}
-														translate(v = [5.5, 4.6, -0.1]) {
-															cylinder(h = 4.75, r = 3.15);
 														}
 													}
 												}
@@ -9473,18 +9449,6 @@ difference() {
 																}
 															}
 														}
-														translate(v = [-5.5, -4.6, -0.1]) {
-															cylinder(h = 4.75, r = 3.15);
-														}
-														translate(v = [-5.5, 4.6, -0.1]) {
-															cylinder(h = 4.75, r = 3.15);
-														}
-														translate(v = [5.5, -4.6, -0.1]) {
-															cylinder(h = 4.75, r = 3.15);
-														}
-														translate(v = [5.5, 4.6, -0.1]) {
-															cylinder(h = 4.75, r = 3.15);
-														}
 													}
 												}
 											}
@@ -9571,18 +9535,6 @@ difference() {
 																	cylinder(h = 2.65, r = 0.3);
 																}
 															}
-														}
-														translate(v = [-5.5, -4.6, -0.1]) {
-															cylinder(h = 4.75, r = 3.15);
-														}
-														translate(v = [-5.5, 4.6, -0.1]) {
-															cylinder(h = 4.75, r = 3.15);
-														}
-														translate(v = [5.5, -4.6, -0.1]) {
-															cylinder(h = 4.75, r = 3.15);
-														}
-														translate(v = [5.5, 4.6, -0.1]) {
-															cylinder(h = 4.75, r = 3.15);
 														}
 													}
 												}

@@ -1,62 +1,23 @@
-# V8 joining brackets
+# Corner screw-beam joining brackets
 
-Join two V8 frames along an edge, or join four at a corner. The standard and loose-clearance fronts share the same matching extruded backer for each shape.
+Join adjacent modules using the M3 × 20 countersunk screws and captive nuts already in their outer corner beams. Fit a bracket at each shared junction on both faces.
 
-This project was largely AI-generated. Editable CAD sources and print kits are included. AI-generated CAD images and instructions. Errors possible. Check fit on your printer before making a full set.
+Print flat with the guide cheeks facing up. Remove the individual adapters and screws from the corners being joined. Leave each nut in its beam. Press the bracket guides into those receivers and reinstall the same screws. For a two-hole upright, point the narrow spine toward the outside edge. Rotate the bracket in its own plane to fit the opposite side. Use the across strip for a left-to-right seam and a four-hole bracket where four frames meet. On a 2x7 below a vertical joint, centre its first two fixed location labels 9.65 and 20.85 mm below the top corner beam axis.
 
-![Installed four-way joiner](presentation.jpg)
+| Part | Applications | Editable CAD |
+| --- | --- | --- |
+| [edge_across](edge_across.stl) | 1x1 flush, 2x2 flush, 2x7 flush, 2x7 with 2 mm tier gap | [SCAD](edge_across.scad) |
+| [edge_upright_41p5](edge_upright_41p5.stl) | 1x1 flush, 2x2 flush | [SCAD](edge_upright_41p5.scad) |
+| [tee4_41p5](tee4_41p5.stl) | 1x1 flush, 2x2 flush | [SCAD](tee4_41p5.scad) |
+| [edge_upright_32p5](edge_upright_32p5.stl) | 2x7 flush | [SCAD](edge_upright_32p5.scad) |
+| [tee4_32p5](tee4_32p5.stl) | 2x7 flush | [SCAD](tee4_32p5.scad) |
+| [edge_upright_34p5](edge_upright_34p5.stl) | 2x7 with 2 mm tier gap | [SCAD](edge_upright_34p5.scad) |
+| [tee4_34p5](tee4_34p5.stl) | 2x7 with 2 mm tier gap | [SCAD](tee4_34p5.scad) |
 
-[Download the print kit](print_files.zip) · [Printing instructions](printing.txt) · [Assembly data](assembly.json)
+![Joint fitted to the screw beam](installed.png)
 
-[View the illustrated manual](assembly.pdf) · [Download PDF](https://raw.githubusercontent.com/oomlout/organization_storage_drawer_unit/main/parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8/assembly.pdf) · [Download offline HTML](assembly.html?raw=true)
+[Installed CAD detail](installed.scad)
 
-## Details
+![Printed bracket with its receiver guides](presentation.png)
 
-Fits [1 × 1 drawer unit](../oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/README.md) and [2 × 2 drawer unit](../oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/README.md).
-
-Choose one outside front style. The standard pockets give 0.8 mm above the fitted cap and 0.6 mm at the sides. The looser option gives 1.1 mm above and 0.9 mm at the sides.
-
-[Standard fronts](joiners.stl) · [Looser fronts](joiners_clasp_clearance.stl) · [Backers](joiner_backers.stl) · [Seven-piece fit trial](joiner_fit_samples.stl)
-
-![Section through a fitted cap and the standard joiner](joiners_clip_clearance.png)
-
-## Parts
-
-Quantities for one four-way junction. For a two-frame edge use the two-hole front, its matching backer and two screws and nuts.
-
-| Part | Quantity |
-| --- | ---: |
-| [Four-hole front](joiners.stl) | 1 |
-| [Matching backer](joiner_backers.stl) | 1 |
-| [M3 × 25 countersunk screw](https://github.com/oomlout/oomp_hardware_screw_version_5/tree/main/parts/hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length) | 4 |
-| [M3 hex nut](https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m3) | 4 |
-
-## Assembly
-
-Print in the supplied orientations. Clear loose filament from the screw bores and nut pockets before fitting hardware.
-
-### 1. Load the backer
-
-Press an M3 nut into each rear pocket. The four-way plate uses four nuts. Use two for an edge strip.
-
-![Load the backer](assembly-step-1.jpg)
-
-### 2. Align the faceplates
-
-Bring the frame edges together while the inside is accessible. Hold the nuts in place and offer the backer 8 mm above its seat, then slide it down into the rail relief.
-
-![Align the faceplates](assembly-step-2.jpg)
-
-### 3. Fit the front
-
-Seat the clip caps or screw adapters first. Match the pockets in the joiner front to those fittings and press its lands against the faceplates.
-
-![Fit the front](assembly-step-3.jpg)
-
-### 4. Tighten the joint
-
-Start each M3 × 25 countersunk screw from outside. Tighten evenly by hand and check that the drawers and clasps move freely.
-
-![Tighten the joint](assembly-step-4.jpg)
-
-The [validation report](validation.json) records nominal CAD fit. Print tolerances, strength and long-term loading still need a physical trial.
+[CAD fit checks](validation.json)

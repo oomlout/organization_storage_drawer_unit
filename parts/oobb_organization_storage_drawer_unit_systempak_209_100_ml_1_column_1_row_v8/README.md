@@ -4,21 +4,35 @@
 
 This project was largely AI-generated. Editable CAD sources and print kits are included. AI-generated CAD images and instructions. Errors possible. Check fit on your printer before making a full set.
 
-![Frame with illustrative removable pots](presentation.jpg)
+![Frame with removable pots](presentation.jpg)
 
-[Download the print kit](print_files.zip) · [Printing instructions](printing.txt) · [Assembly data](assembly.json)
+[Printing instructions](printing.txt) · [Assembly data](assembly.json)
 
 [View the illustrated manual](assembly.pdf) · [Download PDF](https://raw.githubusercontent.com/oomlout/organization_storage_drawer_unit/main/parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/assembly.pdf) · [Download offline HTML](assembly.html?raw=true)
 
 ## Details
 
-Face size is 108.5 × 68.5 mm. The outside faces are 209 mm apart. The kit uses a 197 mm inside rail span. The enclosure supplies the bottom floor. The pale pots in the render illustrate the container envelope.
+Face size is 108.5 × 68.5 mm. The outside faces are 209 mm apart. The kit uses a 197 mm inside rail span. The enclosure supplies the bottom floor.
 
 Print each handed face and each listed batch once. Individual component files are spares. For a laser build, cut the 6 mm face pattern twice, or cut one complete 3 mm reinforced trial pattern per face.
 
 [6 mm laser face](front_laser_2d.dxf) · [3 mm reinforced trial](front_3mm_test_2d.dxf)
 
-[Optional joining brackets](../oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8/README.md)
+**Print one of each file**
+
+[Front face](front.stl), [rear face](back.stl), [screw_beams](screw_beams.stl), [screw_adapters](screw_adapters.stl).
+
+## Stocked unit
+
+The modelled open pot is 27 mm high. The closed package is 29 mm high and the frame opening is 28.5 mm. Both banks are shown with lids removed. [Manufacturer photos](https://systempak.net/product/100ml-rectangular-tamper-evident-containers-and-lids/) · [Technical sheet](https://systempak.net/wp-content/uploads/2024/03/TDS-209-100ML.pdf).
+
+The fixed frame label identifies the face, column and row. The larger label on the removable pot identifies its example OOMP contents. Each label has its own QR code.
+
+![Fully stocked unit with labelled pots](stocked-front.jpg)
+
+[Rear view](stocked-rear.jpg) · [Label close-up](stocked-detail.jpg) · [Fixed location labels](labels-location.pdf) · [Replaceable contents labels](labels-contents.pdf) · [Individual label artwork](labels/) · [Slot assignments](label-map.json) · [Reference model fit](pot-fit.json)
+
+[Joining brackets](../oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8/README.md) and [frame-to-plywood joint](../oobb_organization_storage_drawer_unit_systempak_209_100_ml_plywood_joint_v8/README.md)
 
 ## Parts
 
@@ -28,12 +42,10 @@ Quantities for one complete frame.
 | --- | ---: |
 | [Front face](front.stl) | 1 |
 | [Rear face](back.stl) | 1 |
-| [Snap beam](snap_beam.stl) | 2 |
-| [Screw beam](screw_beam.stl) | 2 |
-| [Relieved cap](front_plug.stl) | 4 |
-| [Screw adapter](screw_adapter.stl) | 4 |
-| [M3 × 20 countersunk screw](https://github.com/oomlout/oomp_hardware_screw_version_5/tree/main/parts/hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length) | 4 |
-| [M3 hex nut](https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m3) | 4 |
+| [Screw beam](screw_beam.stl) | 4 |
+| [Screw adapter](screw_adapter.stl) | 8 |
+| [M3 × 20 countersunk screw](https://github.com/oomlout/oomp_hardware_screw_version_5/tree/main/parts/hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length) | 8 |
+| [M3 hex nut](https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m3) | 8 |
 | Systempak 209 pot, 100 ml | 2 |
 
 ## Assembly
@@ -42,13 +54,13 @@ Print in the supplied orientations. Clear loose filament from the screw bores an
 
 ### 1. Load the screw beams
 
-Slide an M3 nut into the side pocket at each end of all 2 screw beams. The close-up shows one end. Align each nut with its axial bore.
+Slide an M3 nut into the side pocket at each end of all 4 screw beams. The close-up shows one end. Align each nut with its axial bore.
 
 ![Load the screw beams](assembly-step-1.jpg)
 
 ### 2. Seat the beams in the front
 
-Place the front face outside-down. Seat the 2 snap beams and the loaded screw beams from the inside. Use the mount map in assembly.json. The runner stops point up in service.
+Place the front face outside-down. Seat the four loaded screw beams from the inside. Use the mount map in assembly.json. The runner stops point up in service.
 
 ![Seat the beams in the front](assembly-step-2.jpg)
 
@@ -60,7 +72,7 @@ Match the handed rear face to the free beam ends. Press evenly so both ends of e
 
 ### 4. Lock both faces
 
-Press caps over the snap ends. Fit the four relieved caps at the marked outer mounts. Seat the screw adapters and fit one M3 × 20 countersunk screw per adapter (4 total). Slide a pot into each bank to check travel.
+Seat the screw adapters and fit one M3 × 20 countersunk screw per adapter (8 total). Slide a pot into each bank to check travel.
 
 ![Lock both faces](assembly-step-4.jpg)
 

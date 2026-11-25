@@ -1,0 +1,1 @@
+Build nine standard 2x7 frames. Print eight of each bracket. Reuse the corner beam screws. See README.md for the plywood drawings, fasteners and assembly order.

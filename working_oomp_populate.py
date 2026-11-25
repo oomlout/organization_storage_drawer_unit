@@ -14,14 +14,19 @@ TRAYS = {
         "short": "rectangle_100_ml_tamper_evident_systempak_209",
         "dimensions_mm": {"across": 86, "height": 26, "depth": 109},
         "layouts": {
-            "1x1": {"grid": (1, 1), "mounts": "top_braces", "joiner": True},
-            "2x2": {"grid": (2, 2), "mounts": "top_braces", "joiner": True},
+            "1x1": {"grid": (1, 1), "mounts": "top_braces"},
+            "2x2": {"grid": (2, 2), "mounts": "top_braces"},
             "2x7": {"grid": (2, 7), "mounts": "four_corner_replacements", "featured": True},
         },
     },
 }
 JOINER = "joiners"
+PLYWOOD_JOINT = "plywood-joint"
 JOINER_REFERENCE = "2x2"
+CABINET = "cabinet-3x3"
+CABINET_DESIGN = dict(host="2x7", units_across=3, units_high=3, plywood_mm=12,
+                      cap_overhang_mm=0, side_gap_mm=0, top_gap_mm=0.6,
+                      runner_mm=2, runner_width_mm=15)
 VERSIONS = [
     ("V1", "First locked frame", "AI_VERSION_1.md"),
     ("V2", "Interlocking junctions", "AI_VERSION_2.md"),
@@ -54,23 +59,28 @@ def get_current_options():
                          record_type="printed_drawer_unit", product_name=f"V8 {cols}x{rows} {tray['name']} drawer unit",
                          frame_definition=dict(profile["face"], face_edge_y=20 if compact else 2),
                          container_dimensions_mm=deepcopy(tray["dimensions_mm"]), frame_mount_layout=layout["mounts"],
-                         snap_beam_count=(cols+1)*rows-(0 if compact else 4),
-                         screw_beam_count=cols+1 if compact else 4)
+                         snap_beam_count=(cols+1)*rows-(2 if compact else 4),
+                         screw_beam_count=cols+3 if compact else 4)
             if compact:
                 frame["face_stop_profile"] = "inside_flat"
-            if layout.get("joiner"):
-                frame["corner_fixing"] = deepcopy(profile["corner_fixing"])
+            if family == "systempak_209_100_ml":
                 hosts.append(variant)
             parts.append(frame)
-    selectors = [p["variant"] for p in parts] + [JOINER]
+    selectors = [p["variant"] for p in parts] + [JOINER, PLYWOOD_JOINT, CABINET]
     if len(set(selectors)) != len(selectors) or len({record_id(p) for p in parts}) != len(parts):
         raise ValueError("Each layout needs a unique selector and a unique catalogue ID")
     ref = next(p for p in parts if p["variant"] == JOINER_REFERENCE)
-    parts.append(dict(common, part_role="accessory", variant=JOINER, taxonomy_5=ref["taxonomy_5"],
-                      container=ref["container"], container_short=ref["container_short"], taxonomy_6="joiners",
-                      taxonomy_7="v8", product_name="V8 M3 x 25 joining brackets and backers",
-                      reference_frame=JOINER_REFERENCE, compatible_frames=hosts,
-                      corner_fixing={**profile["corner_fixing"], **profile["joiner"]}))
+    for selector, taxonomy, name in [
+        (JOINER, "joiners", "Corner screw-beam joining brackets"),
+        (PLYWOOD_JOINT, "plywood_joint", "Corner screw-beam to plywood joint"),
+    ]:
+        parts.append(dict(common, part_role="accessory", variant=selector, taxonomy_5=ref["taxonomy_5"],
+                          taxonomy_6=taxonomy, taxonomy_7="v8", product_name=name,
+                          reference_frame=JOINER_REFERENCE, compatible_frames=list(hosts)))
+    host = next(p for p in parts if p["variant"] == CABINET_DESIGN["host"])
+    parts.append(dict(common, part_role="cabinet", variant=CABINET, taxonomy_5=host["taxonomy_5"],
+                      taxonomy_6="2x7_array", taxonomy_7="3_by_3_plywood_cabinet", taxonomy_8="v8",
+                      product_name="Three by three 2x7 drawer cabinet", cabinet=deepcopy(CABINET_DESIGN)))
     return parts
 
 
@@ -81,8 +91,10 @@ def selected_options(part=None):
     if part not in {opt["variant"] for opt in options}:
         raise ValueError(f"Unknown V8 part {part!r}")
     wanted = {part}
-    if part == JOINER:
-        wanted.update(options[-1]["compatible_frames"])
+    if part in (JOINER, PLYWOOD_JOINT):
+        wanted.update(next(o["compatible_frames"] for o in options if o["variant"] == JOINER))
+    if part == CABINET:
+        wanted.add(CABINET_DESIGN["host"])
     return [o for o in options if o["variant"] in wanted]
 
 

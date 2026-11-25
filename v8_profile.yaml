@@ -150,8 +150,6 @@ components:
     centre_land: 16.0
   beam_revision: side_printed_runner
   finishing_revision: upstop_split_receiver_offset_lock
-  push_in_cap_variants:
-    corner_clearance_count: 4
   runner_alignment:
     shared_receiver_offset_x: 1.5
   side_runner:
@@ -171,18 +169,3 @@ components:
     reinforcement_side: 12.0
     nesting_gap: 5.0
     corner_relief_clearance: 0.1
-corner_fixing:
-  screw_length: 25.0
-  screw_reference_recess: 1.5
-  nut_seat_clearance: 0.35
-  nut_recess: 3.0
-  beam_clearance: 0.35
-joiner:
-  cap_axial_clearance: 0.8
-  cap_side_clearance: 0.6
-  front_roof_thickness: 3.0
-  loose_cap_extra_clearance: 0.3
-  joining_plate_unit_gap: 0.0
-  joining_plate_layout_gap: 5.0
-  countersink_setback: 0.95
-  backer_shape: clasp_and_runner_relief

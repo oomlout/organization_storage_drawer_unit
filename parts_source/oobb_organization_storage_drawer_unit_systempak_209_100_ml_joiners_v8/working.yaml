@@ -1,44 +1,14 @@
 compatible_frames:
 - 1x1
 - 2x2
-container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
-container_short: rectangle_100_ml_tamper_evident_systempak_209
-corner_fixing:
-  backer_shape: clasp_and_runner_relief
-  beam_clearance: 0.35
-  cap_axial_clearance: 0.8
-  cap_side_clearance: 0.6
-  countersink_setback: 0.95
-  front_roof_thickness: 3.0
-  joining_plate_layout_gap: 5.0
-  joining_plate_unit_gap: 0.0
-  loose_cap_extra_clearance: 0.3
-  nut_recess: 3.0
-  nut_seat_clearance: 0.35
-  screw_length: 25.0
-  screw_reference_recess: 1.5
+- 2x7
 oobb_details:
   compatible_frames:
   - 1x1
   - 2x2
-  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
-  container_short: rectangle_100_ml_tamper_evident_systempak_209
-  corner_fixing:
-    backer_shape: clasp_and_runner_relief
-    beam_clearance: 0.35
-    cap_axial_clearance: 0.8
-    cap_side_clearance: 0.6
-    countersink_setback: 0.95
-    front_roof_thickness: 3.0
-    joining_plate_layout_gap: 5.0
-    joining_plate_unit_gap: 0.0
-    loose_cap_extra_clearance: 0.3
-    nut_recess: 3.0
-    nut_seat_clearance: 0.35
-    screw_length: 25.0
-    screw_reference_recess: 1.5
+  - 2x7
   part_role: accessory
-  product_name: V8 M3 x 25 joining brackets and backers
+  product_name: Corner screw-beam joining brackets
   reference_frame: 2x2
   style: ai_version_8
   taxonomy_1: oobb
@@ -51,7 +21,7 @@ oobb_details:
   variant: joiners
   version: 8
 part_role: accessory
-product_name: V8 M3 x 25 joining brackets and backers
+product_name: Corner screw-beam joining brackets
 reference_frame: 2x2
 style: ai_version_8
 taxonomy_1: oobb

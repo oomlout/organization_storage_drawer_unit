@@ -1,0 +1,10 @@
+{
+  "model": "packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209",
+  "installed": "open body",
+  "slots": 28,
+  "frame_intersection_max_mm3": 0,
+  "pot_intersection_mm3": 0.0,
+  "opening_height_mm": 28.5,
+  "open_pot_height_mm": 27,
+  "closed_height_mm": 29
+}

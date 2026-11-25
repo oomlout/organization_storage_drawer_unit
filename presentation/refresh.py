@@ -19,6 +19,11 @@ def main():
     root = args.output_dir.resolve()
     records = get_current_options()
     for opt in records:
+        if opt["part_role"] == "cabinet":
+            if args.part == opt["variant"]:
+                from v8_cabinet import rebuild
+                rebuild(root,opt,records)
+            continue
         if args.part and opt["variant"] != args.part:
             continue
         folder = root / "parts" / record_id(opt)
@@ -28,13 +33,11 @@ def main():
                 f"{folder.name} has changed in population. Run make-all before refreshing its guide."
             )
         meta = json.loads((folder / "assembly.json").read_text(encoding="utf-8"))
-        host = None
-        inputs = opt
         if opt["part_role"] == "accessory":
-            fixture = next(r for r in records if r["variant"] == opt["reference_frame"])
-            host = root / "parts" / record_id(fixture)
-            inputs = dict(fixture, draw_joiners=True, corner_fixing=opt["corner_fixing"])
-        scenes.render(folder, cad.frame_parameters(**inputs), opt, meta, host, images=args.render)
+            from v8_beam_joints import build
+            build(folder,opt,{r["variant"]:r for r in records},True)
+        else:
+            scenes.render(folder, cad.frame_parameters(**opt), opt, meta, images=args.render)
     published = [r for r in records if (root / "parts" / record_id(r) / "README.md").is_file()]
     catalogue.write_index(root, published)
 

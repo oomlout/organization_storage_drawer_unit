@@ -1,0 +1,4298 @@
+{
+  "unit": "CABINET-3X3",
+  "axes": "X left to right and Y top to bottom as viewed from each face",
+  "location_size_mm": [
+    8.4,
+    10.8
+  ],
+  "contents_size_mm": [
+    47,
+    13
+  ],
+  "slots": [
+    {
+      "side": "F",
+      "x": 1,
+      "y": 1,
+      "address": "F-X1-Y1",
+      "location_qr": "CABINET-3X3-F-X1-Y1",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-F-X1-Y1.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 1,
+      "address": "F-X2-Y1",
+      "location_qr": "CABINET-3X3-F-X2-Y1",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-F-X2-Y1.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 1,
+      "address": "F-X3-Y1",
+      "location_qr": "CABINET-3X3-F-X3-Y1",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-F-X3-Y1.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 1,
+      "address": "F-X4-Y1",
+      "location_qr": "CABINET-3X3-F-X4-Y1",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-F-X4-Y1.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 1,
+      "address": "F-X5-Y1",
+      "location_qr": "CABINET-3X3-F-X5-Y1",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-F-X5-Y1.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 1,
+      "address": "F-X6-Y1",
+      "location_qr": "CABINET-3X3-F-X6-Y1",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-F-X6-Y1.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 2,
+      "address": "F-X1-Y2",
+      "location_qr": "CABINET-3X3-F-X1-Y2",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-F-X1-Y2.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 2,
+      "address": "F-X2-Y2",
+      "location_qr": "CABINET-3X3-F-X2-Y2",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-F-X2-Y2.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 2,
+      "address": "F-X3-Y2",
+      "location_qr": "CABINET-3X3-F-X3-Y2",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-F-X3-Y2.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 2,
+      "address": "F-X4-Y2",
+      "location_qr": "CABINET-3X3-F-X4-Y2",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-F-X4-Y2.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 2,
+      "address": "F-X5-Y2",
+      "location_qr": "CABINET-3X3-F-X5-Y2",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-F-X5-Y2.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 2,
+      "address": "F-X6-Y2",
+      "location_qr": "CABINET-3X3-F-X6-Y2",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-F-X6-Y2.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 3,
+      "address": "F-X1-Y3",
+      "location_qr": "CABINET-3X3-F-X1-Y3",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-F-X1-Y3.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 3,
+      "address": "F-X2-Y3",
+      "location_qr": "CABINET-3X3-F-X2-Y3",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-F-X2-Y3.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 3,
+      "address": "F-X3-Y3",
+      "location_qr": "CABINET-3X3-F-X3-Y3",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-F-X3-Y3.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 3,
+      "address": "F-X4-Y3",
+      "location_qr": "CABINET-3X3-F-X4-Y3",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-F-X4-Y3.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 3,
+      "address": "F-X5-Y3",
+      "location_qr": "CABINET-3X3-F-X5-Y3",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-F-X5-Y3.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 3,
+      "address": "F-X6-Y3",
+      "location_qr": "CABINET-3X3-F-X6-Y3",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-F-X6-Y3.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 4,
+      "address": "F-X1-Y4",
+      "location_qr": "CABINET-3X3-F-X1-Y4",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-F-X1-Y4.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 4,
+      "address": "F-X2-Y4",
+      "location_qr": "CABINET-3X3-F-X2-Y4",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-F-X2-Y4.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 4,
+      "address": "F-X3-Y4",
+      "location_qr": "CABINET-3X3-F-X3-Y4",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-F-X3-Y4.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 4,
+      "address": "F-X4-Y4",
+      "location_qr": "CABINET-3X3-F-X4-Y4",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-F-X4-Y4.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 4,
+      "address": "F-X5-Y4",
+      "location_qr": "CABINET-3X3-F-X5-Y4",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-F-X5-Y4.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 4,
+      "address": "F-X6-Y4",
+      "location_qr": "CABINET-3X3-F-X6-Y4",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-F-X6-Y4.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 5,
+      "address": "F-X1-Y5",
+      "location_qr": "CABINET-3X3-F-X1-Y5",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-F-X1-Y5.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 5,
+      "address": "F-X2-Y5",
+      "location_qr": "CABINET-3X3-F-X2-Y5",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-F-X2-Y5.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 5,
+      "address": "F-X3-Y5",
+      "location_qr": "CABINET-3X3-F-X3-Y5",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-F-X3-Y5.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 5,
+      "address": "F-X4-Y5",
+      "location_qr": "CABINET-3X3-F-X4-Y5",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-F-X4-Y5.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 5,
+      "address": "F-X5-Y5",
+      "location_qr": "CABINET-3X3-F-X5-Y5",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-F-X5-Y5.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 5,
+      "address": "F-X6-Y5",
+      "location_qr": "CABINET-3X3-F-X6-Y5",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-F-X6-Y5.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 6,
+      "address": "F-X1-Y6",
+      "location_qr": "CABINET-3X3-F-X1-Y6",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-F-X1-Y6.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 6,
+      "address": "F-X2-Y6",
+      "location_qr": "CABINET-3X3-F-X2-Y6",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-F-X2-Y6.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 6,
+      "address": "F-X3-Y6",
+      "location_qr": "CABINET-3X3-F-X3-Y6",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-F-X3-Y6.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 6,
+      "address": "F-X4-Y6",
+      "location_qr": "CABINET-3X3-F-X4-Y6",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-F-X4-Y6.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 6,
+      "address": "F-X5-Y6",
+      "location_qr": "CABINET-3X3-F-X5-Y6",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-F-X5-Y6.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 6,
+      "address": "F-X6-Y6",
+      "location_qr": "CABINET-3X3-F-X6-Y6",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-F-X6-Y6.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 7,
+      "address": "F-X1-Y7",
+      "location_qr": "CABINET-3X3-F-X1-Y7",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-F-X1-Y7.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 7,
+      "address": "F-X2-Y7",
+      "location_qr": "CABINET-3X3-F-X2-Y7",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-F-X2-Y7.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 7,
+      "address": "F-X3-Y7",
+      "location_qr": "CABINET-3X3-F-X3-Y7",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-F-X3-Y7.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 7,
+      "address": "F-X4-Y7",
+      "location_qr": "CABINET-3X3-F-X4-Y7",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-F-X4-Y7.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 7,
+      "address": "F-X5-Y7",
+      "location_qr": "CABINET-3X3-F-X5-Y7",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-F-X5-Y7.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 7,
+      "address": "F-X6-Y7",
+      "location_qr": "CABINET-3X3-F-X6-Y7",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-F-X6-Y7.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 8,
+      "address": "F-X1-Y8",
+      "location_qr": "CABINET-3X3-F-X1-Y8",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-F-X1-Y8.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 8,
+      "address": "F-X2-Y8",
+      "location_qr": "CABINET-3X3-F-X2-Y8",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-F-X2-Y8.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 8,
+      "address": "F-X3-Y8",
+      "location_qr": "CABINET-3X3-F-X3-Y8",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-F-X3-Y8.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 8,
+      "address": "F-X4-Y8",
+      "location_qr": "CABINET-3X3-F-X4-Y8",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-F-X4-Y8.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 8,
+      "address": "F-X5-Y8",
+      "location_qr": "CABINET-3X3-F-X5-Y8",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-F-X5-Y8.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 8,
+      "address": "F-X6-Y8",
+      "location_qr": "CABINET-3X3-F-X6-Y8",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-F-X6-Y8.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 9,
+      "address": "F-X1-Y9",
+      "location_qr": "CABINET-3X3-F-X1-Y9",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-F-X1-Y9.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 9,
+      "address": "F-X2-Y9",
+      "location_qr": "CABINET-3X3-F-X2-Y9",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-F-X2-Y9.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 9,
+      "address": "F-X3-Y9",
+      "location_qr": "CABINET-3X3-F-X3-Y9",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-F-X3-Y9.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 9,
+      "address": "F-X4-Y9",
+      "location_qr": "CABINET-3X3-F-X4-Y9",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-F-X4-Y9.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 9,
+      "address": "F-X5-Y9",
+      "location_qr": "CABINET-3X3-F-X5-Y9",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-F-X5-Y9.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 9,
+      "address": "F-X6-Y9",
+      "location_qr": "CABINET-3X3-F-X6-Y9",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-F-X6-Y9.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 10,
+      "address": "F-X1-Y10",
+      "location_qr": "CABINET-3X3-F-X1-Y10",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-F-X1-Y10.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 10,
+      "address": "F-X2-Y10",
+      "location_qr": "CABINET-3X3-F-X2-Y10",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-F-X2-Y10.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 10,
+      "address": "F-X3-Y10",
+      "location_qr": "CABINET-3X3-F-X3-Y10",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-F-X3-Y10.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 10,
+      "address": "F-X4-Y10",
+      "location_qr": "CABINET-3X3-F-X4-Y10",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-F-X4-Y10.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 10,
+      "address": "F-X5-Y10",
+      "location_qr": "CABINET-3X3-F-X5-Y10",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-F-X5-Y10.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 10,
+      "address": "F-X6-Y10",
+      "location_qr": "CABINET-3X3-F-X6-Y10",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-F-X6-Y10.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 11,
+      "address": "F-X1-Y11",
+      "location_qr": "CABINET-3X3-F-X1-Y11",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-F-X1-Y11.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 11,
+      "address": "F-X2-Y11",
+      "location_qr": "CABINET-3X3-F-X2-Y11",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-F-X2-Y11.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 11,
+      "address": "F-X3-Y11",
+      "location_qr": "CABINET-3X3-F-X3-Y11",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-F-X3-Y11.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 11,
+      "address": "F-X4-Y11",
+      "location_qr": "CABINET-3X3-F-X4-Y11",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-F-X4-Y11.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 11,
+      "address": "F-X5-Y11",
+      "location_qr": "CABINET-3X3-F-X5-Y11",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-F-X5-Y11.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 11,
+      "address": "F-X6-Y11",
+      "location_qr": "CABINET-3X3-F-X6-Y11",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-F-X6-Y11.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 12,
+      "address": "F-X1-Y12",
+      "location_qr": "CABINET-3X3-F-X1-Y12",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-F-X1-Y12.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 12,
+      "address": "F-X2-Y12",
+      "location_qr": "CABINET-3X3-F-X2-Y12",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-F-X2-Y12.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 12,
+      "address": "F-X3-Y12",
+      "location_qr": "CABINET-3X3-F-X3-Y12",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-F-X3-Y12.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 12,
+      "address": "F-X4-Y12",
+      "location_qr": "CABINET-3X3-F-X4-Y12",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-F-X4-Y12.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 12,
+      "address": "F-X5-Y12",
+      "location_qr": "CABINET-3X3-F-X5-Y12",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-F-X5-Y12.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 12,
+      "address": "F-X6-Y12",
+      "location_qr": "CABINET-3X3-F-X6-Y12",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-F-X6-Y12.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 13,
+      "address": "F-X1-Y13",
+      "location_qr": "CABINET-3X3-F-X1-Y13",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-F-X1-Y13.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 13,
+      "address": "F-X2-Y13",
+      "location_qr": "CABINET-3X3-F-X2-Y13",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-F-X2-Y13.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 13,
+      "address": "F-X3-Y13",
+      "location_qr": "CABINET-3X3-F-X3-Y13",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-F-X3-Y13.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 13,
+      "address": "F-X4-Y13",
+      "location_qr": "CABINET-3X3-F-X4-Y13",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-F-X4-Y13.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 13,
+      "address": "F-X5-Y13",
+      "location_qr": "CABINET-3X3-F-X5-Y13",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-F-X5-Y13.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 13,
+      "address": "F-X6-Y13",
+      "location_qr": "CABINET-3X3-F-X6-Y13",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-F-X6-Y13.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 14,
+      "address": "F-X1-Y14",
+      "location_qr": "CABINET-3X3-F-X1-Y14",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-F-X1-Y14.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 14,
+      "address": "F-X2-Y14",
+      "location_qr": "CABINET-3X3-F-X2-Y14",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-F-X2-Y14.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 14,
+      "address": "F-X3-Y14",
+      "location_qr": "CABINET-3X3-F-X3-Y14",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-F-X3-Y14.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 14,
+      "address": "F-X4-Y14",
+      "location_qr": "CABINET-3X3-F-X4-Y14",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-F-X4-Y14.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 14,
+      "address": "F-X5-Y14",
+      "location_qr": "CABINET-3X3-F-X5-Y14",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-F-X5-Y14.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 14,
+      "address": "F-X6-Y14",
+      "location_qr": "CABINET-3X3-F-X6-Y14",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-F-X6-Y14.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 15,
+      "address": "F-X1-Y15",
+      "location_qr": "CABINET-3X3-F-X1-Y15",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-F-X1-Y15.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 15,
+      "address": "F-X2-Y15",
+      "location_qr": "CABINET-3X3-F-X2-Y15",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-F-X2-Y15.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 15,
+      "address": "F-X3-Y15",
+      "location_qr": "CABINET-3X3-F-X3-Y15",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-F-X3-Y15.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 15,
+      "address": "F-X4-Y15",
+      "location_qr": "CABINET-3X3-F-X4-Y15",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-F-X4-Y15.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 15,
+      "address": "F-X5-Y15",
+      "location_qr": "CABINET-3X3-F-X5-Y15",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-F-X5-Y15.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 15,
+      "address": "F-X6-Y15",
+      "location_qr": "CABINET-3X3-F-X6-Y15",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-F-X6-Y15.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 16,
+      "address": "F-X1-Y16",
+      "location_qr": "CABINET-3X3-F-X1-Y16",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-F-X1-Y16.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 16,
+      "address": "F-X2-Y16",
+      "location_qr": "CABINET-3X3-F-X2-Y16",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-F-X2-Y16.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 16,
+      "address": "F-X3-Y16",
+      "location_qr": "CABINET-3X3-F-X3-Y16",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-F-X3-Y16.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 16,
+      "address": "F-X4-Y16",
+      "location_qr": "CABINET-3X3-F-X4-Y16",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-F-X4-Y16.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 16,
+      "address": "F-X5-Y16",
+      "location_qr": "CABINET-3X3-F-X5-Y16",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-F-X5-Y16.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 16,
+      "address": "F-X6-Y16",
+      "location_qr": "CABINET-3X3-F-X6-Y16",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-F-X6-Y16.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 17,
+      "address": "F-X1-Y17",
+      "location_qr": "CABINET-3X3-F-X1-Y17",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-F-X1-Y17.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 17,
+      "address": "F-X2-Y17",
+      "location_qr": "CABINET-3X3-F-X2-Y17",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-F-X2-Y17.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 17,
+      "address": "F-X3-Y17",
+      "location_qr": "CABINET-3X3-F-X3-Y17",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-F-X3-Y17.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 17,
+      "address": "F-X4-Y17",
+      "location_qr": "CABINET-3X3-F-X4-Y17",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-F-X4-Y17.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 17,
+      "address": "F-X5-Y17",
+      "location_qr": "CABINET-3X3-F-X5-Y17",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-F-X5-Y17.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 17,
+      "address": "F-X6-Y17",
+      "location_qr": "CABINET-3X3-F-X6-Y17",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-F-X6-Y17.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 18,
+      "address": "F-X1-Y18",
+      "location_qr": "CABINET-3X3-F-X1-Y18",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-F-X1-Y18.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 18,
+      "address": "F-X2-Y18",
+      "location_qr": "CABINET-3X3-F-X2-Y18",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-F-X2-Y18.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 18,
+      "address": "F-X3-Y18",
+      "location_qr": "CABINET-3X3-F-X3-Y18",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-F-X3-Y18.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 18,
+      "address": "F-X4-Y18",
+      "location_qr": "CABINET-3X3-F-X4-Y18",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-F-X4-Y18.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 18,
+      "address": "F-X5-Y18",
+      "location_qr": "CABINET-3X3-F-X5-Y18",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-F-X5-Y18.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 18,
+      "address": "F-X6-Y18",
+      "location_qr": "CABINET-3X3-F-X6-Y18",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-F-X6-Y18.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 19,
+      "address": "F-X1-Y19",
+      "location_qr": "CABINET-3X3-F-X1-Y19",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-F-X1-Y19.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 19,
+      "address": "F-X2-Y19",
+      "location_qr": "CABINET-3X3-F-X2-Y19",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-F-X2-Y19.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 19,
+      "address": "F-X3-Y19",
+      "location_qr": "CABINET-3X3-F-X3-Y19",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-F-X3-Y19.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 19,
+      "address": "F-X4-Y19",
+      "location_qr": "CABINET-3X3-F-X4-Y19",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-F-X4-Y19.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 19,
+      "address": "F-X5-Y19",
+      "location_qr": "CABINET-3X3-F-X5-Y19",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-F-X5-Y19.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 19,
+      "address": "F-X6-Y19",
+      "location_qr": "CABINET-3X3-F-X6-Y19",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-F-X6-Y19.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 20,
+      "address": "F-X1-Y20",
+      "location_qr": "CABINET-3X3-F-X1-Y20",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-F-X1-Y20.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 20,
+      "address": "F-X2-Y20",
+      "location_qr": "CABINET-3X3-F-X2-Y20",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-F-X2-Y20.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 20,
+      "address": "F-X3-Y20",
+      "location_qr": "CABINET-3X3-F-X3-Y20",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-F-X3-Y20.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 20,
+      "address": "F-X4-Y20",
+      "location_qr": "CABINET-3X3-F-X4-Y20",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-F-X4-Y20.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 20,
+      "address": "F-X5-Y20",
+      "location_qr": "CABINET-3X3-F-X5-Y20",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-F-X5-Y20.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 20,
+      "address": "F-X6-Y20",
+      "location_qr": "CABINET-3X3-F-X6-Y20",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-F-X6-Y20.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 21,
+      "address": "F-X1-Y21",
+      "location_qr": "CABINET-3X3-F-X1-Y21",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-F-X1-Y21.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 21,
+      "address": "F-X2-Y21",
+      "location_qr": "CABINET-3X3-F-X2-Y21",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-F-X2-Y21.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "F",
+      "x": 3,
+      "y": 21,
+      "address": "F-X3-Y21",
+      "location_qr": "CABINET-3X3-F-X3-Y21",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-F-X3-Y21.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "F",
+      "x": 4,
+      "y": 21,
+      "address": "F-X4-Y21",
+      "location_qr": "CABINET-3X3-F-X4-Y21",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-F-X4-Y21.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "F",
+      "x": 5,
+      "y": 21,
+      "address": "F-X5-Y21",
+      "location_qr": "CABINET-3X3-F-X5-Y21",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-F-X5-Y21.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "F",
+      "x": 6,
+      "y": 21,
+      "address": "F-X6-Y21",
+      "location_qr": "CABINET-3X3-F-X6-Y21",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-F-X6-Y21.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 1,
+      "address": "R-X1-Y1",
+      "location_qr": "CABINET-3X3-R-X1-Y1",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-R-X1-Y1.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 1,
+      "address": "R-X2-Y1",
+      "location_qr": "CABINET-3X3-R-X2-Y1",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-R-X2-Y1.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 1,
+      "address": "R-X3-Y1",
+      "location_qr": "CABINET-3X3-R-X3-Y1",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-R-X3-Y1.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 1,
+      "address": "R-X4-Y1",
+      "location_qr": "CABINET-3X3-R-X4-Y1",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-R-X4-Y1.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 1,
+      "address": "R-X5-Y1",
+      "location_qr": "CABINET-3X3-R-X5-Y1",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-R-X5-Y1.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 1,
+      "address": "R-X6-Y1",
+      "location_qr": "CABINET-3X3-R-X6-Y1",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-R-X6-Y1.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 2,
+      "address": "R-X1-Y2",
+      "location_qr": "CABINET-3X3-R-X1-Y2",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-R-X1-Y2.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 2,
+      "address": "R-X2-Y2",
+      "location_qr": "CABINET-3X3-R-X2-Y2",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-R-X2-Y2.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 2,
+      "address": "R-X3-Y2",
+      "location_qr": "CABINET-3X3-R-X3-Y2",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-R-X3-Y2.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 2,
+      "address": "R-X4-Y2",
+      "location_qr": "CABINET-3X3-R-X4-Y2",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-R-X4-Y2.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 2,
+      "address": "R-X5-Y2",
+      "location_qr": "CABINET-3X3-R-X5-Y2",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-R-X5-Y2.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 2,
+      "address": "R-X6-Y2",
+      "location_qr": "CABINET-3X3-R-X6-Y2",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-R-X6-Y2.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 3,
+      "address": "R-X1-Y3",
+      "location_qr": "CABINET-3X3-R-X1-Y3",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-R-X1-Y3.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 3,
+      "address": "R-X2-Y3",
+      "location_qr": "CABINET-3X3-R-X2-Y3",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-R-X2-Y3.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 3,
+      "address": "R-X3-Y3",
+      "location_qr": "CABINET-3X3-R-X3-Y3",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-R-X3-Y3.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 3,
+      "address": "R-X4-Y3",
+      "location_qr": "CABINET-3X3-R-X4-Y3",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-R-X4-Y3.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 3,
+      "address": "R-X5-Y3",
+      "location_qr": "CABINET-3X3-R-X5-Y3",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-R-X5-Y3.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 3,
+      "address": "R-X6-Y3",
+      "location_qr": "CABINET-3X3-R-X6-Y3",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-R-X6-Y3.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 4,
+      "address": "R-X1-Y4",
+      "location_qr": "CABINET-3X3-R-X1-Y4",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-R-X1-Y4.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 4,
+      "address": "R-X2-Y4",
+      "location_qr": "CABINET-3X3-R-X2-Y4",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-R-X2-Y4.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 4,
+      "address": "R-X3-Y4",
+      "location_qr": "CABINET-3X3-R-X3-Y4",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-R-X3-Y4.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 4,
+      "address": "R-X4-Y4",
+      "location_qr": "CABINET-3X3-R-X4-Y4",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-R-X4-Y4.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 4,
+      "address": "R-X5-Y4",
+      "location_qr": "CABINET-3X3-R-X5-Y4",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-R-X5-Y4.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 4,
+      "address": "R-X6-Y4",
+      "location_qr": "CABINET-3X3-R-X6-Y4",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-R-X6-Y4.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 5,
+      "address": "R-X1-Y5",
+      "location_qr": "CABINET-3X3-R-X1-Y5",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-R-X1-Y5.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 5,
+      "address": "R-X2-Y5",
+      "location_qr": "CABINET-3X3-R-X2-Y5",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-R-X2-Y5.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 5,
+      "address": "R-X3-Y5",
+      "location_qr": "CABINET-3X3-R-X3-Y5",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-R-X3-Y5.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 5,
+      "address": "R-X4-Y5",
+      "location_qr": "CABINET-3X3-R-X4-Y5",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-R-X4-Y5.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 5,
+      "address": "R-X5-Y5",
+      "location_qr": "CABINET-3X3-R-X5-Y5",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-R-X5-Y5.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 5,
+      "address": "R-X6-Y5",
+      "location_qr": "CABINET-3X3-R-X6-Y5",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-R-X6-Y5.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 6,
+      "address": "R-X1-Y6",
+      "location_qr": "CABINET-3X3-R-X1-Y6",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-R-X1-Y6.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 6,
+      "address": "R-X2-Y6",
+      "location_qr": "CABINET-3X3-R-X2-Y6",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-R-X2-Y6.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 6,
+      "address": "R-X3-Y6",
+      "location_qr": "CABINET-3X3-R-X3-Y6",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-R-X3-Y6.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 6,
+      "address": "R-X4-Y6",
+      "location_qr": "CABINET-3X3-R-X4-Y6",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-R-X4-Y6.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 6,
+      "address": "R-X5-Y6",
+      "location_qr": "CABINET-3X3-R-X5-Y6",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-R-X5-Y6.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 6,
+      "address": "R-X6-Y6",
+      "location_qr": "CABINET-3X3-R-X6-Y6",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-R-X6-Y6.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 7,
+      "address": "R-X1-Y7",
+      "location_qr": "CABINET-3X3-R-X1-Y7",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-R-X1-Y7.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 7,
+      "address": "R-X2-Y7",
+      "location_qr": "CABINET-3X3-R-X2-Y7",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-R-X2-Y7.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 7,
+      "address": "R-X3-Y7",
+      "location_qr": "CABINET-3X3-R-X3-Y7",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-R-X3-Y7.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 7,
+      "address": "R-X4-Y7",
+      "location_qr": "CABINET-3X3-R-X4-Y7",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-R-X4-Y7.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 7,
+      "address": "R-X5-Y7",
+      "location_qr": "CABINET-3X3-R-X5-Y7",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-R-X5-Y7.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 7,
+      "address": "R-X6-Y7",
+      "location_qr": "CABINET-3X3-R-X6-Y7",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-R-X6-Y7.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 8,
+      "address": "R-X1-Y8",
+      "location_qr": "CABINET-3X3-R-X1-Y8",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-R-X1-Y8.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 8,
+      "address": "R-X2-Y8",
+      "location_qr": "CABINET-3X3-R-X2-Y8",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-R-X2-Y8.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 8,
+      "address": "R-X3-Y8",
+      "location_qr": "CABINET-3X3-R-X3-Y8",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-R-X3-Y8.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 8,
+      "address": "R-X4-Y8",
+      "location_qr": "CABINET-3X3-R-X4-Y8",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-R-X4-Y8.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 8,
+      "address": "R-X5-Y8",
+      "location_qr": "CABINET-3X3-R-X5-Y8",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-R-X5-Y8.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 8,
+      "address": "R-X6-Y8",
+      "location_qr": "CABINET-3X3-R-X6-Y8",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-R-X6-Y8.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 9,
+      "address": "R-X1-Y9",
+      "location_qr": "CABINET-3X3-R-X1-Y9",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-R-X1-Y9.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 9,
+      "address": "R-X2-Y9",
+      "location_qr": "CABINET-3X3-R-X2-Y9",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-R-X2-Y9.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 9,
+      "address": "R-X3-Y9",
+      "location_qr": "CABINET-3X3-R-X3-Y9",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-R-X3-Y9.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 9,
+      "address": "R-X4-Y9",
+      "location_qr": "CABINET-3X3-R-X4-Y9",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-R-X4-Y9.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 9,
+      "address": "R-X5-Y9",
+      "location_qr": "CABINET-3X3-R-X5-Y9",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-R-X5-Y9.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 9,
+      "address": "R-X6-Y9",
+      "location_qr": "CABINET-3X3-R-X6-Y9",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-R-X6-Y9.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 10,
+      "address": "R-X1-Y10",
+      "location_qr": "CABINET-3X3-R-X1-Y10",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-R-X1-Y10.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 10,
+      "address": "R-X2-Y10",
+      "location_qr": "CABINET-3X3-R-X2-Y10",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-R-X2-Y10.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 10,
+      "address": "R-X3-Y10",
+      "location_qr": "CABINET-3X3-R-X3-Y10",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-R-X3-Y10.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 10,
+      "address": "R-X4-Y10",
+      "location_qr": "CABINET-3X3-R-X4-Y10",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-R-X4-Y10.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 10,
+      "address": "R-X5-Y10",
+      "location_qr": "CABINET-3X3-R-X5-Y10",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-R-X5-Y10.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 10,
+      "address": "R-X6-Y10",
+      "location_qr": "CABINET-3X3-R-X6-Y10",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-R-X6-Y10.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 11,
+      "address": "R-X1-Y11",
+      "location_qr": "CABINET-3X3-R-X1-Y11",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-R-X1-Y11.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 11,
+      "address": "R-X2-Y11",
+      "location_qr": "CABINET-3X3-R-X2-Y11",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-R-X2-Y11.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 11,
+      "address": "R-X3-Y11",
+      "location_qr": "CABINET-3X3-R-X3-Y11",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-R-X3-Y11.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 11,
+      "address": "R-X4-Y11",
+      "location_qr": "CABINET-3X3-R-X4-Y11",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-R-X4-Y11.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 11,
+      "address": "R-X5-Y11",
+      "location_qr": "CABINET-3X3-R-X5-Y11",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-R-X5-Y11.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 11,
+      "address": "R-X6-Y11",
+      "location_qr": "CABINET-3X3-R-X6-Y11",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-R-X6-Y11.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 12,
+      "address": "R-X1-Y12",
+      "location_qr": "CABINET-3X3-R-X1-Y12",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-R-X1-Y12.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 12,
+      "address": "R-X2-Y12",
+      "location_qr": "CABINET-3X3-R-X2-Y12",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-R-X2-Y12.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 12,
+      "address": "R-X3-Y12",
+      "location_qr": "CABINET-3X3-R-X3-Y12",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-R-X3-Y12.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 12,
+      "address": "R-X4-Y12",
+      "location_qr": "CABINET-3X3-R-X4-Y12",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-R-X4-Y12.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 12,
+      "address": "R-X5-Y12",
+      "location_qr": "CABINET-3X3-R-X5-Y12",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-R-X5-Y12.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 12,
+      "address": "R-X6-Y12",
+      "location_qr": "CABINET-3X3-R-X6-Y12",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-R-X6-Y12.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 13,
+      "address": "R-X1-Y13",
+      "location_qr": "CABINET-3X3-R-X1-Y13",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-R-X1-Y13.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 13,
+      "address": "R-X2-Y13",
+      "location_qr": "CABINET-3X3-R-X2-Y13",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-R-X2-Y13.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 13,
+      "address": "R-X3-Y13",
+      "location_qr": "CABINET-3X3-R-X3-Y13",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-R-X3-Y13.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 13,
+      "address": "R-X4-Y13",
+      "location_qr": "CABINET-3X3-R-X4-Y13",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-R-X4-Y13.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 13,
+      "address": "R-X5-Y13",
+      "location_qr": "CABINET-3X3-R-X5-Y13",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-R-X5-Y13.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 13,
+      "address": "R-X6-Y13",
+      "location_qr": "CABINET-3X3-R-X6-Y13",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-R-X6-Y13.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 14,
+      "address": "R-X1-Y14",
+      "location_qr": "CABINET-3X3-R-X1-Y14",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-R-X1-Y14.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 14,
+      "address": "R-X2-Y14",
+      "location_qr": "CABINET-3X3-R-X2-Y14",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-R-X2-Y14.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 14,
+      "address": "R-X3-Y14",
+      "location_qr": "CABINET-3X3-R-X3-Y14",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-R-X3-Y14.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 14,
+      "address": "R-X4-Y14",
+      "location_qr": "CABINET-3X3-R-X4-Y14",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-R-X4-Y14.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 14,
+      "address": "R-X5-Y14",
+      "location_qr": "CABINET-3X3-R-X5-Y14",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-R-X5-Y14.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 14,
+      "address": "R-X6-Y14",
+      "location_qr": "CABINET-3X3-R-X6-Y14",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-R-X6-Y14.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 15,
+      "address": "R-X1-Y15",
+      "location_qr": "CABINET-3X3-R-X1-Y15",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-R-X1-Y15.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 15,
+      "address": "R-X2-Y15",
+      "location_qr": "CABINET-3X3-R-X2-Y15",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-R-X2-Y15.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 15,
+      "address": "R-X3-Y15",
+      "location_qr": "CABINET-3X3-R-X3-Y15",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-R-X3-Y15.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 15,
+      "address": "R-X4-Y15",
+      "location_qr": "CABINET-3X3-R-X4-Y15",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-R-X4-Y15.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 15,
+      "address": "R-X5-Y15",
+      "location_qr": "CABINET-3X3-R-X5-Y15",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-R-X5-Y15.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 15,
+      "address": "R-X6-Y15",
+      "location_qr": "CABINET-3X3-R-X6-Y15",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-R-X6-Y15.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 16,
+      "address": "R-X1-Y16",
+      "location_qr": "CABINET-3X3-R-X1-Y16",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-R-X1-Y16.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 16,
+      "address": "R-X2-Y16",
+      "location_qr": "CABINET-3X3-R-X2-Y16",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-R-X2-Y16.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 16,
+      "address": "R-X3-Y16",
+      "location_qr": "CABINET-3X3-R-X3-Y16",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-R-X3-Y16.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 16,
+      "address": "R-X4-Y16",
+      "location_qr": "CABINET-3X3-R-X4-Y16",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-R-X4-Y16.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 16,
+      "address": "R-X5-Y16",
+      "location_qr": "CABINET-3X3-R-X5-Y16",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-R-X5-Y16.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 16,
+      "address": "R-X6-Y16",
+      "location_qr": "CABINET-3X3-R-X6-Y16",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-R-X6-Y16.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 17,
+      "address": "R-X1-Y17",
+      "location_qr": "CABINET-3X3-R-X1-Y17",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-R-X1-Y17.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 17,
+      "address": "R-X2-Y17",
+      "location_qr": "CABINET-3X3-R-X2-Y17",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-R-X2-Y17.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 17,
+      "address": "R-X3-Y17",
+      "location_qr": "CABINET-3X3-R-X3-Y17",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-R-X3-Y17.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 17,
+      "address": "R-X4-Y17",
+      "location_qr": "CABINET-3X3-R-X4-Y17",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-R-X4-Y17.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 17,
+      "address": "R-X5-Y17",
+      "location_qr": "CABINET-3X3-R-X5-Y17",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-R-X5-Y17.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 17,
+      "address": "R-X6-Y17",
+      "location_qr": "CABINET-3X3-R-X6-Y17",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-R-X6-Y17.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 18,
+      "address": "R-X1-Y18",
+      "location_qr": "CABINET-3X3-R-X1-Y18",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-R-X1-Y18.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 18,
+      "address": "R-X2-Y18",
+      "location_qr": "CABINET-3X3-R-X2-Y18",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-R-X2-Y18.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 18,
+      "address": "R-X3-Y18",
+      "location_qr": "CABINET-3X3-R-X3-Y18",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-R-X3-Y18.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 18,
+      "address": "R-X4-Y18",
+      "location_qr": "CABINET-3X3-R-X4-Y18",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-R-X4-Y18.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 18,
+      "address": "R-X5-Y18",
+      "location_qr": "CABINET-3X3-R-X5-Y18",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-R-X5-Y18.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 18,
+      "address": "R-X6-Y18",
+      "location_qr": "CABINET-3X3-R-X6-Y18",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-R-X6-Y18.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 19,
+      "address": "R-X1-Y19",
+      "location_qr": "CABINET-3X3-R-X1-Y19",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-R-X1-Y19.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 19,
+      "address": "R-X2-Y19",
+      "location_qr": "CABINET-3X3-R-X2-Y19",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-R-X2-Y19.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 19,
+      "address": "R-X3-Y19",
+      "location_qr": "CABINET-3X3-R-X3-Y19",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-R-X3-Y19.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 19,
+      "address": "R-X4-Y19",
+      "location_qr": "CABINET-3X3-R-X4-Y19",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-R-X4-Y19.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 19,
+      "address": "R-X5-Y19",
+      "location_qr": "CABINET-3X3-R-X5-Y19",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-R-X5-Y19.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 19,
+      "address": "R-X6-Y19",
+      "location_qr": "CABINET-3X3-R-X6-Y19",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-R-X6-Y19.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 20,
+      "address": "R-X1-Y20",
+      "location_qr": "CABINET-3X3-R-X1-Y20",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-R-X1-Y20.png",
+      "content_png": "content-013effcc33639f7c.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 20,
+      "address": "R-X2-Y20",
+      "location_qr": "CABINET-3X3-R-X2-Y20",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+        "code": "5UMGX",
+        "length_mm": 35,
+        "title": "M3 \u00d7 35 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+      "location_png": "location-R-X2-Y20.png",
+      "content_png": "content-93db7933e58058f0.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 20,
+      "address": "R-X3-Y20",
+      "location_qr": "CABINET-3X3-R-X3-Y20",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-R-X3-Y20.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 20,
+      "address": "R-X4-Y20",
+      "location_qr": "CABINET-3X3-R-X4-Y20",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-R-X4-Y20.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 20,
+      "address": "R-X5-Y20",
+      "location_qr": "CABINET-3X3-R-X5-Y20",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-R-X5-Y20.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 20,
+      "address": "R-X6-Y20",
+      "location_qr": "CABINET-3X3-R-X6-Y20",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-R-X6-Y20.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 21,
+      "address": "R-X1-Y21",
+      "location_qr": "CABINET-3X3-R-X1-Y21",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-R-X1-Y21.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 21,
+      "address": "R-X2-Y21",
+      "location_qr": "CABINET-3X3-R-X2-Y21",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-R-X2-Y21.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "R",
+      "x": 3,
+      "y": 21,
+      "address": "R-X3-Y21",
+      "location_qr": "CABINET-3X3-R-X3-Y21",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-R-X3-Y21.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "R",
+      "x": 4,
+      "y": 21,
+      "address": "R-X4-Y21",
+      "location_qr": "CABINET-3X3-R-X4-Y21",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-R-X4-Y21.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    },
+    {
+      "side": "R",
+      "x": 5,
+      "y": 21,
+      "address": "R-X5-Y21",
+      "location_qr": "CABINET-3X3-R-X5-Y21",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+        "code": "8VZGM",
+        "length_mm": 25,
+        "title": "M3 \u00d7 25 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+      "location_png": "location-R-X5-Y21.png",
+      "content_png": "content-22ef58c16da1f33c.png"
+    },
+    {
+      "side": "R",
+      "x": 6,
+      "y": 21,
+      "address": "R-X6-Y21",
+      "location_qr": "CABINET-3X3-R-X6-Y21",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+        "code": "89RWC",
+        "length_mm": 30,
+        "title": "M3 \u00d7 30 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+      "location_png": "location-R-X6-Y21.png",
+      "content_png": "content-013effcc33639f7c.png"
+    }
+  ]
+}

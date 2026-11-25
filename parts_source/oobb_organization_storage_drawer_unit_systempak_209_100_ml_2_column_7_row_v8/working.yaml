@@ -213,8 +213,6 @@ oobb_details:
   pilot_depth: 0.0
   pilot_half_width: 0.0
   product_name: V8 2x7 Systempak 209 drawer unit
-  push_in_cap_variants:
-    corner_clearance_count: 4
   receiver_hole_height: 5.2
   receiver_hole_width: 5.2
   receiver_hole_widths:
@@ -311,8 +309,6 @@ permanent_snap_test: true
 pilot_depth: 0.0
 pilot_half_width: 0.0
 product_name: V8 2x7 Systempak 209 drawer unit
-push_in_cap_variants:
-  corner_clearance_count: 4
 receiver_hole_height: 5.2
 receiver_hole_width: 5.2
 receiver_hole_widths:

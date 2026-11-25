@@ -1,0 +1,57 @@
+[
+  {
+    "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+    "code": "6RSIO",
+    "length_mm": 4
+  },
+  {
+    "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+    "code": "79YYV",
+    "length_mm": 5
+  },
+  {
+    "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+    "code": "61ZH8",
+    "length_mm": 6
+  },
+  {
+    "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+    "code": "93F5S",
+    "length_mm": 8
+  },
+  {
+    "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+    "code": "9Z21W",
+    "length_mm": 10
+  },
+  {
+    "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+    "code": "1QF1U",
+    "length_mm": 12
+  },
+  {
+    "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+    "code": "5J422",
+    "length_mm": 16
+  },
+  {
+    "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+    "code": "7OUPV",
+    "length_mm": 20
+  },
+  {
+    "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_25_mm_length",
+    "code": "8VZGM",
+    "length_mm": 25
+  },
+  {
+    "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_30_mm_length",
+    "code": "89RWC",
+    "length_mm": 30
+  },
+  {
+    "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length",
+    "code": "5UMGX",
+    "length_mm": 35
+  }
+]

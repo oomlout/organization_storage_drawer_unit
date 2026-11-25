@@ -269,3 +269,35 @@ def floor_stop(thing,**p):
         'pos':[feature['pos'][0]-.1,feature['pos'][1],0],
     }
     oobb.append_full(thing,**p3)
+
+# Cabinet shop axes match the face CAD: X across, Y down, Z front to rear.
+CABINET_CUTS = """
+module cap_bores() {
+  for (side=[-1,1], i=[0:4])
+    translate([side*(inside_w/2+t/2),0,stations[i]]) rotate([-90,0,0])
+      if (i%2==0) translate([0,0,-.01]) cylinder(d=6.1,h=8.01);
+      else {
+        translate([0,0,-.01]) cylinder(d=4,h=t+.02);
+        translate([0,0,t-1.5]) cylinder(d1=4,d2=7.02,h=1.51);
+      }
+}
+module side_bores() {
+  for (bottom=[0,1], i=[0:4])
+    translate([t/2,bottom*inside_h,stations[i]]) rotate([bottom?90:-90,0,0])
+      translate([0,0,-.01]) cylinder(d=i%2?2.5:6.1,h=i%2?21.01:17.01);
+  for (back=[0,1], y=retainer_y)
+    translate([t/2,y,back*depth]) rotate([0,back?180:0,0])
+      translate([0,0,-.01]) cylinder(d=2.5,h=16.01);
+}
+"""
+
+BEAM_JOINT_CUTS = """
+module joint_bores(holes,wood) {
+  // Leave the OOBB countersink and pilot cheeks of each native adapter intact.
+  for(p=holes) translate([p[0],p[1],-.05]) cylinder(d=7,h=tie_t+.1);
+  if(len(wood)) translate(wood) {
+    translate([0,0,-.05]) cylinder(d=4,h=tie_t+.1);
+    translate([0,0,-.01]) cylinder(d1=7.02,d2=4,h=1.51);
+  }
+}
+"""

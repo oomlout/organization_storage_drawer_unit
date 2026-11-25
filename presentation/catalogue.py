@@ -1,5 +1,6 @@
 """Generate the public catalogue and assembly instructions from the populated parts."""
 
+import json
 from urllib.parse import urlencode
 
 from working_oomp_populate import VERSIONS, get_current_options, record_id
@@ -25,7 +26,7 @@ NUT = "hardware_nut_m3"
 
 def title(record):
     if record["part_role"] == "accessory":
-        return "V8 joining brackets"
+        return record["product_name"]
     return f'{record["column"]} × {record["row"]} drawer unit'
 
 
@@ -88,6 +89,9 @@ def guide(record, meta):
                 ["screw"],
             ),
         ]
+    snaps = meta["bom"]["snap_beam"]
+    beams = f"the {snaps} snap beams and the loaded screw beams" if snaps else "the four loaded screw beams"
+    caps = "Press the square caps over the snap ends. " if snaps else ""
     return [
         (
             "Load the screw beams",
@@ -96,7 +100,7 @@ def guide(record, meta):
         ),
         (
             "Seat the beams in the front",
-            f'Place the front face outside-down. Seat the {meta["bom"]["snap_beam"]} snap beams and the loaded screw beams from the inside. Use the mount map in assembly.json. The runner stops point up in service.',
+            f'Place the front face outside-down. Seat {beams} from the inside. Use the mount map in assembly.json. The runner stops point up in service.',
             ["front", "snap_beam"],
         ),
         (
@@ -106,7 +110,7 @@ def guide(record, meta):
         ),
         (
             "Lock both faces",
-            f'Press caps over the snap ends. Fit the four relieved caps at the marked outer mounts. Seat the screw adapters and fit one M3 × 20 countersunk screw per adapter ({meta["bom"]["screw_adapter"]} total). Slide a pot into each bank to check travel.',
+            f'{caps}Seat the screw adapters and fit one M3 × 20 countersunk screw per adapter ({meta["bom"]["screw_adapter"]} total). Slide a pot into each bank to check travel.',
             ["front_plug", "front_plug_square", "screw_adapter", "screw"],
         ),
     ]
@@ -139,9 +143,9 @@ def write_part(folder, record, meta, steps, items):
         "",
         NOTICE,
         "",
-        f"![{'Frame with illustrative removable pots' if frame else 'Installed four-way joiner'}](presentation.jpg)",
+        f"![{'Frame with removable pots' if frame else 'Installed four-way joiner'}](presentation.jpg)",
         "",
-        "[Download the print kit](print_files.zip) · [Printing instructions](printing.txt) · [Assembly data](assembly.json)",
+        "[Printing instructions](printing.txt) · [Assembly data](assembly.json)",
         "",
         manual_links(record),
         "",
@@ -152,16 +156,40 @@ def write_part(folder, record, meta, steps, items):
         w, h, d = meta["frame_envelope_mm"]
         lines += [
             f"Face size is {w:g} × {h:g} mm. The outside faces are {d:g} mm apart. "
-            f'The kit uses a {meta["inside_span_mm"]:g} mm inside rail span. The enclosure supplies the bottom floor. '
-            "The pale pots in the render illustrate the container envelope.",
+            f'The kit uses a {meta["inside_span_mm"]:g} mm inside rail span. The enclosure supplies the bottom floor.',
             "",
             "Print each handed face and each listed batch once. Individual component files are spares. "
             "For a laser build, cut the 6 mm face pattern twice, or cut one complete 3 mm reinforced trial pattern per face.",
             "",
             "[6 mm laser face](front_laser_2d.dxf) · [3 mm reinforced trial](front_3mm_test_2d.dxf)",
         ]
+        lines += ["", "**Print one of each file**", "",
+                  "[Front face](front.stl), [rear face](back.stl), " +
+                  ", ".join(f"[{name}]({name}.stl)" for name in meta["print_batches"]) + "."]
+        if (folder / "stocked-front.jpg").is_file():
+            from .sync_packaging import model_folder
+
+            pack = json.loads((model_folder(record["container"]) / "model.json").read_text(encoding="utf-8"))
+            fit = json.loads((folder / "pot-fit.json").read_text(encoding="utf-8"))
+            lines += [
+                "",
+                "## Stocked unit",
+                "",
+                f"The modelled open pot is {pack['height']:g} mm high. The closed package is {pack['closed_height']:g} mm high "
+                f"and the frame opening is {fit['opening_height_mm']:g} mm. Both banks are shown with lids removed. "
+                f"[Manufacturer photos]({pack['source']}) · [Technical sheet]({pack['technical_sheet']}).",
+                "",
+                "The fixed frame label identifies the face, column and row. "
+                "The larger label on the removable pot identifies its example OOMP contents. Each label has its own QR code.",
+                "",
+                "![Fully stocked unit with labelled pots](stocked-front.jpg)",
+                "",
+                "[Rear view](stocked-rear.jpg) · [Label close-up](stocked-detail.jpg) · [Fixed location labels](labels-location.pdf) · "
+                "[Replaceable contents labels](labels-contents.pdf) · [Individual label artwork](labels/) · "
+                "[Slot assignments](label-map.json) · [Reference model fit](pot-fit.json)",
+            ]
         if "compatible_joiner_part" in meta:
-            lines += ["", f"[Optional joining brackets](../{meta['compatible_joiner_part']}/README.md)"]
+            lines += ["", f"[Joining brackets](../{meta['compatible_joiner_part']}/README.md) and [frame-to-plywood joint](../{meta['compatible_joiner_part'].replace('_joiners_v8','_plywood_joint_v8')}/README.md)"]
     else:
         hosts = [o for o in get_current_options() if o["variant"] in record["compatible_frames"]]
         lines += [
@@ -229,7 +257,7 @@ def write_index(root, records):
         "",
         f"**Featured build · [{title(hero)}]({base(hero)}/README.md).** "
         f'{hero["column"]*hero["row"]} pots per face, {hero["drawer_count"]} in total. '
-        f'The pale inserts show where the {hero["tray_name"]} pots sit on the rails.',
+        f'The removable {hero["tray_name"]} pots slide in from either side.',
         "",
         f'This build uses two handed faces, {hero["snap_beam_count"]} snap beams and {hero["screw_beam_count"]} screw beams. '
         "For a fastener cabinet, one bank can hold screws and the opposite bank their matching nuts.",
@@ -250,6 +278,17 @@ def write_index(root, records):
         "## Current version · V8",
         "",
     ]
+    if (root / base(hero) / "stocked-front.jpg").is_file():
+        before = lines.index("### Assemble the featured build")
+        lines[before:before] = [
+            f"[![Fully stocked {title(hero)} with fixed grid IDs and removable OOMP contents labels]({base(hero)}/stocked-front.jpg)]({base(hero)}/README.md#stocked-unit)",
+            "",
+            "Each slot has a permanent XY address. Each pot has a separate contents label. Scan either QR code or read the printed identifier.",
+            "",
+        ]
+    for cabinet in (r for r in records if r["part_role"] == "cabinet"):
+        path=base(cabinet)
+        lines += [f"[![Nine-unit plywood cabinet]({path}/presentation.jpg)]({path}/README.md)", "", f"[3 × 3 cabinet of 2 × 7 units · cut list, drilling and assembly]({path}/README.md)", ""]
     for family in dict.fromkeys(r["taxonomy_5"] for r in frames):
         group = [r for r in frames if r["taxonomy_5"] == family]
         lines += [
@@ -261,13 +300,13 @@ def write_index(root, records):
         for r in group:
             path = base(r)
             lines.append(
-                f'| [<img src="{path}/presentation.jpg" width="150" alt="{title(r)}">]({path}/README.md) | [{title(r)}]({path}/README.md) | {r["drawer_count"]} | [Illustrated guide]({viewer_link(r,base(r)+"/")}) | [ZIP]({path}/print_files.zip) |'
+                f'| [<img src="{path}/presentation.jpg" width="150" alt="{title(r)}">]({path}/README.md) | [{title(r)}]({path}/README.md) | {r["drawer_count"]} | [Illustrated guide]({viewer_link(r,base(r)+"/")}) | [Print list]({path}/printing.txt) |'
             )
         lines.append("")
     for r in records:
         if r["part_role"] == "accessory":
             lines += [
-                f'**[{title(r)}]({base(r)}/README.md)** · Two-hole edge strips and four-hole corner plates with inside backers. [Assembly guide]({viewer_link(r,base(r)+"/")}) · [Print kit]({base(r)}/print_files.zip)',
+                f'**[{r["product_name"]}]({base(r)}/README.md)** · [Print and installation instructions]({base(r)}/README.md)',
                 "",
             ]
     lines += [

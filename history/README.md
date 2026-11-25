@@ -12,6 +12,8 @@ This folder preserves the earlier source stages, generator entry points, manufac
 | [parts_old_1_manifest.json](parts_old_1_manifest.json) | Original per-file checksums for the earlier archived catalogue, source and navigation |
 | [v7_catalogue_sha256.json](v7_catalogue_sha256.json) | SHA-256 checksums for the 3,434 files in the pre-migration catalogue, source and navigation |
 
+ZIP bundles were removed from the checkout. The verification scripts check the individual files against their original hashes. Historical generation scripts are retained as source snapshots.
+
 Run these commands **from this folder** to check the archive and run the historical geometry-source tests. To experiment with an older generator, work in a separate copy of the archive.
 
 ```powershell

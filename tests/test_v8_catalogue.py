@@ -24,7 +24,7 @@ class V8CatalogueTests(unittest.TestCase):
             population.selected_options("unit_1_wide_2_tall")
 
     def test_frame_grids_and_quantities(self):
-        for size, counts in {"1x1": (2,2,2), "2x2": (8,6,3), "2x7": (28,17,4)}.items():
+        for size, counts in {"1x1": (2,0,4), "2x2": (8,4,5), "2x7": (28,17,4)}.items():
             with self.subTest(size=size):
                 p = cad.frame_parameters(**self.parts[size])
                 self.assertEqual((p["frame"]["drawer_count"], p["bom"]["snap_beam"], p["bom"]["screw_beam"]), counts)
@@ -40,7 +40,7 @@ class V8CatalogueTests(unittest.TestCase):
         self.assertEqual(len(slots), 4)
         self.assertEqual(len({pad["layout_x"] for pad in slots}), 4)
         self.assertEqual({pad["layout_y"] for pad in slots}, {slots[0]["layout_y"]})
-        self.assertEqual(p["cap_quantities"], {"front_plug": 4, "front_plug_square": 0})
+        self.assertEqual(p["cap_quantities"], {"front_plug": 0, "front_plug_square": 0})
 
     def test_new_tray_family_reaches_the_catalogue_and_manual(self):
         from presentation.catalogue import write_index, tray_name
@@ -66,26 +66,23 @@ class V8CatalogueTests(unittest.TestCase):
         self.assertEqual([p["variant"] for p in population.selected_options("joiners")], [*accessory["compatible_frames"], "joiners"])
         self.assertEqual([p["variant"] for p in population.selected_options("2x7")], ["2x7"])
         self.assertNotIn("corner_fixing", self.parts["2x7"])
-        host = self.parts[accessory["reference_frame"]]
-        p = cad.frame_parameters(**dict(host, draw_joiners=True, corner_fixing=accessory["corner_fixing"]))
-        self.assertEqual(sorted(len(piece["holes"]) for piece in p["joiners"]), [2,4])
-        self.assertEqual(p["corner_fixing"]["screw_length"], 25)
+        plywood = self.parts["plywood-joint"]
+        self.assertNotEqual(population.record_id(accessory), population.record_id(plywood))
+        self.assertEqual(plywood["compatible_frames"], accessory["compatible_frames"])
 
-    def test_raising_the_joiner_keeps_the_screw_and_nut_seats(self):
-        accessory = self.parts["joiners"]
-        host = self.parts["2x2"]
-        interface = cad.frame_parameters(**host)["corner_fixing"]
-        settings = dict(accessory["corner_fixing"], front_roof_thickness=3.5)
-        p = cad.frame_parameters(**dict(host, draw_joiners=True, corner_fixing=settings))
-        j = p["corner_fixing"]
-        height = p["joiners"][0]["size"][2]
-        self.assertAlmostEqual(height, j["cap_projection"] + j["cap_axial_clearance"] + 3.5)
-        self.assertAlmostEqual(j["screw_reference_recess"] - height,
-                               interface["screw_reference_recess"] - interface["joining_plate_thickness"])
-        self.assertEqual(j["backer_depth"], interface["backer_depth"])
-        with self.assertRaisesRegex(ValueError, "roof"):
-            cad.frame_parameters(**dict(host, draw_joiners=True,
-                corner_fixing=dict(settings, front_roof_thickness=2)))
+    def test_joiners_use_the_four_outer_beam_screws(self):
+        from v8_beam_joints import dimensions, pattern
+        for size in self.parts["joiners"]["compatible_frames"]:
+            p = cad.frame_parameters(**self.parts[size])
+            hx, upper, lower, inset = dimensions(p)
+            mounts = {(m["x"],m["hole_y"]) for m in p["frame_mounts"] if m["kind"] == "screw_beam"}
+            for x in (-hx,hx):
+                for y in (upper,lower):
+                    self.assertIn((x,y),mounts)
+            holes,_,wood = pattern("plywood_joint",inset)
+            self.assertAlmostEqual(hx+wood[0],p["frame"]["width_total"]/2+6)
+            self.assertEqual(holes,[[0,0]])
+            self.assertEqual(p["screw"]["length"],20)
 
     def test_make_all_order_and_stale_files(self):
         with TemporaryDirectory() as tmp, chdir(tmp):

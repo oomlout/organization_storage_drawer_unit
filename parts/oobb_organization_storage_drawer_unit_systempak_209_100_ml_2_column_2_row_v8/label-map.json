@@ -1,0 +1,150 @@
+{
+  "unit": "2X2",
+  "axes": "X left to right and Y top to bottom as viewed from each face",
+  "location_size_mm": [
+    8.4,
+    10.8
+  ],
+  "contents_size_mm": [
+    47,
+    13
+  ],
+  "slots": [
+    {
+      "side": "F",
+      "x": 1,
+      "y": 1,
+      "address": "F-X1-Y1",
+      "location_qr": "2X2-F-X1-Y1",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+        "code": "6RSIO",
+        "length_mm": 4,
+        "title": "M3 \u00d7 4 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+      "location_png": "location-F-X1-Y1.png",
+      "content_png": "content-64b5063c8f70d9a2.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 1,
+      "address": "F-X2-Y1",
+      "location_qr": "2X2-F-X2-Y1",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+        "code": "79YYV",
+        "length_mm": 5,
+        "title": "M3 \u00d7 5 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+      "location_png": "location-F-X2-Y1.png",
+      "content_png": "content-db39f3f21a941183.png"
+    },
+    {
+      "side": "F",
+      "x": 1,
+      "y": 2,
+      "address": "F-X1-Y2",
+      "location_qr": "2X2-F-X1-Y2",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "code": "61ZH8",
+        "length_mm": 6,
+        "title": "M3 \u00d7 6 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "location_png": "location-F-X1-Y2.png",
+      "content_png": "content-9f3fb8beb0f1ff0b.png"
+    },
+    {
+      "side": "F",
+      "x": 2,
+      "y": 2,
+      "address": "F-X2-Y2",
+      "location_qr": "2X2-F-X2-Y2",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+        "code": "93F5S",
+        "length_mm": 8,
+        "title": "M3 \u00d7 8 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length",
+      "location_png": "location-F-X2-Y2.png",
+      "content_png": "content-e986c87dbf9a59d4.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 1,
+      "address": "R-X1-Y1",
+      "location_qr": "2X2-R-X1-Y1",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+        "code": "9Z21W",
+        "length_mm": 10,
+        "title": "M3 \u00d7 10 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_10_mm_length",
+      "location_png": "location-R-X1-Y1.png",
+      "content_png": "content-3fce65ac9f7154a9.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 1,
+      "address": "R-X2-Y1",
+      "location_qr": "2X2-R-X2-Y1",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "code": "1QF1U",
+        "length_mm": 12,
+        "title": "M3 \u00d7 12 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "location_png": "location-R-X2-Y1.png",
+      "content_png": "content-8ea12432f954e7b2.png"
+    },
+    {
+      "side": "R",
+      "x": 1,
+      "y": 2,
+      "address": "R-X1-Y2",
+      "location_qr": "2X2-R-X1-Y2",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "code": "5J422",
+        "length_mm": 16,
+        "title": "M3 \u00d7 16 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "location_png": "location-R-X1-Y2.png",
+      "content_png": "content-55a55ff06d78d35f.png"
+    },
+    {
+      "side": "R",
+      "x": 2,
+      "y": 2,
+      "address": "R-X2-Y2",
+      "location_qr": "2X2-R-X2-Y2",
+      "part": {
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+        "code": "7OUPV",
+        "length_mm": 20,
+        "title": "M3 \u00d7 20 mm",
+        "detail": "Countersunk \u00b7 hex socket"
+      },
+      "content_qr": "hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length",
+      "location_png": "location-R-X2-Y2.png",
+      "content_png": "content-6debaca2afa9d111.png"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "units": 9,
+  "open_pots": 252,
+  "unobstructed_location_labels": 252,
+  "mesh_pairs_checked": 804,
+  "allowed_intersection_mm3": 0.025,
+  "withdrawal_paths_checked": 252,
+  "withdrawal_candidate_pairs": 216,
+  "wood_pilots_with_thread_engagement": 16,
+  "cap_beyond_array_each_side_mm": [
+    12.0,
+    12.0
+  ],
+  "cap_beyond_plywood_sides_mm": [
+    0.0,
+    0.0
+  ],
+  "plywood_joints": 4,
+  "dowels_per_joint": 3,
+  "screws_per_joint": 2,
+  "closed_end_plywood_above_dowels_mm": 4,
+  "m3_thread_beyond_nut_mm": 2.15,
+  "additional_frame_drillings": 0,
+  "plywood_pilot_centre_mm": 6.0,
+  "dowel_end_allowance_mm": 1,
+  "permitted_contacts": [
+    "screw threads in side pilots",
+    "M3 screws in their nuts"
+  ]
+}

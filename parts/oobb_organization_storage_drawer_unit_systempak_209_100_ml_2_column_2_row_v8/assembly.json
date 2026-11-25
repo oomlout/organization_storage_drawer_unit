@@ -19,28 +19,23 @@
   "bom": {
     "front": 1,
     "back": 1,
-    "snap_beam": 6,
-    "screw_beam": 3,
-    "front_plug": 12,
-    "screw_adapter": 6,
-    "M3_countersunk_screw_20_mm": 6,
-    "M3_nut": 6
+    "snap_beam": 4,
+    "screw_beam": 5,
+    "front_plug": 8,
+    "screw_adapter": 10,
+    "M3_countersunk_screw_20_mm": 10,
+    "M3_nut": 10
   },
   "print_batches": {
     "snap_beams": {
       "component": "snap_beam",
-      "count": 6,
+      "count": 4,
       "pitch": 24
     },
     "screw_beams": {
       "component": "screw_beam",
-      "count": 3,
+      "count": 5,
       "pitch": 24
-    },
-    "front_plugs_corner_clearance": {
-      "component": "front_plug",
-      "count": 4,
-      "pitch": 15
     },
     "front_plugs_square": {
       "component": "front_plug_square",
@@ -49,12 +44,12 @@
     },
     "screw_adapters": {
       "component": "screw_adapter",
-      "count": 6,
+      "count": 10,
       "pitch": 15
     }
   },
   "cap_quantities": {
-    "front_plug": 4,
+    "front_plug": 0,
     "front_plug_square": 8
   },
   "frame_mounts": [
@@ -62,6 +57,7 @@
       "x": -89.3,
       "hole_y": -9.899999999999999,
       "kind": "snap_beam",
+      "corner_beam": false,
       "divider_x": -89.3,
       "shared_runner": false,
       "cap_component": "front_plug_square"
@@ -69,15 +65,16 @@
     {
       "x": -89.3,
       "hole_y": 21.400000000000002,
-      "kind": "snap_beam",
+      "kind": "screw_beam",
+      "corner_beam": true,
       "divider_x": -89.3,
-      "shared_runner": false,
-      "cap_component": "front_plug"
+      "shared_runner": false
     },
     {
       "x": 1.5,
       "hole_y": -9.899999999999999,
       "kind": "snap_beam",
+      "corner_beam": false,
       "divider_x": 0.0,
       "shared_runner": true,
       "cap_component": "front_plug_square"
@@ -86,6 +83,7 @@
       "x": 1.5,
       "hole_y": 21.400000000000002,
       "kind": "snap_beam",
+      "corner_beam": false,
       "divider_x": 0.0,
       "shared_runner": true,
       "cap_component": "front_plug_square"
@@ -94,6 +92,7 @@
       "x": 89.3,
       "hole_y": -9.899999999999999,
       "kind": "snap_beam",
+      "corner_beam": false,
       "divider_x": 89.3,
       "shared_runner": false,
       "cap_component": "front_plug_square"
@@ -101,15 +100,16 @@
     {
       "x": 89.3,
       "hole_y": 21.400000000000002,
-      "kind": "snap_beam",
+      "kind": "screw_beam",
+      "corner_beam": true,
       "divider_x": 89.3,
-      "shared_runner": false,
-      "cap_component": "front_plug"
+      "shared_runner": false
     },
     {
       "x": -89.3,
       "hole_y": -36.9,
       "kind": "screw_beam",
+      "corner_beam": true,
       "divider_x": -89.3,
       "shared_runner": false
     },
@@ -117,6 +117,7 @@
       "x": 1.5,
       "hole_y": -36.9,
       "kind": "screw_beam",
+      "corner_beam": false,
       "divider_x": 0.0,
       "shared_runner": true
     },
@@ -124,6 +125,7 @@
       "x": 89.3,
       "hole_y": -36.9,
       "kind": "screw_beam",
+      "corner_beam": true,
       "divider_x": 89.3,
       "shared_runner": false
     }
@@ -133,6 +135,7 @@
       "x": -89.3,
       "hole_y": -9.899999999999999,
       "kind": "snap_beam",
+      "corner_beam": false,
       "divider_x": -89.3,
       "shared_runner": false,
       "cap_component": "front_plug_square",
@@ -144,10 +147,10 @@
     {
       "x": -89.3,
       "hole_y": 21.400000000000002,
-      "kind": "snap_beam",
+      "kind": "screw_beam",
+      "corner_beam": true,
       "divider_x": -89.3,
       "shared_runner": false,
-      "cap_component": "front_plug",
       "view": "clip_reinforcement",
       "reliefs": [],
       "pad_x": -89.3,
@@ -157,6 +160,7 @@
       "x": 1.5,
       "hole_y": -9.899999999999999,
       "kind": "snap_beam",
+      "corner_beam": false,
       "divider_x": 0.0,
       "shared_runner": true,
       "cap_component": "front_plug_square",
@@ -169,6 +173,7 @@
       "x": 1.5,
       "hole_y": 21.400000000000002,
       "kind": "snap_beam",
+      "corner_beam": false,
       "divider_x": 0.0,
       "shared_runner": true,
       "cap_component": "front_plug_square",
@@ -181,6 +186,7 @@
       "x": 89.3,
       "hole_y": -9.899999999999999,
       "kind": "snap_beam",
+      "corner_beam": false,
       "divider_x": 89.3,
       "shared_runner": false,
       "cap_component": "front_plug_square",
@@ -192,10 +198,10 @@
     {
       "x": 89.3,
       "hole_y": 21.400000000000002,
-      "kind": "snap_beam",
+      "kind": "screw_beam",
+      "corner_beam": true,
       "divider_x": 89.3,
       "shared_runner": false,
-      "cap_component": "front_plug",
       "view": "clip_reinforcement",
       "reliefs": [],
       "pad_x": 89.3,
@@ -205,6 +211,7 @@
       "x": -89.3,
       "hole_y": -36.9,
       "kind": "screw_beam",
+      "corner_beam": true,
       "divider_x": -89.3,
       "shared_runner": false,
       "view": "clip_reinforcement",
@@ -216,6 +223,7 @@
       "x": 1.5,
       "hole_y": -36.9,
       "kind": "screw_beam",
+      "corner_beam": false,
       "divider_x": 0.0,
       "shared_runner": true,
       "view": "clip_reinforcement_offset",
@@ -227,6 +235,7 @@
       "x": 89.3,
       "hole_y": -36.9,
       "kind": "screw_beam",
+      "corner_beam": true,
       "divider_x": 89.3,
       "shared_runner": false,
       "view": "clip_reinforcement",

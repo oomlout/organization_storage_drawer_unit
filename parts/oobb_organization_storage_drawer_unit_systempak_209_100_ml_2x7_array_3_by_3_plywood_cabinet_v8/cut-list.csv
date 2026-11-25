@@ -1,0 +1,4 @@
+piece,material,quantity,length_mm,width_mm,thickness_mm
+Top / bottom,Plywood,2,617.4,209.0,12
+Left / right side,Plywood,2,665.5,209.0,12
+Inter-tier floor strip,Aluminium flat bar,24,209.0,15,2

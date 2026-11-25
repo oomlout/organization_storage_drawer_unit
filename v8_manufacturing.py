@@ -5,7 +5,6 @@ from pathlib import Path
 import shutil
 import subprocess
 from tempfile import TemporaryDirectory
-from zipfile import ZIP_DEFLATED, ZipFile
 
 import ezdxf
 import oobb
@@ -14,9 +13,8 @@ import yaml
 
 from presentation import catalogue, scenes
 import working_scad as cad
-from v8_joiner_section import render as render_joiner_section, render_cap_section
 from working_oomp_populate import record_id, selected_options
-from v8_validation import validate_frame, validate_hardware_and_group, validate_joiner_profile, validate_samples
+from v8_validation import validate_frame
 
 
 def write_json(path, data):
@@ -78,16 +76,6 @@ def laser_drawings(folder, p):
     return targets
 
 
-def kit(folder, files):
-    path=folder/"print_files.zip"
-    with ZipFile(path,"w",ZIP_DEFLATED) as z:
-        for name in dict.fromkeys(files):
-            z.write(folder/name,name)
-    with ZipFile(path) as z:
-        if z.testzip() or any(z.read(n)!=(folder/n).read_bytes() for n in z.namelist()):
-            raise IOError(f"Corrupt manufacturing kit in {folder}")
-
-
 def frame_outputs(folder, inputs, export, joiner_id):
     p=cad.frame_parameters(**inputs)
     q=p["frame"]
@@ -103,7 +91,7 @@ def frame_outputs(folder, inputs, export, joiner_id):
               inside_span_mm=p["rail_length"],bom=p["bom"],print_batches=p["print_batches"],
               cap_quantities=p["cap_quantities"],frame_mounts=p["frame_mounts"],
               laser_reinforcements=p["reinforcement_pads"],stop_profile=p.get("face_stop_profile","plywood_floor_support"))
-    if p.get("corner_fixing"):
+    if inputs["taxonomy_5"] == "systempak_209_100_ml":
         meta["compatible_joiner_part"]=joiner_id
     write_json(folder/"assembly.json",meta)
     lines=[f"V8 {p['tray_name']} / {p['variant']} per face / {q['drawer_count']} pots total",
@@ -114,13 +102,13 @@ def frame_outputs(folder, inputs, export, joiner_id):
               "Fit M3 nuts through the side openings in the screw beams before closing the frame.",
               "Seat beams on the inside face. Fit the friction caps and screw adapters from outside.",
               f"Use {p['bom']['M3_nut']} M3 nuts and {p['bom']['M3_countersunk_screw_20_mm']} M3 x 20 countersunk screws for the beam mounts.",
-              "Use the four corner-relieved caps at the front_plug mounts in assembly.json. Fit square caps at the other snap mounts.",
+              "Fit square caps to any snap mounts. The four outer screw beams accept the joining brackets.",
               "The enclosure supplies the bottom floor. Install identical pots from both faces.",
               "Laser alternative: cut front_laser_2d.dxf twice from measured 6 mm sheet. Keep receiver X positions aligned.",
               "3 mm trial: cut front_3mm_test_2d.dxf once per face and bond the included 3 mm doublers on the inside. Align each receiver.",
               "Laser catches have square edges. Print fit, bond strength, clamping and load capacity require physical testing."]
-    if p.get("corner_fixing"):
-        lines.append(f"Optional joining hardware and fit samples are in the separate {joiner_id} part.")
+    if inputs["taxonomy_5"] == "systempak_209_100_ml":
+        lines.append(f"Use the beam-mounted joining brackets from the separate {joiner_id} part.")
     (folder/"printing.txt").write_text("\n".join(lines)+"\n",encoding="utf-8")
     if export:
         report=validate_frame(folder,p,counts,cuts)
@@ -129,57 +117,43 @@ def frame_outputs(folder, inputs, export, joiner_id):
         scene.write_text("rotate([-90,0,0]) { import(\"assembled.stl\"); }\n")
         openscad(scene,folder/"assembly_preview.png","--render","--viewall","--autocenter",
                  "--imgsize=1000,750","--projection=o","--camera=210,-330,220,0,0,0")
-        files=["front.stl","back.stl",*[n+".stl" for n in p["print_batches"]],
-               *[n+".dxf" for n,_ in cuts],"printing.txt","assembly.json","assembly_preview.png"]
-        kit(folder,files)
         scenes.render(folder,p,inputs,meta)
 
 
-def joiner_outputs(folder, accessory, frames, export):
-    ref=frames[accessory["reference_frame"]]
-    ref_folder=Path("parts")/record_id(ref)
-    inputs=dict(ref, draw_joiners=True, corner_fixing=accessory["corner_fixing"],
-                assembly_reference_file="../"+ref_folder.name+"/assembled.stl")
-    p=cad.frame_parameters(**inputs)
-    names=["joiners","joiners_clasp_clearance","joiner_backers","joiner_fit_samples"]
-    for n in names:
-        draw_view(folder,n,inputs,export)
-    for kind in ["screw","nut"]:
-        thing=oobb.get_default_thing(type="purchased_hardware")
-        cad.draw_hardware(thing,p,kind)
-        write_solid(folder,"joiner_"+kind+"_reference",thing,export,mode="true")
-    w=p["frame"]["width_total"]
-    assembly_views=[("joiners_in_use",False,False,f"{w*3.2},-{w*5.7},450,0,100,0"),
-            ("joiners_detail",True,False,"65,-130,55,0,12,0"),
-            ("joiners_backing_detail",True,False,"55,105,45,0,14,0"),
-            ("joiners_section",True,True,"17,40,98,0,11,-5")]
-    for name,detail,section,camera in assembly_views:
-        thing=oobb.get_default_thing(type="installed_joiner")
-        cad.draw_joiners_scene(thing,p,detail,section)
-        write_solid(folder,name,thing,False)
-        if export and section:
-            render_joiner_section(folder, ref_folder, p, folder/(name+".png"))
-        elif export:
-            openscad(folder/(name+".scad"),folder/(name+".png"),"--render",
-                     "--imgsize=1000,750","--projection=o","--camera="+camera)
-    meta=dict(version=8,part_role="accessory",
-        compatible_frames=accessory["compatible_frames"],reference_frame=ref_folder.name,
-        pieces=p["joiners"],settings=p["corner_fixing"],hardware_per_hole="M3 x 25 countersunk screw and M3 nut")
-    write_json(folder/"assembly.json",meta)
-    instructions=Path(__file__).with_name("joiner_printing.txt").read_text(encoding="utf-8")
-    (folder/"printing.txt").write_text(instructions,encoding="utf-8")
-    if export:
-        report={}
-        for key in accessory["compatible_frames"]:
-            host=frames[key]
-            params=cad.frame_parameters(**dict(host, draw_joiners=True, corner_fixing=accessory["corner_fixing"]))
-            report[key]=validate_hardware_and_group(folder,Path("parts")/record_id(host),params)
-        render_cap_section(folder, ref_folder, p, folder/"joiners_clip_clearance.png")
-        report["bracket_profiles"]=validate_joiner_profile(folder,ref_folder,p)
-        report["sample_difference_mm3"]=validate_samples(folder,ref_folder,p)
-        write_json(folder/"validation.json",report)
-        kit(folder,[n+ext for n in names for ext in [".scad",".stl"]]+[n+".png" for n,*_ in assembly_views]+["joiners_clip_clearance.png","assembly.json","printing.txt"])
-        scenes.render(folder,p,accessory,meta,ref_folder)
+def publish(stage, folder):
+    for entry in list(stage.iterdir()):
+        dest = folder / entry.name
+        if entry.is_dir() and dest.is_dir():
+            previous = stage / (entry.name + ".previous")
+            os.replace(dest, previous)
+            try:
+                os.replace(entry, dest)
+            except OSError:
+                os.replace(previous, dest)
+                raise
+            shutil.rmtree(previous)
+        else:
+            os.replace(entry, dest)
+
+
+def retire_previous_outputs(folder, record):
+    """Remove only known generated files superseded by the beam-interface revision."""
+    patterns = []
+    if record["part_role"] == "frame":
+        patterns = ["front_plugs_corner_clearance.*"]
+        if record["snap_beam_count"] == 0:
+            patterns += ["snap_beams.*", "front_plugs_square.*"]
+    if record["variant"] == "joiners":
+        patterns = ["joiner_*.scad", "joiner_*.stl", "joiners*.scad", "joiners*.stl",
+                    "joiners*.png", "assembly-step-*.jpg", "assembly.html", "assembly.pdf", "presentation.jpg"]
+    if record["part_role"] == "cabinet":
+        patterns = ["frame_drill.dxf", "host_assembled.*", "host_front.*", "host_back.*",
+                    "m3_socket.*", "m3_nut.*", "retainer.*", "*_outline.scad",
+                    "edge_across.dxf", "edge_upright.dxf", "tee4.dxf"]
+    for pattern in patterns:
+        for path in folder.glob(pattern):
+            if path.is_file():
+                path.unlink()
 
 
 def generate(part=None,generate_stl=True):
@@ -200,21 +174,27 @@ def generate(part=None,generate_stl=True):
             stage=Path(tmp)
             if record["part_role"]=="frame":
                 frame_outputs(stage,record,generate_stl,joiner_id)
+            elif record["part_role"]=="cabinet":
+                from v8_cabinet import build
+                build(stage,record,records[record["cabinet"]["host"]],generate_stl)
             else:
-                joiner_outputs(stage,record,records,generate_stl)
-            for file in sorted(stage.iterdir(),key=lambda f:f.name=="print_files.zip"):
-                os.replace(file,folder/file.name)
+                from v8_beam_joints import build
+                build(stage,record,records,generate_stl)
+            publish(stage, folder)
+            retire_previous_outputs(folder,record)
         nav=Path("navigation_oobb").joinpath(*(opt[f"taxonomy_{i}"] for i in range(1,9) if f"taxonomy_{i}" in opt))
         nav.mkdir(parents=True,exist_ok=True)
+        retire_previous_outputs(nav,record)
+        if record["part_role"] in {"cabinet","accessory"}:
+            for legacy in ("printing.txt","validation.json","assembly.json"):
+                (nav/legacy).unlink(missing_ok=True)
+            shutil.copyfile(folder/"working.yaml",nav/"working.yaml")
+            rel=Path(os.path.relpath(folder,nav)).as_posix()
+            (nav/"README.md").write_text(f"[Part files and assembly guide]({rel}/README.md)\n")
+            print(f"Built {folder}",flush=True)
+            continue
         shutil.copytree(folder,nav,dirs_exist_ok=True,ignore=shutil.ignore_patterns(
-            "README.md","presentation.jpg","assembly-step-*.jpg","assembly.pdf","assembly.html"))
-        if record["part_role"] == "accessory":
-            frame_folder = Path("parts") / record_id(records[record["reference_frame"]])
-            canonical = "../" + frame_folder.name + "/assembled.stl"
-            relative = Path(os.path.relpath(frame_folder/"assembled.stl", nav)).as_posix()
-            for name in ("joiners_in_use", "joiners_detail", "joiners_backing_detail", "joiners_section"):
-                scene = nav / (name+".scad")
-                scene.write_text(scene.read_text().replace(canonical, relative))
+            "README.md","presentation.jpg","assembly-step-*.jpg","assembly.pdf","assembly.html","stocked-*.jpg","labels*.pdf","labels","label-map.json","pot-fit.json"))
         print(f"Built {folder}",flush=True)
     if generate_stl:
         published = [r for r in get_current_options() if (Path("parts")/record_id(r)/"README.md").is_file()]

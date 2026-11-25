@@ -110,7 +110,7 @@ def make(folder, record, meta, steps, items, mesh_paths):
     header("Before assembly")
     lead = (
         "Print one of each handed face and one of each batch in printing.txt. The enclosure supplies the bottom floor. "
-        "Use the mount positions in assembly.json to identify screw receivers and the four relieved caps."
+        "Use the mount positions in assembly.json to identify the four corner screw beams and any snap receivers."
         if frame
         else "Print a front and a backer for each junction. Choose the standard or loose-clearance front. Seat caps or adapters before installing the outside joiner."
     )
@@ -144,11 +144,22 @@ def make(folder, record, meta, steps, items, mesh_paths):
     c.showPage()
     border(6 * mm, 6 * mm, W - 12 * mm, H - 12 * mm)
     text(12 * mm, H - 20 * mm, "5", 25, "Courier-Bold")
-    picture(folder / "presentation.jpg", 18 * mm, 19 * mm, W - 36 * mm, H - 44 * mm)
+    stocked = (folder / "stocked-front.jpg").is_file()
+    picture(
+        folder / ("stocked-front.jpg" if stocked else "presentation.jpg"),
+        18 * mm,
+        19 * mm,
+        W - 36 * mm,
+        H - 44 * mm,
+    )
     text(
         15 * mm,
         12 * mm,
-        "Completed frame with illustrative pots" if frame else "Completed four-way junction",
+        (
+            "Stocked frame with location and contents labels"
+            if stocked
+            else ("Completed frame" if frame else "Completed four-way junction")
+        ),
         11,
     )
     c.showPage()

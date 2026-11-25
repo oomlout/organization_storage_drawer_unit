@@ -5,6 +5,7 @@ import json
 
 root = Path(__file__).resolve().parent
 expected = json.loads((root / "v7_catalogue_sha256.json").read_text(encoding="utf-8"))
+expected = {path: sha for path, sha in expected.items() if not path.lower().endswith(".zip")}
 actual = {}
 for subtree in ("parts", "parts_source", "navigation_oobb"):
     for file in (root / subtree).rglob("*"):

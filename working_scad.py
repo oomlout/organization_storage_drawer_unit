@@ -270,6 +270,12 @@ def frame_parameters(**kwargs):
     else:
         for x in sorted({r['x'] for r in q['rail_positions']}):
             p['frame_mounts'].append(dict(x=x,hole_y=q['opening_origin_y']-p['screw_brace_above_opening'],kind='screw_beam'))
+    outer_x = {min(r['x'] for r in p['frame_mounts']), max(r['x'] for r in p['frame_mounts'])}
+    outer_y = {min(r['hole_y'] for r in p['frame_mounts']), max(r['hole_y'] for r in p['frame_mounts'])}
+    for mount in p['frame_mounts']:
+        mount['corner_beam'] = mount['x'] in outer_x and mount['hole_y'] in outer_y
+        if mount['corner_beam']:
+            mount['kind'] = 'screw_beam'
     if p.get('runner_alignment'):
         shift=p['runner_alignment']['shared_receiver_offset_x']
         if not isinstance(shift,(int,float)) or abs(shift-p['side_runner']['offset_x'])>1e-6:
@@ -318,24 +324,10 @@ def frame_parameters(**kwargs):
     p['bom']=dict(front=1,back=1,snap_beam=p['snap_beam_count'],screw_beam=p['screw_beam_count'],
                   front_plug=2*p['snap_beam_count'],screw_adapter=2*p['screw_beam_count'],
                   M3_countersunk_screw_20_mm=2*p['screw_beam_count'],M3_nut=2*p['screw_beam_count'])
-    if p.get('push_in_cap_variants'):
-        corner_count=p['push_in_cap_variants']['corner_clearance_count']
-        if corner_count!=4 or p['bom']['front_plug']<corner_count:
-            raise ValueError('Each drawer unit needs four corner-clearance push-in caps')
-        p['cap_quantities']={'front_plug':corner_count,'front_plug_square':p['bom']['front_plug']-corner_count}
-        # Four relieved caps total: two outer snap positions at each face.
-        snaps=[m for m in p['frame_mounts'] if m['kind']=='snap_beam']
-        outer_x=[min(m['x'] for m in snaps),max(m['x'] for m in snaps)]
-        selected=[]
-        for x in outer_x:
-            candidates=[m for m in snaps if m['x']==x]
-            nearest=min(candidates,key=lambda m:min((m['x']-c['x'])**2+(m['hole_y']-c['y'])**2
-                                                   for c in q['corner_holes']))
-            selected.append(nearest)
-        if len({(m['x'],m['hole_y']) for m in selected})!=2:
-            raise ValueError('Corner caps require two distinct outer snap positions per face')
-        for m in p['frame_mounts']:
-            if m['kind']=='snap_beam':m['cap_component']='front_plug' if m in selected else 'front_plug_square'
+    p['cap_quantities'] = {'front_plug': 0, 'front_plug_square': p['bom']['front_plug']}
+    for mount in p['frame_mounts']:
+        if mount['kind'] == 'snap_beam':
+            mount['cap_component'] = 'front_plug_square'
     # Single-bed batches; do not stretch the complete quantity across one bed.
     usable_width=q['bed_width']-q['bed_exclusion'][0]-2*q['bed_margin']
     p['print_batches']={}
@@ -570,6 +562,8 @@ def draw_frame(thing,**kwargs):
                 place(part,[p['side_runner']['bed_x'],0,0],[0,90,0],target=native)
                 part=native
             place(part,[r['x'],r['hole_y']+offset,p['panel_thickness']],[90,180,0]);count+=1
+            if r["corner_beam"] and p.get("omit_corner_adapters"):
+                continue
             for rear in [False,True]:
                 sub=single(r.get('cap_component','front_plug') if is_snap else 'screw_adapter')
                 if is_snap:
@@ -819,3 +813,70 @@ def floor_supports(p):
 def main(**kwargs):
     from v8_manufacturing import generate
     generate(**kwargs)
+
+CABINET_SOLIDS = """
+module cap_panel() {
+  difference() {
+    translate([-cap_w/2,0,0]) cube([cap_w,t,depth]);
+    cap_bores();
+  }
+}
+module side_panel() {
+  difference() {
+    cube([t,inside_h,depth]);
+    side_bores();
+  }
+}
+module wood_screw(length) {
+  // Flush 90-degree head, nominal shank and tapered point. Thread envelope.
+  difference(){
+    union(){
+      cylinder(h=1.75,d1=7,d2=3.5);
+      translate([0,0,1.74]) cylinder(h=length-4.74,d=3.5);
+      translate([0,0,length-3.01]) cylinder(h=3.01,d1=3.5,d2=0);
+    }
+    for(a=[0,90]) rotate([0,0,a]) translate([-2,-.4,-.01]) cube([4,.8,.81]);
+  }
+}
+module dowel() {
+  cylinder(h=.5,d1=5,d2=6);
+  translate([0,0,.5]) cylinder(d=6,h=23);
+  translate([0,0,23.5]) cylinder(h=.5,d1=6,d2=5);
+}
+"""
+
+
+def cabinet_fastener(kind,p):
+    thing=oobb.get_default_thing(type="cabinet_hardware")
+    if kind=="nut":
+        draw_hardware(thing,p,"nut")
+    else:
+        oobb.append_full(thing,type="positive",shape="oobb_screw_socket_cap",mode="true",
+            radius_name="m3",depth=12,hole=True,nut_include=False,include_nut=False,
+            clearance=[],overhang=False,zz="none",rot=[180,0,0],pos=[0,0,0])
+    return thing
+
+# Shared by the independent joint records and the cabinet. Z=0 is the outside print face.
+BEAM_JOINT_SOLIDS = """
+module foot(p,r) { translate(p) circle(r=r); }
+module strap(a,b,ra,rb) { hull(){ foot(a,ra); foot(b,rb); } }
+module beam_joint(holes,spine=[],wood=[]) {
+  union(){
+    for(p=holes) translate(p) intersection(){
+      native_adapter();
+      cylinder(r=4,h=12);
+    }
+    difference(){
+      linear_extrude(tie_t) union(){
+        if(len(wood)) strap(holes[0],wood,4,4.6);
+        else if(len(spine)==0) strap(holes[0],holes[1],4,4);
+        else {
+          strap(spine[0],spine[1],2.65,2.65);
+          for(p=holes) strap(p,[spine[0][0],p[1]],4,2.65);
+        }
+      }
+      joint_bores(holes,wood);
+    }
+  }
+}
+"""

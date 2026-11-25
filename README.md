@@ -6,11 +6,15 @@ This project was largely AI-generated. Editable CAD sources and print kits are i
 
 [![2 × 7 drawer unit with removable pots](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/presentation.jpg)](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md)
 
-**Featured build · [2 × 7 drawer unit](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md).** 14 pots per face, 28 in total. The pale inserts show where the Systempak 209 pots sit on the rails.
+**Featured build · [2 × 7 drawer unit](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md).** 14 pots per face, 28 in total. The removable Systempak 209 pots slide in from either side.
 
 This build uses two handed faces, 17 snap beams and 4 screw beams. For a fastener cabinet, one bank can hold screws and the opposite bank their matching nuts.
 
 [View the illustrated manual](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/assembly.pdf) · [Download PDF](https://raw.githubusercontent.com/oomlout/organization_storage_drawer_unit/main/parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/assembly.pdf) · [Download offline HTML](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/assembly.html?raw=true)
+
+[![Fully stocked 2 × 7 drawer unit with fixed grid IDs and removable OOMP contents labels](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/stocked-front.jpg)](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md#stocked-unit)
+
+Each slot has a permanent XY address. Each pot has a separate contents label. Scan either QR code or read the printed identifier.
 
 ### Assemble the featured build
 
@@ -20,15 +24,21 @@ This build uses two handed faces, 17 snap beams and 4 screw beams. For a fastene
 
 ## Current version · V8
 
+[![Nine-unit plywood cabinet](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2x7_array_3_by_3_plywood_cabinet_v8/presentation.jpg)](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2x7_array_3_by_3_plywood_cabinet_v8/README.md)
+
+[3 × 3 cabinet of 2 × 7 units · cut list, drilling and assembly](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2x7_array_3_by_3_plywood_cabinet_v8/README.md)
+
 ### Systempak 209 · 100 ml
 
 | Build | Grid per face | Pots | Assembly | Print kit |
 | --- | --- | ---: | --- | --- |
-| [<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/presentation.jpg" width="150" alt="1 × 1 drawer unit">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/README.md) | [1 × 1 drawer unit](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/README.md) | 2 | [Illustrated guide](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/assembly.pdf) | [ZIP](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/print_files.zip) |
-| [<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/presentation.jpg" width="150" alt="2 × 2 drawer unit">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/README.md) | [2 × 2 drawer unit](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/README.md) | 8 | [Illustrated guide](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/assembly.pdf) | [ZIP](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/print_files.zip) |
-| [<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/presentation.jpg" width="150" alt="2 × 7 drawer unit">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md) | [2 × 7 drawer unit](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md) | 28 | [Illustrated guide](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/assembly.pdf) | [ZIP](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/print_files.zip) |
+| [<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/presentation.jpg" width="150" alt="1 × 1 drawer unit">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/README.md) | [1 × 1 drawer unit](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/README.md) | 2 | [Illustrated guide](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/assembly.pdf) | [Print list](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/printing.txt) |
+| [<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/presentation.jpg" width="150" alt="2 × 2 drawer unit">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/README.md) | [2 × 2 drawer unit](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/README.md) | 8 | [Illustrated guide](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/assembly.pdf) | [Print list](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/printing.txt) |
+| [<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/presentation.jpg" width="150" alt="2 × 7 drawer unit">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md) | [2 × 7 drawer unit](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md) | 28 | [Illustrated guide](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/assembly.pdf) | [Print list](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/printing.txt) |
 
-**[V8 joining brackets](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8/README.md)** · Two-hole edge strips and four-hole corner plates with inside backers. [Assembly guide](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8/assembly.pdf) · [Print kit](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8/print_files.zip)
+**[Corner screw-beam joining brackets](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8/README.md)** · [Print and installation instructions](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8/README.md)
+
+**[Corner screw-beam to plywood joint](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_plywood_joint_v8/README.md)** · [Print and installation instructions](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_plywood_joint_v8/README.md)
 
 ## Design versions
 

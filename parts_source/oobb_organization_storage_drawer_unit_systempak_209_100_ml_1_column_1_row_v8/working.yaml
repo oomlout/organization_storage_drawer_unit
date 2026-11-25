@@ -14,12 +14,6 @@ container_dimensions_mm:
   depth: 109
   height: 26
 container_short: rectangle_100_ml_tamper_evident_systempak_209
-corner_fixing:
-  beam_clearance: 0.35
-  nut_recess: 3.0
-  nut_seat_clearance: 0.35
-  screw_length: 25.0
-  screw_reference_recess: 1.5
 drawer_capacity_ml: 100
 drawer_count: 2
 drawer_sides: 2
@@ -125,12 +119,6 @@ oobb_details:
     depth: 109
     height: 26
   container_short: rectangle_100_ml_tamper_evident_systempak_209
-  corner_fixing:
-    beam_clearance: 0.35
-    nut_recess: 3.0
-    nut_seat_clearance: 0.35
-    screw_length: 25.0
-    screw_reference_recess: 1.5
   drawer_capacity_ml: 100
   drawer_count: 2
   drawer_sides: 2
@@ -227,8 +215,6 @@ oobb_details:
   pilot_depth: 0.0
   pilot_half_width: 0.0
   product_name: V8 1x1 Systempak 209 drawer unit
-  push_in_cap_variants:
-    corner_clearance_count: 4
   receiver_hole_height: 5.2
   receiver_hole_width: 5.2
   receiver_hole_widths:
@@ -278,7 +264,7 @@ oobb_details:
     nut_primitive: oobb_v5_explicit
     nut_side_clearance: right
     size: m3
-  screw_beam_count: 2
+  screw_beam_count: 4
   screw_beam_drop_in: true
   screw_brace_above_opening: 7.0
   selected_clip_sample: 71
@@ -293,7 +279,7 @@ oobb_details:
     stop_min_x: -2.5
     thickness: 3.0
     width: 8.0
-  snap_beam_count: 2
+  snap_beam_count: 0
   spring_root_y: -5.0
   style: ai_version_8
   taxonomy_1: oobb
@@ -325,8 +311,6 @@ permanent_snap_test: true
 pilot_depth: 0.0
 pilot_half_width: 0.0
 product_name: V8 1x1 Systempak 209 drawer unit
-push_in_cap_variants:
-  corner_clearance_count: 4
 receiver_hole_height: 5.2
 receiver_hole_width: 5.2
 receiver_hole_widths:
@@ -376,7 +360,7 @@ screw:
   nut_primitive: oobb_v5_explicit
   nut_side_clearance: right
   size: m3
-screw_beam_count: 2
+screw_beam_count: 4
 screw_beam_drop_in: true
 screw_brace_above_opening: 7.0
 selected_clip_sample: 71
@@ -391,7 +375,7 @@ side_runner:
   stop_min_x: -2.5
   thickness: 3.0
   width: 8.0
-snap_beam_count: 2
+snap_beam_count: 0
 spring_root_y: -5.0
 style: ai_version_8
 taxonomy_1: oobb
