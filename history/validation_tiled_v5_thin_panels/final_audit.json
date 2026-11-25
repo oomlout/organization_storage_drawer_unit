@@ -1,0 +1,9 @@
+{
+  "current_measurements": 63,
+  "previous_coupon_records_unchanged": 12,
+  "previous_coupon_scad_unchanged": 175,
+  "geometry_tests_passed": 65,
+  "comparison_tests_passed": 8,
+  "mesh_views_passed": 65,
+  "assemblies_passed": 3
+}

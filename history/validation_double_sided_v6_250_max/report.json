@@ -1,0 +1,158 @@
+{
+  "meshes": [
+    {
+      "view": "3dpr",
+      "bounds_mm": [
+        [
+          -265.5,
+          -472.0,
+          0.0
+        ],
+        [
+          265.5,
+          270.145263671875,
+          10.0
+        ]
+      ],
+      "volume_mm3": 430029.8950931346,
+      "passed": true
+    },
+    {
+      "view": "front",
+      "bounds_mm": [
+        [
+          -98.9000015258789,
+          -110.145263671875,
+          0.0
+        ],
+        [
+          98.9000015258789,
+          110.145263671875,
+          6.0
+        ]
+      ],
+      "volume_mm3": 86685.13819433605,
+      "passed": true
+    },
+    {
+      "view": "back",
+      "bounds_mm": [
+        [
+          -98.9000015258789,
+          -110.145263671875,
+          0.0
+        ],
+        [
+          98.9000015258789,
+          110.145263671875,
+          6.0
+        ]
+      ],
+      "volume_mm3": 86685.13819433605,
+      "passed": true
+    },
+    {
+      "view": "snap_rail",
+      "bounds_mm": [
+        [
+          -9.5,
+          -112.0,
+          0.0
+        ],
+        [
+          9.5,
+          112.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 12221.889823381514,
+      "passed": true
+    },
+    {
+      "view": "assembled",
+      "bounds_mm": [
+        [
+          -98.9000015258789,
+          -110.145263671875,
+          0.0
+        ],
+        [
+          98.9000015258789,
+          110.145263671875,
+          224.0
+        ]
+      ],
+      "volume_mm3": 430029.9416629335,
+      "passed": true
+    },
+    {
+      "view": "rails_plate_01",
+      "bounds_mm": [
+        [
+          -105.5,
+          -112.0,
+          0.0
+        ],
+        [
+          105.5,
+          112.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 109997.01191097785,
+      "passed": true
+    },
+    {
+      "view": "rails_plate_02",
+      "bounds_mm": [
+        [
+          -105.5,
+          -112.0,
+          0.0
+        ],
+        [
+          105.5,
+          112.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 109997.01191097785,
+      "passed": true
+    },
+    {
+      "view": "rails_plate_03",
+      "bounds_mm": [
+        [
+          -33.5,
+          -112.0,
+          0.0
+        ],
+        [
+          33.5,
+          112.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 36665.66911208451,
+      "passed": true
+    }
+  ],
+  "prior_v5_records_unchanged": 15,
+  "limitations": [
+    "Physical PETG fit, pot stop contact, load capacity, creep and slicing remain unverified."
+  ],
+  "all_checks_passed": true,
+  "drawer_count": 28,
+  "bom": {
+    "snap_rail": 21,
+    "front": 1,
+    "back": 1
+  },
+  "assembled_envelope_mm": [
+    197.8,
+    220.3,
+    224.0
+  ],
+  "assembly_interference_mm3": 0.02101675042649731,
+  "maximum_prescribed_insertion_interference_mm3": 0.0
+}

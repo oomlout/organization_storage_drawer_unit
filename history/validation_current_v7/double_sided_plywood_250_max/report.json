@@ -1,0 +1,1061 @@
+{
+  "variant": "double_sided_plywood_250_max",
+  "grid": [
+    2,
+    7
+  ],
+  "drawer_count": 28,
+  "bom": {
+    "front": 1,
+    "back": 1,
+    "snap_beam": 17,
+    "screw_beam": 4,
+    "front_plug": 34,
+    "screw_adapter": 8,
+    "M3_countersunk_screw_20_mm": 8,
+    "M3_nut": 8
+  },
+  "meshes": [
+    {
+      "view": "3dpr",
+      "bodies": 65,
+      "extents_mm": [
+        405.6000061035156,
+        1919.2938232421875,
+        18.0
+      ],
+      "volume_mm3": 532371.6275812469
+    },
+    {
+      "view": "front",
+      "bodies": 1,
+      "extents_mm": [
+        197.8000030517578,
+        220.29052734375,
+        18.0
+      ],
+      "volume_mm3": 79877.61280390124
+    },
+    {
+      "view": "back",
+      "bodies": 1,
+      "extents_mm": [
+        197.8000030517578,
+        220.29052734375,
+        18.0
+      ],
+      "volume_mm3": 79877.61280390124
+    },
+    {
+      "view": "front_laser",
+      "bodies": 1,
+      "extents_mm": [
+        197.8000030517578,
+        220.29052734375,
+        6.0
+      ],
+      "volume_mm3": 78783.66323622262
+    },
+    {
+      "view": "snap_beam",
+      "bodies": 1,
+      "extents_mm": [
+        19.0,
+        228.79999351501465,
+        10.5
+      ],
+      "volume_mm3": 15484.73931773085
+    },
+    {
+      "view": "screw_beam",
+      "bodies": 1,
+      "extents_mm": [
+        19.0,
+        212.0,
+        14.5
+      ],
+      "volume_mm3": 23511.35852475146
+    },
+    {
+      "view": "front_plug",
+      "bodies": 1,
+      "extents_mm": [
+        11.0,
+        7.997040271759033,
+        14.600000381469727
+      ],
+      "volume_mm3": 389.13239860489347
+    },
+    {
+      "view": "screw_adapter",
+      "bodies": 1,
+      "extents_mm": [
+        11.0,
+        9.997039794921875,
+        7.900000095367432
+      ],
+      "volume_mm3": 262.47838159302535
+    },
+    {
+      "view": "sample_71",
+      "bodies": 1,
+      "extents_mm": [
+        11.0,
+        38.39999961853027,
+        7.0
+      ],
+      "volume_mm3": 2173.0287301807593
+    },
+    {
+      "view": "receiver_6_0",
+      "bodies": 1,
+      "extents_mm": [
+        30.0,
+        29.992107391357422,
+        6.0
+      ],
+      "volume_mm3": 5213.949605922948
+    },
+    {
+      "view": "assembled",
+      "bodies": 35,
+      "extents_mm": [
+        197.8000030517578,
+        220.29052734375,
+        233.2000060081482
+      ],
+      "volume_mm3": 532371.5647934425
+    },
+    {
+      "view": "snap_beams_01",
+      "bodies": 9,
+      "extents_mm": [
+        211.0,
+        228.79999351501465,
+        10.5
+      ],
+      "volume_mm3": 139362.65594144547
+    },
+    {
+      "view": "snap_beams_02",
+      "bodies": 8,
+      "extents_mm": [
+        187.0,
+        228.79999351501465,
+        10.5
+      ],
+      "volume_mm3": 123877.91433899997
+    },
+    {
+      "view": "screw_beams",
+      "bodies": 4,
+      "extents_mm": [
+        91.0,
+        212.0,
+        14.5
+      ],
+      "volume_mm3": 94045.43365193787
+    },
+    {
+      "view": "front_plugs_01",
+      "bodies": 15,
+      "extents_mm": [
+        221.0,
+        7.997040271759033,
+        14.600000381469727
+      ],
+      "volume_mm3": 5836.987755698076
+    },
+    {
+      "view": "front_plugs_02",
+      "bodies": 15,
+      "extents_mm": [
+        221.0,
+        7.997040271759033,
+        14.600000381469727
+      ],
+      "volume_mm3": 5836.987755698076
+    },
+    {
+      "view": "front_plugs_03",
+      "bodies": 4,
+      "extents_mm": [
+        56.0,
+        7.997040271759033,
+        14.600000381469727
+      ],
+      "volume_mm3": 1556.5294455986052
+    },
+    {
+      "view": "screw_adapters",
+      "bodies": 8,
+      "extents_mm": [
+        116.0,
+        9.997039794921875,
+        7.900000095367432
+      ],
+      "volume_mm3": 2099.827043837782
+    },
+    {
+      "view": "clip_reinforcement",
+      "bodies": 1,
+      "extents_mm": [
+        12.0,
+        12.0,
+        3.0
+      ],
+      "volume_mm3": 350.8800059509276
+    },
+    {
+      "view": "clip_reinforcement_corner_left",
+      "bodies": 1,
+      "extents_mm": [
+        12.0,
+        12.0,
+        3.0
+      ],
+      "volume_mm3": 330.3118690058381
+    },
+    {
+      "view": "clip_reinforcement_corner_right",
+      "bodies": 1,
+      "extents_mm": [
+        12.0,
+        12.0,
+        3.0
+      ],
+      "volume_mm3": 330.3118690058381
+    },
+    {
+      "view": "clip_reinforcements",
+      "bodies": 21,
+      "extents_mm": [
+        135.3000030517578,
+        105.9000015258789,
+        3.0
+      ],
+      "volume_mm3": 7327.344221821827
+    },
+    {
+      "view": "front_3mm_test",
+      "bodies": 1,
+      "extents_mm": [
+        197.8000030517578,
+        220.29052734375,
+        6.0
+      ],
+      "volume_mm3": 46719.17470641512
+    },
+    {
+      "view": "front_3mm_test_layout",
+      "bodies": 22,
+      "extents_mm": [
+        197.8000030517578,
+        220.29052734375,
+        3.0
+      ],
+      "volume_mm3": 46719.17583993317
+    }
+  ],
+  "mounts": [
+    {
+      "x": -89.3,
+      "hole_y": -88.14999999999999,
+      "kind": "screw_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": -89.3,
+      "hole_y": -88.14999999999999,
+      "kind": "screw_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": -89.3,
+      "hole_y": -56.849999999999994,
+      "kind": "snap_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": -89.3,
+      "hole_y": -56.849999999999994,
+      "kind": "snap_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": -89.3,
+      "hole_y": -25.54999999999999,
+      "kind": "snap_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": -89.3,
+      "hole_y": -25.54999999999999,
+      "kind": "snap_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": -89.3,
+      "hole_y": 5.750000000000014,
+      "kind": "snap_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": -89.3,
+      "hole_y": 5.750000000000014,
+      "kind": "snap_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": -89.3,
+      "hole_y": 37.05000000000001,
+      "kind": "snap_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": -89.3,
+      "hole_y": 37.05000000000001,
+      "kind": "snap_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": -89.3,
+      "hole_y": 68.35000000000001,
+      "kind": "snap_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": -89.3,
+      "hole_y": 68.35000000000001,
+      "kind": "snap_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": -89.3,
+      "hole_y": 99.65000000000002,
+      "kind": "screw_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": -89.3,
+      "hole_y": 99.65000000000002,
+      "kind": "screw_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": -88.14999999999999,
+      "kind": "snap_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": -88.14999999999999,
+      "kind": "snap_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": -56.849999999999994,
+      "kind": "snap_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": -56.849999999999994,
+      "kind": "snap_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": -25.54999999999999,
+      "kind": "snap_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": -25.54999999999999,
+      "kind": "snap_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": 5.750000000000014,
+      "kind": "snap_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": 5.750000000000014,
+      "kind": "snap_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": 37.05000000000001,
+      "kind": "snap_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": 37.05000000000001,
+      "kind": "snap_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": 68.35000000000001,
+      "kind": "snap_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": 68.35000000000001,
+      "kind": "snap_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": 99.65000000000002,
+      "kind": "snap_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": 99.65000000000002,
+      "kind": "snap_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 89.30000000000001,
+      "hole_y": -88.14999999999999,
+      "kind": "screw_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 89.30000000000001,
+      "hole_y": -88.14999999999999,
+      "kind": "screw_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 89.30000000000001,
+      "hole_y": -56.849999999999994,
+      "kind": "snap_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 89.30000000000001,
+      "hole_y": -56.849999999999994,
+      "kind": "snap_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 89.30000000000001,
+      "hole_y": -25.54999999999999,
+      "kind": "snap_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 89.30000000000001,
+      "hole_y": -25.54999999999999,
+      "kind": "snap_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 89.30000000000001,
+      "hole_y": 5.750000000000014,
+      "kind": "snap_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 89.30000000000001,
+      "hole_y": 5.750000000000014,
+      "kind": "snap_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 89.30000000000001,
+      "hole_y": 37.05000000000001,
+      "kind": "snap_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 89.30000000000001,
+      "hole_y": 37.05000000000001,
+      "kind": "snap_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 89.30000000000001,
+      "hole_y": 68.35000000000001,
+      "kind": "snap_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 89.30000000000001,
+      "hole_y": 68.35000000000001,
+      "kind": "snap_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 89.30000000000001,
+      "hole_y": 99.65000000000002,
+      "kind": "screw_beam",
+      "beam_tested": "snap_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    },
+    {
+      "x": 89.30000000000001,
+      "hole_y": 99.65000000000002,
+      "kind": "screw_beam",
+      "beam_tested": "screw_beam",
+      "both_faces_clear": true,
+      "collision_mm3": 0.0
+    }
+  ],
+  "dxf": [
+    {
+      "file": "front_laser_2d.dxf",
+      "closed_contours": 40,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 13130.560642058424,
+      "profile_difference_mm2": 0.16847786728969114,
+      "maximum_contour_difference_mm": 0.0004884736787037335
+    },
+    {
+      "file": "receiver_laser.dxf",
+      "closed_contours": 2,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 869.2906405000003,
+      "profile_difference_mm2": 0.0027403401233143648,
+      "maximum_contour_difference_mm": 6.31261866609994e-05
+    }
+  ],
+  "laser_face_test": {
+    "pads_per_face": 21,
+    "face_mm": 3.0,
+    "doubler_mm": 3.0,
+    "square_mm": 12.0,
+    "hole_mm": [
+      5.2,
+      5.2
+    ],
+    "mounts": [
+      {
+        "x": -89.3,
+        "hole_y": -88.14999999999999,
+        "kind": "screw_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.199997199876357,
+        "test_seating_area_mm2": 29.199997199876357
+      },
+      {
+        "x": -89.3,
+        "hole_y": -88.14999999999999,
+        "kind": "screw_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.95999206544369,
+        "test_seating_area_mm2": 104.95999206544366
+      },
+      {
+        "x": -89.3,
+        "hole_y": -56.849999999999994,
+        "kind": "snap_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.199997199876353,
+        "test_seating_area_mm2": 29.199997199876353
+      },
+      {
+        "x": -89.3,
+        "hole_y": -56.849999999999994,
+        "kind": "snap_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.95997222900044,
+        "test_seating_area_mm2": 104.95997222900041
+      },
+      {
+        "x": -89.3,
+        "hole_y": -25.54999999999999,
+        "kind": "snap_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.199997199876353,
+        "test_seating_area_mm2": 29.199997199876353
+      },
+      {
+        "x": -89.3,
+        "hole_y": -25.54999999999999,
+        "kind": "snap_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.95998214722206,
+        "test_seating_area_mm2": 104.95998214722204
+      },
+      {
+        "x": -89.3,
+        "hole_y": 5.750000000000014,
+        "kind": "snap_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.199997199876353,
+        "test_seating_area_mm2": 29.199997199876353
+      },
+      {
+        "x": -89.3,
+        "hole_y": 5.750000000000014,
+        "kind": "snap_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.95997470855585,
+        "test_seating_area_mm2": 104.95997470855582
+      },
+      {
+        "x": -89.3,
+        "hole_y": 37.05000000000001,
+        "kind": "snap_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.199997199876353,
+        "test_seating_area_mm2": 29.199997199876353
+      },
+      {
+        "x": -89.3,
+        "hole_y": 37.05000000000001,
+        "kind": "snap_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.95997222900044,
+        "test_seating_area_mm2": 104.95997222900041
+      },
+      {
+        "x": -89.3,
+        "hole_y": 68.35000000000001,
+        "kind": "snap_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.199997199876357,
+        "test_seating_area_mm2": 29.199997199876357
+      },
+      {
+        "x": -89.3,
+        "hole_y": 68.35000000000001,
+        "kind": "snap_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.95999206544369,
+        "test_seating_area_mm2": 104.95999206544366
+      },
+      {
+        "x": -89.3,
+        "hole_y": 99.65000000000002,
+        "kind": "screw_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.199997199876357,
+        "test_seating_area_mm2": 29.199997199876357
+      },
+      {
+        "x": -89.3,
+        "hole_y": 99.65000000000002,
+        "kind": "screw_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 109.27454956690332,
+        "test_seating_area_mm2": 99.1030746415096
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": -88.14999999999999,
+        "kind": "snap_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.19999719987635,
+        "test_seating_area_mm2": 29.19999719987635
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": -88.14999999999999,
+        "kind": "snap_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.96001686096133,
+        "test_seating_area_mm2": 104.96001686096133
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": -56.849999999999994,
+        "kind": "snap_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.19999719987635,
+        "test_seating_area_mm2": 29.19999719987635
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": -56.849999999999994,
+        "kind": "snap_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.95999702453628,
+        "test_seating_area_mm2": 104.95999702453628
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": -25.54999999999999,
+        "kind": "snap_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.19999719987635,
+        "test_seating_area_mm2": 29.19999719987635
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": -25.54999999999999,
+        "kind": "snap_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.9600069427488,
+        "test_seating_area_mm2": 104.9600069427488
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": 5.750000000000014,
+        "kind": "snap_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.19999719987635,
+        "test_seating_area_mm2": 29.19999719987635
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": 5.750000000000014,
+        "kind": "snap_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.95999950408941,
+        "test_seating_area_mm2": 104.95999950408941
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": 37.05000000000001,
+        "kind": "snap_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.19999719987635,
+        "test_seating_area_mm2": 29.19999719987635
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": 37.05000000000001,
+        "kind": "snap_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.95999702453628,
+        "test_seating_area_mm2": 104.95999702453628
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": 68.35000000000001,
+        "kind": "snap_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.19999719987635,
+        "test_seating_area_mm2": 29.19999719987635
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": 68.35000000000001,
+        "kind": "snap_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.96001686096133,
+        "test_seating_area_mm2": 104.96001686096133
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": 99.65000000000002,
+        "kind": "snap_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.19999719987635,
+        "test_seating_area_mm2": 29.19999719987635
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": 99.65000000000002,
+        "kind": "snap_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.96001686096133,
+        "test_seating_area_mm2": 104.96001686096133
+      },
+      {
+        "x": 89.30000000000001,
+        "hole_y": -88.14999999999999,
+        "kind": "screw_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.199997199876353,
+        "test_seating_area_mm2": 29.199997199876353
+      },
+      {
+        "x": 89.30000000000001,
+        "hole_y": -88.14999999999999,
+        "kind": "screw_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.95999206544366,
+        "test_seating_area_mm2": 104.95999206544366
+      },
+      {
+        "x": 89.30000000000001,
+        "hole_y": -56.849999999999994,
+        "kind": "snap_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.199997199876357,
+        "test_seating_area_mm2": 29.199997199876357
+      },
+      {
+        "x": 89.30000000000001,
+        "hole_y": -56.849999999999994,
+        "kind": "snap_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.95997222900041,
+        "test_seating_area_mm2": 104.95997222900041
+      },
+      {
+        "x": 89.30000000000001,
+        "hole_y": -25.54999999999999,
+        "kind": "snap_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.199997199876357,
+        "test_seating_area_mm2": 29.199997199876357
+      },
+      {
+        "x": 89.30000000000001,
+        "hole_y": -25.54999999999999,
+        "kind": "snap_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.95998214722204,
+        "test_seating_area_mm2": 104.95998214722204
+      },
+      {
+        "x": 89.30000000000001,
+        "hole_y": 5.750000000000014,
+        "kind": "snap_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.199997199876357,
+        "test_seating_area_mm2": 29.199997199876357
+      },
+      {
+        "x": 89.30000000000001,
+        "hole_y": 5.750000000000014,
+        "kind": "snap_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.95997470855582,
+        "test_seating_area_mm2": 104.95997470855582
+      },
+      {
+        "x": 89.30000000000001,
+        "hole_y": 37.05000000000001,
+        "kind": "snap_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.199997199876353,
+        "test_seating_area_mm2": 29.199997199876353
+      },
+      {
+        "x": 89.30000000000001,
+        "hole_y": 37.05000000000001,
+        "kind": "snap_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.95997222900036,
+        "test_seating_area_mm2": 104.95997222900041
+      },
+      {
+        "x": 89.30000000000001,
+        "hole_y": 68.35000000000001,
+        "kind": "snap_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.199997199876357,
+        "test_seating_area_mm2": 29.199997199876357
+      },
+      {
+        "x": 89.30000000000001,
+        "hole_y": 68.35000000000001,
+        "kind": "snap_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 115.95999206544366,
+        "test_seating_area_mm2": 104.95999206544366
+      },
+      {
+        "x": 89.30000000000001,
+        "hole_y": 99.65000000000002,
+        "kind": "screw_beam",
+        "beam": "snap_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 29.19999719987635,
+        "test_seating_area_mm2": 29.19999719987635
+      },
+      {
+        "x": 89.30000000000001,
+        "hole_y": 99.65000000000002,
+        "kind": "screw_beam",
+        "beam": "screw_beam",
+        "collision_mm3": 0.0,
+        "original_seating_area_mm2": 109.27454956690323,
+        "test_seating_area_mm2": 99.10307464150955
+      }
+    ],
+    "dxf": [
+      {
+        "file": "clip_reinforcement_2d.dxf",
+        "closed_contours": 2,
+        "units": "mm",
+        "layer": "CUT",
+        "area_mm2": 116.96,
+        "profile_difference_mm2": 1.9836425408925606e-06,
+        "maximum_contour_difference_mm": 1.348699153604683e-07
+      },
+      {
+        "file": "clip_reinforcement_corner_left_2d.dxf",
+        "closed_contours": 2,
+        "units": "mm",
+        "layer": "CUT",
+        "area_mm2": 110.10395003265002,
+        "profile_difference_mm2": 1.2274990850369858e-05,
+        "maximum_contour_difference_mm": 6.643315177732144e-06
+      },
+      {
+        "file": "clip_reinforcement_corner_right_2d.dxf",
+        "closed_contours": 2,
+        "units": "mm",
+        "layer": "CUT",
+        "area_mm2": 110.10395003265002,
+        "profile_difference_mm2": 1.2274990850346014e-05,
+        "maximum_contour_difference_mm": 6.643315177732144e-06
+      },
+      {
+        "file": "clip_reinforcements_2d.dxf",
+        "closed_contours": 42,
+        "units": "mm",
+        "layer": "CUT",
+        "area_mm2": 2442.4479545230006,
+        "profile_difference_mm2": 0.0015996720526308332,
+        "maximum_contour_difference_mm": 5.5777932194864206e-05
+      },
+      {
+        "file": "front_3mm_test_2d.dxf",
+        "closed_contours": 82,
+        "units": "mm",
+        "layer": "CUT",
+        "area_mm2": 15573.008596581401,
+        "profile_difference_mm2": 0.17007753934232792,
+        "maximum_contour_difference_mm": 0.0004884736787037335
+      }
+    ],
+    "all_checks_passed": true,
+    "bin_openings_clear": true,
+    "corner_fixings_clear": true,
+    "all_snap_and_screw_positions": true,
+    "limitations": "CAD fit only; 3 mm face stiffness and bonded-joint strength require physical testing."
+  },
+  "all_checks_passed": true
+}

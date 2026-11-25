@@ -1,0 +1,32 @@
+{
+  "validated_scad_views_unchanged_after_comparison_refresh": 65,
+  "historical_coupon_records_unchanged": 12,
+  "historical_coupon_scad_views_unchanged": 175,
+  "stale_comparison_records": 0,
+  "units": [
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_8_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_tiled_a1_mini_four_plate",
+      "width_mm": 205.8,
+      "height_mm": 268.6,
+      "depth_mm": 110.5,
+      "filament_mass_g": 551.129,
+      "comparison_measurement_status": "current"
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_3_column_9_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_tiled_362_by_300",
+      "width_mm": 362.0,
+      "height_mm": 308.0,
+      "depth_mm": 110.5,
+      "filament_mass_g": 1006.632,
+      "comparison_measurement_status": "current"
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_8_column_9_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_tiled_767_by_300",
+      "width_mm": 767.0,
+      "height_mm": 308.0,
+      "depth_mm": 110.5,
+      "filament_mass_g": 1978.7,
+      "comparison_measurement_status": "current"
+    }
+  ]
+}

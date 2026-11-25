@@ -1,0 +1,856 @@
+{
+  "bom": {
+    "snap_rail": 21,
+    "front": 1,
+    "back": 1
+  },
+  "views": {
+    "front": "front",
+    "back": "back",
+    "snap_rail": "snap_rail",
+    "assembled": "assembled",
+    "joining_plates": "joining_plates",
+    "rails_plate_01": "rails_plate_01",
+    "rails_plate_02": "rails_plate_02",
+    "rails_plate_03": "rails_plate_03"
+  },
+  "drawer_count": 28,
+  "grid_per_face": [
+    2,
+    7
+  ],
+  "identical_face_plates": true,
+  "assembled_envelope_mm": [
+    197.8,
+    220.3,
+    224.0
+  ],
+  "rail_between_plates_mm": 212.0,
+  "snap_tip_length_mm": 6.0,
+  "plate_base_web_depth_mm": 6.0,
+  "plate_overall_depth_mm": 18.0,
+  "floor_support_tabs_per_face": 24,
+  "floor_support_tab_width_mm": 15.0,
+  "floor_support_original_span_mm": 56.0,
+  "floor_support_centre_gap_mm": 26.0,
+  "floor_support_projection_mm": 12.0,
+  "floor_support_features": [
+    {
+      "kind": "top_catch",
+      "column": 0,
+      "supported_row": null,
+      "pos": [
+        -72.64999999999999,
+        -109.95,
+        0
+      ],
+      "envelope": [
+        15.0,
+        7.8,
+        6.0
+      ]
+    },
+    {
+      "kind": "floor",
+      "column": 0,
+      "supported_row": 0,
+      "pos": [
+        -72.64999999999999,
+        -79.65,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": -79.65,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 0,
+      "supported_row": 1,
+      "pos": [
+        -72.64999999999999,
+        -48.35000000000001,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": -48.35000000000001,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 0,
+      "supported_row": 2,
+      "pos": [
+        -72.64999999999999,
+        -17.050000000000004,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": -17.050000000000004,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 0,
+      "supported_row": 3,
+      "pos": [
+        -72.64999999999999,
+        14.25,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": 14.25,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 0,
+      "supported_row": 4,
+      "pos": [
+        -72.64999999999999,
+        45.55,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": 45.55,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 0,
+      "supported_row": 5,
+      "pos": [
+        -72.64999999999999,
+        76.85,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": 76.85,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "top_catch",
+      "column": 0,
+      "supported_row": null,
+      "pos": [
+        -31.64999999999999,
+        -109.95,
+        0
+      ],
+      "envelope": [
+        15.0,
+        7.8,
+        6.0
+      ]
+    },
+    {
+      "kind": "floor",
+      "column": 0,
+      "supported_row": 0,
+      "pos": [
+        -31.64999999999999,
+        -79.65,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": -79.65,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 0,
+      "supported_row": 1,
+      "pos": [
+        -31.64999999999999,
+        -48.35000000000001,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": -48.35000000000001,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 0,
+      "supported_row": 2,
+      "pos": [
+        -31.64999999999999,
+        -17.050000000000004,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": -17.050000000000004,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 0,
+      "supported_row": 3,
+      "pos": [
+        -31.64999999999999,
+        14.25,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": 14.25,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 0,
+      "supported_row": 4,
+      "pos": [
+        -31.64999999999999,
+        45.55,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": 45.55,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 0,
+      "supported_row": 5,
+      "pos": [
+        -31.64999999999999,
+        76.85,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": 76.85,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "top_catch",
+      "column": 1,
+      "supported_row": null,
+      "pos": [
+        16.650000000000006,
+        -109.95,
+        0
+      ],
+      "envelope": [
+        15.0,
+        7.8,
+        6.0
+      ]
+    },
+    {
+      "kind": "floor",
+      "column": 1,
+      "supported_row": 0,
+      "pos": [
+        16.650000000000006,
+        -79.65,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": -79.65,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 1,
+      "supported_row": 1,
+      "pos": [
+        16.650000000000006,
+        -48.35000000000001,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": -48.35000000000001,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 1,
+      "supported_row": 2,
+      "pos": [
+        16.650000000000006,
+        -17.050000000000004,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": -17.050000000000004,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 1,
+      "supported_row": 3,
+      "pos": [
+        16.650000000000006,
+        14.25,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": 14.25,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 1,
+      "supported_row": 4,
+      "pos": [
+        16.650000000000006,
+        45.55,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": 45.55,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 1,
+      "supported_row": 5,
+      "pos": [
+        16.650000000000006,
+        76.85,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": 76.85,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "top_catch",
+      "column": 1,
+      "supported_row": null,
+      "pos": [
+        57.650000000000006,
+        -109.95,
+        0
+      ],
+      "envelope": [
+        15.0,
+        7.8,
+        6.0
+      ]
+    },
+    {
+      "kind": "floor",
+      "column": 1,
+      "supported_row": 0,
+      "pos": [
+        57.650000000000006,
+        -79.65,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": -79.65,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 1,
+      "supported_row": 1,
+      "pos": [
+        57.650000000000006,
+        -48.35000000000001,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": -48.35000000000001,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 1,
+      "supported_row": 2,
+      "pos": [
+        57.650000000000006,
+        -17.050000000000004,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": -17.050000000000004,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 1,
+      "supported_row": 3,
+      "pos": [
+        57.650000000000006,
+        14.25,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": 14.25,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 1,
+      "supported_row": 4,
+      "pos": [
+        57.650000000000006,
+        45.55,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": 45.55,
+      "ramp_end_z": 6.800000000000001
+    },
+    {
+      "kind": "floor",
+      "column": 1,
+      "supported_row": 5,
+      "pos": [
+        57.650000000000006,
+        76.85,
+        0
+      ],
+      "envelope": [
+        15.0,
+        8.8,
+        18.0
+      ],
+      "bearing_y": 76.85,
+      "ramp_end_z": 6.800000000000001
+    }
+  ],
+  "service_orientation": "CAD negative Y is up; wide T at top; bottom row bears on plywood",
+  "receiver_continuous_inner_web_mm": 1.0,
+  "middle_stop_from_outer_face_mm": [
+    110.5,
+    113.5
+  ],
+  "middle_stop_size_mm": [
+    19.0,
+    10.0,
+    3.0
+  ],
+  "rail_positions": [
+    {
+      "x": -89.3,
+      "y": -96.14999999999999,
+      "kind": "rail",
+      "axis_y": -91.14999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": -64.85,
+      "kind": "rail",
+      "axis_y": -59.849999999999994,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": -33.54999999999999,
+      "kind": "rail",
+      "axis_y": -28.54999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": -2.249999999999986,
+      "kind": "rail",
+      "axis_y": 2.750000000000014,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": 29.05000000000001,
+      "kind": "rail",
+      "axis_y": 34.05000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": 60.35000000000001,
+      "kind": "rail",
+      "axis_y": 65.35000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": 91.65000000000002,
+      "kind": "rail",
+      "axis_y": 96.65000000000002,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": -96.14999999999999,
+      "kind": "rail",
+      "axis_y": -91.14999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": -64.85,
+      "kind": "rail",
+      "axis_y": -59.849999999999994,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": -33.54999999999999,
+      "kind": "rail",
+      "axis_y": -28.54999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": -2.249999999999986,
+      "kind": "rail",
+      "axis_y": 2.750000000000014,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": 29.05000000000001,
+      "kind": "rail",
+      "axis_y": 34.05000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": 60.35000000000001,
+      "kind": "rail",
+      "axis_y": 65.35000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": 91.65000000000002,
+      "kind": "rail",
+      "axis_y": 96.65000000000002,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": -96.14999999999999,
+      "kind": "rail",
+      "axis_y": -91.14999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": -64.85,
+      "kind": "rail",
+      "axis_y": -59.849999999999994,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": -33.54999999999999,
+      "kind": "rail",
+      "axis_y": -28.54999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": -2.249999999999986,
+      "kind": "rail",
+      "axis_y": 2.750000000000014,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": 29.05000000000001,
+      "kind": "rail",
+      "axis_y": 34.05000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": 60.35000000000001,
+      "kind": "rail",
+      "axis_y": 65.35000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": 91.65000000000002,
+      "kind": "rail",
+      "axis_y": 96.65000000000002,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    }
+  ],
+  "density_limits": {
+    "next_column_width_mm": 287.1,
+    "next_row_height_mm": 251.6,
+    "basis": "Upright uniform grid; unchanged tray clearances/spacing; compact edges and corner M3 holes"
+  },
+  "rail_batches": [
+    [
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail"
+    ],
+    [
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail"
+    ],
+    [
+      "snap_rail",
+      "snap_rail",
+      "snap_rail"
+    ]
+  ],
+  "required_usable_plate_area_mm": [
+    197.8,
+    220.3
+  ],
+  "corner_holes": [
+    {
+      "x": -93.9,
+      "y": -105.15
+    },
+    {
+      "x": -93.9,
+      "y": 105.15
+    },
+    {
+      "x": 93.9,
+      "y": -105.15
+    },
+    {
+      "x": 93.9,
+      "y": 105.15
+    }
+  ],
+  "corner_hole_size": "m3",
+  "corner_hole_diameter_mm": 3.6,
+  "corner_hole_inset_mm": 5.0,
+  "plywood_enclosure": "Size to this frame; plywood thickness and joinery are not included",
+  "optional_joining_plates": [
+    {
+      "name": "four_unit_joiner",
+      "size": [
+        20.0,
+        20.0,
+        6.0
+      ],
+      "holes": [
+        [
+          -5.0,
+          -5.0
+        ],
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          5.0,
+          -5.0
+        ],
+        [
+          5.0,
+          5.0
+        ]
+      ],
+      "print_center": [
+        -12.5,
+        0,
+        0
+      ],
+      "hole_pitch_mm": 10.0
+    },
+    {
+      "name": "two_unit_joiner",
+      "size": [
+        20.0,
+        10.0,
+        6.0
+      ],
+      "holes": [
+        [
+          -5.0,
+          0
+        ],
+        [
+          5.0,
+          0
+        ]
+      ],
+      "print_center": [
+        12.5,
+        0,
+        0
+      ],
+      "hole_pitch_mm": 10.0
+    }
+  ],
+  "joining_plates_file": "joining_plates.stl",
+  "joining_plate_unit_gap_mm": 0.0,
+  "joining_plate_countersink": {
+    "size": "M3",
+    "top_diameter_mm": 7.2,
+    "depth_mm": 1.9
+  },
+  "physical_fit": "Unverified PETG"
+}

@@ -1,0 +1,16 @@
+V6 double sided Systempak 209 / 100 ml drawer unit. Dimensions in mm.
+300 x 300 x 224 assembled; 3 columns x 9 rows on EACH side, 54 pots total.
+front.stl and back.stl: print ONE each, outside face on bed; they are identical.
+One-piece plates require 300 x 300 mm USABLE area, plus any printer margin/brim.
+They do not fit the P1P or A1 mini; no tile seams are included in this strategy.
+rails_plate_*.stl: print EVERY numbered batch once; total 36 identical snap_rail.
+snap_rail.stl is a spare individual part, not an extra kit quantity.
+Rails lie on the long flat face, with their central stop wings supported on the bed.
+3dpr.stl is the complete kit overview and exceeds one bed. assembled.stl is reference only.
+Snap rails into the first plate, then progressively seat the second plate.
+All catches remain flush with the outside faces. No screws or loose keys.
+Each rail has an integral 3 mm middle stop, with wings extending into the pot body channel.
+Drawers enter from both faces and stop at opposite sides of the middle barrier.
+Retained outer catches resist pullout at both faces; lift trays past them as before.
+Inspect the 0.5 mm receiver lands and spring slots in the slicer.
+Print a rail/receiver fit trial before the whole set. Fit, stop contact, strength and creep need physical PETG testing.

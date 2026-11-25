@@ -1,0 +1,43 @@
+V7 / 4 WIDE x 12 TALL / TWO-SIDED / SYSTEMPAK 209 100 ml
+96 drawers total; 48 from each end. Dimensions in mm.
+Frame: 376.4 wide x 376.8 tall x 224 deep.
+Overall depth including caps: 233.2 mm.
+Four screws replace outer mounts at first/last working rows.
+Either beam type fits ANY of the 60 positions; roofs and centre stops align.
+Both beams have two rounded windows, 3 mm side rails and solid ends/centre.
+
+PRINT EACH LISTED FILE ONCE:
+front.stl + back.stl: identical faces; outside face DOWN; 6 mm web, 18 mm maximum depth.
+snap_beams_01.stl: 16 x snap_beam. Print ONCE.
+snap_beams_02.stl: 16 x snap_beam. Print ONCE.
+snap_beams_03.stl: 16 x snap_beam. Print ONCE.
+snap_beams_04.stl: 8 x snap_beam. Print ONCE.
+screw_beams.stl: 4 x screw_beam. Print ONCE.
+front_plugs_01.stl: 26 x front_plug. Print ONCE.
+front_plugs_02.stl: 26 x front_plug. Print ONCE.
+front_plugs_03.stl: 26 x front_plug. Print ONCE.
+front_plugs_04.stl: 26 x front_plug. Print ONCE.
+front_plugs_05.stl: 8 x front_plug. Print ONCE.
+screw_adapters.stl: 8 x screw_adapter. Print ONCE.
+Face planning bed: 400 x 400 mm, with declared margins.
+Beam batches are at most 229 mm long; keep the supplied long-flat-face orientation.
+Use production PETG settings. Covers: outside face DOWN, stem UP.
+Adapters: outside face DOWN, cheeks UP. All numbered batches are required.
+Individual snap_beam, screw_beam, front_plug and screw_adapter files are SPARES.
+sample_71.stl and receiver_6_0.stl are OPTIONAL fit coupons.
+3dpr and assembled are REFERENCE OVERVIEWS, not single-bed print files.
+
+LASER ALTERNATIVE: cut front_laser_2d.dxf TWICE from measured 6 mm MDF instead of printing faces.
+Laser stops are flat solid 6 mm; printed stops retain angled profiles and inward floor tabs.
+MDF cannot provide 12 mm inward tabs: enclosure must supply drawer-floor support.
+DXF uses nominal finished mm CUT contours; apply measured kerf once in CAM.
+receiver_laser.dxf is an optional fit coupon with the same 5.2 x 5.2 opening.
+
+HARDWARE: 8 M3 x 20 countersunk screws and 8 M3 nuts.
+Side-load nuts before attaching the second face. Seat beams against inside faces.
+Press pointed friction covers from outside until their skirts seat against the panel.
+No plug detents or arm pockets. Nose .8 mm; fitted stem 2.6 mm.
+Fit screw guides from outside and tighten gently. Centre stops separate opposing drawers.
+Wide T at TOP in service. Enclosure supplies the bottom drawer floor.
+Corner mounting screws depend on the enclosure and are not included.
+Test fit and loading progressively; full-assembly force, creep and capacity remain unverified.

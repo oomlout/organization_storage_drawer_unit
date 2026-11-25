@@ -1,0 +1,682 @@
+{
+  "parts": [
+    {
+      "id": "organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style",
+      "variant": "frame",
+      "column": 1,
+      "row": 1,
+      "design": {
+        "adhesion_ears": true,
+        "bed_margin_mm": 2.0,
+        "build_volume_mm": [
+          400.0,
+          400.0,
+          null
+        ],
+        "catch_projection_mm": 4.5,
+        "catch_ramp_depth_mm": 4.5,
+        "drawer_count": 1,
+        "ear_count": 4,
+        "envelope_mm": [
+          92.3,
+          73.3,
+          110.5
+        ],
+        "expected_bodies": 1,
+        "finished_envelope_mm": [
+          92.3,
+          32.3,
+          110.5
+        ],
+        "opening_mm": [
+          87.5,
+          27.5
+        ],
+        "part_role": "frame",
+        "physical_validation": "Pending container-fit, printing, shrinkage and load tests",
+        "pitch_mm": [
+          89.3,
+          29.3
+        ],
+        "print_orientation": "Front face on bed; +Z is insertion depth and print height",
+        "printer": "unspecified"
+      },
+      "mesh_envelope_mm": [
+        92.30000305175781,
+        73.30000305175781,
+        110.5
+      ],
+      "volume_mm3": 27583.71876730595,
+      "surface_area_mm2": 27207.727103198682,
+      "connected_bodies": 1,
+      "steep_downward_area_mm2": 0.0,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_connected_bodies": true,
+        "expected_envelope": true,
+        "on_print_bed": true,
+        "no_steep_downward_faces_above_bed": true,
+        "fits_printer_volume": true
+      }
+    },
+    {
+      "id": "organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_0d75",
+      "variant": "fit_clearance_0d75",
+      "column": 1,
+      "row": 1,
+      "design": {
+        "adhesion_ears": true,
+        "bed_margin_mm": 2.0,
+        "build_volume_mm": [
+          400.0,
+          400.0,
+          null
+        ],
+        "catch_projection_mm": 4.5,
+        "catch_ramp_depth_mm": 4.5,
+        "drawer_count": 1,
+        "ear_count": 4,
+        "envelope_mm": [
+          91.55,
+          72.55,
+          12
+        ],
+        "expected_bodies": 1,
+        "finished_envelope_mm": [
+          91.55,
+          31.55,
+          12
+        ],
+        "opening_mm": [
+          86.75,
+          26.75
+        ],
+        "part_role": "fit",
+        "physical_validation": "Pending container-fit, printing, shrinkage and load tests",
+        "pitch_mm": [
+          88.55,
+          28.55
+        ],
+        "print_orientation": "Front face on bed; +Z is insertion depth and print height",
+        "printer": "unspecified"
+      },
+      "mesh_envelope_mm": [
+        91.55000305175781,
+        72.55000305175781,
+        12.0
+      ],
+      "volume_mm3": 8624.465118945565,
+      "surface_area_mm2": 9764.549371045943,
+      "connected_bodies": 1,
+      "steep_downward_area_mm2": 0.0,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_connected_bodies": true,
+        "expected_envelope": true,
+        "on_print_bed": true,
+        "no_steep_downward_faces_above_bed": true,
+        "fits_printer_volume": true
+      }
+    },
+    {
+      "id": "organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_1d5",
+      "variant": "fit_clearance_1d5",
+      "column": 1,
+      "row": 1,
+      "design": {
+        "adhesion_ears": true,
+        "bed_margin_mm": 2.0,
+        "build_volume_mm": [
+          400.0,
+          400.0,
+          null
+        ],
+        "catch_projection_mm": 4.5,
+        "catch_ramp_depth_mm": 4.5,
+        "drawer_count": 1,
+        "ear_count": 4,
+        "envelope_mm": [
+          92.3,
+          73.3,
+          12
+        ],
+        "expected_bodies": 1,
+        "finished_envelope_mm": [
+          92.3,
+          32.3,
+          12
+        ],
+        "opening_mm": [
+          87.5,
+          27.5
+        ],
+        "part_role": "fit",
+        "physical_validation": "Pending container-fit, printing, shrinkage and load tests",
+        "pitch_mm": [
+          89.3,
+          29.3
+        ],
+        "print_orientation": "Front face on bed; +Z is insertion depth and print height",
+        "printer": "unspecified"
+      },
+      "mesh_envelope_mm": [
+        92.30000305175781,
+        73.30000305175781,
+        12.0
+      ],
+      "volume_mm3": 8710.921968086694,
+      "surface_area_mm2": 9850.958856542713,
+      "connected_bodies": 1,
+      "steep_downward_area_mm2": 0.0,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_connected_bodies": true,
+        "expected_envelope": true,
+        "on_print_bed": true,
+        "no_steep_downward_faces_above_bed": true,
+        "fits_printer_volume": true
+      }
+    },
+    {
+      "id": "organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_2d25",
+      "variant": "fit_clearance_2d25",
+      "column": 1,
+      "row": 1,
+      "design": {
+        "adhesion_ears": true,
+        "bed_margin_mm": 2.0,
+        "build_volume_mm": [
+          400.0,
+          400.0,
+          null
+        ],
+        "catch_projection_mm": 4.5,
+        "catch_ramp_depth_mm": 4.5,
+        "drawer_count": 1,
+        "ear_count": 4,
+        "envelope_mm": [
+          93.05,
+          74.05,
+          12
+        ],
+        "expected_bodies": 1,
+        "finished_envelope_mm": [
+          93.05,
+          33.05,
+          12
+        ],
+        "opening_mm": [
+          88.25,
+          28.25
+        ],
+        "part_role": "fit",
+        "physical_validation": "Pending container-fit, printing, shrinkage and load tests",
+        "pitch_mm": [
+          90.05,
+          30.05
+        ],
+        "print_orientation": "Front face on bed; +Z is insertion depth and print height",
+        "printer": "unspecified"
+      },
+      "mesh_envelope_mm": [
+        93.05000305175781,
+        74.05000305175781,
+        12.0
+      ],
+      "volume_mm3": 8797.378814142006,
+      "surface_area_mm2": 9937.368326031454,
+      "connected_bodies": 1,
+      "steep_downward_area_mm2": 0.0,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_connected_bodies": true,
+        "expected_envelope": true,
+        "on_print_bed": true,
+        "no_steep_downward_faces_above_bed": true,
+        "fits_printer_volume": true
+      }
+    },
+    {
+      "id": "organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_a1_mini_max",
+      "variant": "a1_mini_max",
+      "column": 1,
+      "row": 4,
+      "design": {
+        "adhesion_ears": true,
+        "bed_margin_mm": 2.0,
+        "build_volume_mm": [
+          180.0,
+          180.0,
+          180.0
+        ],
+        "catch_projection_mm": 4.5,
+        "catch_ramp_depth_mm": 4.5,
+        "drawer_count": 4,
+        "ear_count": 4,
+        "envelope_mm": [
+          92.3,
+          161.2,
+          110.5
+        ],
+        "expected_bodies": 1,
+        "finished_envelope_mm": [
+          92.3,
+          120.2,
+          110.5
+        ],
+        "opening_mm": [
+          87.5,
+          27.5
+        ],
+        "part_role": "frame",
+        "physical_validation": "Pending container-fit, printing, shrinkage and load tests",
+        "pitch_mm": [
+          89.3,
+          29.3
+        ],
+        "print_orientation": "Front face on bed; +Z is insertion depth and print height",
+        "printer": "Bambu Lab A1 mini"
+      },
+      "mesh_envelope_mm": [
+        92.30000305175781,
+        161.1999969482422,
+        110.5
+      ],
+      "volume_mm3": 75654.18604862328,
+      "surface_area_mm2": 71346.15388046467,
+      "connected_bodies": 1,
+      "steep_downward_area_mm2": 0.0,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_connected_bodies": true,
+        "expected_envelope": true,
+        "on_print_bed": true,
+        "no_steep_downward_faces_above_bed": true,
+        "fits_printer_volume": true
+      }
+    },
+    {
+      "id": "organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style",
+      "variant": "frame",
+      "column": 2,
+      "row": 2,
+      "design": {
+        "adhesion_ears": true,
+        "bed_margin_mm": 2.0,
+        "build_volume_mm": [
+          400.0,
+          400.0,
+          null
+        ],
+        "catch_projection_mm": 4.5,
+        "catch_ramp_depth_mm": 4.5,
+        "drawer_count": 4,
+        "ear_count": 4,
+        "envelope_mm": [
+          181.6,
+          102.6,
+          110.5
+        ],
+        "expected_bodies": 1,
+        "finished_envelope_mm": [
+          181.6,
+          61.6,
+          110.5
+        ],
+        "opening_mm": [
+          87.5,
+          27.5
+        ],
+        "part_role": "frame",
+        "physical_validation": "Pending container-fit, printing, shrinkage and load tests",
+        "pitch_mm": [
+          89.3,
+          29.3
+        ],
+        "print_orientation": "Front face on bed; +Z is insertion depth and print height",
+        "printer": "unspecified"
+      },
+      "mesh_envelope_mm": [
+        181.60000610351562,
+        102.5999984741211,
+        110.5
+      ],
+      "volume_mm3": 76470.3791366119,
+      "surface_area_mm2": 72244.83730893218,
+      "connected_bodies": 1,
+      "steep_downward_area_mm2": 0.0,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_connected_bodies": true,
+        "expected_envelope": true,
+        "on_print_bed": true,
+        "no_steep_downward_faces_above_bed": true,
+        "fits_printer_volume": true
+      }
+    },
+    {
+      "id": "organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_bank_layout",
+      "variant": "bank_layout",
+      "column": 2,
+      "row": 2,
+      "design": {
+        "adhesion_ears": true,
+        "bed_margin_mm": 2.0,
+        "build_volume_mm": [
+          400.0,
+          400.0,
+          null
+        ],
+        "catch_projection_mm": 4.5,
+        "catch_ramp_depth_mm": 4.5,
+        "drawer_count": 8,
+        "ear_count": 8,
+        "envelope_mm": [
+          363.59999999999997,
+          102.6,
+          6
+        ],
+        "expected_bodies": 2,
+        "finished_envelope_mm": [
+          363.59999999999997,
+          61.6,
+          6
+        ],
+        "opening_mm": [
+          87.5,
+          27.5
+        ],
+        "part_role": "bank_layout",
+        "physical_validation": "Pending container-fit, printing, shrinkage and load tests",
+        "pitch_mm": [
+          89.3,
+          29.3
+        ],
+        "print_orientation": "Front face on bed; +Z is insertion depth and print height",
+        "printer": "unspecified"
+      },
+      "mesh_envelope_mm": [
+        363.6000061035156,
+        102.5999984741211,
+        6.0
+      ],
+      "volume_mm3": 28436.323285840135,
+      "surface_area_mm2": 31422.900378374165,
+      "connected_bodies": 2,
+      "steep_downward_area_mm2": 0.0,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_connected_bodies": true,
+        "expected_envelope": true,
+        "on_print_bed": true,
+        "no_steep_downward_faces_above_bed": true,
+        "fits_printer_volume": true
+      }
+    },
+    {
+      "id": "organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_solid_reference",
+      "variant": "solid_reference",
+      "column": 2,
+      "row": 2,
+      "design": {
+        "adhesion_ears": true,
+        "bed_margin_mm": 2.0,
+        "build_volume_mm": [
+          400.0,
+          400.0,
+          null
+        ],
+        "catch_projection_mm": 4.5,
+        "catch_ramp_depth_mm": 4.5,
+        "drawer_count": 4,
+        "ear_count": 4,
+        "envelope_mm": [
+          181.6,
+          102.6,
+          110.5
+        ],
+        "expected_bodies": 1,
+        "finished_envelope_mm": [
+          181.6,
+          61.6,
+          110.5
+        ],
+        "opening_mm": [
+          87.5,
+          27.5
+        ],
+        "part_role": "frame",
+        "physical_validation": "Pending container-fit, printing, shrinkage and load tests",
+        "pitch_mm": [
+          89.3,
+          29.3
+        ],
+        "print_orientation": "Front face on bed; +Z is insertion depth and print height",
+        "printer": "unspecified"
+      },
+      "mesh_envelope_mm": [
+        181.60000610351562,
+        102.5999984741211,
+        110.5
+      ],
+      "volume_mm3": 183025.38015570506,
+      "surface_area_mm2": 159371.21102453078,
+      "connected_bodies": 1,
+      "steep_downward_area_mm2": 0.0,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_connected_bodies": true,
+        "expected_envelope": true,
+        "on_print_bed": true,
+        "no_steep_downward_faces_above_bed": true,
+        "fits_printer_volume": true
+      }
+    },
+    {
+      "id": "organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_p1p_max",
+      "variant": "p1p_max",
+      "column": 2,
+      "row": 7,
+      "design": {
+        "adhesion_ears": true,
+        "bed_margin_mm": 2.0,
+        "build_volume_mm": [
+          256.0,
+          256.0,
+          256.0
+        ],
+        "catch_projection_mm": 4.5,
+        "catch_ramp_depth_mm": 4.5,
+        "drawer_count": 14,
+        "ear_count": 4,
+        "envelope_mm": [
+          181.6,
+          249.1,
+          110.5
+        ],
+        "expected_bodies": 1,
+        "finished_envelope_mm": [
+          181.6,
+          208.1,
+          110.5
+        ],
+        "opening_mm": [
+          87.5,
+          27.5
+        ],
+        "part_role": "frame",
+        "physical_validation": "Pending container-fit, printing, shrinkage and load tests",
+        "pitch_mm": [
+          89.3,
+          29.3
+        ],
+        "print_orientation": "Front face on bed; +Z is insertion depth and print height",
+        "printer": "Bambu Lab P1P"
+      },
+      "mesh_envelope_mm": [
+        181.60000610351562,
+        249.10000610351562,
+        110.5
+      ],
+      "volume_mm3": 212848.33121654438,
+      "surface_area_mm2": 199263.06721742585,
+      "connected_bodies": 1,
+      "steep_downward_area_mm2": 0.0,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_connected_bodies": true,
+        "expected_envelope": true,
+        "on_print_bed": true,
+        "no_steep_downward_faces_above_bed": true,
+        "fits_printer_volume": true
+      }
+    },
+    {
+      "id": "organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style",
+      "variant": "frame",
+      "column": 4,
+      "row": 12,
+      "design": {
+        "adhesion_ears": true,
+        "bed_margin_mm": 2.0,
+        "build_volume_mm": [
+          400.0,
+          400.0,
+          null
+        ],
+        "catch_projection_mm": 4.5,
+        "catch_ramp_depth_mm": 4.5,
+        "drawer_count": 48,
+        "ear_count": 4,
+        "envelope_mm": [
+          360.2,
+          395.6,
+          110.5
+        ],
+        "expected_bodies": 1,
+        "finished_envelope_mm": [
+          360.2,
+          354.6,
+          110.5
+        ],
+        "opening_mm": [
+          87.5,
+          27.5
+        ],
+        "part_role": "frame",
+        "physical_validation": "Pending container-fit, printing, shrinkage and load tests",
+        "pitch_mm": [
+          89.3,
+          29.3
+        ],
+        "print_orientation": "Front face on bed; +Z is insertion depth and print height",
+        "printer": "unspecified"
+      },
+      "mesh_envelope_mm": [
+        360.20001220703125,
+        395.6000061035156,
+        110.5
+      ],
+      "volume_mm3": 639994.7726597004,
+      "surface_area_mm2": 600746.6714581419,
+      "connected_bodies": 1,
+      "steep_downward_area_mm2": 0.0,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_connected_bodies": true,
+        "expected_envelope": true,
+        "on_print_bed": true,
+        "no_steep_downward_faces_above_bed": true,
+        "fits_printer_volume": true
+      }
+    },
+    {
+      "id": "organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_layout",
+      "variant": "layout",
+      "column": 4,
+      "row": 12,
+      "design": {
+        "adhesion_ears": true,
+        "bed_margin_mm": 2.0,
+        "build_volume_mm": [
+          400.0,
+          400.0,
+          null
+        ],
+        "catch_projection_mm": 4.5,
+        "catch_ramp_depth_mm": 4.5,
+        "drawer_count": 48,
+        "ear_count": 4,
+        "envelope_mm": [
+          360.2,
+          395.6,
+          6
+        ],
+        "expected_bodies": 1,
+        "finished_envelope_mm": [
+          360.2,
+          354.6,
+          6
+        ],
+        "opening_mm": [
+          87.5,
+          27.5
+        ],
+        "part_role": "layout",
+        "physical_validation": "Pending container-fit, printing, shrinkage and load tests",
+        "pitch_mm": [
+          89.3,
+          29.3
+        ],
+        "print_orientation": "Front face on bed; +Z is insertion depth and print height",
+        "printer": "unspecified"
+      },
+      "mesh_envelope_mm": [
+        360.20001220703125,
+        395.6000061035156,
+        6.0
+      ],
+      "volume_mm3": 123655.71824872137,
+      "surface_area_mm2": 120065.51409688564,
+      "connected_bodies": 1,
+      "steep_downward_area_mm2": 0.0,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_connected_bodies": true,
+        "expected_envelope": true,
+        "on_print_bed": true,
+        "no_steep_downward_faces_above_bed": true,
+        "fits_printer_volume": true
+      }
+    }
+  ],
+  "limitations": [
+    "Mesh checks do not establish load capacity, physical fit or freedom from warping.",
+    "Overhang check tests exposed face angles in the supplied print orientation; verify in the slicer.",
+    "No calibrated filament shrinkage or printer-specific slicing profile is assumed."
+  ],
+  "same_envelope_material_saving_percent": 58.218702197719075,
+  "all_checks_passed": true
+}

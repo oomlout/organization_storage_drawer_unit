@@ -1,0 +1,177 @@
+adhesion_ears: true
+assembly_component: true
+assembly_half: back
+availability: Print yourself; pots on backorder at research date
+bed_height: 180.0
+bed_margin: 2.0
+bed_width: 180.0
+build_height: 180.0
+cad_volume_mm3: 45592.6787355582
+catch_tab_depth: 1.5
+catch_tab_height: 6.0
+catch_tab_ramp_depth: 6.0
+catch_tab_width: 56.0
+column: 1
+comparison_image: comparison.png
+comparison_measurement_status: current
+comparison_sample: true
+container: packaging_takeaway_container_rectangle_550_ml_capacity_108_mm_width_86_mm_height_95_mm_depth_tamper_evident_systempak_214
+container_clearance: 1.5
+container_short: rectangle_550_ml_tamper_evident_systempak_214
+cost_per_drawer_gbp: 0.5653
+cost_per_kg_basis: Estimated empty assembled unit including pots and adhesion ears
+cost_per_kg_gbp: 10.0
+depth_clearance: 1.5
+depth_lip: 12.0
+depth_mm: 54.75
+drawer_border_edge: 5.5
+drawer_capacity_basis: manufacturer_nominal
+drawer_capacity_ml: 550
+drawer_count: 1
+ear_diameter: 16.0
+ear_gap: 0.5
+ear_height: 0.6
+ear_link_height: 0.3
+ear_link_width: 5.0
+filament_cost_gbp: 0.5653
+filament_density_g_per_cm3: 1.24
+filament_gbp_per_gram: 0.01
+filament_mass_basis: Solid CAD volume × assumed PLA density; includes adhesion ears;
+  excludes purge/supports
+filament_mass_g: 56.535
+front_band: 7.5
+hardware_axis_height: 5.0
+hardware_cost_basis: M3 screws and nuts excluded; hardware price not supplied
+hardware_min_wall: 1.2
+height_mm: 106.0
+inset_lip: 5.5
+interlock_clearance: 0.25
+interlock_depth: 3.0
+interlock_end_clearance: 0.2
+interlock_height: 7.0
+interlock_width: 8.0
+lightening: true
+lip_cutout_radius: 1.0
+lip_shelf_thickness: 10.0
+lip_support_reference_height: 26.0
+manufacturer: oomlout
+middle_rib_width: 0.0
+module_gap: 0.4
+oobb_details:
+  adhesion_ears: true
+  assembly_half: back
+  bed_height: 180.0
+  bed_margin: 2.0
+  bed_width: 180.0
+  build_height: 180.0
+  catch_tab_depth: 1.5
+  catch_tab_height: 6.0
+  catch_tab_ramp_depth: 6.0
+  catch_tab_width: 56.0
+  column: 1
+  container: packaging_takeaway_container_rectangle_550_ml_capacity_108_mm_width_86_mm_height_95_mm_depth_tamper_evident_systempak_214
+  container_clearance: 1.5
+  container_short: rectangle_550_ml_tamper_evident_systempak_214
+  depth_clearance: 1.5
+  depth_lip: 12.0
+  drawer_border_edge: 5.5
+  ear_diameter: 16.0
+  ear_gap: 0.5
+  ear_height: 0.6
+  ear_link_height: 0.3
+  ear_link_width: 5.0
+  front_band: 7.5
+  hardware_axis_height: 5.0
+  hardware_min_wall: 1.2
+  inset_lip: 5.5
+  interlock_clearance: 0.25
+  interlock_depth: 3.0
+  interlock_end_clearance: 0.2
+  interlock_height: 7.0
+  interlock_width: 8.0
+  lightening: true
+  lip_cutout_radius: 1.0
+  lip_shelf_thickness: 10.0
+  lip_support_reference_height: 26.0
+  middle_rib_width: 0.0
+  module_gap: 0.4
+  oobb_name: ai_version_2
+  opening_height_extra: 1.5
+  opening_radius: 4.0
+  outer_radius: 2.4
+  part_role: frame
+  printer: Bambu Lab A1 mini
+  rear_band: 6.0
+  roof_slope: 1.0
+  row: 1
+  runner_width: 10.0
+  screw_head_seat_offset: 6.0
+  screw_length: 16.0
+  side_rail_width: 4.0
+  style: ai_version_2
+  taxonomy_1: oobb
+  taxonomy_2: organization
+  taxonomy_3: storage
+  taxonomy_4: drawer_unit
+  taxonomy_5: 1_column
+  taxonomy_6: 1_row
+  taxonomy_7: rectangle_550_ml_tamper_evident_systempak_214_container
+  taxonomy_8: ai_version_2_style
+  taxonomy_9: a1_mini_max_back
+  thickness_wall: 1.8
+  variant: a1_mini_max_back
+opening_height_extra: 1.5
+opening_radius: 4.0
+outer_radius: 2.4
+part_role: frame
+pot_cost_details:
+  availability: On backorder
+  capacity_ml: 550
+  checked_date: '2026-10-18'
+  manufacturer: Systempak
+  pack_price_ex_vat_gbp: 80.95
+  pack_quantity: 500
+  part_number: '214'
+  price_basis: Single carton of 500 pots and lids; lids unused; delivery excluded
+  price_source_url: https://systempak.net/product/550ml-rectangular-tamper-evident-containers-and-lids/
+  unit_price_gbp: 0.19428
+  vat_rate: 0.2
+  weight_g: 16.0
+  weight_source_url: https://systempak.net/wp-content/uploads/2024/03/TDS-214-550ML.pdf
+pot_quantity: 0
+pots_cost_gbp: 0
+price_excludes_delivery: true
+price_gbp: 0.5653
+price_includes_vat: true
+print_instruction: Print outer face on bed, joint facing up.
+printer: Bambu Lab A1 mini
+product_name: Printed 1 × 1 · Systempak 214 · ai version 2 · a1 mini max back
+rear_band: 6.0
+record_type: printed_drawer_unit
+roof_slope: 1.0
+row: 1
+runner_width: 10.0
+screw_head_seat_offset: 6.0
+screw_length: 16.0
+side_rail_width: 4.0
+style: ai_version_2
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: organization
+taxonomy_3: storage
+taxonomy_4: drawer_unit
+taxonomy_5: 1_column
+taxonomy_6: 1_row
+taxonomy_7: rectangle_550_ml_tamper_evident_systempak_214_container
+taxonomy_8: ai_version_2_style
+taxonomy_9: a1_mini_max_back
+thickness_wall: 1.8
+variant: a1_mini_max_back
+weight_basis: estimated_solid_PLA_half_including_ears_no_pots_or_hardware
+weight_kg: 0.056535
+width_mm: 98.5

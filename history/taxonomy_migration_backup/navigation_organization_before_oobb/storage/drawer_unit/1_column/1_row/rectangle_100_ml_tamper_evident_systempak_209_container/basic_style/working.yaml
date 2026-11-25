@@ -1,0 +1,278 @@
+bip_39_2_word_array:
+- choose
+- deputy
+bip_39_2_word_no_space: choosedeputy
+bip_39_2_word_space: choose deputy
+bip_39_2_word_underscore: choose_deputy
+bip_39_3_word_array:
+- choose
+- deputy
+- dumb
+bip_39_3_word_no_space: choosedeputydumb
+bip_39_3_word_space: choose deputy dumb
+bip_39_3_word_underscore: choose_deputy_dumb
+bip_39_full_array:
+- choose
+- deputy
+- dumb
+- actor
+- water
+- legend
+- cupboard
+- pepper
+- cart
+- law
+- gallery
+- recycle
+bip_39_full_no_space: choosedeputydumbactorwaterlegendcupboardpeppercartlawgalleryrecycle
+bip_39_full_space: choose deputy dumb actor water legend cupboard pepper cart law
+  gallery recycle
+bip_39_full_underscore: choose_deputy_dumb_actor_water_legend_cupboard_pepper_cart_law_gallery_recycle
+column: 1
+container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+container_short: rectangle_100_ml_tamper_evident_systempak_209
+directory: parts/organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+id: organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+id_no_class: organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+id_no_size: organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+id_no_type: organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+id_oobb: organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+kwargs:
+  column: 1
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  filter: ''
+  modes:
+  - 3dpr
+  navigation: true
+  oobb_name: basic
+  oomp_description_extra: ''
+  oomp_description_main: basic_
+  oomp_mode: project
+  oomp_run: false
+  overwrite: true
+  row: 1
+  style: basic
+  taxonomy_1: organization
+  taxonomy_2: storage
+  taxonomy_3: drawer_unit
+  taxonomy_4: 1_column
+  taxonomy_5: 1_row
+  taxonomy_6: rectangle_100_ml_tamper_evident_systempak_209_container
+  taxonomy_7: basic_style
+  type: default_basic
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+md5: 2847690f815f7cff0d7517230fbd7c59
+md5_10: 2847690f81
+md5_10_upper: 2847690F81
+md5_5: '28476'
+md5_5_upper: '28476'
+md5_6: '284769'
+md5_6_alpha: 1kktl
+md5_6_alpha_upper: 1KKTL
+md5_6_upper: '284769'
+name: Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml Tamper Evident
+  Systempak 209 Container Basic Style
+name_no_class: Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml Tamper
+  Evident Systempak 209 Container Basic Style
+name_no_size: Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml Tamper
+  Evident Systempak 209 Container Basic Style
+name_no_type: Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml Tamper
+  Evident Systempak 209 Container Basic Style
+name_proper: Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml Tamper
+  Evident Systempak 209 Container Basic Style
+name_space: organization storage drawer unit 1 column 1 row rectangle 100 ml tamper
+  evident systempak 209 container basic style
+name_upper: ORGANIZATION STORAGE DRAWER UNIT 1 COLUMN 1 ROW RECTANGLE 100 ML TAMPER
+  EVIDENT SYSTEMPAK 209 CONTAINER BASIC STYLE
+oobb_details:
+  column: 1
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  oobb_name: basic
+  row: 1
+  style: basic
+  taxonomy_1: organization
+  taxonomy_2: storage
+  taxonomy_3: drawer_unit
+  taxonomy_4: 1_column
+  taxonomy_5: 1_row
+  taxonomy_6: rectangle_100_ml_tamper_evident_systempak_209_container
+  taxonomy_7: basic_style
+oobb_name: basic
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      column: 1
+      container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+      container_short: rectangle_100_ml_tamper_evident_systempak_209
+      directory: parts\organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+      name: organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+      name_proper: Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml
+        Tamper Evident Systempak 209 Container Basic Style
+      name_space: organization storage drawer unit 1 column 1 row rectangle 100 ml
+        tamper evident systempak 209 container basic style
+      name_upper: ORGANIZATION STORAGE DRAWER UNIT 1 COLUMN 1 ROW RECTANGLE 100 ML
+        TAMPER EVIDENT SYSTEMPAK 209 CONTAINER BASIC STYLE
+      oobb_details:
+        column: 1
+        container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+        container_short: rectangle_100_ml_tamper_evident_systempak_209
+        oobb_name: basic
+        row: 1
+        style: basic
+        taxonomy_1: organization
+        taxonomy_2: storage
+        taxonomy_3: drawer_unit
+        taxonomy_4: 1_column
+        taxonomy_5: 1_row
+        taxonomy_6: rectangle_100_ml_tamper_evident_systempak_209_container
+        taxonomy_7: basic_style
+      row: 1
+      style: basic
+      taxonomy_1: organization
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: storage
+      taxonomy_3: drawer_unit
+      taxonomy_4: 1_column
+      taxonomy_5: 1_row
+      taxonomy_6: rectangle_100_ml_tamper_evident_systempak_209_container
+      taxonomy_7: basic_style
+      taxonomy_8: ''
+      taxonomy_9: ''
+      url_chat: ''
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\od\OneDrive\docs\organization_storage_drawer_unit\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style
+project_name: C:\od\OneDrive\docs\organization_storage_drawer_unit
+row: 1
+style: basic
+taxonomy_1: organization
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Organization
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: or
+taxonomy_1_length_3: org
+taxonomy_1_length_4: orga
+taxonomy_1_length_5: organ
+taxonomy_1_upper: ORGANIZATION
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OR
+taxonomy_1_upper_length_3: ORG
+taxonomy_1_upper_length_4: ORGA
+taxonomy_1_upper_length_5: ORGAN
+taxonomy_2: storage
+taxonomy_2_capital: Storage
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: st
+taxonomy_2_length_3: sto
+taxonomy_2_length_4: stor
+taxonomy_2_length_5: stora
+taxonomy_2_upper: STORAGE
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: ST
+taxonomy_2_upper_length_3: STO
+taxonomy_2_upper_length_4: STOR
+taxonomy_2_upper_length_5: STORA
+taxonomy_3: drawer_unit
+taxonomy_3_capital: Drawer Unit
+taxonomy_3_first_letter: d
+taxonomy_3_first_letter_upper: D
+taxonomy_3_length_1: d
+taxonomy_3_length_2: dr
+taxonomy_3_length_3: dra
+taxonomy_3_length_4: draw
+taxonomy_3_length_5: drawe
+taxonomy_3_upper: DRAWER_UNIT
+taxonomy_3_upper_length_1: D
+taxonomy_3_upper_length_2: DR
+taxonomy_3_upper_length_3: DRA
+taxonomy_3_upper_length_4: DRAW
+taxonomy_3_upper_length_5: DRAWE
+taxonomy_4: 1_column
+taxonomy_4_capital: 1 Column
+taxonomy_4_first_letter: '1'
+taxonomy_4_first_letter_upper: '1'
+taxonomy_4_length_1: '1'
+taxonomy_4_length_2: '1_'
+taxonomy_4_length_3: 1_c
+taxonomy_4_length_4: 1_co
+taxonomy_4_length_5: 1_col
+taxonomy_4_upper: 1_COLUMN
+taxonomy_4_upper_length_1: '1'
+taxonomy_4_upper_length_2: '1_'
+taxonomy_4_upper_length_3: 1_C
+taxonomy_4_upper_length_4: 1_CO
+taxonomy_4_upper_length_5: 1_COL
+taxonomy_5: 1_row
+taxonomy_5_capital: 1 Row
+taxonomy_5_first_letter: '1'
+taxonomy_5_first_letter_upper: '1'
+taxonomy_5_length_1: '1'
+taxonomy_5_length_2: '1_'
+taxonomy_5_length_3: 1_r
+taxonomy_5_length_4: 1_ro
+taxonomy_5_length_5: 1_row
+taxonomy_5_upper: 1_ROW
+taxonomy_5_upper_length_1: '1'
+taxonomy_5_upper_length_2: '1_'
+taxonomy_5_upper_length_3: 1_R
+taxonomy_5_upper_length_4: 1_RO
+taxonomy_5_upper_length_5: 1_ROW
+taxonomy_6: rectangle_100_ml_tamper_evident_systempak_209_container
+taxonomy_6_capital: Rectangle 100 Ml Tamper Evident Systempak 209 Container
+taxonomy_6_first_letter: r
+taxonomy_6_first_letter_upper: R
+taxonomy_6_length_1: r
+taxonomy_6_length_2: re
+taxonomy_6_length_3: rec
+taxonomy_6_length_4: rect
+taxonomy_6_length_5: recta
+taxonomy_6_upper: RECTANGLE_100_ML_TAMPER_EVIDENT_SYSTEMPAK_209_CONTAINER
+taxonomy_6_upper_length_1: R
+taxonomy_6_upper_length_2: RE
+taxonomy_6_upper_length_3: REC
+taxonomy_6_upper_length_4: RECT
+taxonomy_6_upper_length_5: RECTA
+taxonomy_7: basic_style
+taxonomy_7_capital: Basic Style
+taxonomy_7_first_letter: b
+taxonomy_7_first_letter_upper: B
+taxonomy_7_length_1: b
+taxonomy_7_length_2: ba
+taxonomy_7_length_3: bas
+taxonomy_7_length_4: basi
+taxonomy_7_length_5: basic
+taxonomy_7_upper: BASIC_STYLE
+taxonomy_7_upper_length_1: B
+taxonomy_7_upper_length_2: BA
+taxonomy_7_upper_length_3: BAS
+taxonomy_7_upper_length_4: BASI
+taxonomy_7_upper_length_5: BASIC
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: ''

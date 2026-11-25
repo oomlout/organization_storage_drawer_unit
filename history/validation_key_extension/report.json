@@ -1,0 +1,515 @@
+{
+  "meshes": [
+    {
+      "suite": "key_size_extension_suite",
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true
+      },
+      "volume_mm3": 17083.50453110608,
+      "bounds_mm": [
+        [
+          -68.26499938964844,
+          -23.868749618530273,
+          0.0
+        ],
+        [
+          65.5,
+          23.868749618530273,
+          10.0
+        ]
+      ]
+    },
+    {
+      "suite": "key_size_extension_suite",
+      "file": "assembled",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 17083.504152789348,
+      "bounds_mm": [
+        [
+          -56.26499938964844,
+          -2.0,
+          -8.237500190734863
+        ],
+        [
+          56.92499923706055,
+          12.0,
+          39.5
+        ]
+      ]
+    },
+    {
+      "suite": "key_size_extension_suite",
+      "file": "trial_20",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true
+      },
+      "volume_mm3": 5568.513899712987,
+      "bounds_mm": [
+        [
+          -20.264999389648438,
+          -23.35124969482422,
+          0.0
+        ],
+        [
+          17.5,
+          23.35124969482422,
+          10.0
+        ]
+      ]
+    },
+    {
+      "suite": "key_size_extension_suite",
+      "file": "plate_20",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true,
+        "no_unsupported_downward_faces": true
+      },
+      "volume_mm3": 950.5206751080826,
+      "bounds_mm": [
+        [
+          -7.5,
+          -7.0,
+          0.0
+        ],
+        [
+          7.5,
+          7.0,
+          7.5
+        ]
+      ]
+    },
+    {
+      "suite": "key_size_extension_suite",
+      "file": "rail_20",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true
+      },
+      "volume_mm3": 4329.167261538925,
+      "bounds_mm": [
+        [
+          -5.5,
+          -23.35124969482422,
+          0.0
+        ],
+        [
+          5.5,
+          23.35124969482422,
+          10.0
+        ]
+      ]
+    },
+    {
+      "suite": "key_size_extension_suite",
+      "file": "key_20",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true,
+        "no_unsupported_downward_faces": true
+      },
+      "volume_mm3": 288.82610865882344,
+      "bounds_mm": [
+        [
+          -8.265000343322754,
+          -2.9725000858306885,
+          0.0
+        ],
+        [
+          7.394999980926514,
+          2.9725000858306885,
+          5.800000190734863
+        ]
+      ]
+    },
+    {
+      "suite": "key_size_extension_suite",
+      "file": "assembled_20",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 5568.514028080116,
+      "bounds_mm": [
+        [
+          -8.265000343322754,
+          -2.0,
+          -7.202499866485596
+        ],
+        [
+          7.5,
+          12.0,
+          39.5
+        ]
+      ]
+    },
+    {
+      "suite": "key_size_extension_suite",
+      "file": "trial_21",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true
+      },
+      "volume_mm3": 5690.653754648403,
+      "bounds_mm": [
+        [
+          -21.1200008392334,
+          -23.610000610351562,
+          0.0
+        ],
+        [
+          17.5,
+          23.610000610351562,
+          10.0
+        ]
+      ]
+    },
+    {
+      "suite": "key_size_extension_suite",
+      "file": "plate_21",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true,
+        "no_unsupported_downward_faces": true
+      },
+      "volume_mm3": 891.7751287023312,
+      "bounds_mm": [
+        [
+          -7.5,
+          -7.0,
+          0.0
+        ],
+        [
+          7.5,
+          7.0,
+          7.5
+        ]
+      ]
+    },
+    {
+      "suite": "key_size_extension_suite",
+      "file": "rail_21",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true
+      },
+      "volume_mm3": 4410.824269746012,
+      "bounds_mm": [
+        [
+          -5.5,
+          -23.610000610351562,
+          0.0
+        ],
+        [
+          5.5,
+          23.610000610351562,
+          10.0
+        ]
+      ]
+    },
+    {
+      "suite": "key_size_extension_suite",
+      "file": "key_21",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true,
+        "no_unsupported_downward_faces": true
+      },
+      "volume_mm3": 388.0541710003118,
+      "bounds_mm": [
+        [
+          -9.119999885559082,
+          -3.2799999713897705,
+          0.0
+        ],
+        [
+          8.15999984741211,
+          3.2799999713897705,
+          6.400000095367432
+        ]
+      ]
+    },
+    {
+      "suite": "key_size_extension_suite",
+      "file": "assembled_21",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 5690.653458928835,
+      "bounds_mm": [
+        [
+          -9.119999885559082,
+          -2.0,
+          -7.71999979019165
+        ],
+        [
+          8.15999984741211,
+          12.0,
+          39.5
+        ]
+      ]
+    },
+    {
+      "suite": "key_size_extension_suite",
+      "file": "trial_22",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true
+      },
+      "volume_mm3": 5824.336857506222,
+      "bounds_mm": [
+        [
+          -21.975000381469727,
+          -23.868749618530273,
+          0.0
+        ],
+        [
+          17.5,
+          23.868749618530273,
+          10.0
+        ]
+      ]
+    },
+    {
+      "suite": "key_size_extension_suite",
+      "file": "plate_22",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true,
+        "no_unsupported_downward_faces": true
+      },
+      "volume_mm3": 832.4633147902756,
+      "bounds_mm": [
+        [
+          -7.5,
+          -7.0,
+          0.0
+        ],
+        [
+          7.5,
+          7.0,
+          7.5
+        ]
+      ]
+    },
+    {
+      "suite": "key_size_extension_suite",
+      "file": "rail_22",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true
+      },
+      "volume_mm3": 4484.127308172562,
+      "bounds_mm": [
+        [
+          -5.5,
+          -23.868749618530273,
+          0.0
+        ],
+        [
+          5.5,
+          23.868749618530273,
+          10.0
+        ]
+      ]
+    },
+    {
+      "suite": "key_size_extension_suite",
+      "file": "key_22",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true,
+        "no_unsupported_downward_faces": true
+      },
+      "volume_mm3": 507.74610093588655,
+      "bounds_mm": [
+        [
+          -9.975000381469727,
+          -3.5875000953674316,
+          0.0
+        ],
+        [
+          8.925000190734863,
+          3.5875000953674316,
+          7.0
+        ]
+      ]
+    },
+    {
+      "suite": "key_size_extension_suite",
+      "file": "assembled_22",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 5824.336735779056,
+      "bounds_mm": [
+        [
+          -9.975000381469727,
+          -2.0,
+          -8.237500190734863
+        ],
+        [
+          8.925000190734863,
+          12.0,
+          39.5
+        ]
+      ]
+    }
+  ],
+  "trials": [
+    {
+      "number": 20,
+      "checks": {
+        "only_expected_taper_interference": true,
+        "key_seats_clear": true,
+        "key_retained_sideways": true,
+        "key_blocks_rail_withdrawal": true,
+        "key_bears_against_plate": true,
+        "prescribed_flex_key_can_pass": true,
+        "flex_mesh_valid": true,
+        "trial_exact_quantity": true,
+        "assembly_exact_quantity": true,
+        "number_recessed_0d6_mm": true,
+        "number_not_raised": true,
+        "slot_walls_at_least_1_mm": true,
+        "plate_label_is_recessed": true
+      },
+      "intentional_overlap_mm3": 7.996048568977874e-06,
+      "expected_overlap_mm3": 0,
+      "max_prescribed_key_insertion_collision_mm3": 0.0
+    },
+    {
+      "number": 21,
+      "checks": {
+        "only_expected_taper_interference": true,
+        "key_seats_clear": true,
+        "key_retained_sideways": true,
+        "key_blocks_rail_withdrawal": true,
+        "key_bears_against_plate": true,
+        "prescribed_flex_key_can_pass": true,
+        "flex_mesh_valid": true,
+        "trial_exact_quantity": true,
+        "assembly_exact_quantity": true,
+        "number_recessed_0d6_mm": true,
+        "number_not_raised": true,
+        "slot_walls_at_least_1_mm": true,
+        "plate_label_is_recessed": true
+      },
+      "intentional_overlap_mm3": 5.489603663228306e-06,
+      "expected_overlap_mm3": 0,
+      "max_prescribed_key_insertion_collision_mm3": 0.0
+    },
+    {
+      "number": 22,
+      "checks": {
+        "only_expected_taper_interference": true,
+        "key_seats_clear": true,
+        "key_retained_sideways": true,
+        "key_blocks_rail_withdrawal": true,
+        "key_bears_against_plate": true,
+        "prescribed_flex_key_can_pass": true,
+        "flex_mesh_valid": true,
+        "trial_exact_quantity": true,
+        "assembly_exact_quantity": true,
+        "number_recessed_0d6_mm": true,
+        "number_not_raised": true,
+        "slot_walls_at_least_1_mm": true,
+        "plate_label_is_recessed": true
+      },
+      "intentional_overlap_mm3": 3.953194981153193e-06,
+      "expected_overlap_mm3": 0,
+      "max_prescribed_key_insertion_collision_mm3": 0.0
+    }
+  ],
+  "suites": [
+    {
+      "suite": "key_size_extension_suite",
+      "checks": {
+        "print_layout_exact_quantity": true,
+        "assembly_exact_quantity": true
+      },
+      "print_bounds_mm": [
+        [
+          -68.26499938964844,
+          -23.868749618530273,
+          0.0
+        ],
+        [
+          65.5,
+          23.868749618530273,
+          10.0
+        ]
+      ]
+    }
+  ],
+  "limitations": [
+    "Interference trials deliberately overlap at the seated taper only.",
+    "Prescribed key flex is a geometric passage check, not FEA or an insertion-force/strength rating.",
+    "PETG print fit, layer adhesion, creep and retention require physical tests."
+  ],
+  "all_checks_passed": true
+}

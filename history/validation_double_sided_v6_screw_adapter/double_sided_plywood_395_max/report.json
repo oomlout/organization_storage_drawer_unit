@@ -1,0 +1,307 @@
+{
+  "meshes": [
+    {
+      "view": "3dpr",
+      "bounds_mm": [
+        [
+          -389.0,
+          -562.49853515625,
+          0.0
+        ],
+        [
+          389.0,
+          396.7952575683594,
+          18.0
+        ]
+      ],
+      "volume_mm3": 1183327.9030541552,
+      "passed": true
+    },
+    {
+      "view": "front",
+      "bounds_mm": [
+        [
+          -188.1999969482422,
+          -188.395263671875,
+          0.0
+        ],
+        [
+          188.1999969482422,
+          188.395263671875,
+          18.0
+        ]
+      ],
+      "volume_mm3": 223338.5864564896,
+      "passed": true
+    },
+    {
+      "view": "back",
+      "bounds_mm": [
+        [
+          -188.1999969482422,
+          -188.395263671875,
+          0.0
+        ],
+        [
+          188.1999969482422,
+          188.395263671875,
+          18.0
+        ]
+      ],
+      "volume_mm3": 223338.5864564896,
+      "passed": true
+    },
+    {
+      "view": "snap_rail",
+      "bounds_mm": [
+        [
+          -9.5,
+          -112.0,
+          0.0
+        ],
+        [
+          9.5,
+          112.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 12198.848057138637,
+      "passed": true
+    },
+    {
+      "view": "assembled",
+      "bounds_mm": [
+        [
+          -188.1999969482422,
+          -188.395263671875,
+          -2.4000000953674316
+        ],
+        [
+          188.1999969482422,
+          188.395263671875,
+          226.39999389648438
+        ]
+      ],
+      "volume_mm3": 1183328.025725317,
+      "passed": true
+    },
+    {
+      "view": "joining_plates",
+      "bounds_mm": [
+        [
+          -22.5,
+          -9.998026847839355,
+          0.0
+        ],
+        [
+          22.5,
+          9.998026847839355,
+          6.0
+        ]
+      ],
+      "volume_mm3": 3068.965585711277,
+      "passed": true
+    },
+    {
+      "view": "screw_rail",
+      "bounds_mm": [
+        [
+          -9.5,
+          -106.0,
+          0.0
+        ],
+        [
+          9.5,
+          106.0,
+          13.0
+        ]
+      ],
+      "volume_mm3": 12822.981986638357,
+      "passed": true
+    },
+    {
+      "view": "screw_adapter",
+      "bounds_mm": [
+        [
+          -5.5,
+          -4.9985198974609375,
+          0.0
+        ],
+        [
+          5.5,
+          4.9985198974609375,
+          7.900000095367432
+        ]
+      ],
+      "volume_mm3": 277.9293586362494,
+      "passed": true
+    },
+    {
+      "view": "screw_adapters",
+      "bounds_mm": [
+        [
+          -28.0,
+          -12.498519897460938,
+          0.0
+        ],
+        [
+          28.0,
+          12.498519897460938,
+          7.900000095367432
+        ]
+      ],
+      "volume_mm3": 2223.434864964889,
+      "passed": true
+    },
+    {
+      "view": "screw_upgrade",
+      "bounds_mm": [
+        [
+          -45.5,
+          -106.0,
+          0.0
+        ],
+        [
+          112.0,
+          106.0,
+          13.0
+        ]
+      ],
+      "volume_mm3": 53515.36289079808,
+      "passed": true
+    },
+    {
+      "view": "rails_plate_01",
+      "bounds_mm": [
+        [
+          -189.5,
+          -112.0,
+          0.0
+        ],
+        [
+          189.5,
+          112.0,
+          13.0
+        ]
+      ],
+      "volume_mm3": 196429.8275346421,
+      "passed": true
+    },
+    {
+      "view": "rails_plate_02",
+      "bounds_mm": [
+        [
+          -189.5,
+          -112.0,
+          0.0
+        ],
+        [
+          189.5,
+          112.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 195181.55812565587,
+      "passed": true
+    },
+    {
+      "view": "rails_plate_03",
+      "bounds_mm": [
+        [
+          -189.5,
+          -112.0,
+          0.0
+        ],
+        [
+          189.5,
+          112.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 195181.55812565587,
+      "passed": true
+    },
+    {
+      "view": "rails_plate_04",
+      "bounds_mm": [
+        [
+          -141.5,
+          -112.0,
+          0.0
+        ],
+        [
+          141.5,
+          112.0,
+          13.0
+        ]
+      ],
+      "volume_mm3": 147634.4484510014,
+      "passed": true
+    }
+  ],
+  "prior_v5_records_unchanged": 15,
+  "limitations": [
+    "Physical PETG fit, pot stop contact, load capacity, creep and slicing remain unverified."
+  ],
+  "screw_connection": {
+    "screw_rails": 4,
+    "adapters": 8,
+    "countersunk_M3_x_20": 8,
+    "M3_nuts": 8,
+    "unchanged_receiver": true,
+    "maximum_adapter_insertion_collision_mm3": 1.3945319413694668e-06,
+    "maximum_nut_side_loading_collision_mm3": 0.0,
+    "hardware_collision_mm3": {
+      "adapter": 0.0,
+      "receiver": 0.0,
+      "beam": 0.0
+    },
+    "nominal_screw_beyond_nut_pocket_mm": 1.5999999999999996,
+    "broad_flange_and_beam_seating_stops": true,
+    "closed_connected_parts": true,
+    "two_guide_cheeks_mm": 1.5,
+    "external_adapter_projection_per_face_mm": 2.4,
+    "physical_fit": "Not yet physically tested"
+  },
+  "all_checks_passed": true,
+  "drawer_count": 96,
+  "bom": {
+    "screw_rail": 4,
+    "snap_rail": 56,
+    "front": 1,
+    "back": 1,
+    "screw_adapter": 8,
+    "M3_countersunk_screw_20_mm": 8,
+    "M3_nut": 8
+  },
+  "assembled_envelope_mm": [
+    376.4,
+    376.8,
+    228.8
+  ],
+  "assembly_interference_mm3": 0.0012030689977109432,
+  "maximum_prescribed_insertion_interference_mm3": 0.0,
+  "floor_support_tabs_per_face": 88,
+  "face_plate_overall_depth_mm": 18.0,
+  "support_centre_gap_mm": 26.0,
+  "continuous_receiver_web_mm": 1.0,
+  "lower_relief_eliminated": true,
+  "matching_cutout_radius_mm": 1.0,
+  "selected_rail_fit": {
+    "sample_number": 37,
+    "hook_side_clearance": 0.05,
+    "axial_clearance": 0.1,
+    "hook_projection": 1.4,
+    "shoulder_depth": 4.4,
+    "insertion_deflection": 1.15
+  },
+  "both_rail_ends_match_numbered_sample_37": true,
+  "receiver_and_plate_scad_stl_unchanged": true,
+  "rail_body_and_middle_stop_unchanged": true,
+  "numbered_clearance_suite_unchanged": true,
+  "front_and_back_scad_identical": true,
+  "face_cad_volume_reduction_percent": 12.991673482556953,
+  "individual_prints_fit_395_mm_area_with_2_mm_margin": true,
+  "rail_and_joiners_byte_identical_to_250": true,
+  "screw_parts_identical_to_250": true
+}

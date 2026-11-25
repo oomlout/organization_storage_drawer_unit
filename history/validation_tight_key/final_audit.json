@@ -1,0 +1,8 @@
+{
+  "current_measurements": 61,
+  "previous_v5_records_unchanged": 12,
+  "previous_scad_unchanged": 198,
+  "geometry_tests_passed": 58,
+  "comparison_tests_passed": 8,
+  "mesh_checks_passed": true
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style",
+    "version_2_volume_mm3": 87183.03942526388,
+    "version_3_volume_mm3": 79855.59306354076,
+    "material_reduction_percent": 8.404669543557779,
+    "solid_PLA_saved_g": 9.086033488536673
+  },
+  {
+    "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_joint_fit",
+    "version_2_volume_mm3": 37894.62364773248,
+    "version_3_volume_mm3": 37894.62364773248,
+    "material_reduction_percent": 0.0,
+    "solid_PLA_saved_g": 0.0
+  },
+  {
+    "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_3_style",
+    "version_2_volume_mm3": 93524.77095988866,
+    "version_3_volume_mm3": 85107.67782271277,
+    "material_reduction_percent": 8.999854317511085,
+    "solid_PLA_saved_g": 10.437195490098107
+  },
+  {
+    "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_3_style_a1_mini_max",
+    "version_2_volume_mm3": 93524.77095988866,
+    "version_3_volume_mm3": 85107.67782271277,
+    "material_reduction_percent": 8.999854317511085,
+    "solid_PLA_saved_g": 10.437195490098107
+  },
+  {
+    "id": "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_a1_mini_max",
+    "version_2_volume_mm3": 225148.71275137333,
+    "version_3_volume_mm3": 141877.70071108858,
+    "material_reduction_percent": 36.984893683242625,
+    "solid_PLA_saved_g": 103.2560549299531
+  },
+  {
+    "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style",
+    "version_2_volume_mm3": 218098.91061385814,
+    "version_3_volume_mm3": 166413.5918495315,
+    "material_reduction_percent": 23.698109549861506,
+    "solid_PLA_saved_g": 64.08979526776503
+  },
+  {
+    "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_bank_layout",
+    "version_2_volume_mm3": 70318.98620076074,
+    "version_3_volume_mm3": 70318.98620076074,
+    "material_reduction_percent": 0.0,
+    "solid_PLA_saved_g": 0.0
+  },
+  {
+    "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_solid_reference",
+    "version_2_volume_mm3": 410338.99232065614,
+    "version_3_volume_mm3": 357078.5153375386,
+    "material_reduction_percent": 12.979628546121091,
+    "solid_PLA_saved_g": 66.04299145906573
+  },
+  {
+    "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_3_style_p1p_max",
+    "version_2_volume_mm3": 225798.74442411494,
+    "version_3_volume_mm3": 180280.92427841885,
+    "material_reduction_percent": 20.158579828150213,
+    "solid_PLA_saved_g": 56.442096980663145
+  },
+  {
+    "id": "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_p1p_max",
+    "version_2_volume_mm3": 581771.0761719905,
+    "version_3_volume_mm3": 332778.66960346856,
+    "material_reduction_percent": 42.79903500993433,
+    "solid_PLA_saved_g": 308.75058414496715
+  },
+  {
+    "id": "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style",
+    "version_2_volume_mm3": 1650215.073116608,
+    "version_3_volume_mm3": 882891.126920235,
+    "material_reduction_percent": 46.49842064205604,
+    "solid_PLA_saved_g": 951.4816932835024
+  },
+  {
+    "id": "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_layout",
+    "version_2_volume_mm3": 262636.92840759456,
+    "version_3_volume_mm3": 262636.92840759456,
+    "material_reduction_percent": 0.0,
+    "solid_PLA_saved_g": 0.0
+  }
+]

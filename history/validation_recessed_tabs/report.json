@@ -1,0 +1,130 @@
+{
+  "meshes": [
+    {
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "exact_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_a1_mini": true,
+        "no_unsupported_downward_faces": true
+      },
+      "bounds_mm": [
+        [
+          -19.5,
+          -19.75,
+          0.0
+        ],
+        [
+          17.5,
+          19.75,
+          10.0
+        ]
+      ],
+      "volume_mm3": 4523.6960759932035
+    },
+    {
+      "file": "plate",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "exact_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_a1_mini": true,
+        "no_unsupported_downward_faces": true
+      },
+      "bounds_mm": [
+        [
+          -7.5,
+          -7.0,
+          0.0
+        ],
+        [
+          7.5,
+          7.0,
+          7.5
+        ]
+      ],
+      "volume_mm3": 956.1023413545246
+    },
+    {
+      "file": "rail",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "exact_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_a1_mini": true,
+        "no_unsupported_downward_faces": true
+      },
+      "bounds_mm": [
+        [
+          -5.5,
+          -19.75,
+          0.0
+        ],
+        [
+          5.5,
+          19.75,
+          10.0
+        ]
+      ],
+      "volume_mm3": 3567.5936515630788
+    },
+    {
+      "file": "assembled",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true
+      },
+      "bounds_mm": [
+        [
+          -7.5,
+          -2.0,
+          0.0
+        ],
+        [
+          7.5,
+          12.0,
+          39.5
+        ]
+      ],
+      "volume_mm3": 4523.695997751551
+    }
+  ],
+  "connection_checks": {
+    "seated_clear": true,
+    "no_middle_piece": true,
+    "two_tabs_at_each_section": true,
+    "hook_tips_flush_with_front": true,
+    "full_width_beam_at_entry": true,
+    "short_root_relief_closes_inside_beam": true,
+    "retaining_edges_inside_plate": true,
+    "relaxed_hooks_block_withdrawal": true,
+    "beam_shoulder_blocks_over_insertion": true,
+    "sideways_motion_blocked": true,
+    "recess_clear_-1": true,
+    "retaining_ledge_present_-1": true,
+    "beam_bearing_face_-1": true,
+    "recess_clear_1": true,
+    "retaining_ledge_present_1": true,
+    "beam_bearing_face_1": true,
+    "prescribed_flex_passes_rectangle": true,
+    "flex_mesh_valid": true,
+    "kit_exact_quantity": true,
+    "assembly_exact_quantity": true,
+    "rail_number_recessed_0d6_mm": true,
+    "plate_number_recessed_on_print_top": true
+  },
+  "max_prescribed_insertion_overlap_mm3": 0.0,
+  "nominal_deflection_per_tab_mm": 0.95,
+  "limitations": [
+    "Geometry and prescribed flex checks only; no physical printing, FEA, force rating or PETG durability test."
+  ],
+  "all_checks_passed": true
+}

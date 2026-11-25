@@ -1,0 +1,576 @@
+{
+  "permitted_change": "Internal lower rails and their pegs removed; retained interfaces and outer face unchanged",
+  "halves": [
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style",
+      "half": "front",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 3.146553416283462e-08,
+          "matches": true
+        },
+        {
+          "z_mm": 44.75,
+          "difference_mm2": 1.5379357066322744e-07,
+          "matches": true
+        },
+        {
+          "z_mm": 51.25,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 54.25,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 56.25,
+          "difference_mm2": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style",
+      "half": "back",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 5.8783176905476006e-06,
+          "matches": true
+        },
+        {
+          "z_mm": 44.75,
+          "difference_mm2": 1.018011418801459e-05,
+          "matches": true
+        },
+        {
+          "z_mm": 51.25,
+          "difference_mm2": 4.202913956804794e-17,
+          "matches": true
+        },
+        {
+          "z_mm": 54.25,
+          "difference_mm2": 1.2775199726417614e-16,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_joint_fit",
+      "half": "front",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 1.5,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 8.0,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 11.0,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 13.0,
+          "difference_mm2": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_joint_fit",
+      "half": "back",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 1.5,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 8.0,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 11.0,
+          "difference_mm2": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_3_style",
+      "half": "front",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 3.0826071162903647e-08,
+          "matches": true
+        },
+        {
+          "z_mm": 44.25,
+          "difference_mm2": 1.5370066813653337e-07,
+          "matches": true
+        },
+        {
+          "z_mm": 50.75,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 53.75,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 55.75,
+          "difference_mm2": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_3_style",
+      "half": "back",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 5.641496829274138e-06,
+          "matches": true
+        },
+        {
+          "z_mm": 44.25,
+          "difference_mm2": 9.031343868909854e-06,
+          "matches": true
+        },
+        {
+          "z_mm": 50.75,
+          "difference_mm2": 4.612556030755919e-16,
+          "matches": true
+        },
+        {
+          "z_mm": 53.75,
+          "difference_mm2": 5.865988503960136e-16,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_3_style_a1_mini_max",
+      "half": "front",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 3.0826071162903647e-08,
+          "matches": true
+        },
+        {
+          "z_mm": 44.25,
+          "difference_mm2": 1.5370066813653337e-07,
+          "matches": true
+        },
+        {
+          "z_mm": 50.75,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 53.75,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 55.75,
+          "difference_mm2": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_3_style_a1_mini_max",
+      "half": "back",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 5.641496829274138e-06,
+          "matches": true
+        },
+        {
+          "z_mm": 44.25,
+          "difference_mm2": 9.031343868909854e-06,
+          "matches": true
+        },
+        {
+          "z_mm": 50.75,
+          "difference_mm2": 4.612556030755919e-16,
+          "matches": true
+        },
+        {
+          "z_mm": 53.75,
+          "difference_mm2": 5.865988503960136e-16,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_a1_mini_max",
+      "half": "front",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 1.8516732145085423e-07,
+          "matches": true
+        },
+        {
+          "z_mm": 44.75,
+          "difference_mm2": 1.0849591880168165e-06,
+          "matches": true
+        },
+        {
+          "z_mm": 51.25,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 54.25,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 56.25,
+          "difference_mm2": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_a1_mini_max",
+      "half": "back",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 2.3537260775855023e-05,
+          "matches": true
+        },
+        {
+          "z_mm": 44.75,
+          "difference_mm2": 4.306664620950597e-05,
+          "matches": true
+        },
+        {
+          "z_mm": 51.25,
+          "difference_mm2": 6.78637025273831e-16,
+          "matches": true
+        },
+        {
+          "z_mm": 54.25,
+          "difference_mm2": 5.207835433614072e-16,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style",
+      "half": "front",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 1.332536727949486e-07,
+          "matches": true
+        },
+        {
+          "z_mm": 44.75,
+          "difference_mm2": 2.26941974256554e-06,
+          "matches": true
+        },
+        {
+          "z_mm": 51.25,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 54.25,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 56.25,
+          "difference_mm2": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style",
+      "half": "back",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 2.1420544700699867e-05,
+          "matches": true
+        },
+        {
+          "z_mm": 44.75,
+          "difference_mm2": 4.366592040235147e-05,
+          "matches": true
+        },
+        {
+          "z_mm": 51.25,
+          "difference_mm2": 4.903507563342198e-16,
+          "matches": true
+        },
+        {
+          "z_mm": 54.25,
+          "difference_mm2": 1.9150502270792798e-15,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_solid_reference",
+      "half": "front",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 1.772050256920095e-10,
+          "matches": true
+        },
+        {
+          "z_mm": 44.75,
+          "difference_mm2": 2.2275514825371447e-13,
+          "matches": true
+        },
+        {
+          "z_mm": 51.25,
+          "difference_mm2": 2.2275514825371447e-13,
+          "matches": true
+        },
+        {
+          "z_mm": 54.25,
+          "difference_mm2": 2.2275514825371447e-13,
+          "matches": true
+        },
+        {
+          "z_mm": 56.25,
+          "difference_mm2": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_solid_reference",
+      "half": "back",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 2.7687571736577503e-10,
+          "matches": true
+        },
+        {
+          "z_mm": 44.75,
+          "difference_mm2": 2.2275514825371447e-13,
+          "matches": true
+        },
+        {
+          "z_mm": 51.25,
+          "difference_mm2": 1.9832255288707636e-06,
+          "matches": true
+        },
+        {
+          "z_mm": 54.25,
+          "difference_mm2": 2.2275514825371447e-13,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_3_style_p1p_max",
+      "half": "front",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 3.4429328156064477e-07,
+          "matches": true
+        },
+        {
+          "z_mm": 44.25,
+          "difference_mm2": 2.3146426255865523e-06,
+          "matches": true
+        },
+        {
+          "z_mm": 50.75,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 53.75,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 55.75,
+          "difference_mm2": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_3_style_p1p_max",
+      "half": "back",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 3.0460960367938667e-05,
+          "matches": true
+        },
+        {
+          "z_mm": 44.25,
+          "difference_mm2": 4.954970805385995e-05,
+          "matches": true
+        },
+        {
+          "z_mm": 50.75,
+          "difference_mm2": 2.236321617203786e-15,
+          "matches": true
+        },
+        {
+          "z_mm": 53.75,
+          "difference_mm2": 1.0570499050821466e-15,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_p1p_max",
+      "half": "front",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 6.49322722447988e-07,
+          "matches": true
+        },
+        {
+          "z_mm": 44.75,
+          "difference_mm2": 1.0453042358808467e-05,
+          "matches": true
+        },
+        {
+          "z_mm": 51.25,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 54.25,
+          "difference_mm2": 0.0,
+          "matches": true
+        },
+        {
+          "z_mm": 56.25,
+          "difference_mm2": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_p1p_max",
+      "half": "back",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 8.122805765304875e-05,
+          "matches": true
+        },
+        {
+          "z_mm": 44.75,
+          "difference_mm2": 0.00016390357318435422,
+          "matches": true
+        },
+        {
+          "z_mm": 51.25,
+          "difference_mm2": 1.4182234444678681e-15,
+          "matches": true
+        },
+        {
+          "z_mm": 54.25,
+          "difference_mm2": 2.2214729713367284e-15,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style",
+      "half": "front",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 6.051969223453583e-06,
+          "matches": true
+        },
+        {
+          "z_mm": 44.75,
+          "difference_mm2": 4.623671023147796e-05,
+          "matches": true
+        },
+        {
+          "z_mm": 51.25,
+          "difference_mm2": 6.87958677452285e-16,
+          "matches": true
+        },
+        {
+          "z_mm": 54.25,
+          "difference_mm2": 6.621997702515713e-18,
+          "matches": true
+        },
+        {
+          "z_mm": 56.25,
+          "difference_mm2": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style",
+      "half": "back",
+      "sections": [
+        {
+          "z_mm": 2,
+          "difference_mm2": 0.0005256725882880253,
+          "matches": true
+        },
+        {
+          "z_mm": 44.75,
+          "difference_mm2": 0.000788757298278882,
+          "matches": true
+        },
+        {
+          "z_mm": 51.25,
+          "difference_mm2": 7.909364118840673e-15,
+          "matches": true
+        },
+        {
+          "z_mm": 54.25,
+          "difference_mm2": 0.0,
+          "matches": true
+        }
+      ]
+    }
+  ],
+  "all_checks_passed": true
+}

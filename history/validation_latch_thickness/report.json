@@ -1,0 +1,327 @@
+{
+  "meshes": [
+    {
+      "file": "3dpr",
+      "bounds": [
+        [
+          -43.5,
+          -46.75,
+          0.0
+        ],
+        [
+          41.5,
+          46.75,
+          10.0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "assembled",
+      "bounds": [
+        [
+          -31.5,
+          -29.0,
+          0.0
+        ],
+        [
+          31.5,
+          39.0,
+          39.5
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "trial_23",
+      "bounds": [
+        [
+          -19.5,
+          -19.75,
+          0.0
+        ],
+        [
+          17.5,
+          19.75,
+          10.0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "plate_23",
+      "bounds": [
+        [
+          -7.5,
+          -7.0,
+          0.0
+        ],
+        [
+          7.5,
+          7.0,
+          7.5
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "rail_23",
+      "bounds": [
+        [
+          -5.5,
+          -19.75,
+          0.0
+        ],
+        [
+          5.5,
+          19.75,
+          10.0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "assembled_23",
+      "bounds": [
+        [
+          -7.5,
+          -2.0,
+          0.0
+        ],
+        [
+          7.5,
+          12.0,
+          39.5
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "trial_24",
+      "bounds": [
+        [
+          -19.5,
+          -19.75,
+          0.0
+        ],
+        [
+          17.5,
+          19.75,
+          10.0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "plate_24",
+      "bounds": [
+        [
+          -7.5,
+          -7.0,
+          0.0
+        ],
+        [
+          7.5,
+          7.0,
+          7.5
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "rail_24",
+      "bounds": [
+        [
+          -5.5,
+          -19.75,
+          0.0
+        ],
+        [
+          5.5,
+          19.75,
+          10.0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "assembled_24",
+      "bounds": [
+        [
+          -7.5,
+          -2.0,
+          0.0
+        ],
+        [
+          7.5,
+          12.0,
+          39.5
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "trial_25",
+      "bounds": [
+        [
+          -19.5,
+          -19.75,
+          0.0
+        ],
+        [
+          17.5,
+          19.75,
+          10.0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "plate_25",
+      "bounds": [
+        [
+          -7.5,
+          -7.0,
+          0.0
+        ],
+        [
+          7.5,
+          7.0,
+          7.5
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "rail_25",
+      "bounds": [
+        [
+          -5.5,
+          -19.75,
+          0.0
+        ],
+        [
+          5.5,
+          19.75,
+          10.0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "assembled_25",
+      "bounds": [
+        [
+          -7.5,
+          -2.0,
+          0.0
+        ],
+        [
+          7.5,
+          12.0,
+          39.5
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "trial_26",
+      "bounds": [
+        [
+          -19.5,
+          -19.75,
+          0.0
+        ],
+        [
+          17.5,
+          19.75,
+          10.0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "plate_26",
+      "bounds": [
+        [
+          -7.5,
+          -7.0,
+          0.0
+        ],
+        [
+          7.5,
+          7.0,
+          7.5
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "rail_26",
+      "bounds": [
+        [
+          -5.5,
+          -19.75,
+          0.0
+        ],
+        [
+          5.5,
+          19.75,
+          10.0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "assembled_26",
+      "bounds": [
+        [
+          -7.5,
+          -2.0,
+          0.0
+        ],
+        [
+          7.5,
+          12.0,
+          39.5
+        ]
+      ],
+      "passed": true
+    }
+  ],
+  "trials": [
+    {
+      "number": 23,
+      "arm_thickness_mm": 1.0,
+      "centre_gap_mm": 4.8,
+      "max_prescribed_insertion_overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "number": 24,
+      "arm_thickness_mm": 1.2,
+      "centre_gap_mm": 4.4,
+      "max_prescribed_insertion_overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "number": 25,
+      "arm_thickness_mm": 1.4,
+      "centre_gap_mm": 4.0,
+      "max_prescribed_insertion_overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "number": 26,
+      "arm_thickness_mm": 1.6,
+      "centre_gap_mm": 3.5999999999999996,
+      "max_prescribed_insertion_overlap_mm3": 0.0,
+      "passed": true
+    }
+  ],
+  "previous_records_unchanged": 11,
+  "limitations": [
+    "Prescribed deflection is a geometric check, not an insertion-force or stress simulation.",
+    "Original 19 has positive user feedback; the thicker samples still require physical trials."
+  ]
+}

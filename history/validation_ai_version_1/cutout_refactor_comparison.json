@@ -1,0 +1,127 @@
+{
+  "all_checks_passed": true,
+  "all_measurements_unchanged": true,
+  "parts": [
+    {
+      "id": "organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style",
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "envelope_delta_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unchanged_measurements": true
+    },
+    {
+      "id": "organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_0d75",
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "envelope_delta_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unchanged_measurements": true
+    },
+    {
+      "id": "organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_1d5",
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "envelope_delta_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unchanged_measurements": true
+    },
+    {
+      "id": "organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_2d25",
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "envelope_delta_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unchanged_measurements": true
+    },
+    {
+      "id": "organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_a1_mini_max",
+      "volume_delta_mm3": -4.1271443478763103e-05,
+      "area_delta_mm2": -6.818768451921642e-05,
+      "envelope_delta_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unchanged_measurements": true
+    },
+    {
+      "id": "organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style",
+      "volume_delta_mm3": 1.4551915228366852e-11,
+      "area_delta_mm2": 0.0,
+      "envelope_delta_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unchanged_measurements": true
+    },
+    {
+      "id": "organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_bank_layout",
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "envelope_delta_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unchanged_measurements": true
+    },
+    {
+      "id": "organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_solid_reference",
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "envelope_delta_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unchanged_measurements": true
+    },
+    {
+      "id": "organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_p1p_max",
+      "volume_delta_mm3": -0.0003210922295693308,
+      "area_delta_mm2": -0.0004055931931361556,
+      "envelope_delta_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unchanged_measurements": true
+    },
+    {
+      "id": "organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style",
+      "volume_delta_mm3": -0.001061590388417244,
+      "area_delta_mm2": -0.0008981896098703146,
+      "envelope_delta_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unchanged_measurements": true
+    },
+    {
+      "id": "organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_layout",
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "envelope_delta_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unchanged_measurements": true
+    }
+  ]
+}

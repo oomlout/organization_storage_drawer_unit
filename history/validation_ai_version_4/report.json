@@ -1,0 +1,4773 @@
+{
+  "meshes": [
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true
+      },
+      "volume_mm3": 84853.44492026484,
+      "bounds_mm": [
+        [
+          -112.5,
+          -36.75,
+          0.0
+        ],
+        [
+          112.5,
+          140.25,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "print_layout",
+        "expected_bodies": 8,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          48.5,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "face_plate",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 25682.20888037958,
+      "bounds_mm": [
+        [
+          -54.25,
+          -36.75,
+          0.0
+        ],
+        [
+          54.25,
+          36.75,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "face_plate",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          48.5,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "front",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 25682.20888037958,
+      "bounds_mm": [
+        [
+          -54.25,
+          -36.75,
+          0.0
+        ],
+        [
+          54.25,
+          36.75,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "front",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          48.5,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "back",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 22860.637483290036,
+      "bounds_mm": [
+        [
+          -54.25,
+          -36.75,
+          0.0
+        ],
+        [
+          54.25,
+          36.75,
+          10.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "back",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          48.5,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 5580.2544649722995,
+      "bounds_mm": [
+        [
+          -5.5,
+          -47.75,
+          0.0
+        ],
+        [
+          5.5,
+          47.75,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          48.5,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "bottom_rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 6994.79100214271,
+      "bounds_mm": [
+        [
+          -5.5,
+          -47.75,
+          0.0
+        ],
+        [
+          5.5,
+          47.75,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "bottom_rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          48.5,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "assembled",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 84853.44485115349,
+      "bounds_mm": [
+        [
+          -54.25,
+          -36.75,
+          0.0
+        ],
+        [
+          54.25,
+          36.75,
+          110.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "assembled",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          48.5,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": false,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "rails_plate_01",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true
+      },
+      "volume_mm3": 36310.599801479,
+      "bounds_mm": [
+        [
+          -45.5,
+          -47.75,
+          0.0
+        ],
+        [
+          45.5,
+          47.75,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rails_plate_01",
+        "expected_bodies": 6,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          48.5,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_face_fit",
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 25682.20888037958,
+      "bounds_mm": [
+        [
+          -54.25,
+          -36.75,
+          0.0
+        ],
+        [
+          54.25,
+          36.75,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "face_plate",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 0,
+          "rail": 0,
+          "bottom_rail": 0,
+          "M3_countersunk_screw_16_mm": 0,
+          "M3_nut": 0
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          48.5,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "face_fit"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_face_fit",
+      "file": "face_plate",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 25682.20888037958,
+      "bounds_mm": [
+        [
+          -54.25,
+          -36.75,
+          0.0
+        ],
+        [
+          54.25,
+          36.75,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "face_plate",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 0,
+          "rail": 0,
+          "bottom_rail": 0,
+          "M3_countersunk_screw_16_mm": 0,
+          "M3_nut": 0
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          48.5,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "face_fit"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_face_fit",
+      "file": "front",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 25682.20888037958,
+      "bounds_mm": [
+        [
+          -54.25,
+          -36.75,
+          0.0
+        ],
+        [
+          54.25,
+          36.75,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "front",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 0,
+          "rail": 0,
+          "bottom_rail": 0,
+          "M3_countersunk_screw_16_mm": 0,
+          "M3_nut": 0
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          48.5,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "face_fit"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_face_fit",
+      "file": "back",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 22860.637483290036,
+      "bounds_mm": [
+        [
+          -54.25,
+          -36.75,
+          0.0
+        ],
+        [
+          54.25,
+          36.75,
+          10.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "back",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 0,
+          "rail": 0,
+          "bottom_rail": 0,
+          "M3_countersunk_screw_16_mm": 0,
+          "M3_nut": 0
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          48.5,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "face_fit"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_joint_fit",
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true
+      },
+      "volume_mm3": 5640.806142830679,
+      "bounds_mm": [
+        [
+          -19.0,
+          -6.995264053344727,
+          0.0
+        ],
+        [
+          19.0,
+          45.0,
+          10.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "print_layout",
+        "expected_bodies": 3,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 1,
+          "bottom_rail": 0,
+          "M3_countersunk_screw_16_mm": 2,
+          "M3_nut": 2
+        },
+        "rail_length_mm": 30.0,
+        "plate_size_mm": [
+          15.0,
+          14.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          45.0
+        ],
+        "identical_front_and_back": true,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "modular_test"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_joint_fit",
+      "file": "face_plate",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 1514.7709944455328,
+      "bounds_mm": [
+        [
+          -7.5,
+          -6.995264053344727,
+          0.0
+        ],
+        [
+          7.5,
+          6.995264053344727,
+          10.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "face_plate",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 1,
+          "bottom_rail": 0,
+          "M3_countersunk_screw_16_mm": 2,
+          "M3_nut": 2
+        },
+        "rail_length_mm": 30.0,
+        "plate_size_mm": [
+          15.0,
+          14.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          45.0
+        ],
+        "identical_front_and_back": true,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "modular_test"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_joint_fit",
+      "file": "front",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 1514.7709944455328,
+      "bounds_mm": [
+        [
+          -7.5,
+          -6.995264053344727,
+          0.0
+        ],
+        [
+          7.5,
+          6.995264053344727,
+          10.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "front",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 1,
+          "bottom_rail": 0,
+          "M3_countersunk_screw_16_mm": 2,
+          "M3_nut": 2
+        },
+        "rail_length_mm": 30.0,
+        "plate_size_mm": [
+          15.0,
+          14.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          45.0
+        ],
+        "identical_front_and_back": true,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "modular_test"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_joint_fit",
+      "file": "back",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 1514.7709944455328,
+      "bounds_mm": [
+        [
+          -7.5,
+          -6.995264053344727,
+          0.0
+        ],
+        [
+          7.5,
+          6.995264053344727,
+          10.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "back",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 1,
+          "bottom_rail": 0,
+          "M3_countersunk_screw_16_mm": 2,
+          "M3_nut": 2
+        },
+        "rail_length_mm": 30.0,
+        "plate_size_mm": [
+          15.0,
+          14.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          45.0
+        ],
+        "identical_front_and_back": true,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "modular_test"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_joint_fit",
+      "file": "rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 2611.264156794648,
+      "bounds_mm": [
+        [
+          -5.5,
+          -15.0,
+          0.0
+        ],
+        [
+          5.5,
+          15.0,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 1,
+          "bottom_rail": 0,
+          "M3_countersunk_screw_16_mm": 2,
+          "M3_nut": 2
+        },
+        "rail_length_mm": 30.0,
+        "plate_size_mm": [
+          15.0,
+          14.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          45.0
+        ],
+        "identical_front_and_back": true,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "modular_test"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_joint_fit",
+      "file": "bottom_rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 2611.264156794648,
+      "bounds_mm": [
+        [
+          -5.5,
+          -15.0,
+          0.0
+        ],
+        [
+          5.5,
+          15.0,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "bottom_rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 1,
+          "bottom_rail": 0,
+          "M3_countersunk_screw_16_mm": 2,
+          "M3_nut": 2
+        },
+        "rail_length_mm": 30.0,
+        "plate_size_mm": [
+          15.0,
+          14.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          45.0
+        ],
+        "identical_front_and_back": true,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "modular_test"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_joint_fit",
+      "file": "assembled",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 5640.806127771705,
+      "bounds_mm": [
+        [
+          -7.5,
+          -6.995264053344727,
+          0.0
+        ],
+        [
+          7.5,
+          6.995264053344727,
+          45.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "assembled",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 1,
+          "bottom_rail": 0,
+          "M3_countersunk_screw_16_mm": 2,
+          "M3_nut": 2
+        },
+        "rail_length_mm": 30.0,
+        "plate_size_mm": [
+          15.0,
+          14.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          45.0
+        ],
+        "identical_front_and_back": true,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": false,
+        "part_role": "modular_test"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_joint_fit",
+      "file": "rails_plate_01",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true
+      },
+      "volume_mm3": 2611.264156794648,
+      "bounds_mm": [
+        [
+          -5.5,
+          -15.0,
+          0.0
+        ],
+        [
+          5.5,
+          15.0,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rails_plate_01",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 1,
+          "bottom_rail": 0,
+          "M3_countersunk_screw_16_mm": 2,
+          "M3_nut": 2
+        },
+        "rail_length_mm": 30.0,
+        "plate_size_mm": [
+          15.0,
+          14.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          48.5,
+          45.0
+        ],
+        "identical_front_and_back": true,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "modular_test"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style",
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true
+      },
+      "volume_mm3": 105809.25039964261,
+      "bounds_mm": [
+        [
+          -112.5,
+          -70.5,
+          0.0
+        ],
+        [
+          112.5,
+          173.0,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "print_layout",
+        "expected_bodies": 8,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style",
+      "file": "face_plate",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 36314.111763382134,
+      "bounds_mm": [
+        [
+          -54.25,
+          -70.5,
+          0.0
+        ],
+        [
+          54.25,
+          70.5,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "face_plate",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style",
+      "file": "front",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 36314.111763382134,
+      "bounds_mm": [
+        [
+          -54.25,
+          -70.5,
+          0.0
+        ],
+        [
+          54.25,
+          70.5,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "front",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style",
+      "file": "back",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 33492.54028623665,
+      "bounds_mm": [
+        [
+          -54.25,
+          -70.5,
+          0.0
+        ],
+        [
+          54.25,
+          70.5,
+          10.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "back",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style",
+      "file": "rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 5536.2544649722995,
+      "bounds_mm": [
+        [
+          -5.5,
+          -47.25,
+          0.0
+        ],
+        [
+          5.5,
+          47.25,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style",
+      "file": "bottom_rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 6928.79100214271,
+      "bounds_mm": [
+        [
+          -5.5,
+          -47.25,
+          0.0
+        ],
+        [
+          5.5,
+          47.25,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "bottom_rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style",
+      "file": "assembled",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 105809.24989478251,
+      "bounds_mm": [
+        [
+          -54.25,
+          -70.5,
+          0.0
+        ],
+        [
+          54.25,
+          70.5,
+          109.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "assembled",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": false,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style",
+      "file": "rails_plate_01",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true
+      },
+      "volume_mm3": 36002.599801479,
+      "bounds_mm": [
+        [
+          -45.5,
+          -47.25,
+          0.0
+        ],
+        [
+          45.5,
+          47.25,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rails_plate_01",
+        "expected_bodies": 6,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_a1_mini_max",
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true
+      },
+      "volume_mm3": 105809.25039964261,
+      "bounds_mm": [
+        [
+          -112.5,
+          -70.5,
+          0.0
+        ],
+        [
+          112.5,
+          173.0,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "print_layout",
+        "expected_bodies": 8,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_a1_mini_max",
+      "file": "face_plate",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 36314.111763382134,
+      "bounds_mm": [
+        [
+          -54.25,
+          -70.5,
+          0.0
+        ],
+        [
+          54.25,
+          70.5,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "face_plate",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_a1_mini_max",
+      "file": "front",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 36314.111763382134,
+      "bounds_mm": [
+        [
+          -54.25,
+          -70.5,
+          0.0
+        ],
+        [
+          54.25,
+          70.5,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "front",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_a1_mini_max",
+      "file": "back",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 33492.54028623665,
+      "bounds_mm": [
+        [
+          -54.25,
+          -70.5,
+          0.0
+        ],
+        [
+          54.25,
+          70.5,
+          10.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "back",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_a1_mini_max",
+      "file": "rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 5536.2544649722995,
+      "bounds_mm": [
+        [
+          -5.5,
+          -47.25,
+          0.0
+        ],
+        [
+          5.5,
+          47.25,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_a1_mini_max",
+      "file": "bottom_rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 6928.79100214271,
+      "bounds_mm": [
+        [
+          -5.5,
+          -47.25,
+          0.0
+        ],
+        [
+          5.5,
+          47.25,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "bottom_rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_a1_mini_max",
+      "file": "assembled",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 105809.24989478251,
+      "bounds_mm": [
+        [
+          -54.25,
+          -70.5,
+          0.0
+        ],
+        [
+          54.25,
+          70.5,
+          109.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "assembled",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": false,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_a1_mini_max",
+      "file": "rails_plate_01",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true
+      },
+      "volume_mm3": 36002.599801479,
+      "bounds_mm": [
+        [
+          -45.5,
+          -47.25,
+          0.0
+        ],
+        [
+          45.5,
+          47.25,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rails_plate_01",
+        "expected_bodies": 6,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 4,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 12,
+          "M3_nut": 12
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_face_fit",
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 36314.111763382134,
+      "bounds_mm": [
+        [
+          -54.25,
+          -70.5,
+          0.0
+        ],
+        [
+          54.25,
+          70.5,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "face_plate",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 0,
+          "rail": 0,
+          "bottom_rail": 0,
+          "M3_countersunk_screw_16_mm": 0,
+          "M3_nut": 0
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "face_fit"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_face_fit",
+      "file": "face_plate",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 36314.111763382134,
+      "bounds_mm": [
+        [
+          -54.25,
+          -70.5,
+          0.0
+        ],
+        [
+          54.25,
+          70.5,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "face_plate",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 0,
+          "rail": 0,
+          "bottom_rail": 0,
+          "M3_countersunk_screw_16_mm": 0,
+          "M3_nut": 0
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "face_fit"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_face_fit",
+      "file": "front",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 36314.111763382134,
+      "bounds_mm": [
+        [
+          -54.25,
+          -70.5,
+          0.0
+        ],
+        [
+          54.25,
+          70.5,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "front",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 0,
+          "rail": 0,
+          "bottom_rail": 0,
+          "M3_countersunk_screw_16_mm": 0,
+          "M3_nut": 0
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "face_fit"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_face_fit",
+      "file": "back",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 33492.54028623665,
+      "bounds_mm": [
+        [
+          -54.25,
+          -70.5,
+          0.0
+        ],
+        [
+          54.25,
+          70.5,
+          10.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "back",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 0,
+          "rail": 0,
+          "bottom_rail": 0,
+          "M3_countersunk_screw_16_mm": 0,
+          "M3_nut": 0
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          108.5,
+          116.0,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          116.0,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "face_fit"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_a1_mini_max",
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true
+      },
+      "volume_mm3": 169367.14068280146,
+      "bounds_mm": [
+        [
+          -112.5,
+          -80.69999694824219,
+          0.0
+        ],
+        [
+          112.5,
+          284.70001220703125,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "print_layout",
+        "expected_bodies": 14,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 10,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          136.4,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          136.4,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_a1_mini_max",
+      "file": "face_plate",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 55430.651142158276,
+      "bounds_mm": [
+        [
+          -54.25,
+          -80.69999694824219,
+          0.0
+        ],
+        [
+          54.25,
+          80.69999694824219,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "face_plate",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 10,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          136.4,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          136.4,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_a1_mini_max",
+      "file": "front",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 55430.651142158276,
+      "bounds_mm": [
+        [
+          -54.25,
+          -80.69999694824219,
+          0.0
+        ],
+        [
+          54.25,
+          80.69999694824219,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "front",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 10,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          136.4,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          136.4,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_a1_mini_max",
+      "file": "back",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 44144.36469279031,
+      "bounds_mm": [
+        [
+          -54.25,
+          -80.69999694824219,
+          0.0
+        ],
+        [
+          54.25,
+          80.69999694824219,
+          10.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "back",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 10,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          136.4,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          136.4,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_a1_mini_max",
+      "file": "rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 5580.2544649722995,
+      "bounds_mm": [
+        [
+          -5.5,
+          -47.75,
+          0.0
+        ],
+        [
+          5.5,
+          47.75,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 10,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          136.4,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          136.4,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_a1_mini_max",
+      "file": "bottom_rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 6994.79100214271,
+      "bounds_mm": [
+        [
+          -5.5,
+          -47.75,
+          0.0
+        ],
+        [
+          5.5,
+          47.75,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "bottom_rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 10,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          136.4,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          136.4,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_a1_mini_max",
+      "file": "assembled",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 169367.12944838047,
+      "bounds_mm": [
+        [
+          -54.25,
+          -80.69999694824219,
+          0.0
+        ],
+        [
+          54.25,
+          80.69999694824219,
+          110.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "assembled",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 10,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          136.4,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          136.4,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": false,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_a1_mini_max",
+      "file": "rails_plate_01",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true
+      },
+      "volume_mm3": 62797.33563672557,
+      "bounds_mm": [
+        [
+          -85.5,
+          -47.75,
+          0.0
+        ],
+        [
+          85.5,
+          47.75,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rails_plate_01",
+        "expected_bodies": 11,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 10,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          136.4,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          136.4,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_a1_mini_max",
+      "file": "rails_plate_02",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true
+      },
+      "volume_mm3": 6994.79100214271,
+      "bounds_mm": [
+        [
+          -5.5,
+          -47.75,
+          0.0
+        ],
+        [
+          5.5,
+          47.75,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rails_plate_02",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 10,
+          "bottom_rail": 2,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          108.5,
+          136.4,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          108.5,
+          136.4,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true
+      },
+      "volume_mm3": 179610.58145952088,
+      "bounds_mm": [
+        [
+          -201.8000030517578,
+          -51.400001525878906,
+          0.0
+        ],
+        [
+          201.8000030517578,
+          154.89999389648438,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "print_layout",
+        "expected_bodies": 14,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 9,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          77.80000000000001,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          77.80000000000001,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "face_plate",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 59845.10533873732,
+      "bounds_mm": [
+        [
+          -98.9000015258789,
+          -51.400001525878906,
+          0.0
+        ],
+        [
+          98.9000015258789,
+          51.400001525878906,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "face_plate",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 9,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          77.80000000000001,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          77.80000000000001,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "front",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 59845.10533873732,
+      "bounds_mm": [
+        [
+          -98.9000015258789,
+          -51.400001525878906,
+          0.0
+        ],
+        [
+          98.9000015258789,
+          51.400001525878906,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "front",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 9,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          77.80000000000001,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          77.80000000000001,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "back",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 48558.818605043845,
+      "bounds_mm": [
+        [
+          -98.9000015258789,
+          -51.400001525878906,
+          0.0
+        ],
+        [
+          98.9000015258789,
+          51.400001525878906,
+          10.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "back",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 9,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          77.80000000000001,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          77.80000000000001,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 5580.2544649722995,
+      "bounds_mm": [
+        [
+          -5.5,
+          -47.75,
+          0.0
+        ],
+        [
+          5.5,
+          47.75,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 9,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          77.80000000000001,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          77.80000000000001,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "bottom_rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 6994.79100214271,
+      "bounds_mm": [
+        [
+          -5.5,
+          -47.75,
+          0.0
+        ],
+        [
+          5.5,
+          47.75,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "bottom_rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 9,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          77.80000000000001,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          77.80000000000001,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "assembled",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 179610.59288995806,
+      "bounds_mm": [
+        [
+          -98.9000015258789,
+          -51.400001525878906,
+          0.0
+        ],
+        [
+          98.9000015258789,
+          51.400001525878906,
+          110.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "assembled",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 9,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          77.80000000000001,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          77.80000000000001,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": false,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "rails_plate_01",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true
+      },
+      "volume_mm3": 71206.66320566105,
+      "bounds_mm": [
+        [
+          -93.5,
+          -47.75,
+          0.0
+        ],
+        [
+          93.5,
+          47.75,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rails_plate_01",
+        "expected_bodies": 12,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 9,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          77.80000000000001,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          77.80000000000001,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_p1p_max",
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true
+      },
+      "volume_mm3": 225191.80134294182,
+      "bounds_mm": [
+        [
+          -201.8000030517578,
+          -118.9000015258789,
+          0.0
+        ],
+        [
+          201.8000030517578,
+          221.39999389648438,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "print_layout",
+        "expected_bodies": 14,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 9,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          212.79999999999998,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          212.79999999999998,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_p1p_max",
+      "file": "face_plate",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 82932.70946081774,
+      "bounds_mm": [
+        [
+          -98.9000015258789,
+          -118.9000015258789,
+          0.0
+        ],
+        [
+          98.9000015258789,
+          118.9000015258789,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "face_plate",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 9,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          212.79999999999998,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          212.79999999999998,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_p1p_max",
+      "file": "front",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 82932.70946081774,
+      "bounds_mm": [
+        [
+          -98.9000015258789,
+          -118.9000015258789,
+          0.0
+        ],
+        [
+          98.9000015258789,
+          118.9000015258789,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "front",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 9,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          212.79999999999998,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          212.79999999999998,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_p1p_max",
+      "file": "back",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 71646.42657191768,
+      "bounds_mm": [
+        [
+          -98.9000015258789,
+          -118.9000015258789,
+          0.0
+        ],
+        [
+          98.9000015258789,
+          118.9000015258789,
+          10.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "back",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 9,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          212.79999999999998,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          212.79999999999998,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_p1p_max",
+      "file": "rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 5536.2544649722995,
+      "bounds_mm": [
+        [
+          -5.5,
+          -47.25,
+          0.0
+        ],
+        [
+          5.5,
+          47.25,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 9,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          212.79999999999998,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          212.79999999999998,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_p1p_max",
+      "file": "bottom_rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 6928.79100214271,
+      "bounds_mm": [
+        [
+          -5.5,
+          -47.25,
+          0.0
+        ],
+        [
+          5.5,
+          47.25,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "bottom_rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 9,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          212.79999999999998,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          212.79999999999998,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_p1p_max",
+      "file": "assembled",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 225191.79885488047,
+      "bounds_mm": [
+        [
+          -98.9000015258789,
+          -118.9000015258789,
+          0.0
+        ],
+        [
+          98.9000015258789,
+          118.9000015258789,
+          109.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "assembled",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 9,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          212.79999999999998,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          212.79999999999998,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": false,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_p1p_max",
+      "file": "rails_plate_01",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true
+      },
+      "volume_mm3": 70612.66320566107,
+      "bounds_mm": [
+        [
+          -93.5,
+          -47.25,
+          0.0
+        ],
+        [
+          93.5,
+          47.25,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rails_plate_01",
+        "expected_bodies": 12,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 9,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 24,
+          "M3_nut": 24
+        },
+        "rail_length_mm": 94.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          212.79999999999998,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          212.79999999999998,
+          109.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_p1p_max",
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true
+      },
+      "volume_mm3": 391450.2556868301,
+      "bounds_mm": [
+        [
+          -201.8000030517578,
+          -124.6500015258789,
+          0.0
+        ],
+        [
+          201.8000030517578,
+          328.6499938964844,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "print_layout",
+        "expected_bodies": 29,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 24,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 54,
+          "M3_nut": 54
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          224.29999999999998,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          224.29999999999998,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_p1p_max",
+      "file": "face_plate",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 138020.88862261025,
+      "bounds_mm": [
+        [
+          -98.9000015258789,
+          -124.6500015258789,
+          0.0
+        ],
+        [
+          98.9000015258789,
+          124.6500015258789,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "face_plate",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 24,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 54,
+          "M3_nut": 54
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          224.29999999999998,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          224.29999999999998,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_p1p_max",
+      "file": "front",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 138020.88862261025,
+      "bounds_mm": [
+        [
+          -98.9000015258789,
+          -124.6500015258789,
+          0.0
+        ],
+        [
+          98.9000015258789,
+          124.6500015258789,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "front",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 24,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 54,
+          "M3_nut": 54
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          224.29999999999998,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          224.29999999999998,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_p1p_max",
+      "file": "back",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 98518.88643660994,
+      "bounds_mm": [
+        [
+          -98.9000015258789,
+          -124.6500015258789,
+          0.0
+        ],
+        [
+          98.9000015258789,
+          124.6500015258789,
+          10.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "back",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 24,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 54,
+          "M3_nut": 54
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          224.29999999999998,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          224.29999999999998,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_p1p_max",
+      "file": "rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 5580.2544649722995,
+      "bounds_mm": [
+        [
+          -5.5,
+          -47.75,
+          0.0
+        ],
+        [
+          5.5,
+          47.75,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 24,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 54,
+          "M3_nut": 54
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          224.29999999999998,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          224.29999999999998,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_p1p_max",
+      "file": "bottom_rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 6994.79100214271,
+      "bounds_mm": [
+        [
+          -5.5,
+          -47.75,
+          0.0
+        ],
+        [
+          5.5,
+          47.75,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "bottom_rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 24,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 54,
+          "M3_nut": 54
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          224.29999999999998,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          224.29999999999998,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_p1p_max",
+      "file": "assembled",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 391450.2540618237,
+      "bounds_mm": [
+        [
+          -98.9000015258789,
+          -124.6500015258789,
+          0.0
+        ],
+        [
+          98.9000015258789,
+          124.6500015258789,
+          110.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "assembled",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 24,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 54,
+          "M3_nut": 54
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          224.29999999999998,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          224.29999999999998,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": false,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_p1p_max",
+      "file": "rails_plate_01",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true
+      },
+      "volume_mm3": 154910.477288028,
+      "bounds_mm": [
+        [
+          -125.5,
+          -98.0,
+          0.0
+        ],
+        [
+          125.5,
+          98.0,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rails_plate_01",
+        "expected_bodies": 27,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 24,
+          "bottom_rail": 3,
+          "M3_countersunk_screw_16_mm": 54,
+          "M3_nut": 54
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          197.79999999999998,
+          224.29999999999998,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          197.79999999999998,
+          224.29999999999998,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true
+      },
+      "volume_mm3": 1020395.8503566032,
+      "bounds_mm": [
+        [
+          -380.3999938964844,
+          -197.89999389648438,
+          0.0
+        ],
+        [
+          380.3999938964844,
+          502.3999938964844,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "print_layout",
+        "expected_bodies": 72,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 65,
+          "bottom_rail": 5,
+          "M3_countersunk_screw_16_mm": 140,
+          "M3_nut": 140
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          376.4,
+          370.8,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          376.4,
+          370.8,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "face_plate",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 379070.39271122246,
+      "bounds_mm": [
+        [
+          -188.1999969482422,
+          -197.89999389648438,
+          0.0
+        ],
+        [
+          188.1999969482422,
+          197.89999389648438,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "face_plate",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 65,
+          "bottom_rail": 5,
+          "M3_countersunk_screw_16_mm": 140,
+          "M3_nut": 140
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          376.4,
+          370.8,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          376.4,
+          370.8,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "front",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 379070.39271122246,
+      "bounds_mm": [
+        [
+          -188.1999969482422,
+          -197.89999389648438,
+          0.0
+        ],
+        [
+          188.1999969482422,
+          197.89999389648438,
+          13.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "front",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 65,
+          "bottom_rail": 5,
+          "M3_countersunk_screw_16_mm": 140,
+          "M3_nut": 140
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          376.4,
+          370.8,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          376.4,
+          370.8,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "back",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "plate_has_no_unexpected_overhangs": true
+      },
+      "volume_mm3": 243634.99706662944,
+      "bounds_mm": [
+        [
+          -188.1999969482422,
+          -197.89999389648438,
+          0.0
+        ],
+        [
+          188.1999969482422,
+          197.89999389648438,
+          10.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "back",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 65,
+          "bottom_rail": 5,
+          "M3_countersunk_screw_16_mm": 140,
+          "M3_nut": 140
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          376.4,
+          370.8,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          376.4,
+          370.8,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 5580.2544649722995,
+      "bounds_mm": [
+        [
+          -5.5,
+          -47.75,
+          0.0
+        ],
+        [
+          5.5,
+          47.75,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 65,
+          "bottom_rail": 5,
+          "M3_countersunk_screw_16_mm": 140,
+          "M3_nut": 140
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          376.4,
+          370.8,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          376.4,
+          370.8,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "bottom_rail",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true,
+        "bridges_localized_to_end_hardware": true
+      },
+      "volume_mm3": 6994.79100214271,
+      "bounds_mm": [
+        [
+          -5.5,
+          -47.75,
+          0.0
+        ],
+        [
+          5.5,
+          47.75,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "bottom_rail",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 65,
+          "bottom_rail": 5,
+          "M3_countersunk_screw_16_mm": 140,
+          "M3_nut": 140
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          376.4,
+          370.8,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          376.4,
+          370.8,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "assembled",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 1020395.8913765708,
+      "bounds_mm": [
+        [
+          -188.1999969482422,
+          -197.89999389648438,
+          0.0
+        ],
+        [
+          188.1999969482422,
+          197.89999389648438,
+          110.5
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "assembled",
+        "expected_bodies": 1,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 65,
+          "bottom_rail": 5,
+          "M3_countersunk_screw_16_mm": 140,
+          "M3_nut": 140
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          376.4,
+          370.8,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          376.4,
+          370.8,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": false,
+        "part_role": "frame"
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "file": "rails_plate_01",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "expected_body_count": true,
+        "all_bodies_on_bed": true,
+        "fits_declared_bed": true
+      },
+      "volume_mm3": 397690.4703175898,
+      "bounds_mm": [
+        [
+          -197.5,
+          -148.25,
+          0.0
+        ],
+        [
+          197.5,
+          148.25,
+          10.0
+        ]
+      ],
+      "design": {
+        "style": "ai_version_4",
+        "view": "rails_plate_01",
+        "expected_bodies": 70,
+        "bom": {
+          "front": 1,
+          "back": 1,
+          "rail": 65,
+          "bottom_rail": 5,
+          "M3_countersunk_screw_16_mm": 140,
+          "M3_nut": 140
+        },
+        "rail_length_mm": 95.5,
+        "plate_size_mm": [
+          376.4,
+          370.8,
+          7.5
+        ],
+        "assembled_envelope_mm": [
+          376.4,
+          370.8,
+          110.5
+        ],
+        "identical_front_and_back": false,
+        "front_lip": true,
+        "rear_lip": false,
+        "nut_side_clearance": "left",
+        "printable": true,
+        "part_role": "frame"
+      }
+    }
+  ],
+  "assemblies": [
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "checks": {
+        "outer_plate_grid_and_mounts_connected": true,
+        "countersinks_and_key_walls_present": true,
+        "both_catch_ramps_present": true,
+        "rear_opening_has_no_catch": true,
+        "only_catch_volume_removed_from_rear": true,
+        "face_plate_alias_is_front": true,
+        "rear_mounts_preserved": true,
+        "correct_front_back_geometry": true,
+        "nuts_insert_from_side": true,
+        "nut_slot_retains_roof_and_opposite_wall": true,
+        "no_plate_rail_interference": true,
+        "keys_resist_sideways_shift": true,
+        "assembled_contains_exact_bom": true,
+        "kit_contains_exact_bom": true,
+        "rail_batches_contain_exact_bom": true
+      },
+      "bom": {
+        "front": 1,
+        "back": 1,
+        "rail": 4,
+        "bottom_rail": 2,
+        "M3_countersunk_screw_16_mm": 12,
+        "M3_nut": 12
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_face_fit",
+      "checks": {
+        "outer_plate_grid_and_mounts_connected": true,
+        "countersinks_and_key_walls_present": true,
+        "both_catch_ramps_present": true,
+        "rear_opening_has_no_catch": true,
+        "only_catch_volume_removed_from_rear": true,
+        "face_plate_alias_is_front": true,
+        "rear_mounts_preserved": true
+      },
+      "bom": {
+        "front": 1,
+        "back": 0,
+        "rail": 0,
+        "bottom_rail": 0,
+        "M3_countersunk_screw_16_mm": 0,
+        "M3_nut": 0
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_joint_fit",
+      "checks": {
+        "outer_plate_grid_and_mounts_connected": true,
+        "countersinks_and_key_walls_present": true,
+        "face_plate_alias_is_front": true,
+        "rear_mounts_preserved": true,
+        "correct_front_back_geometry": true,
+        "nuts_insert_from_side": true,
+        "nut_slot_retains_roof_and_opposite_wall": true,
+        "no_plate_rail_interference": true,
+        "keys_resist_sideways_shift": true,
+        "assembled_contains_exact_bom": true,
+        "kit_contains_exact_bom": true,
+        "rail_batches_contain_exact_bom": true
+      },
+      "bom": {
+        "front": 1,
+        "back": 1,
+        "rail": 1,
+        "bottom_rail": 0,
+        "M3_countersunk_screw_16_mm": 2,
+        "M3_nut": 2
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style",
+      "checks": {
+        "outer_plate_grid_and_mounts_connected": true,
+        "countersinks_and_key_walls_present": true,
+        "both_catch_ramps_present": true,
+        "rear_opening_has_no_catch": true,
+        "only_catch_volume_removed_from_rear": true,
+        "face_plate_alias_is_front": true,
+        "rear_mounts_preserved": true,
+        "correct_front_back_geometry": true,
+        "nuts_insert_from_side": true,
+        "nut_slot_retains_roof_and_opposite_wall": true,
+        "no_plate_rail_interference": true,
+        "keys_resist_sideways_shift": true,
+        "assembled_contains_exact_bom": true,
+        "kit_contains_exact_bom": true,
+        "rail_batches_contain_exact_bom": true
+      },
+      "bom": {
+        "front": 1,
+        "back": 1,
+        "rail": 4,
+        "bottom_rail": 2,
+        "M3_countersunk_screw_16_mm": 12,
+        "M3_nut": 12
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_a1_mini_max",
+      "checks": {
+        "outer_plate_grid_and_mounts_connected": true,
+        "countersinks_and_key_walls_present": true,
+        "both_catch_ramps_present": true,
+        "rear_opening_has_no_catch": true,
+        "only_catch_volume_removed_from_rear": true,
+        "face_plate_alias_is_front": true,
+        "rear_mounts_preserved": true,
+        "correct_front_back_geometry": true,
+        "nuts_insert_from_side": true,
+        "nut_slot_retains_roof_and_opposite_wall": true,
+        "no_plate_rail_interference": true,
+        "keys_resist_sideways_shift": true,
+        "assembled_contains_exact_bom": true,
+        "kit_contains_exact_bom": true,
+        "rail_batches_contain_exact_bom": true
+      },
+      "bom": {
+        "front": 1,
+        "back": 1,
+        "rail": 4,
+        "bottom_rail": 2,
+        "M3_countersunk_screw_16_mm": 12,
+        "M3_nut": 12
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_face_fit",
+      "checks": {
+        "outer_plate_grid_and_mounts_connected": true,
+        "countersinks_and_key_walls_present": true,
+        "both_catch_ramps_present": true,
+        "rear_opening_has_no_catch": true,
+        "only_catch_volume_removed_from_rear": true,
+        "face_plate_alias_is_front": true,
+        "rear_mounts_preserved": true
+      },
+      "bom": {
+        "front": 1,
+        "back": 0,
+        "rail": 0,
+        "bottom_rail": 0,
+        "M3_countersunk_screw_16_mm": 0,
+        "M3_nut": 0
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_a1_mini_max",
+      "checks": {
+        "outer_plate_grid_and_mounts_connected": true,
+        "countersinks_and_key_walls_present": true,
+        "both_catch_ramps_present": true,
+        "rear_opening_has_no_catch": true,
+        "only_catch_volume_removed_from_rear": true,
+        "face_plate_alias_is_front": true,
+        "rear_mounts_preserved": true,
+        "correct_front_back_geometry": true,
+        "nuts_insert_from_side": true,
+        "nut_slot_retains_roof_and_opposite_wall": true,
+        "no_plate_rail_interference": true,
+        "keys_resist_sideways_shift": true,
+        "assembled_contains_exact_bom": true,
+        "kit_contains_exact_bom": true,
+        "rail_batches_contain_exact_bom": true
+      },
+      "bom": {
+        "front": 1,
+        "back": 1,
+        "rail": 10,
+        "bottom_rail": 2,
+        "M3_countersunk_screw_16_mm": 24,
+        "M3_nut": 24
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "checks": {
+        "outer_plate_grid_and_mounts_connected": true,
+        "countersinks_and_key_walls_present": true,
+        "both_catch_ramps_present": true,
+        "rear_opening_has_no_catch": true,
+        "only_catch_volume_removed_from_rear": true,
+        "face_plate_alias_is_front": true,
+        "rear_mounts_preserved": true,
+        "correct_front_back_geometry": true,
+        "nuts_insert_from_side": true,
+        "nut_slot_retains_roof_and_opposite_wall": true,
+        "no_plate_rail_interference": true,
+        "keys_resist_sideways_shift": true,
+        "assembled_contains_exact_bom": true,
+        "kit_contains_exact_bom": true,
+        "rail_batches_contain_exact_bom": true
+      },
+      "bom": {
+        "front": 1,
+        "back": 1,
+        "rail": 9,
+        "bottom_rail": 3,
+        "M3_countersunk_screw_16_mm": 24,
+        "M3_nut": 24
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_p1p_max",
+      "checks": {
+        "outer_plate_grid_and_mounts_connected": true,
+        "countersinks_and_key_walls_present": true,
+        "both_catch_ramps_present": true,
+        "rear_opening_has_no_catch": true,
+        "only_catch_volume_removed_from_rear": true,
+        "face_plate_alias_is_front": true,
+        "rear_mounts_preserved": true,
+        "correct_front_back_geometry": true,
+        "nuts_insert_from_side": true,
+        "nut_slot_retains_roof_and_opposite_wall": true,
+        "no_plate_rail_interference": true,
+        "keys_resist_sideways_shift": true,
+        "assembled_contains_exact_bom": true,
+        "kit_contains_exact_bom": true,
+        "rail_batches_contain_exact_bom": true
+      },
+      "bom": {
+        "front": 1,
+        "back": 1,
+        "rail": 9,
+        "bottom_rail": 3,
+        "M3_countersunk_screw_16_mm": 24,
+        "M3_nut": 24
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_p1p_max",
+      "checks": {
+        "outer_plate_grid_and_mounts_connected": true,
+        "countersinks_and_key_walls_present": true,
+        "both_catch_ramps_present": true,
+        "rear_opening_has_no_catch": true,
+        "only_catch_volume_removed_from_rear": true,
+        "face_plate_alias_is_front": true,
+        "rear_mounts_preserved": true,
+        "correct_front_back_geometry": true,
+        "nuts_insert_from_side": true,
+        "nut_slot_retains_roof_and_opposite_wall": true,
+        "no_plate_rail_interference": true,
+        "keys_resist_sideways_shift": true,
+        "assembled_contains_exact_bom": true,
+        "kit_contains_exact_bom": true,
+        "rail_batches_contain_exact_bom": true
+      },
+      "bom": {
+        "front": 1,
+        "back": 1,
+        "rail": 24,
+        "bottom_rail": 3,
+        "M3_countersunk_screw_16_mm": 54,
+        "M3_nut": 54
+      }
+    },
+    {
+      "id": "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+      "checks": {
+        "outer_plate_grid_and_mounts_connected": true,
+        "countersinks_and_key_walls_present": true,
+        "both_catch_ramps_present": true,
+        "rear_opening_has_no_catch": true,
+        "only_catch_volume_removed_from_rear": true,
+        "face_plate_alias_is_front": true,
+        "rear_mounts_preserved": true,
+        "correct_front_back_geometry": true,
+        "nuts_insert_from_side": true,
+        "nut_slot_retains_roof_and_opposite_wall": true,
+        "no_plate_rail_interference": true,
+        "keys_resist_sideways_shift": true,
+        "assembled_contains_exact_bom": true,
+        "kit_contains_exact_bom": true,
+        "rail_batches_contain_exact_bom": true
+      },
+      "bom": {
+        "front": 1,
+        "back": 1,
+        "rail": 65,
+        "bottom_rail": 5,
+        "M3_countersunk_screw_16_mm": 140,
+        "M3_nut": 140
+      }
+    }
+  ],
+  "limitations": [
+    "CAD checks do not establish physical nut fit, drawer clearance, guide deflection, stiffness or print success.",
+    "Rail screw bores and lateral nut entries require short bridges; overhang=True is passed to OOBB.",
+    "The complete kit overview can exceed one bed; individual faces and numbered rail plates are bed checked."
+  ],
+  "all_checks_passed": true
+}

@@ -1,0 +1,24 @@
+{
+  "parts": [
+    {
+      "id": "organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_1_style",
+      "before_cm3": 77.04308769162455,
+      "after_cm3": 52.315656838734604,
+      "saving_percent": 32.09558650071873
+    },
+    {
+      "id": "organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_1_style_a1_mini_max",
+      "before_cm3": 77.04308769162455,
+      "after_cm3": 52.315656838734604,
+      "saving_percent": 32.09558650071873
+    },
+    {
+      "id": "organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_1_style_p1p_max",
+      "before_cm3": 254.38391966484053,
+      "after_cm3": 155.47420288620876,
+      "saving_percent": 38.88206334305592
+    }
+  ],
+  "all_100_ml_volumes_unchanged": true,
+  "all_mesh_checks_passed": true
+}

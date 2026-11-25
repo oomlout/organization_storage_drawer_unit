@@ -1,0 +1,11 @@
+{
+  "main_snap_sample": 28,
+  "separate_key_sample": 27,
+  "current_measurements": 62,
+  "previous_coupon_records_unchanged": 12,
+  "previous_coupon_scad_unchanged": 175,
+  "geometry_tests_passed": 62,
+  "comparison_tests_passed": 8,
+  "mesh_views_passed": 46,
+  "assemblies_passed": 2
+}

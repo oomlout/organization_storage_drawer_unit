@@ -1,0 +1,377 @@
+{
+  "bom": {
+    "snap_rail": 21,
+    "front": 1,
+    "back": 1
+  },
+  "views": {
+    "front": "front",
+    "back": "back",
+    "snap_rail": "snap_rail",
+    "assembled": "assembled",
+    "joining_plates": "joining_plates",
+    "rails_plate_01": "rails_plate_01",
+    "rails_plate_02": "rails_plate_02",
+    "rails_plate_03": "rails_plate_03"
+  },
+  "drawer_count": 28,
+  "grid_per_face": [
+    2,
+    7
+  ],
+  "identical_face_plates": true,
+  "assembled_envelope_mm": [
+    197.8,
+    220.3,
+    224.0
+  ],
+  "rail_between_plates_mm": 212.0,
+  "snap_tip_length_mm": 6.0,
+  "middle_stop_from_outer_face_mm": [
+    110.5,
+    113.5
+  ],
+  "middle_stop_size_mm": [
+    19.0,
+    10.0,
+    3.0
+  ],
+  "rail_positions": [
+    {
+      "x": -89.3,
+      "y": -96.14999999999999,
+      "kind": "rail",
+      "axis_y": -91.14999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": -64.85,
+      "kind": "rail",
+      "axis_y": -59.849999999999994,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": -33.54999999999999,
+      "kind": "rail",
+      "axis_y": -28.54999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": -2.249999999999986,
+      "kind": "rail",
+      "axis_y": 2.750000000000014,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": 29.05000000000001,
+      "kind": "rail",
+      "axis_y": 34.05000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": 60.35000000000001,
+      "kind": "rail",
+      "axis_y": 65.35000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": 91.65000000000002,
+      "kind": "rail",
+      "axis_y": 96.65000000000002,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": -96.14999999999999,
+      "kind": "rail",
+      "axis_y": -91.14999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": -64.85,
+      "kind": "rail",
+      "axis_y": -59.849999999999994,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": -33.54999999999999,
+      "kind": "rail",
+      "axis_y": -28.54999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": -2.249999999999986,
+      "kind": "rail",
+      "axis_y": 2.750000000000014,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": 29.05000000000001,
+      "kind": "rail",
+      "axis_y": 34.05000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": 60.35000000000001,
+      "kind": "rail",
+      "axis_y": 65.35000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": 91.65000000000002,
+      "kind": "rail",
+      "axis_y": 96.65000000000002,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": -96.14999999999999,
+      "kind": "rail",
+      "axis_y": -91.14999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": -64.85,
+      "kind": "rail",
+      "axis_y": -59.849999999999994,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": -33.54999999999999,
+      "kind": "rail",
+      "axis_y": -28.54999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": -2.249999999999986,
+      "kind": "rail",
+      "axis_y": 2.750000000000014,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": 29.05000000000001,
+      "kind": "rail",
+      "axis_y": 34.05000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": 60.35000000000001,
+      "kind": "rail",
+      "axis_y": 65.35000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": 91.65000000000002,
+      "kind": "rail",
+      "axis_y": 96.65000000000002,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    }
+  ],
+  "density_limits": {
+    "next_column_width_mm": 287.1,
+    "next_row_height_mm": 251.6,
+    "basis": "Upright uniform grid; unchanged tray clearances/spacing; compact edges and corner M3 holes"
+  },
+  "rail_batches": [
+    [
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail"
+    ],
+    [
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail"
+    ],
+    [
+      "snap_rail",
+      "snap_rail",
+      "snap_rail"
+    ]
+  ],
+  "required_usable_plate_area_mm": [
+    197.8,
+    220.3
+  ],
+  "corner_holes": [
+    {
+      "x": -93.9,
+      "y": -105.15
+    },
+    {
+      "x": -93.9,
+      "y": 105.15
+    },
+    {
+      "x": 93.9,
+      "y": -105.15
+    },
+    {
+      "x": 93.9,
+      "y": 105.15
+    }
+  ],
+  "corner_hole_size": "m3",
+  "corner_hole_diameter_mm": 3.6,
+  "corner_hole_inset_mm": 5.0,
+  "plywood_enclosure": "Size to this frame; plywood thickness and joinery are not included",
+  "optional_joining_plates": [
+    {
+      "name": "four_unit_joiner",
+      "size": [
+        20.0,
+        20.0,
+        6.0
+      ],
+      "holes": [
+        [
+          -5.0,
+          -5.0
+        ],
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          5.0,
+          -5.0
+        ],
+        [
+          5.0,
+          5.0
+        ]
+      ],
+      "print_center": [
+        -12.5,
+        0,
+        0
+      ],
+      "hole_pitch_mm": 10.0
+    },
+    {
+      "name": "two_unit_joiner",
+      "size": [
+        20.0,
+        10.0,
+        6.0
+      ],
+      "holes": [
+        [
+          -5.0,
+          0
+        ],
+        [
+          5.0,
+          0
+        ]
+      ],
+      "print_center": [
+        12.5,
+        0,
+        0
+      ],
+      "hole_pitch_mm": 10.0
+    }
+  ],
+  "joining_plates_file": "joining_plates.stl",
+  "joining_plate_unit_gap_mm": 0.0,
+  "joining_plate_countersink": {
+    "size": "M3",
+    "top_diameter_mm": 7.2,
+    "depth_mm": 1.9
+  },
+  "physical_fit": "Unverified PETG"
+}

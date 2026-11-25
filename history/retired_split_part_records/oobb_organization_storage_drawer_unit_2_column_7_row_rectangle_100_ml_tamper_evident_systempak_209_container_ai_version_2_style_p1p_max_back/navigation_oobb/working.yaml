@@ -1,0 +1,644 @@
+adhesion_ears: true
+assembly_component: true
+assembly_half: back
+availability: Print yourself; pots on backorder at research date
+bed_height: 256.0
+bed_margin: 2.0
+bed_width: 256.0
+bip_39_2_word_array:
+- novel
+- monster
+bip_39_2_word_no_space: novelmonster
+bip_39_2_word_space: novel monster
+bip_39_2_word_underscore: novel_monster
+bip_39_3_word_array:
+- novel
+- monster
+- put
+bip_39_3_word_no_space: novelmonsterput
+bip_39_3_word_space: novel monster put
+bip_39_3_word_underscore: novel_monster_put
+bip_39_full_array:
+- novel
+- monster
+- put
+- emotion
+- casino
+- food
+- office
+- ask
+- beyond
+- faith
+- answer
+- apology
+bip_39_full_no_space: novelmonsterputemotioncasinofoodofficeaskbeyondfaithanswerapology
+bip_39_full_space: novel monster put emotion casino food office ask beyond faith answer
+  apology
+bip_39_full_underscore: novel_monster_put_emotion_casino_food_office_ask_beyond_faith_answer_apology
+build_height: 256.0
+cad_volume_mm3: 275863.7318500651
+catch_tab_depth: 1.5
+catch_tab_height: 6.0
+catch_tab_ramp_depth: 6.0
+catch_tab_width: 56.0
+column: 2
+comparison_image: comparison.png
+comparison_measurement_status: current
+comparison_sample: true
+container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+container_clearance: 1.5
+container_short: rectangle_100_ml_tamper_evident_systempak_209
+cost_per_drawer_gbp: 0.2443
+cost_per_kg_basis: Estimated empty assembled unit including pots and adhesion ears
+cost_per_kg_gbp: 10.0
+depth_clearance: 1.5
+depth_lip: 12.0
+depth_mm: 55.25
+directory: parts/oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_p1p_max_back
+drawer_border_edge: 5.5
+drawer_capacity_basis: manufacturer_nominal
+drawer_capacity_ml: 100
+drawer_count: 14
+ear_diameter: 16.0
+ear_gap: 0.5
+ear_height: 0.6
+ear_link_height: 0.3
+ear_link_width: 5.0
+filament_cost_gbp: 3.4207
+filament_density_g_per_cm3: 1.24
+filament_gbp_per_gram: 0.01
+filament_mass_basis: "Solid CAD volume \xD7 assumed PLA density; includes adhesion\
+  \ ears; excludes purge/supports"
+filament_mass_g: 342.071
+front_band: 7.5
+hardware_axis_height: 5.0
+hardware_cost_basis: M3 screws and nuts excluded; hardware price not supplied
+hardware_min_wall: 1.2
+height_mm: 214.3
+id: oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_p1p_max_back
+id_no_class: oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_p1p_max_back
+id_no_size: oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_p1p_max_back
+id_no_type: oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_p1p_max_back
+id_oobb: oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_p1p_max_back
+inset_lip: 5.5
+interlock_clearance: 0.25
+interlock_depth: 3.0
+interlock_end_clearance: 0.2
+interlock_height: 7.0
+interlock_width: 8.0
+kwargs:
+  adhesion_ears: true
+  assembly_half: back
+  bed_height: 256.0
+  bed_margin: 2.0
+  bed_width: 256.0
+  build_height: 256.0
+  catch_tab_depth: 1.5
+  catch_tab_height: 6.0
+  catch_tab_ramp_depth: 6.0
+  catch_tab_width: 56.0
+  column: 2
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_clearance: 1.5
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  depth_clearance: 1.5
+  depth_lip: 12.0
+  drawer_border_edge: 5.5
+  ear_diameter: 16.0
+  ear_gap: 0.5
+  ear_height: 0.6
+  ear_link_height: 0.3
+  ear_link_width: 5.0
+  filter: ''
+  front_band: 7.5
+  hardware_axis_height: 5.0
+  hardware_min_wall: 1.2
+  inset_lip: 5.5
+  interlock_clearance: 0.25
+  interlock_depth: 3.0
+  interlock_end_clearance: 0.2
+  interlock_height: 7.0
+  interlock_width: 8.0
+  lightening: true
+  lip_cutout_radius: 1.0
+  lip_shelf_thickness: 10.0
+  lip_support_reference_height: 26.0
+  middle_rib_width: 0.0
+  modes:
+  - 3dpr
+  module_gap: 0.4
+  navigation: true
+  oobb_name: ai_version_2
+  oomp_description_extra: ''
+  oomp_description_main: ai_version_2_
+  oomp_mode: project
+  oomp_run: false
+  opening_height_extra: 0.0
+  opening_radius: 4.0
+  outer_radius: 2.4
+  overwrite: true
+  part_role: frame
+  printer: Bambu Lab P1P
+  rear_band: 6.0
+  roof_slope: 1.0
+  row: 7
+  runner_width: 10.0
+  screw_head_seat_offset: 6.0
+  screw_length: 16.0
+  side_rail_width: 4.0
+  style: ai_version_2
+  taxonomy_1: oobb
+  taxonomy_2: organization
+  taxonomy_3: storage
+  taxonomy_4: drawer_unit
+  taxonomy_5: 2_column
+  taxonomy_6: 7_row
+  taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+  taxonomy_8: ai_version_2_style
+  taxonomy_9: p1p_max_back
+  thickness_wall: 1.8
+  type: default_ai_version_2
+  variant: p1p_max_back
+lightening: true
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_p1p_max_back
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_p1p_max_back
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_p1p_max_back
+lip_cutout_radius: 1.0
+lip_shelf_thickness: 10.0
+lip_support_reference_height: 26.0
+manufacturer: oomlout
+md5: 9711eabb246236b5a6606a15ca402685
+md5_10: 9711eabb24
+md5_10_upper: 9711EABB24
+md5_5: 9711e
+md5_5_upper: 9711E
+md5_6: 9711ea
+md5_6_alpha: 5w7ai
+md5_6_alpha_upper: 5W7AI
+md5_6_upper: 9711EA
+middle_rib_width: 0.0
+module_gap: 0.4
+name: Oobb Organization Storage Drawer Unit 2 Column 7 Row Rectangle 100 Ml Tamper
+  Evident Systempak 209 Container Ai Version 2 Style P1P Max Back
+name_no_class: Oobb Organization Storage Drawer Unit 2 Column 7 Row Rectangle 100
+  Ml Tamper Evident Systempak 209 Container Ai Version 2 Style P1P Max Back
+name_no_size: Oobb Organization Storage Drawer Unit 2 Column 7 Row Rectangle 100 Ml
+  Tamper Evident Systempak 209 Container Ai Version 2 Style P1P Max Back
+name_no_type: Oobb Organization Storage Drawer Unit 2 Column 7 Row Rectangle 100 Ml
+  Tamper Evident Systempak 209 Container Ai Version 2 Style P1P Max Back
+name_proper: Oobb Organization Storage Drawer Unit 2 Column 7 Row Rectangle 100 Ml
+  Tamper Evident Systempak 209 Container Ai Version 2 Style P1P Max Back
+name_space: oobb organization storage drawer unit 2 column 7 row rectangle 100 ml
+  tamper evident systempak 209 container ai version 2 style p1p max back
+name_upper: OOBB ORGANIZATION STORAGE DRAWER UNIT 2 COLUMN 7 ROW RECTANGLE 100 ML
+  TAMPER EVIDENT SYSTEMPAK 209 CONTAINER AI VERSION 2 STYLE P1P MAX BACK
+oobb_details:
+  adhesion_ears: true
+  assembly_half: back
+  bed_height: 256.0
+  bed_margin: 2.0
+  bed_width: 256.0
+  build_height: 256.0
+  catch_tab_depth: 1.5
+  catch_tab_height: 6.0
+  catch_tab_ramp_depth: 6.0
+  catch_tab_width: 56.0
+  column: 2
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_clearance: 1.5
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  depth_clearance: 1.5
+  depth_lip: 12.0
+  drawer_border_edge: 5.5
+  ear_diameter: 16.0
+  ear_gap: 0.5
+  ear_height: 0.6
+  ear_link_height: 0.3
+  ear_link_width: 5.0
+  front_band: 7.5
+  hardware_axis_height: 5.0
+  hardware_min_wall: 1.2
+  inset_lip: 5.5
+  interlock_clearance: 0.25
+  interlock_depth: 3.0
+  interlock_end_clearance: 0.2
+  interlock_height: 7.0
+  interlock_width: 8.0
+  lightening: true
+  lip_cutout_radius: 1.0
+  lip_shelf_thickness: 10.0
+  lip_support_reference_height: 26.0
+  middle_rib_width: 0.0
+  module_gap: 0.4
+  oobb_name: ai_version_2
+  opening_height_extra: 0.0
+  opening_radius: 4.0
+  outer_radius: 2.4
+  part_role: frame
+  printer: Bambu Lab P1P
+  rear_band: 6.0
+  roof_slope: 1.0
+  row: 7
+  runner_width: 10.0
+  screw_head_seat_offset: 6.0
+  screw_length: 16.0
+  side_rail_width: 4.0
+  style: ai_version_2
+  taxonomy_1: oobb
+  taxonomy_2: organization
+  taxonomy_3: storage
+  taxonomy_4: drawer_unit
+  taxonomy_5: 2_column
+  taxonomy_6: 7_row
+  taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+  taxonomy_8: ai_version_2_style
+  taxonomy_9: p1p_max_back
+  thickness_wall: 1.8
+  variant: p1p_max_back
+oobb_name: ai_version_2
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      adhesion_ears: true
+      assembly_component: true
+      assembly_half: back
+      availability: Print yourself; pots on backorder at research date
+      bed_height: 256.0
+      bed_margin: 2.0
+      bed_width: 256.0
+      build_height: 256.0
+      cad_volume_mm3: 275863.7318500651
+      catch_tab_depth: 1.5
+      catch_tab_height: 6.0
+      catch_tab_ramp_depth: 6.0
+      catch_tab_width: 56.0
+      column: 2
+      comparison_image: comparison.png
+      comparison_measurement_status: current
+      comparison_sample: true
+      container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+      container_clearance: 1.5
+      container_short: rectangle_100_ml_tamper_evident_systempak_209
+      cost_per_drawer_gbp: 0.2443
+      cost_per_kg_basis: Estimated empty assembled unit including pots and adhesion
+        ears
+      cost_per_kg_gbp: 10.0
+      depth_clearance: 1.5
+      depth_lip: 12.0
+      depth_mm: 55.25
+      directory: parts\oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_p1p_max_back
+      drawer_border_edge: 5.5
+      drawer_capacity_basis: manufacturer_nominal
+      drawer_capacity_ml: 100
+      drawer_count: 14
+      ear_diameter: 16.0
+      ear_gap: 0.5
+      ear_height: 0.6
+      ear_link_height: 0.3
+      ear_link_width: 5.0
+      filament_cost_gbp: 3.4207
+      filament_density_g_per_cm3: 1.24
+      filament_gbp_per_gram: 0.01
+      filament_mass_basis: "Solid CAD volume \xD7 assumed PLA density; includes adhesion\
+        \ ears; excludes purge/supports"
+      filament_mass_g: 342.071
+      front_band: 7.5
+      hardware_axis_height: 5.0
+      hardware_cost_basis: M3 screws and nuts excluded; hardware price not supplied
+      hardware_min_wall: 1.2
+      height_mm: 214.3
+      inset_lip: 5.5
+      interlock_clearance: 0.25
+      interlock_depth: 3.0
+      interlock_end_clearance: 0.2
+      interlock_height: 7.0
+      interlock_width: 8.0
+      lightening: true
+      lip_cutout_radius: 1.0
+      lip_shelf_thickness: 10.0
+      lip_support_reference_height: 26.0
+      manufacturer: oomlout
+      middle_rib_width: 0.0
+      module_gap: 0.4
+      name: oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_p1p_max_back
+      name_proper: Oobb Organization Storage Drawer Unit 2 Column 7 Row Rectangle
+        100 Ml Tamper Evident Systempak 209 Container Ai Version 2 Style P1P Max Back
+      name_space: oobb organization storage drawer unit 2 column 7 row rectangle 100
+        ml tamper evident systempak 209 container ai version 2 style p1p max back
+      name_upper: OOBB ORGANIZATION STORAGE DRAWER UNIT 2 COLUMN 7 ROW RECTANGLE 100
+        ML TAMPER EVIDENT SYSTEMPAK 209 CONTAINER AI VERSION 2 STYLE P1P MAX BACK
+      oobb_details:
+        adhesion_ears: true
+        assembly_half: back
+        bed_height: 256.0
+        bed_margin: 2.0
+        bed_width: 256.0
+        build_height: 256.0
+        catch_tab_depth: 1.5
+        catch_tab_height: 6.0
+        catch_tab_ramp_depth: 6.0
+        catch_tab_width: 56.0
+        column: 2
+        container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+        container_clearance: 1.5
+        container_short: rectangle_100_ml_tamper_evident_systempak_209
+        depth_clearance: 1.5
+        depth_lip: 12.0
+        drawer_border_edge: 5.5
+        ear_diameter: 16.0
+        ear_gap: 0.5
+        ear_height: 0.6
+        ear_link_height: 0.3
+        ear_link_width: 5.0
+        front_band: 7.5
+        hardware_axis_height: 5.0
+        hardware_min_wall: 1.2
+        inset_lip: 5.5
+        interlock_clearance: 0.25
+        interlock_depth: 3.0
+        interlock_end_clearance: 0.2
+        interlock_height: 7.0
+        interlock_width: 8.0
+        lightening: true
+        lip_cutout_radius: 1.0
+        lip_shelf_thickness: 10.0
+        lip_support_reference_height: 26.0
+        middle_rib_width: 0.0
+        module_gap: 0.4
+        oobb_name: ai_version_2
+        opening_height_extra: 0.0
+        opening_radius: 4.0
+        outer_radius: 2.4
+        part_role: frame
+        printer: Bambu Lab P1P
+        rear_band: 6.0
+        roof_slope: 1.0
+        row: 7
+        runner_width: 10.0
+        screw_head_seat_offset: 6.0
+        screw_length: 16.0
+        side_rail_width: 4.0
+        style: ai_version_2
+        taxonomy_1: oobb
+        taxonomy_2: organization
+        taxonomy_3: storage
+        taxonomy_4: drawer_unit
+        taxonomy_5: 2_column
+        taxonomy_6: 7_row
+        taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+        taxonomy_8: ai_version_2_style
+        taxonomy_9: p1p_max_back
+        thickness_wall: 1.8
+        variant: p1p_max_back
+      opening_height_extra: 0.0
+      opening_radius: 4.0
+      outer_radius: 2.4
+      part_role: frame
+      pot_cost_details:
+        availability: On backorder
+        capacity_ml: 100
+        checked_date: '2026-10-18'
+        manufacturer: Systempak
+        pack_price_ex_vat_gbp: 60.95
+        pack_quantity: 500
+        part_number: '209'
+        price_basis: Single carton of 500 pots and lids; lids unused; delivery excluded
+        price_source_url: https://systempak.net/product/100ml-rectangular-tamper-evident-containers-and-lids/
+        unit_price_gbp: 0.14628
+        vat_rate: 0.2
+        weight_g: 8.0
+        weight_source_url: https://systempak.net/wp-content/uploads/2024/03/TDS-209-100ML.pdf
+      pot_quantity: 0
+      pots_cost_gbp: 0
+      price_excludes_delivery: true
+      price_gbp: 3.4207
+      price_includes_vat: true
+      print_instruction: Print outer face on bed, joint facing up.
+      printer: Bambu Lab P1P
+      product_name: "Printed 2 \xD7 7 \xB7 Systempak 209 \xB7 ai version 2 \xB7 p1p\
+        \ max back"
+      rear_band: 6.0
+      record_type: printed_drawer_unit
+      roof_slope: 1.0
+      row: 7
+      runner_width: 10.0
+      screw_head_seat_offset: 6.0
+      screw_length: 16.0
+      side_rail_width: 4.0
+      style: ai_version_2
+      taxonomy_1: oobb
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: organization
+      taxonomy_3: storage
+      taxonomy_4: drawer_unit
+      taxonomy_5: 2_column
+      taxonomy_6: 7_row
+      taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+      taxonomy_8: ai_version_2_style
+      taxonomy_9: p1p_max_back
+      thickness_wall: 1.8
+      url_chat: ''
+      variant: p1p_max_back
+      weight_basis: estimated_solid_PLA_half_including_ears_no_pots_or_hardware
+      weight_kg: 0.342071
+      width_mm: 187.8
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\od\OneDrive\docs\organization_storage_drawer_unit\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_p1p_max_back
+opening_height_extra: 0.0
+opening_radius: 4.0
+outer_radius: 2.4
+part_role: frame
+pot_cost_details:
+  availability: On backorder
+  capacity_ml: 100
+  checked_date: '2026-10-18'
+  manufacturer: Systempak
+  pack_price_ex_vat_gbp: 60.95
+  pack_quantity: 500
+  part_number: '209'
+  price_basis: Single carton of 500 pots and lids; lids unused; delivery excluded
+  price_source_url: https://systempak.net/product/100ml-rectangular-tamper-evident-containers-and-lids/
+  unit_price_gbp: 0.14628
+  vat_rate: 0.2
+  weight_g: 8.0
+  weight_source_url: https://systempak.net/wp-content/uploads/2024/03/TDS-209-100ML.pdf
+pot_quantity: 0
+pots_cost_gbp: 0
+price_excludes_delivery: true
+price_gbp: 3.4207
+price_includes_vat: true
+print_instruction: Print outer face on bed, joint facing up.
+printer: Bambu Lab P1P
+product_name: "Printed 2 \xD7 7 \xB7 Systempak 209 \xB7 ai version 2 \xB7 p1p max\
+  \ back"
+project_name: C:\od\OneDrive\docs\organization_storage_drawer_unit
+rear_band: 6.0
+record_type: printed_drawer_unit
+roof_slope: 1.0
+row: 7
+runner_width: 10.0
+screw_head_seat_offset: 6.0
+screw_length: 16.0
+side_rail_width: 4.0
+style: ai_version_2
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: organization
+taxonomy_2_capital: Organization
+taxonomy_2_first_letter: o
+taxonomy_2_first_letter_upper: O
+taxonomy_2_length_1: o
+taxonomy_2_length_2: or
+taxonomy_2_length_3: org
+taxonomy_2_length_4: orga
+taxonomy_2_length_5: organ
+taxonomy_2_upper: ORGANIZATION
+taxonomy_2_upper_length_1: O
+taxonomy_2_upper_length_2: OR
+taxonomy_2_upper_length_3: ORG
+taxonomy_2_upper_length_4: ORGA
+taxonomy_2_upper_length_5: ORGAN
+taxonomy_3: storage
+taxonomy_3_capital: Storage
+taxonomy_3_first_letter: s
+taxonomy_3_first_letter_upper: S
+taxonomy_3_length_1: s
+taxonomy_3_length_2: st
+taxonomy_3_length_3: sto
+taxonomy_3_length_4: stor
+taxonomy_3_length_5: stora
+taxonomy_3_upper: STORAGE
+taxonomy_3_upper_length_1: S
+taxonomy_3_upper_length_2: ST
+taxonomy_3_upper_length_3: STO
+taxonomy_3_upper_length_4: STOR
+taxonomy_3_upper_length_5: STORA
+taxonomy_4: drawer_unit
+taxonomy_4_capital: Drawer Unit
+taxonomy_4_first_letter: d
+taxonomy_4_first_letter_upper: D
+taxonomy_4_length_1: d
+taxonomy_4_length_2: dr
+taxonomy_4_length_3: dra
+taxonomy_4_length_4: draw
+taxonomy_4_length_5: drawe
+taxonomy_4_upper: DRAWER_UNIT
+taxonomy_4_upper_length_1: D
+taxonomy_4_upper_length_2: DR
+taxonomy_4_upper_length_3: DRA
+taxonomy_4_upper_length_4: DRAW
+taxonomy_4_upper_length_5: DRAWE
+taxonomy_5: 2_column
+taxonomy_5_capital: 2 Column
+taxonomy_5_first_letter: '2'
+taxonomy_5_first_letter_upper: '2'
+taxonomy_5_length_1: '2'
+taxonomy_5_length_2: '2_'
+taxonomy_5_length_3: 2_c
+taxonomy_5_length_4: 2_co
+taxonomy_5_length_5: 2_col
+taxonomy_5_upper: 2_COLUMN
+taxonomy_5_upper_length_1: '2'
+taxonomy_5_upper_length_2: '2_'
+taxonomy_5_upper_length_3: 2_C
+taxonomy_5_upper_length_4: 2_CO
+taxonomy_5_upper_length_5: 2_COL
+taxonomy_6: 7_row
+taxonomy_6_capital: 7 Row
+taxonomy_6_first_letter: '7'
+taxonomy_6_first_letter_upper: '7'
+taxonomy_6_length_1: '7'
+taxonomy_6_length_2: '7_'
+taxonomy_6_length_3: 7_r
+taxonomy_6_length_4: 7_ro
+taxonomy_6_length_5: 7_row
+taxonomy_6_upper: 7_ROW
+taxonomy_6_upper_length_1: '7'
+taxonomy_6_upper_length_2: '7_'
+taxonomy_6_upper_length_3: 7_R
+taxonomy_6_upper_length_4: 7_RO
+taxonomy_6_upper_length_5: 7_ROW
+taxonomy_7: rectangle_100_ml_tamper_evident_systempak_209_container
+taxonomy_7_capital: Rectangle 100 Ml Tamper Evident Systempak 209 Container
+taxonomy_7_first_letter: r
+taxonomy_7_first_letter_upper: R
+taxonomy_7_length_1: r
+taxonomy_7_length_2: re
+taxonomy_7_length_3: rec
+taxonomy_7_length_4: rect
+taxonomy_7_length_5: recta
+taxonomy_7_upper: RECTANGLE_100_ML_TAMPER_EVIDENT_SYSTEMPAK_209_CONTAINER
+taxonomy_7_upper_length_1: R
+taxonomy_7_upper_length_2: RE
+taxonomy_7_upper_length_3: REC
+taxonomy_7_upper_length_4: RECT
+taxonomy_7_upper_length_5: RECTA
+taxonomy_8: ai_version_2_style
+taxonomy_8_capital: Ai Version 2 Style
+taxonomy_8_first_letter: a
+taxonomy_8_first_letter_upper: A
+taxonomy_8_length_1: a
+taxonomy_8_length_2: ai
+taxonomy_8_length_3: ai_
+taxonomy_8_length_4: ai_v
+taxonomy_8_length_5: ai_ve
+taxonomy_8_upper: AI_VERSION_2_STYLE
+taxonomy_8_upper_length_1: A
+taxonomy_8_upper_length_2: AI
+taxonomy_8_upper_length_3: AI_
+taxonomy_8_upper_length_4: AI_V
+taxonomy_8_upper_length_5: AI_VE
+taxonomy_9: p1p_max_back
+taxonomy_9_capital: P1P Max Back
+taxonomy_9_first_letter: p
+taxonomy_9_first_letter_upper: P
+taxonomy_9_length_1: p
+taxonomy_9_length_2: p1
+taxonomy_9_length_3: p1p
+taxonomy_9_length_4: p1p_
+taxonomy_9_length_5: p1p_m
+taxonomy_9_upper: P1P_MAX_BACK
+taxonomy_9_upper_length_1: P
+taxonomy_9_upper_length_2: P1
+taxonomy_9_upper_length_3: P1P
+taxonomy_9_upper_length_4: P1P_
+taxonomy_9_upper_length_5: P1P_M
+thickness_wall: 1.8
+url_chat: ''
+variant: p1p_max_back
+weight_basis: estimated_solid_PLA_half_including_ears_no_pots_or_hardware
+weight_kg: 0.342071
+width_mm: 187.8

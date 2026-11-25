@@ -1,0 +1,530 @@
+{
+  "meshes": [
+    {
+      "design": "connector_suite",
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true
+      },
+      "volume_mm3": 18231.38747841344,
+      "bounds_mm": [
+        [
+          -47.5,
+          -52.5,
+          0.0
+        ],
+        [
+          45.5,
+          51.04999923706055,
+          10.5
+        ]
+      ]
+    },
+    {
+      "design": "connector_suite",
+      "file": "assembled",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 18231.386923650916,
+      "bounds_mm": [
+        [
+          -35.5,
+          -32.0,
+          -5.5
+        ],
+        [
+          35.5,
+          42.0,
+          39.5
+        ]
+      ]
+    },
+    {
+      "design": "screw_reference",
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true
+      },
+      "volume_mm3": 4346.035161386251,
+      "bounds_mm": [
+        [
+          -19.5,
+          -16.0,
+          0.0
+        ],
+        [
+          17.5,
+          16.0,
+          10.5
+        ]
+      ]
+    },
+    {
+      "design": "screw_reference",
+      "file": "plate",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true
+      },
+      "volume_mm3": 1514.7709944455328,
+      "bounds_mm": [
+        [
+          -7.5,
+          -6.995264053344727,
+          0.0
+        ],
+        [
+          7.5,
+          6.995264053344727,
+          10.5
+        ]
+      ]
+    },
+    {
+      "design": "screw_reference",
+      "file": "rail",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true
+      },
+      "volume_mm3": 2831.264156794648,
+      "bounds_mm": [
+        [
+          -5.5,
+          -16.0,
+          0.0
+        ],
+        [
+          5.5,
+          16.0,
+          10.0
+        ]
+      ]
+    },
+    {
+      "design": "screw_reference",
+      "file": "assembled",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 4346.03515855944,
+      "bounds_mm": [
+        [
+          -7.5,
+          -1.9952641725540161,
+          0.0
+        ],
+        [
+          7.5,
+          11.995264053344727,
+          39.5
+        ]
+      ]
+    },
+    {
+      "design": "snap_key",
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true
+      },
+      "volume_mm3": 5302.7547876828285,
+      "bounds_mm": [
+        [
+          -19.5,
+          -22.5,
+          0.0
+        ],
+        [
+          17.5,
+          22.5,
+          10.0
+        ]
+      ]
+    },
+    {
+      "design": "snap_key",
+      "file": "plate",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true,
+        "no_unsupported_downward_faces": true
+      },
+      "volume_mm3": 1129.1850096655978,
+      "bounds_mm": [
+        [
+          -7.5,
+          -7.0,
+          0.0
+        ],
+        [
+          7.5,
+          7.0,
+          7.5
+        ]
+      ]
+    },
+    {
+      "design": "snap_key",
+      "file": "rail",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true
+      },
+      "volume_mm3": 4078.830019908703,
+      "bounds_mm": [
+        [
+          -5.5,
+          -22.5,
+          0.0
+        ],
+        [
+          5.5,
+          22.5,
+          10.0
+        ]
+      ]
+    },
+    {
+      "design": "snap_key",
+      "file": "assembled",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 5302.754827372747,
+      "bounds_mm": [
+        [
+          -7.5,
+          -2.0,
+          -5.5
+        ],
+        [
+          7.5,
+          12.0,
+          39.5
+        ]
+      ]
+    },
+    {
+      "design": "snap_key",
+      "file": "key",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true,
+        "no_unsupported_downward_faces": true
+      },
+      "volume_mm3": 94.73977849293927,
+      "bounds_mm": [
+        [
+          -5.699999809265137,
+          -2.049999952316284,
+          0.0
+        ],
+        [
+          5.099999904632568,
+          2.049999952316284,
+          4.0
+        ]
+      ]
+    },
+    {
+      "design": "snap_single",
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true,
+        "no_unsupported_downward_faces": true
+      },
+      "volume_mm3": 4435.035939311542,
+      "bounds_mm": [
+        [
+          -19.5,
+          -21.049999237060547,
+          0.0
+        ],
+        [
+          17.5,
+          21.049999237060547,
+          10.0
+        ]
+      ]
+    },
+    {
+      "design": "snap_single",
+      "file": "plate",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true,
+        "no_unsupported_downward_faces": true
+      },
+      "volume_mm3": 1373.3381234505632,
+      "bounds_mm": [
+        [
+          -7.5,
+          -7.0,
+          0.0
+        ],
+        [
+          7.5,
+          7.0,
+          7.5
+        ]
+      ]
+    },
+    {
+      "design": "snap_single",
+      "file": "rail",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true,
+        "no_unsupported_downward_faces": true
+      },
+      "volume_mm3": 3061.6978119229757,
+      "bounds_mm": [
+        [
+          -5.5,
+          -21.049999237060547,
+          0.0
+        ],
+        [
+          5.5,
+          21.049999237060547,
+          10.0
+        ]
+      ]
+    },
+    {
+      "design": "snap_single",
+      "file": "assembled",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 4435.036026975483,
+      "bounds_mm": [
+        [
+          -7.5,
+          -2.0,
+          -2.5999999046325684
+        ],
+        [
+          7.5,
+          12.0,
+          39.5
+        ]
+      ]
+    },
+    {
+      "design": "snap_twin",
+      "file": "3dpr",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true,
+        "no_unsupported_downward_faces": true
+      },
+      "volume_mm3": 4147.561080725516,
+      "bounds_mm": [
+        [
+          -19.5,
+          -21.049999237060547,
+          0.0
+        ],
+        [
+          17.5,
+          21.049999237060547,
+          10.0
+        ]
+      ]
+    },
+    {
+      "design": "snap_twin",
+      "file": "plate",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true,
+        "no_unsupported_downward_faces": true
+      },
+      "volume_mm3": 1284.288745366756,
+      "bounds_mm": [
+        [
+          -7.5,
+          -7.0,
+          0.0
+        ],
+        [
+          7.5,
+          7.0,
+          7.5
+        ]
+      ]
+    },
+    {
+      "design": "snap_twin",
+      "file": "rail",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true,
+        "exact_piece_count": true,
+        "every_piece_on_bed": true,
+        "fits_a1_mini": true,
+        "no_unsupported_downward_faces": true
+      },
+      "volume_mm3": 2863.2722723801962,
+      "bounds_mm": [
+        [
+          -5.5,
+          -21.049999237060547,
+          0.0
+        ],
+        [
+          5.5,
+          21.049999237060547,
+          10.0
+        ]
+      ]
+    },
+    {
+      "design": "snap_twin",
+      "file": "assembled",
+      "checks": {
+        "watertight": true,
+        "winding": true,
+        "positive_volume": true
+      },
+      "volume_mm3": 4147.561112936465,
+      "bounds_mm": [
+        [
+          -7.5,
+          -2.0,
+          -2.5999999046325684
+        ],
+        [
+          7.5,
+          12.0,
+          39.5
+        ]
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "design": "screw_reference",
+      "checks": {
+        "seated_plate_rail_clear": true,
+        "kit_has_exact_components": true,
+        "assembled_has_exact_components": true
+      }
+    },
+    {
+      "design": "snap_key",
+      "checks": {
+        "seated_plate_rail_clear": true,
+        "key_seats_without_interference": true,
+        "key_catches_tongue_on_side_withdrawal": true,
+        "key_blocks_rail_withdrawal": true,
+        "key_bears_against_plate": true,
+        "compressed_key_can_pass": true,
+        "kit_has_exact_components": true,
+        "assembled_has_exact_components": true
+      },
+      "max_prescribed_insertion_collision_mm3": 0.0
+    },
+    {
+      "design": "snap_single",
+      "checks": {
+        "seated_plate_rail_clear": true,
+        "no_thin_web_between_receiver_openings": true,
+        "relaxed_hooks_block_withdrawal": true,
+        "rigid_guide_limits_sideways_play": true,
+        "compressed_hooks_can_pass": true,
+        "compressed_rail_is_valid": true,
+        "kit_has_exact_components": true,
+        "assembled_has_exact_components": true
+      },
+      "max_prescribed_insertion_collision_mm3": 0.0
+    },
+    {
+      "design": "snap_twin",
+      "checks": {
+        "seated_plate_rail_clear": true,
+        "no_thin_web_between_receiver_openings": true,
+        "relaxed_hooks_block_withdrawal": true,
+        "rigid_guide_limits_sideways_play": true,
+        "compressed_hooks_can_pass": true,
+        "compressed_rail_is_valid": true,
+        "kit_has_exact_components": true,
+        "assembled_has_exact_components": true
+      },
+      "max_prescribed_insertion_collision_mm3": 0.0
+    }
+  ],
+  "limitations": [
+    "Prescribed deflection checks passage and recovery space only; not FEA, insertion force, pull-out rating or PETG durability.",
+    "All candidates require printed fit, creep and destructive pull tests before choosing a cabinet connector."
+  ],
+  "suite_exact_quantity": true,
+  "all_checks_passed": true
+}

@@ -1,0 +1,105 @@
+{
+  "compared_to": "User-edited lip profile before relief refinement",
+  "all_checks_passed": true,
+  "parts": [
+    {
+      "id": "organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style",
+      "variant": "frame",
+      "column": 1,
+      "row": 1,
+      "before_cm3": 45.478657831460886,
+      "after_cm3": 43.68970767263958,
+      "saving_percent": 3.9336036816455144
+    },
+    {
+      "id": "organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_0d75",
+      "variant": "fit_clearance_0d75",
+      "column": 1,
+      "row": 1,
+      "before_cm3": 10.494370877821906,
+      "after_cm3": 10.494370877821906,
+      "saving_percent": 0.0
+    },
+    {
+      "id": "organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_1d5",
+      "variant": "fit_clearance_1d5",
+      "column": 1,
+      "row": 1,
+      "before_cm3": 10.679774443198902,
+      "after_cm3": 10.679774443198902,
+      "saving_percent": 0.0
+    },
+    {
+      "id": "organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_2d25",
+      "variant": "fit_clearance_2d25",
+      "column": 1,
+      "row": 1,
+      "before_cm3": 10.865178018823059,
+      "after_cm3": 10.865178018823059,
+      "saving_percent": 0.0
+    },
+    {
+      "id": "organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_a1_mini_max",
+      "variant": "a1_mini_max",
+      "column": 1,
+      "row": 4,
+      "before_cm3": 147.23394299932164,
+      "after_cm3": 132.05726596181646,
+      "saving_percent": 10.30786565131596
+    },
+    {
+      "id": "organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style",
+      "variant": "frame",
+      "column": 2,
+      "row": 2,
+      "before_cm3": 148.05013495404742,
+      "after_cm3": 133.5040862483509,
+      "saving_percent": 9.825083043802296
+    },
+    {
+      "id": "organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_bank_layout",
+      "variant": "bank_layout",
+      "column": 2,
+      "row": 2,
+      "before_cm3": 36.31968499368167,
+      "after_cm3": 36.31968499368167,
+      "saving_percent": 0.0
+    },
+    {
+      "id": "organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_solid_reference",
+      "variant": "solid_reference",
+      "column": 2,
+      "row": 2,
+      "before_cm3": 255.47953669512404,
+      "after_cm3": 255.47953669512404,
+      "saving_percent": 0.0
+    },
+    {
+      "id": "organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_p1p_max",
+      "variant": "p1p_max",
+      "column": 2,
+      "row": 7,
+      "before_cm3": 463.3774683980856,
+      "after_cm3": 399.09817164942126,
+      "saving_percent": 13.871908138063006
+    },
+    {
+      "id": "organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style",
+      "variant": "frame",
+      "column": 4,
+      "row": 12,
+      "before_cm3": 1498.9518775785778,
+      "after_cm3": 1258.668766061605,
+      "saving_percent": 16.030075088543093
+    },
+    {
+      "id": "organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_layout",
+      "variant": "layout",
+      "column": 4,
+      "row": 12,
+      "before_cm3": 170.95588178493105,
+      "after_cm3": 170.95588178493105,
+      "saving_percent": 0.0
+    }
+  ]
+}

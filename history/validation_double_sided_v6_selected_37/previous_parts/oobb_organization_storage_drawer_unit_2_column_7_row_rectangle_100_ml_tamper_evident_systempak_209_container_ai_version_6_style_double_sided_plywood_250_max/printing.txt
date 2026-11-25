@@ -1,0 +1,35 @@
+V6 double sided Systempak 209 / 100 ml drawer unit. Dimensions in mm.
+197.8 x 220.3 x 224.0 assembled; 2 columns x 7 rows on EACH side, 28 pots total.
+front.stl and back.stl: print ONE each, outside face on bed; they are identical.
+One-piece plates require 197.8 x 220.3 mm usable area, plus margins/brim.
+Planning area: 256.0 x 256.0 mm, 2.0 mm margins; printer: P1P.
+P1P: retain the 18 x 28 mm corner exclusion; do not add an unchecked brim.
+The plates exceed the A1 mini bed. No tile seams or filler border are included.
+Four plain M3 clearance holes per plate, centres 5 mm from each adjacent outside edge.
+Use these eight holes to secure both plates to the surrounding plywood enclosure.
+Plywood thickness, joinery and screw length are user supplied; they are outside the CAD frame dimensions.
+rails_plate_*.stl: print EVERY numbered batch once; total 21 identical snap_rail.
+snap_rail.stl is a spare individual part, not an extra kit quantity.
+joining_plates.stl contains ONE four-unit joiner and ONE two-unit joiner together in the same print file.
+Both joiners are 6 mm thick, with M3 countersinks facing UP and flat backs on the bed.
+Four-unit plate: 20 x 20 mm, four holes on 10 x 10 mm centres. Two-unit plate: 20 x 10 mm, two holes 10 mm apart.
+Mount on the outside faces over existing cabinet corner holes. Rotate the two-unit plate 90 degrees for vertically adjacent units.
+Default spacing assumes touching plastic face edges; extra plywood spacing between units changes the required hole pitch.
+Joiners are optional accessories, excluded from the single-cabinet BOM and assembled reference. Supply M3 countersunk screws and matching backing/nuts.
+Face plates: 6 mm base web plus two 15 mm-wide floor tabs projecting 12 mm inward, 18 mm overall print depth.
+The original 56 mm stop span is split into two 15 mm tabs with a 26 mm central gap.
+Tabs have 45-degree bed-supported root slopes, flat bearing roofs beneath the drawer above, and tapered inner tips.
+The physical bottom drawer has no added floor extension; the plywood supplies its support.
+CAD negative Y is UP in service: the wide T is the TOP of each drawer. Preview rotation is corrected.
+Snap receivers retain a continuous 1 mm inner web; use the matching NEW rail bevels with these plates.
+The former 1 mm full-width lower cutout relief is removed; shoulder webs connect solidly to the floor crossbar.
+Upper and lower drawer-opening rectangles both use 1 mm corner radii. Current matching rails are unchanged.
+Rails lie on the long flat face, with their central stop wings supported on the bed.
+3dpr.stl is the complete kit overview and exceeds one bed. assembled.stl is reference only.
+Snap rails into the first plate, then progressively seat the second plate.
+All catches remain flush with the outside faces. Rail-to-plate connections use no screws or loose keys.
+Each rail has an integral 3 mm middle stop, with wings extending into the pot body channel.
+Drawers enter from both faces and stop at opposite sides of the middle barrier.
+Retained outer catches resist pullout at both faces; lift trays past them as before.
+Inspect the 0.5 mm receiver lands and spring slots in the slicer.
+Print a rail/receiver fit trial before the whole set. Fit, stop contact, strength and creep need physical PETG testing.

@@ -1,0 +1,470 @@
+adhesion_ears: true
+bed_height: 400.0
+bed_margin: 2.0
+bed_width: 400.0
+bip_39_2_word_array:
+- beauty
+- fly
+bip_39_2_word_no_space: beautyfly
+bip_39_2_word_space: beauty fly
+bip_39_2_word_underscore: beauty_fly
+bip_39_3_word_array:
+- beauty
+- fly
+- near
+bip_39_3_word_no_space: beautyflynear
+bip_39_3_word_space: beauty fly near
+bip_39_3_word_underscore: beauty_fly_near
+bip_39_full_array:
+- beauty
+- fly
+- near
+- purpose
+- table
+- figure
+- bullet
+- clap
+- super
+- endless
+- payment
+- bundle
+bip_39_full_no_space: beautyflynearpurposetablefigurebulletclapsuperendlesspaymentbundle
+bip_39_full_space: beauty fly near purpose table figure bullet clap super endless
+  payment bundle
+bip_39_full_underscore: beauty_fly_near_purpose_table_figure_bullet_clap_super_endless_payment_bundle
+catch_tab_depth: 1.5
+catch_tab_height: 6.0
+catch_tab_ramp_depth: 6.0
+catch_tab_width: 56.0
+column: 1
+container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+container_clearance: 2.25
+container_short: rectangle_100_ml_tamper_evident_systempak_209
+depth_clearance: 1.5
+depth_lip: 12.0
+directory: parts/organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_2d25
+drawer_border_edge: 2.4
+ear_diameter: 20.0
+ear_gap: 0.5
+ear_height: 0.6
+ear_link_height: 0.3
+ear_link_width: 5.0
+front_band: 7.5
+id: organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_2d25
+id_no_class: organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_2d25
+id_no_size: organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_2d25
+id_no_type: organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_2d25
+id_oobb: organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_2d25
+inset_lip: 5.5
+kwargs:
+  adhesion_ears: true
+  bed_height: 400.0
+  bed_margin: 2.0
+  bed_width: 400.0
+  catch_tab_depth: 1.5
+  catch_tab_height: 6.0
+  catch_tab_ramp_depth: 6.0
+  catch_tab_width: 56.0
+  column: 1
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_clearance: 2.25
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  depth_clearance: 1.5
+  depth_lip: 12.0
+  drawer_border_edge: 2.4
+  ear_diameter: 20.0
+  ear_gap: 0.5
+  ear_height: 0.6
+  ear_link_height: 0.3
+  ear_link_width: 5.0
+  filter: ''
+  front_band: 7.5
+  inset_lip: 5.5
+  lightening: true
+  lip_cutout_radius: 1.0
+  lip_shelf_thickness: 3.0
+  lip_support_reference_height: 26.0
+  middle_rib_width: 0.0
+  modes:
+  - 3dpr
+  module_gap: 0.4
+  navigation: true
+  oobb_name: ai_version_1
+  oomp_description_extra: ''
+  oomp_description_main: ai_version_1_
+  oomp_mode: project
+  oomp_run: false
+  opening_radius: 4.0
+  outer_radius: 2.4
+  overwrite: true
+  part_role: fit
+  rear_band: 6.0
+  roof_slope: 1.0
+  row: 1
+  runner_width: 10.0
+  side_rail_width: 5.0
+  style: ai_version_1
+  taxonomy_1: organization
+  taxonomy_2: storage
+  taxonomy_3: drawer_unit
+  taxonomy_4: 1_column
+  taxonomy_5: 1_row
+  taxonomy_6: rectangle_100_ml_tamper_evident_systempak_209_container
+  taxonomy_7: ai_version_1_style
+  taxonomy_8: fit_clearance_2d25
+  test_depth: 12
+  thickness_wall: 1.8
+  type: default_ai_version_1
+  variant: fit_clearance_2d25
+lightening: true
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_2d25
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_2d25
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_2d25
+lip_cutout_radius: 1.0
+lip_shelf_thickness: 3.0
+lip_support_reference_height: 26.0
+md5: 13ab3e4e573dceac07894ed9a936868f
+md5_10: 13ab3e4e57
+md5_10_upper: 13AB3E4E57
+md5_5: 13ab3
+md5_5_upper: 13AB3
+md5_6: 13ab3e
+md5_6_alpha: rmm6
+md5_6_alpha_upper: RMM6
+md5_6_upper: 13AB3E
+middle_rib_width: 0.0
+module_gap: 0.4
+name: Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml Tamper Evident
+  Systempak 209 Container Ai Version 1 Style Fit Clearance 2D25
+name_no_class: Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml Tamper
+  Evident Systempak 209 Container Ai Version 1 Style Fit Clearance 2D25
+name_no_size: Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml Tamper
+  Evident Systempak 209 Container Ai Version 1 Style Fit Clearance 2D25
+name_no_type: Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml Tamper
+  Evident Systempak 209 Container Ai Version 1 Style Fit Clearance 2D25
+name_proper: Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml Tamper
+  Evident Systempak 209 Container Ai Version 1 Style Fit Clearance 2D25
+name_space: organization storage drawer unit 1 column 1 row rectangle 100 ml tamper
+  evident systempak 209 container ai version 1 style fit clearance 2d25
+name_upper: ORGANIZATION STORAGE DRAWER UNIT 1 COLUMN 1 ROW RECTANGLE 100 ML TAMPER
+  EVIDENT SYSTEMPAK 209 CONTAINER AI VERSION 1 STYLE FIT CLEARANCE 2D25
+oobb_details:
+  adhesion_ears: true
+  bed_height: 400.0
+  bed_margin: 2.0
+  bed_width: 400.0
+  catch_tab_depth: 1.5
+  catch_tab_height: 6.0
+  catch_tab_ramp_depth: 6.0
+  catch_tab_width: 56.0
+  column: 1
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_clearance: 2.25
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  depth_clearance: 1.5
+  depth_lip: 12.0
+  drawer_border_edge: 2.4
+  ear_diameter: 20.0
+  ear_gap: 0.5
+  ear_height: 0.6
+  ear_link_height: 0.3
+  ear_link_width: 5.0
+  front_band: 7.5
+  inset_lip: 5.5
+  lightening: true
+  lip_cutout_radius: 1.0
+  lip_shelf_thickness: 3.0
+  lip_support_reference_height: 26.0
+  middle_rib_width: 0.0
+  module_gap: 0.4
+  oobb_name: ai_version_1
+  opening_radius: 4.0
+  outer_radius: 2.4
+  part_role: fit
+  rear_band: 6.0
+  roof_slope: 1.0
+  row: 1
+  runner_width: 10.0
+  side_rail_width: 5.0
+  style: ai_version_1
+  taxonomy_1: organization
+  taxonomy_2: storage
+  taxonomy_3: drawer_unit
+  taxonomy_4: 1_column
+  taxonomy_5: 1_row
+  taxonomy_6: rectangle_100_ml_tamper_evident_systempak_209_container
+  taxonomy_7: ai_version_1_style
+  taxonomy_8: fit_clearance_2d25
+  test_depth: 12
+  thickness_wall: 1.8
+  variant: fit_clearance_2d25
+oobb_name: ai_version_1
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      adhesion_ears: true
+      bed_height: 400.0
+      bed_margin: 2.0
+      bed_width: 400.0
+      catch_tab_depth: 1.5
+      catch_tab_height: 6.0
+      catch_tab_ramp_depth: 6.0
+      catch_tab_width: 56.0
+      column: 1
+      container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+      container_clearance: 2.25
+      container_short: rectangle_100_ml_tamper_evident_systempak_209
+      depth_clearance: 1.5
+      depth_lip: 12.0
+      directory: parts\organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_2d25
+      drawer_border_edge: 2.4
+      ear_diameter: 20.0
+      ear_gap: 0.5
+      ear_height: 0.6
+      ear_link_height: 0.3
+      ear_link_width: 5.0
+      front_band: 7.5
+      inset_lip: 5.5
+      lightening: true
+      lip_cutout_radius: 1.0
+      lip_shelf_thickness: 3.0
+      lip_support_reference_height: 26.0
+      middle_rib_width: 0.0
+      module_gap: 0.4
+      name: organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_2d25
+      name_proper: Organization Storage Drawer Unit 1 Column 1 Row Rectangle 100 Ml
+        Tamper Evident Systempak 209 Container Ai Version 1 Style Fit Clearance 2D25
+      name_space: organization storage drawer unit 1 column 1 row rectangle 100 ml
+        tamper evident systempak 209 container ai version 1 style fit clearance 2d25
+      name_upper: ORGANIZATION STORAGE DRAWER UNIT 1 COLUMN 1 ROW RECTANGLE 100 ML
+        TAMPER EVIDENT SYSTEMPAK 209 CONTAINER AI VERSION 1 STYLE FIT CLEARANCE 2D25
+      oobb_details:
+        adhesion_ears: true
+        bed_height: 400.0
+        bed_margin: 2.0
+        bed_width: 400.0
+        catch_tab_depth: 1.5
+        catch_tab_height: 6.0
+        catch_tab_ramp_depth: 6.0
+        catch_tab_width: 56.0
+        column: 1
+        container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+        container_clearance: 2.25
+        container_short: rectangle_100_ml_tamper_evident_systempak_209
+        depth_clearance: 1.5
+        depth_lip: 12.0
+        drawer_border_edge: 2.4
+        ear_diameter: 20.0
+        ear_gap: 0.5
+        ear_height: 0.6
+        ear_link_height: 0.3
+        ear_link_width: 5.0
+        front_band: 7.5
+        inset_lip: 5.5
+        lightening: true
+        lip_cutout_radius: 1.0
+        lip_shelf_thickness: 3.0
+        lip_support_reference_height: 26.0
+        middle_rib_width: 0.0
+        module_gap: 0.4
+        oobb_name: ai_version_1
+        opening_radius: 4.0
+        outer_radius: 2.4
+        part_role: fit
+        rear_band: 6.0
+        roof_slope: 1.0
+        row: 1
+        runner_width: 10.0
+        side_rail_width: 5.0
+        style: ai_version_1
+        taxonomy_1: organization
+        taxonomy_2: storage
+        taxonomy_3: drawer_unit
+        taxonomy_4: 1_column
+        taxonomy_5: 1_row
+        taxonomy_6: rectangle_100_ml_tamper_evident_systempak_209_container
+        taxonomy_7: ai_version_1_style
+        taxonomy_8: fit_clearance_2d25
+        test_depth: 12
+        thickness_wall: 1.8
+        variant: fit_clearance_2d25
+      opening_radius: 4.0
+      outer_radius: 2.4
+      part_role: fit
+      rear_band: 6.0
+      roof_slope: 1.0
+      row: 1
+      runner_width: 10.0
+      side_rail_width: 5.0
+      style: ai_version_1
+      taxonomy_1: organization
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: storage
+      taxonomy_3: drawer_unit
+      taxonomy_4: 1_column
+      taxonomy_5: 1_row
+      taxonomy_6: rectangle_100_ml_tamper_evident_systempak_209_container
+      taxonomy_7: ai_version_1_style
+      taxonomy_8: fit_clearance_2d25
+      taxonomy_9: ''
+      test_depth: 12
+      thickness_wall: 1.8
+      url_chat: ''
+      variant: fit_clearance_2d25
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\od\OneDrive\docs\organization_storage_drawer_unit\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_2d25
+opening_radius: 4.0
+outer_radius: 2.4
+part_role: fit
+project_name: C:\od\OneDrive\docs\organization_storage_drawer_unit
+rear_band: 6.0
+roof_slope: 1.0
+row: 1
+runner_width: 10.0
+side_rail_width: 5.0
+style: ai_version_1
+taxonomy_1: organization
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Organization
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: or
+taxonomy_1_length_3: org
+taxonomy_1_length_4: orga
+taxonomy_1_length_5: organ
+taxonomy_1_upper: ORGANIZATION
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OR
+taxonomy_1_upper_length_3: ORG
+taxonomy_1_upper_length_4: ORGA
+taxonomy_1_upper_length_5: ORGAN
+taxonomy_2: storage
+taxonomy_2_capital: Storage
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: st
+taxonomy_2_length_3: sto
+taxonomy_2_length_4: stor
+taxonomy_2_length_5: stora
+taxonomy_2_upper: STORAGE
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: ST
+taxonomy_2_upper_length_3: STO
+taxonomy_2_upper_length_4: STOR
+taxonomy_2_upper_length_5: STORA
+taxonomy_3: drawer_unit
+taxonomy_3_capital: Drawer Unit
+taxonomy_3_first_letter: d
+taxonomy_3_first_letter_upper: D
+taxonomy_3_length_1: d
+taxonomy_3_length_2: dr
+taxonomy_3_length_3: dra
+taxonomy_3_length_4: draw
+taxonomy_3_length_5: drawe
+taxonomy_3_upper: DRAWER_UNIT
+taxonomy_3_upper_length_1: D
+taxonomy_3_upper_length_2: DR
+taxonomy_3_upper_length_3: DRA
+taxonomy_3_upper_length_4: DRAW
+taxonomy_3_upper_length_5: DRAWE
+taxonomy_4: 1_column
+taxonomy_4_capital: 1 Column
+taxonomy_4_first_letter: '1'
+taxonomy_4_first_letter_upper: '1'
+taxonomy_4_length_1: '1'
+taxonomy_4_length_2: '1_'
+taxonomy_4_length_3: 1_c
+taxonomy_4_length_4: 1_co
+taxonomy_4_length_5: 1_col
+taxonomy_4_upper: 1_COLUMN
+taxonomy_4_upper_length_1: '1'
+taxonomy_4_upper_length_2: '1_'
+taxonomy_4_upper_length_3: 1_C
+taxonomy_4_upper_length_4: 1_CO
+taxonomy_4_upper_length_5: 1_COL
+taxonomy_5: 1_row
+taxonomy_5_capital: 1 Row
+taxonomy_5_first_letter: '1'
+taxonomy_5_first_letter_upper: '1'
+taxonomy_5_length_1: '1'
+taxonomy_5_length_2: '1_'
+taxonomy_5_length_3: 1_r
+taxonomy_5_length_4: 1_ro
+taxonomy_5_length_5: 1_row
+taxonomy_5_upper: 1_ROW
+taxonomy_5_upper_length_1: '1'
+taxonomy_5_upper_length_2: '1_'
+taxonomy_5_upper_length_3: 1_R
+taxonomy_5_upper_length_4: 1_RO
+taxonomy_5_upper_length_5: 1_ROW
+taxonomy_6: rectangle_100_ml_tamper_evident_systempak_209_container
+taxonomy_6_capital: Rectangle 100 Ml Tamper Evident Systempak 209 Container
+taxonomy_6_first_letter: r
+taxonomy_6_first_letter_upper: R
+taxonomy_6_length_1: r
+taxonomy_6_length_2: re
+taxonomy_6_length_3: rec
+taxonomy_6_length_4: rect
+taxonomy_6_length_5: recta
+taxonomy_6_upper: RECTANGLE_100_ML_TAMPER_EVIDENT_SYSTEMPAK_209_CONTAINER
+taxonomy_6_upper_length_1: R
+taxonomy_6_upper_length_2: RE
+taxonomy_6_upper_length_3: REC
+taxonomy_6_upper_length_4: RECT
+taxonomy_6_upper_length_5: RECTA
+taxonomy_7: ai_version_1_style
+taxonomy_7_capital: Ai Version 1 Style
+taxonomy_7_first_letter: a
+taxonomy_7_first_letter_upper: A
+taxonomy_7_length_1: a
+taxonomy_7_length_2: ai
+taxonomy_7_length_3: ai_
+taxonomy_7_length_4: ai_v
+taxonomy_7_length_5: ai_ve
+taxonomy_7_upper: AI_VERSION_1_STYLE
+taxonomy_7_upper_length_1: A
+taxonomy_7_upper_length_2: AI
+taxonomy_7_upper_length_3: AI_
+taxonomy_7_upper_length_4: AI_V
+taxonomy_7_upper_length_5: AI_VE
+taxonomy_8: fit_clearance_2d25
+taxonomy_8_capital: Fit Clearance 2D25
+taxonomy_8_first_letter: f
+taxonomy_8_first_letter_upper: F
+taxonomy_8_length_1: f
+taxonomy_8_length_2: fi
+taxonomy_8_length_3: fit
+taxonomy_8_length_4: fit_
+taxonomy_8_length_5: fit_c
+taxonomy_8_upper: FIT_CLEARANCE_2D25
+taxonomy_8_upper_length_1: F
+taxonomy_8_upper_length_2: FI
+taxonomy_8_upper_length_3: FIT
+taxonomy_8_upper_length_4: FIT_
+taxonomy_8_upper_length_5: FIT_C
+taxonomy_9: ''
+test_depth: 12
+thickness_wall: 1.8
+url_chat: ''
+variant: fit_clearance_2d25

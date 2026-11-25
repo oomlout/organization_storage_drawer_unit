@@ -1,0 +1,457 @@
+{
+  "bom": {
+    "snap_rail": 36,
+    "front": 1,
+    "back": 1
+  },
+  "views": {
+    "front": "front",
+    "back": "back",
+    "snap_rail": "snap_rail",
+    "assembled": "assembled",
+    "rails_plate_01": "rails_plate_01",
+    "rails_plate_02": "rails_plate_02",
+    "rails_plate_03": "rails_plate_03",
+    "rails_plate_04": "rails_plate_04"
+  },
+  "drawer_count": 54,
+  "grid_per_face": [
+    3,
+    9
+  ],
+  "identical_face_plates": true,
+  "assembled_envelope_mm": [
+    300.0,
+    300.0,
+    224.0
+  ],
+  "rail_between_plates_mm": 212.0,
+  "snap_tip_length_mm": 6.0,
+  "middle_stop_from_outer_face_mm": [
+    110.5,
+    113.5
+  ],
+  "middle_stop_size_mm": [
+    23.0,
+    10.0,
+    3.0
+  ],
+  "rail_positions": [
+    {
+      "x": -133.95,
+      "y": -127.44999999999999,
+      "kind": "rail",
+      "axis_y": -122.44999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -133.95,
+      "y": -96.14999999999999,
+      "kind": "rail",
+      "axis_y": -91.14999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -133.95,
+      "y": -64.85,
+      "kind": "rail",
+      "axis_y": -59.849999999999994,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -133.95,
+      "y": -33.54999999999998,
+      "kind": "rail",
+      "axis_y": -28.549999999999983,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -133.95,
+      "y": -2.249999999999986,
+      "kind": "rail",
+      "axis_y": 2.750000000000014,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -133.95,
+      "y": 29.05000000000001,
+      "kind": "rail",
+      "axis_y": 34.05000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -133.95,
+      "y": 60.35000000000002,
+      "kind": "rail",
+      "axis_y": 65.35000000000002,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -133.95,
+      "y": 91.65,
+      "kind": "rail",
+      "axis_y": 96.65,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -133.95,
+      "y": 122.95000000000002,
+      "kind": "rail",
+      "axis_y": 127.95000000000002,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -44.649999999999984,
+      "y": -127.44999999999999,
+      "kind": "rail",
+      "axis_y": -122.44999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -44.649999999999984,
+      "y": -96.14999999999999,
+      "kind": "rail",
+      "axis_y": -91.14999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -44.649999999999984,
+      "y": -64.85,
+      "kind": "rail",
+      "axis_y": -59.849999999999994,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -44.649999999999984,
+      "y": -33.54999999999998,
+      "kind": "rail",
+      "axis_y": -28.549999999999983,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -44.649999999999984,
+      "y": -2.249999999999986,
+      "kind": "rail",
+      "axis_y": 2.750000000000014,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -44.649999999999984,
+      "y": 29.05000000000001,
+      "kind": "rail",
+      "axis_y": 34.05000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -44.649999999999984,
+      "y": 60.35000000000002,
+      "kind": "rail",
+      "axis_y": 65.35000000000002,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -44.649999999999984,
+      "y": 91.65,
+      "kind": "rail",
+      "axis_y": 96.65,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -44.649999999999984,
+      "y": 122.95000000000002,
+      "kind": "rail",
+      "axis_y": 127.95000000000002,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 44.65000000000001,
+      "y": -127.44999999999999,
+      "kind": "rail",
+      "axis_y": -122.44999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 44.65000000000001,
+      "y": -96.14999999999999,
+      "kind": "rail",
+      "axis_y": -91.14999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 44.65000000000001,
+      "y": -64.85,
+      "kind": "rail",
+      "axis_y": -59.849999999999994,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 44.65000000000001,
+      "y": -33.54999999999998,
+      "kind": "rail",
+      "axis_y": -28.549999999999983,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 44.65000000000001,
+      "y": -2.249999999999986,
+      "kind": "rail",
+      "axis_y": 2.750000000000014,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 44.65000000000001,
+      "y": 29.05000000000001,
+      "kind": "rail",
+      "axis_y": 34.05000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 44.65000000000001,
+      "y": 60.35000000000002,
+      "kind": "rail",
+      "axis_y": 65.35000000000002,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 44.65000000000001,
+      "y": 91.65,
+      "kind": "rail",
+      "axis_y": 96.65,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 44.65000000000001,
+      "y": 122.95000000000002,
+      "kind": "rail",
+      "axis_y": 127.95000000000002,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 133.95000000000002,
+      "y": -127.44999999999999,
+      "kind": "rail",
+      "axis_y": -122.44999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 133.95000000000002,
+      "y": -96.14999999999999,
+      "kind": "rail",
+      "axis_y": -91.14999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 133.95000000000002,
+      "y": -64.85,
+      "kind": "rail",
+      "axis_y": -59.849999999999994,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 133.95000000000002,
+      "y": -33.54999999999998,
+      "kind": "rail",
+      "axis_y": -28.549999999999983,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 133.95000000000002,
+      "y": -2.249999999999986,
+      "kind": "rail",
+      "axis_y": 2.750000000000014,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 133.95000000000002,
+      "y": 29.05000000000001,
+      "kind": "rail",
+      "axis_y": 34.05000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 133.95000000000002,
+      "y": 60.35000000000002,
+      "kind": "rail",
+      "axis_y": 65.35000000000002,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 133.95000000000002,
+      "y": 91.65,
+      "kind": "rail",
+      "axis_y": 96.65,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 133.95000000000002,
+      "y": 122.95000000000002,
+      "kind": "rail",
+      "axis_y": 127.95000000000002,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    }
+  ],
+  "density_limits": {
+    "four_column_width_mm": 376.4,
+    "ten_row_height_mm": 331.2,
+    "basis": "Upright uniform grid; current tray profile, clearances, row spacing and border retained"
+  },
+  "rail_batches": [
+    [
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail"
+    ],
+    [
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail"
+    ],
+    [
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail"
+    ],
+    [
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail",
+      "snap_rail"
+    ]
+  ],
+  "required_usable_plate_area_mm": [
+    300,
+    300
+  ],
+  "physical_fit": "Unverified PETG"
+}
