@@ -1,0 +1,310 @@
+{
+  "previous_models_unchanged": 17,
+  "meshes": [
+    {
+      "view": "3dpr",
+      "closed": true,
+      "bodies": 9,
+      "bounds_mm": [
+        [
+          -21.5,
+          -35.0,
+          0.0
+        ],
+        [
+          21.5,
+          35.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 13963.059857487517
+    },
+    {
+      "view": "sample_30",
+      "closed": true,
+      "bodies": 1,
+      "bounds_mm": [
+        [
+          -5.5,
+          -10.0,
+          0.0
+        ],
+        [
+          5.5,
+          10.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 1549.6894563778112
+    },
+    {
+      "view": "sample_31",
+      "closed": true,
+      "bodies": 1,
+      "bounds_mm": [
+        [
+          -5.5,
+          -10.0,
+          0.0
+        ],
+        [
+          5.5,
+          10.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 1551.549335088892
+    },
+    {
+      "view": "sample_32",
+      "closed": true,
+      "bodies": 1,
+      "bounds_mm": [
+        [
+          -5.5,
+          -10.0,
+          0.0
+        ],
+        [
+          5.5,
+          10.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 1550.8052692710662
+    },
+    {
+      "view": "sample_33",
+      "closed": true,
+      "bodies": 1,
+      "bounds_mm": [
+        [
+          -5.5,
+          -10.0,
+          0.0
+        ],
+        [
+          5.5,
+          10.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 1551.0575619506565
+    },
+    {
+      "view": "sample_34",
+      "closed": true,
+      "bodies": 1,
+      "bounds_mm": [
+        [
+          -5.5,
+          -10.0,
+          0.0
+        ],
+        [
+          5.5,
+          10.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 1551.5044306404368
+    },
+    {
+      "view": "sample_35",
+      "closed": true,
+      "bodies": 1,
+      "bounds_mm": [
+        [
+          -5.5,
+          -10.0,
+          0.0
+        ],
+        [
+          5.5,
+          10.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 1551.6630698857434
+    },
+    {
+      "view": "sample_36",
+      "closed": true,
+      "bodies": 1,
+      "bounds_mm": [
+        [
+          -5.5,
+          -10.0,
+          0.0
+        ],
+        [
+          5.5,
+          10.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 1551.3275436017536
+    },
+    {
+      "view": "sample_37",
+      "closed": true,
+      "bodies": 1,
+      "bounds_mm": [
+        [
+          -5.5,
+          -10.0,
+          0.0
+        ],
+        [
+          5.5,
+          10.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 1553.1791127809295
+    },
+    {
+      "view": "sample_38",
+      "closed": true,
+      "bodies": 1,
+      "bounds_mm": [
+        [
+          -5.5,
+          -10.0,
+          0.0
+        ],
+        [
+          5.5,
+          10.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 1552.2845193837181
+    },
+    {
+      "view": "control_rail",
+      "closed": true,
+      "bodies": 1,
+      "bounds_mm": [
+        [
+          -5.5,
+          -10.0,
+          0.0
+        ],
+        [
+          5.5,
+          10.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 1555.5373362307016
+    }
+  ],
+  "connections": [
+    {
+      "sample_number": 30,
+      "seated_clear": true,
+      "hook_side_clearance_mm": 0.25,
+      "axial_clearance_mm": 0.2,
+      "maximum_prescribed_insertion_interference_mm3": 0.0,
+      "free_side_interference_mm3": 0.0,
+      "free_axial_interference_mm3": 0.0,
+      "recovered_hooks_block_withdrawal": true,
+      "arms_and_roots_unchanged": true
+    },
+    {
+      "sample_number": 31,
+      "seated_clear": true,
+      "hook_side_clearance_mm": 0.25,
+      "axial_clearance_mm": 0.1,
+      "maximum_prescribed_insertion_interference_mm3": 0.0,
+      "free_side_interference_mm3": 0.0,
+      "free_axial_interference_mm3": 0.0,
+      "recovered_hooks_block_withdrawal": true,
+      "arms_and_roots_unchanged": true
+    },
+    {
+      "sample_number": 32,
+      "seated_clear": true,
+      "hook_side_clearance_mm": 0.25,
+      "axial_clearance_mm": 0.05,
+      "maximum_prescribed_insertion_interference_mm3": 0.0,
+      "free_side_interference_mm3": 0.0,
+      "free_axial_interference_mm3": 0.0,
+      "recovered_hooks_block_withdrawal": true,
+      "arms_and_roots_unchanged": true
+    },
+    {
+      "sample_number": 33,
+      "seated_clear": true,
+      "hook_side_clearance_mm": 0.15,
+      "axial_clearance_mm": 0.2,
+      "maximum_prescribed_insertion_interference_mm3": 0.0,
+      "free_side_interference_mm3": 0.0,
+      "free_axial_interference_mm3": 0.0,
+      "recovered_hooks_block_withdrawal": true,
+      "arms_and_roots_unchanged": true
+    },
+    {
+      "sample_number": 34,
+      "seated_clear": true,
+      "hook_side_clearance_mm": 0.15,
+      "axial_clearance_mm": 0.1,
+      "maximum_prescribed_insertion_interference_mm3": 0.0,
+      "free_side_interference_mm3": 0.0,
+      "free_axial_interference_mm3": 0.0,
+      "recovered_hooks_block_withdrawal": true,
+      "arms_and_roots_unchanged": true
+    },
+    {
+      "sample_number": 35,
+      "seated_clear": true,
+      "hook_side_clearance_mm": 0.15,
+      "axial_clearance_mm": 0.05,
+      "maximum_prescribed_insertion_interference_mm3": 0.0,
+      "free_side_interference_mm3": 0.0,
+      "free_axial_interference_mm3": 0.0,
+      "recovered_hooks_block_withdrawal": true,
+      "arms_and_roots_unchanged": true
+    },
+    {
+      "sample_number": 36,
+      "seated_clear": true,
+      "hook_side_clearance_mm": 0.05,
+      "axial_clearance_mm": 0.2,
+      "maximum_prescribed_insertion_interference_mm3": 0.0,
+      "free_side_interference_mm3": 0.0,
+      "free_axial_interference_mm3": 0.0,
+      "recovered_hooks_block_withdrawal": true,
+      "arms_and_roots_unchanged": true
+    },
+    {
+      "sample_number": 37,
+      "seated_clear": true,
+      "hook_side_clearance_mm": 0.05,
+      "axial_clearance_mm": 0.1,
+      "maximum_prescribed_insertion_interference_mm3": 0.0,
+      "free_side_interference_mm3": 0.0,
+      "free_axial_interference_mm3": 0.0,
+      "recovered_hooks_block_withdrawal": true,
+      "arms_and_roots_unchanged": true
+    },
+    {
+      "sample_number": 38,
+      "seated_clear": true,
+      "hook_side_clearance_mm": 0.05,
+      "axial_clearance_mm": 0.05,
+      "maximum_prescribed_insertion_interference_mm3": 0.0,
+      "free_side_interference_mm3": 0.0,
+      "free_axial_interference_mm3": 0.0,
+      "recovered_hooks_block_withdrawal": true,
+      "arms_and_roots_unchanged": true
+    }
+  ],
+  "all_checks_passed": true,
+  "receiver_unchanged": true,
+  "baseline_matches_production": true,
+  "kit_volume_mm3": 13963.059857487517,
+  "solid_petg_mass_g": 17.733086019009146,
+  "limitations": "Nominal geometric fit and prescribed flex only; no physical fit, force, strength or slicer-time claim"
+}

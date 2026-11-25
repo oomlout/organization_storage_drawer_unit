@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "name": "four_unit_joiner",
+      "size_mm": [
+        20.0,
+        20.0,
+        6.0
+      ],
+      "holes": 4,
+      "countersink_top_diameter_mm": 7.2,
+      "countersink_depth_mm": 1.9,
+      "through_diameter_mm": 3.6,
+      "passed": true
+    },
+    {
+      "name": "two_unit_joiner",
+      "size_mm": [
+        20.0,
+        10.0,
+        6.0
+      ],
+      "holes": 2,
+      "countersink_top_diameter_mm": 7.2,
+      "countersink_depth_mm": 1.9,
+      "through_diameter_mm": 3.6,
+      "passed": true
+    }
+  ],
+  "file": "C:\\od\\OneDrive\\docs\\organization_storage_drawer_unit\\parts\\oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_6_style_double_sided_plywood_250_max\\joining_plates.stl",
+  "cabinet_scad_views_unchanged": 9,
+  "all_checks_passed": true,
+  "total_bodies": 2,
+  "total_countersunk_holes": 6,
+  "assumption": "Plastic unit face edges touch; 10 mm corner-hole pitch. Add source gap for spaced plywood boxes.",
+  "limitations": "PETG fit, screw-head seating and joint strength require physical testing."
+}

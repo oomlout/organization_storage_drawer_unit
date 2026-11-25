@@ -1,0 +1,11 @@
+{
+  "units": 4,
+  "meshes": 100,
+  "dxf": 27,
+  "mounts": 192,
+  "cap_ends": 166,
+  "zips_checked": 23,
+  "snapshot_files": 346,
+  "shared_parts": 7,
+  "all_checks_passed": true
+}

@@ -1,0 +1,10 @@
+double_sided_plywood_395_max: 56 snap beams and 4 screw beams.
+Print EACH listed STL ONCE in the supplied orientation:
+snap_beams_01.stl
+snap_beams_02.stl
+snap_beams_03.stl
+snap_beams_04.stl
+screw_beams.stl
+Move faces 15 mm closer together; frame depth is 209 mm.
+Reuse current finishing-revision faces, friction covers, adapters and M3 hardware.
+Check enclosure spacing and physical bin fit before loading.

@@ -1,0 +1,1226 @@
+{
+  "meshes": [
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "3dpr",
+      "bounds": [
+        [
+          -85.5,
+          -335.25,
+          0.0
+        ],
+        [
+          601.5,
+          926.3006591796875,
+          10.0
+        ]
+      ],
+      "volume_mm3": 307720.305472649,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "assembled",
+      "bounds": [
+        [
+          -102.9000015258789,
+          -130.79525756835938,
+          0.0
+        ],
+        [
+          102.9000015258789,
+          130.79525756835938,
+          110.5
+        ]
+      ],
+      "volume_mm3": 306630.2941045021,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "front",
+      "bounds": [
+        [
+          -102.9000015258789,
+          -130.79525756835938,
+          0.0
+        ],
+        [
+          102.9000015258789,
+          130.79525756835938,
+          3.0
+        ]
+      ],
+      "volume_mm3": 61596.15945257327,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "back",
+      "bounds": [
+        [
+          -102.9000015258789,
+          -130.79525756835938,
+          107.5
+        ],
+        [
+          102.9000015258789,
+          130.79525756835938,
+          110.5
+        ]
+      ],
+      "volume_mm3": 44809.70632415393,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "front_tile_01",
+      "bounds": [
+        [
+          -20.325000762939453,
+          -59.81315994262695,
+          0.0
+        ],
+        [
+          88.0,
+          87.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 14494.88272953965,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "front_tile_02",
+      "bounds": [
+        [
+          -20.325000762939453,
+          -59.81315994262695,
+          0.0
+        ],
+        [
+          88.0,
+          87.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 14555.65434283751,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "front_tile_03",
+      "bounds": [
+        [
+          -20.325000762939453,
+          -84.6131591796875,
+          0.0
+        ],
+        [
+          88.0,
+          87.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 16575.671041952253,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "front_tile_04",
+      "bounds": [
+        [
+          -20.325000762939453,
+          -84.6131591796875,
+          0.0
+        ],
+        [
+          88.0,
+          87.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 16514.904399057075,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "back_tile_01",
+      "bounds": [
+        [
+          -20.325000762939453,
+          -59.81315994262695,
+          0.0
+        ],
+        [
+          88.0,
+          87.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 10395.583066178442,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "back_tile_02",
+      "bounds": [
+        [
+          -20.325000762939453,
+          -59.81315994262695,
+          0.0
+        ],
+        [
+          88.0,
+          87.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 10456.35433855804,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "back_tile_03",
+      "bounds": [
+        [
+          -20.325000762939453,
+          -84.6131591796875,
+          0.0
+        ],
+        [
+          88.0,
+          87.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 12281.746223630229,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "back_tile_04",
+      "bounds": [
+        [
+          -20.325000762939453,
+          -84.6131591796875,
+          0.0
+        ],
+        [
+          88.0,
+          87.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 12220.9783524174,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "screw_bottom_rail",
+      "bounds": [
+        [
+          -5.5,
+          -52.25,
+          0.0
+        ],
+        [
+          5.5,
+          52.25,
+          10.0
+        ]
+      ],
+      "volume_mm3": 7934.450379089056,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "screw_rail",
+      "bounds": [
+        [
+          -5.5,
+          -52.25,
+          0.0
+        ],
+        [
+          5.5,
+          52.25,
+          10.0
+        ]
+      ],
+      "volume_mm3": 6431.913841918645,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "snap_bottom_rail",
+      "bounds": [
+        [
+          -5.5,
+          -55.25,
+          0.0
+        ],
+        [
+          5.5,
+          55.25,
+          10.0
+        ]
+      ],
+      "volume_mm3": 8049.426485232426,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "snap_rail",
+      "bounds": [
+        [
+          -5.5,
+          -55.25,
+          0.0
+        ],
+        [
+          5.5,
+          55.25,
+          10.0
+        ]
+      ],
+      "volume_mm3": 6546.889948062016,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "rails_plate_01",
+      "bounds": [
+        [
+          -83.0,
+          -22.5,
+          0.0
+        ],
+        [
+          88.0,
+          88.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 73403.35378900381,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "rails_plate_02",
+      "bounds": [
+        [
+          -83.0,
+          -22.5,
+          0.0
+        ],
+        [
+          88.0,
+          88.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 73058.42337058867,
+      "passed": true
+    },
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "view": "rails_plate_03",
+      "bounds": [
+        [
+          -35.0,
+          -22.5,
+          0.0
+        ],
+        [
+          88.0,
+          88.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 53762.68224792706,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "3dpr",
+      "bounds": [
+        [
+          -115.5374984741211,
+          -393.0,
+          0.0
+        ],
+        [
+          379.5,
+          898.025634765625,
+          10.0
+        ]
+      ],
+      "volume_mm3": 525927.1775122382,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "assembled",
+      "bounds": [
+        [
+          -181.0,
+          -149.99526977539062,
+          0.0
+        ],
+        [
+          181.0,
+          149.99526977539062,
+          110.5
+        ]
+      ],
+      "volume_mm3": 524837.2793479633,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "front",
+      "bounds": [
+        [
+          -181.0,
+          -149.99526977539062,
+          0.0
+        ],
+        [
+          181.0,
+          149.99526977539062,
+          3.0
+        ]
+      ],
+      "volume_mm3": 130130.43385603263,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "back",
+      "bounds": [
+        [
+          -181.0,
+          -149.99526977539062,
+          107.5
+        ],
+        [
+          181.0,
+          149.99526977539062,
+          110.5
+        ]
+      ],
+      "volume_mm3": 101438.3712103555,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "front_tile_01",
+      "bounds": [
+        [
+          -105.07499694824219,
+          -116.7631607055664,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 53117.86653431895,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "front_tile_02",
+      "bounds": [
+        [
+          -15.774999618530273,
+          -116.7631607055664,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 36388.997951073,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "front_tile_03",
+      "bounds": [
+        [
+          -105.07499694824219,
+          9.936840057373047,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 24652.34247669559,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "front_tile_04",
+      "bounds": [
+        [
+          -15.774999618530273,
+          9.936840057373047,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 16516.169199549844,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "back_tile_01",
+      "bounds": [
+        [
+          -105.07499694824219,
+          -116.7631607055664,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 38673.00149966245,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "back_tile_02",
+      "bounds": [
+        [
+          -15.774999618530273,
+          -116.7631607055664,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 28971.9421089564,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "back_tile_03",
+      "bounds": [
+        [
+          -105.07499694824219,
+          9.936840057373047,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 20163.78964442993,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "back_tile_04",
+      "bounds": [
+        [
+          -15.774999618530273,
+          9.936840057373047,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 14174.581231655005,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "screw_bottom_rail",
+      "bounds": [
+        [
+          -5.5,
+          -52.25,
+          0.0
+        ],
+        [
+          5.5,
+          52.25,
+          10.0
+        ]
+      ],
+      "volume_mm3": 7934.450379089056,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "screw_rail",
+      "bounds": [
+        [
+          -5.5,
+          -52.25,
+          0.0
+        ],
+        [
+          5.5,
+          52.25,
+          10.0
+        ]
+      ],
+      "volume_mm3": 6431.913841918645,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "snap_bottom_rail",
+      "bounds": [
+        [
+          -5.5,
+          -55.25,
+          0.0
+        ],
+        [
+          5.5,
+          55.25,
+          10.0
+        ]
+      ],
+      "volume_mm3": 8049.426485232426,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "snap_rail",
+      "bounds": [
+        [
+          -5.5,
+          -55.25,
+          0.0
+        ],
+        [
+          5.5,
+          55.25,
+          10.0
+        ]
+      ],
+      "volume_mm3": 6546.889948062016,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "rails_plate_01",
+      "bounds": [
+        [
+          -93.0,
+          -100.0,
+          0.0
+        ],
+        [
+          126.0,
+          126.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 185973.07152392718,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "view": "rails_plate_02",
+      "bounds": [
+        [
+          -93.0,
+          -100.0,
+          0.0
+        ],
+        [
+          126.0,
+          126.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 107295.41117248322,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "3dpr",
+      "bounds": [
+        [
+          -109.5,
+          -393.0,
+          0.0
+        ],
+        [
+          919.5,
+          898.025634765625,
+          10.0
+        ]
+      ],
+      "volume_mm3": 1067888.7022819465,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "assembled",
+      "bounds": [
+        [
+          -383.5,
+          -149.99526977539062,
+          0.0
+        ],
+        [
+          383.5,
+          149.99526977539062,
+          110.5
+        ]
+      ],
+      "volume_mm3": 1065708.5433384478,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "front",
+      "bounds": [
+        [
+          -383.5,
+          -149.99526977539062,
+          0.0
+        ],
+        [
+          383.5,
+          149.99526977539062,
+          3.0
+        ]
+      ],
+      "volume_mm3": 240339.54030885172,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "back",
+      "bounds": [
+        [
+          -383.5,
+          -149.99526977539062,
+          107.5
+        ],
+        [
+          383.5,
+          149.99526977539062,
+          110.5
+        ]
+      ],
+      "volume_mm3": 165773.63490575724,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "front_tile_01",
+      "bounds": [
+        [
+          -84.32499694824219,
+          -116.7631607055664,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 48186.40489541856,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "front_tile_02",
+      "bounds": [
+        [
+          -63.45000076293945,
+          -116.7631607055664,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 34103.35306208343,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "front_tile_03",
+      "bounds": [
+        [
+          -63.45000076293945,
+          -116.7631607055664,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 33972.44787116657,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "front_tile_04",
+      "bounds": [
+        [
+          -84.32499694824219,
+          -116.7631607055664,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 48287.68890797222,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "front_tile_05",
+      "bounds": [
+        [
+          -84.32499694824219,
+          9.936840057373047,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 22210.880896895935,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "front_tile_06",
+      "bounds": [
+        [
+          -63.45000076293945,
+          9.936840057373047,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 16232.542561054424,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "front_tile_07",
+      "bounds": [
+        [
+          -63.45000076293945,
+          9.936840057373047,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 16289.682540431344,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "front_tile_08",
+      "bounds": [
+        [
+          -84.32499694824219,
+          9.936840057373047,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 22146.476923657774,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "back_tile_01",
+      "bounds": [
+        [
+          -84.32499694824219,
+          -116.7631607055664,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 33741.539706008225,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "back_tile_02",
+      "bounds": [
+        [
+          -63.45000076293945,
+          -116.7631607055664,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 20047.742072700214,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "back_tile_03",
+      "bounds": [
+        [
+          -63.45000076293945,
+          -116.7631607055664,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 19916.83606573382,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "back_tile_04",
+      "bounds": [
+        [
+          -84.32499694824219,
+          -116.7631607055664,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 33842.82813592879,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "back_tile_05",
+      "bounds": [
+        [
+          -84.32499694824219,
+          9.936840057373047,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 17722.328015824016,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "back_tile_06",
+      "bounds": [
+        [
+          -63.45000076293945,
+          9.936840057373047,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 11938.617728310652,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "back_tile_07",
+      "bounds": [
+        [
+          -63.45000076293945,
+          9.936840057373047,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 11995.756259393593,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "back_tile_08",
+      "bounds": [
+        [
+          -84.32499694824219,
+          9.936840057373047,
+          0.0
+        ],
+        [
+          126.0,
+          125.9881591796875,
+          3.0
+        ]
+      ],
+      "volume_mm3": 17657.9267507062,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "screw_bottom_rail",
+      "bounds": [
+        [
+          -5.5,
+          -52.25,
+          0.0
+        ],
+        [
+          5.5,
+          52.25,
+          10.0
+        ]
+      ],
+      "volume_mm3": 7934.450379089056,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "screw_rail",
+      "bounds": [
+        [
+          -5.5,
+          -52.25,
+          0.0
+        ],
+        [
+          5.5,
+          52.25,
+          10.0
+        ]
+      ],
+      "volume_mm3": 6431.913841918645,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "snap_bottom_rail",
+      "bounds": [
+        [
+          -5.5,
+          -55.25,
+          0.0
+        ],
+        [
+          5.5,
+          55.25,
+          10.0
+        ]
+      ],
+      "volume_mm3": 8049.426485232426,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "snap_rail",
+      "bounds": [
+        [
+          -5.5,
+          -55.25,
+          0.0
+        ],
+        [
+          5.5,
+          55.25,
+          10.0
+        ]
+      ],
+      "volume_mm3": 6546.889948062016,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "rails_plate_01",
+      "bounds": [
+        [
+          -93.0,
+          -100.0,
+          0.0
+        ],
+        [
+          126.0,
+          126.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 185973.07152392718,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "rails_plate_02",
+      "bounds": [
+        [
+          -93.0,
+          -100.0,
+          0.0
+        ],
+        [
+          126.0,
+          126.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 186900.7246128056,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "rails_plate_03",
+      "bounds": [
+        [
+          -93.0,
+          -100.0,
+          0.0
+        ],
+        [
+          126.0,
+          126.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 185628.14229673287,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "view": "rails_plate_04",
+      "bounds": [
+        [
+          -93.0,
+          -100.0,
+          0.0
+        ],
+        [
+          126.0,
+          126.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 101093.45056244983,
+      "passed": true
+    }
+  ],
+  "assemblies": [
+    {
+      "variant": "tiled_a1_mini_four_plate",
+      "bom": {
+        "screw_bottom_rail": 1,
+        "screw_rail": 5,
+        "snap_bottom_rail": 2,
+        "snap_rail": 22,
+        "front_tiles": 4,
+        "back_tiles": 4,
+        "M3_countersunk_screw_16_mm": 12,
+        "M3_nut": 12
+      },
+      "interference_volume_mm3": 0.023088736517820507,
+      "passed": true
+    },
+    {
+      "variant": "tiled_362_by_300",
+      "bom": {
+        "screw_bottom_rail": 1,
+        "screw_rail": 6,
+        "snap_bottom_rail": 3,
+        "snap_rail": 34,
+        "front_tiles": 4,
+        "back_tiles": 4,
+        "M3_countersunk_screw_16_mm": 14,
+        "M3_nut": 14
+      },
+      "interference_volume_mm3": -0.003161168424412608,
+      "passed": true
+    },
+    {
+      "variant": "tiled_767_by_300",
+      "bom": {
+        "screw_bottom_rail": 3,
+        "screw_rail": 15,
+        "snap_bottom_rail": 6,
+        "snap_rail": 75,
+        "front_tiles": 8,
+        "back_tiles": 8,
+        "M3_countersunk_screw_16_mm": 36,
+        "M3_nut": 36
+      },
+      "interference_volume_mm3": -0.004341746214777231,
+      "passed": true
+    }
+  ],
+  "prior_v5_records_unchanged": 12,
+  "limitations": [
+    "Not sliced or physically printed; small snap lands and screw/nut bridges remain.",
+    "Shortened snaps need a PETG fit test; prescribed flex is not an insertion-force simulation."
+  ]
+}

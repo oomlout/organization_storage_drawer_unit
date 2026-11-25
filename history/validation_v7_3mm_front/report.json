@@ -1,0 +1,31 @@
+{
+  "all_checks_passed": true,
+  "source_tests": 118,
+  "comparison_tests": 9,
+  "closed_mesh_views": 71,
+  "dxf_checks": 19,
+  "previous_geometry_files_unchanged": 116,
+  "units": [
+    {
+      "variant": "unit_1_wide_2_tall",
+      "pads_per_face": 6,
+      "mount_combinations": 12,
+      "all_checks_passed": true
+    },
+    {
+      "variant": "double_sided_plywood_250_max",
+      "pads_per_face": 21,
+      "mount_combinations": 42,
+      "all_checks_passed": true
+    },
+    {
+      "variant": "double_sided_plywood_395_max",
+      "pads_per_face": 60,
+      "mount_combinations": 120,
+      "all_checks_passed": true
+    }
+  ],
+  "previews_inspected": true,
+  "zips_and_scad_dependencies_verified": true,
+  "limitations": "CAD checks only; 3 mm face stiffness and bonded-joint strength require physical testing."
+}

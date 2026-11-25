@@ -1,0 +1,19 @@
+V7 SIDE-PRINTED RUNNER REPLACEMENT KIT
+double_sided_plywood_395_max: 56 snaps, 4 screw beams, 112 NEW covers.
+Print EACH listed STL ONCE, in the supplied orientation; SCADs reproduce them.
+snap_beams_01.stl
+snap_beams_02.stl
+snap_beams_03.stl
+snap_beams_04.stl
+screw_beams.stl
+front_plugs_01.stl
+front_plugs_02.stl
+front_plugs_03.stl
+front_plugs_04.stl
+front_plugs_05.stl
+Reuse existing faces, screw adapters, screws and nuts.
+NEW 9.8 x 8 mm covers are included: fit turned 90 degrees from the preceding covers.
+Side-load M3 nuts from the beam bed-side opening BEFORE assembling faces.
+8 x 3 mm runners are offset 1.5 mm; 5 mm clip slots replace the old 7 mm slots.
+Centre stops reach into each drawer from its left-hand beam. Keep the supplied orientation.
+Full-unit stiffness, narrow-side lip bearing, insertion effort and creep require physical tests.

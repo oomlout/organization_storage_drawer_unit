@@ -1,0 +1,467 @@
+{
+  "version": 7,
+  "released_models_unchanged": 64,
+  "meshes": [
+    {
+      "file": "3dpr.stl",
+      "bodies": 9,
+      "watertight": true,
+      "extents_mm": [
+        45.0,
+        127.99251556396484,
+        4.0
+      ],
+      "volume_mm3": 10778.528006185743
+    },
+    {
+      "file": "sample_40.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        11.0,
+        37.69251823425293,
+        4.0
+      ],
+      "volume_mm3": 1149.0471867620815
+    },
+    {
+      "file": "sample_41.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        11.0,
+        37.84251832962036,
+        4.0
+      ],
+      "volume_mm3": 1151.530656498676
+    },
+    {
+      "file": "sample_42.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        11.0,
+        37.99251842498779,
+        4.0
+      ],
+      "volume_mm3": 1152.1498708677868
+    },
+    {
+      "file": "sample_43.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        11.0,
+        37.69251823425293,
+        4.0
+      ],
+      "volume_mm3": 1195.8576070381262
+    },
+    {
+      "file": "sample_44.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        11.0,
+        37.84251832962036,
+        4.0
+      ],
+      "volume_mm3": 1197.5243124146803
+    },
+    {
+      "file": "sample_45.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        11.0,
+        37.99251842498779,
+        4.0
+      ],
+      "volume_mm3": 1199.2021982603658
+    },
+    {
+      "file": "sample_46.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        11.0,
+        37.69251823425293,
+        4.0
+      ],
+      "volume_mm3": 1241.9455229208381
+    },
+    {
+      "file": "sample_47.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        11.0,
+        37.84251832962036,
+        4.0
+      ],
+      "volume_mm3": 1245.049633989164
+    },
+    {
+      "file": "sample_48.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        11.0,
+        37.99251842498779,
+        4.0
+      ],
+      "volume_mm3": 1246.22143905747
+    },
+    {
+      "file": "receiver_6_0.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        126.0,
+        31.992107391357422,
+        6.0
+      ],
+      "volume_mm3": 23103.763085944953
+    },
+    {
+      "file": "receiver_5_8.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        126.0,
+        31.992107391357422,
+        5.800000190734863
+      ],
+      "volume_mm3": 22333.209731486193
+    },
+    {
+      "file": "receiver_6_2.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        126.0,
+        31.992107391357422,
+        6.199999809265137
+      ],
+      "volume_mm3": 23874.31645573353
+    },
+    {
+      "file": "screw_test.stl",
+      "bodies": 2,
+      "watertight": true,
+      "extents_mm": [
+        31.0,
+        34.99851989746094,
+        13.0
+      ],
+      "volume_mm3": 4275.611286865079
+    },
+    {
+      "file": "screw_beam.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        11.0,
+        30.0,
+        13.0
+      ],
+      "volume_mm3": 3989.1729520422286
+    },
+    {
+      "file": "screw_adapter.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        11.0,
+        9.997039794921875,
+        7.900000095367432
+      ],
+      "volume_mm3": 286.43835073791877
+    },
+    {
+      "file": "front_small_printed.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        197.8000030517578,
+        220.29052734375,
+        18.0
+      ],
+      "volume_mm3": 78879.6950254278
+    },
+    {
+      "file": "front_small_laser.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        197.8000030517578,
+        220.29052734375,
+        6.0
+      ],
+      "volume_mm3": 77785.74545774928
+    },
+    {
+      "file": "front_large_printed.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        376.3999938964844,
+        376.79052734375,
+        18.0
+      ],
+      "volume_mm3": 230261.38601210932
+    },
+    {
+      "file": "front_large_laser.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        376.3999938964844,
+        376.79052734375,
+        6.0
+      ],
+      "volume_mm3": 224450.22992890902
+    }
+  ],
+  "joints": [
+    {
+      "sample_number": 40,
+      "seated_collision_mm3": 0.0,
+      "prescribed_insertion_max_collision_mm3": 0.0,
+      "exposed_tip_mm": 1.6925184053936908,
+      "retention_overlap_mm": 0.55,
+      "axial_clearance_mm": 0.1,
+      "thickness_response": {
+        "5.8": {
+          "can_recover_nominally": true,
+          "collision_mm3": 0.0
+        },
+        "6.2": {
+          "can_recover_nominally": false,
+          "collision_mm3": 0.4400003945827109
+        }
+      }
+    },
+    {
+      "sample_number": 41,
+      "seated_collision_mm3": 0.0,
+      "prescribed_insertion_max_collision_mm3": 0.0,
+      "exposed_tip_mm": 1.8425184053936912,
+      "retention_overlap_mm": 0.55,
+      "axial_clearance_mm": 0.25,
+      "thickness_response": {
+        "5.8": {
+          "can_recover_nominally": true,
+          "collision_mm3": 0.0
+        },
+        "6.2": {
+          "can_recover_nominally": true,
+          "collision_mm3": 0.0
+        }
+      }
+    },
+    {
+      "sample_number": 42,
+      "seated_collision_mm3": 0.0,
+      "prescribed_insertion_max_collision_mm3": 0.0,
+      "exposed_tip_mm": 1.9925184053936915,
+      "retention_overlap_mm": 0.55,
+      "axial_clearance_mm": 0.4,
+      "thickness_response": {
+        "5.8": {
+          "can_recover_nominally": true,
+          "collision_mm3": 0.0
+        },
+        "6.2": {
+          "can_recover_nominally": true,
+          "collision_mm3": 0.0
+        }
+      }
+    },
+    {
+      "sample_number": 43,
+      "seated_collision_mm3": 0.0,
+      "prescribed_insertion_max_collision_mm3": 0.0,
+      "exposed_tip_mm": 1.6925184053936908,
+      "retention_overlap_mm": 0.55,
+      "axial_clearance_mm": 0.1,
+      "thickness_response": {
+        "5.8": {
+          "can_recover_nominally": true,
+          "collision_mm3": 0.0
+        },
+        "6.2": {
+          "can_recover_nominally": false,
+          "collision_mm3": 0.4400003945827109
+        }
+      }
+    },
+    {
+      "sample_number": 44,
+      "seated_collision_mm3": 0.0,
+      "prescribed_insertion_max_collision_mm3": 0.0,
+      "exposed_tip_mm": 1.8425184053936912,
+      "retention_overlap_mm": 0.55,
+      "axial_clearance_mm": 0.25,
+      "thickness_response": {
+        "5.8": {
+          "can_recover_nominally": true,
+          "collision_mm3": 0.0
+        },
+        "6.2": {
+          "can_recover_nominally": true,
+          "collision_mm3": 0.0
+        }
+      }
+    },
+    {
+      "sample_number": 45,
+      "seated_collision_mm3": 0.0,
+      "prescribed_insertion_max_collision_mm3": 0.0,
+      "exposed_tip_mm": 1.9925184053936915,
+      "retention_overlap_mm": 0.55,
+      "axial_clearance_mm": 0.4,
+      "thickness_response": {
+        "5.8": {
+          "can_recover_nominally": true,
+          "collision_mm3": 0.0
+        },
+        "6.2": {
+          "can_recover_nominally": true,
+          "collision_mm3": 0.0
+        }
+      }
+    },
+    {
+      "sample_number": 46,
+      "seated_collision_mm3": 0.0,
+      "prescribed_insertion_max_collision_mm3": 0.0,
+      "exposed_tip_mm": 1.6925184053936908,
+      "retention_overlap_mm": 0.55,
+      "axial_clearance_mm": 0.1,
+      "thickness_response": {
+        "5.8": {
+          "can_recover_nominally": true,
+          "collision_mm3": 0.0
+        },
+        "6.2": {
+          "can_recover_nominally": false,
+          "collision_mm3": 0.4400003945827109
+        }
+      }
+    },
+    {
+      "sample_number": 47,
+      "seated_collision_mm3": 0.0,
+      "prescribed_insertion_max_collision_mm3": 0.0,
+      "exposed_tip_mm": 1.8425184053936912,
+      "retention_overlap_mm": 0.55,
+      "axial_clearance_mm": 0.25,
+      "thickness_response": {
+        "5.8": {
+          "can_recover_nominally": true,
+          "collision_mm3": 0.0
+        },
+        "6.2": {
+          "can_recover_nominally": true,
+          "collision_mm3": 0.0
+        }
+      }
+    },
+    {
+      "sample_number": 48,
+      "seated_collision_mm3": 0.0,
+      "prescribed_insertion_max_collision_mm3": 0.0,
+      "exposed_tip_mm": 1.9925184053936915,
+      "retention_overlap_mm": 0.55,
+      "axial_clearance_mm": 0.4,
+      "thickness_response": {
+        "5.8": {
+          "can_recover_nominally": true,
+          "collision_mm3": 0.0
+        },
+        "6.2": {
+          "can_recover_nominally": true,
+          "collision_mm3": 0.0
+        }
+      }
+    }
+  ],
+  "dxf": [
+    {
+      "file": "receiver_laser.dxf",
+      "closed_contours": 6,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 3852.781840499999,
+      "profile_difference_mm2": 0.011656643253296219,
+      "maximum_contour_difference_mm": 6.200509708234482e-05
+    },
+    {
+      "file": "front_small_laser_2d.dxf",
+      "closed_contours": 40,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 12964.24064205846,
+      "profile_difference_mm2": 0.16843750781530561,
+      "maximum_contour_difference_mm": 0.0004884736787037335
+    },
+    {
+      "file": "front_large_laser_2d.dxf",
+      "closed_contours": 113,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 37408.32993657848,
+      "profile_difference_mm2": 0.41905058730153855,
+      "maximum_contour_difference_mm": 0.0006316698375342584
+    }
+  ],
+  "calibration_holes": [
+    {
+      "width_mm": 7.2,
+      "prescribed_insertion_max_collision_mm3": 0.0
+    },
+    {
+      "width_mm": 7.4,
+      "prescribed_insertion_max_collision_mm3": 0.0
+    },
+    {
+      "width_mm": 7.6,
+      "prescribed_insertion_max_collision_mm3": 0.0
+    },
+    {
+      "width_mm": 7.8,
+      "prescribed_insertion_max_collision_mm3": 0.0
+    },
+    {
+      "width_mm": 8.0,
+      "prescribed_insertion_max_collision_mm3": 0.0
+    }
+  ],
+  "screw": {
+    "same_receiver": true,
+    "rigid_adapter_insertion": true,
+    "side_loaded_nut": true,
+    "seating_stops": true,
+    "screw_path_clear": true,
+    "projection_after_nut_mm": 1.6000000000000014
+  },
+  "prototype_faces": [
+    {
+      "size": "small",
+      "receivers": 21,
+      "laser_depth_mm": 6,
+      "printed_depth_mm": 18,
+      "flat_laser_profile": true
+    },
+    {
+      "size": "large",
+      "receivers": 60,
+      "laser_depth_mm": 6,
+      "printed_depth_mm": 18,
+      "flat_laser_profile": true
+    }
+  ],
+  "all_checks_passed": true,
+  "limitations": "Kinematic CAD checks only. No measured force, fatigue, PETG creep or loaded MDF performance."
+}

@@ -1,0 +1,268 @@
+{
+  "version": 7,
+  "variant": "unit_1_wide_2_tall",
+  "selected_clip_sample": 71,
+  "grid_per_face": [
+    1,
+    2
+  ],
+  "drawer_sides": 2,
+  "drawer_count": 4,
+  "bom": {
+    "front": 1,
+    "back": 1,
+    "snap_beam": 4,
+    "screw_beam": 2,
+    "front_plug": 8,
+    "screw_adapter": 4,
+    "M3_countersunk_screw_20_mm": 4,
+    "M3_nut": 4
+  },
+  "print_batches": {
+    "snap_beams": {
+      "component": "snap_beam",
+      "count": 4,
+      "pitch": 24
+    },
+    "screw_beams": {
+      "component": "screw_beam",
+      "count": 2,
+      "pitch": 24
+    },
+    "front_plugs": {
+      "component": "front_plug",
+      "count": 8,
+      "pitch": 15
+    },
+    "screw_adapters": {
+      "component": "screw_adapter",
+      "count": 4,
+      "pitch": 15
+    }
+  },
+  "frame_envelope_mm": [
+    108.5,
+    99.8,
+    224.0
+  ],
+  "overall_depth_including_caps_mm": 233.2,
+  "plate_web_mm": 6,
+  "printed_plate_max_depth_mm": 18,
+  "rail_between_faces_mm": 212.0,
+  "receiver_hole_mm": [
+    5.2,
+    5.2
+  ],
+  "frame_mounts": [
+    {
+      "x": -44.65,
+      "hole_y": -9.900000000000006,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -44.65,
+      "hole_y": 21.399999999999995,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 44.65,
+      "hole_y": -9.900000000000006,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 44.65,
+      "hole_y": 21.399999999999995,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -44.65,
+      "hole_y": -36.9,
+      "kind": "screw_beam"
+    },
+    {
+      "x": 44.65,
+      "hole_y": -36.9,
+      "kind": "screw_beam"
+    }
+  ],
+  "snap_interface": {
+    "spring_root_y": -5.0,
+    "neck_width": 4.8,
+    "tongue_height": 5.0,
+    "upper_support_height": 7.0,
+    "hook_projection": 1.4,
+    "retaining_rake": 0.15
+  },
+  "snap_trial": {
+    "arm_thickness": 1.2,
+    "axial_clearance": 0.1,
+    "sample_number": 71,
+    "technique": "straight",
+    "tip_thickness": 1.2,
+    "title": "Half-depth spring + friction expansion cap",
+    "shoulder_y": 6.1,
+    "tip_y": 8.399999999999999,
+    "root_radius": 1.2,
+    "effective_root_y": -2.6,
+    "spring_length": 8.7,
+    "strain_proxy": 0.02853745541022592,
+    "stiffness_proxy": 0.0026241338308253723,
+    "closed_arm_gap": 4.440892098500626e-16,
+    "closed_hook_width": 5.199999999999999
+  },
+  "front_plug": {
+    "cap_inner_y": 8.6,
+    "cavity_height": 5.6,
+    "cavity_width": 8.4,
+    "corner_reliefs": [
+      {
+        "radius": 3.15,
+        "x": -5.5,
+        "y": -4.6
+      },
+      {
+        "radius": 3.15,
+        "x": -5.5,
+        "y": 4.6
+      },
+      {
+        "radius": 3.15,
+        "x": 5.5,
+        "y": -4.6
+      },
+      {
+        "radius": 3.15,
+        "x": 5.5,
+        "y": 4.6
+      }
+    ],
+    "cover_height": 8.0,
+    "cover_thickness": 2.0,
+    "cover_width": 9.8,
+    "full_width_y": 0.0,
+    "nose_width": 0.8,
+    "nose_y": -4.0,
+    "panel_stop_y": 6.05,
+    "print_x": 18.0,
+    "retention": "friction",
+    "stem_height": 3.8,
+    "stem_width": 2.6,
+    "outer_y": 10.6,
+    "cup_depth": 4.55,
+    "stem_depth": 14.6,
+    "free_slot_width": 2.4,
+    "seated_spread": 0.10000000000000009,
+    "insertion_spread": 0.10000000000000009,
+    "expanded_neck_width": 5.0,
+    "insertion_neck_width": 5.0
+  },
+  "screw": {
+    "axis_height": 6.5,
+    "end_height": 12.0,
+    "flange_size": [
+      11.0,
+      10.0,
+      2.4
+    ],
+    "guide_depth": 5.5,
+    "guide_height": 5.0,
+    "guide_slot_width": 3.0,
+    "guide_width": 5.0,
+    "length": 20.0,
+    "nut_near": 7.0,
+    "nut_overhang": false,
+    "nut_primitive": "oobb_v5_explicit",
+    "nut_side_clearance": "right",
+    "size": "m3",
+    "nut_depth": 3,
+    "nut_radius": 3.4619999999999997,
+    "bore_radius": 1.8,
+    "projection_after_nut": 1.6000000000000014,
+    "running_height": 14.5
+  },
+  "revision": "side_printed_runner",
+  "beam_windows": [],
+  "minimum_beam_side_rail_mm": null,
+  "interchangeable_beams": true,
+  "running_roof_above_receiver_axis_mm": 8.0,
+  "centre_stop_size_mm": [
+    12.0,
+    3.0
+  ],
+  "service_orientation": "CAD negative Y is UP; wide T at top; drawers enter from both ends.",
+  "enclosure": "Plywood/enclosure supplies the bottom drawer floor; sheet joinery is not included.",
+  "physical_feedback": "Shorter 5 mm slots and side-printed 3 mm runners are new; print fit and loading require testing.",
+  "laser_face_test": {
+    "corner_relief_clearance": 0.1,
+    "face_thickness": 3.0,
+    "nesting_gap": 5.0,
+    "reinforcement_side": 12.0,
+    "reinforcement_thickness": 3.0,
+    "local_clip_thickness_mm": 6.0,
+    "attachment": "Bond to INSIDE of 3 mm face; align both holes.",
+    "pads_per_face": 6,
+    "counts_per_face": {
+      "clip_reinforcement": 6
+    },
+    "placement": [
+      {
+        "x": -44.65,
+        "hole_y": -9.900000000000006,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -44.65,
+        "hole_y": 21.399999999999995,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 44.65,
+        "hole_y": -9.900000000000006,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 44.65,
+        "hole_y": 21.399999999999995,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -44.65,
+        "hole_y": -36.9,
+        "kind": "screw_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 44.65,
+        "hole_y": -36.9,
+        "kind": "screw_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      }
+    ],
+    "nested_cut_layout": "front_3mm_test_2d.dxf",
+    "warning": "Physical test only: nominal 3+3 mm stack; bondline and measured sheet thickness affect fit."
+  },
+  "side_runner": {
+    "bed_x": -2.5,
+    "clip_rotation_y": 90.0,
+    "end_length": 12.0,
+    "offset_x": 1.5,
+    "runner_end_clearance": 0.2,
+    "stop_below_axis": 5.5,
+    "stop_max_x": 9.5,
+    "stop_min_x": -2.5,
+    "thickness": 3.0,
+    "width": 8.0
+  },
+  "centre_stop": "One-sided reach into every drawer column; both banks stopped.",
+  "cap_orientation": "Use NEW 9.8 x 8 mm covers; turn 90 degrees in the panel plane."
+}
