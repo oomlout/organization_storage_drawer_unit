@@ -1,0 +1,89 @@
+{
+  "version": 8,
+  "part_role": "accessory",
+  "compatible_frames": [
+    "1x1",
+    "2x2"
+  ],
+  "reference_frame": "oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8",
+  "pieces": [
+    {
+      "name": "four_unit_joiner",
+      "size": [
+        19.8,
+        19.8,
+        8.399999999999999
+      ],
+      "hole_pitch_mm": 10.0,
+      "holes": [
+        [
+          -5.0,
+          -5.0
+        ],
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          5.0,
+          -5.0
+        ],
+        [
+          5.0,
+          5.0
+        ]
+      ],
+      "print_center": [
+        -12.4,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "two_unit_joiner",
+      "size": [
+        19.8,
+        9.8,
+        8.399999999999999
+      ],
+      "hole_pitch_mm": 10.0,
+      "holes": [
+        [
+          -5.0,
+          0
+        ],
+        [
+          5.0,
+          0
+        ]
+      ],
+      "print_center": [
+        12.4,
+        0,
+        0
+      ]
+    }
+  ],
+  "settings": {
+    "backer_shape": "clasp_and_runner_relief",
+    "beam_clearance": 0.35,
+    "cap_axial_clearance": 0.8,
+    "cap_side_clearance": 0.6,
+    "countersink_setback": 4.75,
+    "front_roof_thickness": 3.0,
+    "joining_plate_layout_gap": 5.0,
+    "joining_plate_unit_gap": 0.0,
+    "loose_cap_extra_clearance": 0.3,
+    "nut_recess": 3.0,
+    "nut_seat_clearance": 0.35,
+    "screw_length": 25.0,
+    "screw_reference_recess": 5.3,
+    "joining_plate_thickness": 8.399999999999999,
+    "joining_plate_edge_distance": 4.9,
+    "joining_plate_radius": 0.75,
+    "backer_depth": 15.35,
+    "joiner_bore_radius": 1.8,
+    "cap_projection": 4.6
+  },
+  "hardware_per_hole": "M3 x 25 countersunk screw and M3 nut"
+}

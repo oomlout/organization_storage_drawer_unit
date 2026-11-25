@@ -1,0 +1,224 @@
+bip_39_2_word_array:
+- shove
+- sand
+bip_39_2_word_no_space: shovesand
+bip_39_2_word_space: shove sand
+bip_39_2_word_underscore: shove_sand
+bip_39_3_word_array:
+- shove
+- sand
+- snow
+bip_39_3_word_no_space: shovesandsnow
+bip_39_3_word_space: shove sand snow
+bip_39_3_word_underscore: shove_sand_snow
+bip_39_full_array:
+- shove
+- sand
+- snow
+- urge
+- eager
+- song
+- exhibit
+- movie
+- execute
+- spring
+- wet
+- garbage
+bip_39_full_no_space: shovesandsnowurgeeagersongexhibitmovieexecutespringwetgarbage
+bip_39_full_space: shove sand snow urge eager song exhibit movie execute spring wet
+    garbage
+bip_39_full_underscore: shove_sand_snow_urge_eager_song_exhibit_movie_execute_spring_wet_garbage
+compatible_frames:
+- 1x1
+- 2x2
+container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+container_short: rectangle_100_ml_tamper_evident_systempak_209
+corner_fixing:
+    backer_shape: clasp_and_runner_relief
+    beam_clearance: 0.35
+    cap_axial_clearance: 0.8
+    cap_side_clearance: 0.6
+    countersink_setback: 0.95
+    front_roof_thickness: 3.0
+    joining_plate_layout_gap: 5.0
+    joining_plate_unit_gap: 0.0
+    loose_cap_extra_clearance: 0.3
+    nut_recess: 3.0
+    nut_seat_clearance: 0.35
+    screw_length: 25.0
+    screw_reference_recess: 1.5
+directory: parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8
+id: oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8
+id_no_class: oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8
+id_no_size: oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8
+id_no_type: oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8
+md5: c717e73677b44f9e53e4874f3a67e62f
+md5_10: c717e73677
+md5_10_upper: C717E73677
+md5_5: c717e
+md5_5_upper: C717E
+md5_6: c717e7
+md5_6_alpha: 7rnqf
+md5_6_alpha_upper: 7RNQF
+md5_6_upper: C717E7
+name: Oobb Organization Storage Drawer Unit Systempak 209 100 Ml Joiners V8
+name_no_class: Oobb Organization Storage Drawer Unit Systempak 209 100 Ml Joiners
+    V8
+name_no_size: Oobb Organization Storage Drawer Unit Systempak 209 100 Ml Joiners V8
+name_no_type: Oobb Organization Storage Drawer Unit Systempak 209 100 Ml Joiners V8
+oobb_details:
+    compatible_frames:
+    - 1x1
+    - 2x2
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    corner_fixing:
+        backer_shape: clasp_and_runner_relief
+        beam_clearance: 0.35
+        cap_axial_clearance: 0.8
+        cap_side_clearance: 0.6
+        countersink_setback: 0.95
+        front_roof_thickness: 3.0
+        joining_plate_layout_gap: 5.0
+        joining_plate_unit_gap: 0.0
+        loose_cap_extra_clearance: 0.3
+        nut_recess: 3.0
+        nut_seat_clearance: 0.35
+        screw_length: 25.0
+        screw_reference_recess: 1.5
+    part_role: accessory
+    product_name: V8 M3 x 25 joining brackets and backers
+    reference_frame: 2x2
+    style: ai_version_8
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: systempak_209_100_ml
+    taxonomy_6: joiners
+    taxonomy_7: v8
+    variant: joiners
+    version: 8
+oomp_key: oomp_oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8
+part_role: accessory
+product_name: V8 M3 x 25 joining brackets and backers
+reference_frame: 2x2
+style: ai_version_8
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: organization
+taxonomy_2_capital: Organization
+taxonomy_2_first_letter: o
+taxonomy_2_first_letter_upper: O
+taxonomy_2_length_1: o
+taxonomy_2_length_2: or
+taxonomy_2_length_3: org
+taxonomy_2_length_4: orga
+taxonomy_2_length_5: organ
+taxonomy_2_upper: ORGANIZATION
+taxonomy_2_upper_length_1: O
+taxonomy_2_upper_length_2: OR
+taxonomy_2_upper_length_3: ORG
+taxonomy_2_upper_length_4: ORGA
+taxonomy_2_upper_length_5: ORGAN
+taxonomy_3: storage
+taxonomy_3_capital: Storage
+taxonomy_3_first_letter: s
+taxonomy_3_first_letter_upper: S
+taxonomy_3_length_1: s
+taxonomy_3_length_2: st
+taxonomy_3_length_3: sto
+taxonomy_3_length_4: stor
+taxonomy_3_length_5: stora
+taxonomy_3_upper: STORAGE
+taxonomy_3_upper_length_1: S
+taxonomy_3_upper_length_2: ST
+taxonomy_3_upper_length_3: STO
+taxonomy_3_upper_length_4: STOR
+taxonomy_3_upper_length_5: STORA
+taxonomy_4: drawer_unit
+taxonomy_4_capital: Drawer Unit
+taxonomy_4_first_letter: d
+taxonomy_4_first_letter_upper: D
+taxonomy_4_length_1: d
+taxonomy_4_length_2: dr
+taxonomy_4_length_3: dra
+taxonomy_4_length_4: draw
+taxonomy_4_length_5: drawe
+taxonomy_4_upper: DRAWER_UNIT
+taxonomy_4_upper_length_1: D
+taxonomy_4_upper_length_2: DR
+taxonomy_4_upper_length_3: DRA
+taxonomy_4_upper_length_4: DRAW
+taxonomy_4_upper_length_5: DRAWE
+taxonomy_5: systempak_209_100_ml
+taxonomy_5_capital: Systempak 209.100 Ml
+taxonomy_5_first_letter: s
+taxonomy_5_first_letter_upper: S
+taxonomy_5_length_1: s
+taxonomy_5_length_2: sy
+taxonomy_5_length_3: sys
+taxonomy_5_length_4: syst
+taxonomy_5_length_5: syste
+taxonomy_5_upper: SYSTEMPAK_209_100_ML
+taxonomy_5_upper_length_1: S
+taxonomy_5_upper_length_2: SY
+taxonomy_5_upper_length_3: SYS
+taxonomy_5_upper_length_4: SYST
+taxonomy_5_upper_length_5: SYSTE
+taxonomy_6: joiners
+taxonomy_6_capital: Joiners
+taxonomy_6_first_letter: j
+taxonomy_6_first_letter_upper: J
+taxonomy_6_length_1: j
+taxonomy_6_length_2: jo
+taxonomy_6_length_3: joi
+taxonomy_6_length_4: join
+taxonomy_6_length_5: joine
+taxonomy_6_upper: JOINERS
+taxonomy_6_upper_length_1: J
+taxonomy_6_upper_length_2: JO
+taxonomy_6_upper_length_3: JOI
+taxonomy_6_upper_length_4: JOIN
+taxonomy_6_upper_length_5: JOINE
+taxonomy_7: v8
+taxonomy_7_capital: V8
+taxonomy_7_first_letter: v
+taxonomy_7_first_letter_upper: V
+taxonomy_7_length_1: v
+taxonomy_7_length_2: v8
+taxonomy_7_length_3: v8
+taxonomy_7_length_4: v8
+taxonomy_7_length_5: v8
+taxonomy_7_upper: V8
+taxonomy_7_upper_length_1: V
+taxonomy_7_upper_length_2: V8
+taxonomy_7_upper_length_3: V8
+taxonomy_7_upper_length_4: V8
+taxonomy_7_upper_length_5: V8
+taxonomy_8: ''
+taxonomy_9: ''
+variant: joiners
+version: 8

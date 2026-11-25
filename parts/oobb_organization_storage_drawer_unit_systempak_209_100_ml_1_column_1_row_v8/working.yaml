@@ -1,0 +1,587 @@
+beam_end_length: 30.0
+beam_lightening:
+    centre_land: 16.0
+    end_land: 35.0
+    radius: 2.0
+    width: 5.0
+beam_revision: side_printed_runner
+beam_running_height: 10.5
+beam_transition_length: 3.5
+bip_39_2_word_array:
+- melt
+- budget
+bip_39_2_word_no_space: meltbudget
+bip_39_2_word_space: melt budget
+bip_39_2_word_underscore: melt_budget
+bip_39_3_word_array:
+- melt
+- budget
+- cram
+bip_39_3_word_no_space: meltbudgetcram
+bip_39_3_word_space: melt budget cram
+bip_39_3_word_underscore: melt_budget_cram
+bip_39_full_array:
+- melt
+- budget
+- cram
+- struggle
+- alcohol
+- expand
+- multiply
+- over
+- vocal
+- bag
+- cliff
+- rocket
+bip_39_full_no_space: meltbudgetcramstrugglealcoholexpandmultiplyovervocalbagcliffrocket
+bip_39_full_space: melt budget cram struggle alcohol expand multiply over vocal bag
+    cliff rocket
+bip_39_full_underscore: melt_budget_cram_struggle_alcohol_expand_multiply_over_vocal_bag_cliff_rocket
+column: 1
+container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+container_dimensions_mm:
+    across: 86
+    depth: 109
+    height: 26
+container_short: rectangle_100_ml_tamper_evident_systempak_209
+corner_fixing:
+    beam_clearance: 0.35
+    nut_recess: 3.0
+    nut_seat_clearance: 0.35
+    screw_length: 25.0
+    screw_reference_recess: 1.5
+directory: parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8
+drawer_capacity_ml: 100
+drawer_count: 2
+drawer_sides: 2
+face_stop_profile: inside_flat
+finger_count: 4
+finishing_revision: upstop_split_receiver_offset_lock
+frame_definition:
+    bed_exclusion:
+    - 18.0
+    - 28.0
+    bed_height: 256.0
+    bed_margin: 2.0
+    bed_width: 256.0
+    catch_tab_height: 6.0
+    catch_tab_width: 56.0
+    container_clearance: 1.5
+    corner_hole_inset: 5.0
+    corner_hole_size: m3
+    depth_clearance: 1.5
+    depth_lip: 12.0
+    drawer_border_edge: 10.5
+    face_edge_y: 20
+    floor_support_projection: 12.0
+    floor_support_tab_width: 15.0
+    floor_support_thickness: 2.0
+    floor_support_tip_chamfer: 0.75
+    inset_lip: 5.5
+    lip_cutout_radius: 1.0
+    middle_stop_thickness: 3.0
+    middle_stop_width: 19.0
+    opening_height_extra: 1.0
+    outer_mount_offset: 0.9
+    outer_radius: 2.4
+    row_spacing_extra: 1.0
+    thickness_wall: 1.8
+frame_mount_layout: top_braces
+front_plug:
+    cap_inner_y: 8.6
+    cavity_height: 5.6
+    cavity_width: 8.4
+    corner_reliefs:
+    -   radius: 3.15
+        x: -5.5
+        y: -4.6
+    -   radius: 3.15
+        x: -5.5
+        y: 4.6
+    -   radius: 3.15
+        x: 5.5
+        y: -4.6
+    -   radius: 3.15
+        x: 5.5
+        y: 4.6
+    cover_height: 9.8
+    cover_offset_y: 1.5
+    cover_thickness: 2.0
+    cover_width: 9.8
+    full_width_y: 0.0
+    nose_width: 0.8
+    nose_y: -4.0
+    panel_stop_y: 6.05
+    print_x: 18.0
+    retention: friction
+    stem_height: 3.8
+    stem_width: 2.6
+front_plug_test: true
+grip_length: 12.0
+grip_width: 11.0
+hook_land: 0.8
+hook_projection: 1.4
+id: oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8
+id_no_class: oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8
+id_no_size: oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8
+id_no_type: oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8
+keeper:
+    head_length: 1.2
+    head_start_y: 8.0
+    head_width: 4.5
+    print_x: 43.0
+    stem_start_y: -4.0
+    stem_width: 2.4
+laser_face_test:
+    corner_relief_clearance: 0.1
+    face_thickness: 3.0
+    nesting_gap: 5.0
+    reinforcement_side: 12.0
+    reinforcement_thickness: 3.0
+lead_angle: 45.0
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8
+md5: 8aa3b0c8eba060a0645ceff54230abdd
+md5_10: 8aa3b0c8eb
+md5_10_upper: 8AA3B0C8EB
+md5_5: 8aa3b
+md5_5_upper: 8AA3B
+md5_6: 8aa3b0
+md5_6_alpha: 5eqpc
+md5_6_alpha_upper: 5EQPC
+md5_6_upper: 8AA3B0
+name: Oobb Organization Storage Drawer Unit Systempak 209 100 Ml 1 Column 1 Row V8
+name_no_class: Oobb Organization Storage Drawer Unit Systempak 209 100 Ml 1 Column
+    1 Row V8
+name_no_size: Oobb Organization Storage Drawer Unit Systempak 209 100 Ml 1 Column
+    1 Row V8
+name_no_type: Oobb Organization Storage Drawer Unit Systempak 209 100 Ml 1 Column
+    1 Row V8
+neck_width: 4.8
+number_depth: 0.4
+number_size: 4.0
+oobb_details:
+    beam_end_length: 30.0
+    beam_lightening:
+        centre_land: 16.0
+        end_land: 35.0
+        radius: 2.0
+        width: 5.0
+    beam_revision: side_printed_runner
+    beam_running_height: 10.5
+    beam_transition_length: 3.5
+    column: 1
+    container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+    container_dimensions_mm:
+        across: 86
+        depth: 109
+        height: 26
+    container_short: rectangle_100_ml_tamper_evident_systempak_209
+    corner_fixing:
+        beam_clearance: 0.35
+        nut_recess: 3.0
+        nut_seat_clearance: 0.35
+        screw_length: 25.0
+        screw_reference_recess: 1.5
+    drawer_capacity_ml: 100
+    drawer_count: 2
+    drawer_sides: 2
+    face_stop_profile: inside_flat
+    finger_count: 4
+    finishing_revision: upstop_split_receiver_offset_lock
+    frame_definition:
+        bed_exclusion:
+        - 18.0
+        - 28.0
+        bed_height: 256.0
+        bed_margin: 2.0
+        bed_width: 256.0
+        catch_tab_height: 6.0
+        catch_tab_width: 56.0
+        container_clearance: 1.5
+        corner_hole_inset: 5.0
+        corner_hole_size: m3
+        depth_clearance: 1.5
+        depth_lip: 12.0
+        drawer_border_edge: 10.5
+        face_edge_y: 20
+        floor_support_projection: 12.0
+        floor_support_tab_width: 15.0
+        floor_support_thickness: 2.0
+        floor_support_tip_chamfer: 0.75
+        inset_lip: 5.5
+        lip_cutout_radius: 1.0
+        middle_stop_thickness: 3.0
+        middle_stop_width: 19.0
+        opening_height_extra: 1.0
+        outer_mount_offset: 0.9
+        outer_radius: 2.4
+        row_spacing_extra: 1.0
+        thickness_wall: 1.8
+    frame_mount_layout: top_braces
+    front_plug:
+        cap_inner_y: 8.6
+        cavity_height: 5.6
+        cavity_width: 8.4
+        corner_reliefs:
+        -   radius: 3.15
+            x: -5.5
+            y: -4.6
+        -   radius: 3.15
+            x: -5.5
+            y: 4.6
+        -   radius: 3.15
+            x: 5.5
+            y: -4.6
+        -   radius: 3.15
+            x: 5.5
+            y: 4.6
+        cover_height: 9.8
+        cover_offset_y: 1.5
+        cover_thickness: 2.0
+        cover_width: 9.8
+        full_width_y: 0.0
+        nose_width: 0.8
+        nose_y: -4.0
+        panel_stop_y: 6.05
+        print_x: 18.0
+        retention: friction
+        stem_height: 3.8
+        stem_width: 2.6
+    front_plug_test: true
+    grip_length: 12.0
+    grip_width: 11.0
+    hook_land: 0.8
+    hook_projection: 1.4
+    keeper:
+        head_length: 1.2
+        head_start_y: 8.0
+        head_width: 4.5
+        print_x: 43.0
+        stem_start_y: -4.0
+        stem_width: 2.4
+    laser_face_test:
+        corner_relief_clearance: 0.1
+        face_thickness: 3.0
+        nesting_gap: 5.0
+        reinforcement_side: 12.0
+        reinforcement_thickness: 3.0
+    lead_angle: 45.0
+    neck_width: 4.8
+    number_depth: 0.4
+    number_size: 4.0
+    outer_release_width: 1.0
+    panel_material: MDF
+    panel_thickness: 6.0
+    part_role: frame
+    permanent_snap_test: true
+    pilot_depth: 0.0
+    pilot_half_width: 0.0
+    product_name: V8 1x1 Systempak 209 drawer unit
+    push_in_cap_variants:
+        corner_clearance_count: 4
+    receiver_hole_height: 5.2
+    receiver_hole_width: 5.2
+    receiver_hole_widths:
+    - 5.2
+    receiver_labels:
+    - '71'
+    receiver_size:
+    - 30.0
+    - 30.0
+    record_type: printed_drawer_unit
+    retaining_rake: 0.15
+    row: 1
+    runner_alignment:
+        shared_receiver_offset_x: 1.5
+    screw:
+        axis_height: 6.5
+        beam_guide_height: 5.0
+        beam_guide_width: 5.0
+        beam_receiver_depth: 3.0
+        corner_reliefs:
+        -   radius: 3.15
+            x: -4.6
+            y: -5.5
+        -   radius: 3.15
+            x: -4.6
+            y: 5.5
+        -   radius: 3.15
+            x: 4.6
+            y: -5.5
+        -   radius: 3.15
+            x: 4.6
+            y: 5.5
+        end_height: 12.0
+        flange_offset_x: -0.35
+        flange_size:
+        - 10.3
+        - 10.0
+        - 2.4
+        guide_depth: 3.0
+        guide_height: 5.0
+        guide_slot_width: 3.0
+        guide_width: 5.0
+        length: 20.0
+        mating_clearance: 0.1
+        nut_near: 7.0
+        nut_overhang: false
+        nut_primitive: oobb_v5_explicit
+        nut_side_clearance: right
+        size: m3
+    screw_beam_count: 2
+    screw_beam_drop_in: true
+    screw_brace_above_opening: 7.0
+    selected_clip_sample: 71
+    side_runner:
+        bed_x: -2.5
+        clip_rotation_y: 90.0
+        end_length: 12.0
+        offset_x: 1.5
+        runner_end_clearance: 0.2
+        stop_height: 6.0
+        stop_max_x: 9.5
+        stop_min_x: -2.5
+        thickness: 3.0
+        width: 8.0
+    snap_beam_count: 2
+    spring_root_y: -5.0
+    style: ai_version_8
+    taxonomy_1: oobb
+    taxonomy_2: organization
+    taxonomy_3: storage
+    taxonomy_4: drawer_unit
+    taxonomy_5: systempak_209_100_ml
+    taxonomy_6: 1_column
+    taxonomy_7: 1_row
+    taxonomy_8: v8
+    tip_land: 0.1
+    tongue_height: 5.0
+    trials:
+    -   arm_thickness: 1.2
+        axial_clearance: 0.1
+        sample_number: 71
+        technique: straight
+        tip_thickness: 1.2
+        title: Half-depth spring + friction expansion cap
+    upper_support_height: 7.0
+    variant: 1x1
+    version: 8
+oomp_key: oomp_oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8
+outer_release_width: 1.0
+panel_material: MDF
+panel_thickness: 6.0
+part_role: frame
+permanent_snap_test: true
+pilot_depth: 0.0
+pilot_half_width: 0.0
+product_name: V8 1x1 Systempak 209 drawer unit
+push_in_cap_variants:
+    corner_clearance_count: 4
+receiver_hole_height: 5.2
+receiver_hole_width: 5.2
+receiver_hole_widths:
+- 5.2
+receiver_labels:
+- '71'
+receiver_size:
+- 30.0
+- 30.0
+record_type: printed_drawer_unit
+retaining_rake: 0.15
+row: 1
+runner_alignment:
+    shared_receiver_offset_x: 1.5
+screw:
+    axis_height: 6.5
+    beam_guide_height: 5.0
+    beam_guide_width: 5.0
+    beam_receiver_depth: 3.0
+    corner_reliefs:
+    -   radius: 3.15
+        x: -4.6
+        y: -5.5
+    -   radius: 3.15
+        x: -4.6
+        y: 5.5
+    -   radius: 3.15
+        x: 4.6
+        y: -5.5
+    -   radius: 3.15
+        x: 4.6
+        y: 5.5
+    end_height: 12.0
+    flange_offset_x: -0.35
+    flange_size:
+    - 10.3
+    - 10.0
+    - 2.4
+    guide_depth: 3.0
+    guide_height: 5.0
+    guide_slot_width: 3.0
+    guide_width: 5.0
+    length: 20.0
+    mating_clearance: 0.1
+    nut_near: 7.0
+    nut_overhang: false
+    nut_primitive: oobb_v5_explicit
+    nut_side_clearance: right
+    size: m3
+screw_beam_count: 2
+screw_beam_drop_in: true
+screw_brace_above_opening: 7.0
+selected_clip_sample: 71
+side_runner:
+    bed_x: -2.5
+    clip_rotation_y: 90.0
+    end_length: 12.0
+    offset_x: 1.5
+    runner_end_clearance: 0.2
+    stop_height: 6.0
+    stop_max_x: 9.5
+    stop_min_x: -2.5
+    thickness: 3.0
+    width: 8.0
+snap_beam_count: 2
+spring_root_y: -5.0
+style: ai_version_8
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: organization
+taxonomy_2_capital: Organization
+taxonomy_2_first_letter: o
+taxonomy_2_first_letter_upper: O
+taxonomy_2_length_1: o
+taxonomy_2_length_2: or
+taxonomy_2_length_3: org
+taxonomy_2_length_4: orga
+taxonomy_2_length_5: organ
+taxonomy_2_upper: ORGANIZATION
+taxonomy_2_upper_length_1: O
+taxonomy_2_upper_length_2: OR
+taxonomy_2_upper_length_3: ORG
+taxonomy_2_upper_length_4: ORGA
+taxonomy_2_upper_length_5: ORGAN
+taxonomy_3: storage
+taxonomy_3_capital: Storage
+taxonomy_3_first_letter: s
+taxonomy_3_first_letter_upper: S
+taxonomy_3_length_1: s
+taxonomy_3_length_2: st
+taxonomy_3_length_3: sto
+taxonomy_3_length_4: stor
+taxonomy_3_length_5: stora
+taxonomy_3_upper: STORAGE
+taxonomy_3_upper_length_1: S
+taxonomy_3_upper_length_2: ST
+taxonomy_3_upper_length_3: STO
+taxonomy_3_upper_length_4: STOR
+taxonomy_3_upper_length_5: STORA
+taxonomy_4: drawer_unit
+taxonomy_4_capital: Drawer Unit
+taxonomy_4_first_letter: d
+taxonomy_4_first_letter_upper: D
+taxonomy_4_length_1: d
+taxonomy_4_length_2: dr
+taxonomy_4_length_3: dra
+taxonomy_4_length_4: draw
+taxonomy_4_length_5: drawe
+taxonomy_4_upper: DRAWER_UNIT
+taxonomy_4_upper_length_1: D
+taxonomy_4_upper_length_2: DR
+taxonomy_4_upper_length_3: DRA
+taxonomy_4_upper_length_4: DRAW
+taxonomy_4_upper_length_5: DRAWE
+taxonomy_5: systempak_209_100_ml
+taxonomy_5_capital: Systempak 209.100 Ml
+taxonomy_5_first_letter: s
+taxonomy_5_first_letter_upper: S
+taxonomy_5_length_1: s
+taxonomy_5_length_2: sy
+taxonomy_5_length_3: sys
+taxonomy_5_length_4: syst
+taxonomy_5_length_5: syste
+taxonomy_5_upper: SYSTEMPAK_209_100_ML
+taxonomy_5_upper_length_1: S
+taxonomy_5_upper_length_2: SY
+taxonomy_5_upper_length_3: SYS
+taxonomy_5_upper_length_4: SYST
+taxonomy_5_upper_length_5: SYSTE
+taxonomy_6: 1_column
+taxonomy_6_capital: 1 Column
+taxonomy_6_first_letter: '1'
+taxonomy_6_first_letter_upper: '1'
+taxonomy_6_length_1: '1'
+taxonomy_6_length_2: '1_'
+taxonomy_6_length_3: 1_c
+taxonomy_6_length_4: 1_co
+taxonomy_6_length_5: 1_col
+taxonomy_6_upper: 1_COLUMN
+taxonomy_6_upper_length_1: '1'
+taxonomy_6_upper_length_2: '1_'
+taxonomy_6_upper_length_3: 1_C
+taxonomy_6_upper_length_4: 1_CO
+taxonomy_6_upper_length_5: 1_COL
+taxonomy_7: 1_row
+taxonomy_7_capital: 1 Row
+taxonomy_7_first_letter: '1'
+taxonomy_7_first_letter_upper: '1'
+taxonomy_7_length_1: '1'
+taxonomy_7_length_2: '1_'
+taxonomy_7_length_3: 1_r
+taxonomy_7_length_4: 1_ro
+taxonomy_7_length_5: 1_row
+taxonomy_7_upper: 1_ROW
+taxonomy_7_upper_length_1: '1'
+taxonomy_7_upper_length_2: '1_'
+taxonomy_7_upper_length_3: 1_R
+taxonomy_7_upper_length_4: 1_RO
+taxonomy_7_upper_length_5: 1_ROW
+taxonomy_8: v8
+taxonomy_8_capital: V8
+taxonomy_8_first_letter: v
+taxonomy_8_first_letter_upper: V
+taxonomy_8_length_1: v
+taxonomy_8_length_2: v8
+taxonomy_8_length_3: v8
+taxonomy_8_length_4: v8
+taxonomy_8_length_5: v8
+taxonomy_8_upper: V8
+taxonomy_8_upper_length_1: V
+taxonomy_8_upper_length_2: V8
+taxonomy_8_upper_length_3: V8
+taxonomy_8_upper_length_4: V8
+taxonomy_8_upper_length_5: V8
+taxonomy_9: ''
+tip_land: 0.1
+tongue_height: 5.0
+trials:
+-   arm_thickness: 1.2
+    axial_clearance: 0.1
+    sample_number: 71
+    technique: straight
+    tip_thickness: 1.2
+    title: Half-depth spring + friction expansion cap
+upper_support_height: 7.0
+variant: 1x1
+version: 8

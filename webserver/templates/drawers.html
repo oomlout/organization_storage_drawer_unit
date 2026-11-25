@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %}Drawer units · Compare & build{% endblock %}
+{% block page_title %}Drawer units{% endblock %}
+{% block head_extra %}<link rel="stylesheet" href="{{ url_for('static', filename='drawers.css') }}">{% endblock %}
+{% macro number(value, digits=2) %}{% if value is not none %}{{ ("%." ~ digits ~ "f")|format(value) }}{% else %}—{% endif %}{% endmacro %}
+{% macro money(value) %}{% if value is not none %}£{{ number(value) }}{% else %}—{% endif %}{% endmacro %}
+{% block content %}
+<section class="drawer-intro">
+  <div><p class="drawer-eyebrow">SMALL PARTS / STORAGE BENCHMARK</p><h2>Find a home for every component.</h2><p>Compare ready-made cabinets with your printed frames and takeaway-pot drawers.</p></div>
+  <div class="drawer-rate"><strong>1p<span> / gram</span></strong><span>Printed-frame filament rate</span></div>
+</section>
+<nav class="drawer-tabs" aria-label="Drawer views">
+  <a href="/drawers?{{ request.query_string.decode('utf-8') }}" {% if not table %}aria-current="page"{% endif %}>Product cards</a>
+  <a href="/compare?{{ request.query_string.decode('utf-8') }}" {% if table %}aria-current="page"{% endif %}>Comparison table</a>
+</nav>
+<form class="drawer-filters" method="get">
+  <label>Search<input name="q" type="search" value="{{ request.args.get('q', '') }}" placeholder="Brand, model or printer"></label>
+  <label>Build or buy<select name="kind">{% for value,label in [('all','All units'),('Purchased','Purchased'),('Printed','Printed')] %}<option value="{{ value }}" {% if request.args.get('kind','all') == value %}selected{% endif %}>{{ label }}</option>{% endfor %}</select></label>
+  <label>Drawer capacity<select name="capacity">{% for value,label in [('all','All capacities'),('100','100 ml pots'),('small','200–300 ml cabinets'),('550','550 ml pots')] %}<option value="{{ value }}" {% if request.args.get('capacity','all') == value %}selected{% endif %}>{{ label }}</option>{% endfor %}</select></label>
+  <label>Sort by<select name="sort">{% for key,label in sort_fields.items() %}<option value="{{ key }}" {% if sort == key %}selected{% endif %}>{{ label }}</option>{% endfor %}</select></label>
+  <label>Order<select name="direction"><option value="asc" {% if direction == 'asc' %}selected{% endif %}>Low to high / A–Z</option><option value="desc" {% if direction == 'desc' %}selected{% endif %}>High to low / Z–A</option></select></label>
+  <label class="drawer-check"><input type="checkbox" name="samples" value="1" {% if request.args.get('samples') == '1' %}checked{% endif %}>Include samples & separate halves</label>
+  <button class="button button--accent" type="submit">Apply</button><a href="{{ request.path }}">Reset</a>
+</form>
+<div class="drawer-results"><strong>{{ rows|length }} of {{ total }} units</strong><span>GBP · VAT included · delivery excluded · capacity rounded to 25 ml</span></div>
+{% if table %}
+<div class="drawer-table-wrap" tabindex="0" aria-label="Scrollable comparison table">
+<table class="drawer-table"><caption>Click any column heading to sort. Unknown values stay at the bottom.</caption><thead><tr><th scope="col">Preview</th>{% for c in columns %}<th scope="col" {% if sort == c.key %}aria-sort="{{ 'ascending' if direction == 'asc' else 'descending' }}"{% endif %}><a href="{{ c.url }}">{{ c.label }}{% if sort == c.key %} {{ '↑' if direction == 'asc' else '↓' }}{% endif %}</a></th>{% endfor %}<th scope="col">Availability / source</th></tr></thead>
+<tbody>{% for r in rows %}<tr>
+<td>{% if r.image_url %}<a href="{{ r.detail_url }}"><img src="{{ r.image_url }}" alt="{{ r.name }}" loading="lazy"></a>{% else %}Preview pending{% endif %}</td>
+<th scope="row"><a href="{{ r.detail_url }}">{{ r.name }}</a>{% if r.sample %}<small>Sample / separate half</small>{% endif %}</th>
+<td>{{ r.kind }}{% if r.printed %}<small>Estimated costs</small>{% endif %}</td>
+<td>{{ r.drawer_count }}</td><td title="{{ r.capacity_basis }}">{{ r.capacity_ml }}{% if r.capacity_estimated %}<small>Estimated</small>{% endif %}</td><td>{{ number(r.total_litres,2) }}</td>
+<td>{{ money(r.price) }}</td><td class="drawer-emphasis">{{ money(r.per_drawer) }}</td><td>{{ money(r.per_litre) }}</td><td title="{{ r.weight_basis }}">{{ number(r.weight_kg,3) }}{% if r.printed %}<small>Estimated</small>{% elif 'unconfirmed' in r.weight_basis %}<small>Provisional</small>{% endif %}</td><td>{{ money(r.per_kg) }}</td>
+<td>{{ number(r.width_mm,1) }}</td><td>{{ number(r.height_mm,1) }}</td><td>{{ number(r.depth_mm,1) }}</td><td><span>{{ r.availability }}</span><a href="{{ r.source_url }}" target="_blank" rel="noopener noreferrer">{{ r.seller }} ↗</a><small>{{ r.date }}</small></td>
+</tr>{% endfor %}</tbody></table></div>
+{% else %}
+<div class="drawer-grid">{% for r in rows %}
+<article class="drawer-card">
+  <div class="drawer-card-image"><a href="{{ r.detail_url }}">{% if r.image_url %}<img src="{{ r.image_url }}" alt="{{ r.name }}" loading="lazy">{% else %}<span>Preview pending</span>{% endif %}</a><span class="drawer-badge {{ 'printed' if r.printed else '' }}">{{ r.kind }}{% if r.sample %} · sample{% endif %}</span></div>
+  <div class="drawer-card-body"><h3><a href="{{ r.detail_url }}">{{ r.name }}</a></h3>
+  <p class="drawer-dimensions">{{ number(r.width_mm,1) }} × {{ number(r.height_mm,1) }} × {{ number(r.depth_mm,1) }} mm <span>W × H × D</span></p>
+  <dl class="drawer-metrics"><div><dt>Drawers</dt><dd>{{ r.drawer_count }}</dd></div><div><dt>ml / drawer{% if r.capacity_estimated %} ≈{% endif %}</dt><dd>{{ r.capacity_ml }}</dd></div><div class="drawer-emphasis"><dt>Per drawer</dt><dd>{{ money(r.per_drawer) }}</dd></div></dl>
+  <div class="drawer-price"><strong>{{ money(r.price) }}</strong><span>{{ 'estimated materials' if r.printed else 'per cabinet' }} · {{ money(r.per_litre) }} / litre</span></div>
+  <p class="drawer-availability">{{ r.availability }}</p>
+  <details><summary>Cost breakdown & evidence</summary><div class="drawer-evidence">
+    {% if r.printed %}
+    {% set pot = r.data.get('pot_cost_details') or {} %}
+    {% if pot.get('unit_price_gbp') is not none %}<p>Filament: {{ number(r.data.get('filament_mass_g'),1) }} g × £0.01 = {{ money(r.data.get('filament_cost_gbp')) }}.<br>Pots: {{ r.data.get('pot_quantity', r.drawer_count) }} × {{ number(pot.unit_price_gbp * 100,3) }}p = {{ money(r.data.get('pots_cost_gbp')) }}.</p><p>Solid CAD × 1.24 g/cm³ PLA, including removable ears. Actual slicer mass may differ. No labour, electricity or print waste included. {{ r.data.get('hardware_cost_basis','') }}.</p><p>{{ pot.price_basis }}. Pot mass excludes lids. {% if pot.get('weight_source_url') %}<a href="{{ pot.weight_source_url }}">Pot technical sheet ↗</a>{% endif %}</p>
+    {% else %}<p>Cost estimates are unavailable for this frame.</p>{% endif %}
+    {% if r.data.get('print_instruction') %}<p>{{ r.data.print_instruction }}</p>{% endif %}
+    {% else %}<p>{{ r.data.get('research_notes','') }}</p>{% if r.data.get('minimum_order_quantity') %}<p>Minimum order: {{ r.data.minimum_order_quantity }} cabinets.</p>{% endif %}{% if r.data.get('published_pack_price_gbp') %}<p>Purchase pack: {{ money(r.data.published_pack_price_gbp) }}.</p>{% endif %}{% endif %}
+    <p>Empty mass: {{ number(r.weight_kg,3) }} kg. {{ money(r.per_kg) }} / kg.<br>{{ r.weight_basis }}.</p><p>Capacity: {{ r.capacity_basis }}.</p><p>Checked {{ r.date }}. {% if r.image_source %}<a href="{{ r.image_source }}">Seller photo source ↗</a>{% else %}PNG rendered from this design’s SCAD.{% endif %}</p>
+  </div></details>
+  <div class="drawer-links"><a href="{{ r.detail_url }}">Part & files</a><a href="{{ r.source_url }}" target="_blank" rel="noopener noreferrer">{{ 'Pot supplier' if r.printed else r.seller }} ↗</a></div>
+  </div>
+</article>{% endfor %}</div>
+{% endif %}
+{% if not rows %}<p class="drawer-empty">No units match these filters. Try another capacity or reset the filters.</p>{% endif %}
+<aside class="drawer-method"><h3>How the comparison works</h3><p>Printed prices combine filament at 1p/g with one lidless pot per drawer. Frame mass is estimated from solid CAD volume at 1.24 g/cm³; sliced prints can differ. Pot cost allocates a 500-piece carton including VAT and unused lids. Both Systempak pot sizes were on backorder when checked. Delivery, electricity, labour, print waste and assembly hardware are excluded.</p><p>Cost per kg uses the empty cabinet, or the estimated printed frame plus pots. Unknown product weights remain blank; unconfirmed retailer weights are provisional. Total litres and £/litre use the rounded drawer capacities, which may be nominal or estimates from dimensions. Fit/layout samples and separate front/back halves are hidden by default because they are not complete storage units. Separate halves show filament cost without pots.</p><p>Supplier photos belong to their respective owners. Printed images show the SCAD frame without pots. Printed dimensions exclude removable ears; the material estimate includes them.</p></aside>
+{% endblock %}

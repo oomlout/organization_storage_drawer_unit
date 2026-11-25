@@ -1,0 +1,188 @@
+# Shared Systempak 209 frame, beam and latch dimensions in millimetres.
+face:
+  drawer_border_edge: 10.5
+  outer_mount_offset: 0.9
+  floor_support_tab_width: 15.0
+  floor_support_projection: 12.0
+  floor_support_thickness: 2.0
+  floor_support_tip_chamfer: 0.75
+  catch_tab_width: 56.0
+  catch_tab_height: 6.0
+  corner_hole_inset: 5.0
+  corner_hole_size: m3
+  outer_radius: 2.4
+  lip_cutout_radius: 1.0
+  thickness_wall: 1.8
+  row_spacing_extra: 1.0
+  middle_stop_width: 19.0
+  middle_stop_thickness: 3.0
+  bed_width: 256.0
+  bed_height: 256.0
+  bed_margin: 2.0
+  bed_exclusion:
+  - 18.0
+  - 28.0
+  depth_lip: 12.0
+  inset_lip: 5.5
+  depth_clearance: 1.5
+  container_clearance: 1.5
+  opening_height_extra: 1.0
+components:
+  panel_material: MDF
+  panel_thickness: 6.0
+  receiver_size:
+  - 30.0
+  - 30.0
+  receiver_hole_width: 5.2
+  receiver_hole_height: 5.2
+  receiver_hole_widths:
+  - 5.2
+  neck_width: 4.8
+  tongue_height: 5.0
+  grip_width: 11.0
+  grip_length: 12.0
+  spring_root_y: -5.0
+  pilot_half_width: 0.0
+  pilot_depth: 0.0
+  hook_projection: 1.4
+  hook_land: 0.8
+  tip_land: 0.1
+  lead_angle: 45.0
+  number_depth: 0.4
+  number_size: 4.0
+  trials:
+  - sample_number: 71
+    technique: straight
+    title: Half-depth spring + friction expansion cap
+    arm_thickness: 1.2
+    tip_thickness: 1.2
+    axial_clearance: 0.1
+  screw:
+    size: m3
+    length: 20.0
+    nut_near: 7.0
+    end_height: 12.0
+    axis_height: 6.5
+    nut_side_clearance: right
+    flange_size:
+    - 10.3
+    - 10.0
+    - 2.4
+    guide_depth: 3.0
+    guide_width: 5.0
+    guide_height: 5.0
+    guide_slot_width: 3.0
+    nut_overhang: false
+    nut_primitive: oobb_v5_explicit
+    beam_receiver_depth: 3.0
+    mating_clearance: 0.1
+    beam_guide_width: 5.0
+    beam_guide_height: 5.0
+    flange_offset_x: -0.35
+    corner_reliefs:
+    - x: -4.6
+      y: -5.5
+      radius: 3.15
+    - x: -4.6
+      y: 5.5
+      radius: 3.15
+    - x: 4.6
+      y: -5.5
+      radius: 3.15
+    - x: 4.6
+      y: 5.5
+      radius: 3.15
+  finger_count: 4
+  receiver_labels:
+  - '71'
+  outer_release_width: 1.0
+  keeper:
+    stem_width: 2.4
+    stem_start_y: -4.0
+    head_start_y: 8.0
+    head_width: 4.5
+    head_length: 1.2
+    print_x: 43.0
+  permanent_snap_test: true
+  retaining_rake: 0.15
+  front_plug_test: true
+  upper_support_height: 7.0
+  front_plug:
+    cover_width: 9.8
+    cover_height: 9.8
+    cover_thickness: 2.0
+    cavity_width: 8.4
+    cavity_height: 5.6
+    panel_stop_y: 6.05
+    cap_inner_y: 8.6
+    stem_width: 2.6
+    stem_height: 3.8
+    nose_width: 0.8
+    nose_y: -4.0
+    full_width_y: 0.0
+    retention: friction
+    print_x: 18.0
+    cover_offset_y: 1.5
+    corner_reliefs:
+    - x: -5.5
+      y: -4.6
+      radius: 3.15
+    - x: -5.5
+      y: 4.6
+      radius: 3.15
+    - x: 5.5
+      y: -4.6
+      radius: 3.15
+    - x: 5.5
+      y: 4.6
+      radius: 3.15
+  drawer_sides: 2
+  selected_clip_sample: 71
+  screw_brace_above_opening: 7.0
+  beam_running_height: 10.5
+  beam_end_length: 30.0
+  beam_transition_length: 3.5
+  screw_beam_drop_in: true
+  beam_lightening:
+    width: 5.0
+    radius: 2.0
+    end_land: 35.0
+    centre_land: 16.0
+  beam_revision: side_printed_runner
+  finishing_revision: upstop_split_receiver_offset_lock
+  push_in_cap_variants:
+    corner_clearance_count: 4
+  runner_alignment:
+    shared_receiver_offset_x: 1.5
+  side_runner:
+    width: 8.0
+    thickness: 3.0
+    offset_x: 1.5
+    clip_rotation_y: 90.0
+    bed_x: -2.5
+    end_length: 12.0
+    runner_end_clearance: 0.2
+    stop_min_x: -2.5
+    stop_max_x: 9.5
+    stop_height: 6.0
+  laser_face_test:
+    face_thickness: 3.0
+    reinforcement_thickness: 3.0
+    reinforcement_side: 12.0
+    nesting_gap: 5.0
+    corner_relief_clearance: 0.1
+corner_fixing:
+  screw_length: 25.0
+  screw_reference_recess: 1.5
+  nut_seat_clearance: 0.35
+  nut_recess: 3.0
+  beam_clearance: 0.35
+joiner:
+  cap_axial_clearance: 0.8
+  cap_side_clearance: 0.6
+  front_roof_thickness: 3.0
+  loose_cap_extra_clearance: 0.3
+  joining_plate_unit_gap: 0.0
+  joining_plate_layout_gap: 5.0
+  countersink_setback: 0.95
+  backer_shape: clasp_and_runner_relief

@@ -1,0 +1,36 @@
+V7 / ONE WIDE x TWO TALL / TWO-SIDED / SYSTEMPAK 209 100 ml
+
+FOUR drawers total: two from each end. All dimensions in mm.
+Frame: 108.5 wide x 99.8 tall x 224 deep; caps extend total depth to 233.2.
+Top border houses two screw braces, clear of the drawer openings.
+
+PRINT EACH ONCE:
+front.stl + back.stl: identical faces, outside face DOWN; 6 mm web, 18 mm maximum depth.
+snap_beams.stl: FOUR complete beams; BOTH ends use the selected sample 71 snap.
+screw_beams.stl: TWO complete top braces, with M3 nut pockets at BOTH ends.
+front_plugs.stl: EIGHT friction covers, outside face DOWN, stem UP.
+screw_adapters.stl: FOUR countersunk guides, outside face DOWN, cheeks UP.
+Use production PETG settings. Rails lie on their long flat faces. Retain orientations.
+Beam batches are 229 mm (snap tips included) / 212 mm long; use a P1P-size bed.
+Individual snap_beam, screw_beam, front_plug and screw_adapter files are SPARES.
+receiver_6_0.stl and sample_71.stl are OPTIONAL test coupons, not unit parts.
+3dpr and assembled are REFERENCE OVERVIEWS, not single-bed print files.
+
+LASER ALTERNATIVE: cut front_laser_2d.dxf TWICE from measured 6 mm MDF,
+instead of printing front/back. Stops are flat solid 6 mm; printed stops retain
+the angled slide-on profiles and inward floor tabs. MDF cannot provide the
+12 mm inward tabs: supply drawer-floor support from the enclosure.
+DXF is nominal finished mm contours on CUT; apply measured kerf once in CAM.
+receiver_laser.dxf is an optional fit coupon with the same 5.2 x 5.2 opening.
+
+HARDWARE: FOUR M3 x 20 countersunk screws plus FOUR M3 nuts, one per brace end.
+Side-load nuts before attaching the second face. Upper two receiver holes take
+screw braces; the four lower holes take snaps. Both use the same rectangular hole.
+Seat beams against the inside faces; snap hooks emerge outside. Then press each
+pointed friction plug in from outside until its skirt seats against the panel.
+There are NO plug detents or arm pockets. Tip width .8; fitted stem 2.6, unchanged.
+Fit screw guides from outside and tighten screws gently into side-loaded nuts.
+The beam centre stops separate front/back drawers. Wide T at TOP in service.
+Fit surrounding plywood/enclosure; it supplies the bottom drawer floor.
+Corner mounting screw lengths depend on your enclosure and are not included.
+Test fit and loading progressively; full-assembly force, creep and capacity are unverified.

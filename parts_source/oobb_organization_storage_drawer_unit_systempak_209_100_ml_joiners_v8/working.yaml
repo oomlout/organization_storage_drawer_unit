@@ -1,0 +1,73 @@
+compatible_frames:
+- 1x1
+- 2x2
+container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+container_short: rectangle_100_ml_tamper_evident_systempak_209
+corner_fixing:
+  backer_shape: clasp_and_runner_relief
+  beam_clearance: 0.35
+  cap_axial_clearance: 0.8
+  cap_side_clearance: 0.6
+  countersink_setback: 0.95
+  front_roof_thickness: 3.0
+  joining_plate_layout_gap: 5.0
+  joining_plate_unit_gap: 0.0
+  loose_cap_extra_clearance: 0.3
+  nut_recess: 3.0
+  nut_seat_clearance: 0.35
+  screw_length: 25.0
+  screw_reference_recess: 1.5
+oobb_details:
+  compatible_frames:
+  - 1x1
+  - 2x2
+  container: packaging_takeaway_container_rectangle_100_ml_capacity_109_mm_width_86_mm_height_29_mm_depth_tamper_evident_systempak_209
+  container_short: rectangle_100_ml_tamper_evident_systempak_209
+  corner_fixing:
+    backer_shape: clasp_and_runner_relief
+    beam_clearance: 0.35
+    cap_axial_clearance: 0.8
+    cap_side_clearance: 0.6
+    countersink_setback: 0.95
+    front_roof_thickness: 3.0
+    joining_plate_layout_gap: 5.0
+    joining_plate_unit_gap: 0.0
+    loose_cap_extra_clearance: 0.3
+    nut_recess: 3.0
+    nut_seat_clearance: 0.35
+    screw_length: 25.0
+    screw_reference_recess: 1.5
+  part_role: accessory
+  product_name: V8 M3 x 25 joining brackets and backers
+  reference_frame: 2x2
+  style: ai_version_8
+  taxonomy_1: oobb
+  taxonomy_2: organization
+  taxonomy_3: storage
+  taxonomy_4: drawer_unit
+  taxonomy_5: systempak_209_100_ml
+  taxonomy_6: joiners
+  taxonomy_7: v8
+  variant: joiners
+  version: 8
+part_role: accessory
+product_name: V8 M3 x 25 joining brackets and backers
+reference_frame: 2x2
+style: ai_version_8
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: organization
+taxonomy_3: storage
+taxonomy_4: drawer_unit
+taxonomy_5: systempak_209_100_ml
+taxonomy_6: joiners
+taxonomy_7: v8
+taxonomy_8: ''
+taxonomy_9: ''
+variant: joiners
+version: 8

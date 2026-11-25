@@ -1,0 +1,416 @@
+{
+  "mesh_views": 22,
+  "beam_mount_combinations": 18,
+  "both_faces_checked": true,
+  "drawer_count": 8,
+  "laser_cuts": [
+    {
+      "file": "front_laser_2d.dxf",
+      "closed_contours": 18,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 10926.970473525911,
+      "profile_difference_mm2": 0.025388257773123663,
+      "maximum_contour_difference_mm": 6.749581717567098e-05
+    },
+    {
+      "file": "receiver_laser.dxf",
+      "closed_contours": 2,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 869.2906405000003,
+      "profile_difference_mm2": 0.0027403401233143648,
+      "maximum_contour_difference_mm": 6.31261866609994e-05
+    },
+    {
+      "file": "clip_reinforcement_2d.dxf",
+      "closed_contours": 2,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 116.96,
+      "profile_difference_mm2": 1.9836425408925606e-06,
+      "maximum_contour_difference_mm": 1.348699153604683e-07
+    },
+    {
+      "file": "clip_reinforcement_offset_2d.dxf",
+      "closed_contours": 2,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 116.96000000000001,
+      "profile_difference_mm2": 1.611709569231401e-06,
+      "maximum_contour_difference_mm": 1.348699150464498e-07
+    },
+    {
+      "file": "clip_reinforcements_2d.dxf",
+      "closed_contours": 18,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 1052.64,
+      "profile_difference_mm2": 0.0004037475493657182,
+      "maximum_contour_difference_mm": 1.5728399770574958e-06
+    },
+    {
+      "file": "front_3mm_test_2d.dxf",
+      "closed_contours": 36,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 11979.610473525909,
+      "profile_difference_mm2": 0.02579200532251503,
+      "maximum_contour_difference_mm": 6.749581717567098e-05
+    }
+  ],
+  "stop_profiles": [
+    {
+      "face": "front",
+      "kind": "top_catch",
+      "column": 0,
+      "row": null,
+      "profile_mm": [
+        1.8899993302428868,
+        4.789999846947605,
+        7.69000036365232
+      ]
+    },
+    {
+      "face": "front",
+      "kind": "floor",
+      "column": 0,
+      "row": 0,
+      "profile_mm": [
+        2.889999982228855,
+        5.7900000378393415,
+        8.690000093449827
+      ]
+    },
+    {
+      "face": "front",
+      "kind": "top_catch",
+      "column": 0,
+      "row": null,
+      "profile_mm": [
+        1.8899993302428904,
+        4.789999846947605,
+        7.69000036365232
+      ]
+    },
+    {
+      "face": "front",
+      "kind": "floor",
+      "column": 0,
+      "row": 0,
+      "profile_mm": [
+        2.889999982228856,
+        5.7900000378393415,
+        8.690000093449827
+      ]
+    },
+    {
+      "face": "front",
+      "kind": "top_catch",
+      "column": 1,
+      "row": null,
+      "profile_mm": [
+        1.8899993302428904,
+        4.789999846947605,
+        7.69000036365232
+      ]
+    },
+    {
+      "face": "front",
+      "kind": "floor",
+      "column": 1,
+      "row": 0,
+      "profile_mm": [
+        2.889999982228856,
+        5.7900000378393415,
+        8.690000093449827
+      ]
+    },
+    {
+      "face": "front",
+      "kind": "top_catch",
+      "column": 1,
+      "row": null,
+      "profile_mm": [
+        1.8899993302428868,
+        4.789999846947605,
+        7.69000036365232
+      ]
+    },
+    {
+      "face": "front",
+      "kind": "floor",
+      "column": 1,
+      "row": 0,
+      "profile_mm": [
+        2.889999982228855,
+        5.7900000378393415,
+        8.690000093449827
+      ]
+    },
+    {
+      "face": "back",
+      "kind": "top_catch",
+      "column": 0,
+      "row": null,
+      "profile_mm": [
+        1.8899993302428868,
+        4.789999846947605,
+        7.69000036365232
+      ]
+    },
+    {
+      "face": "back",
+      "kind": "floor",
+      "column": 0,
+      "row": 0,
+      "profile_mm": [
+        2.889999982228855,
+        5.7900000378393415,
+        8.690000093449827
+      ]
+    },
+    {
+      "face": "back",
+      "kind": "top_catch",
+      "column": 0,
+      "row": null,
+      "profile_mm": [
+        1.8899993302428904,
+        4.789999846947605,
+        7.69000036365232
+      ]
+    },
+    {
+      "face": "back",
+      "kind": "floor",
+      "column": 0,
+      "row": 0,
+      "profile_mm": [
+        2.889999982228856,
+        5.7900000378393415,
+        8.690000093449827
+      ]
+    },
+    {
+      "face": "back",
+      "kind": "top_catch",
+      "column": 1,
+      "row": null,
+      "profile_mm": [
+        1.8899993302428904,
+        4.789999846947605,
+        7.69000036365232
+      ]
+    },
+    {
+      "face": "back",
+      "kind": "floor",
+      "column": 1,
+      "row": 0,
+      "profile_mm": [
+        2.889999982228856,
+        5.7900000378393415,
+        8.690000093449827
+      ]
+    },
+    {
+      "face": "back",
+      "kind": "top_catch",
+      "column": 1,
+      "row": null,
+      "profile_mm": [
+        1.8899993302428868,
+        4.789999846947605,
+        7.69000036365232
+      ]
+    },
+    {
+      "face": "back",
+      "kind": "floor",
+      "column": 1,
+      "row": 0,
+      "profile_mm": [
+        2.889999982228855,
+        5.7900000378393415,
+        8.690000093449827
+      ]
+    },
+    {
+      "face": "front_laser",
+      "kind": "top_catch",
+      "column": 0,
+      "row": null,
+      "profile_mm": [
+        7.790000381469724,
+        7.790000381469724,
+        7.790000381469724
+      ]
+    },
+    {
+      "face": "front_laser",
+      "kind": "floor",
+      "column": 0,
+      "row": 0,
+      "profile_mm": [
+        8.79000009536743,
+        8.79000009536743,
+        8.79000009536743
+      ]
+    },
+    {
+      "face": "front_laser",
+      "kind": "top_catch",
+      "column": 0,
+      "row": null,
+      "profile_mm": [
+        7.790000381469724,
+        7.790000381469724,
+        7.790000381469724
+      ]
+    },
+    {
+      "face": "front_laser",
+      "kind": "floor",
+      "column": 0,
+      "row": 0,
+      "profile_mm": [
+        8.79000009536743,
+        8.79000009536743,
+        8.79000009536743
+      ]
+    },
+    {
+      "face": "front_laser",
+      "kind": "top_catch",
+      "column": 1,
+      "row": null,
+      "profile_mm": [
+        7.790000381469724,
+        7.790000381469724,
+        7.790000381469724
+      ]
+    },
+    {
+      "face": "front_laser",
+      "kind": "floor",
+      "column": 1,
+      "row": 0,
+      "profile_mm": [
+        8.79000009536743,
+        8.79000009536743,
+        8.79000009536743
+      ]
+    },
+    {
+      "face": "front_laser",
+      "kind": "top_catch",
+      "column": 1,
+      "row": null,
+      "profile_mm": [
+        7.790000381469724,
+        7.790000381469724,
+        7.790000381469724
+      ]
+    },
+    {
+      "face": "front_laser",
+      "kind": "floor",
+      "column": 1,
+      "row": 0,
+      "profile_mm": [
+        8.79000009536743,
+        8.79000009536743,
+        8.79000009536743
+      ]
+    },
+    {
+      "face": "front_3mm_test",
+      "kind": "top_catch",
+      "column": 0,
+      "row": null,
+      "profile_mm": [
+        7.790000381469724,
+        7.790000381469724,
+        7.790000381469724
+      ]
+    },
+    {
+      "face": "front_3mm_test",
+      "kind": "floor",
+      "column": 0,
+      "row": 0,
+      "profile_mm": [
+        8.79000009536743,
+        8.79000009536743,
+        8.79000009536743
+      ]
+    },
+    {
+      "face": "front_3mm_test",
+      "kind": "top_catch",
+      "column": 0,
+      "row": null,
+      "profile_mm": [
+        7.790000381469724,
+        7.790000381469724,
+        7.790000381469724
+      ]
+    },
+    {
+      "face": "front_3mm_test",
+      "kind": "floor",
+      "column": 0,
+      "row": 0,
+      "profile_mm": [
+        8.79000009536743,
+        8.79000009536743,
+        8.79000009536743
+      ]
+    },
+    {
+      "face": "front_3mm_test",
+      "kind": "top_catch",
+      "column": 1,
+      "row": null,
+      "profile_mm": [
+        7.790000381469724,
+        7.790000381469724,
+        7.790000381469724
+      ]
+    },
+    {
+      "face": "front_3mm_test",
+      "kind": "floor",
+      "column": 1,
+      "row": 0,
+      "profile_mm": [
+        8.79000009536743,
+        8.79000009536743,
+        8.79000009536743
+      ]
+    },
+    {
+      "face": "front_3mm_test",
+      "kind": "top_catch",
+      "column": 1,
+      "row": null,
+      "profile_mm": [
+        7.790000381469724,
+        7.790000381469724,
+        7.790000381469724
+      ]
+    },
+    {
+      "face": "front_3mm_test",
+      "kind": "floor",
+      "column": 1,
+      "row": 0,
+      "profile_mm": [
+        8.79000009536743,
+        8.79000009536743,
+        8.79000009536743
+      ]
+    }
+  ]
+}

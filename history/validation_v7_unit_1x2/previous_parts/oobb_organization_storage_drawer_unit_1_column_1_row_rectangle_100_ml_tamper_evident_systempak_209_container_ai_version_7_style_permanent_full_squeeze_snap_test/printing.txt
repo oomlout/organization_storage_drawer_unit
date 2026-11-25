@@ -1,0 +1,28 @@
+V7 PERMANENT FULL-SQUEEZE SNAP TEST — 60 / 61 / 62
+
+Print 3dpr.stl ONCE: three separate numbered snap ends. Print receiver_6_0.stl ONCE.
+sample_60/61/62.stl are spares. Use the supplied flat orientations, labels UP, production PETG.
+60: straight arms. 61: thick-root tapered arms. 62: S-shaped spring arms.
+All three have the SAME larger hooks and smaller receiver fit; choose a mechanism first.
+
+NEW receiver holes are 5.2 x 4.2 mm (previous 6.0 x 4.6). Neck is 4.8 x 4.0 mm.
+Hooks project 1.4 mm per side (previous .8); recovered head width is 7.6 mm.
+Each arm tip is 1.2 mm thick. Required inward travel is 1.2 mm per arm, closing the
+2.4 mm centre gap COMPLETELY at the hooks. Closed head width is exactly 5.2 mm.
+This is deliberate nominal contact, with no CAD over-compression of one arm into the other.
+The new height leaves .1 mm clearance per face. Do NOT use the older oversized receiver.
+
+INTENDED ONE-TIME USE: push from inside until the shoulders seat and hooks recover outside.
+Retaining faces are square/back-raked .15 mm; broad .8 mm lands resist withdrawal.
+No release pads, release ramp, or removable locking key are provided. Expect to sacrifice
+a sample/receiver when testing removal. Do not assume CAD proves removal requires damage.
+A tool may still reach the exposed hooks; physical destructive pull tests determine permanence.
+If the arms meet but a poor print still cannot enter, record that rather than forcing past
+the contact stop. The closed arms cannot move farther without crushing or deforming.
+Record arm contact, effort, click, play and the outcome/failure location when pulled.
+results.csv is preserved. Only physical fit feedback was supplied; no prior breakage was reported.
+
+MDF: receiver_laser.dxf cuts the SAME three smaller holes in nominal 6 mm stock.
+Use measured kerf compensation ONCE in CAM; DXF is finished nominal geometry in mm.
+The smaller receiver is for this test. No full cabinet rail or final interface is selected.
+Physical insertion force, permanent retention, PETG creep and MDF edge damage remain unverified.

@@ -1,0 +1,81 @@
+{
+  "mesh_views": 26,
+  "beam_mount_combinations": 42,
+  "both_faces_checked": true,
+  "drawer_count": 28,
+  "laser_cuts": [
+    {
+      "file": "front_laser_2d.dxf",
+      "closed_contours": 40,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 13130.560642058424,
+      "profile_difference_mm2": 0.16847526375989588,
+      "maximum_contour_difference_mm": 0.0004884736787037335
+    },
+    {
+      "file": "receiver_laser.dxf",
+      "closed_contours": 2,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 869.2906405000003,
+      "profile_difference_mm2": 0.0027403401233143648,
+      "maximum_contour_difference_mm": 6.31261866609994e-05
+    },
+    {
+      "file": "clip_reinforcement_2d.dxf",
+      "closed_contours": 2,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 116.96,
+      "profile_difference_mm2": 1.9836425408925606e-06,
+      "maximum_contour_difference_mm": 1.348699153604683e-07
+    },
+    {
+      "file": "clip_reinforcement_corner_left_2d.dxf",
+      "closed_contours": 2,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 110.10395003265002,
+      "profile_difference_mm2": 1.2274990850369858e-05,
+      "maximum_contour_difference_mm": 6.643315177732144e-06
+    },
+    {
+      "file": "clip_reinforcement_offset_2d.dxf",
+      "closed_contours": 2,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 116.96000000000001,
+      "profile_difference_mm2": 1.611709569231401e-06,
+      "maximum_contour_difference_mm": 1.348699150464498e-07
+    },
+    {
+      "file": "clip_reinforcement_corner_right_2d.dxf",
+      "closed_contours": 2,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 110.10395003265002,
+      "profile_difference_mm2": 1.2274990850346014e-05,
+      "maximum_contour_difference_mm": 6.643315177732144e-06
+    },
+    {
+      "file": "clip_reinforcements_2d.dxf",
+      "closed_contours": 42,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 2442.4479545230006,
+      "profile_difference_mm2": 0.0015996720526304069,
+      "maximum_contour_difference_mm": 5.5777932194864206e-05
+    },
+    {
+      "file": "front_3mm_test_2d.dxf",
+      "closed_contours": 82,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 15573.008596581401,
+      "profile_difference_mm2": 0.17007493581252034,
+      "maximum_contour_difference_mm": 0.0004884736787037335
+    }
+  ],
+  "stop_profiles": []
+}
