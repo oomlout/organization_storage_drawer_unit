@@ -1,0 +1,49 @@
+V6 double sided Systempak 209 / 100 ml drawer unit. Dimensions in mm.
+197.8 x 220.3 x 224.0 frame; 2 columns x 7 rows on EACH side, 28 pots total.
+Screw adapters add 2.4 mm outside EACH face; finished plastic depth is 228.8 mm including them.
+front.stl and back.stl: print ONE each, outside face on bed; they are identical.
+One-piece plates require 197.8 x 220.3 mm usable area, plus margins/brim.
+Planning area: 256.0 x 256.0 mm, 2.0 mm margins; printer: P1P.
+P1P: retain the 18 x 28 mm corner exclusion; do not add an unchecked brim.
+The plates exceed the A1 mini bed. No tile seams or filler border are included.
+Four plain M3 clearance holes per plate, centres 5 mm from each adjacent outside edge.
+Use these eight holes to secure both plates to the surrounding plywood enclosure.
+Plywood thickness, joinery and screw length are user supplied; they are outside the CAD frame dimensions.
+rails_plate_*.stl: print EVERY numbered batch once; total 17 sample-37 snap rails and FOUR screw rails replacing four snaps.
+screw_adapters.stl: print ONCE for all EIGHT adapters, one per screw-rail end.
+snap_rail.stl, screw_rail.stl and screw_adapter.stl are individual spares, not extra kit quantities.
+screw_upgrade.stl contains FOUR screw rails and EIGHT adapters together, for upgrading an already printed all-snap cabinet. Do not print it in addition to the complete mixed rail batches.
+For a new unit print the mixed rail batches plus screw_adapters.stl; for a retrofit print ONLY screw_upgrade.stl.
+joining_plates.stl contains ONE four-unit joiner and ONE two-unit joiner together in the same print file.
+Both joiners are 6 mm thick, with M3 countersinks facing UP and flat backs on the bed.
+Four-unit plate: 20 x 20 mm, four holes on 10 x 10 mm centres. Two-unit plate: 20 x 10 mm, two holes 10 mm apart.
+Mount on the outside faces over existing cabinet corner holes. Rotate the two-unit plate 90 degrees for vertically adjacent units.
+Default spacing assumes touching plastic face edges; extra plywood spacing between units changes the required hole pitch.
+Joiners are optional accessories, excluded from the single-cabinet BOM and assembled reference. Supply M3 countersunk screws and matching backing/nuts.
+Face plates: 6 mm base web plus two 15 mm-wide floor tabs projecting 12 mm inward, 18 mm overall print depth.
+The original 56 mm stop span is split into two 15 mm tabs with a 26 mm central gap.
+Tabs have 45-degree bed-supported root slopes, flat bearing roofs beneath the drawer above, and tapered inner tips.
+The physical bottom drawer has no added floor extension; the plywood supplies its support.
+CAD negative Y is UP in service: the wide T is the TOP of each drawer. Preview rotation is corrected.
+Snap receivers retain a continuous 1 mm inner web; use the matching NEW rail bevels with these plates.
+The former 1 mm full-width lower cutout relief is removed; shoulder webs connect solidly to the floor crossbar.
+Upper and lower drawer-opening rectangles both use 1 mm corner radii.
+Full-length rails now use selected latch sample 37 at BOTH ends: 0.05 mm hook-pocket side clearance and 0.1 mm end play.
+The face plates have been regenerated; receiving holes and plate geometry remain unchanged, compatible with existing plates.
+The 1.8 mm arms, spring roots, flush tips, middle stops and rail length remain unchanged. Print all updated rail batches for this unit.
+Rails lie on the long flat face, with their central stop wings supported on the bed.
+3dpr.stl is the complete kit overview and exceeds one bed. assembled.stl is reference only.
+Install the four screw rails at the outermost upper and lower rail positions, as shown in assembly.json. The plate holes are unchanged.
+Side-load ONE M3 nut into EACH end of the four screw rails BEFORE fitting the second plate (EIGHT nuts total). OOBB left clearance opens toward local +X.
+Place each adapter from the OUTSIDE of the plate, tapered cheeks into the existing snap hole, broad flange outside.
+Insert EIGHT M3 x 20 countersunk screws through the adapters and tighten into the beam nuts; the heads seat flush with the adapter faces.
+Nut pockets are 7-10 mm inward from each beam end; screws project 1.6 mm beyond them into a clearance bore.
+Snap the remaining sample-37 rails into the plates, then progressively seat the second plate.
+The adapters print flange outside face DOWN, countersinks on the bed and tapered guides UP. Their two substantial cheeks avoid fragile bore slivers.
+Screw rails print on the long flat face, as supplied. End bosses are 13 mm high around the side-loaded nuts.
+Remaining snap catches finish flush with the plate outside faces. The optional joiners use separate hardware.
+Each rail has an integral 3 mm middle stop, with wings extending into the pot body channel.
+Drawers enter from both faces and stop at opposite sides of the middle barrier.
+Retained outer catches resist pullout at both faces; lift trays past them as before.
+Inspect the 0.5 mm receiver lands and spring slots in the slicer.
+The user preferred sample 37 in the snap fit trial. The new screw adapter/rail fit and full-unit loading still need a physical PETG check.

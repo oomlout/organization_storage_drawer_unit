@@ -1,0 +1,52 @@
+{
+  "id": "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style",
+  "file": "assembled",
+  "checks": {
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true
+  },
+  "volume_mm3": 179610.59288995806,
+  "bounds_mm": [
+    [
+      -98.9000015258789,
+      -51.400001525878906,
+      0.0
+    ],
+    [
+      98.9000015258789,
+      51.400001525878906,
+      110.5
+    ]
+  ],
+  "design": {
+    "style": "ai_version_4",
+    "view": "assembled",
+    "expected_bodies": 1,
+    "bom": {
+      "front": 1,
+      "back": 1,
+      "rail": 9,
+      "bottom_rail": 3,
+      "M3_countersunk_screw_16_mm": 24,
+      "M3_nut": 24
+    },
+    "rail_length_mm": 95.5,
+    "plate_size_mm": [
+      197.79999999999998,
+      77.80000000000001,
+      7.5
+    ],
+    "assembled_envelope_mm": [
+      197.79999999999998,
+      77.80000000000001,
+      110.5
+    ],
+    "identical_front_and_back": false,
+    "front_lip": true,
+    "rear_lip": false,
+    "nut_side_clearance": "left",
+    "printable": false,
+    "part_role": "frame"
+  }
+}

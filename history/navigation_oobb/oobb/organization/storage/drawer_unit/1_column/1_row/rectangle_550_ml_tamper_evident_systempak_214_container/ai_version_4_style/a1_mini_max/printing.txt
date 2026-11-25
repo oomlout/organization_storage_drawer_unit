@@ -1,0 +1,12 @@
+Version 4 modular drawer unit. All dimensions are millimetres.
+3dpr.scad: complete kit overview, all components on Z=0; it may exceed one bed.
+front.scad: print ONE front plate with its catch lip. face_plate.scad is the front alias.
+back.scad: print ONE rear plate without a catch lip; do not print two front plates.
+rail.scad: universal shelf/top/top-corner rail. bottom_rail.scad: reinforced bottom row.
+rails_plate_*.scad: bed-sized batches containing the exact rail quantities in assembly.json.
+assembled.scad: reference only. Face-fit 3dpr contains one front plate; back.scad is an optional rear fit test.
+Print rails on their long flat bearing faces, as generated. No standing long rails.
+Load M3 nuts sideways into both end pockets before fitting the second face plate.
+Seat the 3 mm pointed keys, then use M3 x 16 countersunk screws from the outside.
+Small horizontal screw bores and nut-slot roofs need short bridging; inspect the slicer.
+Trial joint_fit and face_fit first. Tray clearance, fit and loading need physical checks.

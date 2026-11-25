@@ -1,0 +1,56 @@
+{
+  "id": "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_face_fit",
+  "file": "face_plate",
+  "checks": {
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "expected_body_count": true,
+    "all_bodies_on_bed": true,
+    "fits_declared_bed": true,
+    "plate_has_no_unexpected_overhangs": true
+  },
+  "volume_mm3": 36314.111763382134,
+  "bounds_mm": [
+    [
+      -54.25,
+      -70.5,
+      0.0
+    ],
+    [
+      54.25,
+      70.5,
+      13.5
+    ]
+  ],
+  "design": {
+    "style": "ai_version_4",
+    "view": "face_plate",
+    "expected_bodies": 1,
+    "bom": {
+      "front": 1,
+      "back": 0,
+      "rail": 0,
+      "bottom_rail": 0,
+      "M3_countersunk_screw_16_mm": 0,
+      "M3_nut": 0
+    },
+    "rail_length_mm": 94.5,
+    "plate_size_mm": [
+      108.5,
+      116.0,
+      7.5
+    ],
+    "assembled_envelope_mm": [
+      108.5,
+      116.0,
+      109.5
+    ],
+    "identical_front_and_back": false,
+    "front_lip": true,
+    "rear_lip": false,
+    "nut_side_clearance": "left",
+    "printable": true,
+    "part_role": "face_fit"
+  }
+}
