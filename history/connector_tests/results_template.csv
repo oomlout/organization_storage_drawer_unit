@@ -1,0 +1,13 @@
+trial,specimen,filament_brand_grade,dry_condition,nozzle_mm,layer_mm,nozzle_temperature_C,bed_temperature_C,cleanup,fully_locked,insertion_N,axial_play_mm,side_play_mm,sustained_load_N,duration_hours,test_temperature_C,slip_mm,pullout_N,failure_mode,notes
+A_single,1,,,,,,,,,,,,,,,,,,
+A_single,2,,,,,,,,,,,,,,,,,,
+A_single,3,,,,,,,,,,,,,,,,,,
+B_twin,1,,,,,,,,,,,,,,,,,,
+B_twin,2,,,,,,,,,,,,,,,,,,
+B_twin,3,,,,,,,,,,,,,,,,,,
+C_key,1,,,,,,,,,,,,,,,,,,
+C_key,2,,,,,,,,,,,,,,,,,,
+C_key,3,,,,,,,,,,,,,,,,,,
+D_screw,1,,,,,,,,,,,,,,,,,,
+D_screw,2,,,,,,,,,,,,,,,,,,
+D_screw,3,,,,,,,,,,,,,,,,,,

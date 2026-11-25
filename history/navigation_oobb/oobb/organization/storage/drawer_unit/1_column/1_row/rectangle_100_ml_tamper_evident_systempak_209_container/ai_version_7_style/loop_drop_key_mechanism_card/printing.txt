@@ -1,0 +1,35 @@
+V7 MECHANISM CARD + RIGID LOOP / VERTICAL DROP KEY (54)
+
+Print 3dpr.stl ONCE: five numbered samples 50–54, the slim blocking key for 53,
+and the short, broad-headed DROP key for 54: SEVEN separate parts.
+Print receiver_6_0.stl ONCE and screw_test.stl ONCE. Individual sample/key STLs are spares.
+Keep supplied flat print orientations; use production PETG settings. No designed supports.
+
+50: straight cantilever. 51: tapered arms. 52: S-shaped spring.
+53: snap normally, then insert its slim blocking key from OUTSIDE between the arms.
+54: NO snapping or flexing. Push the rigid loop through the panel from INSIDE.
+Hold the receiver upright, with the loop eye open top-to-bottom. Drop the short
+broad-headed T key DOWN from ABOVE through the exposed loop. Its head rests on the
+loop; its stem crosses the panel opening vertically and prevents beam withdrawal.
+Lift the T key UP to release; then pull the loop back through the panel.
+The key moves vertically, perpendicular to the beam, not axially along the beam.
+This is a loose gravity-seated key: there is no captive latch or anti-loss detent.
+
+All SIX receiver holes are identical 6.0 x 4.6 mm, labelled 50 / 51 / 52 / 53 / 54 / M3.
+The 150 x 32 mm receiver is printable or laser-cuttable in nominal 6 mm MDF. DXF
+declares mm and finished CUT contours. Measure actual stock; compensate kerf once in CAM.
+54 uses the same 5.5 x 4.0 mm through-neck. Its eye is 2.4 x 2.2 mm; walls 1.55 mm,
+nose 1.5 mm. The key stem is 2 x 2 x 7 mm, with a 7 x 2 x 1.6 mm head.
+Loop projection is 3.75 mm beyond nominal MDF. Nominal axial free travel is .25 mm.
+There must be room above to drop/lift the key; the head and stem extend beyond the hole.
+Check drawer/front clearance before any full-unit adoption.
+
+M3 reference: one M3 x 20 countersunk screw and M3 nut, not supplied; side-load nut
+into beam, adapter from outside. Adapter prints countersink DOWN and cheeks UP.
+Record insertion, locking/release, play and repeated use in results.csv; it is preserved.
+Sample 54 is a mechanism trial, not a tested load-rated joint. Force, wear, creep,
+fatigue, accidental key lift and full-unit clearances remain physically unverified.
+
+ALREADY PRINTED THE FOUR-FINGER CARD? Print loop_key_addon.stl once for only
+sample 54 plus its T key. Use any existing 6.0 x 4.6 mm hole; no new receiver
+is needed. Do not also print these parts from the full combined card.

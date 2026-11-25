@@ -1,0 +1,71 @@
+{
+  "version": 7,
+  "revision": "permanent_full_squeeze",
+  "user_feedback": "Previous snap hooks insufficiently aggressive; receiver holes too large.",
+  "intended_use": "One-time push-in fitting; no designed release feature",
+  "receiver_hole_mm": [
+    5.2,
+    4.2
+  ],
+  "free_neck_width_mm": 4.8,
+  "hook_projection_mm": 1.4,
+  "hook_overlap_per_side_mm": 1.1999999999999997,
+  "deflection_per_arm_mm": 1.1999999999999997,
+  "retaining_back_rake_mm": 0.15,
+  "trials": [
+    {
+      "arm_thickness": 1.2,
+      "axial_clearance": 0.1,
+      "sample_number": 60,
+      "technique": "straight",
+      "tip_thickness": 1.2,
+      "title": "Permanent straight snap",
+      "shoulder_y": 6.1,
+      "tip_y": 8.399999999999999,
+      "root_radius": 1.2,
+      "effective_root_y": -11.6,
+      "spring_length": 17.7,
+      "strain_proxy": 0.006894570525711001,
+      "stiffness_proxy": 0.00031161900681179674,
+      "closed_arm_gap": 4.440892098500626e-16,
+      "closed_hook_width": 5.199999999999999
+    },
+    {
+      "arm_thickness": 1.2,
+      "axial_clearance": 0.1,
+      "root_thickness": 1.8,
+      "sample_number": 61,
+      "technique": "tapered",
+      "tip_thickness": 1.2,
+      "title": "Permanent tapered snap",
+      "shoulder_y": 6.1,
+      "tip_y": 8.399999999999999,
+      "root_radius": 0.5999999999999999,
+      "effective_root_y": -12.8,
+      "spring_length": 18.9,
+      "strain_proxy": 0.009070294784580499,
+      "stiffness_proxy": 0.0002559518810463633,
+      "closed_arm_gap": 4.440892098500626e-16,
+      "closed_hook_width": 5.199999999999999
+    },
+    {
+      "arm_thickness": 1.2,
+      "axial_clearance": 0.1,
+      "curve_amplitude": 0.3,
+      "sample_number": 62,
+      "technique": "curved",
+      "tip_thickness": 1.2,
+      "title": "Permanent S spring",
+      "shoulder_y": 6.1,
+      "tip_y": 8.399999999999999,
+      "root_radius": 1.2,
+      "effective_root_y": -11.6,
+      "spring_length": 17.7,
+      "strain_proxy": 0.006894570525711001,
+      "stiffness_proxy": 0.00031161900681179674,
+      "closed_arm_gap": 4.440892098500626e-16,
+      "closed_hook_width": 5.199999999999999
+    }
+  ],
+  "limitations": "CAD contact does not establish permanent retention or destructive-removal force."
+}

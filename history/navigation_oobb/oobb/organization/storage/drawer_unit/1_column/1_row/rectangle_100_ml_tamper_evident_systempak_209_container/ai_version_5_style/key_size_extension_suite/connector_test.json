@@ -1,0 +1,66 @@
+{
+  "design": "key_size_fit_suite",
+  "material": "PETG",
+  "scope": "3 numbered connector fit coupons; no drawer units",
+  "printable_pieces": 9,
+  "views": {
+    "assembled": "assembled",
+    "trial_20": "trial_20",
+    "plate_20": "plate_20",
+    "rail_20": "rail_20",
+    "key_20": "key_20",
+    "assembled_20": "assembled_20",
+    "trial_21": "trial_21",
+    "plate_21": "plate_21",
+    "rail_21": "rail_21",
+    "key_21": "key_21",
+    "assembled_21": "assembled_21",
+    "trial_22": "trial_22",
+    "plate_22": "plate_22",
+    "rail_22": "rail_22",
+    "key_22": "key_22",
+    "assembled_22": "assembled_22"
+  },
+  "trials": [
+    {
+      "number": 20,
+      "key_scale": 1.45,
+      "clearance_per_side_mm": 0.4,
+      "through_clearance_per_side_mm": 0.25,
+      "through_seat_interference_per_side_mm": 0,
+      "through_taper_length_mm": 0,
+      "key_length_mm": 15.66,
+      "key_height_mm": 5.8,
+      "arm_thickness_mm": 1.16,
+      "nominal_deflection_mm": 0.5425,
+      "rail_number_depth_mm": 0.6
+    },
+    {
+      "number": 21,
+      "key_scale": 1.6,
+      "clearance_per_side_mm": 0.4,
+      "through_clearance_per_side_mm": 0.25,
+      "through_seat_interference_per_side_mm": 0,
+      "through_taper_length_mm": 0,
+      "key_length_mm": 17.28,
+      "key_height_mm": 6.4,
+      "arm_thickness_mm": 1.28,
+      "nominal_deflection_mm": 0.64,
+      "rail_number_depth_mm": 0.6
+    },
+    {
+      "number": 22,
+      "key_scale": 1.75,
+      "clearance_per_side_mm": 0.4,
+      "through_clearance_per_side_mm": 0.25,
+      "through_seat_interference_per_side_mm": 0,
+      "through_taper_length_mm": 0,
+      "key_length_mm": 18.9,
+      "key_height_mm": 7.0,
+      "arm_thickness_mm": 1.4,
+      "nominal_deflection_mm": 0.7375,
+      "rail_number_depth_mm": 0.6
+    }
+  ],
+  "physical_test_status": "Not printed or load tested"
+}

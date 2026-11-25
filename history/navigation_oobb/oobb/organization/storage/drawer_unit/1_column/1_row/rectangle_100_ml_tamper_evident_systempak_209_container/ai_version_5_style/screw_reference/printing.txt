@@ -1,0 +1,15 @@
+VERSION 5 CONNECTOR TRIALS ONLY - PETG, mainly permanent locks.
+Print 3dpr.stl as arranged. All parts lie on Z=0; the suite fits an A1 mini bed.
+Suite positions: upper-left A single latch; upper-right B twin latch;
+lower-left C captive locking key; lower-right D existing screw reference.
+Individual records provide plate.stl, rail.stl and (C only) key.stl.
+assembled.stl is a reference, not a one-piece print.
+Start with a 0.4 mm nozzle, 0.2 mm layers, 4 walls, 100% infill for comparable small coupons.
+Use your established PETG temperatures and bed settings. No supports in spring gaps.
+A/B springs and C key bend in the bed plane. C rail has a short key-slot bridge.
+A/B: push rail into the matching plate until the end seats and hooks emerge outside.
+C: seat the rigid tongue, then insert the fork from the side until both hooks recover.
+D: one M3 x 16 countersunk screw and side-loaded M3 nut; opposite rail-end pocket unused.
+Do not confuse a snug friction fit with a locked hook: inspect recovered shoulders.
+See AI_VERSION_5_CONNECTOR_TESTS.md for the test sequence and results sheet.
+These are unverified candidates, not rated joints. No full v5 units are generated.

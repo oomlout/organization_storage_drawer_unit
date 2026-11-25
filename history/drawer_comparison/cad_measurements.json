@@ -1,0 +1,830 @@
+{
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style": {
+    "fingerprint": "2b0cc8e7a6ee5cd9b26c017a64595c5805cfb6a893f5ad1c97ac66a9344882db",
+    "volume_mm3": 44963.53032638875,
+    "finished_envelope_mm": [
+      92.3,
+      32.3,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_0d75": {
+    "fingerprint": "5561162ec35f756fa0729d051da8c1b63528a19c35e6318d7c866f0b79991bd6",
+    "volume_mm3": 11061.204855051481,
+    "finished_envelope_mm": [
+      91.55,
+      31.55,
+      12.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_1d5": {
+    "fingerprint": "c7aa59e5a22ee6ed9e5c0c84c8a80f69f608c14b5daa4d609887f42856acbcdc",
+    "volume_mm3": 11246.6084069403,
+    "finished_envelope_mm": [
+      92.3,
+      32.3,
+      12.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_fit_clearance_2d25": {
+    "fingerprint": "1c54396fe32122106b1b92d1ce136e4063ffac58fefbebe75083ec269cebba10",
+    "volume_mm3": 11432.011958829136,
+    "finished_envelope_mm": [
+      93.05,
+      33.05,
+      12.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style": {
+    "fingerprint": "8cbbcb7146055731d59f2ae6279d1a0f59e4c6af71f322343f43afbf7bfcebcb",
+    "volume_mm3": 25683.190037505974,
+    "finished_envelope_mm": [
+      89.5,
+      29.985,
+      111.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_1_style": {
+    "fingerprint": "fa1a697849d364d6e020f8aa0f797270aababe4982a0cc6913797f55db4647a9",
+    "volume_mm3": 54614.80530339215,
+    "finished_envelope_mm": [
+      92.3,
+      99.8,
+      109.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_1_style_a1_mini_max": {
+    "fingerprint": "3d8fe870ae1030a884d49a0929df014c7baccb77d867cf3e0cde300918cfbf14",
+    "volume_mm3": 54614.80530339215,
+    "finished_envelope_mm": [
+      92.3,
+      99.8,
+      109.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_a1_mini_max": {
+    "fingerprint": "12b37352c7046f9b215facd23a681cf114b639124d3b69715ea3920312645c3f",
+    "volume_mm3": 136244.17744865819,
+    "finished_envelope_mm": [
+      92.3,
+      120.2,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style": {
+    "fingerprint": "8e25efd9c11487fc95a3a7f83b2a5cfb6633f5b1841e90351e05dae0c0f0610e",
+    "volume_mm3": 137872.3036098169,
+    "finished_envelope_mm": [
+      181.6,
+      61.6,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_bank_layout": {
+    "fingerprint": "f404f58493974756e485b4252fa2dc6695e5d7d4d2ca0a090ac1be09105139fd",
+    "volume_mm3": 47667.36280142234,
+    "finished_envelope_mm": [
+      363.6,
+      61.6,
+      7.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_solid_reference": {
+    "fingerprint": "63e5af30dab98a7c13fbbb293f91652ac8bce1edeef990003d602ea9cd825a93",
+    "volume_mm3": 257746.89569586577,
+    "finished_envelope_mm": [
+      181.6,
+      61.6,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_basic_style": {
+    "fingerprint": "a353670973bacdb5cef207eda0823b36254f33ff4e8fb691350fc4145f126c78",
+    "volume_mm3": 83881.9343457811,
+    "finished_envelope_mm": [
+      178.0,
+      58.485,
+      111.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_1_style_p1p_max": {
+    "fingerprint": "5cd2a06e85590bb1fc57a573b2cd0788fcb1e74d69ec828c0136b43661a62093",
+    "volume_mm3": 162894.04065565518,
+    "finished_envelope_mm": [
+      181.6,
+      196.6,
+      109.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_p1p_max": {
+    "fingerprint": "0a86074def2e25b10335ec777340cc3c4f63449fad7861c5ba35703a0fed9512",
+    "volume_mm3": 412872.9398507147,
+    "finished_envelope_mm": [
+      181.6,
+      208.1,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style": {
+    "fingerprint": "0c89672053cfd684548116cfc6a552a1fe8b94614e962deb79a56c16e4bd235e",
+    "volume_mm3": 1304302.2553920858,
+    "finished_envelope_mm": [
+      360.2,
+      354.6,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_1_style_layout": {
+    "fingerprint": "0fa3098396217cf7afc3ceac54468bc9a6607d454151b5d91d31f4bc77f68cb3",
+    "volume_mm3": 229381.6998896609,
+    "finished_envelope_mm": [
+      360.2,
+      354.6,
+      7.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style": {
+    "fingerprint": "db0fdb305838614739d934cdc244473271b0220649b4cf7961b5ae105bf55c8c",
+    "volume_mm3": 87183.03633354146,
+    "finished_envelope_mm": [
+      98.5,
+      38.5,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_0d75": {
+    "fingerprint": "7f7990fa3d07505687de2cf86f2e7bc5a10f0b9d05008a8886d1aa165a9a62a9",
+    "volume_mm3": 20409.573140131164,
+    "finished_envelope_mm": [
+      97.75,
+      37.75,
+      12.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_1d5": {
+    "fingerprint": "092e94f0e2049d7d16354318b535f8745e9638b219b8d949c43b4afddeed707e",
+    "volume_mm3": 20706.576692019993,
+    "finished_envelope_mm": [
+      98.5,
+      38.5,
+      12.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_fit_clearance_2d25": {
+    "fingerprint": "cda1b6d93a4210cc87f9957cb660d57bef373464269daa772195587269abb36d",
+    "volume_mm3": 21003.580243908822,
+    "finished_envelope_mm": [
+      99.25,
+      39.25,
+      12.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_2_style": {
+    "fingerprint": "dc6e13abf602f00e42e874983d17c27c57059840b91f7959afaac8dd2f9a27e9",
+    "volume_mm3": 93524.76160959523,
+    "finished_envelope_mm": [
+      98.5,
+      106.0,
+      109.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_2_style_a1_mini_max": {
+    "fingerprint": "b15108e1794d2f361ac605539e44e5523d72c13b2c1be7befb2595ee9c05f16b",
+    "volume_mm3": 93524.76160959523,
+    "finished_envelope_mm": [
+      98.5,
+      106.0,
+      109.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_a1_mini_max": {
+    "fingerprint": "b182a189a6da0ae6504c5aabf896c2c01d45f6449f8973d57ac1c8640bb996ef",
+    "volume_mm3": 225148.72859488367,
+    "finished_envelope_mm": [
+      98.5,
+      126.4,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style": {
+    "fingerprint": "92a71ce6ca43dc6960201b3bca9d330f91b88b63309e566e8b47866be5f8cdd8",
+    "volume_mm3": 218098.91826054532,
+    "finished_envelope_mm": [
+      187.8,
+      67.8,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_bank_layout": {
+    "fingerprint": "93305ff0b9a776d2036786f471336ce58d1008f5cd888ffa80bcd41a2678c707",
+    "volume_mm3": 70318.98789263946,
+    "finished_envelope_mm": [
+      376.0,
+      67.8,
+      7.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_solid_reference": {
+    "fingerprint": "ea27b1c4158c23fdfae0e0f6f844dd6c23684b380478c702759d19dfa52ac3b9",
+    "volume_mm3": 410339.0083599857,
+    "finished_envelope_mm": [
+      187.8,
+      67.8,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_2_style_p1p_max": {
+    "fingerprint": "d7afa10c48d410d506d43d17027a13049827c514268d331b21307b8251177026",
+    "volume_mm3": 225798.72625441043,
+    "finished_envelope_mm": [
+      187.8,
+      202.8,
+      109.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_p1p_max": {
+    "fingerprint": "ace2dfc21d3a22a26c2d8c5f85eb1d96aed55f61fcee03e871c106cbf889a825",
+    "volume_mm3": 581771.0562753374,
+    "finished_envelope_mm": [
+      187.8,
+      214.3,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style": {
+    "fingerprint": "e5e0a4b1d784b07ba6dcac772b160cb9128e471a15170c1f26805623ea2aba16",
+    "volume_mm3": 1650215.1002867967,
+    "finished_envelope_mm": [
+      366.4,
+      360.8,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_layout": {
+    "fingerprint": "8efa1a50336ab57c7cca20b0c1861429177b01f5ce3e33d93f334a6305dd62df",
+    "volume_mm3": 262636.9124352693,
+    "finished_envelope_mm": [
+      366.4,
+      360.8,
+      7.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_back": {
+    "fingerprint": "4bfbd13d4ec8c18c6ede2e4203a5f8745e29117931bc8e28f58e270b065dd48c",
+    "volume_mm3": 42420.346537839156,
+    "finished_envelope_mm": [
+      98.5,
+      38.5,
+      55.25
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_front": {
+    "fingerprint": "d70ff828dee8858ab977ab765f388843ad246a10c85f22c5332f89fe5bf65684",
+    "volume_mm3": 44798.22061687151,
+    "finished_envelope_mm": [
+      98.5,
+      38.5,
+      58.25
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_joint_fit_back": {
+    "fingerprint": "21c751c04cc6cb1fd9ec4dbd7aa0ba601c2d69f589b259bd4fff4cc5b0b8aaa7",
+    "volume_mm3": 17903.25570992063,
+    "finished_envelope_mm": [
+      98.5,
+      38.5,
+      12.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_joint_fit_front": {
+    "fingerprint": "e8be20fa1c7a7e5a799ac3bbcc247648eb6e43c1e39cbe2b9254e612b34b16be",
+    "volume_mm3": 20026.895962207145,
+    "finished_envelope_mm": [
+      98.5,
+      38.5,
+      15.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_2_style_a1_mini_max_back": {
+    "fingerprint": "05ab6fc7b8ecbce202bf5f613274df0597f7256c9013e873a6177876689a0626",
+    "volume_mm3": 45592.6787355582,
+    "finished_envelope_mm": [
+      98.5,
+      106.0,
+      54.75
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_2_style_a1_mini_max_front": {
+    "fingerprint": "77468cc2054e9dd1833729c32f9f7975674404bd728f383d6a1ee4ec9f8e7924",
+    "volume_mm3": 47967.613695206215,
+    "finished_envelope_mm": [
+      98.5,
+      106.0,
+      57.75
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_2_style_back": {
+    "fingerprint": "d9e24b76095b9c44383a351453972eb2f01b1d0a24db42e7e13aa1a65d435a0e",
+    "volume_mm3": 45592.6787355582,
+    "finished_envelope_mm": [
+      98.5,
+      106.0,
+      54.75
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_2_style_front": {
+    "fingerprint": "b0d87027164cf307b218fa0a84d8e6fc39b72b1bef87e930ec4ffaea2db71cbf",
+    "volume_mm3": 47967.613695206215,
+    "finished_envelope_mm": [
+      98.5,
+      106.0,
+      57.75
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_a1_mini_max_back": {
+    "fingerprint": "673a7027fd7b0b374e84a2edb00484254c9988815eaa0962102d5d09f16d9854",
+    "volume_mm3": 107863.02966583862,
+    "finished_envelope_mm": [
+      98.5,
+      126.4,
+      55.25
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_a1_mini_max_front": {
+    "fingerprint": "76cd5554cb9fc6efbf272428393671e46ea8f3621979a0f6a6593c8e05215fdc",
+    "volume_mm3": 117374.5259819682,
+    "finished_envelope_mm": [
+      98.5,
+      126.4,
+      58.25
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_back": {
+    "fingerprint": "3b783f006aa91ee6a42420706346bab921c744b00c6b0bd6534ec6d15bf6725d",
+    "volume_mm3": 104767.03451805639,
+    "finished_envelope_mm": [
+      187.8,
+      67.8,
+      55.25
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_front": {
+    "fingerprint": "38f1b731566bf596e6b742cc3f3246ad254917e764aa248746237e8ddbedab05",
+    "volume_mm3": 113411.8280901198,
+    "finished_envelope_mm": [
+      187.8,
+      67.8,
+      58.25
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_solid_reference_back": {
+    "fingerprint": "cd9502b0f4e1146cbe50494df4ce4537c2be29bc4e8b43aba35ba5814a918511",
+    "volume_mm3": 200887.07956777653,
+    "finished_envelope_mm": [
+      187.8,
+      67.8,
+      55.25
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_solid_reference_front": {
+    "fingerprint": "3516a4ccf07ac770e7b77c7a3d0e5f3ec05df443c48e365dfb672dc352fe99e2",
+    "volume_mm3": 209531.87313984009,
+    "finished_envelope_mm": [
+      187.8,
+      67.8,
+      58.25
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_2_style_p1p_max_back": {
+    "fingerprint": "63075e1d4c270d7d83a0de11de2af763ac363faaa8f3e900dc061e20c85be436",
+    "volume_mm3": 108621.34719406527,
+    "finished_envelope_mm": [
+      187.8,
+      202.8,
+      54.75
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_2_style_p1p_max_front": {
+    "fingerprint": "f9fbf7b63e5663434839699210dd6fd024b3f564098aa509639bcc4aaff5fc70",
+    "volume_mm3": 117257.32340797572,
+    "finished_envelope_mm": [
+      187.8,
+      202.8,
+      57.75
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_p1p_max_back": {
+    "fingerprint": "e74b1ea3f6359da002f1f847c455416b2ed45dd781cb5fe98d47797f0724ac11",
+    "volume_mm3": 275863.7318500651,
+    "finished_envelope_mm": [
+      187.8,
+      214.3,
+      55.25
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_p1p_max_front": {
+    "fingerprint": "216a37dc3caf8a9e6ab2668907c7fc95d45e6a83ed8969cb43049896d365b263",
+    "volume_mm3": 306120.5093522873,
+    "finished_envelope_mm": [
+      187.8,
+      214.3,
+      58.25
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_back": {
+    "fingerprint": "f241cb2e7c93fd36ba99e0263f6e2fea532bffb6afd787b388d4522a461754aa",
+    "volume_mm3": 776127.5848652149,
+    "finished_envelope_mm": [
+      366.4,
+      360.8,
+      55.25
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_front": {
+    "fingerprint": "c4543f72280e17085131b1006bcd77e79d3ba89ebccc3dafd678f2040ce73b67",
+    "volume_mm3": 874664.891265581,
+    "finished_envelope_mm": [
+      366.4,
+      360.8,
+      58.25
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_2_style_joint_fit": {
+    "fingerprint": "c86eb587ddf048b956c1d8dc180c58a850a04dbe09eb78d99ba2081ce19a1eaf",
+    "volume_mm3": 37894.62085095859,
+    "finished_envelope_mm": [
+      98.5,
+      38.5,
+      24.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style": {
+    "fingerprint": "0a6fcf4590fa620b1070597724ad15b7e4e80dbda314373b59053f85209bd77c",
+    "volume_mm3": 79855.58930016223,
+    "finished_envelope_mm": [
+      98.5,
+      38.5,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_fit_clearance_0d75": {
+    "fingerprint": "80ed2e024c3065c6009f2c925023eeefe4f45cb23a6143a0b2b4a14c35c35143",
+    "volume_mm3": 20409.573140131164,
+    "finished_envelope_mm": [
+      97.75,
+      37.75,
+      12.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_fit_clearance_1d5": {
+    "fingerprint": "7b0e22b85ebcc63518d191c8704c4707125886e81ab9f5601b4401d7cf69a6e1",
+    "volume_mm3": 20706.576692019993,
+    "finished_envelope_mm": [
+      98.5,
+      38.5,
+      12.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_fit_clearance_2d25": {
+    "fingerprint": "99d26df41452a6bf91f6f6c754c8b135f2c536fca6059603f22e7d1c18605cda",
+    "volume_mm3": 21003.580243908822,
+    "finished_envelope_mm": [
+      99.25,
+      39.25,
+      12.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_joint_fit": {
+    "fingerprint": "7d61671a58220d91ba1e63d1a0e79d1e8a12b953ae0b178cf6fb59637e37708a",
+    "volume_mm3": 37894.62085095859,
+    "finished_envelope_mm": [
+      98.5,
+      38.5,
+      24.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_3_style": {
+    "fingerprint": "a768687adf4a9c748e8fdf0384102fc49f8025486c00e4d7711d369cfa4ce85f",
+    "volume_mm3": 85107.66973463022,
+    "finished_envelope_mm": [
+      98.5,
+      106.0,
+      109.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_3_style_a1_mini_max": {
+    "fingerprint": "a370e2309a772abd7050165d2bb914f3bb2ffe0249d1df993ed4df8b6ad76b4d",
+    "volume_mm3": 85107.66973463022,
+    "finished_envelope_mm": [
+      98.5,
+      106.0,
+      109.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_a1_mini_max": {
+    "fingerprint": "f95c067b04b424701022621fac2071aa17f60184fb9c6db3b2d55b7074f5028f",
+    "volume_mm3": 141877.7206090997,
+    "finished_envelope_mm": [
+      98.5,
+      126.4,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style": {
+    "fingerprint": "42a3d0377158853737480d90e76312d04ffd000e1fe83848344c576ca145dae3",
+    "volume_mm3": 166413.5979282524,
+    "finished_envelope_mm": [
+      187.8,
+      67.8,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_bank_layout": {
+    "fingerprint": "02d65dc95dfe09f8ce014e4090caa4f0b3b4ba795dfa915e361dbcb235499038",
+    "volume_mm3": 70318.98789263946,
+    "finished_envelope_mm": [
+      376.0,
+      67.8,
+      7.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_solid_reference": {
+    "fingerprint": "0311246fa1ab8f7f442f12a348215e9fc6fbcba814f493b181e6bd1305924703",
+    "volume_mm3": 357078.497150324,
+    "finished_envelope_mm": [
+      187.8,
+      67.8,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_3_style_p1p_max": {
+    "fingerprint": "f5cb6259514e5033bc301771f81a10618eb5870aad83b138637c65129feef2c7",
+    "volume_mm3": 180280.9113988063,
+    "finished_envelope_mm": [
+      187.8,
+      202.8,
+      109.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_p1p_max": {
+    "fingerprint": "72e2838355370cd93ea45f3b50c328d200a34f0ad6dad9edb6eb815fe97fb8ed",
+    "volume_mm3": 332778.6619286354,
+    "finished_envelope_mm": [
+      187.8,
+      214.3,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style": {
+    "fingerprint": "5930d7341f3b3719d8a7c405247bcc307a5b791c93d52f3615fd1bd48a34d647",
+    "volume_mm3": 882891.0362545233,
+    "finished_envelope_mm": [
+      366.4,
+      360.8,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_3_style_layout": {
+    "fingerprint": "445093d004d55abf09b503fed59b533740ddb8bd130caf6593edb48dc31aae2f",
+    "volume_mm3": 262636.9124352693,
+    "finished_envelope_mm": [
+      366.4,
+      360.8,
+      7.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style": {
+    "fingerprint": "cb485b09705ce075a403859ffc76e4d31b610e27df06ea2f21b2e21edf2452b2",
+    "volume_mm3": 84853.44570347543,
+    "finished_envelope_mm": [
+      108.5,
+      48.5,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_face_fit": {
+    "fingerprint": "4b89f54fe2984fd8eb46c069201a184a934bc0633850b5110c95fa950b5a6ef4",
+    "volume_mm3": 25682.208921371308,
+    "finished_envelope_mm": [
+      108.5,
+      48.5,
+      13.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_joint_fit": {
+    "fingerprint": "2a8aeb51dc3ad88127898e0a3b77398c75561ceb5bf29f880530f3a6f0e0b80c",
+    "volume_mm3": 5640.806171038017,
+    "finished_envelope_mm": [
+      15.0,
+      14.0,
+      45.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style": {
+    "fingerprint": "804abd1761d002b49735ee7db2ed50c73c2db532000937800d6a4e7d42e5ae4c",
+    "volume_mm3": 105809.24806271278,
+    "finished_envelope_mm": [
+      108.5,
+      116.0,
+      109.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_a1_mini_max": {
+    "fingerprint": "22f451b10065e0530c37abd24cfd67239d3d5d7de125198040077eb66fee9e05",
+    "volume_mm3": 105809.24806271278,
+    "finished_envelope_mm": [
+      108.5,
+      116.0,
+      109.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_face_fit": {
+    "fingerprint": "660ad3904e7ca7b3926f2a1a961428fb957bed652628c9db33821350036363c0",
+    "volume_mm3": 36314.11010098996,
+    "finished_envelope_mm": [
+      108.5,
+      116.0,
+      13.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_4_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_a1_mini_max": {
+    "fingerprint": "b30cf4994eaf54aa4d1b80dea69e7c16e43340fbeeb027d9b5c50b068444ad68",
+    "volume_mm3": 169367.1368214514,
+    "finished_envelope_mm": [
+      108.5,
+      136.4,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style": {
+    "fingerprint": "8e7fe7fa1b95fe5416e40db3ec1b0de95f2edb15531d44f295392aed118e71a4",
+    "volume_mm3": 179610.58613982028,
+    "finished_envelope_mm": [
+      197.8,
+      77.8,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_2_row_rectangle_550_ml_tamper_evident_systempak_214_container_ai_version_4_style_p1p_max": {
+    "fingerprint": "0708e3cda64a4237733c9f4541230321ac7ebde7a420cf637481de5a8046569f",
+    "volume_mm3": 225191.79557676948,
+    "finished_envelope_mm": [
+      197.8,
+      212.8,
+      109.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_7_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style_p1p_max": {
+    "fingerprint": "73dd302f744fd57c5f7db58c4aaad8bbd1345d813b24e2a9fcf0e7d22505966a",
+    "volume_mm3": 391450.26125925715,
+    "finished_envelope_mm": [
+      197.8,
+      224.3,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_4_column_12_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_4_style": {
+    "fingerprint": "d8c13831e72dcc38e0c679873df026c2578ea362f0e64cf7225eb3800cf91059",
+    "volume_mm3": 1020395.8495306415,
+    "finished_envelope_mm": [
+      376.4,
+      370.8,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_connector_suite": {
+    "fingerprint": "add7b1bcc9b28ca61555ac6b2989c924684ff0e8264e730c802f21b193ad831c",
+    "volume_mm3": 18231.387159165155,
+    "finished_envelope_mm": [
+      93.0,
+      103.55,
+      10.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_screw_reference": {
+    "fingerprint": "bc6699d8144f3394727fd1a150e1eb18806bfd08fccdfbe0062b6ad065983fed",
+    "volume_mm3": 4346.035158783544,
+    "finished_envelope_mm": [
+      37.0,
+      32.0,
+      10.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_snap_key": {
+    "fingerprint": "eb130c597de9ca9b56bbce3e657cd48be8828b9941e12fab77748f0faa754b44",
+    "volume_mm3": 5302.754810081268,
+    "finished_envelope_mm": [
+      37.0,
+      45.0,
+      10.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_snap_single": {
+    "fingerprint": "8b84a3aefe4578943717eaf2215bb60d7ad812fa8bbfb528a22249b60bf19778",
+    "volume_mm3": 4435.0360399273395,
+    "finished_envelope_mm": [
+      37.0,
+      42.1,
+      10.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_snap_twin": {
+    "fingerprint": "3952ca0ba74c5d233dd7deaa17fd2fce5646e4141213af7e0c38497afc67334f",
+    "volume_mm3": 4147.561150373002,
+    "finished_envelope_mm": [
+      37.0,
+      42.1,
+      10.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_fit_suite": {
+    "fingerprint": "0ba52e78614a15b2bc7780c7a8ba966a393a85863f53c58218a66c6ab01f3809",
+    "volume_mm3": 48426.98760476303,
+    "finished_envelope_mm": [
+      133.0,
+      153.668,
+      10.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_through_fit_suite": {
+    "fingerprint": "b76c0281766d847ab03af90312fc894cecf08149c0331c24198a668174021917",
+    "volume_mm3": 48566.67513661032,
+    "finished_envelope_mm": [
+      133.0,
+      153.568,
+      10.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_snap_recessed_twin": {
+    "fingerprint": "9eb97ac1dfe519a432996bac70a6ad83f5e85006d4626628f8f8b41ddccaa7d0",
+    "volume_mm3": 4523.696018781398,
+    "finished_envelope_mm": [
+      37.0,
+      39.5,
+      10.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_key_size_extension_suite": {
+    "fingerprint": "b2caea8ccf178c123b0dd1b6888439a8b9029074843ad2f1955effce204ee62d",
+    "volume_mm3": 17083.504159577584,
+    "finished_envelope_mm": [
+      133.765,
+      47.737,
+      10.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_3_column_9_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_tiled_362_by_300": {
+    "fingerprint": "06bd197cfebb9ddbd8f2c87d8f3d681bf43728993156655054cbc5cc0ebf4e8d",
+    "volume_mm3": 792623.4294906106,
+    "finished_envelope_mm": [
+      362.0,
+      308.0,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_8_column_9_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_tiled_767_by_300": {
+    "fingerprint": "2d7d003914cbc070d8695e8b8b2ab0dd1357d8c6233158b090ad973a60afb06a",
+    "volume_mm3": 1558031.4781221878,
+    "finished_envelope_mm": [
+      767.0,
+      308.0,
+      110.5
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_recessed_twin_fit_suite": {
+    "fingerprint": "aad47e0edfeb380976d61a87e5bfb1e99c2f803060fe2b0756630e2bd34f7240",
+    "volume_mm3": 18364.169090008065,
+    "finished_envelope_mm": [
+      85.0,
+      93.5,
+      10.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_tight_key_27": {
+    "fingerprint": "95bcdff407a165868e0e54cbc52ecaf882329cfae408e5b0736c3a337637d335",
+    "volume_mm3": 5881.8693507284115,
+    "finished_envelope_mm": [
+      39.475,
+      47.737,
+      10.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_1_column_1_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_recessed_twin_heavy_suite": {
+    "fingerprint": "31d346def0af96f301ced1cd393df9192253e3f6450d65cf5535c2eea5a1a4d3",
+    "volume_mm3": 18713.911115000003,
+    "finished_envelope_mm": [
+      85.0,
+      93.5,
+      10.0
+    ]
+  },
+  "oobb_organization_storage_drawer_unit_2_column_8_row_rectangle_100_ml_tamper_evident_systempak_209_container_ai_version_5_style_tiled_a1_mini_four_plate": {
+    "fingerprint": "383567543d586ad82393317c7c328f038a55926191df420c03ba710e37e328dc",
+    "volume_mm3": 433959.4903897024,
+    "finished_envelope_mm": [
+      205.8,
+      268.6,
+      110.5
+    ]
+  }
+}

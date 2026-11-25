@@ -1,0 +1,48 @@
+You are the small-component drawer research agent for C:/od/OneDrive/docs/organization_storage_drawer_unit.
+
+User request: expand the UK purchased small-drawer cabinet comparison by a few products, harvest evidence, and add human-editable declarations to working_oomp_populate_purchased.py. Run as a lower-power agent: gpt-6-luna, low reasoning. This is a one-off research batch, not a recurring schedule. Aim for 3 additional qualifying products, at most 4, with uniform drawers around 200-300 ml. Do not count colour-only variants as new products.
+
+Read AGENTS.md and working_oomp_populate_purchased.py first. The first 12 records already exist. The parent rounded their capacity fields and taxonomy labels to nearest 25 ml and preserved originals. You own edits to working_oomp_populate_purchased.py for this batch; do not edit other implementation files or generated parts.
+
+REQUIRED BROWSER WORKFLOW
+Use the in-app browser, through mcp__cua_repl, to search and read seller/manufacturer pages. Do not substitute Chrome, Edge, shell HTTP scraping or web search tools for the requested browser. First call exactly: let tab = await cua.createBrowserTab("iab", "https://www.google.com/search?q=Duratool+SPC11296+drawer+cabinet+UK", { visible: true }); Read the returned API documentation before further interaction. Use only the documented browser APIs. If blocked by one site, try another UK retailer or manufacturer. Do not bypass CAPTCHAs, paywalls or authentication. If browser access itself is unavailable, report that limitation rather than pretending to have used it.
+
+STARTING LEADS (unverified, do not blindly insert)
+1. Duratool SPC11296: Farnell UK category lists a 30-drawer cabinet. https://uk.farnell.com/c/tools-production-supplies/storage-products-accessories/cabinet?brand=duratool
+2. Duratool D00465: same category lists 40 compartments; verify that these are actual uniform removable drawers and that their size fits.
+3. Stanley 1-93-980: 30 small drawers. UK marketplace listings exist; verify seller, stock and price. Drawer dimensions conflict between listings, so prefer manufacturer evidence or clearly qualify uncertainty. Manufacturer catalogue: https://www.stanley.eu/uploads/no/Katalog%202013/publication.pdf
+4. Durhand 60 drawers: https://www.therange.co.uk/diy/tool-storage/tool-boxes/durhand-60-drawers-wall-mount-storage-cabinet . Verify all three drawer dimensions, actual MPN and UK availability.
+Search alternatives if leads fail. Avoid A4/A5/Argos household towers, tool-chest drawers, mixed-size cabinets and big storage bins. No purchases or messages to sellers.
+
+FIELDS AND EVIDENCE
+For each accepted addition record product name, verified manufacturer/brand distinction, actual manufacturer part number, model separately if needed, uniform drawer count, cabinet external width_mm/height_mm/depth_mm, per-drawer W/H/D with explicit internal/external/unspecified basis, per-drawer capacity ml, source basis, GBP price inclusive of VAT excluding delivery, exact sale URL, seller, stock/lead-time wording, research date, net unit mass if available, separately known shipping mass, and specification URLs. Preserve missing facts as None, never invent them. Prefer a complete record; if capacity cannot be supported by rated capacity or all three dimensions, do not add it as a qualifying proposal. Include sources for price, capacity/dimensions, and weight in the record. A search snippet alone is not sufficient for price/stock; inspect product pages.
+
+Multipacks: distinguish the listed pack price from derived per-cabinet price. Preserve published_pack_price_gbp, published_pack_price_ex_vat_gbp, published_pack_quantity, minimum_order_quantity (cabinet count), minimum_order_required_spend_gbp (excluding delivery), and price_basis. Do not present derived per-cabinet prices as if single cabinets can be purchased. Use Decimal half-up rounding for currency. Do not label a derived ex-VAT unit price as a published quotation without an explicit qualification.
+
+If the subagent cannot access IAB but the parent can, the parent may provide exact observations from pages it inspected in IAB, including URLs. Extract and write from those observations, identifying parent-observed provenance; do not falsely claim that the subagent independently opened those pages. If no agent can access IAB, report the blocker. Functional ESD variants may count as distinct products; colour-only variants may not.
+
+Capacity: rounded = Decimal(raw_ml / 25).quantize(1, ROUND_HALF_UP) * 25. Store drawer_capacity_ml and drawer_sizes[0].capacity_ml rounded; preserve original values in drawer_capacity_unrounded_ml and capacity_unrounded_ml. Set capacity_rounding_increment_ml=25. Leave rectangular_volume_ml = W*H*D/1000 unrounded. Prefer published nominal usable capacity, then internal dimensions; dimensions with unspecified internal status require clearly marked estimates. Do not treat outside dimensions as measured usable capacity. A nominal capacity may differ from rectangular volume: retain both with qualifications.
+
+Taxonomy slots:
+1 organization
+2 storage
+3 drawer_unit
+4 small_drawers
+5 {rounded}_ml_capacity, or {rounded}_ml_estimated_capacity for a dimension-based estimate
+6 {count}_drawers
+7 {cabinet_width}_mm_width
+8 {cabinet_height}_mm_height
+9 {cabinet_depth}_mm_depth
+10-13 empty strings
+14 lowercase sanitized manufacturer
+15 actual manufacturer part number lowercased with every non-alphanumeric character replaced by underscore. Existing Raaco records use numeric MPN, not cabinet model.
+
+IMPLEMENTATION
+Append explicit verbose multiline dictionary literals inside get_candidates(); no generated product loops, compressed one-line dicts, external data files or opaque constructors. Match current schema, sequential proposal_number from 13, proposal_revision=3, approved_for_oomp=False for new products. Leave existing approval flags unchanged. The normal populate module already imports this module, so no additional integration is needed. Do not run the real pipeline or emit source/enriched parts; this request is research and populate-source preparation.
+
+VALIDATION
+Check Python syntax/import; unique taxonomy IDs and sanitized MPNs; drawer counts and uniform size; rounded capacity multiples of 25 and agreement with preserved raw values; price/count and price/net kg calculations; unknown net mass stays unknown. Use mocks for write_extras if exercising ordinary population so no generated files are written. Do not run SCAD/STL rendering. No unrelated edits.
+
+HANDOFF
+Report the exact added products with prices, rounded/raw capacities, drawer dimensions, weight qualifications, sale URLs, availability, any rejected leads and why, and validation results. Clearly identify any gaps. If a source contradicts an existing entry, report it without silently changing established records. Never broaden the scope simply to reach the target count.
+

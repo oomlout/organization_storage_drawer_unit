@@ -1,0 +1,56 @@
+{
+  "version": 7,
+  "revision": "upper_support_front_spreader_cap_friction",
+  "sample": 70,
+  "hole_mm": [
+    5.2,
+    5.2
+  ],
+  "tongue_height_mm": 5.0,
+  "upper_shoulder_height_mm": 7.0,
+  "plug": {
+    "cap_inner_y": 8.6,
+    "cavity_height": 5.6,
+    "cavity_width": 8.4,
+    "cover_height": 8.0,
+    "cover_thickness": 2.0,
+    "cover_width": 11.0,
+    "full_width_y": 0.0,
+    "nose_width": 1.8,
+    "nose_y": -4.0,
+    "panel_stop_y": 6.05,
+    "print_x": 18.0,
+    "retention": "friction",
+    "stem_height": 3.8,
+    "stem_width": 2.6,
+    "outer_y": 10.6,
+    "cup_depth": 4.55,
+    "stem_depth": 14.6,
+    "free_slot_width": 2.4,
+    "seated_spread": 0.10000000000000009,
+    "insertion_spread": 0.10000000000000009,
+    "expanded_neck_width": 5.0,
+    "insertion_neck_width": 5.0
+  },
+  "trials": [
+    {
+      "arm_thickness": 1.2,
+      "axial_clearance": 0.1,
+      "sample_number": 70,
+      "technique": "straight",
+      "tip_thickness": 1.2,
+      "title": "Upper-supported snap + expansion cap",
+      "shoulder_y": 6.1,
+      "tip_y": 8.399999999999999,
+      "root_radius": 1.2,
+      "effective_root_y": -11.6,
+      "spring_length": 17.7,
+      "strain_proxy": 0.006894570525711001,
+      "stiffness_proxy": 0.00031161900681179674,
+      "closed_arm_gap": 4.440892098500626e-16,
+      "closed_hook_width": 5.199999999999999
+    }
+  ],
+  "intended_use": "Permanent snap with front expansion/cover plug",
+  "limitations": "Kinematic fit only; no physical strength, insertion force or permanence rating."
+}
