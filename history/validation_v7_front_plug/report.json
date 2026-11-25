@@ -1,0 +1,79 @@
+{
+  "version": 7,
+  "sample": 70,
+  "meshes": [
+    {
+      "view": "3dpr",
+      "bodies": 2,
+      "closed": true,
+      "extents_mm": [
+        29.0,
+        38.39999961853027,
+        14.600000381469727
+      ],
+      "volume_mm3": 2311.4547215293246
+    },
+    {
+      "view": "sample_70",
+      "bodies": 1,
+      "closed": true,
+      "extents_mm": [
+        11.0,
+        38.39999961853027,
+        7.0
+      ],
+      "volume_mm3": 1914.7224003577746
+    },
+    {
+      "view": "receiver_6_0",
+      "bodies": 1,
+      "closed": true,
+      "extents_mm": [
+        30.0,
+        29.992107391357422,
+        6.0
+      ],
+      "volume_mm3": 5213.362654630453
+    },
+    {
+      "view": "front_plug",
+      "bodies": 1,
+      "closed": true,
+      "extents_mm": [
+        11.0,
+        7.997040271759033,
+        14.600000381469727
+      ],
+      "volume_mm3": 396.7323980565307
+    }
+  ],
+  "checks": {
+    "upper_inside_bearing": true,
+    "top_and_bottom_tongue_location": true,
+    "snap_insertion_max_collision_mm3": 1.1842378929335002e-15,
+    "seated_spread_per_arm_mm": 0.10000000000000009,
+    "temporary_spread_per_arm_mm": 0.10000000000000009,
+    "expanded_neck_width_mm": 5.0,
+    "plug_drive_max_collision_mm3": 1.542168688217771e-05,
+    "retention": "friction",
+    "plug_ribs_capture": false,
+    "no_arm_pockets": true,
+    "cover_rim_seating": true,
+    "blocks_recompression": true,
+    "front_projection_mm": 4.6,
+    "actual_closed_tip_gap_mm": 9.536743217353205e-08,
+    "closed_arm_interference_mm3": 0.0,
+    "partial_95_percent_closure_collision_mm3": 0.49607108013958623
+  },
+  "dxf": {
+    "file": "receiver_laser.dxf",
+    "closed_contours": 2,
+    "units": "mm",
+    "layer": "CUT",
+    "area_mm2": 869.2906405000003,
+    "profile_difference_mm2": 0.0027403401233143648,
+    "maximum_contour_difference_mm": 6.31261866609994e-05
+  },
+  "all_checks_passed": true,
+  "limitations": "Prescribed fit only. No force, stiffness gain, creep or permanent-retention rating."
+}

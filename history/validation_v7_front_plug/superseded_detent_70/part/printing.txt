@@ -1,0 +1,31 @@
+V7 SAMPLE 70 — TALLER RECEIVER / UPPER SUPPORT / FRONT EXPANSION COVER
+
+Print 3dpr.stl ONCE: ONE numbered snap end + ONE front covering plug, two solids.
+Print receiver_6_0.stl ONCE. Individual sample_70.stl and front_plug.stl are spares.
+The new hole is 5.2 x 5.2 mm in a 6 mm panel. The old 4.2 mm-tall receiver is too short.
+Keep all supplied print orientations. Clip long face DOWN; plug outside cover face DOWN,
+spreading stem UP. Use production PETG settings. The parts have bed-rooted geometry.
+
+The tongue grows from 4 to 5 mm tall; the outer support columns rise to 7 mm. Orient
+the extra column height ABOVE the hole. The upper inside shoulders now bear above
+the opening, while the tongue also locates against its top/bottom edges.
+The 1.4 mm hooks still require the middle arms to meet when passing the 5.2 mm width.
+
+1. Push the snap from INSIDE until its shoulders seat and the barbs recover outside.
+2. From OUTSIDE, align the plug stem with the gap between the two arms.
+3. Press the plug inward to seat the covering rim. The tapered stem pushes each arm
+   OUTWARD .1 mm in its seated state; it does not merely fill the gap.
+4. The retaining ribs temporarily spread them .2 mm each, then enter the matching
+   inside-arm pockets. The cover encloses the hooks and overlaps every hole edge.
+The fitted neck is 5.0 mm wide; the temporary insertion width is 5.2 mm. There is
+no extra simulated spread beyond the actual hole width. Cap is 11 x 8 mm with a 2 mm
+front face and hollow skirt. Maximum outside projection is 4.6 mm beyond the panel.
+No designed service release is provided. Strength/stiffness gains are unproven until
+tested; preload can creep and pockets reduce local arm section.
+
+Compare wiggle before and after fitting the plug, seating of the upper shoulders,
+plug force/click, and the outcome of a destructive pull. Preserve results.csv.
+This first plug test uses the straight-arm control; no full rail is selected.
+receiver_laser.dxf provides the same square through-hole for nominal 6 mm MDF, in mm.
+Apply measured kerf once in CAM. Physical fit, fatigue, PETG creep, MDF wear and
+permanent retention need testing. Earlier numbered samples and releases are preserved.

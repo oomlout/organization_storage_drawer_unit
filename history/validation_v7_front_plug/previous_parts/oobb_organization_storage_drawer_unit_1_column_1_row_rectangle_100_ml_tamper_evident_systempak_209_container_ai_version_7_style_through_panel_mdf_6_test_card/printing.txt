@@ -1,0 +1,34 @@
+V7 EXPERIMENTAL THROUGH-PANEL CLIPS — 6 mm MDF — dimensions in mm
+
+PRINT FIRST: 3dpr.stl once (nine separate numbered clips 40–48), receiver_6_0.stl once,
+and screw_test.stl once (beam end + outside adapter). Do not connect parts with a raft.
+Optional receiver_5_8.stl and receiver_6_2.stl simulate sheet variation. sample_*.stl are spares.
+Keep all supplied orientations. Clips lie long-face-down; numbers UP; no designed supports.
+Use the production PETG, ideally 0.4 mm nozzle, 0.2 mm layers; record your actual settings.
+Start with sample 44 in the CENTRE 7.6 x 4.6 hole; then compare 41 and 47 (softer/stiffer).
+40–42: 1.2 mm arms; 43–45: 1.5 mm; 46–48: 1.8 mm. Within each row axial play is
+0.10 / 0.25 / 0.40 mm for a true 6.00 mm sheet. These are CAD values, not measured fit.
+Insert from the unlabelled back of the receiver; hooks emerge on the labelled outside.
+The broad beam shoulder seats on the inside; squeeze both exposed hooks to remove.
+Holes left-to-right: 7.2, 7.4, 7.6, 7.8, 8.0 mm; all 4.6 mm high. Printed labels show widths.
+Record insertion, play, removal, damage and repeat-cycle behaviour in results.csv.
+Test thickness variation separately: thin panels add play; thick panels can prevent clicking.
+
+LASER: receiver_laser.dxf is a 126 x 32 mm test card in nominal 6 mm MDF. No engraving
+is required: mark hole widths by hand using receiver_map.svg. DXF has CUT contours only,
+all at Z=0, mm units. Use measured kerf compensation ONCE in CAM and cut holes first.
+Measure actual sheet thickness and hole width on both faces before comparing to prints.
+
+SCREW: M3 x 20 countersunk screw + M3 nut, one each (not included). Side-load the nut
+into the beam; put the adapter from OUTSIDE through the SAME centre receiver hole;
+beam seats INSIDE. Adapter countersink face prints DOWN, cheeks UP. Screw is entered
+through the adapter into the nut. Flange adds 2.4 mm outside; tighten gently for this test.
+
+PROTOTYPE FACES: front_small/large_laser_2d.dxf are complete nominal flat MDF faces.
+Their stops are solid across the 6 mm sheet. front_small/large_printed.stl retain the V6
+angled slide-on stop and 12 mm inward floor supports, with the new rectangular holes.
+These demonstrate the two manufacturing paths; NO full-length V7 rail is selected yet.
+The flat MDF version has no inward floor extensions; plywood/enclosure support remains
+necessary. Do not mix these receiver holes with V6 rails. Test coupons before full faces.
+Analytical strain and stiffness are screening proxies; insertion force, fatigue, MDF edge
+durability, PETG creep and loaded cabinet performance require physical testing.

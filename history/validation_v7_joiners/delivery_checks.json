@@ -1,0 +1,16 @@
+[
+  {
+    "variant": "unit_1_wide_2_tall",
+    "zip_files_pass": true,
+    "source_metadata_pass": true,
+    "navigation_exists": true,
+    "navigation_path": "C:\\od\\OneDrive\\docs\\organization_storage_drawer_unit\\navigation_oobb\\oobb\\organization\\storage\\drawer_unit\\rectangle_100_ml_tamper_evident_systempak_209_container\\1_column\\2_row\\ai_version_7_style\\unit_1_wide_2_tall"
+  },
+  {
+    "variant": "unit_2_wide_2_tall",
+    "zip_files_pass": true,
+    "source_metadata_pass": true,
+    "navigation_exists": true,
+    "navigation_path": "C:\\od\\OneDrive\\docs\\organization_storage_drawer_unit\\navigation_oobb\\oobb\\organization\\storage\\drawer_unit\\rectangle_100_ml_tamper_evident_systempak_209_container\\2_column\\2_row\\ai_version_7_style\\unit_2_wide_2_tall"
+  }
+]

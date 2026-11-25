@@ -1,0 +1,4 @@
+sample_number,technique,title,tip_thickness,axial_clearance,spring_length,closed_arm_gap,closed_hook_width
+60,straight,Permanent straight snap,1.2,0.1,17.7,4.440892098500626e-16,5.199999999999999
+61,tapered,Permanent tapered snap,1.2,0.1,18.9,4.440892098500626e-16,5.199999999999999
+62,curved,Permanent S spring,1.2,0.1,17.7,4.440892098500626e-16,5.199999999999999

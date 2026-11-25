@@ -1,0 +1,14 @@
+CENTRED SHARED RUNNERS / REVISED FACES
+These face shapes are unchanged by the finishing revision; its new end parts are in finishing_upgrade_files.zip.
+PRINT front.stl ONCE and back.stl ONCE, outside face DOWN, instead of the preceding faces.
+The printed faces are HANDED: use both different files, not two copies of front.stl.
+Alternatively cut front_laser_2d.dxf TWICE from measured 6 mm sheet.
+For flat laser faces keep their shifted holes horizontally aligned through the unit; do not mirror their hole locations.
+Shared-divider receiver holes move +1.5 mm in front-face CAD X; outer receivers retain their positions.
+The shift centres the 8 mm running strip, with nominal 2.35 mm lip bearing on each side.
+Optional 3 mm test: cut revised front_3mm_test_2d.dxf ONCE per face; its complete pad set is nested.
+Use the OFFSET-hole pads at the shared dividers; keep the pad square centred on its divider.
+The pad hole is +1.5 mm in front-face CAD X. Plain/handed pads are for the outer receivers.
+Do not also cut pads-only sets when using the nested full-face layout.
+Do not enlarge the preceding receiver holes to combine both locations; use the revised faces.
+Print fit, lateral play, loading and creep still require physical testing.

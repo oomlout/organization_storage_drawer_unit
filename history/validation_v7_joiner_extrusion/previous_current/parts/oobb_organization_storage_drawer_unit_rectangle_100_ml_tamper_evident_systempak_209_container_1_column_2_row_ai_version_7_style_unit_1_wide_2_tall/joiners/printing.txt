@@ -1,0 +1,20 @@
+OPTIONAL SCREW JOINERS / unit_1_wide_2_tall
+joiners.stl contains ONE two-unit strip (20 x 10 x 6 mm) and ONE four-unit corner plate (20 x 20 x 6 mm).
+Print outside faces DOWN, countersinks on the bed, raised seating pads UP. Choose quantities for your arrangement.
+Place on OUTSIDE faces over existing corner mounting holes, raised seating pads against the face.
+The 2.6 mm back recess clears current 2.4 mm screw-adapter flanges. Circular seating pads are 6 mm diameter.
+Two-hole strip: join two adjacent units; turn 90 degrees for vertical neighbours.
+Four-hole plate: join a 2 x 2 group at its shared corner.
+Print joiner_backers.stl for one matching two-unit and one four-unit INSIDE backing piece; nut-pocket faces DOWN, legs UP.
+For CURRENT 6 mm printed faces: purchased M3 x 35 countersunk screws and M3 nuts. Fit backing pieces and nuts before closing the frame.
+Backing pieces seat on the INSIDE face; relieved legs clear the beams. Nuts are captured 16 mm behind the inside face, past the thick beam ends.
+Screws stay STRAIGHT through the existing corner holes. The faceplates are unchanged.
+Use REVISED beams: small screw paths and short nut recesses in the thin runners are required. Beam-end locking mechanisms are unchanged.
+For vertical strips, rotate toward the outside edge: +90 degrees at the right edge, -90 degrees at the left edge.
+At the REAR use front joiners turned about Y, and backing pieces turned 180 degrees about Z; keep relieved feet clear of the runners.
+Each strip takes two screws/nuts; each corner plate takes four. Different sheet/backing stacks need their screw lengths checked.
+The in-use render uses nominal OOBB true-size hardware. Actual seating and print fit need physical testing.
+10 mm hole pitch assumes plastic face edges TOUCH. Spaced enclosures require changing joining_plate_unit_gap in population and regenerating.
+These are optional accessories; the individual unit BOM, beam hardware and print batches remain separate.
+joiners.scad is self-contained and reproduces this combined STL. Dimensions are mm.
+Print fit, screw-head seating and joining strength require physical testing.

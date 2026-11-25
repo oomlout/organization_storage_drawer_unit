@@ -1,0 +1,71 @@
+V7 / 2 WIDE x 2 TALL / TWO-SIDED / SYSTEMPAK 209 100 ml
+8 drawers total; 4 from each end. Dimensions in mm.
+Frame: 197.8 wide x 99.8 tall x 209 deep.
+Overall depth including caps: 218.2 mm.
+Beams shortened 15 mm total (7.5 mm per drawer bank); end fittings retain their original depths.
+3 screw beams at the top; 6 snap beams at working drawer levels.
+Either beam type fits ANY of the 9 positions; roofs and centre stops align.
+Both beams: 8 mm wide x 3 mm thick running strip, offset 1.5 mm from the clip/screw axis.
+
+PRINT EACH LISTED FILE ONCE:
+front.stl + back.stl: HANDED faces; print ONE of EACH; outside face DOWN; 6 mm web, 18 mm maximum.
+snap_beams.stl: 6 x snap_beam. Print ONCE.
+screw_beams.stl: 3 x screw_beam. Print ONCE.
+front_plugs_corner_clearance.stl: 4 x front_plug. Print ONCE.
+front_plugs_square.stl: 8 x front_plug_square. Print ONCE.
+screw_adapters.stl: 6 x screw_adapter. Print ONCE.
+PUSH-IN LOCK CAPS: 4 corner-clearance + 8 full-square caps TOTAL across both faces.
+front_plug.stl is the relieved spare; front_plug_square.stl is the full-square spare.
+Use two relieved caps per face at the outer snap positions marked cap_component=front_plug in assembly.json.
+The new named cap batches replace the old all-relieved front_plugs batches; do not print both.
+REVISED FACES REQUIRED for centred shared runners; existing beams/covers/adapters can be reused.
+Shared-divider holes move +1.5 mm in front-face CAD X: nominal lip bearing is 2.35 mm on BOTH sides.
+Laser faces: keep shifted holes horizontally aligned through the unit; do not mirror the hole locations.
+FINISHING REVISION: reuse the existing balanced faces and hardware; print NEW beams, locks and screw adapters.
+Centre stops rise 6 mm above the running surface; keep the supplied side-print orientation.
+The 6 mm receiver depth is split nominally 3 + 3 mm, with 2.95 mm engagement each and a 0.1 mm mating gap.
+Centre each square lock cover on its runner; the offset stem lines up with the receiver hole.
+Keep trimmed adapter edges toward the same cabinet side at both ends; do not mirror the offset flange.
+Top-brace stops project 1 mm above the faces; overall nominal height 100.8 mm.
+Face planning bed: 256 x 256 mm, with declared margins.
+Beam batches: SIDE DOWN as supplied; snap broad faces lie on the bed. No supports designed in.
+Use production PETG settings. Covers: outside face DOWN, stem UP.
+Adapters: outside face DOWN, cheeks UP. All numbered batches are required.
+Individual snap_beam, screw_beam, front_plug and screw_adapter files are SPARES.
+sample_71.stl is the REVISED 5 mm-slot coupon; receiver_6_0.stl is the existing optional receiver.
+3dpr and assembled are REFERENCE OVERVIEWS, not single-bed print files.
+
+LASER ALTERNATIVE: cut front_laser_2d.dxf TWICE from measured 6 mm MDF instead of printing faces.
+Laser stops are flat solid 6 mm; printed stops retain angled profiles and inward floor tabs.
+MDF cannot provide 12 mm inward tabs: enclosure must supply drawer-floor support.
+DXF uses nominal finished mm CUT contours; apply measured kerf once in CAM.
+receiver_laser.dxf is an optional fit coupon with the same 5.2 x 5.2 opening.
+
+HARDWARE: 6 M3 x 20 countersunk screws and 6 M3 nuts.
+Side-load nuts through the BED SIDE opening before fitting faces; OOBB v5 pocket shares the bore axis.
+Use NEW 9.8 x 9.8 mm offset friction covers; centre covers on the runners and press from outside.
+No plug detents or arm pockets. Nose .8 mm; fitted stem 2.6 mm.
+Fit screw guides from outside and tighten gently. Centre stops separate opposing drawers.
+Wide T at TOP in service. Enclosure supplies the bottom drawer floor.
+Corner mounting screws depend on the enclosure and are not included.
+Test fit and loading progressively; full-assembly force, creep and capacity remain unverified.
+
+OPTIONAL 3 mm LASER FACE TEST:
+Cut front_3mm_test_2d.dxf ONCE per face from measured 3 mm sheet.
+Includes one face and 9 reinforcing pieces nested in bin-opening waste.
+Each piece is 12 x 12 x 3 mm: shared-divider holes are offset +1.5 mm; outer holes are centred.
+Corner versions have relief for the existing mounting hole; keep their handed orientation.
+Bond pieces onto the INSIDE at EVERY snap AND screw receiver; align holes accurately.
+3 mm face + 3 mm reinforcement gives nominal 6 mm at the original beam seating plane.
+Measure the finished stack including bondline; it must match the existing 6 mm fit.
+clip_reinforcement_2d.dxf is one plain spare; clip_reinforcements_2d.dxf is pads only.
+Do not also cut pads-only when using the nested full-face layout.
+front_3mm_test.stl/scad shows the bonded geometry; it is a reference, not a replacement print kit.
+The standard front_laser_2d.dxf remains the existing 6 mm option.
+Thinner laser stops and the enclosure floor still need physical support/testing.
+3 mm face stiffness and bond strength are UNVERIFIED; this layout is for the requested test.
+
+OPTIONAL UNIT JOINERS: joiners/joiners.stl contains one two-hole strip and one four-hole corner plate.
+Print outside faces DOWN (countersinks on bed), raised seating pads UP; choose quantities to suit your arrangement.
+Fasten on outside faces through the existing corner holes with M3 countersunk screws and backing/nuts.
+The 10 mm hole pitch assumes touching plastic face edges. See joiners/printing.txt for details.

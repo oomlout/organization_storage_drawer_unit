@@ -1,0 +1,13 @@
+OPTIONAL SCREW JOINERS / unit_2_wide_2_tall
+joiners.stl contains ONE two-unit strip (20 x 10 x 6 mm) and ONE four-unit corner plate (20 x 20 x 6 mm).
+Print outside faces DOWN, countersinks on the bed, raised seating pads UP. Choose quantities for your arrangement.
+Place on OUTSIDE faces over existing corner mounting holes, raised seating pads against the face.
+The 2.6 mm back recess clears current 2.4 mm screw-adapter flanges. Circular seating pads are 6 mm diameter.
+Two-hole strip: join two adjacent units; turn 90 degrees for vertical neighbours.
+Four-hole plate: join a 2 x 2 group at its shared corner.
+Use M3 countersunk screws with suitable backing/nuts. Each strip takes two screws; each corner plate takes four.
+Screw length depends on the 6 mm joiner, face thickness, backing/washers and nut engagement; screws are purchased separately.
+10 mm hole pitch assumes plastic face edges TOUCH. Spaced enclosures require changing joining_plate_unit_gap in population and regenerating.
+These are optional accessories; the individual unit BOM, beam hardware and print batches remain separate.
+joiners.scad is self-contained and reproduces this combined STL. Dimensions are mm.
+Print fit, screw-head seating and joining strength require physical testing.

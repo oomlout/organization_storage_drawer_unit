@@ -1,0 +1,744 @@
+{
+  "variant": "unit_1_wide_2_tall",
+  "pieces": [
+    {
+      "name": "four_unit_joiner",
+      "size_mm": [
+        20.0,
+        20.0,
+        6.0
+      ],
+      "holes": 4,
+      "through_diameter_mm": 3.6,
+      "countersink_diameter_mm": 7.2,
+      "countersink_depth_mm": 1.9
+    },
+    {
+      "name": "two_unit_joiner",
+      "size_mm": [
+        20.0,
+        10.0,
+        6.0
+      ],
+      "holes": 2,
+      "through_diameter_mm": 3.6,
+      "countersink_diameter_mm": 7.2,
+      "countersink_depth_mm": 1.9
+    }
+  ],
+  "placements": [
+    {
+      "piece": "four_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        -54.2500000005,
+        -49.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "four_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        -54.2500000005,
+        49.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "four_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        54.2500000005,
+        -49.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "four_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        54.2500000005,
+        49.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "four_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        -54.2500000005,
+        -49.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "four_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        -54.2500000005,
+        49.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "four_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        54.2500000005,
+        -49.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "four_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        54.2500000005,
+        49.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        -54.2500000005,
+        -44.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        -49.2500000005,
+        -49.9000000005
+      ],
+      "rotation_degrees": 90,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        -54.2500000005,
+        44.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        -49.2500000005,
+        49.9000000005
+      ],
+      "rotation_degrees": 90,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        54.2500000005,
+        -44.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        49.2500000005,
+        -49.9000000005
+      ],
+      "rotation_degrees": 90,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        54.2500000005,
+        44.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        49.2500000005,
+        49.9000000005
+      ],
+      "rotation_degrees": 90,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        -54.2500000005,
+        -44.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        -49.2500000005,
+        -49.9000000005
+      ],
+      "rotation_degrees": 90,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        -54.2500000005,
+        44.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        -49.2500000005,
+        49.9000000005
+      ],
+      "rotation_degrees": 90,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        54.2500000005,
+        -44.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        49.2500000005,
+        -49.9000000005
+      ],
+      "rotation_degrees": 90,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        54.2500000005,
+        44.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        49.2500000005,
+        49.9000000005
+      ],
+      "rotation_degrees": 90,
+      "intersection_mm3": 0.0
+    }
+  ],
+  "all_checks_passed": true,
+  "original_hole_grid_restored": true,
+  "adapter_clearance_depth_mm": 2.6,
+  "seating_pad_radius_mm": 3.0,
+  "hardware_and_group": {
+    "hardware": [
+      {
+        "rear": false,
+        "axis_mm": [
+          -5.0,
+          -5.0
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 0.0,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 72.19192535638363,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": false,
+        "axis_mm": [
+          -5.0,
+          5.0
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 0.0,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 72.19192535638363,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": false,
+        "axis_mm": [
+          5.0,
+          -5.0
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 0.0,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 72.19192535638363,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": false,
+        "axis_mm": [
+          5.0,
+          5.0
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 0.0,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 72.19192535638363,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": false,
+        "axis_mm": [
+          -5.0,
+          -94.800000001
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 0.0,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 36.095962492482144,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": false,
+        "axis_mm": [
+          5.0,
+          -94.800000001
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 0.0,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 36.095962492482144,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": false,
+        "axis_mm": [
+          -5.0,
+          94.800000001
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 0.0,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 36.095962492482144,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": false,
+        "axis_mm": [
+          5.0,
+          94.800000001
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 0.0,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 36.095962492482144,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": false,
+        "axis_mm": [
+          -103.500000001,
+          5.0
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 0.0,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 36.075920276691065,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": false,
+        "axis_mm": [
+          -103.500000001,
+          -5.0
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 0.0,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 36.075920276691065,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": false,
+        "axis_mm": [
+          103.500000001,
+          -5.0
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 0.0,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 36.07592027669106,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": false,
+        "axis_mm": [
+          103.500000001,
+          5.0
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 0.0,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 36.07592027669106,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": true,
+        "axis_mm": [
+          -5.0,
+          -5.0
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 1.392427861901524e-07,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 72.19192535638363,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": true,
+        "axis_mm": [
+          -5.0,
+          5.0
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 1.392427861901524e-07,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 72.19192535638363,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": true,
+        "axis_mm": [
+          5.0,
+          -5.0
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 1.7020776491942038e-07,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 72.19192535638363,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": true,
+        "axis_mm": [
+          5.0,
+          5.0
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 1.7020776491942038e-07,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 72.19192535638363,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": true,
+        "axis_mm": [
+          -5.0,
+          -94.800000001
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 1.3924212301693237e-07,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 36.095962492482116,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": true,
+        "axis_mm": [
+          5.0,
+          -94.800000001
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 1.702058701387917e-07,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 36.095962492482116,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": true,
+        "axis_mm": [
+          -5.0,
+          94.800000001
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 1.3924212301693237e-07,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 36.095962492482116,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": true,
+        "axis_mm": [
+          5.0,
+          94.800000001
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 1.702058701387917e-07,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 36.095962492482116,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": true,
+        "axis_mm": [
+          -103.500000001,
+          5.0
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 8.800270734354854e-08,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 36.07592027669106,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": true,
+        "axis_mm": [
+          -103.500000001,
+          -5.0
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 1.1897100193891674e-07,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 36.07592027669106,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": true,
+        "axis_mm": [
+          103.500000001,
+          -5.0
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 8.800270734354854e-08,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 36.07592027669104,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      },
+      {
+        "rear": true,
+        "axis_mm": [
+          103.500000001,
+          5.0
+        ],
+        "screw_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 1.1897100193891674e-07,
+        "nominal_tip_beyond_nut_mm": 5.050000000000001,
+        "pad_contact_total_mm2": 36.07592027669104,
+        "insertion_clear": true,
+        "wrong_axis_rejected": true,
+        "over_insertion_rejected": true
+      }
+    ],
+    "joiners": [
+      {
+        "piece": "four_unit_joiner",
+        "rear": false,
+        "centre_mm": [
+          0,
+          0
+        ],
+        "rotation_degrees": 0,
+        "intersection_mm3": 0.0,
+        "backer_intersection_mm3": 0.0
+      },
+      {
+        "piece": "two_unit_joiner",
+        "rear": false,
+        "centre_mm": [
+          0,
+          -94.800000001
+        ],
+        "rotation_degrees": 0,
+        "intersection_mm3": 0.0,
+        "backer_intersection_mm3": 0.0
+      },
+      {
+        "piece": "two_unit_joiner",
+        "rear": false,
+        "centre_mm": [
+          0,
+          94.800000001
+        ],
+        "rotation_degrees": 0,
+        "intersection_mm3": 0.0,
+        "backer_intersection_mm3": 0.0
+      },
+      {
+        "piece": "two_unit_joiner",
+        "rear": false,
+        "centre_mm": [
+          -103.500000001,
+          0
+        ],
+        "rotation_degrees": -90,
+        "intersection_mm3": 0.0,
+        "backer_intersection_mm3": 0.0
+      },
+      {
+        "piece": "two_unit_joiner",
+        "rear": false,
+        "centre_mm": [
+          103.500000001,
+          0
+        ],
+        "rotation_degrees": 90,
+        "intersection_mm3": 0.0,
+        "backer_intersection_mm3": 0.0
+      },
+      {
+        "piece": "four_unit_joiner",
+        "rear": true,
+        "centre_mm": [
+          0,
+          0
+        ],
+        "rotation_degrees": 0,
+        "intersection_mm3": 0.0,
+        "backer_intersection_mm3": 0.0
+      },
+      {
+        "piece": "two_unit_joiner",
+        "rear": true,
+        "centre_mm": [
+          0,
+          -94.800000001
+        ],
+        "rotation_degrees": 0,
+        "intersection_mm3": 0.0,
+        "backer_intersection_mm3": 0.0
+      },
+      {
+        "piece": "two_unit_joiner",
+        "rear": true,
+        "centre_mm": [
+          0,
+          94.800000001
+        ],
+        "rotation_degrees": 0,
+        "intersection_mm3": 0.0,
+        "backer_intersection_mm3": 0.0
+      },
+      {
+        "piece": "two_unit_joiner",
+        "rear": true,
+        "centre_mm": [
+          -103.500000001,
+          0
+        ],
+        "rotation_degrees": -90,
+        "intersection_mm3": 0.0,
+        "backer_intersection_mm3": 0.0
+      },
+      {
+        "piece": "two_unit_joiner",
+        "rear": true,
+        "centre_mm": [
+          103.500000001,
+          0
+        ],
+        "rotation_degrees": 90,
+        "intersection_mm3": 0.0,
+        "backer_intersection_mm3": 0.0
+      }
+    ],
+    "group_units": 4,
+    "unit_intersections_clear": true,
+    "reference_screw_length_mm": 35.0,
+    "reference_nut_thickness_mm": 2.5,
+    "adapter_gap_mm": 0.20000000000000018,
+    "all_checks_passed": true
+  },
+  "folder": "C:\\od\\OneDrive\\docs\\organization_storage_drawer_unit\\parts\\oobb_organization_storage_drawer_unit_rectangle_100_ml_tamper_evident_systempak_209_container_1_column_2_row_ai_version_7_style_unit_1_wide_2_tall\\joiners",
+  "files": {
+    "joiners/joiners.scad": "003d373fa15dd5fe59dd7c62a832a0568d565aabb11fc7fd330c38fec29577d9",
+    "joiners/joiners.stl": "4da326372840567496de6728719a7de97f42a5a4db192740dc9189692cedef04",
+    "joiners/joiners.png": "5678be79e9a379a7feae5ba451f02b8039f4fd9ce5a6eb2cc2342c221455a2a4",
+    "joiners/joiner_backers.scad": "48d457a5753676ef693b87cd21342cda6852a86abc5ff749febb22d1b179a43c",
+    "joiners/joiner_backers.stl": "1ad61a11e9d7f8ec82b116355ed1631656f888ff052aecc3993597f087934371",
+    "joiners/joiners_in_use.png": "1d6e303830beca9a229b489f188e9903da8b08955c86fec2632ed473721f347e",
+    "joiners/joiners_detail.png": "e68ecc402a53bdbfd771568c1168bbd8dca1b83d2609002c037e36e262a32e3a",
+    "joiners/printing.txt": "2659f11d0b875f3cf87dcdcb6514e42d91e2a1167c68658b13e6fe0bdff27322"
+  }
+}

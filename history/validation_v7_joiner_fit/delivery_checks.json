@@ -1,0 +1,47 @@
+{
+  "units": [
+    {
+      "variant": "unit_1_wide_2_tall",
+      "all_zip_bytes_verified": true,
+      "manufacturing_scads_self_contained": true,
+      "files": {
+        "joiners/joiners.png": "5678be79e9a379a7feae5ba451f02b8039f4fd9ce5a6eb2cc2342c221455a2a4",
+        "joiners/joiners.scad": "003d373fa15dd5fe59dd7c62a832a0568d565aabb11fc7fd330c38fec29577d9",
+        "joiners/joiners.stl": "4da326372840567496de6728719a7de97f42a5a4db192740dc9189692cedef04",
+        "joiners/joiners_backing_detail.png": "746526ed0ec269c1d4455f1a35d50ff0008ac3d86b23a9b038897e73780b3bac",
+        "joiners/joiners_detail.png": "e68ecc402a53bdbfd771568c1168bbd8dca1b83d2609002c037e36e262a32e3a",
+        "joiners/joiners_in_use.png": "54070f26ad785cb4f1ce6b5825da8cd7783047274beb28d9667f9935e91c84ee",
+        "joiners/joiner_backers.scad": "48d457a5753676ef693b87cd21342cda6852a86abc5ff749febb22d1b179a43c",
+        "joiners/joiner_backers.stl": "1ad61a11e9d7f8ec82b116355ed1631656f888ff052aecc3993597f087934371",
+        "joiners/printing.txt": "2659f11d0b875f3cf87dcdcb6514e42d91e2a1167c68658b13e6fe0bdff27322",
+        "joiners/required_beam_update/printing.txt": "f5f6cf0d3c601b41afdeffa6127673c491832f78fd1e66f3c0edd2c0cd8aa9b1",
+        "joiners/required_beam_update/screw_beams.scad": "4d7c7a3f030a926eb1f487fa73df8efc2538a45996179e5b32422a4627863874",
+        "joiners/required_beam_update/screw_beams.stl": "c14fa8996b2e7c88b2306410ebe691c84b48044d4efcdab7c87fb06ea6535967",
+        "joiners/required_beam_update/snap_beams.scad": "4af7dec6f6b5670f168c114403fef528bb1844d3b676b0e615e37a94fc94bab1",
+        "joiners/required_beam_update/snap_beams.stl": "94d4554869f0842f35bc7b05ced63d29c11cca0147879bf14acc7572d4f59263"
+      }
+    },
+    {
+      "variant": "unit_2_wide_2_tall",
+      "all_zip_bytes_verified": true,
+      "manufacturing_scads_self_contained": true,
+      "files": {
+        "joiners/joiners.png": "5678be79e9a379a7feae5ba451f02b8039f4fd9ce5a6eb2cc2342c221455a2a4",
+        "joiners/joiners.scad": "003d373fa15dd5fe59dd7c62a832a0568d565aabb11fc7fd330c38fec29577d9",
+        "joiners/joiners.stl": "4da326372840567496de6728719a7de97f42a5a4db192740dc9189692cedef04",
+        "joiners/joiners_backing_detail.png": "7eeb7120f84d8ddcfe32cf90761830f4aa2b9c1d4ab6c7232fa4748afa98a863",
+        "joiners/joiners_detail.png": "c8b143d8b8057084ecb411a778f4782bb30c76b1630a7a21d343989bb78ab581",
+        "joiners/joiners_in_use.png": "f826d47fa09b98555a1a6c59d4680690d114e13c6b7e0bf0e3a38d6a8ba78987",
+        "joiners/joiner_backers.scad": "2ffeff7a3e2134cc81546025f5cc0d4c28aa7f5f14cf5b77195ca35316a41dba",
+        "joiners/joiner_backers.stl": "1ad61a11e9d7f8ec82b116355ed1631656f888ff052aecc3993597f087934371",
+        "joiners/printing.txt": "fb7811731dc7f4236d3731150109f1735dc2766099d016db20cc8ddd424251ba",
+        "joiners/required_beam_update/printing.txt": "a6ebe4172b61a3e189f93fa851db41efc5b48ab867555047a1a53115353a65ca",
+        "joiners/required_beam_update/screw_beams.scad": "9bfcefbbed046fe4573819b8d172ebb88e380816f7aec2e11bb9624910b05c7f",
+        "joiners/required_beam_update/screw_beams.stl": "78855632195f8551b6eb46b527da2543a209da6f95b55070760de060b9a224f6",
+        "joiners/required_beam_update/snap_beams.scad": "ce9b0744d53442c44c4482b73d996e0966d20d03ba1a8e02b00a40a1417eeac6",
+        "joiners/required_beam_update/snap_beams.stl": "cb1864e82e4fa5f0e662b361c450a3841a73de19da7aa84e4ab3c6363493f8c1"
+      }
+    }
+  ],
+  "all_checks_passed": true
+}

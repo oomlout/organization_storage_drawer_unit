@@ -1,0 +1,39 @@
+{
+  "units": [
+    {
+      "variant": "unit_1_wide_2_tall",
+      "closed_mesh_views": 25,
+      "beam_mount_checks": 12,
+      "screw_and_nut_assemblies": 24,
+      "bracket_placements": 10,
+      "stop_sections": 16,
+      "min_tip_projection_mm": 1.0499999999999972,
+      "max_approach_intersection_mm3": 2.958614067911291e-05,
+      "max_coupon_difference_mm3": 8.63324214250838e-05,
+      "verified_archive_members": {
+        "joiners.zip": 20,
+        "print_files.zip": 53
+      },
+      "report": "validation_v7_joiner_25mm/selected_unit_1_wide_2_tall/report.json"
+    },
+    {
+      "variant": "unit_2_wide_2_tall",
+      "closed_mesh_views": 26,
+      "beam_mount_checks": 18,
+      "screw_and_nut_assemblies": 24,
+      "bracket_placements": 10,
+      "stop_sections": 32,
+      "min_tip_projection_mm": 1.0499999999999972,
+      "max_approach_intersection_mm3": 2.933137182378653e-05,
+      "max_coupon_difference_mm3": 0.0002930368449180302,
+      "verified_archive_members": {
+        "joiners.zip": 20,
+        "print_files.zip": 56
+      },
+      "report": "validation_v7_joiner_25mm/selected_unit_2_wide_2_tall/report.json"
+    }
+  ],
+  "source_tests_passed": 135,
+  "preceding_snapshot_files_verified": 215,
+  "physical_trial": "awaiting test print"
+}

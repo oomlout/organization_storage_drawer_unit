@@ -1,0 +1,309 @@
+{
+  "version": 7,
+  "released_models_unchanged": 64,
+  "meshes": [
+    {
+      "file": "3dpr.stl",
+      "bodies": 5,
+      "watertight": true,
+      "extents_mm": [
+        76.25,
+        39.19999980926514,
+        4.0
+      ],
+      "volume_mm3": 4775.370589295064
+    },
+    {
+      "file": "sample_50.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        11.0,
+        37.84251832962036,
+        4.0
+      ],
+      "volume_mm3": 1160.2917227263372
+    },
+    {
+      "file": "sample_51.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        11.0,
+        37.84251832962036,
+        4.0
+      ],
+      "volume_mm3": 1156.6010295471717
+    },
+    {
+      "file": "sample_52.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        11.0,
+        37.84251832962036,
+        4.0
+      ],
+      "volume_mm3": 1160.979506628333
+    },
+    {
+      "file": "sample_53.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        11.0,
+        37.84251832962036,
+        4.0
+      ],
+      "volume_mm3": 1160.698108188978
+    },
+    {
+      "file": "receiver_6_0.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        126.0,
+        31.992107391357422,
+        6.0
+      ],
+      "volume_mm3": 23323.617434354554
+    },
+    {
+      "file": "keeper_key.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        4.5,
+        13.199999809265137,
+        4.0
+      ],
+      "volume_mm3": 136.80000114440918
+    },
+    {
+      "file": "screw_test.stl",
+      "bodies": 2,
+      "watertight": true,
+      "extents_mm": [
+        31.0,
+        34.99851989746094,
+        13.0
+      ],
+      "volume_mm3": 4244.041339212261
+    },
+    {
+      "file": "screw_beam.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        11.0,
+        30.0,
+        13.0
+      ],
+      "volume_mm3": 3989.1729520422286
+    },
+    {
+      "file": "screw_adapter.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        11.0,
+        9.997039794921875,
+        7.900000095367432
+      ],
+      "volume_mm3": 254.86834932171243
+    },
+    {
+      "file": "front_small_printed.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        197.8000030517578,
+        220.29052734375,
+        18.0
+      ],
+      "volume_mm3": 79807.05432264619
+    },
+    {
+      "file": "front_small_laser.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        197.8000030517578,
+        220.29052734375,
+        6.0
+      ],
+      "volume_mm3": 78713.10475496762
+    },
+    {
+      "file": "front_large_printed.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        376.3999938964844,
+        376.79052734375,
+        18.0
+      ],
+      "volume_mm3": 232910.97745422134
+    },
+    {
+      "file": "front_large_laser.stl",
+      "bodies": 1,
+      "watertight": true,
+      "extents_mm": [
+        376.3999938964844,
+        376.79052734375,
+        6.0
+      ],
+      "volume_mm3": 227099.82137102121
+    }
+  ],
+  "joints": [
+    {
+      "sample_number": 50,
+      "seated_collision_mm3": 0.0,
+      "prescribed_insertion_max_collision_mm3": 0.0,
+      "exposed_tip_mm": 1.8425184053936912,
+      "retention_overlap_mm": 0.55,
+      "axial_clearance_mm": 0.25,
+      "thickness_response": {}
+    },
+    {
+      "sample_number": 51,
+      "seated_collision_mm3": 0.0,
+      "prescribed_insertion_max_collision_mm3": 0.0,
+      "exposed_tip_mm": 1.8425184053936912,
+      "retention_overlap_mm": 0.55,
+      "axial_clearance_mm": 0.25,
+      "thickness_response": {}
+    },
+    {
+      "sample_number": 52,
+      "seated_collision_mm3": 0.0,
+      "prescribed_insertion_max_collision_mm3": 0.0,
+      "exposed_tip_mm": 1.8425184053936912,
+      "retention_overlap_mm": 0.55,
+      "axial_clearance_mm": 0.25,
+      "thickness_response": {}
+    },
+    {
+      "sample_number": 53,
+      "seated_collision_mm3": 0.0,
+      "prescribed_insertion_max_collision_mm3": 0.0,
+      "exposed_tip_mm": 1.8425184053936912,
+      "retention_overlap_mm": 0.55,
+      "axial_clearance_mm": 0.25,
+      "thickness_response": {}
+    }
+  ],
+  "dxf": [
+    {
+      "file": "receiver_laser.dxf",
+      "closed_contours": 6,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 3889.5818404999995,
+      "profile_difference_mm2": 0.011630874973779862,
+      "maximum_contour_difference_mm": 6.200509708234482e-05
+    },
+    {
+      "file": "front_small_laser_2d.dxf",
+      "closed_contours": 40,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 13118.80064205846,
+      "profile_difference_mm2": 0.16864203273619255,
+      "maximum_contour_difference_mm": 0.0004884736787037335
+    },
+    {
+      "file": "front_large_laser_2d.dxf",
+      "closed_contours": 113,
+      "units": "mm",
+      "layer": "CUT",
+      "area_mm2": 37849.92993657834,
+      "profile_difference_mm2": 0.419436710585899,
+      "maximum_contour_difference_mm": 0.0006316698375342584
+    }
+  ],
+  "four_finger_sections": [
+    {
+      "sample_number": 50,
+      "fingers": 4,
+      "centre_open": true,
+      "minimum_outer_width_mm": 1.75
+    },
+    {
+      "sample_number": 51,
+      "fingers": 4,
+      "centre_open": true,
+      "minimum_outer_width_mm": 1.75
+    },
+    {
+      "sample_number": 52,
+      "fingers": 4,
+      "centre_open": true,
+      "minimum_outer_width_mm": 1.75
+    },
+    {
+      "sample_number": 53,
+      "fingers": 4,
+      "centre_open": true,
+      "minimum_outer_width_mm": 1.75
+    }
+  ],
+  "calibration_holes": [
+    {
+      "width_mm": 6.0,
+      "prescribed_insertion_max_collision_mm3": 0.0
+    },
+    {
+      "width_mm": 6.0,
+      "prescribed_insertion_max_collision_mm3": 0.0
+    },
+    {
+      "width_mm": 6.0,
+      "prescribed_insertion_max_collision_mm3": 0.0
+    },
+    {
+      "width_mm": 6.0,
+      "prescribed_insertion_max_collision_mm3": 0.0
+    },
+    {
+      "width_mm": 6.0,
+      "prescribed_insertion_max_collision_mm3": 0.0
+    }
+  ],
+  "locking_key": {
+    "seated_clear": true,
+    "insertion_clear": true,
+    "blocks_hook_recompression": true,
+    "removable": true,
+    "captive_retention": false,
+    "tip_exposure_mm": 3.1999999999999993
+  },
+  "screw": {
+    "same_receiver": true,
+    "rigid_adapter_insertion": true,
+    "side_loaded_nut": true,
+    "seating_stops": true,
+    "screw_path_clear": true,
+    "projection_after_nut_mm": 1.6000000000000014
+  },
+  "prototype_faces": [
+    {
+      "size": "small",
+      "receivers": 21,
+      "laser_depth_mm": 6,
+      "printed_depth_mm": 18,
+      "flat_laser_profile": true
+    },
+    {
+      "size": "large",
+      "receivers": 60,
+      "laser_depth_mm": 6,
+      "printed_depth_mm": 18,
+      "flat_laser_profile": true
+    }
+  ],
+  "all_checks_passed": true,
+  "limitations": "Kinematic CAD checks only. No measured force, fatigue, PETG creep or loaded MDF performance."
+}
