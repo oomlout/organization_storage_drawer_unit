@@ -1,0 +1,145 @@
+{
+  "version": 7,
+  "experimental": true,
+  "panel_material": "6 mm nominal MDF",
+  "nominal_hole_mm": [
+    7.6,
+    4.6
+  ],
+  "nominal_side_clearance_mm": 0.25,
+  "retaining_overlap_mm": 0.55,
+  "trials": [
+    {
+      "arm_thickness": 1.2,
+      "axial_clearance": 0.1,
+      "sample_number": 40,
+      "shoulder_y": 6.1,
+      "tip_y": 7.692518405393691,
+      "root_radius": 0.8999999999999998,
+      "effective_root_y": -10.200000000000001,
+      "spring_length": 16.3,
+      "strain_proxy": 0.004403628288607023,
+      "stiffness_proxy": 0.0003990073767874225
+    },
+    {
+      "arm_thickness": 1.2,
+      "axial_clearance": 0.25,
+      "sample_number": 41,
+      "shoulder_y": 6.25,
+      "tip_y": 7.842518405393691,
+      "root_radius": 0.8999999999999998,
+      "effective_root_y": -10.200000000000001,
+      "spring_length": 16.450000000000003,
+      "strain_proxy": 0.004323685110078435,
+      "stiffness_proxy": 0.0003881915085971752
+    },
+    {
+      "arm_thickness": 1.2,
+      "axial_clearance": 0.4,
+      "sample_number": 42,
+      "shoulder_y": 6.4,
+      "tip_y": 7.9925184053936915,
+      "root_radius": 0.8999999999999998,
+      "effective_root_y": -10.200000000000001,
+      "spring_length": 16.6,
+      "strain_proxy": 0.004245899259689359,
+      "stiffness_proxy": 0.0003777630481280615
+    },
+    {
+      "arm_thickness": 1.5,
+      "axial_clearance": 0.1,
+      "sample_number": 43,
+      "shoulder_y": 6.1,
+      "tip_y": 7.692518405393691,
+      "root_radius": 0.7499999999999999,
+      "effective_root_y": -10.5,
+      "spring_length": 16.6,
+      "strain_proxy": 0.005307374074611699,
+      "stiffness_proxy": 0.0007378184533751202
+    },
+    {
+      "arm_thickness": 1.5,
+      "axial_clearance": 0.25,
+      "sample_number": 44,
+      "shoulder_y": 6.25,
+      "tip_y": 7.842518405393691,
+      "root_radius": 0.7499999999999999,
+      "effective_root_y": -10.5,
+      "spring_length": 16.75,
+      "strain_proxy": 0.005212742258854979,
+      "stiffness_proxy": 0.0007181734455368512
+    },
+    {
+      "arm_thickness": 1.5,
+      "axial_clearance": 0.4,
+      "sample_number": 45,
+      "shoulder_y": 6.4,
+      "tip_y": 7.9925184053936915,
+      "root_radius": 0.7499999999999999,
+      "effective_root_y": -10.5,
+      "spring_length": 16.9,
+      "strain_proxy": 0.005120619025944471,
+      "stiffness_proxy": 0.0006992197122363867
+    },
+    {
+      "arm_thickness": 1.8,
+      "axial_clearance": 0.1,
+      "sample_number": 46,
+      "shoulder_y": 6.1,
+      "tip_y": 7.692518405393691,
+      "root_radius": 0.5999999999999999,
+      "effective_root_y": -10.8,
+      "spring_length": 16.9,
+      "strain_proxy": 0.006144742831133365,
+      "stiffness_proxy": 0.0012082516627444763
+    },
+    {
+      "arm_thickness": 1.8,
+      "axial_clearance": 0.25,
+      "sample_number": 47,
+      "shoulder_y": 6.25,
+      "tip_y": 7.842518405393691,
+      "root_radius": 0.5999999999999999,
+      "effective_root_y": -10.8,
+      "spring_length": 17.05,
+      "strain_proxy": 0.006037099784143582,
+      "stiffness_proxy": 0.0011766420513196606
+    },
+    {
+      "arm_thickness": 1.8,
+      "axial_clearance": 0.4,
+      "sample_number": 48,
+      "shoulder_y": 6.4,
+      "tip_y": 7.9925184053936915,
+      "root_radius": 0.5999999999999999,
+      "effective_root_y": -10.8,
+      "spring_length": 17.200000000000003,
+      "strain_proxy": 0.005932260681449431,
+      "stiffness_proxy": 0.0011461254983837898
+    }
+  ],
+  "screw": {
+    "axis_height": 2.0,
+    "end_height": 13.0,
+    "flange_size": [
+      11.0,
+      10.0,
+      2.4
+    ],
+    "guide_depth": 5.5,
+    "guide_height": 4.1,
+    "guide_slot_width": 3.8,
+    "guide_width": 7.1,
+    "length": 20.0,
+    "nut_near": 7.0,
+    "nut_side_clearance": "left",
+    "size": "m3",
+    "nut_depth": 3,
+    "nut_radius": 3.4619999999999997,
+    "bore_radius": 1.8,
+    "projection_after_nut": 1.6000000000000014
+  },
+  "thickness_note": "Measure actual sheet; 5.8 / 6.0 / 6.2 mm printed cards check sensitivity.",
+  "projection_note": "DXF is nominal finished contour in mm; compensate measured kerf once in CAM.",
+  "adoption": "Test coupons only; no full V7 rail selected. Prototype face files await physical testing."
+}

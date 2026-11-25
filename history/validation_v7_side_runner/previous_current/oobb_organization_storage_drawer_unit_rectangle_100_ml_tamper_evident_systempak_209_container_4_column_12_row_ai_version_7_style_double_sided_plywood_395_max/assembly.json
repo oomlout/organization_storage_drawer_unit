@@ -1,0 +1,940 @@
+{
+  "version": 7,
+  "variant": "double_sided_plywood_395_max",
+  "selected_clip_sample": 71,
+  "grid_per_face": [
+    4,
+    12
+  ],
+  "drawer_sides": 2,
+  "drawer_count": 96,
+  "bom": {
+    "front": 1,
+    "back": 1,
+    "snap_beam": 56,
+    "screw_beam": 4,
+    "front_plug": 112,
+    "screw_adapter": 8,
+    "M3_countersunk_screw_20_mm": 8,
+    "M3_nut": 8
+  },
+  "print_batches": {
+    "snap_beams_01": {
+      "component": "snap_beam",
+      "count": 16,
+      "pitch": 24
+    },
+    "snap_beams_02": {
+      "component": "snap_beam",
+      "count": 16,
+      "pitch": 24
+    },
+    "snap_beams_03": {
+      "component": "snap_beam",
+      "count": 16,
+      "pitch": 24
+    },
+    "snap_beams_04": {
+      "component": "snap_beam",
+      "count": 8,
+      "pitch": 24
+    },
+    "screw_beams": {
+      "component": "screw_beam",
+      "count": 4,
+      "pitch": 24
+    },
+    "front_plugs_01": {
+      "component": "front_plug",
+      "count": 26,
+      "pitch": 15
+    },
+    "front_plugs_02": {
+      "component": "front_plug",
+      "count": 26,
+      "pitch": 15
+    },
+    "front_plugs_03": {
+      "component": "front_plug",
+      "count": 26,
+      "pitch": 15
+    },
+    "front_plugs_04": {
+      "component": "front_plug",
+      "count": 26,
+      "pitch": 15
+    },
+    "front_plugs_05": {
+      "component": "front_plug",
+      "count": 8,
+      "pitch": 15
+    },
+    "screw_adapters": {
+      "component": "screw_adapter",
+      "count": 8,
+      "pitch": 15
+    }
+  },
+  "frame_envelope_mm": [
+    376.4,
+    376.8,
+    224.0
+  ],
+  "overall_depth_including_caps_mm": 233.2,
+  "plate_web_mm": 6,
+  "printed_plate_max_depth_mm": 18,
+  "rail_between_faces_mm": 212.0,
+  "receiver_hole_mm": [
+    5.2,
+    5.2
+  ],
+  "frame_mounts": [
+    {
+      "x": -178.6,
+      "hole_y": -166.4,
+      "kind": "screw_beam"
+    },
+    {
+      "x": -178.6,
+      "hole_y": -135.1,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -178.6,
+      "hole_y": -103.80000000000001,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -178.6,
+      "hole_y": -72.5,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -178.6,
+      "hole_y": -41.2,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -178.6,
+      "hole_y": -9.900000000000006,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -178.6,
+      "hole_y": 21.400000000000006,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -178.6,
+      "hole_y": 52.69999999999999,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -178.6,
+      "hole_y": 84.0,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -178.6,
+      "hole_y": 115.29999999999998,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -178.6,
+      "hole_y": 146.6,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -178.6,
+      "hole_y": 177.9,
+      "kind": "screw_beam"
+    },
+    {
+      "x": -89.3,
+      "hole_y": -166.4,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -89.3,
+      "hole_y": -135.1,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -89.3,
+      "hole_y": -103.80000000000001,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -89.3,
+      "hole_y": -72.5,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -89.3,
+      "hole_y": -41.2,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -89.3,
+      "hole_y": -9.900000000000006,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -89.3,
+      "hole_y": 21.400000000000006,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -89.3,
+      "hole_y": 52.69999999999999,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -89.3,
+      "hole_y": 84.0,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -89.3,
+      "hole_y": 115.29999999999998,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -89.3,
+      "hole_y": 146.6,
+      "kind": "snap_beam"
+    },
+    {
+      "x": -89.3,
+      "hole_y": 177.9,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": -166.4,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": -135.1,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": -103.80000000000001,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": -72.5,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": -41.2,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": -9.900000000000006,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": 21.400000000000006,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": 52.69999999999999,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": 84.0,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": 115.29999999999998,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": 146.6,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "hole_y": 177.9,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 89.29999999999998,
+      "hole_y": -166.4,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 89.29999999999998,
+      "hole_y": -135.1,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 89.29999999999998,
+      "hole_y": -103.80000000000001,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 89.29999999999998,
+      "hole_y": -72.5,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 89.29999999999998,
+      "hole_y": -41.2,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 89.29999999999998,
+      "hole_y": -9.900000000000006,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 89.29999999999998,
+      "hole_y": 21.400000000000006,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 89.29999999999998,
+      "hole_y": 52.69999999999999,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 89.29999999999998,
+      "hole_y": 84.0,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 89.29999999999998,
+      "hole_y": 115.29999999999998,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 89.29999999999998,
+      "hole_y": 146.6,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 89.29999999999998,
+      "hole_y": 177.9,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 178.6,
+      "hole_y": -166.4,
+      "kind": "screw_beam"
+    },
+    {
+      "x": 178.6,
+      "hole_y": -135.1,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 178.6,
+      "hole_y": -103.80000000000001,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 178.6,
+      "hole_y": -72.5,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 178.6,
+      "hole_y": -41.2,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 178.6,
+      "hole_y": -9.900000000000006,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 178.6,
+      "hole_y": 21.400000000000006,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 178.6,
+      "hole_y": 52.69999999999999,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 178.6,
+      "hole_y": 84.0,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 178.6,
+      "hole_y": 115.29999999999998,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 178.6,
+      "hole_y": 146.6,
+      "kind": "snap_beam"
+    },
+    {
+      "x": 178.6,
+      "hole_y": 177.9,
+      "kind": "screw_beam"
+    }
+  ],
+  "snap_interface": {
+    "spring_root_y": -7.0,
+    "neck_width": 4.8,
+    "tongue_height": 5.0,
+    "upper_support_height": 7.0,
+    "hook_projection": 1.4,
+    "retaining_rake": 0.15
+  },
+  "snap_trial": {
+    "arm_thickness": 1.2,
+    "axial_clearance": 0.1,
+    "sample_number": 71,
+    "technique": "straight",
+    "tip_thickness": 1.2,
+    "title": "Half-depth spring + friction expansion cap",
+    "shoulder_y": 6.1,
+    "tip_y": 8.399999999999999,
+    "root_radius": 1.2,
+    "effective_root_y": -4.6,
+    "spring_length": 10.7,
+    "strain_proxy": 0.01886627653070137,
+    "stiffness_proxy": 0.0014105627312673925,
+    "closed_arm_gap": 4.440892098500626e-16,
+    "closed_hook_width": 5.199999999999999
+  },
+  "front_plug": {
+    "cap_inner_y": 8.6,
+    "cavity_height": 5.6,
+    "cavity_width": 8.4,
+    "cover_height": 8.0,
+    "cover_thickness": 2.0,
+    "cover_width": 11.0,
+    "full_width_y": 0.0,
+    "nose_width": 0.8,
+    "nose_y": -4.0,
+    "panel_stop_y": 6.05,
+    "print_x": 18.0,
+    "retention": "friction",
+    "stem_height": 3.8,
+    "stem_width": 2.6,
+    "outer_y": 10.6,
+    "cup_depth": 4.55,
+    "stem_depth": 14.6,
+    "free_slot_width": 2.4,
+    "seated_spread": 0.10000000000000009,
+    "insertion_spread": 0.10000000000000009,
+    "expanded_neck_width": 5.0,
+    "insertion_neck_width": 5.0
+  },
+  "screw": {
+    "axis_height": 6.5,
+    "end_height": 13.0,
+    "flange_size": [
+      11.0,
+      10.0,
+      2.4
+    ],
+    "guide_depth": 5.5,
+    "guide_height": 5.0,
+    "guide_slot_width": 3.0,
+    "guide_width": 5.0,
+    "length": 20.0,
+    "nut_near": 7.0,
+    "nut_side_clearance": "left",
+    "size": "m3",
+    "nut_depth": 3,
+    "nut_radius": 3.4619999999999997,
+    "bore_radius": 1.8,
+    "projection_after_nut": 1.6000000000000014,
+    "running_height": 14.5
+  },
+  "revision": "interchangeable_windowed_beams",
+  "beam_windows": [
+    {
+      "width": 5.0,
+      "length": 63.0,
+      "radius": 2.0,
+      "y": -66.5
+    },
+    {
+      "width": 5.0,
+      "length": 63.0,
+      "radius": 2.0,
+      "y": -145.5
+    }
+  ],
+  "minimum_beam_side_rail_mm": 3.0,
+  "interchangeable_beams": true,
+  "running_roof_above_receiver_axis_mm": 8.0,
+  "centre_stop_size_mm": [
+    19.0,
+    3.0
+  ],
+  "service_orientation": "CAD negative Y is UP; wide T at top; drawers enter from both ends.",
+  "enclosure": "Plywood/enclosure supplies the bottom drawer floor; sheet joinery is not included.",
+  "physical_feedback": "User selected sample 71 style and tolerance; full-unit strength/loading unverified.",
+  "laser_face_test": {
+    "corner_relief_clearance": 0.1,
+    "face_thickness": 3.0,
+    "nesting_gap": 5.0,
+    "reinforcement_side": 12.0,
+    "reinforcement_thickness": 3.0,
+    "local_clip_thickness_mm": 6.0,
+    "attachment": "Bond to INSIDE of 3 mm face; align both holes.",
+    "pads_per_face": 60,
+    "counts_per_face": {
+      "clip_reinforcement": 58,
+      "clip_reinforcement_corner_left": 1,
+      "clip_reinforcement_corner_right": 1
+    },
+    "placement": [
+      {
+        "x": -178.6,
+        "hole_y": -166.4,
+        "kind": "screw_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -178.6,
+        "hole_y": -135.1,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -178.6,
+        "hole_y": -103.80000000000001,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -178.6,
+        "hole_y": -72.5,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -178.6,
+        "hole_y": -41.2,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -178.6,
+        "hole_y": -9.900000000000006,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -178.6,
+        "hole_y": 21.400000000000006,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -178.6,
+        "hole_y": 52.69999999999999,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -178.6,
+        "hole_y": 84.0,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -178.6,
+        "hole_y": 115.29999999999998,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -178.6,
+        "hole_y": 146.6,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -178.6,
+        "hole_y": 177.9,
+        "kind": "screw_beam",
+        "view": "clip_reinforcement_corner_left",
+        "reliefs": [
+          {
+            "x": -4.6,
+            "y": 5.5,
+            "radius": 1.9000000000000001
+          }
+        ]
+      },
+      {
+        "x": -89.3,
+        "hole_y": -166.4,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -89.3,
+        "hole_y": -135.1,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -89.3,
+        "hole_y": -103.80000000000001,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -89.3,
+        "hole_y": -72.5,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -89.3,
+        "hole_y": -41.2,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -89.3,
+        "hole_y": -9.900000000000006,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -89.3,
+        "hole_y": 21.400000000000006,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -89.3,
+        "hole_y": 52.69999999999999,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -89.3,
+        "hole_y": 84.0,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -89.3,
+        "hole_y": 115.29999999999998,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -89.3,
+        "hole_y": 146.6,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": -89.3,
+        "hole_y": 177.9,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": -166.4,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": -135.1,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": -103.80000000000001,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": -72.5,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": -41.2,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": -9.900000000000006,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": 21.400000000000006,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": 52.69999999999999,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": 84.0,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": 115.29999999999998,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": 146.6,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 5.662137425588298e-15,
+        "hole_y": 177.9,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 89.29999999999998,
+        "hole_y": -166.4,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 89.29999999999998,
+        "hole_y": -135.1,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 89.29999999999998,
+        "hole_y": -103.80000000000001,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 89.29999999999998,
+        "hole_y": -72.5,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 89.29999999999998,
+        "hole_y": -41.2,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 89.29999999999998,
+        "hole_y": -9.900000000000006,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 89.29999999999998,
+        "hole_y": 21.400000000000006,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 89.29999999999998,
+        "hole_y": 52.69999999999999,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 89.29999999999998,
+        "hole_y": 84.0,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 89.29999999999998,
+        "hole_y": 115.29999999999998,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 89.29999999999998,
+        "hole_y": 146.6,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 89.29999999999998,
+        "hole_y": 177.9,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 178.6,
+        "hole_y": -166.4,
+        "kind": "screw_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 178.6,
+        "hole_y": -135.1,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 178.6,
+        "hole_y": -103.80000000000001,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 178.6,
+        "hole_y": -72.5,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 178.6,
+        "hole_y": -41.2,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 178.6,
+        "hole_y": -9.900000000000006,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 178.6,
+        "hole_y": 21.400000000000006,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 178.6,
+        "hole_y": 52.69999999999999,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 178.6,
+        "hole_y": 84.0,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 178.6,
+        "hole_y": 115.29999999999998,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 178.6,
+        "hole_y": 146.6,
+        "kind": "snap_beam",
+        "view": "clip_reinforcement",
+        "reliefs": []
+      },
+      {
+        "x": 178.6,
+        "hole_y": 177.9,
+        "kind": "screw_beam",
+        "view": "clip_reinforcement_corner_right",
+        "reliefs": [
+          {
+            "x": 4.6,
+            "y": 5.5,
+            "radius": 1.9000000000000001
+          }
+        ]
+      }
+    ],
+    "nested_cut_layout": "front_3mm_test_2d.dxf",
+    "warning": "Physical test only: nominal 3+3 mm stack; bondline and measured sheet thickness affect fit."
+  }
+}

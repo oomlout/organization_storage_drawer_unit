@@ -1,0 +1,107 @@
+{
+  "version": 7,
+  "revision": "four_finger_mechanisms",
+  "finger_count": 4,
+  "nominal_hole_mm": [
+    6.0,
+    4.6
+  ],
+  "neck_width_mm": 5.5,
+  "outer_seating_strip_width_mm": 1.75,
+  "permanent_centre_tongue": false,
+  "axial_clearance_mm": 0.25,
+  "trials": [
+    {
+      "arm_thickness": 1.5,
+      "axial_clearance": 0.25,
+      "sample_number": 50,
+      "technique": "straight",
+      "title": "Straight cantilever",
+      "shoulder_y": 6.25,
+      "tip_y": 7.842518405393691,
+      "root_radius": 1.25,
+      "effective_root_y": -11.5,
+      "spring_length": 17.75,
+      "strain_proxy": 0.004641936123784963,
+      "stiffness_proxy": 0.0006035019879243723
+    },
+    {
+      "arm_thickness": 1.5,
+      "axial_clearance": 0.25,
+      "root_thickness": 1.8,
+      "sample_number": 51,
+      "technique": "tapered",
+      "tip_thickness": 1.2,
+      "title": "Tapered cantilever",
+      "shoulder_y": 6.25,
+      "tip_y": 7.842518405393691,
+      "root_radius": 0.95,
+      "effective_root_y": -12.1,
+      "spring_length": 18.35,
+      "strain_proxy": 0.0043433390997037625,
+      "stiffness_proxy": 0.000546217451230823
+    },
+    {
+      "arm_thickness": 1.5,
+      "axial_clearance": 0.25,
+      "curve_amplitude": 0.3,
+      "sample_number": 52,
+      "technique": "curved",
+      "title": "S-shaped spring",
+      "shoulder_y": 6.25,
+      "tip_y": 7.842518405393691,
+      "root_radius": 1.25,
+      "effective_root_y": -11.5,
+      "spring_length": 17.75,
+      "strain_proxy": 0.004641936123784963,
+      "stiffness_proxy": 0.0006035019879243723
+    },
+    {
+      "arm_thickness": 1.5,
+      "axial_clearance": 0.25,
+      "sample_number": 53,
+      "technique": "keeper",
+      "title": "Snap + removable locking key",
+      "shoulder_y": 6.25,
+      "tip_y": 7.842518405393691,
+      "root_radius": 1.25,
+      "effective_root_y": -11.5,
+      "spring_length": 17.75,
+      "strain_proxy": 0.004641936123784963,
+      "stiffness_proxy": 0.0006035019879243723
+    }
+  ],
+  "keeper": {
+    "head_length": 1.2,
+    "head_start_y": 8.0,
+    "head_width": 4.5,
+    "print_x": 43.0,
+    "stem_start_y": -4.0,
+    "stem_width": 2.4,
+    "stem_height": 4.0,
+    "tip_y": 9.2
+  },
+  "screw": {
+    "axis_height": 2.0,
+    "end_height": 13.0,
+    "flange_size": [
+      11.0,
+      10.0,
+      2.4
+    ],
+    "guide_depth": 5.5,
+    "guide_height": 4.1,
+    "guide_slot_width": 3.8,
+    "guide_width": 5.7,
+    "length": 20.0,
+    "nut_near": 7.0,
+    "nut_side_clearance": "left",
+    "size": "m3",
+    "nut_depth": 3,
+    "nut_radius": 3.4619999999999997,
+    "bore_radius": 1.8,
+    "projection_after_nut": 1.6000000000000014
+  },
+  "comparison": "Different mechanisms at one nominal fit; no clearance matrix.",
+  "limitations": "Printed and MDF fit, force, fatigue and keeper retention await physical tests."
+}

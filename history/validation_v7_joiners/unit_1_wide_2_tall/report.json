@@ -1,0 +1,310 @@
+{
+  "variant": "unit_1_wide_2_tall",
+  "pieces": [
+    {
+      "name": "four_unit_joiner",
+      "size_mm": [
+        20.0,
+        20.0,
+        6.0
+      ],
+      "holes": 4,
+      "through_diameter_mm": 3.6,
+      "countersink_diameter_mm": 7.2,
+      "countersink_depth_mm": 1.9
+    },
+    {
+      "name": "two_unit_joiner",
+      "size_mm": [
+        20.0,
+        10.0,
+        6.0
+      ],
+      "holes": 2,
+      "through_diameter_mm": 3.6,
+      "countersink_diameter_mm": 7.2,
+      "countersink_depth_mm": 1.9
+    }
+  ],
+  "placements": [
+    {
+      "piece": "four_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        -54.2500000005,
+        -49.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "four_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        -54.2500000005,
+        49.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "four_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        54.2500000005,
+        -49.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "four_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        54.2500000005,
+        49.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "four_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        -54.2500000005,
+        -49.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "four_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        -54.2500000005,
+        49.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "four_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        54.2500000005,
+        -49.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "four_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        54.2500000005,
+        49.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        -54.2500000005,
+        -44.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        -49.2500000005,
+        -49.9000000005
+      ],
+      "rotation_degrees": 90,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        -54.2500000005,
+        44.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        -49.2500000005,
+        49.9000000005
+      ],
+      "rotation_degrees": 90,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        54.2500000005,
+        -44.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        49.2500000005,
+        -49.9000000005
+      ],
+      "rotation_degrees": 90,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        54.2500000005,
+        44.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": false,
+      "centre_mm": [
+        49.2500000005,
+        49.9000000005
+      ],
+      "rotation_degrees": 90,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        -54.2500000005,
+        -44.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        -49.2500000005,
+        -49.9000000005
+      ],
+      "rotation_degrees": 90,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        -54.2500000005,
+        44.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        -49.2500000005,
+        49.9000000005
+      ],
+      "rotation_degrees": 90,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        54.2500000005,
+        -44.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        49.2500000005,
+        -49.9000000005
+      ],
+      "rotation_degrees": 90,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        54.2500000005,
+        44.9000000005
+      ],
+      "rotation_degrees": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "piece": "two_unit_joiner",
+      "rear": true,
+      "centre_mm": [
+        49.2500000005,
+        49.9000000005
+      ],
+      "rotation_degrees": 90,
+      "intersection_mm3": 0.0
+    }
+  ],
+  "all_checks_passed": true,
+  "original_hole_grid_restored": true,
+  "adapter_clearance_depth_mm": 2.6,
+  "seating_pad_radius_mm": 3.0,
+  "unchanged_manufacturing_scads": [
+    "3dpr.scad",
+    "assembled.scad",
+    "back.scad",
+    "clip_reinforcement.scad",
+    "clip_reinforcements.scad",
+    "clip_reinforcements_2d.scad",
+    "clip_reinforcement_2d.scad",
+    "front.scad",
+    "front_3mm_test.scad",
+    "front_3mm_test_2d.scad",
+    "front_3mm_test_layout.scad",
+    "front_laser.scad",
+    "front_laser_2d.scad",
+    "front_plug.scad",
+    "front_plugs_corner_clearance.scad",
+    "front_plugs_square.scad",
+    "front_plug_square.scad",
+    "receiver_6_0.scad",
+    "receiver_laser.scad",
+    "sample_71.scad",
+    "screw_adapter.scad",
+    "screw_adapters.scad",
+    "screw_beam.scad",
+    "screw_beams.scad",
+    "snap_beam.scad",
+    "snap_beams.scad"
+  ],
+  "folder": "C:\\od\\OneDrive\\docs\\organization_storage_drawer_unit\\parts\\oobb_organization_storage_drawer_unit_rectangle_100_ml_tamper_evident_systempak_209_container_1_column_2_row_ai_version_7_style_unit_1_wide_2_tall\\joiners",
+  "files": {
+    "joiners/joiners.scad": "ce42aa51e63df8fa87adb82eb8f5027fc325828a617a8ee88044752d2569462e",
+    "joiners/joiners.stl": "7c4e20b154edbccddd70e0729c8f7c44832fbd04e5b5ba462b75c05fc9573e5b",
+    "joiners/joiners.png": "3727459066adaca8eca7dd631f8b30c982fed1252bf26ad943e2e0a7564a7628",
+    "joiners/printing.txt": "872fcb5d1a8368e73f95b9004aa4a619bffcbc68f73c61034c659d8b80417dc0"
+  }
+}

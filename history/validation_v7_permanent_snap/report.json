@@ -1,0 +1,121 @@
+{
+  "version": 7,
+  "revision": "permanent_full_squeeze",
+  "meshes": [
+    {
+      "view": "3dpr",
+      "bodies": 3,
+      "closed": true,
+      "extents_mm": [
+        45.0,
+        38.39999961853027,
+        4.0
+      ],
+      "volume_mm3": 3534.5022922806966
+    },
+    {
+      "view": "sample_60",
+      "bodies": 1,
+      "closed": true,
+      "extents_mm": [
+        11.0,
+        38.39999961853027,
+        4.0
+      ],
+      "volume_mm3": 1162.0725489574843
+    },
+    {
+      "view": "sample_61",
+      "bodies": 1,
+      "closed": true,
+      "extents_mm": [
+        11.0,
+        38.39999961853027,
+        4.0
+      ],
+      "volume_mm3": 1209.7425445617816
+    },
+    {
+      "view": "sample_62",
+      "bodies": 1,
+      "closed": true,
+      "extents_mm": [
+        11.0,
+        38.39999961853027,
+        4.0
+      ],
+      "volume_mm3": 1162.6871408487752
+    },
+    {
+      "view": "receiver_6_0",
+      "bodies": 1,
+      "closed": true,
+      "extents_mm": [
+        78.0,
+        29.992107391357422,
+        6.0
+      ],
+      "volume_mm3": 13614.596519369516
+    }
+  ],
+  "joints": [
+    {
+      "sample_number": 60,
+      "hook_projection_mm": 1.4,
+      "recovered_head_width_mm": 7.6,
+      "retaining_overlap_per_side_mm": 1.1999999999999997,
+      "deflection_per_arm_mm": 1.1999999999999997,
+      "actual_closed_arm_gap_mm": 9.536743217353205e-08,
+      "self_interference_mm3": 0.0,
+      "closed_head_width_mm": 5.199999809265137,
+      "partial_95_percent_closure_collision_mm3": 0.396856864111669,
+      "maximum_closed_insertion_collision_mm3": 3.7007434154171886e-16,
+      "positive_pullout_stop": true,
+      "designed_release": false,
+      "physical_permanence": "Not established"
+    },
+    {
+      "sample_number": 61,
+      "hook_projection_mm": 1.4,
+      "recovered_head_width_mm": 7.6,
+      "retaining_overlap_per_side_mm": 1.1999999999999997,
+      "deflection_per_arm_mm": 1.1999999999999997,
+      "actual_closed_arm_gap_mm": 9.536743217353205e-08,
+      "self_interference_mm3": 0.0,
+      "closed_head_width_mm": 5.199999809265137,
+      "partial_95_percent_closure_collision_mm3": 0.396856864111669,
+      "maximum_closed_insertion_collision_mm3": 3.7007434154171886e-16,
+      "positive_pullout_stop": true,
+      "designed_release": false,
+      "physical_permanence": "Not established"
+    },
+    {
+      "sample_number": 62,
+      "hook_projection_mm": 1.4,
+      "recovered_head_width_mm": 7.6,
+      "retaining_overlap_per_side_mm": 1.1999999999999997,
+      "deflection_per_arm_mm": 1.1999999999999997,
+      "actual_closed_arm_gap_mm": 9.536743217353205e-08,
+      "self_interference_mm3": 0.0,
+      "closed_head_width_mm": 5.199999809265137,
+      "partial_95_percent_closure_collision_mm3": 0.396856864111669,
+      "maximum_closed_insertion_collision_mm3": 3.7007434154171886e-16,
+      "positive_pullout_stop": true,
+      "designed_release": false,
+      "physical_permanence": "Not established"
+    }
+  ],
+  "old_models_unchanged": 64,
+  "intended_use": "One-time push-in; permanence unproven physically",
+  "dxf": {
+    "file": "receiver_laser.dxf",
+    "closed_contours": 4,
+    "units": "mm",
+    "layer": "CUT",
+    "area_mm2": 2270.436240499999,
+    "profile_difference_mm2": 0.007192984348422483,
+    "maximum_contour_difference_mm": 6.200509708234482e-05
+  },
+  "all_checks_passed": true,
+  "limitations": "Rigid/kinematic CAD only; no force, permanence, destructive-removal or fatigue rating."
+}

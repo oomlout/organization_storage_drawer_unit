@@ -1,0 +1,34 @@
+V7 FOUR-FINGER MECHANISM CARD — PETG / nominal 6 mm MDF
+
+Print 3dpr.stl ONCE: FOUR numbered clips (50–53) + ONE separate locking key.
+Print receiver_6_0.stl ONCE and screw_test.stl ONCE (beam end + adapter).
+Keep supplied flat orientations, labels UP. Use production PETG settings; no designed supports.
+sample_*.stl and keeper_key.stl are replacement pieces, not additional kit quantities.
+
+50 — straight cantilever arms: control for insertion and squeeze-to-release.
+51 — tapered arms: 1.8 mm at the root to 1.2 mm at the hook; same mating envelope.
+52 — S-shaped arms: curved spring paths within the beam; same hook and hole.
+53 — snap plus removable blocking key: insert the clip normally, then slide the separate
+key down between the hooks from OUTSIDE. The key blocks inward hook movement.
+Remove the key before squeezing the hooks. It is an intentionally removable loose key;
+captive/anti-loss retention is not developed. It does not provide force-free insertion.
+The key is a separate optional lock, not a permanent centre tongue.
+
+All five receiver holes are IDENTICAL 6.0 x 4.6 mm, labelled 50 / 51 / 52 / 53 / M3.
+All clips use a 5.5 mm neck, 0.25 mm nominal axial play and matching external hooks.
+Each clip has TWO inner latch arms and TWO thicker outer seating strips. There is no
+centre tongue. Compare mechanisms first; do not sand/tune individual fits during the comparison.
+Insert clips from the UNLABELLED inside; hooks emerge on the LABELLED outside.
+Record effort, release, play, repeated use and damage in results.csv; regeneration preserves it.
+
+LASER: receiver_laser.dxf cuts the same card in nominal 6 mm MDF. DXF is finished geometry
+in mm, with closed CUT contours. Measure actual stock and apply measured kerf once in CAM.
+Use receiver_map.svg to mark the labels by hand.
+
+SCREW REFERENCE: one M3 x 20 countersunk screw + one M3 nut (not included). Side-load
+the nut into the beam; insert adapter from outside into the SAME 6.0 x 4.6 hole; beam
+seats inside. Adapter prints countersink DOWN, cheeks UP. Nominal flange depth is 2.4 mm.
+
+Prototype faces use this same nominal hole; printed stops stay angled, MDF stops solid
+through 6 mm. Full-length V7 rails remain unselected. Physical insertion force, durability,
+MDF wear and loaded performance are unverified; CAD flex probes are not force simulations.
