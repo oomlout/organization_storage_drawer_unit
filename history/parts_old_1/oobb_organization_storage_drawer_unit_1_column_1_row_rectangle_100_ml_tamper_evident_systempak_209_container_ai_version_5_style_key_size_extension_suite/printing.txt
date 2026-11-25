@@ -1,0 +1,19 @@
+NUMBERED LOCKING-KEY SIZE AND CLEARANCE TRIALS - PETG
+Print 3dpr.stl as arranged: 3 rail/plate/key sets, 9 pieces, one A1 mini bed.
+SIZE EXTENSION: 20 = 145%, 21 = 160%, 22 = 175% of the original key.
+Continues 3 / 6 / 9 = 100% / 115% / 130%, keeping sample 9's 0.40 mm per-side key slot clearance.
+Through fit stays 0.25 mm per side; axial catch clearance stays 0.2 mm.
+User feedback: sample 9 closest but still loose, sample 1 much too loose.
+This changes size/stiffness, not nominal clearance gaps. Print each complete matched set.
+The largest slot leaves 1.1 mm above/below within the unchanged 11 x 10 mm rail; inspect these walls in the slicer.
+See KEY_SIZE_EXTENSION_TESTS.md for the number/settings table and fit notes.
+Each long rail has its number recessed 0.6 mm into its top face; its receiver plate has the same number.
+Keep each loose key next to its numbered pair until testing. Keys have no number to avoid weakening them.
+trial_XX.stl prints an individual numbered three-piece set. rail_XX / plate_XX / key_XX are separate parts.
+assembled and assembled_XX are reference views, not one-piece prints.
+All rails retain an 11 x 10 mm section. Key geometry and matching tongues/slots change size.
+Axial catch clearance remains 0.2 mm in all trials.
+Use the same PETG profile for all: suggested starting point 0.4 mm nozzle, 0.2 mm layers, 4 walls, 100% infill.
+Keep the supplied orientation. Avoid supports/brims in slots; inspect the short slot bridges in the slicer.
+Press the tongue into the plate, then insert the key sideways until both catches recover.
+Record the recessed number with insertion effort, play and retention. See trial_index.csv and KEY_SIZE_FIT_TESTS.md.

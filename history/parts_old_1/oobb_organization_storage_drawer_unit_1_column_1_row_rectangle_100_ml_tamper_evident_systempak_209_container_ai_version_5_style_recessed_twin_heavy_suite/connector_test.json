@@ -1,0 +1,60 @@
+{
+  "design": "recessed_twin_fit_suite",
+  "material": "PETG",
+  "views": {
+    "assembled": "assembled",
+    "trial_25": "trial_25",
+    "plate_25": "plate_25",
+    "rail_25": "rail_25",
+    "assembled_25": "assembled_25",
+    "trial_26": "trial_26",
+    "plate_26": "plate_26",
+    "rail_26": "rail_26",
+    "assembled_26": "assembled_26",
+    "trial_28": "trial_28",
+    "plate_28": "plate_28",
+    "rail_28": "rail_28",
+    "assembled_28": "assembled_28",
+    "trial_29": "trial_29",
+    "plate_29": "plate_29",
+    "rail_29": "rail_29",
+    "assembled_29": "assembled_29"
+  },
+  "scope": "Four matched two-piece latch-arm thickness tests based on sample 19",
+  "trials": [
+    {
+      "number": 25,
+      "arm_thickness_mm": 1.4,
+      "clearance_per_side_mm": 0.25,
+      "hook_projection_mm": 1.2,
+      "free_arm_length_mm": 6.0,
+      "centre_gap_mm": 4.0
+    },
+    {
+      "number": 26,
+      "arm_thickness_mm": 1.6,
+      "clearance_per_side_mm": 0.25,
+      "hook_projection_mm": 1.2,
+      "free_arm_length_mm": 6.0,
+      "centre_gap_mm": 3.5999999999999996
+    },
+    {
+      "number": 28,
+      "arm_thickness_mm": 1.8,
+      "clearance_per_side_mm": 0.25,
+      "hook_projection_mm": 1.2,
+      "free_arm_length_mm": 6.0,
+      "centre_gap_mm": 3.1999999999999997
+    },
+    {
+      "number": 29,
+      "arm_thickness_mm": 2.0,
+      "clearance_per_side_mm": 0.25,
+      "hook_projection_mm": 1.2,
+      "free_arm_length_mm": 6.0,
+      "centre_gap_mm": 2.8
+    }
+  ],
+  "printable_pieces": 8,
+  "physical_feedback": "User reports 23 and 24 too narrow; 28 and 29 are untested thicker extensions"
+}

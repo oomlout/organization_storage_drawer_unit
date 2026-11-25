@@ -1,0 +1,6 @@
+sample_number,technique,title,arm_thickness,axial_clearance,spring_length,root_radius,tip_y
+50,straight,Straight cantilever,1.5,0.25,17.75,1.25,7.842518405393691
+51,tapered,Tapered cantilever,1.5,0.25,18.35,0.95,7.842518405393691
+52,curved,S-shaped spring,1.5,0.25,17.75,1.25,7.842518405393691
+53,keeper,Snap + removable locking key,1.5,0.25,17.75,1.25,7.842518405393691
+54,drop_loop,Rigid loop + vertical drop key,,0.25,,,9.75
