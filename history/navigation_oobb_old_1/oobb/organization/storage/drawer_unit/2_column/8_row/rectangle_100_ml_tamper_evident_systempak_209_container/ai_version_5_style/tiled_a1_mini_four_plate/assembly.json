@@ -1,0 +1,678 @@
+{
+  "finished_size_mm": [
+    205.8,
+    268.6,
+    110.5
+  ],
+  "tray_grid": [
+    2,
+    8
+  ],
+  "bom": {
+    "screw_bottom_rail": 1,
+    "screw_rail": 5,
+    "snap_bottom_rail": 2,
+    "snap_rail": 22,
+    "front_tiles": 4,
+    "back_tiles": 4,
+    "M3_countersunk_screw_16_mm": 12,
+    "M3_nut": 12
+  },
+  "tiles": [
+    {
+      "number": 1,
+      "column": 0,
+      "row": 0,
+      "layers": [
+        [
+          -102.9,
+          -134.3,
+          5.425000000000005,
+          -8.475000000000005
+        ],
+        [
+          -102.9,
+          -134.3,
+          -5.574999999999995,
+          -17.475000000000005
+        ]
+      ],
+      "notches": [
+        [],
+        []
+      ],
+      "bed_layer": 0,
+      "print_face": "outside",
+      "bounds": [
+        -102.9,
+        -134.3,
+        5.425000000000005,
+        -8.475000000000005
+      ],
+      "footprint": [
+        108.32500000000002,
+        148.825
+      ],
+      "bed_center": [
+        33.83749999999999,
+        13.587500000000006
+      ]
+    },
+    {
+      "number": 2,
+      "column": 1,
+      "row": 0,
+      "layers": [
+        [
+          5.5750000000000055,
+          -134.3,
+          102.9,
+          -17.475000000000005
+        ],
+        [
+          -5.4249999999999945,
+          -134.3,
+          102.9,
+          -8.475000000000005
+        ]
+      ],
+      "notches": [
+        [],
+        []
+      ],
+      "bed_layer": 1,
+      "print_face": "inside",
+      "bounds": [
+        -5.4249999999999945,
+        -134.3,
+        102.9,
+        -8.475000000000005
+      ],
+      "footprint": [
+        108.325,
+        148.825
+      ],
+      "bed_center": [
+        33.837500000000006,
+        13.587500000000006
+      ]
+    },
+    {
+      "number": 3,
+      "column": 0,
+      "row": 1,
+      "layers": [
+        [
+          -102.9,
+          -8.325000000000006,
+          -5.574999999999995,
+          134.3
+        ],
+        [
+          -102.9,
+          -17.325000000000006,
+          5.425000000000005,
+          134.3
+        ]
+      ],
+      "notches": [
+        [],
+        [
+          [
+            -5.499999999999995,
+            -17.400000000000006,
+            5.500000000000005,
+            -8.400000000000006
+          ]
+        ]
+      ],
+      "bed_layer": 1,
+      "print_face": "inside",
+      "bounds": [
+        -102.9,
+        -17.325000000000006,
+        5.425000000000005,
+        134.3
+      ],
+      "footprint": [
+        108.32500000000002,
+        174.62500000000003
+      ],
+      "bed_center": [
+        33.83749999999999,
+        0.6874999999999858
+      ]
+    },
+    {
+      "number": 4,
+      "column": 1,
+      "row": 1,
+      "layers": [
+        [
+          -5.4249999999999945,
+          -17.325000000000006,
+          102.9,
+          134.3
+        ],
+        [
+          5.5750000000000055,
+          -8.325000000000006,
+          102.9,
+          134.3
+        ]
+      ],
+      "notches": [
+        [
+          [
+            -5.499999999999995,
+            -17.400000000000006,
+            5.500000000000005,
+            -8.400000000000006
+          ]
+        ],
+        []
+      ],
+      "bed_layer": 0,
+      "print_face": "outside",
+      "bounds": [
+        -5.4249999999999945,
+        -17.325000000000006,
+        102.9,
+        134.3
+      ],
+      "footprint": [
+        108.325,
+        174.62500000000003
+      ],
+      "bed_center": [
+        33.837500000000006,
+        0.6874999999999858
+      ]
+    }
+  ],
+  "rails": [
+    {
+      "x": -89.3,
+      "y": -111.80000000000001,
+      "kind": "rail",
+      "axis_y": -106.80000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": -80.50000000000001,
+      "kind": "rail",
+      "axis_y": -75.50000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": -49.20000000000001,
+      "kind": "rail",
+      "axis_y": -44.20000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": -17.900000000000006,
+      "kind": "rail",
+      "axis_y": -12.900000000000006,
+      "seam_anchor": true,
+      "connection": "screw",
+      "seam": true,
+      "file": "screw_rail"
+    },
+    {
+      "x": -89.3,
+      "y": 13.399999999999991,
+      "kind": "rail",
+      "axis_y": 18.39999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": 44.69999999999999,
+      "kind": "rail",
+      "axis_y": 49.69999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": 76.0,
+      "kind": "rail",
+      "axis_y": 81.0,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": 107.29999999999998,
+      "kind": "rail",
+      "axis_y": 112.29999999999998,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": 124.05000000000001,
+      "kind": "rail",
+      "axis_y": 129.05,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": -89.3,
+      "y": -134.05,
+      "kind": "bottom_rail",
+      "axis_y": -129.05,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_bottom_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": -111.80000000000001,
+      "kind": "rail",
+      "axis_y": -106.80000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": true,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": -80.50000000000001,
+      "kind": "rail",
+      "axis_y": -75.50000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": true,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": -49.20000000000001,
+      "kind": "rail",
+      "axis_y": -44.20000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": true,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": -17.900000000000006,
+      "kind": "rail",
+      "axis_y": -12.900000000000006,
+      "seam_anchor": true,
+      "connection": "screw",
+      "seam": true,
+      "file": "screw_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": 13.399999999999991,
+      "kind": "rail",
+      "axis_y": 18.39999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": true,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": 44.69999999999999,
+      "kind": "rail",
+      "axis_y": 49.69999999999999,
+      "seam_anchor": true,
+      "connection": "screw",
+      "seam": true,
+      "file": "screw_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": 76.0,
+      "kind": "rail",
+      "axis_y": 81.0,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": true,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": 107.29999999999998,
+      "kind": "rail",
+      "axis_y": 112.29999999999998,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": true,
+      "file": "snap_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": 124.05000000000001,
+      "kind": "rail",
+      "axis_y": 129.05,
+      "seam_anchor": true,
+      "connection": "screw",
+      "seam": true,
+      "file": "screw_rail"
+    },
+    {
+      "x": 5.662137425588298e-15,
+      "y": -134.05,
+      "kind": "bottom_rail",
+      "axis_y": -129.05,
+      "seam_anchor": true,
+      "connection": "screw",
+      "seam": true,
+      "file": "screw_bottom_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": -111.80000000000001,
+      "kind": "rail",
+      "axis_y": -106.80000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": -80.50000000000001,
+      "kind": "rail",
+      "axis_y": -75.50000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": -49.20000000000001,
+      "kind": "rail",
+      "axis_y": -44.20000000000001,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": -17.900000000000006,
+      "kind": "rail",
+      "axis_y": -12.900000000000006,
+      "seam_anchor": true,
+      "connection": "screw",
+      "seam": true,
+      "file": "screw_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": 13.399999999999991,
+      "kind": "rail",
+      "axis_y": 18.39999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": 44.69999999999999,
+      "kind": "rail",
+      "axis_y": 49.69999999999999,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": 76.0,
+      "kind": "rail",
+      "axis_y": 81.0,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": 107.29999999999998,
+      "kind": "rail",
+      "axis_y": 112.29999999999998,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": 124.05000000000001,
+      "kind": "rail",
+      "axis_y": 129.05,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_rail"
+    },
+    {
+      "x": 89.30000000000001,
+      "y": -134.05,
+      "kind": "bottom_rail",
+      "axis_y": -129.05,
+      "seam_anchor": false,
+      "connection": "snap",
+      "seam": false,
+      "file": "snap_bottom_rail"
+    }
+  ],
+  "views": {
+    "assembled": "assembled",
+    "front": "front",
+    "back": "back",
+    "front_tile_01": "front_tile_01",
+    "front_tile_02": "front_tile_02",
+    "front_tile_03": "front_tile_03",
+    "front_tile_04": "front_tile_04",
+    "back_tile_01": "back_tile_01",
+    "back_tile_02": "back_tile_02",
+    "back_tile_03": "back_tile_03",
+    "back_tile_04": "back_tile_04",
+    "screw_bottom_rail": "screw_bottom_rail",
+    "screw_rail": "screw_rail",
+    "snap_bottom_rail": "snap_bottom_rail",
+    "snap_rail": "snap_rail",
+    "rails_plate_01": "rails_plate_01",
+    "rails_plate_02": "rails_plate_02",
+    "rails_plate_03": "rails_plate_03"
+  },
+  "bed_size_mm": [
+    180.0,
+    180.0
+  ],
+  "printer": "A1 mini",
+  "plate_thickness_mm": 6.0,
+  "opening_height_mm": 28.5,
+  "row_pitch_mm": 31.3,
+  "opening_gap_mm": 2.8000000000000007,
+  "tile_ear_diameter_mm": 11.0,
+  "stop_projection_mm": 6.0,
+  "stop_thickness_mm": 6.0,
+  "print_placements": [
+    {
+      "file": "front_tile_01.stl",
+      "centre_x_from_bed_left_mm": 123.83749999999999,
+      "centre_y_from_bed_front_mm": 103.5875,
+      "maximum_width_including_ears_mm": 108.32500000000002,
+      "maximum_height_including_ears_mm": 148.825,
+      "rotate_z_degrees": 0
+    },
+    {
+      "file": "front_tile_02.stl",
+      "centre_x_from_bed_left_mm": 123.8375,
+      "centre_y_from_bed_front_mm": 103.5875,
+      "maximum_width_including_ears_mm": 108.325,
+      "maximum_height_including_ears_mm": 148.825,
+      "rotate_z_degrees": 0
+    },
+    {
+      "file": "front_tile_03.stl",
+      "centre_x_from_bed_left_mm": 123.83749999999999,
+      "centre_y_from_bed_front_mm": 90.68749999999999,
+      "maximum_width_including_ears_mm": 108.32500000000002,
+      "maximum_height_including_ears_mm": 174.62500000000003,
+      "rotate_z_degrees": 0
+    },
+    {
+      "file": "front_tile_04.stl",
+      "centre_x_from_bed_left_mm": 123.8375,
+      "centre_y_from_bed_front_mm": 90.68749999999999,
+      "maximum_width_including_ears_mm": 108.325,
+      "maximum_height_including_ears_mm": 174.62500000000003,
+      "rotate_z_degrees": 0
+    },
+    {
+      "file": "back_tile_01.stl",
+      "centre_x_from_bed_left_mm": 123.83749999999999,
+      "centre_y_from_bed_front_mm": 103.5875,
+      "maximum_width_including_ears_mm": 108.32500000000002,
+      "maximum_height_including_ears_mm": 148.825,
+      "rotate_z_degrees": 0
+    },
+    {
+      "file": "back_tile_02.stl",
+      "centre_x_from_bed_left_mm": 123.8375,
+      "centre_y_from_bed_front_mm": 103.5875,
+      "maximum_width_including_ears_mm": 108.325,
+      "maximum_height_including_ears_mm": 148.825,
+      "rotate_z_degrees": 0
+    },
+    {
+      "file": "back_tile_03.stl",
+      "centre_x_from_bed_left_mm": 123.83749999999999,
+      "centre_y_from_bed_front_mm": 90.68749999999999,
+      "maximum_width_including_ears_mm": 108.32500000000002,
+      "maximum_height_including_ears_mm": 174.62500000000003,
+      "rotate_z_degrees": 0
+    },
+    {
+      "file": "back_tile_04.stl",
+      "centre_x_from_bed_left_mm": 123.8375,
+      "centre_y_from_bed_front_mm": 90.68749999999999,
+      "maximum_width_including_ears_mm": 108.325,
+      "maximum_height_including_ears_mm": 174.62500000000003,
+      "rotate_z_degrees": 0
+    },
+    {
+      "file": "rails_plate_01.stl",
+      "centre_x_from_bed_left_mm": 92.5,
+      "centre_y_from_bed_front_mm": 122.75,
+      "maximum_width_including_ears_mm": 171.0,
+      "maximum_height_including_ears_mm": 110.5,
+      "rotate_z_degrees": 0
+    },
+    {
+      "file": "rails_plate_02.stl",
+      "centre_x_from_bed_left_mm": 92.5,
+      "centre_y_from_bed_front_mm": 122.75,
+      "maximum_width_including_ears_mm": 171.0,
+      "maximum_height_including_ears_mm": 110.5,
+      "rotate_z_degrees": 0
+    },
+    {
+      "file": "rails_plate_03.stl",
+      "centre_x_from_bed_left_mm": 116.5,
+      "centre_y_from_bed_front_mm": 122.75,
+      "maximum_width_including_ears_mm": 123.0,
+      "maximum_height_including_ears_mm": 110.5,
+      "rotate_z_degrees": 0
+    }
+  ],
+  "bed_exclusion_mm": [
+    0,
+    0,
+    0.0,
+    0.0
+  ],
+  "bed_margin_mm": 2.0,
+  "bed_coordinates": "SCAD origin is bed centre; supplied print offsets are intentional",
+  "half_lap_thickness_mm": 3.0,
+  "seam_clearance_mm": 0.15,
+  "front_lip": true,
+  "rear_lip": false,
+  "snap_tip_height_mm": 4.0,
+  "snap_outer_hole_height_mm": 4.5,
+  "snap_retaining_land_mm": 0.5,
+  "main_connector_sample": 28,
+  "separate_key_sample": 27,
+  "snap_arm_thickness_mm": 1.8,
+  "snap_side_clearance_mm": 0.25,
+  "snap_axial_clearance_mm": 0.2,
+  "snap_tip_protrusion_mm": 0,
+  "snap_root_distance_mm": 2.0,
+  "snap_root_relief_width_mm": 0.6,
+  "snap_shoulder_depth_mm": 4.5,
+  "rear_attachment_points": [
+    {
+      "x": -95.65,
+      "y": -94.01,
+      "rotation": 30
+    },
+    {
+      "x": -95.65,
+      "y": 0,
+      "rotation": 30
+    },
+    {
+      "x": -95.65,
+      "y": 94.01,
+      "rotation": 30
+    },
+    {
+      "x": 95.65,
+      "y": -94.01,
+      "rotation": 30
+    },
+    {
+      "x": 95.65,
+      "y": 0,
+      "rotation": 30
+    },
+    {
+      "x": 95.65,
+      "y": 94.01,
+      "rotation": 30
+    }
+  ],
+  "rear_attachment_hardware": "M6 through screw with inside hex head / nut seats",
+  "rear_nut_seat_depth_mm": 1.5,
+  "rear_attachment_mirror_axis": "X; identical units turn 180 degrees about upright Y",
+  "seam_middle_screw": true,
+  "physical_fit": "Revised bevelled tabs/receivers require a PETG fit print"
+}

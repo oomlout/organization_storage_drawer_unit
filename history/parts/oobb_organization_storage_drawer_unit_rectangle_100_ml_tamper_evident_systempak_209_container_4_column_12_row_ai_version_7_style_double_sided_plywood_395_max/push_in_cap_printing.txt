@@ -1,0 +1,12 @@
+double_sided_plywood_395_max: FOUR corner-clearance caps + 108 full-square caps for the COMPLETE two-sided unit.
+Print EACH listed STL ONCE, outside face down, stem up:
+front_plugs_corner_clearance.stl
+front_plugs_square_01.stl
+front_plugs_square_02.stl
+front_plugs_square_03.stl
+front_plugs_square_04.stl
+front_plugs_square_05.stl
+Individual front_plug.stl (relieved) and front_plug_square.stl are spare single caps.
+Fit two relieved caps per face at the outer snap positions marked cap_component=front_plug in assembly.json.
+Both styles retain the same friction-only stem, cup cavity, nose and offset.
+Do not also print old front_plugs batches; these named batches replace them.

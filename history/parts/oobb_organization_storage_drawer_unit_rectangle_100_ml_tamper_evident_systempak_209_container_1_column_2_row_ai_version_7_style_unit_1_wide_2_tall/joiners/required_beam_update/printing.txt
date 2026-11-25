@@ -1,0 +1,6 @@
+Use these beams for the M3 x 25 joiners, including when upgrading from the M3 x 35 version.
+Print each listed batch ONCE; replace the existing beams, retaining faces, caps, adapters and beam hardware.
+snap_beams.stl: 4 x snap_beam
+screw_beams.stl: 2 x screw_beam
+Full print_files.zip already includes these beam batches at top level. Do NOT print those and this duplicate upgrade set.
+Original beam-end clips, locating guides and nut bosses are unchanged. New clearance is confined to the runners.
