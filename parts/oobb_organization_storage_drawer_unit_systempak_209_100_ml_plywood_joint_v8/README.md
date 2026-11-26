@@ -8,10 +8,10 @@ Print flat with the guide cheeks facing up. Remove the screw and adapter at each
 
 | Part | Applications | Editable CAD |
 | --- | --- | --- |
-| [plywood_joint](plywood_joint.stl) | 1x1 flush, 2x2 flush, 2x7 flush, 2x7 with 2 mm tier gap | [SCAD](plywood_joint.scad) |
-| [plywood_double_41p5](plywood_double_41p5.stl) | 1x1 flush, 2x2 flush | [SCAD](plywood_double_41p5.scad) |
-| [plywood_double_32p5](plywood_double_32p5.stl) | 2x7 flush | [SCAD](plywood_double_32p5.scad) |
-| [plywood_double_34p5](plywood_double_34p5.stl) | 2x7 with 2 mm tier gap | [SCAD](plywood_double_34p5.scad) |
+| <img src="plywood_joint.jpg" width="120" alt="plywood_joint"> [plywood_joint](plywood_joint.stl) | 1x1 flush, 2x2 flush, 2x7 flush, 2x7 with 2 mm tier gap | [SCAD](plywood_joint.scad) |
+| <img src="plywood_double_41p5.jpg" width="120" alt="plywood_double_41p5"> [plywood_double_41p5](plywood_double_41p5.stl) | 1x1 flush, 2x2 flush | [SCAD](plywood_double_41p5.scad) |
+| <img src="plywood_double_32p5.jpg" width="120" alt="plywood_double_32p5"> [plywood_double_32p5](plywood_double_32p5.stl) | 2x7 flush | [SCAD](plywood_double_32p5.scad) |
+| <img src="plywood_double_34p5.jpg" width="120" alt="plywood_double_34p5"> [plywood_double_34p5](plywood_double_34p5.stl) | 2x7 with 2 mm tier gap | [SCAD](plywood_double_34p5.scad) |
 
 ![Joint fitted to the screw beam](installed.png)
 
@@ -20,6 +20,8 @@ Print flat with the guide cheeks facing up. Remove the screw and adapter at each
 ![Printed bracket with its receiver guides](presentation.png)
 
 [CAD fit checks](validation.json)
+
+[Editable print kit for Bambu Studio](working.3mf) · [Plate contents](print-plates.json)
 
 On a 2×7 immediately below a two-contact plate, centre the first two fixed labels 9.65 mm and 20.85 mm below its upper beam axis. Keep each label centred on the faceplate margin.
 

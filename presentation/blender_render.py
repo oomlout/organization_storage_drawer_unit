@@ -41,6 +41,7 @@ colors = {
     "dowel": "ba8759",
     "aluminium": "adb7bf",
     "frame": "00B1B7",
+    "joint": "FEC600",
     "rail": "323b40",
     "cap": "20282b",
     "metal": "a2aab2",
@@ -124,6 +125,8 @@ for view in job["views"]:
         scene.render.resolution_x, scene.render.resolution_y = 2000, 820
     if "resolution" in view:
         scene.render.resolution_x,scene.render.resolution_y=view["resolution"]
+    scene.cycles.samples = view.get("samples",scene.cycles.samples)
+    scene.render.image_settings.file_format = "PNG" if Path(view["output"]).suffix.lower()==".png" else "JPEG"
     points = []
     for path, role, values in view["items"]:
         key = (path, role)

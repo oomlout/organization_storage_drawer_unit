@@ -6,7 +6,7 @@ This project was largely AI-generated. Editable CAD sources and print kits are i
 
 ![Frame with removable pots](presentation.jpg)
 
-[Printing instructions](printing.txt) · [Assembly data](assembly.json)
+[Editable Bambu Studio kit](working.3mf) · [Printing instructions](printing.txt) · [Assembly data](assembly.json)
 
 [View the illustrated manual](assembly.pdf) · [Download PDF](https://raw.githubusercontent.com/oomlout/organization_storage_drawer_unit/main/parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/assembly.pdf) · [Download offline HTML](assembly.html?raw=true)
 

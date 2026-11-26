@@ -16,8 +16,6 @@ def save(mesh, path):
 
 
 def render_installation(folder, holes, wood, a_faces, a_rails, hardware, joint, t, prefix):
-    from v8_manufacturing import openscad
-
     # Small section of each actual face and beam, plus the seated fixings.
     x1 = max(v[0] for v in holes + ([wood] if wood else []))
     y1 = max(v[1] for v in holes)
@@ -33,26 +31,15 @@ def render_installation(folder, holes, wood, a_faces, a_rails, hardware, joint, 
         save(result, folder / (prefix + "detail_" + tag + ".stl"))
         lines.append(f'color("{color}") import("{prefix}detail_{tag}.stl");')
     if wood:
-        px, py = wood
-        lines += [
-            f'color("burlywood") difference() {{translate([{px-6},-14,0]) cube([12,{y1+28},27]); translate([{px},{py},-.05]) cylinder(d=2.5,h=16.05,$fn=48);}}',
-            f'color("silver") translate([{px},{py},{-t}]) wood_screw(16);',
-        ]
+        from .joint_studio import plywood_geometry
+        for role,body in plywood_geometry(holes,wood,t):
+            color = "burlywood" if role=="ply_side" else "silver"
+            lines.append(f'color("{color}") {body}')
     lines.append("}")
     if wood:
         lines.append(cad.CABINET_SOLIDS)
     source = folder / (prefix + "installed.scad")
     source.write_text("\n".join(lines))
-    openscad(
-        source,
-        folder / (prefix + "installed.png"),
-        "--preview",
-        "--viewall",
-        "--autocenter",
-        "--imgsize=900,625",
-        "--projection=o",
-        "--camera=60,-100,76,0,0,4",
-    )
 
 
 def withdrawal_sweeps(p):

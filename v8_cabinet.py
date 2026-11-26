@@ -38,6 +38,31 @@ class Piece:
     material: str
 
 
+def array_grid(cfg,p):
+    q=p["frame"]
+    w,h=q["width_total"],q["height_total"]
+    nx,ny,rt=cfg["units_across"],cfg["units_high"],cfg["runner_mm"]
+    hx,upper,low,_=joints.dimensions(p)
+    # Group fasteners by grid vertex, producing one plate at each shared junction.
+    strips = []
+    vertices = {}
+    units = []
+    for row in range(ny):
+        for col in range(nx):
+            cx = (col - (nx - 1) / 2) * w
+            cy = (row - (ny - 1) / 2) * (h + rt)
+            units.append((cx, cy))
+            for sx in (-1, 1):
+                for down, local_y in enumerate((upper, low)):
+                    vertex = (col + int(sx > 0), row + down)
+                    vertices.setdefault(vertex, []).append((cx + sx * hx, cy + local_y))
+            if row < ny - 1:
+                for aperture in (-1, 1):
+                    for offset in (-20.5, 20.5):
+                        strips.append(pose(cx + aperture*q["pitch_x"]/2 + offset - cfg["runner_width_mm"]/2,
+                                          cy+h/2,0))
+    return units, vertices, strips
+
 def plan(record, host):
     cfg = record["cabinet"]
     p = cad.frame_parameters(**host)
@@ -95,31 +120,11 @@ def plan(record, host):
                     add("wood_30", axis @ pose(z=t, rotation=(180, 0, 0)), "metal", side * 15, sign * 150)
                 else:
                     add("dowel", axis @ pose(z=-16.5), "dowel", side * 40, sign * 52)
-    # Group fasteners by grid vertex, producing one plate at each shared junction.
-    vertices = {}
-    units = []
-    for row in range(ny):
-        for col in range(nx):
-            cx = (col - (nx - 1) / 2) * w
-            cy = (row - (ny - 1) / 2) * (h + rt)
-            units.append((cx, cy))
-            add("array_unit", pose(cx, cy), "frame")
-            for sx in (-1, 1):
-                for down, local_y in enumerate((upper, low)):
-                    vertex = (col + int(sx > 0), row + down)
-                    vertices.setdefault(vertex, []).append((cx + sx * hx, cy + local_y))
-            if row < ny - 1:
-                for aperture in (-1, 1):
-                    for offset in (-20.5, 20.5):
-                        add(
-                            "floor_strip",
-                            pose(
-                                cx + aperture * q["pitch_x"] / 2 + offset - cfg["runner_width_mm"] / 2,
-                                cy + h / 2,
-                                0,
-                            ),
-                            "aluminium",
-                        )
+    units, vertices, strips = array_grid(cfg,p)
+    for x,y in units:
+        add("array_unit",pose(x,y),"frame")
+    for mat in strips:
+        add("floor_strip",mat,"aluminium")
     for (vx, vy), points in vertices.items():
         anchor = np.array(points[0])
         local = np.round(np.array(points) - anchor, 5)
@@ -320,6 +325,12 @@ def validate(folder, parts, units, params, p, host):
                             if (sight ^ obj).volume() > .01:
                                 raise ValueError(f"Location sticker covered at {ux},{uy}, row {row+1}, side {side}")
                     label_count += 1
+    if not sides:
+        save_json(folder / "validation.json", dict(units=len(units), open_pots=pot_count,
+                  unobstructed_location_labels=label_count, mesh_pairs_checked=checked,
+                  withdrawal_paths_checked=pot_count, withdrawal_candidate_pairs=swept_checks,
+                  m3_thread_beyond_nut_mm=round(beyond, 3), allowed_intersection_mm3=0.025))
+        return
     lateral = {}
     for name in ("side", "cap", "array_unit"):
         bb = np.array([obj.bounding_box() for key, obj in objects if key == name])
@@ -474,7 +485,7 @@ Nine double-sided V8 frames make a six-column, twenty-one-row cabinet on each fa
 
 ![Stocked plywood cabinet](presentation.jpg)
 
-[Editable assembly](assembled.scad) · [Stocked CAD](stocked.scad) · [Exploded CAD](exploded.scad) · [2 × 7 frame files](../{record_id(host)}/README.md)
+[Complete editable print kit](working.3mf) · [Plate contents](print-plates.json) · [Editable assembly](assembled.scad) · [Stocked CAD](stocked.scad) · [Exploded CAD](exploded.scad) · [2 × 7 frame files](../{record_id(host)}/README.md)
 
 ## Cut and drill
 
@@ -565,26 +576,37 @@ def finish(folder, record, host, p, pa, defs, patterns, parts, units, export, *,
 
 
 def build(folder, record, host, export):
-    from v8_manufacturing import write_solid
-
     p, pa, defs, patterns, parts, units = plan(record, host)
     component_files(folder, folder.parent / record_id(host), pa, defs, export, host, p)
+    beam_hardware(folder, p, export)
+    finish(folder, record, host, p, pa, defs, patterns, parts, units, export)
+
+
+def beam_hardware(folder, p, export):
+    from v8_manufacturing import write_solid
     import oobb
     for kind in ("screw", "nut"):
         part = oobb.get_default_thing(type="beam_hardware_reference")
         cad.draw_hardware(part, dict(p, corner_fixing={"screw_length":p["screw"]["length"]}), kind)
         write_solid(folder, "beam_"+kind, part, export, mode="true")
-    finish(folder, record, host, p, pa, defs, patterns, parts, units, export)
 
 
 def rebuild(root, record, records):
-    host = next(v for v in records if v["variant"] == record["cabinet"]["host"])
+    role = record["part_role"]
+    build_assembly = build
+    if role == "array":
+        from v8_array import build as build_assembly
+    host = next(v for v in records if v["variant"] == record[role]["host"])
     folder = root / "parts" / record_id(record)
-    with TemporaryDirectory(prefix=".cabinet-", dir=folder.parent) as tmp:
-        stage = Path(tmp)
-        build(stage, record, host, True)
+    with TemporaryDirectory(prefix=".assembly-", dir=folder.parent) as tmp:
+        from presentation.print_kit import generate, validate_slice
         from v8_manufacturing import publish
-        publish(stage,folder)
+
+        stage = Path(tmp)
+        build_assembly(stage, record, host, True)
+        generate(stage, record)
+        validate_slice(stage)
+        publish(stage, folder)
     from presentation.catalogue import write_index
 
     write_index(root, [r for r in records if (root / "parts" / record_id(r) / "README.md").is_file()])

@@ -8,13 +8,13 @@ Print flat with the guide cheeks facing up. Remove the individual adapters and s
 
 | Part | Applications | Editable CAD |
 | --- | --- | --- |
-| [edge_across](edge_across.stl) | 1x1 flush, 2x2 flush, 2x7 flush, 2x7 with 2 mm tier gap | [SCAD](edge_across.scad) |
-| [edge_upright_41p5](edge_upright_41p5.stl) | 1x1 flush, 2x2 flush | [SCAD](edge_upright_41p5.scad) |
-| [tee4_41p5](tee4_41p5.stl) | 1x1 flush, 2x2 flush | [SCAD](tee4_41p5.scad) |
-| [edge_upright_32p5](edge_upright_32p5.stl) | 2x7 flush | [SCAD](edge_upright_32p5.scad) |
-| [tee4_32p5](tee4_32p5.stl) | 2x7 flush | [SCAD](tee4_32p5.scad) |
-| [edge_upright_34p5](edge_upright_34p5.stl) | 2x7 with 2 mm tier gap | [SCAD](edge_upright_34p5.scad) |
-| [tee4_34p5](tee4_34p5.stl) | 2x7 with 2 mm tier gap | [SCAD](tee4_34p5.scad) |
+| <img src="edge_across.jpg" width="120" alt="edge_across"> [edge_across](edge_across.stl) | 1x1 flush, 2x2 flush, 2x7 flush, 2x7 with 2 mm tier gap | [SCAD](edge_across.scad) |
+| <img src="edge_upright_41p5.jpg" width="120" alt="edge_upright_41p5"> [edge_upright_41p5](edge_upright_41p5.stl) | 1x1 flush, 2x2 flush | [SCAD](edge_upright_41p5.scad) |
+| <img src="tee4_41p5.jpg" width="120" alt="tee4_41p5"> [tee4_41p5](tee4_41p5.stl) | 1x1 flush, 2x2 flush | [SCAD](tee4_41p5.scad) |
+| <img src="edge_upright_32p5.jpg" width="120" alt="edge_upright_32p5"> [edge_upright_32p5](edge_upright_32p5.stl) | 2x7 flush | [SCAD](edge_upright_32p5.scad) |
+| <img src="tee4_32p5.jpg" width="120" alt="tee4_32p5"> [tee4_32p5](tee4_32p5.stl) | 2x7 flush | [SCAD](tee4_32p5.scad) |
+| <img src="edge_upright_34p5.jpg" width="120" alt="edge_upright_34p5"> [edge_upright_34p5](edge_upright_34p5.stl) | 2x7 with 2 mm tier gap | [SCAD](edge_upright_34p5.scad) |
+| <img src="tee4_34p5.jpg" width="120" alt="tee4_34p5"> [tee4_34p5](tee4_34p5.stl) | 2x7 with 2 mm tier gap | [SCAD](tee4_34p5.scad) |
 
 ![Joint fitted to the screw beam](installed.png)
 
@@ -23,3 +23,5 @@ Print flat with the guide cheeks facing up. Remove the individual adapters and s
 ![Printed bracket with its receiver guides](presentation.png)
 
 [CAD fit checks](validation.json)
+
+[Editable print kit for Bambu Studio](working.3mf) · [Plate contents](print-plates.json)

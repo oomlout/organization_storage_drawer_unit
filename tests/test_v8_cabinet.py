@@ -7,6 +7,17 @@ from working_oomp_populate import CABINET, selected_options
 
 
 class CabinetTest(unittest.TestCase):
+    def test_bare_array_fittings_cover_both_faces(self):
+        from v8_array import plan as array_plan
+        from working_oomp_populate import ARRAY
+        host, array = selected_options(ARRAY)
+        self.assertEqual(host["variant"], "2x7")
+        _, _, _, pieces, units = array_plan(array, host)
+        self.assertEqual(len(units), 9)
+        self.assertEqual(Counter(p.name for p in pieces), dict(array_unit=9, floor_strip=24,
+                         screw_adapter=8, edge_across=8, edge_upright=8, tee4=8,
+                         beam_screw=72, beam_nut=72))
+
     def test_corner_hardware_and_sheet_dimensions(self):
         host, cabinet = selected_options(CABINET)
         self.assertEqual(host["variant"], "2x7")

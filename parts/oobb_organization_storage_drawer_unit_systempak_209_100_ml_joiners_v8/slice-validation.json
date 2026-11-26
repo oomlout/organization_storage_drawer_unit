@@ -1,0 +1,9 @@
+{
+  "project_sha256": "dffbf61744fc99731f5be519a080badd978cb6f8769bbe347a77d32cabcb5df5",
+  "sliced_plates": 1,
+  "sliced_objects": 7,
+  "checked_filament_slots": [
+    3
+  ],
+  "warnings": {}
+}

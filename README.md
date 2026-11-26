@@ -22,38 +22,32 @@ Each slot has a permanent XY address. Each pot has a separate contents label. Sc
 | --- | --- | --- | --- |
 | [<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/assembly-step-1.jpg" width="165" alt="Nut pocket">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md#assembly) | [<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/assembly-step-2.jpg" width="165" alt="Front and rails">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md#assembly) | [<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/assembly-step-3.jpg" width="165" alt="Rear face">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md#assembly) | [<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/assembly-step-4.jpg" width="165" alt="Outside fixings">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md#assembly) |
 
-## Current version · V8
+## Drawer frames and assemblies
+
+[![Nine joined frames](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2x7_array_3_by_3_v8/presentation.jpg)](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2x7_array_3_by_3_v8/README.md)
+
+[Bare 3 × 3 array](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2x7_array_3_by_3_v8/README.md) · [Complete array print kit](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2x7_array_3_by_3_v8/working.3mf)
 
 [![Nine-unit plywood cabinet](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2x7_array_3_by_3_plywood_cabinet_v8/presentation.jpg)](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2x7_array_3_by_3_plywood_cabinet_v8/README.md)
 
-[3 × 3 cabinet of 2 × 7 units · cut list, drilling and assembly](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2x7_array_3_by_3_plywood_cabinet_v8/README.md)
+[3 × 3 cabinet of 2 × 7 units · cut list, drilling and assembly](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2x7_array_3_by_3_plywood_cabinet_v8/README.md) · [Cabinet print kit](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2x7_array_3_by_3_plywood_cabinet_v8/working.3mf)
 
 ### Systempak 209 · 100 ml
 
 | Build | Grid per face | Pots | Assembly | Print kit |
 | --- | --- | ---: | --- | --- |
-| [<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/presentation.jpg" width="150" alt="1 × 1 drawer unit">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/README.md) | [1 × 1 drawer unit](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/README.md) | 2 | [Illustrated guide](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/assembly.pdf) | [Print list](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/printing.txt) |
-| [<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/presentation.jpg" width="150" alt="2 × 2 drawer unit">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/README.md) | [2 × 2 drawer unit](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/README.md) | 8 | [Illustrated guide](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/assembly.pdf) | [Print list](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/printing.txt) |
-| [<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/presentation.jpg" width="150" alt="2 × 7 drawer unit">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md) | [2 × 7 drawer unit](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md) | 28 | [Illustrated guide](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/assembly.pdf) | [Print list](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/printing.txt) |
+| [<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/presentation.jpg" width="150" alt="1 × 1 drawer unit">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/README.md) | [1 × 1 drawer unit](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/README.md) | 2 | [Illustrated guide](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/assembly.pdf) | [Editable 3MF](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_1_column_1_row_v8/working.3mf) |
+| [<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/presentation.jpg" width="150" alt="2 × 2 drawer unit">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/README.md) | [2 × 2 drawer unit](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/README.md) | 8 | [Illustrated guide](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/assembly.pdf) | [Editable 3MF](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_2_row_v8/working.3mf) |
+| [<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/presentation.jpg" width="150" alt="2 × 7 drawer unit">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md) | [2 × 7 drawer unit](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md) | 28 | [Illustrated guide](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/assembly.pdf) | [Editable 3MF](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/working.3mf) |
 
-**[Corner screw-beam joining brackets](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8/README.md)** · [Print and installation instructions](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8/README.md)
+[<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8/presentation.png" width="250" alt="Corner screw-beam joining brackets">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8/README.md)
 
-**[Corner screw-beam to plywood joint](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_plywood_joint_v8/README.md)** · [Print and installation instructions](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_plywood_joint_v8/README.md)
+**[Corner screw-beam joining brackets](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8/README.md)** · [Editable 3MF](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_joiners_v8/working.3mf)
 
-## Design versions
+[<img src="parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_plywood_joint_v8/presentation.png" width="250" alt="Corner screw-beam to plywood joint">](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_plywood_joint_v8/README.md)
 
-[Browse the archived source and manufacturing records](https://github.com/oomlout/organization_storage_drawer_unit/tree/main/history).
+**[Corner screw-beam to plywood joint](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_plywood_joint_v8/README.md)** · [Editable 3MF](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_plywood_joint_v8/working.3mf)
 
-| Version | Design notes |
-| --- | --- |
-| [V8](parts/oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md) | Current frame catalogue and assembly guides |
-| [V7](https://github.com/oomlout/organization_storage_drawer_unit/blob/main/history/AI_VERSION_7.md) | Through-panel clips and interchangeable beams |
-| [V6](https://github.com/oomlout/organization_storage_drawer_unit/blob/main/history/AI_VERSION_6_DOUBLE_SIDED.md) | Double-sided plywood enclosure |
-| [V5](https://github.com/oomlout/organization_storage_drawer_unit/blob/main/history/AI_VERSION_5_TILED.md) | Tiled PETG frames |
-| [V4](https://github.com/oomlout/organization_storage_drawer_unit/blob/main/history/AI_VERSION_4.md) | Modular drawer units |
-| [V3](https://github.com/oomlout/organization_storage_drawer_unit/blob/main/history/AI_VERSION_3.md) | Revised lower supports |
-| [V2](https://github.com/oomlout/organization_storage_drawer_unit/blob/main/history/AI_VERSION_2.md) | Interlocking junctions |
-| [V1](https://github.com/oomlout/organization_storage_drawer_unit/blob/main/history/AI_VERSION_1.md) | First locked frame |
 
 ## Suggest a tray
 

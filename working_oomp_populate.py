@@ -25,18 +25,9 @@ PLYWOOD_JOINT = "plywood-joint"
 JOINT_PLATE_MM = 3.0
 JOINER_REFERENCE = "2x2"
 CABINET = "cabinet-3x3"
-CABINET_DESIGN = dict(host="2x7", units_across=3, units_high=3, plywood_mm=12,
-                      cap_overhang_mm=0, side_gap_mm=0, top_gap_mm=0.6,
-                      runner_mm=2, runner_width_mm=15)
-VERSIONS = [
-    ("V1", "First locked frame", "AI_VERSION_1.md"),
-    ("V2", "Interlocking junctions", "AI_VERSION_2.md"),
-    ("V3", "Revised lower supports", "AI_VERSION_3.md"),
-    ("V4", "Modular drawer units", "AI_VERSION_4.md"),
-    ("V5", "Tiled PETG frames", "AI_VERSION_5_TILED.md"),
-    ("V6", "Double-sided plywood enclosure", "AI_VERSION_6_DOUBLE_SIDED.md"),
-    ("V7", "Through-panel clips and interchangeable beams", "AI_VERSION_7.md"),
-]
+ARRAY = "array-3x3"
+ARRAY_DESIGN = dict(host="2x7", units_across=3, units_high=3, runner_mm=2, runner_width_mm=15)
+CABINET_DESIGN = dict(ARRAY_DESIGN, plywood_mm=12, cap_overhang_mm=0, side_gap_mm=0, top_gap_mm=0.6)
 
 
 def get_current_options():
@@ -67,7 +58,7 @@ def get_current_options():
             if family == "systempak_209_100_ml":
                 hosts.append(variant)
             parts.append(frame)
-    selectors = [p["variant"] for p in parts] + [JOINER, PLYWOOD_JOINT, CABINET]
+    selectors = [p["variant"] for p in parts] + [JOINER, PLYWOOD_JOINT, ARRAY, CABINET]
     if len(set(selectors)) != len(selectors) or len({record_id(p) for p in parts}) != len(parts):
         raise ValueError("Each layout needs a unique selector and a unique catalogue ID")
     ref = next(p for p in parts if p["variant"] == JOINER_REFERENCE)
@@ -79,6 +70,9 @@ def get_current_options():
                           taxonomy_6=taxonomy, taxonomy_7="v8", product_name=name,
                           reference_frame=JOINER_REFERENCE, compatible_frames=list(hosts)))
     host = next(p for p in parts if p["variant"] == CABINET_DESIGN["host"])
+    parts.append(dict(common, part_role="array", variant=ARRAY, taxonomy_5=host["taxonomy_5"],
+                      taxonomy_6="2x7_array", taxonomy_7="3_by_3", taxonomy_8="v8",
+                      product_name="Three by three drawer array", array=deepcopy(ARRAY_DESIGN)))
     parts.append(dict(common, part_role="cabinet", variant=CABINET, taxonomy_5=host["taxonomy_5"],
                       taxonomy_6="2x7_array", taxonomy_7="3_by_3_plywood_cabinet", taxonomy_8="v8",
                       product_name="Three by three 2x7 drawer cabinet", cabinet=deepcopy(CABINET_DESIGN)))
@@ -94,6 +88,8 @@ def selected_options(part=None):
     wanted = {part}
     if part in (JOINER, PLYWOOD_JOINT):
         wanted.update(next(o["compatible_frames"] for o in options if o["variant"] == JOINER))
+    if part == ARRAY:
+        wanted.add(ARRAY_DESIGN["host"])
     if part == CABINET:
         wanted.add(CABINET_DESIGN["host"])
     return [o for o in options if o["variant"] in wanted]

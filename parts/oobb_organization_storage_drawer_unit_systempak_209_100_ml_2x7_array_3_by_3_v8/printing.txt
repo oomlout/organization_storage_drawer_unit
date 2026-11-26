@@ -1,0 +1,1 @@
+Print working.3mf once for the full array. Per-plate quantities are in print-plates.json.

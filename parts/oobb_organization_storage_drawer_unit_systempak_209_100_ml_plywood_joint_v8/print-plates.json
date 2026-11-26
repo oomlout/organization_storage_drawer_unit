@@ -1,0 +1,17 @@
+{
+  "template_sha256": "2dbe41cec9ed16e34dbe2c74a136f2b2d7bc7ec4a4ba0353d2cfd04c581c8d9e",
+  "object_count": 4,
+  "plates": [
+    {
+      "plate": 1,
+      "colour": "Yellow",
+      "filament_slot": 3,
+      "pieces": {
+        "plywood_double_41p5": 1,
+        "plywood_double_34p5": 1,
+        "plywood_double_32p5": 1,
+        "plywood_joint": 1
+      }
+    }
+  ]
+}

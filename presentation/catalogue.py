@@ -3,7 +3,7 @@
 import json
 from urllib.parse import urlencode
 
-from working_oomp_populate import VERSIONS, get_current_options, record_id
+from working_oomp_populate import get_current_options, record_id
 
 REPO = "https://github.com/oomlout/organization_storage_drawer_unit"
 RAW = "https://raw.githubusercontent.com/oomlout/organization_storage_drawer_unit/main"
@@ -145,7 +145,7 @@ def write_part(folder, record, meta, steps, items):
         "",
         f"![{'Frame with removable pots' if frame else 'Installed four-way joiner'}](presentation.jpg)",
         "",
-        "[Printing instructions](printing.txt) · [Assembly data](assembly.json)",
+        "[Editable Bambu Studio kit](working.3mf) · [Printing instructions](printing.txt) · [Assembly data](assembly.json)",
         "",
         manual_links(record),
         "",
@@ -275,7 +275,7 @@ def write_index(root, records):
         )
         + " |",
         "",
-        "## Current version · V8",
+        "## Drawer frames and assemblies",
         "",
     ]
     if (root / base(hero) / "stocked-front.jpg").is_file():
@@ -286,9 +286,13 @@ def write_index(root, records):
             "Each slot has a permanent XY address. Each pot has a separate contents label. Scan either QR code or read the printed identifier.",
             "",
         ]
+    for array in (r for r in records if r["part_role"] == "array"):
+        path=base(array)
+        lines += [f"[![Nine joined frames]({path}/presentation.jpg)]({path}/README.md)", "",
+                  f"[Bare 3 × 3 array]({path}/README.md) · [Complete array print kit]({path}/working.3mf)", ""]
     for cabinet in (r for r in records if r["part_role"] == "cabinet"):
         path=base(cabinet)
-        lines += [f"[![Nine-unit plywood cabinet]({path}/presentation.jpg)]({path}/README.md)", "", f"[3 × 3 cabinet of 2 × 7 units · cut list, drilling and assembly]({path}/README.md)", ""]
+        lines += [f"[![Nine-unit plywood cabinet]({path}/presentation.jpg)]({path}/README.md)", "", f"[3 × 3 cabinet of 2 × 7 units · cut list, drilling and assembly]({path}/README.md) · [Cabinet print kit]({path}/working.3mf)", ""]
     for family in dict.fromkeys(r["taxonomy_5"] for r in frames):
         group = [r for r in frames if r["taxonomy_5"] == family]
         lines += [
@@ -300,26 +304,16 @@ def write_index(root, records):
         for r in group:
             path = base(r)
             lines.append(
-                f'| [<img src="{path}/presentation.jpg" width="150" alt="{title(r)}">]({path}/README.md) | [{title(r)}]({path}/README.md) | {r["drawer_count"]} | [Illustrated guide]({viewer_link(r,base(r)+"/")}) | [Print list]({path}/printing.txt) |'
+                f'| [<img src="{path}/presentation.jpg" width="150" alt="{title(r)}">]({path}/README.md) | [{title(r)}]({path}/README.md) | {r["drawer_count"]} | [Illustrated guide]({viewer_link(r,base(r)+"/")}) | [Editable 3MF]({path}/working.3mf) |'
             )
         lines.append("")
     for r in records:
         if r["part_role"] == "accessory":
             lines += [
-                f'**[{r["product_name"]}]({base(r)}/README.md)** · [Print and installation instructions]({base(r)}/README.md)',
+                f'[<img src="{base(r)}/presentation.png" width="250" alt="{r["product_name"]}">]({base(r)}/README.md)', "",
+                f'**[{r["product_name"]}]({base(r)}/README.md)** · [Editable 3MF]({base(r)}/working.3mf)',
                 "",
             ]
-    lines += [
-        "## Design versions",
-        "",
-        f"[Browse the archived source and manufacturing records]({REPO}/tree/main/history).",
-        "",
-        "| Version | Design notes |",
-        "| --- | --- |",
-        f"| [V8]({base(hero)}/README.md) | Current frame catalogue and assembly guides |",
-    ]
-    for ver, description, file in reversed(VERSIONS):
-        lines.append(f"| [{ver}]({REPO}/blob/main/history/{file}) | {description} |")
     suggestion = (
         REPO
         + "/issues/new?"

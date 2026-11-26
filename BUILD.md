@@ -33,13 +33,20 @@ python -m unittest discover -s tests
 
 | Command | Output |
 | --- | --- |
-| `python action_make_all.py` | Three frames, both joint types and the plywood cabinet, with meshes, laser drawings, part READMEs, studio views, assembly booklets and loose print files |
+| `python action_make_all.py` | Three frames, both joint types, the bare array and the plywood cabinet, with meshes, laser drawings, part READMEs, studio views, assembly booklets and loose print files |
 | `python action_make_all.py --part 1x1` | One frame. Substitute `2x2` or `2x7` to select another |
 | `python action_make_all.py --part joiners` | Joiner kit and all three compatible frame builds used as its fit fixtures |
+| `python action_make_all.py --part array-3x3` | Nine joined 2 × 7 frames, the complete colour-separated kit, assembly drawing, render and fit report |
 | `python action_make_all.py --output-dir ../drawer-v8-build` | Complete independent build in the specified directory |
 | `python action_make_all.py --no-stl --output-dir ../drawer-v8-cad` | Editable SCAD and laser DXFs. Use a separate directory for this source-only build |
 
 Each output root contains `parts_source` for populated definitions, `parts` for OOMP records and manufacturing files, and `navigation_oobb` for the taxonomy view. The web app’s **Run Generation** button calls the same make-all script.
+
+### Bambu Studio print kits
+
+Open `working.3mf` in a part folder as a project and print each plate once. The supplied P1S 0.4 mm setup has teal faceplates and screw beams, black snap beams and clip caps, and yellow adapters and joining plates. In the **Objects** tab, change a piece's filament assignment to use another spool. Each physical copy is independently selectable and its single child part inherits the object assignment.
+
+Make-all uses the retained OOBB P1S template in `source_file/default.3mf`. It checks the editable-object and plate bindings and slices every plate with the Bambu Studio CLI. Install Bambu Studio on the build machine. The generator looks for `bambu-studio` on PATH or the standard Windows installation. The part folder includes the plate inventory in `print-plates.json` and the slice results in `slice-validation.json`. Screws, nuts, aluminium runners, pots and plywood are listed separately for assembly.
 
 **Frame.** Open the part folder and read `printing.txt`. Print one handed front, one handed back and each listed batch once. The BOM and mount positions are in `assembly.json`. Beam mounts use M3 × 20 countersunk screws. The kit includes separate 6 mm laser-face and 3 mm reinforced trial DXFs. Cut the complete nested 3 mm drawing once per trial face. Individual spare STLs and editable SCAD sources are in each part folder.
 
@@ -70,7 +77,7 @@ Edit `TRAYS` in [working_oomp_populate.py](working_oomp_populate.py). A layout's
 
 For another tray size, add a family with its own stable taxonomy key. Supply the tray's display name, capacity in ml, full OOMP container ID, short name, dimensions and layouts. Use a different selector, such as `150ml-1x3`, if another family already uses the same grid. `across` is the rim width across the face opening, `height` is the working pot height and `depth` runs into the frame. All three are millimetres. The V8 geometry assumes the stepped lip and side-running support described in [v8_profile.yaml](v8_profile.yaml). A different rim profile needs its own mechanical fit check.
 
-Choose `top_braces` for the compact layout or `four_corner_replacements` for the multi-row plywood layout. Every Systempak 209 layout uses the corner screw-beam interface. One `"featured": True` layout supplies the landing-page example. Archived version links are maintained in the population file's `VERSIONS` table.
+Choose `top_braces` for the compact layout or `four_corner_replacements` for the multi-row plywood layout. Every Systempak 209 layout uses the corner screw-beam interface. One `"featured": True` layout supplies the landing-page example.
 
 Run `python action_make_all.py`. Population publishes the new records, the SCAD stage exports and validates the parts, and the presentation stage draws and documents each part for the size and hardware declared. The landing page groups completed builds by tray family. Use `--part SELECTOR` during development and a full build before publishing. Source-only builds skip presentation rendering.
 

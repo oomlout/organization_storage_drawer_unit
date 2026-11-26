@@ -1,0 +1,10 @@
+{
+  "units": 9,
+  "open_pots": 252,
+  "unobstructed_location_labels": 252,
+  "mesh_pairs_checked": 756,
+  "withdrawal_paths_checked": 252,
+  "withdrawal_candidate_pairs": 216,
+  "m3_thread_beyond_nut_mm": 1.55,
+  "allowed_intersection_mm3": 0.025
+}

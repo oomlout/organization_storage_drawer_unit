@@ -1,0 +1,20 @@
+{
+  "frame": "oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8",
+  "layout": {
+    "host": "2x7",
+    "units_across": 3,
+    "units_high": 3,
+    "runner_mm": 2,
+    "runner_width_mm": 15
+  },
+  "quantities": {
+    "array_unit": 9,
+    "floor_strip": 24,
+    "screw_adapter": 8,
+    "beam_screw": 72,
+    "beam_nut": 72,
+    "edge_upright": 8,
+    "edge_across": 8,
+    "tee4": 8
+  }
+}

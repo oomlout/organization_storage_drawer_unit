@@ -174,18 +174,25 @@ def generate(part=None,generate_stl=True):
             stage=Path(tmp)
             if record["part_role"]=="frame":
                 frame_outputs(stage,record,generate_stl,joiner_id)
+            elif record["part_role"]=="array":
+                from v8_array import build
+                build(stage,record,records[record["array"]["host"]],generate_stl)
             elif record["part_role"]=="cabinet":
                 from v8_cabinet import build
                 build(stage,record,records[record["cabinet"]["host"]],generate_stl)
             else:
                 from v8_beam_joints import build
                 build(stage,record,records,generate_stl)
+            if generate_stl:
+                from presentation.print_kit import generate as write_kit, validate_slice
+                write_kit(stage, record)
+                validate_slice(stage)
             publish(stage, folder)
             retire_previous_outputs(folder,record)
         nav=Path("navigation_oobb").joinpath(*(opt[f"taxonomy_{i}"] for i in range(1,9) if f"taxonomy_{i}" in opt))
         nav.mkdir(parents=True,exist_ok=True)
         retire_previous_outputs(nav,record)
-        if record["part_role"] in {"cabinet","accessory"}:
+        if record["part_role"] in {"cabinet","array","accessory"}:
             for legacy in ("printing.txt","validation.json","assembly.json"):
                 (nav/legacy).unlink(missing_ok=True)
             shutil.copyfile(folder/"working.yaml",nav/"working.yaml")
@@ -194,7 +201,7 @@ def generate(part=None,generate_stl=True):
             print(f"Built {folder}",flush=True)
             continue
         shutil.copytree(folder,nav,dirs_exist_ok=True,ignore=shutil.ignore_patterns(
-            "README.md","presentation.jpg","assembly-step-*.jpg","assembly.pdf","assembly.html","stocked-*.jpg","labels*.pdf","labels","label-map.json","pot-fit.json"))
+            "working.3mf","print-plates.json","slice-validation.json","README.md","presentation.jpg","assembly-step-*.jpg","assembly.pdf","assembly.html","stocked-*.jpg","labels*.pdf","labels","label-map.json","pot-fit.json"))
         print(f"Built {folder}",flush=True)
     if generate_stl:
         published = [r for r in get_current_options() if (Path("parts")/record_id(r)/"README.md").is_file()]

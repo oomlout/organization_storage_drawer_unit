@@ -1,0 +1,300 @@
+{
+  "template_sha256": "2dbe41cec9ed16e34dbe2c74a136f2b2d7bc7ec4a4ba0353d2cfd04c581c8d9e",
+  "object_count": 545,
+  "plates": [
+    {
+      "plate": 1,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "back": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 2,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "back": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 3,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "back": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 4,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "back": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 5,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "back": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 6,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "back": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 7,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "back": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 8,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "back": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 9,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "back": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 10,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "front": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 11,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "front": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 12,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "front": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 13,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "front": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 14,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "front": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 15,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "front": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 16,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "front": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 17,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "front": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 18,
+      "colour": "Teal",
+      "filament_slot": 2,
+      "pieces": {
+        "front": 1,
+        "screw_beam": 2
+      }
+    },
+    {
+      "plate": 19,
+      "colour": "Black",
+      "filament_slot": 1,
+      "pieces": {
+        "snap_beam": 11,
+        "front_plug_square": 34
+      }
+    },
+    {
+      "plate": 20,
+      "colour": "Black",
+      "filament_slot": 1,
+      "pieces": {
+        "snap_beam": 11,
+        "front_plug_square": 34
+      }
+    },
+    {
+      "plate": 21,
+      "colour": "Black",
+      "filament_slot": 1,
+      "pieces": {
+        "snap_beam": 11,
+        "front_plug_square": 34
+      }
+    },
+    {
+      "plate": 22,
+      "colour": "Black",
+      "filament_slot": 1,
+      "pieces": {
+        "snap_beam": 11,
+        "front_plug_square": 34
+      }
+    },
+    {
+      "plate": 23,
+      "colour": "Black",
+      "filament_slot": 1,
+      "pieces": {
+        "snap_beam": 11,
+        "front_plug_square": 34
+      }
+    },
+    {
+      "plate": 24,
+      "colour": "Black",
+      "filament_slot": 1,
+      "pieces": {
+        "snap_beam": 11,
+        "front_plug_square": 34
+      }
+    },
+    {
+      "plate": 25,
+      "colour": "Black",
+      "filament_slot": 1,
+      "pieces": {
+        "snap_beam": 11,
+        "front_plug_square": 34
+      }
+    },
+    {
+      "plate": 26,
+      "colour": "Black",
+      "filament_slot": 1,
+      "pieces": {
+        "snap_beam": 11,
+        "front_plug_square": 34
+      }
+    },
+    {
+      "plate": 27,
+      "colour": "Black",
+      "filament_slot": 1,
+      "pieces": {
+        "snap_beam": 11,
+        "front_plug_square": 34
+      }
+    },
+    {
+      "plate": 28,
+      "colour": "Black",
+      "filament_slot": 1,
+      "pieces": {
+        "snap_beam": 11
+      }
+    },
+    {
+      "plate": 29,
+      "colour": "Black",
+      "filament_slot": 1,
+      "pieces": {
+        "snap_beam": 11
+      }
+    },
+    {
+      "plate": 30,
+      "colour": "Black",
+      "filament_slot": 1,
+      "pieces": {
+        "snap_beam": 11
+      }
+    },
+    {
+      "plate": 31,
+      "colour": "Black",
+      "filament_slot": 1,
+      "pieces": {
+        "snap_beam": 11
+      }
+    },
+    {
+      "plate": 32,
+      "colour": "Black",
+      "filament_slot": 1,
+      "pieces": {
+        "snap_beam": 10
+      }
+    },
+    {
+      "plate": 33,
+      "colour": "Yellow",
+      "filament_slot": 3,
+      "pieces": {
+        "tee4": 8,
+        "edge_upright": 8,
+        "edge_across": 8,
+        "screw_adapter": 8
+      }
+    }
+  ]
+}

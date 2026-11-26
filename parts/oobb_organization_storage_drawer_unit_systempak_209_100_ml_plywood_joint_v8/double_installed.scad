@@ -3,7 +3,7 @@ color("teal") import("double_detail_face.stl");
 color("darkslategray") import("double_detail_rail.stl");
 color("silver") import("double_detail_hardware.stl");
 color("orange") import("double_detail_bracket.stl");
-color("burlywood") difference() {translate([9.6,-14,0]) cube([12,69.5,27]); translate([15.6,20.75,-.05]) cylinder(d=2.5,h=16.05,$fn=48);}
+color("burlywood") difference() {translate([9.6,-14,0]) cube([12,69.5,27]); translate([15.6,20.75,-.05]) cylinder(d=2.5,h=16.05,$fn=64);}
 color("silver") translate([15.6,20.75,-3.0]) wood_screw(16);
 }
 

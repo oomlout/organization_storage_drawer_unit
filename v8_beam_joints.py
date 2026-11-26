@@ -244,19 +244,14 @@ def build(folder, record, frames, export):
     ]
     for stem in shapes:
         link = f"[{stem}]({stem}.stl)" if export else stem
+        if export:
+            link = f'<img src="{stem}.jpg" width="120" alt="{stem}"> {link}'
         lines.append(f"| {link} | {', '.join(use[stem])} | [SCAD]({stem}.scad) |")
     if export:
-        hero = next(iter(shapes)) if ply else next(s for s in shapes if s.startswith("tee4"))
-        openscad(
-            folder / (hero + ".scad"),
-            folder / "presentation.png",
-            "--render",
-            "--viewall",
-            "--autocenter",
-            "--imgsize=850,550",
-            "--projection=o",
-            "--camera=50,-70,85,0,0,0",
-        )
+        from presentation.joint_studio import render_joints
+        _,top,bottom,_ = dimensions(p)
+        ref_pitch = f"{p['frame']['height_total']+top-bottom:g}".replace(".","p")
+        render_joints(folder,shapes,JOINT_PLATE_MM,ref_pitch)
         lines += [
             "",
             "![Joint fitted to the screw beam](installed.png)",
@@ -267,6 +262,8 @@ def build(folder, record, frames, export):
             "",
             "[CAD fit checks](validation.json)",
         ]
+    if export:
+        lines += ["","[Editable print kit for Bambu Studio](working.3mf) · [Plate contents](print-plates.json)"]
     if ply:
         lines += [
             "",

@@ -4,7 +4,7 @@ Nine double-sided V8 frames make a six-column, twenty-one-row cabinet on each fa
 
 ![Stocked plywood cabinet](presentation.jpg)
 
-[Editable assembly](assembled.scad) · [Stocked CAD](stocked.scad) · [Exploded CAD](exploded.scad) · [2 × 7 frame files](../oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md)
+[Complete editable print kit](working.3mf) · [Plate contents](print-plates.json) · [Editable assembly](assembled.scad) · [Stocked CAD](stocked.scad) · [Exploded CAD](exploded.scad) · [2 × 7 frame files](../oobb_organization_storage_drawer_unit_systempak_209_100_ml_2_column_7_row_v8/README.md)
 
 ## Cut and drill
 

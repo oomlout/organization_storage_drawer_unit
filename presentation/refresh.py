@@ -19,10 +19,11 @@ def main():
     root = args.output_dir.resolve()
     records = get_current_options()
     for opt in records:
-        if opt["part_role"] == "cabinet":
+        role = opt["part_role"]
+        if role in ("cabinet", "array"):
             if args.part == opt["variant"]:
                 from v8_cabinet import rebuild
-                rebuild(root,opt,records)
+                rebuild(root, opt, records)
             continue
         if args.part and opt["variant"] != args.part:
             continue
@@ -35,7 +36,10 @@ def main():
         meta = json.loads((folder / "assembly.json").read_text(encoding="utf-8"))
         if opt["part_role"] == "accessory":
             from v8_beam_joints import build
+            from .print_kit import generate, validate_slice
             build(folder,opt,{r["variant"]:r for r in records},True)
+            generate(folder, opt)
+            validate_slice(folder)
         else:
             scenes.render(folder, cad.frame_parameters(**opt), opt, meta, images=args.render)
     published = [r for r in records if (root / "parts" / record_id(r) / "README.md").is_file()]

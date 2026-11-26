@@ -1,0 +1,46 @@
+array:
+  host: 2x7
+  runner_mm: 2
+  runner_width_mm: 15
+  units_across: 3
+  units_high: 3
+oobb_details:
+  array:
+    host: 2x7
+    runner_mm: 2
+    runner_width_mm: 15
+    units_across: 3
+    units_high: 3
+  part_role: array
+  product_name: Three by three drawer array
+  style: ai_version_8
+  taxonomy_1: oobb
+  taxonomy_2: organization
+  taxonomy_3: storage
+  taxonomy_4: drawer_unit
+  taxonomy_5: systempak_209_100_ml
+  taxonomy_6: 2x7_array
+  taxonomy_7: 3_by_3
+  taxonomy_8: v8
+  variant: array-3x3
+  version: 8
+part_role: array
+product_name: Three by three drawer array
+style: ai_version_8
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: organization
+taxonomy_3: storage
+taxonomy_4: drawer_unit
+taxonomy_5: systempak_209_100_ml
+taxonomy_6: 2x7_array
+taxonomy_7: 3_by_3
+taxonomy_8: v8
+taxonomy_9: ''
+variant: array-3x3
+version: 8
